@@ -1,6 +1,6 @@
 # 候选算法与后续比较配置
 
-状态：调研后的实现规格，尚未实现或运行。2026-10-31 已补充 Zotero 核验、RSH/Neutron 参考对照和 SLAWS 配置；随后完成用户新提供的 AFH/BlockSmith 全文补读，见 [最新补读结论](fulltext-afh-blocksmith-20261031/report.md)。参数是供统一比较使用的起始建议，需在正式批次前固定；不表示已按矩阵调优或验证最优。
+状态：调研后的实现规格，尚未实现或运行。2026-10-31 已补充 Zotero 核验、RSH/Neutron 参考对照和 SLAWS 配置；随后完成用户新提供的 AFH/BlockSmith 全文补读，见 [最新补读结论](../fulltext-afh-blocksmith-20261031/report.md)。参数是供统一比较使用的起始建议，需在正式批次前固定；不表示已按矩阵调优或验证最优。
 
 ## 1. 候选集
 
@@ -121,7 +121,7 @@ $$
 
 ## 5. C3：BlockSmith 式特征宽度与在线聚类
 
-**来源。** 用户提供的匹配正式全文已读：[BlockSmith](</Users/Zhuanz/Documents/uuremote/BlockSmith.pdf>) §4、式1–3、算法1、PDF pp.6–11；另核对[聚类实现](https://github.com/CGCL-codes/BlockSmith/blob/bf7348d0ba64b7b1eee8ac014a0ca4162b1d7717/preprocess/src/matrix_reorder_cuda.cu)、[后处理](https://github.com/CGCL-codes/BlockSmith/blob/bf7348d0ba64b7b1eee8ac014a0ca4162b1d7717/preprocess/src/matrix_reorder.cpp)。
+**来源。** 用户提供的匹配正式全文已读：BlockSmith 原文（DOI: 10.1145/3828547） §4、式1–3、算法1、PDF pp.6–11；另核对[聚类实现](https://github.com/CGCL-codes/BlockSmith/blob/bf7348d0ba64b7b1eee8ac014a0ca4162b1d7717/preprocess/src/matrix_reorder_cuda.cu)、[后处理](https://github.com/CGCL-codes/BlockSmith/blob/bf7348d0ba64b7b1eee8ac014a0ca4162b1d7717/preprocess/src/matrix_reorder.cpp)。
 
 **完整流程。**
 
@@ -225,7 +225,7 @@ $$
 
 ## 11. C7：SLAWS 启发的交集收益贪心
 
-**来源。** SLAWS，ASPLOS 2026，§4.1–4.3、PDF pp.5–8，DOI [10.1145/3779212.3790222](https://doi.org/10.1145/3779212.3790222)。本轮实际核对的是 Zotero 本地全文，附件身份和哈希见 [资料清单](update-20261031/zotero-corpus.json)。
+**来源。** SLAWS，ASPLOS 2026，§4.1–4.3、PDF pp.5–8，DOI [10.1145/3779212.3790222](https://doi.org/10.1145/3779212.3790222)。本轮实际核对的是 Zotero 本地全文，附件身份和哈希见 资料清单（该文件未随仓库提供）。
 
 **完整流程。** 使用 C4 相同的 CSR、非空行顺序、种子、L=128 固定候选池、W 容量和尾行策略。唯一替换的是第 4 步评分：
 
@@ -245,7 +245,7 @@ $$
 
 ## 12. F-AFH：后续窗口内选列与块路由参考
 
-**来源。** 用户提供的 [AFH 正式全文](</Users/Zhuanz/Documents/uuremote/AFH-SpMM.pdf>)，§3.2–3.4、图1–3、算法1、PDF pp.4–6；评价边界见§4.3–4.4与表3。
+**来源。** 用户提供的 AFH-SpMM 原文（DOI: 10.1145/3832810.3832843），§3.2–3.4、图1–3、算法1、PDF pp.4–6；评价边界见§4.3–4.4与表3。
 
 原方法在固定16行窗口内建立列的16-bit行签名、覆盖行数和Row24冲突特征；先构造Dense候选，结合占用与余下稀疏路径费用决定是否接受，再按兼容性和原列位置局部性组织Row24。该流程改变窗口内列分块、格式和路径，不重新选择窗口行成员，因此不作为当前层独立行重排候选。
 

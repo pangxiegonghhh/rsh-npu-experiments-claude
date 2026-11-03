@@ -1,8 +1,8 @@
 # 文献与来源核验
 
-初版核验日期：2026-10-30；补充核验：2026-10-31。共登记 50 项：原 25 项、新增 23 项筛读/方法参考、另 2 项近期题名线索。按表中年份有 16 项 2026 工作，不代表均已取得算法全文。表中“正文”指实际核对了与本问题有关的章节，不表示逐页精读整篇论文；“代码”指阅读作者实现，不表示本轮已运行复现。仅取得摘要或材料的工作不作为忠实实现的充分依据。截图逐项判断见 [补充报告](update-20261031/report.md)。
+初版核验日期：2026-10-30；补充核验：2026-10-31。共登记 50 项：原 25 项、新增 23 项筛读/方法参考、另 2 项近期题名线索。按表中年份有 16 项 2026 工作，不代表均已取得算法全文。表中“正文”指实际核对了与本问题有关的章节，不表示逐页精读整篇论文；“代码”指阅读作者实现，不表示本轮已运行复现。仅取得摘要或材料的工作不作为忠实实现的充分依据。截图逐项判断见 补充报告（该文件未随仓库提供）。
 
-**最新来源更新：**AFH、BlockSmith 已由用户提供匹配正式全文，相关章节已补读，见 [全文核对](fulltext-afh-blocksmith-20261031/report.md) 与 [文件身份清单](fulltext-afh-blocksmith-20261031/sources.json)。不新增重复文献项，目录仍为50项。
+**最新来源更新：**AFH、BlockSmith 已由用户提供匹配正式全文，相关章节已补读，见 [全文核对](../fulltext-afh-blocksmith-20261031/report.md) 与 文件身份清单（该文件未随仓库提供）。不新增重复文献项，目录仍为50项。
 
 ## 1. 文献范围
 
@@ -42,7 +42,7 @@ Jaccard 在原始列支持集上计算；LSH 用于产生待比较的行对，�
 
 ### P05：BlockSmith
 
-论文把特征宽度选择、聚类容量与后处理放在同一预处理框架。用户提供的完整PDF已补读：式3按D=max(rows,cols)选择4/32/128；算法1是固定首行代表、按组大小优先的首次匹配逐行分配，并非迭代重分配直至收敛。论文阈值J>0.2，代码距离≤0.8对应J≥0.2；相等边界不同。当前工具在行数超过200000时返回跳过，自动宽度按rows决定。§4.3文字后处理与代码细则、项目共用P也有区别。§6.3强调预处理仍需摊销，§6.6表明内核优化可独立贡献收益；不能把整体加速全归于重排。工具记录的部分CUDA kernel时间不能直接用作完整预处理时间。[脚本](https://github.com/CGCL-codes/BlockSmith/blob/bf7348d0ba64b7b1eee8ac014a0ca4162b1d7717/scripts/run_preprocess.py)、[入口代码](https://github.com/CGCL-codes/BlockSmith/blob/bf7348d0ba64b7b1eee8ac014a0ca4162b1d7717/preprocess/tools/preprocess_main_cuda.cpp)、[最新全文补读](fulltext-afh-blocksmith-20261031/report.md)
+论文把特征宽度选择、聚类容量与后处理放在同一预处理框架。用户提供的完整PDF已补读：式3按D=max(rows,cols)选择4/32/128；算法1是固定首行代表、按组大小优先的首次匹配逐行分配，并非迭代重分配直至收敛。论文阈值J>0.2，代码距离≤0.8对应J≥0.2；相等边界不同。当前工具在行数超过200000时返回跳过，自动宽度按rows决定。§4.3文字后处理与代码细则、项目共用P也有区别。§6.3强调预处理仍需摊销，§6.6表明内核优化可独立贡献收益；不能把整体加速全归于重排。工具记录的部分CUDA kernel时间不能直接用作完整预处理时间。[脚本](https://github.com/CGCL-codes/BlockSmith/blob/bf7348d0ba64b7b1eee8ac014a0ca4162b1d7717/scripts/run_preprocess.py)、[入口代码](https://github.com/CGCL-codes/BlockSmith/blob/bf7348d0ba64b7b1eee8ac014a0ca4162b1d7717/preprocess/tools/preprocess_main_cuda.cpp)、[最新全文补读](../fulltext-afh-blocksmith-20261031/report.md)
 
 ### P06：Groot
 
@@ -69,7 +69,7 @@ Neutron 原文 §6.1 明确使用二部图和 Rabbit 的粗阶段，再在每个
 | HPMLL/DTC-SpMM_ASPLOS24 | `66eca266bde1f3faf5f8ef7a054db2391b50e27d` | reordering/TCA_reorder.py |
 | araij/rabbit_order | `f93776e9c1e1d4a8962ee56bc7ff0091e6fe12dd` | README、license.txt、demo/reorder.cc、rabbit_order.hpp 的聚合/顺序接口 |
 
-已保存的代码文本是阅读证据，见 [sources/manifest.json](sources/manifest.json)；本轮未编译或执行。Neutron 原文 TeX 的本地来源见 `docs/neutron-operand-path-20261028/sources/arxiv-v1/extracted/sec4-2.tex`。
+已保存的代码文本是阅读证据，见 sources/manifest.json（该文件未随仓库提供）；本轮未编译或执行。Neutron 原文 TeX 的本地来源见 `docs/neutron-operand-path-20261028/sources/arxiv-v1/extracted/sec4-2.tex`。
 
 Rabbit 作者仓库采用 evaluation license。后续内部评估应保留其作为原样外部依赖，不默认可修改或随项目再分发。其 demo 会对输入边自动对称化；二部图坐标边只提交一次，避免重复加权。[作者许可](https://github.com/araij/rabbit_order/blob/f93776e9c1e1d4a8962ee56bc7ff0091e6fe12dd/license.txt)、[图装载及排列接口](https://github.com/araij/rabbit_order/blob/f93776e9c1e1d4a8962ee56bc7ff0091e6fe12dd/demo/reorder.cc)
 
@@ -83,7 +83,7 @@ Rabbit 作者仓库采用 evaluation license。后续内部评估应保留其作
 
 ## 5. 2026-10-31 新增文献索引
 
-本地匹配全文筛读了摘要和设计概述，优先相关算法进一步核对正文。各项 PDF 路径、SHA-256、提取文本和条目年份见 [zotero-corpus.json](update-20261031/zotero-corpus.json)；原附件未拷贝或改写。该清单是索引，不能按条目总数宣称全部精读。
+本地匹配全文筛读了摘要和设计概述，优先相关算法进一步核对正文。各项 PDF 路径、SHA-256、提取文本和条目年份见 zotero-corpus.json（该文件未随仓库提供）；原附件未拷贝或改写。该清单是索引，不能按条目总数宣称全部精读。
 
 | ID | 工作与年份、来源 | 本轮证据与本项目用途 |
 |---|---|---|
