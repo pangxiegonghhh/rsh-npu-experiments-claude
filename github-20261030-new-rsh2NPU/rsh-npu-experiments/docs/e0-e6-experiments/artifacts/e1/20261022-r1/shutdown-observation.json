@@ -1,0 +1,9 @@
+{
+  "status": "OFF_CONFIRMED",
+  "instance": "BSMUOI9QAL6YDC4U",
+  "observed_at_beijing": "2026-10-22 15:46:26",
+  "cumulative_runtime": "2小时7分钟",
+  "switch": "off",
+  "screenshot": "instance-off.png",
+  "note": "observation time, not exact power-off time"
+}

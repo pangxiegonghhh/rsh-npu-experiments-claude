@@ -1,0 +1,15 @@
+{
+  "retry": "GPU_AVAILABLE_RETRY",
+  "instance_id": "BSMUOI9QAL6YDC4U",
+  "GPU_mode_started": true,
+  "device_experiments_run": false,
+  "remote_bytes": 5849507,
+  "remote_sha256": "db0dca9dd7811f7fae34ba569153bb0b84bfa55afe46eddaf2f13df8aa28e36f",
+  "remote_rehash": "PASS_UNCHANGED",
+  "download": "BLOCKED_BY_BROWSER_ORGANIZATION_POLICY",
+  "local_remote_archive_received": false,
+  "instance_state": "OFF",
+  "cumulative_runtime": "2h36m",
+  "observed_beijing": "2026-10-22 21:22",
+  "screenshot": "backup-retry-gpu-instance-off.png"
+}

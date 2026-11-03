@@ -1,0 +1,18 @@
+[
+  "kind",
+  "validk",
+  "offset",
+  "nnz",
+  "length",
+  "bitmap_popcount",
+  "index_duplicate",
+  "column_oob",
+  "column_duplicate",
+  "bad_config",
+  "nonfinite",
+  "A_tail",
+  "bitmap_tail",
+  "index_tail",
+  "empty_has_desc",
+  "B_pad"
+]

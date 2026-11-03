@@ -1,0 +1,23 @@
+{
+  "experiment": "E0-S4",
+  "window_widths": [
+    17,
+    37
+  ],
+  "variant": "V1",
+  "files_sha256": {
+    "ptr": "7b0d9f9b321bf4c029bb43799749f94bf4bbc9e4cf8f237691bcdeb48523654d",
+    "cols": "f79a5ae41cd59a1d06501b42f29c63fc0e9df6646913eb8652d7c35d5b7374f9",
+    "values": "b4e67d1466c0d4a2b537413838654c1724391a1864b9bc9f8065f91f09c165e0",
+    "cube_ptr": "f62528b597c4e65034ca22484fac4e85d699b226ef79fa8ce524182fd2332995",
+    "colref": "f1064b62bbf0807548b85f165aef47725f562c623c11dcdcfc08a188577075b5",
+    "tiles": "602f82e3beb0cc5cfac240f1df726d998591aa031fcdcf70075b354d8be85009",
+    "rowmap": "afbc67011b6f94a508935ad8edcbdd3c9b56c4db336f8d3847a8a1815183828f",
+    "srows": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "valid": "72cd6e8422c407fb6d098690f1130b7ded7ec2f7f5e1d30bd9d521f015363793",
+    "rhs": "7d4a2c7202bee8236378c6fcfd25dfe0d25ceb22c673ef06072f37f663727921",
+    "golden": "7095ab688a6c4a78c1ceb093c6ce8ae464b0658152f9830ae1e3a2f7f07ab7e3"
+  },
+  "coverage": "full",
+  "tail_skip_rows": []
+}

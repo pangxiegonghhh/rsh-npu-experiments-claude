@@ -1,0 +1,19 @@
+{
+  "id": "occupancy_z120_k1",
+  "group": "occupancy",
+  "kind": "bitmap",
+  "U": 16,
+  "N": 16,
+  "Kp": 16,
+  "Np": 16,
+  "tiles": 1,
+  "nnz": 120,
+  "sha256": {
+    "original-a.bin": "64d911891902dd984980c20897746fd9cb28520a525578c9ae41ccb15e4bf4cc",
+    "cols.bin": "7b165dc88c54d04ea4da68fe3df961af209d84692e1599be0cb18edb6782f799",
+    "payload.bin": "74adb1764d12433c564ed325843851d5a812bf2265e834b4049fbd9f28033b22",
+    "config.bin": "7bab879669a9cddb6bfca84c9da43ec7952a76e51f5d4a57fa5c974f3ace207e",
+    "desc.bin": "15b67b72f4cb6695151ebd52303f721a8415310e400d0a6aa39cc741a112d5ca",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73"
+  }
+}

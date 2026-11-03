@@ -1,0 +1,186 @@
+[
+  {
+    "case_id": "writeback_r0_c0",
+    "stage": "S1",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "debug_guard_errors": 0,
+        "debug": [
+          1,
+          32,
+          16,
+          48
+        ],
+        "call_params_correct": true,
+        "padding_errors": 0
+      }
+    ],
+    "sources": {
+      "a": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "b": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "refs": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "config": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      }
+    },
+    "read_range_check": true,
+    "observation_method": "product",
+    "max_abs_error": 0.0,
+    "elapsed_s": 2.2751388549804688
+  },
+  {
+    "case_id": "writeback_r15_c15",
+    "stage": "S1",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "debug_guard_errors": 0,
+        "debug": [
+          1,
+          32,
+          16,
+          48
+        ],
+        "call_params_correct": true,
+        "padding_errors": 0
+      }
+    ],
+    "sources": {
+      "a": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "b": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "refs": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "config": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      }
+    },
+    "read_range_check": true,
+    "observation_method": "product",
+    "max_abs_error": 0.0,
+    "elapsed_s": 2.2698678970336914
+  },
+  {
+    "case_id": "writeback_r16_c16",
+    "stage": "S1",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "debug_guard_errors": 0,
+        "debug": [
+          1,
+          32,
+          16,
+          48
+        ],
+        "call_params_correct": true,
+        "padding_errors": 0
+      }
+    ],
+    "sources": {
+      "a": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "b": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "refs": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "config": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      }
+    },
+    "read_range_check": true,
+    "observation_method": "product",
+    "max_abs_error": 0.0,
+    "elapsed_s": 2.2664573192596436
+  },
+  {
+    "case_id": "writeback_r29_c39",
+    "stage": "S1",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "debug_guard_errors": 0,
+        "debug": [
+          1,
+          32,
+          16,
+          48
+        ],
+        "call_params_correct": true,
+        "padding_errors": 0
+      }
+    ],
+    "sources": {
+      "a": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "b": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "refs": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "config": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      }
+    },
+    "read_range_check": true,
+    "observation_method": "product",
+    "max_abs_error": 0.0,
+    "elapsed_s": 2.2668323516845703
+  }
+]

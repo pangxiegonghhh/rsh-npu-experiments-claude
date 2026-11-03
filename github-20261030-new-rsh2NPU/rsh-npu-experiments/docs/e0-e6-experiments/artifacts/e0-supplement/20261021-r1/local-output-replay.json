@@ -1,0 +1,8 @@
+{
+  "independent_fp64_golden_recomputed": 223,
+  "captured_normal_probes_replayed": 223,
+  "repeat_poison_probes_replayed": 27,
+  "integrated_configurations_with_both_signs_raw_outputs_checked": 34,
+  "maximum_absolute_error": 0,
+  "raw_evidence_modified": false
+}

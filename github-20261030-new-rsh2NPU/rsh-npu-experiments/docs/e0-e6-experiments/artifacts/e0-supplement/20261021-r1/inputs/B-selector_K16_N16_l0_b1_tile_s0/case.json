@@ -1,0 +1,114 @@
+{
+  "id": "B-selector_K16_N16_l0_b1_tile_s0",
+  "stage": "S3",
+  "config": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+  ],
+  "global_k": 47,
+  "observation": "selector_observed",
+  "mapping": "scatter",
+  "tags": {},
+  "guard_bytes": 1024,
+  "a_source_elements": 256,
+  "a_l1_elements": 256,
+  "b_source_rows": 48,
+  "b_l1_elements": 256,
+  "mmad_calls": 1,
+  "expected_mmad": [
+    16,
+    16,
+    16
+  ],
+  "read_range_check": {
+    "pass": true,
+    "b_intervals_bytes": [
+      [
+        32,
+        64
+      ],
+      [
+        128,
+        160
+      ],
+      [
+        224,
+        256
+      ],
+      [
+        320,
+        352
+      ],
+      [
+        416,
+        448
+      ],
+      [
+        512,
+        544
+      ],
+      [
+        608,
+        640
+      ],
+      [
+        704,
+        736
+      ],
+      [
+        800,
+        832
+      ],
+      [
+        896,
+        928
+      ],
+      [
+        992,
+        1024
+      ],
+      [
+        1088,
+        1120
+      ],
+      [
+        1184,
+        1216
+      ],
+      [
+        1280,
+        1312
+      ],
+      [
+        1376,
+        1408
+      ],
+      [
+        1472,
+        1504
+      ]
+    ],
+    "a_nd_bytes": 512,
+    "a_physical_bytes": 512,
+    "refs_bytes": 64
+  },
+  "sha256": {
+    "golden.bin": "893a106828fbdb9521e1d868c985aab7ad2ae2f606edc55329265a5e7676006c",
+    "config.bin": "4b2421dd1fac4be9b7925e278a7eceb7f185c958e9a5597094c1a18b196f46e3",
+    "b.bin": "6b8479b9c1dd78d221bdd593e7cfa85a3716eb1a4e7917de72ca35bae74fca7a",
+    "a.bin": "77c34e226bf60c70d4c2f3ad82d1632635beafebcda758162b061a173041a9ff",
+    "mask.bin": "2661920f2409dd6c8adeb0c44972959f232b6429afa913845d0fd95e7e768234",
+    "refs.bin": "7a5d8bd14d556b2cc180143f961c0459fcf8fac4ff21a336fbe2ae31da7f2ba8",
+    "a-direct.bin": "77c34e226bf60c70d4c2f3ad82d1632635beafebcda758162b061a173041a9ff"
+  }
+}

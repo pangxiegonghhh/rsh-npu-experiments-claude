@@ -1,0 +1,19 @@
+{
+  "id": "main_u37_n64_p0_k0",
+  "group": "main",
+  "kind": "dense",
+  "U": 37,
+  "N": 64,
+  "Kp": 48,
+  "Np": 64,
+  "tiles": 3,
+  "nnz": 61,
+  "sha256": {
+    "original-a.bin": "83248425cc438ea04630bf10f0e68b52cab3a68a6570f8d3d6bcbe191f57934c",
+    "cols.bin": "dabf0239d084e0c3b2fa9e64a5f196dff0e3e347912815acb56bafe495ae5274",
+    "payload.bin": "27d1a310862db317bd745cd64dba516dc7db0153eae0ca863e92a599043560b9",
+    "config.bin": "2b96f443c7a5b91d1bfdb58dec2fe4c35430e8eead6ad8d4c6a2525484b06f06",
+    "desc.bin": "666441533ec6f6863312b3b043899ef42020f9e06b4eec82dabc8597cad3594a",
+    "b.bin": "a1453fd3116f6f8ddd5942f9602dc1f034c2ea7755a2fd10b8de8b96228c283c"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "occupancy_z135_k1",
+  "group": "occupancy",
+  "kind": "bitmap",
+  "U": 16,
+  "N": 16,
+  "Kp": 16,
+  "Np": 16,
+  "tiles": 1,
+  "nnz": 135,
+  "sha256": {
+    "original-a.bin": "fc3f947decc774be453256b755673862bca11dd9f3a99b5bc240758568e77b68",
+    "cols.bin": "7b165dc88c54d04ea4da68fe3df961af209d84692e1599be0cb18edb6782f799",
+    "payload.bin": "a86d646f80b17faabd87ea5197cc22c63834c1edc35c98e987caabb5cc4d567f",
+    "config.bin": "f61f430cbeea596e414c54050457491b87f340e4812a5238a2b09ee50d58a84d",
+    "desc.bin": "b3f8c9d6740f4da1c9f671e196f862797009bb1e028f39e0bea1e7408ac29896",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73"
+  }
+}

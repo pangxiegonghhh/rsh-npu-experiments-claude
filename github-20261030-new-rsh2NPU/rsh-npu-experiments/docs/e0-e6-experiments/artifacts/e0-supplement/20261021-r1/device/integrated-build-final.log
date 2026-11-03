@@ -1,0 +1,1093 @@
+[  2%] Creating directories for 'rsh_kernels_precompile'
+[  4%] No download step for 'rsh_kernels_precompile'
+[  6%] No update step for 'rsh_kernels_precompile'
+[  8%] No patch step for 'rsh_kernels_precompile'
+[ 10%] Performing configure step for 'rsh_kernels_precompile'
+-- The C compiler identification is GNU 12.3.1
+-- The CXX compiler identification is GNU 12.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DYNAMIC_MODE
+    INCLUDE_DIR
+
+
+-- Build files have been written to: /data/e0-supplement-r1/integrated-final/rsh_kernels_precompile-prefix/src/rsh_kernels_precompile-build
+[ 12%] Performing build step for 'rsh_kernels_precompile'
+[ 80%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/mix.cpp.o
+[ 80%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/cube.cpp.o
+[ 80%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/cube_direct.cpp.o
+[ 80%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/vector.cpp.o
+[100%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/restore.cpp.o
+[100%] Built target precompile_obj
+[100%] Built target check_src_template
+[ 14%] No install step for 'rsh_kernels_precompile'
+[ 16%] Completed 'rsh_kernels_precompile'
+[ 16%] Built target rsh_kernels_precompile
+[ 18%] Creating directories for 'rsh_kernels_preprocess'
+[ 20%] No download step for 'rsh_kernels_preprocess'
+[ 22%] No update step for 'rsh_kernels_preprocess'
+[ 25%] No patch step for 'rsh_kernels_preprocess'
+[ 27%] Performing configure step for 'rsh_kernels_preprocess'
+-- The C compiler identification is GNU 12.3.1
+-- The CXX compiler identification is GNU 12.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build
+[ 29%] Performing build step for 'rsh_kernels_preprocess'
+[ 26%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/cube.cpp.o
+[ 26%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/cube_direct.cpp.o
+[ 26%] Building CXX object CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/cube.cpp.o
+[ 26%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/cube.cpp.o
+[ 33%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/cube_direct.cpp.o
+[ 40%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/vector.cpp.o
+[ 46%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/mix.cpp.o
+[ 53%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/restore.cpp.o
+[ 53%] Built target preprocess_obj
+[ 60%] Building CXX object CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/cube_direct.cpp.o
+[ 66%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/vector.cpp.o
+[ 80%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/mix.cpp.o
+[ 80%] Building CXX object CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/vector.cpp.o
+[ 86%] Building CXX object CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/mix.cpp.o
+[ 93%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/restore.cpp.o
+[100%] Building CXX object CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/restore.cpp.o
+[100%] Built target aic_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/cube.cpp.o -o /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/cube.cpp.o/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/cube_direct.cpp.o -o /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/cube_direct.cpp.o/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/vector.cpp.o -o /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/vector.cpp.o/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/mix.cpp.o -o /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/mix.cpp.o[100%] Built target aiv_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/restore.cpp.o -o /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/restore.cpp.o/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/cube.cpp.o -o /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/cube.cpp.o[100%] Built target merge_aic_obj_text
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/cube_direct.cpp.o -o /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/cube_direct.cpp.o/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/vector.cpp.o -o /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/vector.cpp.o/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/mix.cpp.o -o /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/mix.cpp.o/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/restore.cpp.o -o /data/e0-supplement-r1/integrated-final/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/restore.cpp.o[100%] Built target merge_aiv_obj_text
+[100%] Built target _host_cpp
+[ 31%] No install step for 'rsh_kernels_preprocess'
+[ 33%] Completed 'rsh_kernels_preprocess'
+[ 33%] Built target rsh_kernels_preprocess
+[ 39%] Creating directories for 'rsh_kernels_host'
+[ 39%] Creating directories for 'rsh_kernels_aic_device'
+[ 39%] Creating directories for 'rsh_kernels_aiv_device'
+[ 41%] No download step for 'rsh_kernels_aic_device'
+[ 45%] No download step for 'rsh_kernels_host'
+[ 45%] No download step for 'rsh_kernels_aiv_device'
+[ 50%] No update step for 'rsh_kernels_aiv_device'
+[ 50%] No update step for 'rsh_kernels_host'
+[ 52%] No update step for 'rsh_kernels_aic_device'
+[ 56%] No patch step for 'rsh_kernels_host'
+[ 56%] No patch step for 'rsh_kernels_aic_device'
+[ 58%] No patch step for 'rsh_kernels_aiv_device'
+[ 60%] Performing configure step for 'rsh_kernels_aiv_device'
+[ 64%] Performing configure step for 'rsh_kernels_aic_device'
+[ 64%] Performing configure step for 'rsh_kernels_host'
+-- The C compiler identification is GNU 12.3.1
+-- The C compiler identification is GNU 12.3.1
+-- The C compiler identification is GNU 12.3.1
+-- The CXX compiler identification is GNU 12.3.1
+-- The CXX compiler identification is GNU 12.3.1
+-- The CXX compiler identification is GNU 12.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compiler ABI info - done
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compiler ABI info - done
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ASCEND_PYTHON_EXECUTABLE
+
+
+-- Build files have been written to: /data/e0-supplement-r1/integrated-final/rsh_kernels_host-prefix/src/rsh_kernels_host-build
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/integrated-final/rsh_kernels_aic_device-prefix/src/rsh_kernels_aic_device-build
+-- Build files have been written to: /data/e0-supplement-r1/integrated-final/rsh_kernels_aiv_device-prefix/src/rsh_kernels_aiv_device-build
+[ 66%] Performing build step for 'rsh_kernels_host'
+[ 68%] Performing build step for 'rsh_kernels_aic_device'
+[ 70%] Performing build step for 'rsh_kernels_aiv_device'
+[ 20%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/cube.cpp.o
+[ 33%] Building CXX object CMakeFiles/device_obj.dir/data/e0-supplement-r1/integrated-final/auto_gen/rsh_kernels/auto_gen_mix.cpp.o
+[ 66%] Building CXX object CMakeFiles/device_obj.dir/data/e0-supplement-r1/integrated-final/auto_gen/rsh_kernels/auto_gen_mix.cpp.o
+[ 66%] Building CXX object CMakeFiles/device_aic_obj.dir/data/e0-supplement-r1/integrated-final/auto_gen/rsh_kernels/auto_gen_cube.cpp.o
+/data/e0-supplement-r1/npu/cube.cpp:8:39: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                      ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:52: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:66: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                 ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:80: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                               ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:92: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                           ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:106: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:121: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:135: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                      ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:148: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:164: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:180: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+11 warnings generated.
+[ 40%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/cube_direct.cpp.o
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:49: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:62: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:76: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                           ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:90: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:102: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                     ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:116: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:131: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                  ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:145: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:158: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:174: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:190: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                                                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+11 warnings generated.
+[ 60%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/vector.cpp.o
+/data/e0-supplement-r1/npu/vector.cpp:8:41: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:54: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                     ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:68: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:82: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                 ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:94: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:108: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                           ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:123: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                          ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:137: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:150: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                     ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:166: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                                     ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:182: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                                                     ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+11 warnings generated.
+[ 80%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/mix.cpp.o
+[ 33%] Built target device_obj
+[ 66%] Building CXX object CMakeFiles/device_aiv_obj.dir/data/e0-supplement-r1/integrated-final/auto_gen/rsh_kernels/auto_gen_vector.cpp.o
+[100%] Building CXX object CMakeFiles/device_aic_obj.dir/data/e0-supplement-r1/integrated-final/auto_gen/rsh_kernels/auto_gen_cube_direct.cpp.o
+[100%] Built target device_obj
+[100%] Building CXX object CMakeFiles/device_aiv_obj.dir/data/e0-supplement-r1/integrated-final/auto_gen/rsh_kernels/auto_gen_restore.cpp.o
+/data/e0-supplement-r1/npu/mix.cpp:13:38: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                     ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:51: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                  ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:65: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:79: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                              ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:91: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                          ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:105: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:120: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                       ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:134: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                     ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:147: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                  ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:163: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                                  ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:179: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                                                  ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+11 warnings generated.
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/restore.cpp.o
+/data/e0-supplement-r1/npu/restore.cpp:18:42: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_restore<<<blocks,nullptr,stream>>>((GM_ADDR)packed,(GM_ADDR)map,(GM_ADDR)output,(GM_ADDR)config);
+                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/restore.cpp:18:58: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_restore<<<blocks,nullptr,stream>>>((GM_ADDR)packed,(GM_ADDR)map,(GM_ADDR)output,(GM_ADDR)config);
+                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/restore.cpp:18:71: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_restore<<<blocks,nullptr,stream>>>((GM_ADDR)packed,(GM_ADDR)map,(GM_ADDR)output,(GM_ADDR)config);
+                                                                      ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/restore.cpp:18:87: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_restore<<<blocks,nullptr,stream>>>((GM_ADDR)packed,(GM_ADDR)map,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                      ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+4 warnings generated.
+[100%] Built target host_bisheng_obj
+[ 72%] Performing install step for 'rsh_kernels_host'
+[ 20%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/cube.cpp.o
+/data/e0-supplement-r1/npu/cube.cpp:8:39: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                      ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:52: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:66: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                 ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:80: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                               ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:92: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                           ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:106: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:121: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:135: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                      ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:148: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:164: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube.cpp:8:180: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+11 warnings generated.
+[ 40%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/cube_direct.cpp.o
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld  -m aicorelinux -r  -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_aic_device-prefix/src/rsh_kernels_aic_device-build/CMakeFiles/device_obj.dir/data/e0-supplement-r1/integrated-final/auto_gen/rsh_kernels/auto_gen_mix.cpp.o -static -o /data/e0-supplement-r1/integrated-final/rsh_kernels_aic_device_dir/device.o
+[100%] Built target merge_device_obj
+[100%] Built target device_aiv_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld  -m aicorelinux -r  -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_aiv_device-prefix/src/rsh_kernels_aiv_device-build/CMakeFiles/device_obj.dir/data/e0-supplement-r1/integrated-final/auto_gen/rsh_kernels/auto_gen_mix.cpp.o -static -o /data/e0-supplement-r1/integrated-final/rsh_kernels_aiv_device_dir/device.o
+[ 60%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/vector.cpp.o
+[100%] Built target merge_device_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld  -m aicorelinux -r  -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_aiv_device-prefix/src/rsh_kernels_aiv_device-build/CMakeFiles/device_aiv_obj.dir/data/e0-supplement-r1/integrated-final/auto_gen/rsh_kernels/auto_gen_vector.cpp.o /data/e0-supplement-r1/integrated-final/rsh_kernels_aiv_device-prefix/src/rsh_kernels_aiv_device-build/CMakeFiles/device_aiv_obj.dir/data/e0-supplement-r1/integrated-final/auto_gen/rsh_kernels/auto_gen_restore.cpp.o -static -o /data/e0-supplement-r1/integrated-final/rsh_kernels_aiv_device_dir/device_aiv.o
+[100%] Built target merge_aiv_device_obj
+[ 75%] No install step for 'rsh_kernels_aiv_device'
+[ 77%] Completed 'rsh_kernels_aiv_device'
+[ 77%] Built target rsh_kernels_aiv_device
+[ 80%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/mix.cpp.o
+[100%] Built target device_aic_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld  -m aicorelinux -r  -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_aic_device-prefix/src/rsh_kernels_aic_device-build/CMakeFiles/device_aic_obj.dir/data/e0-supplement-r1/integrated-final/auto_gen/rsh_kernels/auto_gen_cube.cpp.o /data/e0-supplement-r1/integrated-final/rsh_kernels_aic_device-prefix/src/rsh_kernels_aic_device-build/CMakeFiles/device_aic_obj.dir/data/e0-supplement-r1/integrated-final/auto_gen/rsh_kernels/auto_gen_cube_direct.cpp.o -static -o /data/e0-supplement-r1/integrated-final/rsh_kernels_aic_device_dir/device_aic.o
+[100%] Built target merge_aic_device_obj
+[ 79%] No install step for 'rsh_kernels_aic_device'
+[ 81%] Completed 'rsh_kernels_aic_device'
+[ 81%] Built target rsh_kernels_aic_device
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/restore.cpp.o
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:49: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:62: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:76: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                           ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:90: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:102: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                     ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:116: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:131: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                  ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:145: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:158: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:174: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/cube_direct.cpp:8:190: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_cube_e0_direct<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                                                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+11 warnings generated.
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -x -m aicorelinux   -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_aic_device_dir/device.o /data/e0-supplement-r1/integrated-final/rsh_kernels_aiv_device_dir/device.o -static -o /data/e0-supplement-r1/integrated-final/rsh_kernels_merge_obj_dir/device.o
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -x -m aicorelinux   -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_aic_device_dir/device_aic.o -static -o /data/e0-supplement-r1/integrated-final/rsh_kernels_merge_obj_dir/device_aic.o
+/data/e0-supplement-r1/npu/vector.cpp:8:41: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:54: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                     ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:68: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:82: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                 ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:94: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:108: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                           ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:123: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                          ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:137: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:150: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                     ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:166: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                                     ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/vector.cpp:8:182: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_vector<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                                                     ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -x -m aicorelinux   -Ttext=0 /data/e0-supplement-r1/integrated-final/rsh_kernels_aiv_device_dir/device_aiv.o -static -o /data/e0-supplement-r1/integrated-final/rsh_kernels_merge_obj_dir/device_aiv.o
+11 warnings generated.
+[ 81%] Built target rsh_kernels_merge_obj
+[ 83%] Building CXX object CMakeFiles/rsh_kernels_host_stub_obj.dir/auto_gen/rsh_kernels/host_stub.cpp.o
+/data/e0-supplement-r1/npu/mix.cpp:13:38: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                     ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:51: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                  ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:65: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:79: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                              ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:91: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                          ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:105: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:120: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                       ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:134: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                     ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:147: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                  ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:163: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                                  ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/mix.cpp:13:179: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_mix<<<blocks,nullptr,stream>>>((GM_ADDR)ptr,(GM_ADDR)cols,(GM_ADDR)vals,(GM_ADDR)gp,(GM_ADDR)refs,(GM_ADDR)tiles,(GM_ADDR)rows,(GM_ADDR)rhs,(GM_ADDR)packed,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                                                                                                                  ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+11 warnings generated.
+/data/e0-supplement-r1/npu/restore.cpp:18:42: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_restore<<<blocks,nullptr,stream>>>((GM_ADDR)packed,(GM_ADDR)map,(GM_ADDR)output,(GM_ADDR)config);
+                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/restore.cpp:18:58: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_restore<<<blocks,nullptr,stream>>>((GM_ADDR)packed,(GM_ADDR)map,(GM_ADDR)output,(GM_ADDR)config);
+                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/restore.cpp:18:71: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_restore<<<blocks,nullptr,stream>>>((GM_ADDR)packed,(GM_ADDR)map,(GM_ADDR)output,(GM_ADDR)config);
+                                                                      ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/restore.cpp:18:87: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ rsh_restore<<<blocks,nullptr,stream>>>((GM_ADDR)packed,(GM_ADDR)map,(GM_ADDR)output,(GM_ADDR)config);
+                                                                                      ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+[ 83%] Built target rsh_kernels_host_stub_obj
+4 warnings generated.
+[100%] Built target host_bisheng_obj
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /data/e0-supplement-r1/integrated-final/rsh_kernels_host_dir/./objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/cube.cpp.o
+-- Installing: /data/e0-supplement-r1/integrated-final/rsh_kernels_host_dir/./objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/cube_direct.cpp.o
+-- Installing: /data/e0-supplement-r1/integrated-final/rsh_kernels_host_dir/./objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/vector.cpp.o
+-- Installing: /data/e0-supplement-r1/integrated-final/rsh_kernels_host_dir/./objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/mix.cpp.o
+-- Installing: /data/e0-supplement-r1/integrated-final/rsh_kernels_host_dir/./objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/restore.cpp.o
+[ 85%] Completed 'rsh_kernels_host'
+[ 85%] Built target rsh_kernels_host
+[ 87%] Linking CXX static library lib/librsh_kernels.a
+/usr/local/Ascend/cann-9.0.0/bin/ascendc_pack_kernel /data/e0-supplement-r1/integrated-final/CMakeFiles/rsh_kernels_host_stub_obj.dir/auto_gen/rsh_kernels/host_stub.cpp.o /data/e0-supplement-r1/integrated-final/rsh_kernels_merge_obj_dir/device.o 0 /data/e0-supplement-r1/integrated-final/CMakeFiles/rsh_kernels_host_stub_obj.dir/auto_gen/rsh_kernels/host_stub.cpp.o
+/usr/local/Ascend/cann-9.0.0/bin/ascendc_pack_kernel /data/e0-supplement-r1/integrated-final/CMakeFiles/rsh_kernels_host_stub_obj.dir/auto_gen/rsh_kernels/host_stub.cpp.o /data/e0-supplement-r1/integrated-final/rsh_kernels_merge_obj_dir/device_aiv.o 1 /data/e0-supplement-r1/integrated-final/CMakeFiles/rsh_kernels_host_stub_obj.dir/auto_gen/rsh_kernels/host_stub.cpp.o
+/usr/local/Ascend/cann-9.0.0/bin/ascendc_pack_kernel /data/e0-supplement-r1/integrated-final/CMakeFiles/rsh_kernels_host_stub_obj.dir/auto_gen/rsh_kernels/host_stub.cpp.o /data/e0-supplement-r1/integrated-final/rsh_kernels_merge_obj_dir/device_aic.o 2 /data/e0-supplement-r1/integrated-final/CMakeFiles/rsh_kernels_host_stub_obj.dir/auto_gen/rsh_kernels/host_stub.cpp.o
+recompile: /usr/bin/ar qc lib/librsh_kernels.a CMakeFiles/rsh_kernels_host_stub_obj.dir/auto_gen/rsh_kernels/host_stub.cpp.o /data/e0-supplement-r1/integrated-final/rsh_kernels_host_dir/objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/cube.cpp.o /data/e0-supplement-r1/integrated-final/rsh_kernels_host_dir/objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/cube_direct.cpp.o /data/e0-supplement-r1/integrated-final/rsh_kernels_host_dir/objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/mix.cpp.o /data/e0-supplement-r1/integrated-final/rsh_kernels_host_dir/objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/restore.cpp.o /data/e0-supplement-r1/integrated-final/rsh_kernels_host_dir/objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/vector.cpp.o  ascendc_runtime.cpp.o aicpu_rt.cpp.o ascendc_elf_tool.c.o
+recompile: /usr/bin/ranlib lib/librsh_kernels.a
+[ 87%] Built target rsh_kernels
+[ 95%] Building CXX object CMakeFiles/rsh_runner.dir/runner.cpp.o
+[ 95%] Building CXX object CMakeFiles/rsh_runner.dir/dispatch.cpp.o
+[ 95%] Building CXX object CMakeFiles/rsh_guarded.dir/runner_guarded.cpp.o
+[ 95%] Building CXX object CMakeFiles/rsh_guarded.dir/dispatch.cpp.o
+[ 97%] Linking CXX executable rsh_runner
+[ 97%] Built target rsh_runner
+[100%] Linking CXX executable rsh_guarded
+[100%] Built target rsh_guarded

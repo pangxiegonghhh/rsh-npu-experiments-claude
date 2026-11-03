@@ -1,0 +1,21 @@
+name,source,group,rows,cols,nnz,avg_row_length,density_e-3,skew,empty_16x16,role,download_url,matrix_id
+cora,GNN,,2708,2708,10556,3.9,1.44,0.32,0.05,small smoke/graph structure,https://portal.nersc.gov/project/m1982/GNN/cora.mtx,
+ogbn-arxiv,GNN,,169343,169343,2315598,13.6,0.08,0.5,0.86,large GNN,,
+reddit,GNN,,232965,232965,114615892,492.0,2.11,0.46,0.01,large GNN,https://portal.nersc.gov/project/m1982/GNN/reddit.mtx,
+amazon-product,GNN,,2449029,2449029,123718152,50.5,0.02,0.45,0.96,very large GNN,,
+wiki-RfA,SuiteSparse,SNAP,11380,11380,362053,31.8,2.8,0.39,0.01,small SuiteSparse,https://suitesparse-collection-website.herokuapp.com/MM/SNAP/wiki-RfA.tar.gz,2797
+dawson5,SuiteSparse,GHS_indef,51537,51537,1010777,19.6,0.38,0.14,0.98,medium sparse,https://suitesparse-collection-website.herokuapp.com/MM/GHS_indef/dawson5.tar.gz,1233
+olafu,SuiteSparse,Simon,16146,16146,1015156,62.9,3.89,0.12,0.99,medium denser,https://suitesparse-collection-website.herokuapp.com/MM/Simon/olafu.tar.gz,813
+pattern1,SuiteSparse,Andrianov,19242,19242,9323432,484.5,25.18,0.16,0.73,dense structural,https://suitesparse-collection-website.herokuapp.com/MM/Andrianov/pattern1.tar.gz,1393
+mip1,SuiteSparse,Andrianov,66463,66463,10352819,155.8,2.34,0.17,0.99,medium-large,https://suitesparse-collection-website.herokuapp.com/MM/Andrianov/mip1.tar.gz,1385
+mycielskian15,SuiteSparse,Mycielski,24575,24575,11111110,452.1,18.4,0.42,0.89,dense graph,https://suitesparse-collection-website.herokuapp.com/MM/Mycielski/mycielskian15.tar.gz,2771
+nd12k,SuiteSparse,ND,36000,36000,14220946,395.0,10.97,0.12,0.95,mesh,https://suitesparse-collection-website.herokuapp.com/MM/ND/nd12k.tar.gz,938
+human_gene1,SuiteSparse,Belcastro,22283,22283,24669643,1107.1,49.68,0.24,0.49,high-density gene graph,https://suitesparse-collection-website.herokuapp.com/MM/Belcastro/human_gene1.tar.gz,2280
+F1,SuiteSparse,Koutsovasilis,343791,343791,26837113,78.1,0.23,0.44,0.98,large structural,https://suitesparse-collection-website.herokuapp.com/MM/Koutsovasilis/F1.tar.gz,1411
+ML_Laplace,SuiteSparse,Janna,377002,377002,27689972,73.4,0.19,0.1,0.99,large unsymmetric,https://suitesparse-collection-website.herokuapp.com/MM/Janna/ML_Laplace.tar.gz,2648
+Fault_639,SuiteSparse,Janna,638802,638802,28614564,44.8,0.07,0.12,0.99,large structural,https://suitesparse-collection-website.herokuapp.com/MM/Janna/Fault_639.tar.gz,2543
+mouse_gene,SuiteSparse,Belcastro,45101,45101,28967291,642.3,14.24,0.41,0.5,high-density gene graph,https://suitesparse-collection-website.herokuapp.com/MM/Belcastro/mouse_gene.tar.gz,2282
+audikw_1,SuiteSparse,GHS_psdef,943695,943695,77651847,82.3,0.09,0.24,0.99,very large structural,https://suitesparse-collection-website.herokuapp.com/MM/GHS_psdef/audikw_1.tar.gz,1252
+mycielskian17,SuiteSparse,Mycielski,98303,98303,100245742,1019.8,10.37,0.46,0.94,very dense graph,https://suitesparse-collection-website.herokuapp.com/MM/Mycielski/mycielskian17.tar.gz,2773
+mycielskian18,SuiteSparse,Mycielski,196607,196607,300933832,1530.6,7.79,0.48,0.95,very large graph,https://suitesparse-collection-website.herokuapp.com/MM/Mycielski/mycielskian18.tar.gz,2774
+mycielskian19,SuiteSparse,Mycielski,393215,393215,903194710,2296.9,5.84,0.5,0.96,extreme large graph,https://suitesparse-collection-website.herokuapp.com/MM/Mycielski/mycielskian19.tar.gz,2775

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libe2_kernel_interface.a CMakeFiles/e2_kernel_interface.dir/e2_kernel_stub.cpp.o
+/usr/bin/ranlib libe2_kernel_interface.a

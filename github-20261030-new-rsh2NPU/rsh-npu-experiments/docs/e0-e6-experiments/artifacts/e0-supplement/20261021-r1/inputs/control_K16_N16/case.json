@@ -1,0 +1,114 @@
+{
+  "id": "control_K16_N16",
+  "stage": "S2",
+  "config": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+  ],
+  "global_k": 47,
+  "observation": "product",
+  "mapping": "scatter",
+  "tags": {},
+  "guard_bytes": 1024,
+  "a_source_elements": 256,
+  "a_l1_elements": 256,
+  "b_source_rows": 48,
+  "b_l1_elements": 256,
+  "mmad_calls": 1,
+  "expected_mmad": [
+    16,
+    16,
+    16
+  ],
+  "read_range_check": {
+    "pass": true,
+    "b_intervals_bytes": [
+      [
+        32,
+        64
+      ],
+      [
+        128,
+        160
+      ],
+      [
+        224,
+        256
+      ],
+      [
+        320,
+        352
+      ],
+      [
+        416,
+        448
+      ],
+      [
+        512,
+        544
+      ],
+      [
+        608,
+        640
+      ],
+      [
+        704,
+        736
+      ],
+      [
+        800,
+        832
+      ],
+      [
+        896,
+        928
+      ],
+      [
+        992,
+        1024
+      ],
+      [
+        1088,
+        1120
+      ],
+      [
+        1184,
+        1216
+      ],
+      [
+        1280,
+        1312
+      ],
+      [
+        1376,
+        1408
+      ],
+      [
+        1472,
+        1504
+      ]
+    ],
+    "a_nd_bytes": 512,
+    "a_physical_bytes": 512,
+    "refs_bytes": 64
+  },
+  "sha256": {
+    "golden.bin": "55f835d1e3d63711cedbfc11e6487916f59f426fad604e940993431dc64232aa",
+    "config.bin": "5649f3614f78364d4388871a446f902d0ff2d8b8b156d23f772bec175a8c01a1",
+    "b.bin": "f9893a002c9b3f43bc069ca6c9ba36c7e9aeabfdb518560adb932bada324d511",
+    "a.bin": "25fa288a4d6623509cb750cb4ceea527383c3d57bdb67f3c03047e7fe30993c3",
+    "mask.bin": "2661920f2409dd6c8adeb0c44972959f232b6429afa913845d0fd95e7e768234",
+    "refs.bin": "7a5d8bd14d556b2cc180143f961c0459fcf8fac4ff21a336fbe2ae31da7f2ba8",
+    "a-direct.bin": "25fa288a4d6623509cb750cb4ceea527383c3d57bdb67f3c03047e7fe30993c3"
+  }
+}

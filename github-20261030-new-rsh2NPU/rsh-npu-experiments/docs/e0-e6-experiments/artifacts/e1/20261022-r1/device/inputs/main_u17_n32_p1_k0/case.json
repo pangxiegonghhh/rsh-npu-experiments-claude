@@ -1,0 +1,19 @@
+{
+  "id": "main_u17_n32_p1_k0",
+  "group": "main",
+  "kind": "dense",
+  "U": 17,
+  "N": 32,
+  "Kp": 32,
+  "Np": 32,
+  "tiles": 2,
+  "nnz": 77,
+  "sha256": {
+    "original-a.bin": "56a916c0fd868e435142ab78760de1ede19b2d1e7cc6445012f0c94b174b0c21",
+    "cols.bin": "9ea81b6d1d1e94efe51d4a995c14f02504ec05a7ff0b12468894bb153213811e",
+    "payload.bin": "1c03ca518a2c6b3bb51485a3646f3c2b97b9a20a9b4ae37a215d34b583bf03b8",
+    "config.bin": "3f6124e198af519addd8b3d97046d8811c037f1e98d7ad6abfd6b3abf2ebb96c",
+    "desc.bin": "2ad5ad78632f111a29e3386dfa7df75ac345d5117845188a4c8c35dbd1bedec7",
+    "b.bin": "35ddb9f030f4619c4311e59e8e80a81dac6e1903037a560d7d2c4e09bd7370f7"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "main_u31_n64_p3_k3",
+  "group": "main",
+  "kind": "dense_tail",
+  "U": 31,
+  "N": 64,
+  "Kp": 32,
+  "Np": 64,
+  "tiles": 2,
+  "nnz": 496,
+  "sha256": {
+    "config.bin": "503a9e485834ebf2315a8e2ed5b3f19e1aaec4caa7aa72b524ed2ecb8f1b68a2",
+    "b.bin": "a1453fd3116f6f8ddd5942f9602dc1f034c2ea7755a2fd10b8de8b96228c283c",
+    "desc.bin": "8e40ecd5ed0c4d882eb94bbca1e7cb6e1cf97b8c077db1e684979e98120fcb56",
+    "original-a.bin": "696c0b3f1e7dd901368b5419be1474d255f8dd00c9f68da3632c01d37ab4abf3",
+    "payload.bin": "4fbc65f0a1bd02292104dcf54b1189f086df4b5e834c09ef16e66c7dbf24d241",
+    "cols.bin": "97bd3d77177b8b05491a437d4c3596528d99222b8d3d87987c26cbfe2b922ef2"
+  }
+}

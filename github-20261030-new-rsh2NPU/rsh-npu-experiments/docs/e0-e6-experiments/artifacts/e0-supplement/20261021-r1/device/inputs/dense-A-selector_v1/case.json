@@ -1,0 +1,114 @@
+{
+  "id": "dense-A-selector_v1",
+  "stage": "S4",
+  "config": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+  ],
+  "global_k": 47,
+  "observation": "selector_observed",
+  "mapping": "scatter",
+  "tags": {},
+  "guard_bytes": 1024,
+  "a_source_elements": 256,
+  "a_l1_elements": 256,
+  "b_source_rows": 48,
+  "b_l1_elements": 256,
+  "mmad_calls": 1,
+  "expected_mmad": [
+    16,
+    16,
+    16
+  ],
+  "read_range_check": {
+    "pass": true,
+    "b_intervals_bytes": [
+      [
+        32,
+        64
+      ],
+      [
+        128,
+        160
+      ],
+      [
+        224,
+        256
+      ],
+      [
+        320,
+        352
+      ],
+      [
+        416,
+        448
+      ],
+      [
+        512,
+        544
+      ],
+      [
+        608,
+        640
+      ],
+      [
+        704,
+        736
+      ],
+      [
+        800,
+        832
+      ],
+      [
+        896,
+        928
+      ],
+      [
+        992,
+        1024
+      ],
+      [
+        1088,
+        1120
+      ],
+      [
+        1184,
+        1216
+      ],
+      [
+        1280,
+        1312
+      ],
+      [
+        1376,
+        1408
+      ],
+      [
+        1472,
+        1504
+      ]
+    ],
+    "a_nd_bytes": 512,
+    "a_physical_bytes": 512,
+    "refs_bytes": 64
+  },
+  "sha256": {
+    "golden.bin": "c572ef1173ea7b6f3bcd741f34c551ab069ce3b91f13f4dd393a7ba64f35cb8d",
+    "refs.bin": "7a5d8bd14d556b2cc180143f961c0459fcf8fac4ff21a336fbe2ae31da7f2ba8",
+    "mask.bin": "2661920f2409dd6c8adeb0c44972959f232b6429afa913845d0fd95e7e768234",
+    "a.bin": "472676da8282616ec7d7a524d32e00e888eec77fc7c3fc07c8e40d99cdf3401f",
+    "config.bin": "e6b189c3719440e99cbf0dfa687a9da023f41a782dac4c2d743d40586b870d73",
+    "a-direct.bin": "472676da8282616ec7d7a524d32e00e888eec77fc7c3fc07c8e40d99cdf3401f",
+    "b.bin": "465b58a7f1355f8e0dd1c47799822e2150d1cfe9487cc8d405faab3caaef46d6"
+  }
+}

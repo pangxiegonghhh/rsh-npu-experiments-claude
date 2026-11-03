@@ -1,0 +1,1 @@
+["build/e0_dual", "inputs/control_K16_N16", "results/dual/control_K16_N16", "normal", "1"]

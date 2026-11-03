@@ -1,0 +1,1649 @@
+{
+  "scope": "CPU synthetic fixed-window semantics, physical-layout algebra and byte model only",
+  "seed": 20261021,
+  "numpy": "2.4.4",
+  "semantic_checks": 1988,
+  "layout_checks": 20,
+  "window_cases": 240,
+  "all_checks_passed": true,
+  "max_absolute_error": 0.0,
+  "probe_sha256": "c792ba2bee8b5091a1f0bb93f184426ba53ef9e33ff5e673a51f34e79fd3c032",
+  "code_sha256": {
+    "rsh/planner.py": "34a3d29088956d6810a215680ee532c39ab757d95acee59b9d2d7bffb8f67154",
+    "npu/work.h": "042d28e5d330da386e36c627ae439aecb6a3da68b5734a7c38846b940c297760",
+    "scripts/prepare_d3.py": "b5ea58aa44f9fc6893eb7222f54f6f3b9125e380c787686f86a60be2d9621627"
+  },
+  "frozen_paths": {
+    "results/v2/orders": false,
+    "results/d3/plans": false,
+    "cases_d3": false
+  },
+  "inputs": [
+    {
+      "file": "inputs/Boeing_bcsstk38.npz",
+      "shape": [
+        8032,
+        8032
+      ],
+      "stored_values": 355460,
+      "sha256": "6dbe65e87b4a1c62730edce9e9d1d1de27f656abe13e3175ea9d76433b804ef8"
+    },
+    {
+      "file": "inputs/FEMLAB_ns3Da.npz",
+      "shape": [
+        20414,
+        20414
+      ],
+      "stored_values": 1679599,
+      "sha256": "a5ab51df2c0a7fe81676a7477eae50380cf8368e99953682957f6c6631d5dfb0"
+    },
+    {
+      "file": "inputs/HB_bcsstk17.npz",
+      "shape": [
+        10974,
+        10974
+      ],
+      "stored_values": 428650,
+      "sha256": "0c0bf98b172cc4ec52f8d67c34f46b0a904ec17d16681326dc6d7cb9217722a5"
+    },
+    {
+      "file": "inputs/SNAP_ca-HepTh.npz",
+      "shape": [
+        9877,
+        9877
+      ],
+      "stored_values": 51971,
+      "sha256": "6f4650f1b04bac4f5482c0eb50e22a80051d408648410396de57d40c17573b47"
+    },
+    {
+      "file": "inputs/SNAP_cit-HepTh.npz",
+      "shape": [
+        27770,
+        27770
+      ],
+      "stored_values": 352807,
+      "sha256": "04f6e6e80b5bd1ad353cea852df0368f344c6d8fe6f7f0016ecb10d825f13c89"
+    },
+    {
+      "file": "inputs/SNAP_email-Enron.npz",
+      "shape": [
+        36692,
+        36692
+      ],
+      "stored_values": 367662,
+      "sha256": "bf24fdaa428f9ecf6d5f5514bf6a9bd8265c28801048e23a81eb29c61d49a547"
+    },
+    {
+      "file": "inputs/SNAP_web-NotreDame.npz",
+      "shape": [
+        325729,
+        325729
+      ],
+      "stored_values": 1497134,
+      "sha256": "9b94d742f122f8a3213637e9c5b8fe96984a04708d79b1ce8b70174a1335ae7a"
+    },
+    {
+      "file": "inputs/Schmid_thermal1.npz",
+      "shape": [
+        82654,
+        82654
+      ],
+      "stored_values": 574458,
+      "sha256": "57d8d1b133a866f3d33d91f473336d3d27787b10924fdf3c47291cde9fd9de30"
+    }
+  ],
+  "costs": [
+    {
+      "nnz": 0,
+      "density": 0.0,
+      "dense_payload": 512,
+      "bitmap_raw": 32,
+      "bitmap_padded": 32,
+      "index_raw": 0,
+      "index_padded": 0,
+      "descriptor": 16,
+      "common_colmap_padded": 64
+    },
+    {
+      "nnz": 16,
+      "density": 0.0625,
+      "dense_payload": 512,
+      "bitmap_raw": 64,
+      "bitmap_padded": 64,
+      "index_raw": 48,
+      "index_padded": 64,
+      "descriptor": 16,
+      "common_colmap_padded": 64
+    },
+    {
+      "nnz": 32,
+      "density": 0.125,
+      "dense_payload": 512,
+      "bitmap_raw": 96,
+      "bitmap_padded": 96,
+      "index_raw": 96,
+      "index_padded": 96,
+      "descriptor": 16,
+      "common_colmap_padded": 64
+    },
+    {
+      "nnz": 64,
+      "density": 0.25,
+      "dense_payload": 512,
+      "bitmap_raw": 160,
+      "bitmap_padded": 160,
+      "index_raw": 192,
+      "index_padded": 192,
+      "descriptor": 16,
+      "common_colmap_padded": 64
+    },
+    {
+      "nnz": 128,
+      "density": 0.5,
+      "dense_payload": 512,
+      "bitmap_raw": 288,
+      "bitmap_padded": 288,
+      "index_raw": 384,
+      "index_padded": 384,
+      "descriptor": 16,
+      "common_colmap_padded": 64
+    },
+    {
+      "nnz": 192,
+      "density": 0.75,
+      "dense_payload": 512,
+      "bitmap_raw": 416,
+      "bitmap_padded": 416,
+      "index_raw": 576,
+      "index_padded": 576,
+      "descriptor": 16,
+      "common_colmap_padded": 64
+    },
+    {
+      "nnz": 224,
+      "density": 0.875,
+      "dense_payload": 512,
+      "bitmap_raw": 480,
+      "bitmap_padded": 480,
+      "index_raw": 672,
+      "index_padded": 672,
+      "descriptor": 16,
+      "common_colmap_padded": 64
+    },
+    {
+      "nnz": 239,
+      "density": 0.93359375,
+      "dense_payload": 512,
+      "bitmap_raw": 510,
+      "bitmap_padded": 512,
+      "index_raw": 718,
+      "index_padded": 736,
+      "descriptor": 16,
+      "common_colmap_padded": 64
+    },
+    {
+      "nnz": 240,
+      "density": 0.9375,
+      "dense_payload": 512,
+      "bitmap_raw": 512,
+      "bitmap_padded": 512,
+      "index_raw": 720,
+      "index_padded": 736,
+      "descriptor": 16,
+      "common_colmap_padded": 64
+    },
+    {
+      "nnz": 256,
+      "density": 1.0,
+      "dense_payload": 512,
+      "bitmap_raw": 544,
+      "bitmap_padded": 544,
+      "index_raw": 768,
+      "index_padded": 768,
+      "descriptor": 16,
+      "common_colmap_padded": 64
+    }
+  ],
+  "cases": [
+    {
+      "unique_columns": 0,
+      "n": 1,
+      "density_requested": 0.0625,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 16,
+      "density_requested": 0.0625,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 17,
+      "density_requested": 0.0625,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 32,
+      "density_requested": 0.0625,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 33,
+      "density_requested": 0.0625,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 64,
+      "density_requested": 0.0625,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 1,
+      "density_requested": 0.25,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 16,
+      "density_requested": 0.25,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 17,
+      "density_requested": 0.25,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 32,
+      "density_requested": 0.25,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 33,
+      "density_requested": 0.25,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 64,
+      "density_requested": 0.25,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 1,
+      "density_requested": 0.75,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 16,
+      "density_requested": 0.75,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 17,
+      "density_requested": 0.75,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 32,
+      "density_requested": 0.75,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 33,
+      "density_requested": 0.75,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 64,
+      "density_requested": 0.75,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 1,
+      "density_requested": 1.0,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 16,
+      "density_requested": 1.0,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 17,
+      "density_requested": 1.0,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 32,
+      "density_requested": 1.0,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 33,
+      "density_requested": 1.0,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 0,
+      "n": 64,
+      "density_requested": 1.0,
+      "tiles": 0
+    },
+    {
+      "unique_columns": 1,
+      "n": 1,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 16,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 17,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 32,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 33,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 64,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 1,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 16,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 17,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 32,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 33,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 64,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 1,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 16,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 17,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 32,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 33,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 64,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 1,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 16,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 17,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 32,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 33,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 1,
+      "n": 64,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 1,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 16,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 17,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 32,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 33,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 64,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 1,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 16,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 17,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 32,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 33,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 64,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 1,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 16,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 17,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 32,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 33,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 64,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 1,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 16,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 17,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 32,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 33,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 15,
+      "n": 64,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 1,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 16,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 17,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 32,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 33,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 64,
+      "density_requested": 0.0625,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 1,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 16,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 17,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 32,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 33,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 64,
+      "density_requested": 0.25,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 1,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 16,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 17,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 32,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 33,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 64,
+      "density_requested": 0.75,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 1,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 16,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 17,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 32,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 33,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 16,
+      "n": 64,
+      "density_requested": 1.0,
+      "tiles": 1
+    },
+    {
+      "unique_columns": 17,
+      "n": 1,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 16,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 17,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 32,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 33,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 64,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 1,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 16,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 17,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 32,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 33,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 64,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 1,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 16,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 17,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 32,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 33,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 64,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 1,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 16,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 17,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 32,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 33,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 17,
+      "n": 64,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 1,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 16,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 17,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 32,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 33,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 64,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 1,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 16,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 17,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 32,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 33,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 64,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 1,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 16,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 17,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 32,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 33,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 64,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 1,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 16,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 17,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 32,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 33,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 31,
+      "n": 64,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 1,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 16,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 17,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 32,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 33,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 64,
+      "density_requested": 0.0625,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 1,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 16,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 17,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 32,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 33,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 64,
+      "density_requested": 0.25,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 1,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 16,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 17,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 32,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 33,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 64,
+      "density_requested": 0.75,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 1,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 16,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 17,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 32,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 33,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 32,
+      "n": 64,
+      "density_requested": 1.0,
+      "tiles": 2
+    },
+    {
+      "unique_columns": 37,
+      "n": 1,
+      "density_requested": 0.0625,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 16,
+      "density_requested": 0.0625,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 17,
+      "density_requested": 0.0625,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 32,
+      "density_requested": 0.0625,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 33,
+      "density_requested": 0.0625,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 64,
+      "density_requested": 0.0625,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 1,
+      "density_requested": 0.25,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 16,
+      "density_requested": 0.25,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 17,
+      "density_requested": 0.25,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 32,
+      "density_requested": 0.25,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 33,
+      "density_requested": 0.25,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 64,
+      "density_requested": 0.25,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 1,
+      "density_requested": 0.75,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 16,
+      "density_requested": 0.75,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 17,
+      "density_requested": 0.75,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 32,
+      "density_requested": 0.75,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 33,
+      "density_requested": 0.75,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 64,
+      "density_requested": 0.75,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 1,
+      "density_requested": 1.0,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 16,
+      "density_requested": 1.0,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 17,
+      "density_requested": 1.0,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 32,
+      "density_requested": 1.0,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 33,
+      "density_requested": 1.0,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 37,
+      "n": 64,
+      "density_requested": 1.0,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 1,
+      "density_requested": 0.0625,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 16,
+      "density_requested": 0.0625,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 17,
+      "density_requested": 0.0625,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 32,
+      "density_requested": 0.0625,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 33,
+      "density_requested": 0.0625,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 64,
+      "density_requested": 0.0625,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 1,
+      "density_requested": 0.25,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 16,
+      "density_requested": 0.25,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 17,
+      "density_requested": 0.25,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 32,
+      "density_requested": 0.25,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 33,
+      "density_requested": 0.25,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 64,
+      "density_requested": 0.25,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 1,
+      "density_requested": 0.75,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 16,
+      "density_requested": 0.75,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 17,
+      "density_requested": 0.75,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 32,
+      "density_requested": 0.75,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 33,
+      "density_requested": 0.75,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 64,
+      "density_requested": 0.75,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 1,
+      "density_requested": 1.0,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 16,
+      "density_requested": 1.0,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 17,
+      "density_requested": 1.0,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 32,
+      "density_requested": 1.0,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 33,
+      "density_requested": 1.0,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 48,
+      "n": 64,
+      "density_requested": 1.0,
+      "tiles": 3
+    },
+    {
+      "unique_columns": 63,
+      "n": 1,
+      "density_requested": 0.0625,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 16,
+      "density_requested": 0.0625,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 17,
+      "density_requested": 0.0625,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 32,
+      "density_requested": 0.0625,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 33,
+      "density_requested": 0.0625,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 64,
+      "density_requested": 0.0625,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 1,
+      "density_requested": 0.25,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 16,
+      "density_requested": 0.25,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 17,
+      "density_requested": 0.25,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 32,
+      "density_requested": 0.25,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 33,
+      "density_requested": 0.25,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 64,
+      "density_requested": 0.25,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 1,
+      "density_requested": 0.75,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 16,
+      "density_requested": 0.75,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 17,
+      "density_requested": 0.75,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 32,
+      "density_requested": 0.75,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 33,
+      "density_requested": 0.75,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 64,
+      "density_requested": 0.75,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 1,
+      "density_requested": 1.0,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 16,
+      "density_requested": 1.0,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 17,
+      "density_requested": 1.0,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 32,
+      "density_requested": 1.0,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 33,
+      "density_requested": 1.0,
+      "tiles": 4
+    },
+    {
+      "unique_columns": 63,
+      "n": 64,
+      "density_requested": 1.0,
+      "tiles": 4
+    }
+  ]
+}

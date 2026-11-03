@@ -1,0 +1,19 @@
+{
+  "id": "main_u37_n33_p2_k2",
+  "group": "main",
+  "kind": "local_index",
+  "U": 37,
+  "N": 33,
+  "Kp": 48,
+  "Np": 48,
+  "tiles": 3,
+  "nnz": 466,
+  "sha256": {
+    "config.bin": "de99ae717f6f3deddd5a3072ca40f207bf7e4080ebf00cf289d4751852ae3c7d",
+    "b.bin": "4fa6d9af8d8483d00b415bcdf684858ff85463ef4150fd1bdd41b75c1a05060e",
+    "desc.bin": "1e157a3bbcea0bb357e79eeb5821c09d379d2dd11b6d30325df4c2f2104e872c",
+    "original-a.bin": "68bd1bc8a775487215b53db556d0c2128e5ef55fe1f902bed47b03f3c05afa98",
+    "payload.bin": "d07e6aefe85f2a66384e72dd50bb131eb95cd0e727cccd3b3a5c0e4b4997215e",
+    "cols.bin": "a0f7c25a96b2a9caf32d970e8547cf7a66ba3f4f2815158505a3248494b4c41e"
+  }
+}

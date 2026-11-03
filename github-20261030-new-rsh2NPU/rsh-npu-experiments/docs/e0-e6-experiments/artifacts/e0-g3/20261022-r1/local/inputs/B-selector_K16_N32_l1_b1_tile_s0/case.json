@@ -1,0 +1,120 @@
+{
+  "id": "B-selector_K16_N32_l1_b1_tile_s0",
+  "stage": "S3",
+  "config": [
+    16,
+    16,
+    32,
+    16,
+    16,
+    32,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "global_k": 47,
+  "observation": "selector_observed",
+  "mapping": "scatter",
+  "tags": {},
+  "guard_bytes": 1024,
+  "a_source_elements": 256,
+  "a_l1_elements": 256,
+  "b_source_rows": 48,
+  "b_l1_elements": 512,
+  "mmad_calls": 1,
+  "expected_mmad": [
+    16,
+    16,
+    32
+  ],
+  "read_range_check": {
+    "pass": true,
+    "b_intervals_bytes": [
+      [
+        64,
+        128
+      ],
+      [
+        256,
+        320
+      ],
+      [
+        448,
+        512
+      ],
+      [
+        640,
+        704
+      ],
+      [
+        832,
+        896
+      ],
+      [
+        1024,
+        1088
+      ],
+      [
+        1216,
+        1280
+      ],
+      [
+        1408,
+        1472
+      ],
+      [
+        1600,
+        1664
+      ],
+      [
+        1792,
+        1856
+      ],
+      [
+        1984,
+        2048
+      ],
+      [
+        2176,
+        2240
+      ],
+      [
+        2368,
+        2432
+      ],
+      [
+        2560,
+        2624
+      ],
+      [
+        2752,
+        2816
+      ],
+      [
+        2944,
+        3008
+      ]
+    ],
+    "a_nd_bytes": 512,
+    "a_physical_bytes": 512,
+    "refs_bytes": 64
+  },
+  "sha256": {
+    "golden.bin": "df83a3fcd017e830c6e3059644cac70bb6fc95a0e60b18319e2fcd499b5fd390",
+    "config.bin": "daebea6db6263e3e826fe8c6aa9bb2215570d3b8c06ff919074047c6fb0de907",
+    "b.bin": "0146ff05607911232d59a63150ec97275a774c1ac37d7c9f928232b9cad0fe0f",
+    "a.bin": "77c34e226bf60c70d4c2f3ad82d1632635beafebcda758162b061a173041a9ff",
+    "mask.bin": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973",
+    "refs.bin": "7a5d8bd14d556b2cc180143f961c0459fcf8fac4ff21a336fbe2ae31da7f2ba8",
+    "a-direct.bin": "77c34e226bf60c70d4c2f3ad82d1632635beafebcda758162b061a173041a9ff"
+  },
+  "g3_config_diff": {
+    "index": 9,
+    "old": 1,
+    "new": 0
+  },
+  "parent_case_json_sha256": "29aec6c38281ac696d17c489a03a9f4ccd187c7b49d150cd8673559be852562c"
+}

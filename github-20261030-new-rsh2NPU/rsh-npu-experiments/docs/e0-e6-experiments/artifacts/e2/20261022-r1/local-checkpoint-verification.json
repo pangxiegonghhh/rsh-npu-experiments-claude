@@ -1,0 +1,13 @@
+{
+  "status": "HASH_VERIFIED",
+  "archive": "/Users/Zhuanz/Downloads/e2-20261022-r1-checkpoint.tar.gz",
+  "sha256": "db0dca9dd7811f7fae34ba569153bb0b84bfa55afe46eddaf2f13df8aa28e36f",
+  "bytes": 5849507,
+  "members": 11265,
+  "member_hashes_verified": 11264,
+  "extracted": "/Users/Zhuanz/Documents/ChatGPT/RSH迁移NPU实验/docs/e0-e6-experiments/artifacts/e2/20261022-r1/device-checkpoint",
+  "device_experiment_pass": false,
+  "note": "Preserves failed E2 smoke; hash verification does not establish device correctness.",
+  "project_archive": "/Users/Zhuanz/Documents/ChatGPT/RSH迁移NPU实验/docs/e0-e6-experiments/artifacts/e2/20261022-r1/e2-20261022-r1-checkpoint.tar.gz",
+  "project_copy_sha256_verified": true
+}

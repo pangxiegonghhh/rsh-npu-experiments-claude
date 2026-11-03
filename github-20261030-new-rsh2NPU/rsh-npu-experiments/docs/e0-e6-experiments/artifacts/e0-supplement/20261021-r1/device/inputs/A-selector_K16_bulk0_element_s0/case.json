@@ -1,0 +1,114 @@
+{
+  "id": "A-selector_K16_bulk0_element_s0",
+  "stage": "S3",
+  "config": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "global_k": 47,
+  "observation": "selector_observed",
+  "mapping": "scatter",
+  "tags": {},
+  "guard_bytes": 1024,
+  "a_source_elements": 256,
+  "a_l1_elements": 256,
+  "b_source_rows": 48,
+  "b_l1_elements": 256,
+  "mmad_calls": 1,
+  "expected_mmad": [
+    16,
+    16,
+    16
+  ],
+  "read_range_check": {
+    "pass": true,
+    "b_intervals_bytes": [
+      [
+        32,
+        64
+      ],
+      [
+        128,
+        160
+      ],
+      [
+        224,
+        256
+      ],
+      [
+        320,
+        352
+      ],
+      [
+        416,
+        448
+      ],
+      [
+        512,
+        544
+      ],
+      [
+        608,
+        640
+      ],
+      [
+        704,
+        736
+      ],
+      [
+        800,
+        832
+      ],
+      [
+        896,
+        928
+      ],
+      [
+        992,
+        1024
+      ],
+      [
+        1088,
+        1120
+      ],
+      [
+        1184,
+        1216
+      ],
+      [
+        1280,
+        1312
+      ],
+      [
+        1376,
+        1408
+      ],
+      [
+        1472,
+        1504
+      ]
+    ],
+    "a_nd_bytes": 512,
+    "a_physical_bytes": 512,
+    "refs_bytes": 64
+  },
+  "sha256": {
+    "golden.bin": "035bb5031776beba62bb4d3a0bb5739e91dac4dcb6cdcedb9ccce9a27bb2e9f5",
+    "refs.bin": "7a5d8bd14d556b2cc180143f961c0459fcf8fac4ff21a336fbe2ae31da7f2ba8",
+    "mask.bin": "2661920f2409dd6c8adeb0c44972959f232b6429afa913845d0fd95e7e768234",
+    "a.bin": "37a2caad2b76da9a5e89c4aeebc2a6d479d4283a074c689e04bc2604cad5a8af",
+    "config.bin": "83e79e049abdf6d982379edeb7a6084839f00b418ea7e70b23908d33af3e2f92",
+    "a-direct.bin": "37a2caad2b76da9a5e89c4aeebc2a6d479d4283a074c689e04bc2604cad5a8af",
+    "b.bin": "465b58a7f1355f8e0dd1c47799822e2150d1cfe9487cc8d405faab3caaef46d6"
+  }
+}

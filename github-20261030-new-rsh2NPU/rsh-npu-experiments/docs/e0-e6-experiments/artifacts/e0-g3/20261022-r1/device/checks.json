@@ -1,0 +1,5233 @@
+[
+  {
+    "case_id": "B-selector_K16_N16_l1_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "physical-anchor"
+  },
+  {
+    "case_id": "control_K16_N16",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "controls-normal"
+  },
+  {
+    "case_id": "control_K16_N16",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "controls-direct"
+  },
+  {
+    "case_id": "control_K48_N64",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          3,
+          16,
+          16,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "controls-normal"
+  },
+  {
+    "case_id": "control_K48_N64",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          3,
+          16,
+          16,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "controls-direct"
+  },
+  {
+    "case_id": "B-selector_K16_N16_l0_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N16_l0_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N16_l0_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N16_l0_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N16_l1_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N16_l1_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N16_l1_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N16_l1_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N32_l0_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N32_l0_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N32_l0_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N32_l0_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N32_l1_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N32_l1_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N32_l1_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N32_l1_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N64_l0_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N64_l0_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N64_l0_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N64_l0_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N64_l1_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N64_l1_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N64_l1_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K16_N64_l1_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N16_l0_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N16_l0_b0_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N16_l0_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N16_l0_b0_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N16_l0_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N16_l0_b1_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N16_l0_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N16_l0_b1_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N16_l1_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N16_l1_b0_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N16_l1_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N16_l1_b0_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N16_l1_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N16_l1_b1_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N16_l1_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N16_l1_b1_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N32_l0_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N32_l0_b0_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N32_l0_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N32_l0_b0_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N32_l0_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N32_l0_b1_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N32_l0_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N32_l0_b1_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N32_l1_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N32_l1_b0_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N32_l1_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N32_l1_b0_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N32_l1_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N32_l1_b1_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N32_l1_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N32_l1_b1_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N64_l0_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N64_l0_b0_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N64_l0_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N64_l0_b0_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N64_l0_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N64_l0_b1_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N64_l0_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N64_l0_b1_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N64_l1_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N64_l1_b0_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N64_l1_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N64_l1_b0_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N64_l1_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N64_l1_b1_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N64_l1_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K32_N64_l1_b1_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l0_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l0_b0_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l0_b0_tile_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l0_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l0_b0_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l0_b0_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l0_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l0_b1_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l0_b1_tile_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l0_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l0_b1_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l0_b1_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l1_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l1_b0_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l1_b0_tile_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l1_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l1_b0_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l1_b0_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l1_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l1_b1_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l1_b1_tile_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l1_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l1_b1_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N16_l1_b1_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l0_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l0_b0_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l0_b0_tile_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l0_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l0_b0_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l0_b0_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l0_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l0_b1_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l0_b1_tile_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l0_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l0_b1_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l0_b1_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l1_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l1_b0_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l1_b0_tile_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l1_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l1_b0_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l1_b0_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l1_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l1_b1_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l1_b1_tile_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l1_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l1_b1_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N32_l1_b1_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          32
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l0_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l0_b0_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l0_b0_tile_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l0_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l0_b0_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l0_b0_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l0_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l0_b1_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l0_b1_tile_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l0_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l0_b1_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l0_b1_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l1_b0_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l1_b0_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l1_b0_tile_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l1_b0_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l1_b0_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l1_b0_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l1_b1_tile_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l1_b1_tile_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l1_b1_tile_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l1_b1_element_s0",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l1_b1_element_s1",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l1_b1_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "B-independent"
+  },
+  {
+    "case_id": "A-selector_K16_bulk0_tile_s0",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K16_bulk0_element_s0",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K16_bulk1_tile_s0",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K16_bulk1_element_s0",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K32_bulk0_tile_s0",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K32_bulk0_tile_s1",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K32_bulk0_element_s0",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K32_bulk0_element_s1",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K32_bulk1_tile_s0",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K32_bulk1_tile_s1",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K32_bulk1_element_s0",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K32_bulk1_element_s1",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          32,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K48_bulk0_tile_s0",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K48_bulk0_tile_s1",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K48_bulk0_tile_s2",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K48_bulk0_element_s0",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K48_bulk0_element_s1",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K48_bulk0_element_s2",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K48_bulk1_tile_s0",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K48_bulk1_tile_s1",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K48_bulk1_tile_s2",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K48_bulk1_element_s0",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K48_bulk1_element_s1",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "A-selector_K48_bulk1_element_s2",
+    "status": "PASS",
+    "path": "normal",
+    "iterations": 1,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          16
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "A-confirmed-B"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l0_b1_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 10,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 1,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 2,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 3,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 4,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 5,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 6,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 7,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 8,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 9,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "core-repeat-0"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l1_b1_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 10,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 1,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 2,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 3,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 4,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 5,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 6,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 7,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 8,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 9,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "core-repeat-0"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l0_b1_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 10,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 1,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 2,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 3,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 4,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 5,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 6,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 7,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 8,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 9,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "core-repeat-1"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l1_b1_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 10,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 1,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 2,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 3,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 4,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 5,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 6,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 7,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 8,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 9,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "core-repeat-1"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l0_b1_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 10,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 1,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 2,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 3,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 4,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 5,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 6,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 7,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 8,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 9,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "core-repeat-2"
+  },
+  {
+    "case_id": "B-selector_K48_N64_l1_b1_element_s2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 10,
+    "sequence_complete": true,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 0,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 1,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 2,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 3,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 4,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 5,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 6,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 7,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 8,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      },
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "iteration": 9,
+        "debug": [
+          1,
+          16,
+          48,
+          64
+        ],
+        "status": "PASS"
+      }
+    ],
+    "max_abs_error": 0.0,
+    "group": "core-repeat-2"
+  }
+]

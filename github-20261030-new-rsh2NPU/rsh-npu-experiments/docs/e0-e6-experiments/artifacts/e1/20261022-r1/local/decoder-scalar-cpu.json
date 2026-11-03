@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "cases": 1988,
+  "method": "actual decoder scalar body compiled with host-only memory/API stubs; compares independent original-space oracle",
+  "target_CANN_compilation": false,
+  "device_execution": false
+}

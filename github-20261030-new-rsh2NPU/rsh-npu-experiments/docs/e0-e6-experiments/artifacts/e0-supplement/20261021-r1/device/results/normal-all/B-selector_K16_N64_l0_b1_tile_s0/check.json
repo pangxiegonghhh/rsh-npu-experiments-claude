@@ -1,0 +1,45 @@
+{
+  "case_id": "B-selector_K16_N64_l0_b1_tile_s0",
+  "stage": "S3",
+  "status": "PASS",
+  "path": "normal",
+  "iterations": 1,
+  "checks": [
+    {
+      "max_abs_error": 0.0,
+      "value_errors": 0,
+      "guard_errors": 0,
+      "first_bad": [],
+      "debug_guard_errors": 0,
+      "debug": [
+        1,
+        16,
+        16,
+        64
+      ],
+      "call_params_correct": true,
+      "padding_errors": 0
+    }
+  ],
+  "sources": {
+    "a": {
+      "guard_errors": 0,
+      "payload_unchanged": true
+    },
+    "b": {
+      "guard_errors": 0,
+      "payload_unchanged": true
+    },
+    "refs": {
+      "guard_errors": 0,
+      "payload_unchanged": true
+    },
+    "config": {
+      "guard_errors": 0,
+      "payload_unchanged": true
+    }
+  },
+  "read_range_check": true,
+  "observation_method": "selector_observed",
+  "max_abs_error": 0.0
+}

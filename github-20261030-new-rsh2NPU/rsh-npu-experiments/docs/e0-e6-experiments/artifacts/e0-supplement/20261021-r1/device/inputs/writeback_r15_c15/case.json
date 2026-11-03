@@ -1,0 +1,114 @@
+{
+  "id": "writeback_r15_c15",
+  "stage": "S1",
+  "config": [
+    32,
+    16,
+    48,
+    32,
+    16,
+    48,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+  ],
+  "global_k": 47,
+  "observation": "product",
+  "mapping": "scatter",
+  "tags": {},
+  "guard_bytes": 1024,
+  "a_source_elements": 512,
+  "a_l1_elements": 512,
+  "b_source_rows": 48,
+  "b_l1_elements": 768,
+  "mmad_calls": 1,
+  "expected_mmad": [
+    32,
+    16,
+    48
+  ],
+  "read_range_check": {
+    "pass": true,
+    "b_intervals_bytes": [
+      [
+        96,
+        192
+      ],
+      [
+        384,
+        480
+      ],
+      [
+        672,
+        768
+      ],
+      [
+        960,
+        1056
+      ],
+      [
+        1248,
+        1344
+      ],
+      [
+        1536,
+        1632
+      ],
+      [
+        1824,
+        1920
+      ],
+      [
+        2112,
+        2208
+      ],
+      [
+        2400,
+        2496
+      ],
+      [
+        2688,
+        2784
+      ],
+      [
+        2976,
+        3072
+      ],
+      [
+        3264,
+        3360
+      ],
+      [
+        3552,
+        3648
+      ],
+      [
+        3840,
+        3936
+      ],
+      [
+        4128,
+        4224
+      ],
+      [
+        4416,
+        4512
+      ]
+    ],
+    "a_nd_bytes": 1024,
+    "a_physical_bytes": 1024,
+    "refs_bytes": 64
+  },
+  "sha256": {
+    "golden.bin": "4f3e76308c712cb6604747bd20b5484f3f719a5f2150434aa5c94d96850ab329",
+    "refs.bin": "7a5d8bd14d556b2cc180143f961c0459fcf8fac4ff21a336fbe2ae31da7f2ba8",
+    "mask.bin": "4fd49f9bdb750657b15e232707d8a60711b26d00a9875aa77faf67a6480fa8ea",
+    "a.bin": "efa3a2ccd9c50fc86c6e3a70835d57f5e9a4bd20e92e396610215618b5803ddd",
+    "config.bin": "a5981d8f9b7130aa5a8fcd122742ab63b6f19030e15310e0e4303d2d3ea11678",
+    "a-direct.bin": "efa3a2ccd9c50fc86c6e3a70835d57f5e9a4bd20e92e396610215618b5803ddd",
+    "b.bin": "d11045ba36e113fc2cfe15deb7cc3a8ff5cf8f289f8886208e3d7a80ff888ef2"
+  }
+}

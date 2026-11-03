@@ -1,0 +1,297 @@
+[
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-A-selector_K1_s0",
+      "/data/e0-supplement-r1/results/tail-independent/tail-A-selector_K1_s0",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587130.016912,
+    "returncode": 0,
+    "end": 1792587132.2800345
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-B-selector_K1_s0",
+      "/data/e0-supplement-r1/results/tail-independent/tail-B-selector_K1_s0",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587132.2834086,
+    "returncode": 0,
+    "end": 1792587134.5509467
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-A-selector_K5_s0",
+      "/data/e0-supplement-r1/results/tail-independent/tail-A-selector_K5_s0",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587134.5541782,
+    "returncode": 0,
+    "end": 1792587137.8150167
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-B-selector_K5_s0",
+      "/data/e0-supplement-r1/results/tail-independent/tail-B-selector_K5_s0",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587137.8184204,
+    "returncode": 0,
+    "end": 1792587139.8794816
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-A-selector_K15_s0",
+      "/data/e0-supplement-r1/results/tail-independent/tail-A-selector_K15_s0",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587139.883017,
+    "returncode": 0,
+    "end": 1792587142.1429622
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-B-selector_K15_s0",
+      "/data/e0-supplement-r1/results/tail-independent/tail-B-selector_K15_s0",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587142.14663,
+    "returncode": 0,
+    "end": 1792587144.4109433
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-A-selector_K17_s0",
+      "/data/e0-supplement-r1/results/tail-independent/tail-A-selector_K17_s0",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587144.4145613,
+    "returncode": 0,
+    "end": 1792587146.6911123
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-B-selector_K17_s0",
+      "/data/e0-supplement-r1/results/tail-independent/tail-B-selector_K17_s0",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587146.694864,
+    "returncode": 0,
+    "end": 1792587149.9587166
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-A-selector_K17_s1",
+      "/data/e0-supplement-r1/results/tail-independent/tail-A-selector_K17_s1",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587149.962635,
+    "returncode": 0,
+    "end": 1792587152.222903
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-B-selector_K17_s1",
+      "/data/e0-supplement-r1/results/tail-independent/tail-B-selector_K17_s1",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587152.2268198,
+    "returncode": 0,
+    "end": 1792587154.4909172
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-A-selector_K31_s0",
+      "/data/e0-supplement-r1/results/tail-independent/tail-A-selector_K31_s0",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587154.4949439,
+    "returncode": 0,
+    "end": 1792587156.7590518
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-B-selector_K31_s0",
+      "/data/e0-supplement-r1/results/tail-independent/tail-B-selector_K31_s0",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587156.7633114,
+    "returncode": 0,
+    "end": 1792587160.0268989
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-A-selector_K31_s1",
+      "/data/e0-supplement-r1/results/tail-independent/tail-A-selector_K31_s1",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587160.0311298,
+    "returncode": 0,
+    "end": 1792587162.290863
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-B-selector_K31_s1",
+      "/data/e0-supplement-r1/results/tail-independent/tail-B-selector_K31_s1",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587162.295091,
+    "returncode": 0,
+    "end": 1792587164.5628839
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-A-selector_K37_s0",
+      "/data/e0-supplement-r1/results/tail-independent/tail-A-selector_K37_s0",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587164.5672965,
+    "returncode": 0,
+    "end": 1792587166.83276
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-B-selector_K37_s0",
+      "/data/e0-supplement-r1/results/tail-independent/tail-B-selector_K37_s0",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587166.8372247,
+    "returncode": 0,
+    "end": 1792587170.1029043
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-A-selector_K37_s1",
+      "/data/e0-supplement-r1/results/tail-independent/tail-A-selector_K37_s1",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587170.1077127,
+    "returncode": 0,
+    "end": 1792587172.1709762
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-B-selector_K37_s1",
+      "/data/e0-supplement-r1/results/tail-independent/tail-B-selector_K37_s1",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587172.1756136,
+    "returncode": 0,
+    "end": 1792587174.438265
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-A-selector_K37_s2",
+      "/data/e0-supplement-r1/results/tail-independent/tail-A-selector_K37_s2",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587174.4431279,
+    "returncode": 0,
+    "end": 1792587176.7069592
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-B-selector_K37_s2",
+      "/data/e0-supplement-r1/results/tail-independent/tail-B-selector_K37_s2",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {},
+    "start": 1792587176.7118745,
+    "returncode": 0,
+    "end": 1792587179.9783258
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/invalid-inputs/negative-ref",
+      "/data/e0-supplement-r1/results/rejection/negative-ref"
+    ],
+    "env_overrides": {},
+    "start": 1792587179.9863434,
+    "returncode": 1,
+    "end": 1792587180.4175336
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/invalid-inputs/misaligned-shape",
+      "/data/e0-supplement-r1/results/rejection/misaligned-shape"
+    ],
+    "env_overrides": {},
+    "start": 1792587180.4199812,
+    "returncode": 1,
+    "end": 1792587180.8504343
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build/e0_normal",
+      "/data/e0-supplement-r1/inputs/control_K16_N16",
+      "/data/e0-supplement-r1/results/repeat-0-normal/control_K16_N16",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792587180.851714,
+    "returncode": 0,
+    "end": 1792587184.1149082
+  }
+]

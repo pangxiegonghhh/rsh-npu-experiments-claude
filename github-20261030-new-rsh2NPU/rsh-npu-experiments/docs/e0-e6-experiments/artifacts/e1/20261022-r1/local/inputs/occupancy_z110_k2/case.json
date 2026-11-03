@@ -1,0 +1,19 @@
+{
+  "id": "occupancy_z110_k2",
+  "group": "occupancy",
+  "kind": "local_index",
+  "U": 16,
+  "N": 16,
+  "Kp": 16,
+  "Np": 16,
+  "tiles": 1,
+  "nnz": 110,
+  "sha256": {
+    "config.bin": "8e3a3f96fe594702049d2724ebb02daac94ef5ec3a44a7c4df9fd25d341ed0da",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73",
+    "desc.bin": "ecae6d3980ee18b161d6655315ccee7855b2b17fc8fc382486abab00327bc637",
+    "original-a.bin": "52a07851622cc727e4a7b39282d0fed64905bd4bc70abaff7281718e006d7d47",
+    "payload.bin": "b4a6d808a152c2183131ab5cb5fd22a19db6d6df107be74efd7fe120aa397781",
+    "cols.bin": "7b165dc88c54d04ea4da68fe3df961af209d84692e1599be0cb18edb6782f799"
+  }
+}

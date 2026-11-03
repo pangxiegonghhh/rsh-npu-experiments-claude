@@ -1,0 +1,12 @@
+{
+  "visible_device_count": 1,
+  "user_device_id_used_by_host": 0,
+  "logic_id": 0,
+  "physical_id": 6,
+  "returncodes": [
+    0,
+    0
+  ],
+  "header_sha256": "4691b8532495a556dce03d63a3ff431ddefedc982d0db6a337efeb101ec5180c",
+  "query": "aclrtGetLogicDevIdByUserDevId -> aclrtGetPhyDevIdByLogicDevId"
+}

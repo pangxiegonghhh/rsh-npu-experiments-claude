@@ -1,0 +1,4 @@
+["build/e0_direct", "inputs/control_K16_N16", "results/direct-expanded/control_K16_N16", "direct", "1"]
+["build/e0_direct", "inputs/control_K32_N33", "results/direct-expanded/control_K32_N33", "direct", "1"]
+["build/e0_direct", "inputs/control_K48_N64", "results/direct-expanded/control_K48_N64", "direct", "1"]
+["build/e0_direct", "inputs/control_K17_N17", "results/direct-expanded/control_K17_N17", "direct", "1"]

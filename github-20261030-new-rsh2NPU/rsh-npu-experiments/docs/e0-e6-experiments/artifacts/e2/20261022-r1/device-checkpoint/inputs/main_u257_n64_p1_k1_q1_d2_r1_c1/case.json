@@ -1,0 +1,24 @@
+{
+  "id": "main_u257_n64_p1_k1_q1_d2_r1_c1",
+  "U": 257,
+  "N": 64,
+  "Kp": 272,
+  "Np": 64,
+  "tiles": 17,
+  "q": 1,
+  "depth": 2,
+  "rounds": 1,
+  "capture": 1,
+  "kind": 1,
+  "group": "main",
+  "selector_tile": null,
+  "sha256": {
+    "run.bin": "74d0302269524932a37c562ed4eaef2d81fb2404a1a22a7e167f3e230776e75f",
+    "original-a.bin": "3c596f0d0bc19f099e82968d9a7948dd37e79e81d6c755e9341394ab99520018",
+    "cols.bin": "aa1be6b1a8783360719de2d3638fa80ba30461decffcedc118d302115f5121ed",
+    "payload.bin": "bdb08c5249fd6aec75b0297814b3294a8c64293d1280ee367d0daac75307c6bb",
+    "config.bin": "035a7d94de15403307d129fe79773c993cb1f98a8e1aadf3776839eb8ff3ac08",
+    "desc.bin": "392953714cded480ae861eb8fe68b4ad2a043f3c20ad77da69d31746a1022feb",
+    "b.bin": "268cc2a17e60ff12a4031584ceed7e9417bfd3f5b9ed96c31fbc97d3970684df"
+  }
+}

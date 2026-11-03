@@ -1,0 +1,10 @@
+CALL_OK "main_u0_n17_p1_k0" 0
+CALL_OK "main_u37_n17_p1_k0" 0
+CALL_OK "main_u37_n17_p1_k1" 0
+CALL_OK "main_u37_n17_p1_k2" 0
+CALL_OK "main_u37_n17_p1_k3" 0
+CALL_OK "occupancy_z0_k2" 0
+CALL_OK "occupancy_z1_k2" 0
+CALL_OK "occupancy_z256_k1" 0
+CALL_OK "main_u63_n64_p1_k3" 0
+BATCH_OK 9

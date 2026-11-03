@@ -1,0 +1,16 @@
+{
+  "archive_sha256": "fb4a87e09bf1e2ef02f58121be7aeec739ef04467588053995d9636e7bc0ca15",
+  "remote_sha256_as_displayed": "fb4a87e09bf1e2ef02f58121be7aeec739ef04467588053995d9636e7bc0ca15",
+  "remote_hash_matches_download": true,
+  "member_hashes_verified": 264,
+  "call_count": 120,
+  "all_calls_raw_outputs_independently_replayed": true,
+  "guard_checks_pass": true,
+  "max_abs_error": 0,
+  "hash_source": "Remote terminal output displayed in browser; direct browser download",
+  "followup_source_hashes": {
+    "npu/e0_probe/repeat_each.cpp": "33a4db46f2f9944e82160b7373885f8d5dbcedd46b5d362c82993244a7b70053",
+    "scripts/e0_each_call_followup.py": "5eb161e66b31887562f5915debaf810b70626b7d8a53f3c3aad5f4ca0f52307f"
+  },
+  "resource_query_unchanged": true
+}

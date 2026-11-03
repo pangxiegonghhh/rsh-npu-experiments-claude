@@ -1,0 +1,10 @@
+{
+  "status": "INCOMPLETE_SMOKE_DEVICE_EXCEPTION",
+  "main_driver_started": false,
+  "E3_started": false,
+  "first_case_call": "U0 CALL_OK; not yet independently replayed",
+  "first_nonempty": "U16 N17 Bitmap q1 depth1 stream sync acl507015 / MPU address invalid",
+  "root_cause": "UNRESOLVED",
+  "recovery": "original instance observed OFF; GPU unavailable; CPU-only recovery for evidence",
+  "time_utc": "2026-10-22T12:17:34Z"
+}

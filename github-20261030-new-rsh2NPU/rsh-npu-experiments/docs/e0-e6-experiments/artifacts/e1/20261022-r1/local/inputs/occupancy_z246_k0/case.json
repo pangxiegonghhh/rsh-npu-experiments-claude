@@ -1,0 +1,19 @@
+{
+  "id": "occupancy_z246_k0",
+  "group": "occupancy",
+  "kind": "dense",
+  "U": 16,
+  "N": 16,
+  "Kp": 16,
+  "Np": 16,
+  "tiles": 1,
+  "nnz": 246,
+  "sha256": {
+    "config.bin": "34c9642464f65f7b931b0f0f2605c80acc81251eb8ef16956175d91bf4a884b2",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73",
+    "desc.bin": "68b6dcbbe14c9d0393431c458ffe57e0ac310deb5d1ebd2645748b1ee1aea0bf",
+    "original-a.bin": "3f3a7ae7d2fe20c8f4b8f688b3caaca658bb3238fce7f8abd6052a86001d98bd",
+    "payload.bin": "3f3a7ae7d2fe20c8f4b8f688b3caaca658bb3238fce7f8abd6052a86001d98bd",
+    "cols.bin": "7b165dc88c54d04ea4da68fe3df961af209d84692e1599be0cb18edb6782f799"
+  }
+}

@@ -1,0 +1,907 @@
+{
+  "date": "2026-10-20",
+  "source_root": "/Users/Zhuanz/Desktop/研究生规划/rsh-spmm-910b",
+  "destination_root": "/Users/Zhuanz/Documents/ChatGPT/RSH迁移NPU实验",
+  "method": "independent regular-file copies; no symlinks or hardlinks",
+  "scope": [
+    "rsh",
+    "npu",
+    "diagnostics",
+    "scripts",
+    "tests",
+    "docs",
+    "inputs",
+    "requirements.txt",
+    "selected root documentation archived under docs/legacy-handoff"
+  ],
+  "excluded": [
+    ".git",
+    "__pycache__",
+    "*.pyc",
+    "results",
+    "cases*",
+    "build*",
+    "artifacts",
+    ".private"
+  ],
+  "files": [
+    {
+      "source": "rsh/__init__.py",
+      "destination": "rsh/__init__.py",
+      "bytes": 85,
+      "sha256": "ad82b0d4ccf0ee64c0dd0ba630b7ad0181d3e6105b225b8fb6ffb12af3a806a3"
+    },
+    {
+      "source": "rsh/planner.py",
+      "destination": "rsh/planner.py",
+      "bytes": 9422,
+      "sha256": "34a3d29088956d6810a215680ee532c39ab757d95acee59b9d2d7bffb8f67154"
+    },
+    {
+      "source": "rsh/prepare.py",
+      "destination": "rsh/prepare.py",
+      "bytes": 4060,
+      "sha256": "50b644aac54324eceeee51ede2debdae49e8a8badb09ca4c5530726f286cec85"
+    },
+    {
+      "source": "npu/CMakeLists.txt",
+      "destination": "npu/CMakeLists.txt",
+      "bytes": 1087,
+      "sha256": "9c77be8a96931463db864d2d0dd78a4f5c14c1cf6e8ad10fc84f3d83b1c4e9a9"
+    },
+    {
+      "source": "npu/common.h",
+      "destination": "npu/common.h",
+      "bytes": 123,
+      "sha256": "5ff64be12b7c6203fe159d6aa527d5314ee23232cd703acce1a5dd24d7d0b2fd"
+    },
+    {
+      "source": "npu/cube.cpp",
+      "destination": "npu/cube.cpp",
+      "bytes": 765,
+      "sha256": "4a74ee5c9396fd1d42732ca29d226e912085a3c6d0d568b163a5b5a8bafa45f9"
+    },
+    {
+      "source": "npu/dispatch.cpp",
+      "destination": "npu/dispatch.cpp",
+      "bytes": 1029,
+      "sha256": "c78009a3cc8e2434f2633352a65956bed52cbaa5d589f778734f887b9ba4504e"
+    },
+    {
+      "source": "npu/kernels.cpp",
+      "destination": "npu/kernels.cpp",
+      "bytes": 8285,
+      "sha256": "e3937e75cf698552bd65d1378cf6be0540489ffd81fc81dee81f13b037303da7"
+    },
+    {
+      "source": "npu/mix.cpp",
+      "destination": "npu/mix.cpp",
+      "bytes": 914,
+      "sha256": "2d5909c076d04e13743475e3d086993614cbf4c172e85fe0b5c045d792d8d002"
+    },
+    {
+      "source": "npu/restore.cpp",
+      "destination": "npu/restore.cpp",
+      "bytes": 1067,
+      "sha256": "f599e40d8cada8eb029f43c4c25b2e1b4323823c83c8404f9b6788225ee9e085"
+    },
+    {
+      "source": "npu/runner.cpp",
+      "destination": "npu/runner.cpp",
+      "bytes": 7199,
+      "sha256": "682fdee747127321d8855c2036af13af8a7baa1e90a92cde088ca5f33ab97088"
+    },
+    {
+      "source": "npu/vector.cpp",
+      "destination": "npu/vector.cpp",
+      "bytes": 774,
+      "sha256": "d13e9741668e789ca06c2cf9409d243dd8975191020e2f21fd8ce03af21f2bdf"
+    },
+    {
+      "source": "npu/work.h",
+      "destination": "npu/work.h",
+      "bytes": 5418,
+      "sha256": "042d28e5d330da386e36c627ae439aecb6a3da68b5734a7c38846b940c297760"
+    },
+    {
+      "source": "diagnostics/d0/runner.cpp",
+      "destination": "diagnostics/d0/runner.cpp",
+      "bytes": 8831,
+      "sha256": "823c39de62e736464cff8169210748f543d28c2e65e40b2df0f0cc0704b7a9e9"
+    },
+    {
+      "source": "diagnostics/d1/api_runner.cpp",
+      "destination": "diagnostics/d1/api_runner.cpp",
+      "bytes": 11566,
+      "sha256": "3a0fd6f664c35114da9eedad4b1cbb3613ef3bb921fc719b1cf54d57e0d1f2eb"
+    },
+    {
+      "source": "diagnostics/d1/profile_runner.cpp",
+      "destination": "diagnostics/d1/profile_runner.cpp",
+      "bytes": 10781,
+      "sha256": "f6573e789f87d69f2196cce28ab0fc58783b2554bce2ce981087eb1f26dc9073"
+    },
+    {
+      "source": "diagnostics/d1b/CMakeLists.txt",
+      "destination": "diagnostics/d1b/CMakeLists.txt",
+      "bytes": 652,
+      "sha256": "b832cf3f61562ff14b66c2b26200ffb45a80e6a150c293855c9d24f791646f7c"
+    },
+    {
+      "source": "diagnostics/d1b/profile_runner.cpp",
+      "destination": "diagnostics/d1b/profile_runner.cpp",
+      "bytes": 12084,
+      "sha256": "b4343a4d16f2dc78e2ba9d84dafae5977a4581d4d2448aee0a958acd77af7307"
+    },
+    {
+      "source": "diagnostics/d1b/runner.cpp",
+      "destination": "diagnostics/d1b/runner.cpp",
+      "bytes": 9349,
+      "sha256": "6d260225156ebe3537d6957e489fa6a0de724e48d44604df32ca47ea92bb8649"
+    },
+    {
+      "source": "diagnostics/d1b/zero.cpp",
+      "destination": "diagnostics/d1b/zero.cpp",
+      "bytes": 979,
+      "sha256": "27cca31c9e4b0c53c08d1096851dfbbb713a29307a8b76d99bd0b5ab9c5d5f02"
+    },
+    {
+      "source": "diagnostics/d1b/zero_probe.cpp",
+      "destination": "diagnostics/d1b/zero_probe.cpp",
+      "bytes": 1881,
+      "sha256": "c5cde4eba4041ce07e12d3b58796523a0a42e56fc323ada4bc088696b6d56332"
+    },
+    {
+      "source": "diagnostics/d2/profile_runner.cpp",
+      "destination": "diagnostics/d2/profile_runner.cpp",
+      "bytes": 12649,
+      "sha256": "1dfe7e07c5dc65c4adf9cbdbda2d6afe4b6b1c73ec061879d1a2504273ab4341"
+    },
+    {
+      "source": "diagnostics/d2/runner.cpp",
+      "destination": "diagnostics/d2/runner.cpp",
+      "bytes": 9914,
+      "sha256": "3f3b1aac7013d19d1eb98d22c780003443b047ff39f380e07ad12ad809fb32fb"
+    },
+    {
+      "source": "scripts/analyze_d0.py",
+      "destination": "scripts/analyze_d0.py",
+      "bytes": 7458,
+      "sha256": "0593037896c844fcd9c307d5eb787d096ee68827513bcfe915fde087a99793c8"
+    },
+    {
+      "source": "scripts/analyze_d1.py",
+      "destination": "scripts/analyze_d1.py",
+      "bytes": 7217,
+      "sha256": "f7d7e0fbaecaf763072fd1a401dcabb71ea37fee303dee5c5bd9f912e4c9a3dd"
+    },
+    {
+      "source": "scripts/analyze_d1b.py",
+      "destination": "scripts/analyze_d1b.py",
+      "bytes": 7011,
+      "sha256": "a21b5e1efdd3c33bad894cee70c3e7c05fe4da5b80a3872100e82663c12b9fc1"
+    },
+    {
+      "source": "scripts/analyze_d2.py",
+      "destination": "scripts/analyze_d2.py",
+      "bytes": 7581,
+      "sha256": "92cb861316cc290b1c6a5c5d70ffc8630409a07fb95aa7f19e09e20f0e386d44"
+    },
+    {
+      "source": "scripts/analyze_d3.py",
+      "destination": "scripts/analyze_d3.py",
+      "bytes": 8029,
+      "sha256": "bd005627c5332b62d5a3124cad3dcff5c4335049b251cdfbd1926593d2df5291"
+    },
+    {
+      "source": "scripts/analyze_six_versions.py",
+      "destination": "scripts/analyze_six_versions.py",
+      "bytes": 35005,
+      "sha256": "9b676b43724f92928abc767effdd97449f2f0792c5b1b01d50af160e425b19f1"
+    },
+    {
+      "source": "scripts/audit_d0.py",
+      "destination": "scripts/audit_d0.py",
+      "bytes": 5049,
+      "sha256": "520031a33468d64c6a84e0d2dd291cb7ab8fb6dafcd3666030fdd0201f30bccd"
+    },
+    {
+      "source": "scripts/audit_d1.py",
+      "destination": "scripts/audit_d1.py",
+      "bytes": 4675,
+      "sha256": "246601715eaaef2660f1dab219d03ffe683b19a50ac8e8c3a36ef7a075b029d1"
+    },
+    {
+      "source": "scripts/audit_d1_api.py",
+      "destination": "scripts/audit_d1_api.py",
+      "bytes": 2807,
+      "sha256": "1b3dc12d3d89c6e185573290f5ae6737300c6a111db99cdbb29942fa7361da66"
+    },
+    {
+      "source": "scripts/audit_d1b.py",
+      "destination": "scripts/audit_d1b.py",
+      "bytes": 4080,
+      "sha256": "b1f97ae2acee080d627d2cfefae44c8b9a15811d85122afa5c2dbf8bb67fb7b0"
+    },
+    {
+      "source": "scripts/audit_d2.py",
+      "destination": "scripts/audit_d2.py",
+      "bytes": 8055,
+      "sha256": "ddaf14f85759b9a6c8d739679ce12c0da88bd6401c34c8974e7a355043340cb8"
+    },
+    {
+      "source": "scripts/audit_d3.py",
+      "destination": "scripts/audit_d3.py",
+      "bytes": 8428,
+      "sha256": "9d80feb0c075312ea1bcf9eabb383c998c0ccabb5cb8a7594b0d103aaf991bd3"
+    },
+    {
+      "source": "scripts/audit_hc.py",
+      "destination": "scripts/audit_hc.py",
+      "bytes": 18695,
+      "sha256": "8796f8d7ff0df1b9b147d6d17a12f1175d287eadb541d7a898110f8f50ffa8f9"
+    },
+    {
+      "source": "scripts/audit_hv.py",
+      "destination": "scripts/audit_hv.py",
+      "bytes": 6747,
+      "sha256": "5c99f5e39809117f8a7d81ef9a605b7cd8988cd87ff4a6065cb08e101a28e73a"
+    },
+    {
+      "source": "scripts/audit_hv_grid.py",
+      "destination": "scripts/audit_hv_grid.py",
+      "bytes": 4378,
+      "sha256": "6534ef0fb41c795da5515f234ae64f6db2d2195e0a66b825bd61bf1e54e6c5b9"
+    },
+    {
+      "source": "scripts/audit_skip.py",
+      "destination": "scripts/audit_skip.py",
+      "bytes": 19760,
+      "sha256": "8f81a87f6205d21619aafc7c847899976694fa86557aa8dae32342c551db3f07"
+    },
+    {
+      "source": "scripts/audit_v0.py",
+      "destination": "scripts/audit_v0.py",
+      "bytes": 3437,
+      "sha256": "0790a55e5f578118c7b5ba370c309a056562490632e83451af7393cb86da0a69"
+    },
+    {
+      "source": "scripts/audit_v1.py",
+      "destination": "scripts/audit_v1.py",
+      "bytes": 5944,
+      "sha256": "2eeaee809b293745dd082e44f2ac3603d7dac113a2700afb1564199e70eab1f1"
+    },
+    {
+      "source": "scripts/audit_v2.py",
+      "destination": "scripts/audit_v2.py",
+      "bytes": 5783,
+      "sha256": "001380e18b69d36860361a622fcfc94cdfbb127455552df68df19414efeb5251"
+    },
+    {
+      "source": "scripts/backup_closeout.py",
+      "destination": "scripts/backup_closeout.py",
+      "bytes": 2199,
+      "sha256": "2d9e992c4777688aac485e046f0d64b52cdb820cb3817b504a28e32bfc0a4674"
+    },
+    {
+      "source": "scripts/backup_project.py",
+      "destination": "scripts/backup_project.py",
+      "bytes": 5814,
+      "sha256": "d3ac701056d9400ddb2ecd21f0ba856fb84736f0adef73ad57518eee728df678"
+    },
+    {
+      "source": "scripts/build_share_bundle.py",
+      "destination": "scripts/build_share_bundle.py",
+      "bytes": 8655,
+      "sha256": "9cdc853b30f16edc4b00184211280bca17d5f1316d6c2d238f9015df58d4c999"
+    },
+    {
+      "source": "scripts/checkpoint_d2.py",
+      "destination": "scripts/checkpoint_d2.py",
+      "bytes": 2356,
+      "sha256": "2274008d56e296a1c6cb6367eef5f000bd9552e0ef3c6bdc8d5a8aafb17dcfd0"
+    },
+    {
+      "source": "scripts/checkpoint_d3.py",
+      "destination": "scripts/checkpoint_d3.py",
+      "bytes": 2015,
+      "sha256": "c690900dec7ab485ac9aacbc8ec449dcd84d306df2fe4160239f6a10c903e255"
+    },
+    {
+      "source": "scripts/d1_api.py",
+      "destination": "scripts/d1_api.py",
+      "bytes": 4491,
+      "sha256": "ecc0acf29d4fa55f73923f6c36a35b06600d6521fdd679219aeecf95f13ddba0"
+    },
+    {
+      "source": "scripts/d1_sequence.py",
+      "destination": "scripts/d1_sequence.py",
+      "bytes": 1431,
+      "sha256": "a2b9405d9a0216c3bb629929a0411c22d02d76c08a8eed0a9901bbbf9fc177ac"
+    },
+    {
+      "source": "scripts/d1b_sequence.py",
+      "destination": "scripts/d1b_sequence.py",
+      "bytes": 1139,
+      "sha256": "889bd579ab0e75f5f16fd7d6dd0c7cfbc32b5a9c81386c348fa96c90bbf6717b"
+    },
+    {
+      "source": "scripts/d2_sequence.py",
+      "destination": "scripts/d2_sequence.py",
+      "bytes": 1466,
+      "sha256": "ad87cca71b2b07fb06ced6e351d33cfee2b4bb872f9678987186ec18cc1bc8d7"
+    },
+    {
+      "source": "scripts/d3_sequence.py",
+      "destination": "scripts/d3_sequence.py",
+      "bytes": 1156,
+      "sha256": "72dd0b18898cc53fe5e461e1831e33d126d01c5a854941687197c9a6ed522683"
+    },
+    {
+      "source": "scripts/decide_hc_threshold.py",
+      "destination": "scripts/decide_hc_threshold.py",
+      "bytes": 3066,
+      "sha256": "30ad8925e2252ccafa71d72075c653fc6cb676983129ce02bd98bb55b25cd8f1"
+    },
+    {
+      "source": "scripts/export_d0.py",
+      "destination": "scripts/export_d0.py",
+      "bytes": 2294,
+      "sha256": "218464bf16c603878a611785f6827d01f5f6f2bf9db7eefbb15b7177899ebabc"
+    },
+    {
+      "source": "scripts/export_d1.py",
+      "destination": "scripts/export_d1.py",
+      "bytes": 2684,
+      "sha256": "62daec3434c5f05448130e5eb226131ea38a1a0c172465a1e1ad9df339e6b872"
+    },
+    {
+      "source": "scripts/export_d1_api.py",
+      "destination": "scripts/export_d1_api.py",
+      "bytes": 1526,
+      "sha256": "8fe4f41ed3f30664545f8cbc2a641c9149e19496fc9942fef381c4f8f4c0e5c2"
+    },
+    {
+      "source": "scripts/export_d1b.py",
+      "destination": "scripts/export_d1b.py",
+      "bytes": 1628,
+      "sha256": "6d050ea37af5875790325d50526cf06912ad763a0493f36d32f680a25c46b6fc"
+    },
+    {
+      "source": "scripts/export_d2.py",
+      "destination": "scripts/export_d2.py",
+      "bytes": 1810,
+      "sha256": "d2e1e6cafe7f570efbbf3f800d1b2f6ab2f7072c6882d5610f8fd5a0d8547eea"
+    },
+    {
+      "source": "scripts/export_d3.py",
+      "destination": "scripts/export_d3.py",
+      "bytes": 1696,
+      "sha256": "46c242a54a42b923d0c4082cec35b36301db0313315bca5fc4a106724b0dd8d5"
+    },
+    {
+      "source": "scripts/export_hc.py",
+      "destination": "scripts/export_hc.py",
+      "bytes": 1846,
+      "sha256": "69f2b713bbc27e13538b82f7c85920a3f0d73684a5ca6ccf3dceab839da01a20"
+    },
+    {
+      "source": "scripts/export_hv.py",
+      "destination": "scripts/export_hv.py",
+      "bytes": 1843,
+      "sha256": "d93afa050fe40a1c9c04bdfb6ce4494079ba7308d344780372d6d2a19b230b86"
+    },
+    {
+      "source": "scripts/export_run.py",
+      "destination": "scripts/export_run.py",
+      "bytes": 2040,
+      "sha256": "85b9d458e12f712822dd237c345185f295eeffdc418bc513e2ee72a7fb3bc9aa"
+    },
+    {
+      "source": "scripts/export_skip.py",
+      "destination": "scripts/export_skip.py",
+      "bytes": 1978,
+      "sha256": "2b84d28005147d16641db608751754e25f634524ffc6bc2b94a628c3ea060c5b"
+    },
+    {
+      "source": "scripts/export_v2.py",
+      "destination": "scripts/export_v2.py",
+      "bytes": 1789,
+      "sha256": "a2de32321ec21a350ff0160abb25f2ceab1b756fcd3d1319b23b8a3eea96a490"
+    },
+    {
+      "source": "scripts/fix_config_pointer.py",
+      "destination": "scripts/fix_config_pointer.py",
+      "bytes": 1798,
+      "sha256": "c8c928e3a8d66df193b6e345e895fe7fe202adbc38d48e5cce9b0b9105d3ae49"
+    },
+    {
+      "source": "scripts/hc_cases.py",
+      "destination": "scripts/hc_cases.py",
+      "bytes": 12982,
+      "sha256": "abdb4d7a2034e176dc0eccd3730fdf696f51881d6978d3b92a03c4ef3d785ec9"
+    },
+    {
+      "source": "scripts/hv_cases.py",
+      "destination": "scripts/hv_cases.py",
+      "bytes": 7377,
+      "sha256": "15039d0995e733cd8af18798b0768bbd752544431d7263841aaad3691345eb7d"
+    },
+    {
+      "source": "scripts/import_d1.py",
+      "destination": "scripts/import_d1.py",
+      "bytes": 1150,
+      "sha256": "910a27779d2ba8480ec9cb065d550b37fff9d24a7b02ed6315748ccafb60d2ae"
+    },
+    {
+      "source": "scripts/import_evidence.py",
+      "destination": "scripts/import_evidence.py",
+      "bytes": 1095,
+      "sha256": "501e988d452ddb7fcd998457b39cf65e0c4852263bef872887d1e5b77cdbf556"
+    },
+    {
+      "source": "scripts/make_smoke.py",
+      "destination": "scripts/make_smoke.py",
+      "bytes": 1427,
+      "sha256": "c347937a008b6e4a4562eaad77ac413558f99506d90ded7060585ea05fc9b0ce"
+    },
+    {
+      "source": "scripts/plot_d0.py",
+      "destination": "scripts/plot_d0.py",
+      "bytes": 2675,
+      "sha256": "c96c2c125a415fab62d7b3bdf872c25f6ea4c5c7ce0efdf7128d5b1cda9250b7"
+    },
+    {
+      "source": "scripts/plot_d1.py",
+      "destination": "scripts/plot_d1.py",
+      "bytes": 2223,
+      "sha256": "00480be398e825efaf7a422dc86bac19b13734d26aa7c322659c3fd29ce10aad"
+    },
+    {
+      "source": "scripts/plot_d1b.py",
+      "destination": "scripts/plot_d1b.py",
+      "bytes": 1688,
+      "sha256": "a7d63218f4d518437d101812f92689459f4b22a5b2007433f2040ebf9c3d5638"
+    },
+    {
+      "source": "scripts/prepare_d0.py",
+      "destination": "scripts/prepare_d0.py",
+      "bytes": 5975,
+      "sha256": "e4b6105d319f2ba5fa9bd683987cbc9c498f1c0f2c62f190236bb6dab1875139"
+    },
+    {
+      "source": "scripts/prepare_d1.py",
+      "destination": "scripts/prepare_d1.py",
+      "bytes": 9325,
+      "sha256": "d562544bf5e7803c703e3c5f6f479a8dd6f15fd166e61680c858ef7aa9a5c6d7"
+    },
+    {
+      "source": "scripts/prepare_d1_api.py",
+      "destination": "scripts/prepare_d1_api.py",
+      "bytes": 3691,
+      "sha256": "f2c23bcdde60a95b3cabd231ab328c3cea412da9535b82eadb6945d4370d2192"
+    },
+    {
+      "source": "scripts/prepare_d1b.py",
+      "destination": "scripts/prepare_d1b.py",
+      "bytes": 7088,
+      "sha256": "0a169c988cd0dae82b8298c2dcd94ccb1550a43995caf7a9ec22f60cb0280fc1"
+    },
+    {
+      "source": "scripts/prepare_d2.py",
+      "destination": "scripts/prepare_d2.py",
+      "bytes": 12979,
+      "sha256": "44efaf103fde89c3e9578e0b1b374cca62f2ed513f008ebc68466530cf23d0a2"
+    },
+    {
+      "source": "scripts/prepare_d3.py",
+      "destination": "scripts/prepare_d3.py",
+      "bytes": 11633,
+      "sha256": "b5ea58aa44f9fc6893eb7222f54f6f3b9125e380c787686f86a60be2d9621627"
+    },
+    {
+      "source": "scripts/report_d1.py",
+      "destination": "scripts/report_d1.py",
+      "bytes": 10815,
+      "sha256": "8fd3ce6fdf4e50183a6e9227c5ca6490ee312c6bc2f8bcf01855805d31ae761b"
+    },
+    {
+      "source": "scripts/report_d1b.py",
+      "destination": "scripts/report_d1b.py",
+      "bytes": 11179,
+      "sha256": "9424760e36d6e1efbffac5e7fb97410a031d54dd5e268763665ad28fcc86ebae"
+    },
+    {
+      "source": "scripts/report_d2.py",
+      "destination": "scripts/report_d2.py",
+      "bytes": 14700,
+      "sha256": "b324a3a18ec7f377972a39a60d21dffa2dc91111dbe02f9c7a40d2c3ce35096a"
+    },
+    {
+      "source": "scripts/report_d3.py",
+      "destination": "scripts/report_d3.py",
+      "bytes": 14822,
+      "sha256": "b580845648d7fd937eb494aceb9a2a866edc0cbe7a7c52df0f69d85e7db8286e"
+    },
+    {
+      "source": "scripts/report_hc.py",
+      "destination": "scripts/report_hc.py",
+      "bytes": 8622,
+      "sha256": "34bd393bcaf6dc69dc8bd66f6185df72594137a2fef10b269ac79e0af90edfe4"
+    },
+    {
+      "source": "scripts/report_hv.py",
+      "destination": "scripts/report_hv.py",
+      "bytes": 7086,
+      "sha256": "a6c6f18b321563b424883e031f95772eb6304e24c1421f4d342b951852b96912"
+    },
+    {
+      "source": "scripts/report_skip.py",
+      "destination": "scripts/report_skip.py",
+      "bytes": 9413,
+      "sha256": "9f8934e436b89162131948cc9339c5e5067c8434adedbd0734266645b06a2a64"
+    },
+    {
+      "source": "scripts/report_v2.py",
+      "destination": "scripts/report_v2.py",
+      "bytes": 5221,
+      "sha256": "4b9c6b989f969ba36f60cd628a421cc13b99798124c437b5bad1c7f28d8a82f8"
+    },
+    {
+      "source": "scripts/restore_d0_runtime.py",
+      "destination": "scripts/restore_d0_runtime.py",
+      "bytes": 1487,
+      "sha256": "c693df0f804e1412a1a1a844be7928734babb3d3a84d146df2c9af590c665df3"
+    },
+    {
+      "source": "scripts/restore_d1_runtime.py",
+      "destination": "scripts/restore_d1_runtime.py",
+      "bytes": 1790,
+      "sha256": "daff94e5b0bec8c1f2e10ba55fd5dbb25328f94b9cc29da701cabd5f79dae7a4"
+    },
+    {
+      "source": "scripts/restore_d1b_runtime.py",
+      "destination": "scripts/restore_d1b_runtime.py",
+      "bytes": 1278,
+      "sha256": "85081354c382c319f9d1f2df822eba2a0dffbcb7d3f4ae639ff51d65e5cf8a3f"
+    },
+    {
+      "source": "scripts/restore_d2_runtime.py",
+      "destination": "scripts/restore_d2_runtime.py",
+      "bytes": 2299,
+      "sha256": "0d0d61ca83df3746fe07516d87a25afcd073e32e37b79f870cc0162b75a4ee5b"
+    },
+    {
+      "source": "scripts/restore_d3_runtime.py",
+      "destination": "scripts/restore_d3_runtime.py",
+      "bytes": 2202,
+      "sha256": "98b2dcc77663dd24023cfe41c608c8367c5d5ca401c72a44dbd8dba5e81d297f"
+    },
+    {
+      "source": "scripts/restore_hc_cases.py",
+      "destination": "scripts/restore_hc_cases.py",
+      "bytes": 3338,
+      "sha256": "749f5d053246f3aaffc38fdef3567fefd7bb621703e3f8d5e52a9ddc8058db6f"
+    },
+    {
+      "source": "scripts/restore_hv_cases.py",
+      "destination": "scripts/restore_hv_cases.py",
+      "bytes": 2466,
+      "sha256": "ce4711aa5567c816383a4faf2d39ce2c813af850ea142a6f0c6f23fd5c71ebca"
+    },
+    {
+      "source": "scripts/restore_hv_grid_cases.py",
+      "destination": "scripts/restore_hv_grid_cases.py",
+      "bytes": 2357,
+      "sha256": "27e9376eddd56f75acc7cc88e7803f2989713b2e45f35b97cc8015cfde640f1c"
+    },
+    {
+      "source": "scripts/restore_skip_cases.py",
+      "destination": "scripts/restore_skip_cases.py",
+      "bytes": 5914,
+      "sha256": "6721793bf75b219d2d5e792e46f3bc291cd74a1cbd43f22505fb55b0621ec158"
+    },
+    {
+      "source": "scripts/restore_v0_cases.py",
+      "destination": "scripts/restore_v0_cases.py",
+      "bytes": 2492,
+      "sha256": "b27abd027b76981ae9c0e3f27eb24b305d04ecbee27866dc8f7062e268619875"
+    },
+    {
+      "source": "scripts/restore_v1_cases.py",
+      "destination": "scripts/restore_v1_cases.py",
+      "bytes": 2283,
+      "sha256": "a0a095224595b614a05b8e4585e75d7f6050709a4e135db8743eadd0c54a1438"
+    },
+    {
+      "source": "scripts/restore_v2_cases.py",
+      "destination": "scripts/restore_v2_cases.py",
+      "bytes": 2525,
+      "sha256": "79c8293a0feecbbe51a0ad055121f8ac402f1cbc52865c82c12469c0aceddbd6"
+    },
+    {
+      "source": "scripts/run_d0.py",
+      "destination": "scripts/run_d0.py",
+      "bytes": 14932,
+      "sha256": "60ef0aa436144711c53c5bb5a3cecc7500bd2e57401349dac2ee4505c7a1b5ab"
+    },
+    {
+      "source": "scripts/run_d1.py",
+      "destination": "scripts/run_d1.py",
+      "bytes": 12776,
+      "sha256": "c729638222daccbf04f3e97a99ff658d40d8db195ce3634db23d6f085879f291"
+    },
+    {
+      "source": "scripts/run_d1b.py",
+      "destination": "scripts/run_d1b.py",
+      "bytes": 11019,
+      "sha256": "619c999979df9f68e785eb5addfa2b92a81808b4ee5739fafb11c84a3d82679a"
+    },
+    {
+      "source": "scripts/run_d2.py",
+      "destination": "scripts/run_d2.py",
+      "bytes": 12582,
+      "sha256": "641c29a96a6d52e2551bef6fa1c205a41d45f0dd4c5abb1b7c2b335fb5202f69"
+    },
+    {
+      "source": "scripts/run_d3.py",
+      "destination": "scripts/run_d3.py",
+      "bytes": 13529,
+      "sha256": "79b0763a6f29cead37b95f860e5fa3bd76f2e01da031e07d7f28dfacee09e6d2"
+    },
+    {
+      "source": "scripts/run_hc.py",
+      "destination": "scripts/run_hc.py",
+      "bytes": 14683,
+      "sha256": "f99c04ff1eb64fce48ac0ef444e8b214f50a7c6c9b891c97ba877d587016025e"
+    },
+    {
+      "source": "scripts/run_hv.py",
+      "destination": "scripts/run_hv.py",
+      "bytes": 6921,
+      "sha256": "c7add26b5503f1aaa7dfd5b84f6be5d6a99c58d48d8d7826afa6a16ee080b581"
+    },
+    {
+      "source": "scripts/run_hv_grid.py",
+      "destination": "scripts/run_hv_grid.py",
+      "bytes": 6742,
+      "sha256": "b41e27fa5c2bcf54f9d89686f2a4a8c03769459cdfda7f18b372859a4b98c580"
+    },
+    {
+      "source": "scripts/run_skip.py",
+      "destination": "scripts/run_skip.py",
+      "bytes": 16428,
+      "sha256": "b9c76064cceb1f4977e9d6d47aa11cd32c5fee784018b49c3dad7dc3bb50d343"
+    },
+    {
+      "source": "scripts/run_v0.py",
+      "destination": "scripts/run_v0.py",
+      "bytes": 6098,
+      "sha256": "f6bedaa30a7dfccec26b5f486f66bedbf98869221f95919b2f46c7915d85eada"
+    },
+    {
+      "source": "scripts/run_v1.py",
+      "destination": "scripts/run_v1.py",
+      "bytes": 7587,
+      "sha256": "88fa0175229fb415ca2ea755d68134a6e928d8d31c05729effc7d5da3649f00d"
+    },
+    {
+      "source": "scripts/run_v2.py",
+      "destination": "scripts/run_v2.py",
+      "bytes": 10424,
+      "sha256": "33c88503c07366c4e1fb58d2374128d8360ab0a2812b9f6cad5135860546d42f"
+    },
+    {
+      "source": "scripts/skip_cases.py",
+      "destination": "scripts/skip_cases.py",
+      "bytes": 14665,
+      "sha256": "da3772440b3be37a1ad170748c3135219f639e24c38636a57d55369b08feaf11"
+    },
+    {
+      "source": "scripts/skip_resources.py",
+      "destination": "scripts/skip_resources.py",
+      "bytes": 2694,
+      "sha256": "33b2acd62fc7c7e3e19429d0f49b158e7ab3c11bbb8dc8a29bedeab6e39205d6"
+    },
+    {
+      "source": "scripts/split_kernel_entries.py",
+      "destination": "scripts/split_kernel_entries.py",
+      "bytes": 1769,
+      "sha256": "909ce94b81e7cf28da0decdaa5367cc9fdf5f76ef1ded6aaa998db2898f6dcaa"
+    },
+    {
+      "source": "scripts/validate_mixed.py",
+      "destination": "scripts/validate_mixed.py",
+      "bytes": 1553,
+      "sha256": "95707859960d0fa68ed4e7adfdefc5b01f553a1964d9e00819464e8772ee4dcd"
+    },
+    {
+      "source": "tests/test_hc.py",
+      "destination": "tests/test_hc.py",
+      "bytes": 6239,
+      "sha256": "ab2a8cc1ac5068eb901f970119b6aea38e26a640b0e51186b116e8ff40521756"
+    },
+    {
+      "source": "tests/test_planner.py",
+      "destination": "tests/test_planner.py",
+      "bytes": 2307,
+      "sha256": "6685c6111fba046fb0415ef3d8c1aab4048d5b281fda4c7faa21a056b477cea7"
+    },
+    {
+      "source": "tests/test_skip.py",
+      "destination": "tests/test_skip.py",
+      "bytes": 8916,
+      "sha256": "09fef552138e7c40e45298b4f083033d308f201d736f45ee7d2d44e061583eae"
+    },
+    {
+      "source": "docs/.DS_Store",
+      "destination": "docs/.DS_Store",
+      "bytes": 6148,
+      "sha256": "0f34b256cbb672e11b52690a59e5d5f3ebef6bda2eed9b1eed397717799cbb08"
+    },
+    {
+      "source": "docs/910B框架迁移-测试实验设计-v2.md",
+      "destination": "docs/910B框架迁移-测试实验设计-v2.md",
+      "bytes": 15257,
+      "sha256": "9562b50fa65ef5124718568a01c82e014e3c09527375095f36ad65f975516041"
+    },
+    {
+      "source": "docs/npu-design-roadmap-20261019/notes.md",
+      "destination": "docs/npu-design-roadmap-20261019/notes.md",
+      "bytes": 3052,
+      "sha256": "76ce712ffe9a76bb1197ffbd3dd663c0e24b4854737d5fad4ebe202775910106"
+    },
+    {
+      "source": "docs/npu-design-roadmap-20261019/task_plan.md",
+      "destination": "docs/npu-design-roadmap-20261019/task_plan.md",
+      "bytes": 1105,
+      "sha256": "71846a74facbca61959334486f045a9f05f8e377de102393a95ca2af85dcf042"
+    },
+    {
+      "source": "docs/npu-design-roadmap-20261019/整体路线与Cube供数主线.md",
+      "destination": "docs/npu-design-roadmap-20261019/整体路线与Cube供数主线.md",
+      "bytes": 12652,
+      "sha256": "8c823d226dcef5107ffaf5e051be3c84d0f01d37d2ed9da8585a982752725bca"
+    },
+    {
+      "source": "docs/project-overview-20261020/notes.md",
+      "destination": "docs/project-overview-20261020/notes.md",
+      "bytes": 1604,
+      "sha256": "8efb06d978fde6f96cace1d4d4c85ecaae938015a4248203acce976f0281da48"
+    },
+    {
+      "source": "docs/project-overview-20261020/task_plan.md",
+      "destination": "docs/project-overview-20261020/task_plan.md",
+      "bytes": 1478,
+      "sha256": "906f837b77c7768a3eb0ef9b2b733ecb0f4867f3413607b06013bb8bc4e2f353"
+    },
+    {
+      "source": "docs/project-overview-20261020/verification.json",
+      "destination": "docs/project-overview-20261020/verification.json",
+      "bytes": 1180,
+      "sha256": "08d2447414066607c381a67d5b4afc238d161cec4fe1e46fa63a312845d4de16"
+    },
+    {
+      "source": "docs/project-overview-20261020/关键数据索引.json",
+      "destination": "docs/project-overview-20261020/关键数据索引.json",
+      "bytes": 38421,
+      "sha256": "b31fd5229a6b0592470487f8185cc2f757a4b7739c40260ff474a2936ee0e8e3"
+    },
+    {
+      "source": "docs/project-overview-20261020/实验数据速查.md",
+      "destination": "docs/project-overview-20261020/实验数据速查.md",
+      "bytes": 5062,
+      "sha256": "59000a7c04101891495cc707ba54400d2e769df570d8cd569eafcc2669c219c7"
+    },
+    {
+      "source": "docs/share-bundle-20261020/notes.md",
+      "destination": "docs/share-bundle-20261020/notes.md",
+      "bytes": 1240,
+      "sha256": "965fe1569b92cf0f1f84b7d5b62fcbf8968db31987382ba39498651d2e7059ba"
+    },
+    {
+      "source": "docs/share-bundle-20261020/task_plan.md",
+      "destination": "docs/share-bundle-20261020/task_plan.md",
+      "bytes": 1242,
+      "sha256": "f7296e86a3d9a77bd5736f072ae9fb101955c5fdc58f358cc5d64ad1c644d7de"
+    },
+    {
+      "source": "inputs/Boeing_bcsstk38.npz",
+      "destination": "inputs/Boeing_bcsstk38.npz",
+      "bytes": 718811,
+      "sha256": "6dbe65e87b4a1c62730edce9e9d1d1de27f656abe13e3175ea9d76433b804ef8"
+    },
+    {
+      "source": "inputs/FEMLAB_ns3Da.npz",
+      "destination": "inputs/FEMLAB_ns3Da.npz",
+      "bytes": 6406385,
+      "sha256": "a5ab51df2c0a7fe81676a7477eae50380cf8368e99953682957f6c6631d5dfb0"
+    },
+    {
+      "source": "inputs/HB_bcsstk17.npz",
+      "destination": "inputs/HB_bcsstk17.npz",
+      "bytes": 891238,
+      "sha256": "0c0bf98b172cc4ec52f8d67c34f46b0a904ec17d16681326dc6d7cb9217722a5"
+    },
+    {
+      "source": "inputs/SNAP_ca-HepTh.npz",
+      "destination": "inputs/SNAP_ca-HepTh.npz",
+      "bytes": 215074,
+      "sha256": "6f4650f1b04bac4f5482c0eb50e22a80051d408648410396de57d40c17573b47"
+    },
+    {
+      "source": "inputs/SNAP_cit-HepTh.npz",
+      "destination": "inputs/SNAP_cit-HepTh.npz",
+      "bytes": 1300463,
+      "sha256": "04f6e6e80b5bd1ad353cea852df0368f344c6d8fe6f7f0016ecb10d825f13c89"
+    },
+    {
+      "source": "inputs/SNAP_email-Enron.npz",
+      "destination": "inputs/SNAP_email-Enron.npz",
+      "bytes": 1319863,
+      "sha256": "bf24fdaa428f9ecf6d5f5514bf6a9bd8265c28801048e23a81eb29c61d49a547"
+    },
+    {
+      "source": "inputs/SNAP_web-NotreDame.npz",
+      "destination": "inputs/SNAP_web-NotreDame.npz",
+      "bytes": 4181822,
+      "sha256": "9b94d742f122f8a3213637e9c5b8fe96984a04708d79b1ce8b70174a1335ae7a"
+    },
+    {
+      "source": "inputs/Schmid_thermal1.npz",
+      "destination": "inputs/Schmid_thermal1.npz",
+      "bytes": 1947008,
+      "sha256": "57d8d1b133a866f3d33d91f473336d3d27787b10924fdf3c47291cde9fd9de30"
+    },
+    {
+      "source": "requirements.txt",
+      "destination": "requirements.txt",
+      "bytes": 78,
+      "sha256": "ea52ad326d12c580ef185d067d5794679db4526b54ef68ea8a3458f8476feadc"
+    },
+    {
+      "source": "RSH-910B-完整项目交接材料.md",
+      "destination": "docs/legacy-handoff/RSH-910B-完整项目交接材料.md",
+      "bytes": 41290,
+      "sha256": "a4e18f61d90917b352e71042e2023fad1df48a4f6400c9c322785ed141512ce4"
+    },
+    {
+      "source": "项目资料总览.md",
+      "destination": "docs/legacy-handoff/项目资料总览.md",
+      "bytes": 23522,
+      "sha256": "8edb71876ab9a4b9bedd60e667cde4e34d0cb1d45dbaa7354a3d9846c85a2124"
+    },
+    {
+      "source": "实验记录.md",
+      "destination": "docs/legacy-handoff/实验记录.md",
+      "bytes": 57923,
+      "sha256": "df10da95e4807eeb6439d632b77de822370c8697ec28697cc5081c3dc871e371"
+    },
+    {
+      "source": "续跑说明.md",
+      "destination": "docs/legacy-handoff/续跑说明.md",
+      "bytes": 5775,
+      "sha256": "1634b2629b1a2aa73d780dc19527b9feb210aa22325379326f4fb8f55e86213f"
+    },
+    {
+      "source": "备份清单.md",
+      "destination": "docs/legacy-handoff/备份清单.md",
+      "bytes": 17184,
+      "sha256": "bbc071c7aa23400ddc820d53a11a01880862cb52e0f6e089b97c9fe2d929ed54"
+    },
+    {
+      "source": "恢复环境.md",
+      "destination": "docs/legacy-handoff/恢复环境.md",
+      "bytes": 15739,
+      "sha256": "8543cb12773443b616c03c3938925bad9ef23c34dbc95db3426994320cd02c11"
+    },
+    {
+      "source": "task_plan.md",
+      "destination": "docs/legacy-handoff/task_plan.md",
+      "bytes": 10375,
+      "sha256": "856459a68e33af9e08da2f57a262f9edec8140e56c7d259e21a957f05278134f"
+    }
+  ],
+  "count": 146,
+  "total_bytes": 17952225
+}

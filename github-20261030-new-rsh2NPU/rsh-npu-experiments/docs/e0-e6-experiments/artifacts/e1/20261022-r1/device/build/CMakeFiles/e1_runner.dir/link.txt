@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/e1_runner.dir/host.cpp.o -o e1_runner   -L/usr/local/Ascend/cann-9.0.0/lib64  -L/usr/local/Ascend/cann-9.0.0/tools/simulator/Ascend910B2/lib  lib/libe1_decode_lib.a lib/libe1_cube_lib.a -lascendcl -lruntime -ltiling_api -lregister -lplatform -lerror_manager -lprofapi -lge_common_base -lunified_dlog -lmmpa -ldl -lascend_dump -lc_sec 

@@ -1,0 +1,19 @@
+{
+  "id": "occupancy_z35_k2",
+  "group": "occupancy",
+  "kind": "local_index",
+  "U": 16,
+  "N": 16,
+  "Kp": 16,
+  "Np": 16,
+  "tiles": 1,
+  "nnz": 35,
+  "sha256": {
+    "config.bin": "f3c4d302f188c7c050278ce3d75eebcef5712a832cc5b12dcf6f3ac0d8409d02",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73",
+    "desc.bin": "34af44f26261de66dedbac94dbe31d37e708a37c244db3e083d3ed8e6448cb29",
+    "original-a.bin": "556dfef0e593adcb062f5573c45816410b31d76d644ef43a67eba72274615138",
+    "payload.bin": "dc5f61dfacffa71222cbe870aea3bf1938ffb860c19e493b1c0057df6cf204ce",
+    "cols.bin": "7b165dc88c54d04ea4da68fe3df961af209d84692e1599be0cb18edb6782f799"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "summary.md": "660889ed7d8a9957a7faf667b910a5a615cf48cea62cfad71abbcccabf302d8d",
+  "completion-audit-followup.md": "e2ba5e55f1a63decb57652bb3147f621e2688b804cc375b36120c2d28160ce3e",
+  "local-transfer-verification.json": "9a14c9cc9700b7a163e4a62b0171204077b8434d80d8c2c679e2d00a980af699",
+  "local-output-replay.json": "e8fa988dbf8d4b79073fe0df2a741e6781957a71f633e339afb4a7298f96d8fc",
+  "each-call-local-verification.json": "8804990303ef414d5cc8ec387f57aaf9a4aafc74104267b3b43dfc1a8d3958ec",
+  "local-validation.json": "f6a542cdcbc37f8b9c74058a14e741a04d47d2ae57e9a8da675732cb6ebca470",
+  "instance-off-final.png": "cb9252a13491360bb255f0548cb23ef2f14481c265a3dd8e81e38577c111310b",
+  "instance-off-each-call.png": "4e40654b58658da5d007f50ff8a99e35bf0615893c6e64ec9d9a05042c7898ba",
+  "e0-evidence-final.tar.gz": "4f209a7ea54481c46cd563af599a5708d57e3b0ce4fadf4167c03e666491622d",
+  "e0-each-call-followup.tar.gz": "fb4a87e09bf1e2ef02f58121be7aeec739ef04467588053995d9636e7bc0ca15"
+}

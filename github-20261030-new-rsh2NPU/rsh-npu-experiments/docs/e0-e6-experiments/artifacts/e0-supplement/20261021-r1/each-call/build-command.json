@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "/usr/bin/c++",
+    "-std=c++17",
+    "-I/usr/local/Ascend/cann-9.0.0/aarch64-linux/include",
+    "/data/e0-supplement-r1/npu/e0_probe/repeat_each.cpp",
+    "/data/e0-supplement-r1/npu/dispatch.cpp",
+    "-O3",
+    "-DNDEBUG",
+    "-o",
+    "/data/e0-supplement-r1/repeat-each",
+    "-L/usr/local/Ascend/cann-9.0.0/lib64",
+    "-L/usr/local/Ascend/cann-9.0.0/tools/simulator/Ascend910B2/lib",
+    "lib/librsh_kernels.a",
+    "-lascendcl",
+    "-lruntime",
+    "-ltiling_api",
+    "-lregister",
+    "-lplatform",
+    "-lerror_manager",
+    "-lprofapi",
+    "-lge_common_base",
+    "-lunified_dlog",
+    "-lmmpa",
+    "-ldl",
+    "-lascend_dump",
+    "-lc_sec"
+  ],
+  "cwd": "/data/e0-supplement-r1/integrated-final"
+}

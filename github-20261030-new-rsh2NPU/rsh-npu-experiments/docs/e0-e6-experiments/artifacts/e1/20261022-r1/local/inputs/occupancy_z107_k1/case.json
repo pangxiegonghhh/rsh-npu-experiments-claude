@@ -1,0 +1,19 @@
+{
+  "id": "occupancy_z107_k1",
+  "group": "occupancy",
+  "kind": "bitmap",
+  "U": 16,
+  "N": 16,
+  "Kp": 16,
+  "Np": 16,
+  "tiles": 1,
+  "nnz": 107,
+  "sha256": {
+    "config.bin": "647dd2305456f44d44b1b5fef0fde5b09954ceb543727749916dc9a1b45cd96f",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73",
+    "desc.bin": "731734e3122977d9056999298dbe93ec04c70d81dc9561f60c476e48f620633a",
+    "original-a.bin": "56f152193ff213733cba40232c9c82eefe6e1db36bdf8f932ef21de32859bce9",
+    "payload.bin": "bd4372c2d05ea2d7f6659d77264e423bab1bc93839f9218512e6e6d710fa9795",
+    "cols.bin": "7b165dc88c54d04ea4da68fe3df961af209d84692e1599be0cb18edb6782f799"
+  }
+}

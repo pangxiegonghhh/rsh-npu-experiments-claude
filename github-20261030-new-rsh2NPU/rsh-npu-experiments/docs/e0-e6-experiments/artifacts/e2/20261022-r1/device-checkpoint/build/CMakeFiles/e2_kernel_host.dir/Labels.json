@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_host"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_host.rule"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_host-complete.rule"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/e2_kernel_host-prefix/src/e2_kernel_host-stamp/e2_kernel_host-build.rule"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/e2_kernel_host-prefix/src/e2_kernel_host-stamp/e2_kernel_host-configure.rule"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/e2_kernel_host-prefix/src/e2_kernel_host-stamp/e2_kernel_host-download.rule"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/e2_kernel_host-prefix/src/e2_kernel_host-stamp/e2_kernel_host-install.rule"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/e2_kernel_host-prefix/src/e2_kernel_host-stamp/e2_kernel_host-mkdir.rule"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/e2_kernel_host-prefix/src/e2_kernel_host-stamp/e2_kernel_host-patch.rule"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/e2_kernel_host-prefix/src/e2_kernel_host-stamp/e2_kernel_host-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"e2_kernel_host"
+		],
+		"name" : "e2_kernel_host"
+	}
+}

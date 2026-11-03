@@ -1,0 +1,19 @@
+{
+  "id": "main_u48_n64_p2_k1",
+  "group": "main",
+  "kind": "bitmap",
+  "U": 48,
+  "N": 64,
+  "Kp": 48,
+  "Np": 64,
+  "tiles": 3,
+  "nnz": 584,
+  "sha256": {
+    "config.bin": "a86e731d7ab29ba9aee491bbaebe98f5bc2cbf13609a8241c917431f116d3eb8",
+    "b.bin": "a1453fd3116f6f8ddd5942f9602dc1f034c2ea7755a2fd10b8de8b96228c283c",
+    "desc.bin": "b69288241e5ef52b089d8251a9149ef6a5115fdeaeaca6e7e95924c2c28f0006",
+    "original-a.bin": "3b9a4cb6cca8e61800b06429a8815fdbc6664be43d451a0eb76ac5e884f3d6fa",
+    "payload.bin": "34c50376c67a8132b2974c6b091e942ddbb65e7fdfef507bfbd5f91bd460ad90",
+    "cols.bin": "25f87d2c803d9f32cdfea366a9e7b06f05e52cba2ee011820daab0151469cbb9"
+  }
+}

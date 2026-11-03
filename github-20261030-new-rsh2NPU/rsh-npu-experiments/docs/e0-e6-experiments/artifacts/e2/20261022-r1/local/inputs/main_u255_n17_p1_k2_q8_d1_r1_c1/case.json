@@ -1,0 +1,24 @@
+{
+  "id": "main_u255_n17_p1_k2_q8_d1_r1_c1",
+  "U": 255,
+  "N": 17,
+  "Kp": 256,
+  "Np": 32,
+  "tiles": 16,
+  "q": 8,
+  "depth": 1,
+  "rounds": 1,
+  "capture": 1,
+  "kind": 2,
+  "group": "main",
+  "selector_tile": null,
+  "sha256": {
+    "config.bin": "3eca22ec1f919e8f73bde3d26e1914373048ae41b7afe0982e708bbe69d544dc",
+    "b.bin": "78b068eb6b7d1ef073f606ad5c94d2a958cb1a95046837e03b571ac64c2d32a5",
+    "desc.bin": "a7bb8f3839d4e497ff563acaee38643211e41b02a7d941859f4654c7b432a54b",
+    "original-a.bin": "e40c2815cb7d5a8c25941ccf8c895943ee0a09d013cad59d5dbd21184bb10314",
+    "payload.bin": "4e928dc71b1d5189b46221850312443e5215d78377ab120949fd963f75c7c462",
+    "run.bin": "ad7d6ade372a65bb583bfbda7b09b474022c383d9c3bad5f357c17cca1daeb56",
+    "cols.bin": "6343aa39931d846599fad845a19c95dc580582742f30c6930860a4fb20bf7ca5"
+  }
+}

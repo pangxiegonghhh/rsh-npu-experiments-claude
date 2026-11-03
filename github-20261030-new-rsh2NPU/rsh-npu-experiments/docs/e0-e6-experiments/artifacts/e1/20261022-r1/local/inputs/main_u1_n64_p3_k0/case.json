@@ -1,0 +1,19 @@
+{
+  "id": "main_u1_n64_p3_k0",
+  "group": "main",
+  "kind": "dense",
+  "U": 1,
+  "N": 64,
+  "Kp": 16,
+  "Np": 64,
+  "tiles": 1,
+  "nnz": 16,
+  "sha256": {
+    "config.bin": "acc930035748b2cac3d58b36ca75a6abe154fa3b3d9f37c31cc8503d2e777453",
+    "b.bin": "a1453fd3116f6f8ddd5942f9602dc1f034c2ea7755a2fd10b8de8b96228c283c",
+    "desc.bin": "1e6eeda156bfa1c46c887828c1bc79862fa0e9aadeb15728f5bd49319d9df97d",
+    "original-a.bin": "1f92b9075b5ec2ec120f5f5c904c91a2a005f4957c688cc3586e3783b9b9a510",
+    "payload.bin": "25227590763b4767fe32c4674bbf84ce1166f685cd9b05857ef67bf743bb84c8",
+    "cols.bin": "6fea016a651b6460fdd05e8073e5114413e814d86781e4dc4e8c3592dc851128"
+  }
+}

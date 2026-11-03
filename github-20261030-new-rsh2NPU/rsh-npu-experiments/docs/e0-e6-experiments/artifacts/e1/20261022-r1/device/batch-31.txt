@@ -1,0 +1,4 @@
+/data/e1-20261022-r1/inputs/occupancy_z256_k0
+/data/e1-20261022-r1/inputs/occupancy_z256_k1
+/data/e1-20261022-r1/inputs/occupancy_z256_k2
+/data/e1-20261022-r1/inputs/occupancy_z256_k3

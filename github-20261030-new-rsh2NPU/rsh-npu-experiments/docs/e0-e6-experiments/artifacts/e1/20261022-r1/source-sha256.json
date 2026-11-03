@@ -1,0 +1,9 @@
+{
+  "scripts/e1_experiment.py": "f7b36b1fcf15670d57f5d1ae3b1ef452d2a4d15987703cbf2819b7fd7ae28cc5",
+  "npu/e1_probe/host.cpp": "451ac25dee9fb167014e85573df4822170c5ec8ad6c0b6f908717da4cfe787da",
+  "npu/e1_probe/decode.cpp": "8dd1b9b82559286f466aff73496dc7fa4173d448d212e39d7eac1012f47212e8",
+  "npu/e1_probe/cube.cpp": "ead7e1f147a3d3b97409e82cff28469aa7e57df5a8edd3decd4feac6e8dac69d",
+  "npu/e1_probe/CMakeLists.txt": "eca042c4f595502bb1482921e24a621bcb5bfe834284d3ac322c45bdf48903ec",
+  "npu/e0_probe/probe.h": "24aac093a2f8e48165c6087e5240da6c986330f0b2e7817ee71098731c2575e7",
+  "docs/window-format-research-20261021/format_probe.py": "c792ba2bee8b5091a1f0bb93f184426ba53ef9e33ff5e673a51f34e79fd3c032"
+}

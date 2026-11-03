@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "valid_random_schedules": 2304,
+  "max_pending_per_flag": 2,
+  "invalid_protocols": {
+    "missing_idle": [
+      {
+        "seed": 0,
+        "reason": "DEADLOCK"
+      },
+      {
+        "seed": 1,
+        "reason": "DEADLOCK"
+      },
+      {
+        "seed": 2,
+        "reason": "DEADLOCK"
+      },
+      {
+        "seed": 3,
+        "reason": "DEADLOCK"
+      },
+      {
+        "seed": 4,
+        "reason": "DEADLOCK"
+      },
+      {
+        "seed": 5,
+        "reason": "DEADLOCK"
+      },
+      {
+        "seed": 6,
+        "reason": "DEADLOCK"
+      },
+      {
+        "seed": 7,
+        "reason": "DEADLOCK"
+      },
+      {
+        "seed": 8,
+        "reason": "DEADLOCK"
+      },
+      {
+        "seed": 9,
+        "reason": "DEADLOCK"
+      },
+      {
+        "seed": 10,
+        "reason": "DEADLOCK"
+      },
+      {
+        "seed": 11,
+        "reason": "DEADLOCK"
+      },
+      {
+        "seed": 12,
+        "reason": "DEADLOCK"
+      },
+      {
+        "seed": 13,
+        "reason": "DEADLOCK"
+      },
+      {
+        "seed": 14,
+        "reason": "DEADLOCK"
+      },
+      {
+        "seed": 15,
+        "reason": "DEADLOCK"
+      }
+    ],
+    "early_release": [
+      {
+        "seed": 0,
+        "reason": "WRONG_GENERATION"
+      },
+      {
+        "seed": 1,
+        "reason": "WRONG_GENERATION"
+      },
+      {
+        "seed": 2,
+        "reason": "WRONG_GENERATION"
+      },
+      {
+        "seed": 4,
+        "reason": "WRONG_GENERATION"
+      },
+      {
+        "seed": 5,
+        "reason": "WRONG_GENERATION"
+      },
+      {
+        "seed": 7,
+        "reason": "WRONG_GENERATION"
+      },
+      {
+        "seed": 8,
+        "reason": "WRONG_GENERATION"
+      },
+      {
+        "seed": 9,
+        "reason": "WRONG_GENERATION"
+      },
+      {
+        "seed": 10,
+        "reason": "WRONG_GENERATION"
+      },
+      {
+        "seed": 11,
+        "reason": "WRONG_GENERATION"
+      },
+      {
+        "seed": 12,
+        "reason": "WRONG_GENERATION"
+      },
+      {
+        "seed": 13,
+        "reason": "WRONG_GENERATION"
+      },
+      {
+        "seed": 14,
+        "reason": "WRONG_GENERATION"
+      }
+    ]
+  }
+}

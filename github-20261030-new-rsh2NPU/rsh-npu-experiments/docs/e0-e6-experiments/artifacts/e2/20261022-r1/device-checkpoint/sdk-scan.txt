@@ -1,0 +1,100 @@
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/dav_c220/kernel_operator_data_copy_impl.h:151
+    }
+}
+
+template <typename T>
+__aicore__ inline void DataCopyUB2L1Impl(__cbuf__ T* dst, __ubuf__ T* src, const DataCopyParams& intriParams)
+{
+    // Add for TSCM AIV: Copy buffer into workspace, and send message to AIC
+    ASCENDC_ASSERT((GetTPipePtr() != nullptr), { KERNEL_LOG(KERNEL_ERROR, "tpipe ptr can not be nullptr"); });
+    ASCENDC_ASSERT((dst != nullptr), { KERNEL_LOG(KERNEL_ERROR, "dst ptr can not be nullptr"); });
+    ASCENDC_ASSERT((src != nullptr), { KERNEL_LOG(KERNEL_ERROR, "src ptr can not be nullptr"); });
+    if ASCEND_IS_AIV {
+        ASCENDC_ASSERT((GetKfcClient() != nullptr), { KERNEL_LOG(KERNEL_ERROR, "kfc client ptr can not be nullptr"); });
+        ASCENDC_DEBUG_ASSERT((TransUBAddr<TPosition::VECIN>(reinterpret_cast<uint64_t>(src)) % ONE_BLK_SIZE == 0), KERNEL_LOG_INTERNAL(KERNEL_ERROR, 
+            "src address should be 32B aligned \n"));
+        // 1.获取GM的地址
+        uint32_t tensorSize = intriParams.blockCount * intriParams.blockLen * 32;
+        int32_t ubAddr = -1;
+#if ASCENDC_CPU_DEBUG
+        uint64_t absSrc = (uint8_t*)src - (uint8_t*)(GetTPipePtr()->GetBaseAddr((int8_t)TPosition::VECIN));
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/dav_c220/kernel_operator_data_copy_impl.h:199
+    }
+}
+
+template <typename T>
+__aicore__ inline void DataCopyUB2L1ND2NZImpl(__cbuf__ T* dst, __ubuf__ T* src, const Nd2NzParams& intriParams)
+{
+    // Add for TSCM AIV: Copy buffer into workspace, and send message to AIC
+    ASCENDC_ASSERT((GetTPipePtr() != nullptr), { KERNEL_LOG(KERNEL_ERROR, "tpipe ptr can not be nullptr"); });
+    ASCENDC_ASSERT((dst != nullptr), { KERNEL_LOG(KERNEL_ERROR, "dst ptr can not be nullptr"); });
+    ASCENDC_ASSERT((src != nullptr), { KERNEL_LOG(KERNEL_ERROR, "src ptr can not be nullptr"); });
+    if ASCEND_IS_AIV {
+        ASSERT(GetKfcClient() != nullptr);
+        ASCENDC_DEBUG_ASSERT((TransUBAddr<TPosition::VECIN>(reinterpret_cast<uint64_t>(src)) % ONE_BLK_SIZE == 0), KERNEL_LOG_INTERNAL(KERNEL_ERROR, 
+            "src address should be 32B aligned \n"));
+        uint32_t tensorSize = intriParams.nValue * intriParams.dValue;
+        int32_t ubAddr = -1;
+        // 1.获取GM的对应地址,将相应的数据搬运到GM, 采用ND->ND的方式
+#if ASCENDC_CPU_DEBUG
+        uint64_t absUbAddr = (uint8_t*)src - (uint8_t*)(GetTPipePtr()->GetBaseAddr((int8_t)TPosition::VECIN));
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/kernel_operator_data_copy_intf_impl.h:234
+        "DataCopy from LocalTensor to LocalTensor with Nd2NzParams");
+    CheckTensorPos<T>(dst, Hardware::L1, "dst", "TSCM",
+        "DataCopy from LocalTensor to LocalTensor with Nd2NzParams");
+    ASCENDC_REPORT_OVERFLOW_MEM(CheckDataCopyTensorSizeOverflow(dst, src, intriParams));
+    DataCopyUB2L1ND2NZImpl((__cbuf__ PrimType*)dst.GetPhyAddr(), (__ubuf__ PrimType*)src.GetPhyAddr(),
+        intriParams);
+}
+
+/*
+ * @ingroup DataCopy Level 0
+ * @brief datacopy from src to dst, applicable to vector data
+ * @param [out] dst output GlobalTensor
+ * @param [in] src input LocalTensor
+ * @param [in] intriParams.blockCount number of blocks
+ * @param [in] intriParams.blockLen Length of blocks
+ * @param [in] intriParams.srcGap src block gap
+ * @param [in] intriParams.dstGap dst block gap
+ */
+template <typename T>
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/kernel_operator_data_copy_intf_impl.h:343
+#endif
+            DataCopyUB2UBIntf(dst, src, repeatParams);
+        } else if (dstHWPos == Hardware::L1) {
+            // ub -> l1
+            DataCopyUB2L1Impl((__cbuf__ PrimType*)dst.GetPhyAddr(), (__ubuf__ PrimType*)src.GetPhyAddr(),
+                                repeatParams);
+        } else {
+#if __NPU_ARCH__ == 2201
+            ASCENDC_CHECK_TPOSITION(false, "dst", "VECCALC / VECOUT / TSCM",
+                "DataCopy from LocalTensor(VECIN / VECCALC / VECOUT) to LocalTensor with DataCopyParams",
+                ConstDefiner::Instance().logicNameMap.at(static_cast<uint8_t>(dst.GetPosition())));
+#else
+            ASCENDC_CHECK_TPOSITION(false, "dst", "VECCALC / VECOUT / A1 / B1",
+                "DataCopy from LocalTensor(VECIN / VECCALC / VECOUT) to LocalTensor with DataCopyParams",
+                ConstDefiner::Instance().logicNameMap.at(static_cast<uint8_t>(dst.GetPosition())));
+#endif
+        }
+    } else if (srcHWPos == Hardware::L1) {
+        if (dstHWPos == Hardware::UB) {
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/kernel_operator_data_copy_intf_impl.h:962
+
+    if (srcHWPos == Hardware::UB) {
+        if (dstHWPos == Hardware::L1) {
+            // ub -> l1
+            DataCopyUB2L1Impl((__cbuf__ PrimType*)dst.GetPhyAddr(), (__ubuf__ PrimType*)src.GetPhyAddr(),
+                                intriParams);
+        } else if (dstHWPos == Hardware::L0C) {
+            // ub -> l0c
+            DataCopyUB2L0CIntf(dst, src, intriParams, enhancedParams);
+        } else if (dstHWPos == Hardware::UB) {
+            // ub -> ub
+            DataCopyUB2UBIntf(dst, src, intriParams);
+        } else {
+            ASCENDC_CHECK_TPOSITION(false, "dst", "VECCALC / VECOUT / A1 / B1 / TSCM",
+                "DataCopy from LocalTensor(VECIN / VECCALC / VECOUT) to LocalTensor with DataCopyEnhancedParams",
+                ConstDefiner::Instance().logicNameMap.at(static_cast<uint8_t>(dst.GetPosition())));
+        }
+    } else if (srcHWPos == Hardware::L1) {
+        if (dstHWPos == Hardware::UB) {

@@ -1,0 +1,19 @@
+{
+  "id": "occupancy_z90_k3",
+  "group": "occupancy",
+  "kind": "dense_tail",
+  "U": 16,
+  "N": 16,
+  "Kp": 16,
+  "Np": 16,
+  "tiles": 1,
+  "nnz": 90,
+  "sha256": {
+    "original-a.bin": "a3fc6ba9c166a69f7bbda7789e6b5766450d8f8b20651808eee52f8900ab9b45",
+    "cols.bin": "7b165dc88c54d04ea4da68fe3df961af209d84692e1599be0cb18edb6782f799",
+    "payload.bin": "a3fc6ba9c166a69f7bbda7789e6b5766450d8f8b20651808eee52f8900ab9b45",
+    "config.bin": "34c9642464f65f7b931b0f0f2605c80acc81251eb8ef16956175d91bf4a884b2",
+    "desc.bin": "138b0dba11dee54cb16d98dbb3b3502c237c3be17cf28430e3aa6e56795f5ad9",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73"
+  }
+}

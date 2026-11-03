@@ -1,0 +1,19 @@
+{
+  "archive_sha256": "4f209a7ea54481c46cd563af599a5708d57e3b0ce4fadf4167c03e666491622d",
+  "archive_matches_remote": true,
+  "member_hashes_verified": 7441,
+  "local_source_mismatches": [],
+  "source_count": 37,
+  "semantic_source_files_verified": 29,
+  "appledouble_metadata_entries": [
+    "npu/._e0_probe",
+    "npu/e0_probe/._probe.h",
+    "npu/e0_probe/._host.cpp",
+    "npu/e0_probe/._CMakeLists.txt",
+    "npu/e0_probe/._normal.cpp",
+    "npu/e0_probe/._direct.cpp",
+    "npu/e0_probe/._dual.cpp",
+    "scripts/._e0_supplement.py"
+  ],
+  "all_semantic_sources_match": true
+}

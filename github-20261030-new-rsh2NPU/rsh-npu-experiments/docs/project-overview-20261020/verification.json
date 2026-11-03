@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "date": "2026-10-20",
+  "local_links_valid": true,
+  "D3_points": 24,
+  "source_fingerprints_verified": 16,
+  "existing_archive_whole_sha256_rechecked": [
+    {
+      "archive": "artifacts/backups/rsh-910b-recovery-through-d3-20261019.tar.gz",
+      "sha256": "223c893551417b879f73263a0e27f63e4c1a2c80b01fa39685c49fae6e0f2d80",
+      "bytes": 311373287
+    },
+    {
+      "archive": "artifacts/backups/rsh-910b-d3-closeout-20261019.tar.gz",
+      "sha256": "c962f869f5e2f1354aab654270f236001d88e9e9d70ba823ee5835f410da5b6e",
+      "bytes": 116658
+    },
+    {
+      "archive": "artifacts/backups/rsh-910b-next-plan-after-d3-20261019.tar.gz",
+      "sha256": "d1c2c9dbd0eeead20ce5bea58597904fe58ce466fcd938375fc84749b9df8bcd",
+      "bytes": 51428
+    },
+    {
+      "archive": "artifacts/backups/rsh-910b-design-roadmap-20261019.tar.gz",
+      "sha256": "ea8a6bddea43e5ec361f545084be39404eaab82255bd418cc12c7f7f63205c9e",
+      "bytes": 11991
+    }
+  ],
+  "new_device_experiment": false,
+  "previous_isolated_audits_rerun": false,
+  "notes": "仅复核本次文档/数据抄录和旧包整体SHA；没有重新运行12阶段隔离审计或设备测试。"
+}

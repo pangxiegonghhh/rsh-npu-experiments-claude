@@ -1,0 +1,24 @@
+{
+  "id": "select_t9_s2_k1_q1_d1_r1_c1",
+  "U": 129,
+  "N": 16,
+  "Kp": 144,
+  "Np": 16,
+  "tiles": 9,
+  "q": 1,
+  "depth": 1,
+  "rounds": 1,
+  "capture": 1,
+  "kind": 1,
+  "group": "selector",
+  "selector_tile": 2,
+  "sha256": {
+    "config.bin": "fdb84251126219c26169a1de8748957d1dd2500bd3c02d19a90f026f1dbcfa24",
+    "b.bin": "4041bfe2c251fe79fd4424f36af63fec81b6e7c3b2143168ee6949048645f2ed",
+    "desc.bin": "b51c9afc3f1cea669c239216a6e07da7bfb538180a5e98b0ac85377236b70b3c",
+    "original-a.bin": "de41dd2f3c35f1e1d6b044d329fa097b028764485f8886bff219542c9206489b",
+    "payload.bin": "8d4c493eb4c8a687ebe2853fffcc0fee708d8045faa132d3fb6eda6065c3f7c0",
+    "run.bin": "c882f3725c0161d96a46d6d0aec1c47b893e3c628d7396ab5668d854c94926b2",
+    "cols.bin": "c32e29564f5ffe009809a48d090df3bd014bbf9738ccc2bb988fdc69352032df"
+  }
+}

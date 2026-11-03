@@ -1,0 +1,3 @@
+/usr/bin/ld: /usr/local/Ascend/cann-9.0.0/aarch64-linux/lib64/libtiling_api.a(platform_ascendc.cpp.o): undefined reference to symbol 'CheckLogLevel'
+/usr/bin/ld: /usr/local/Ascend/ascend-toolkit/latest/lib64/libunified_dlog.so: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status

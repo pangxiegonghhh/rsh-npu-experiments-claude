@@ -1,0 +1,13 @@
+{
+  "status": "VERIFIED",
+  "scope": "EXISTING_LOCAL_MATERIALS_ONLY",
+  "archive": "/Users/Zhuanz/Documents/ChatGPT/RSH迁移NPU实验/backups/e2-local-existing-20261022.tar.gz",
+  "bytes": 5288446,
+  "sha256": "926894ea9872172dd119a5156b2b27dfee871170fc2b15973f0246ddbf8775b8",
+  "members": 10849,
+  "member_hashes_verified": 10848,
+  "remote_checkpoint_received": false,
+  "instance_state": "OFF",
+  "cumulative_runtime": "2h34m",
+  "time": "2026-10-22T20:47:40+08:00"
+}

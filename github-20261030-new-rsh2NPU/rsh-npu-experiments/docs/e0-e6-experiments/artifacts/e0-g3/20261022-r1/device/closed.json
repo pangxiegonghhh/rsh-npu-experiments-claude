@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "closed_unix": 1792641269.6512792,
+  "driver_rc": 0,
+  "source_and_original_binaries_still_match_parent": true,
+  "actual_original_ELF_files_saved": 6,
+  "resource_query_unchanged": true,
+  "repeat_calls_individually_saved": 60,
+  "all_raw_calls_saved": 233,
+  "E1_started": false
+}

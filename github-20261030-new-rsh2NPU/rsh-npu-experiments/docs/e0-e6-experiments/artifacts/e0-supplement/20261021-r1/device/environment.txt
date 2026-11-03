@@ -1,0 +1,30 @@
+Wed Oct 21 12:29:10 UTC 2026
++------------------------------------------------------------------------------------------------------------------+
+| npu-smi 26.1.1                              Version: 26.1.1                                                      |
++---------------------------+---------------+----------------------------------------------------------------------+
+| NPU   Name                | Health        | Power(W)             Temp(C)                 Hugepages-Usage(page)   |
+| Chip                      | Bus-Id        | AICore(%)            Memory-Usage(MB)        HBM-Usage(MB)           |
++===========================+===============+======================================================================+
+| 4     910B2               | OK            | 94.9                 42                      0    / 0                |
+| 0                         | 0000:81:00.0  | 0                    0    / 0                3421 / 65536            |
++===========================+===============+======================================================================+
++---------------------------+---------------+----------------------------------------------------------------------+
+| NPU     Chip              | Process id    | Process name       | Process memory(MB)    | Process id in container |
++===========================+===============+======================================================================+
+| No running processes found in NPU 4                                                                              |
++===========================+===============+======================================================================+
+Python 3.11.15
+gcc (GCC) 12.3.1 (openEuler 12.3.1-99.oe2403sp2)
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Version=9.0.0
+version_dir=cann
+required_package_runtime_version="9.0"
+required_package_ge-executor_version="9.0"
+required_package_metadef_version="9.0"
+required_package_opbase_version="9.0"
+required_package_bisheng-compiler_version="9.0"
+required_package_tbe-tik_version="9.0"
+timestamp=20260428_134817545

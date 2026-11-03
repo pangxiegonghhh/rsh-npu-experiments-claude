@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "cases": 1344,
+  "main": 1088,
+  "selectors": 208,
+  "long": 32,
+  "repeat_core": 16,
+  "state_schedules": 2304
+}

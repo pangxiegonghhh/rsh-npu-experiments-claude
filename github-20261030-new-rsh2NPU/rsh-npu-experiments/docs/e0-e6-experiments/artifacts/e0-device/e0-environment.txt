@@ -1,0 +1,30 @@
+Wed Oct 21 07:03:51 UTC 2026
+Linux fd3a87cad303 5.10.0-136.108.0.188.31.oe2203sp1.bclinux.aarch64 #1 SMP Mon May 26 17:50:37 CST 2025 aarch64 aarch64 aarch64 GNU/Linux
+Python 3.11.15
+gcc (GCC) 12.3.1 (openEuler 12.3.1-99.oe2403sp2)
++------------------------------------------------------------------------------------------------------------------+
+| npu-smi 26.1.1                              Version: 26.1.1                                                      |
++---------------------------+---------------+----------------------------------------------------------------------+
+| NPU   Name                | Health        | Power(W)             Temp(C)                 Hugepages-Usage(page)   |
+| Chip                      | Bus-Id        | AICore(%)            Memory-Usage(MB)        HBM-Usage(MB)           |
++===========================+===============+======================================================================+
+| 4     910B2               | OK            | 94.3                 40                      0    / 0                |
+| 0                         | 0000:81:00.0  | 0                    0    / 0                3420 / 65536            |
++===========================+===============+======================================================================+
++---------------------------+---------------+----------------------------------------------------------------------+
+| NPU     Chip              | Process id    | Process name       | Process memory(MB)    | Process id in container |
++===========================+===============+======================================================================+
+| No running processes found in NPU 4                                                                              |
++===========================+===============+======================================================================+
+ASCEND_HOME_PATH=/usr/local/Ascend/cann-9.0.0
+Version=9.0.0
+version_dir=cann
+required_package_runtime_version="9.0"
+required_package_ge-executor_version="9.0"
+required_package_metadef_version="9.0"
+required_package_opbase_version="9.0"
+required_package_bisheng-compiler_version="9.0"
+required_package_tbe-tik_version="9.0"
+timestamp=20260428_134817545
+
+

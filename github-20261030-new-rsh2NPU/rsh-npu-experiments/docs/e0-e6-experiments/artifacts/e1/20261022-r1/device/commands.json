@@ -1,0 +1,598 @@
+[
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "--validate",
+      "/data/e1-20261022-r1/invalid/kind"
+    ],
+    "label": "reject-kind",
+    "start_unix": 1792654604.3047986,
+    "end_unix": 1792654604.7360294,
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "--validate",
+      "/data/e1-20261022-r1/invalid/validk"
+    ],
+    "label": "reject-validk",
+    "start_unix": 1792654604.7362716,
+    "end_unix": 1792654605.1670349,
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "--validate",
+      "/data/e1-20261022-r1/invalid/offset"
+    ],
+    "label": "reject-offset",
+    "start_unix": 1792654605.1674154,
+    "end_unix": 1792654605.5982726,
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "--validate",
+      "/data/e1-20261022-r1/invalid/nnz"
+    ],
+    "label": "reject-nnz",
+    "start_unix": 1792654605.5986748,
+    "end_unix": 1792654606.0338206,
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "--validate",
+      "/data/e1-20261022-r1/invalid/length"
+    ],
+    "label": "reject-length",
+    "start_unix": 1792654606.0342293,
+    "end_unix": 1792654606.4644787,
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "--validate",
+      "/data/e1-20261022-r1/invalid/bitmap_popcount"
+    ],
+    "label": "reject-bitmap_popcount",
+    "start_unix": 1792654606.4649067,
+    "end_unix": 1792654606.8948689,
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "--validate",
+      "/data/e1-20261022-r1/invalid/index_duplicate"
+    ],
+    "label": "reject-index_duplicate",
+    "start_unix": 1792654606.8953104,
+    "end_unix": 1792654607.32514,
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "--validate",
+      "/data/e1-20261022-r1/invalid/column_oob"
+    ],
+    "label": "reject-column_oob",
+    "start_unix": 1792654607.3255906,
+    "end_unix": 1792654607.7552922,
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "--validate",
+      "/data/e1-20261022-r1/invalid/column_duplicate"
+    ],
+    "label": "reject-column_duplicate",
+    "start_unix": 1792654607.7557738,
+    "end_unix": 1792654608.1856904,
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "--validate",
+      "/data/e1-20261022-r1/invalid/bad_config"
+    ],
+    "label": "reject-bad_config",
+    "start_unix": 1792654608.1861522,
+    "end_unix": 1792654608.6173968,
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "--validate",
+      "/data/e1-20261022-r1/invalid/nonfinite"
+    ],
+    "label": "reject-nonfinite",
+    "start_unix": 1792654608.6178775,
+    "end_unix": 1792654609.049165,
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "--validate",
+      "/data/e1-20261022-r1/invalid/A_tail"
+    ],
+    "label": "reject-A_tail",
+    "start_unix": 1792654609.0496337,
+    "end_unix": 1792654609.4800656,
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "--validate",
+      "/data/e1-20261022-r1/invalid/bitmap_tail"
+    ],
+    "label": "reject-bitmap_tail",
+    "start_unix": 1792654609.4805899,
+    "end_unix": 1792654609.9118493,
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "--validate",
+      "/data/e1-20261022-r1/invalid/index_tail"
+    ],
+    "label": "reject-index_tail",
+    "start_unix": 1792654609.912389,
+    "end_unix": 1792654610.3445208,
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "--validate",
+      "/data/e1-20261022-r1/invalid/empty_has_desc"
+    ],
+    "label": "reject-empty_has_desc",
+    "start_unix": 1792654610.34508,
+    "end_unix": 1792654610.7762773,
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "--validate",
+      "/data/e1-20261022-r1/invalid/B_pad"
+    ],
+    "label": "reject-B_pad",
+    "start_unix": 1792654610.77686,
+    "end_unix": 1792654611.2083566,
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-0.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-0",
+    "start_unix": 1792654611.2100165,
+    "end_unix": 1792654614.4766564,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-1.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-1",
+    "start_unix": 1792654614.6108382,
+    "end_unix": 1792654616.8753784,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-2.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-2",
+    "start_unix": 1792654617.0090752,
+    "end_unix": 1792654619.2830608,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-3.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-3",
+    "start_unix": 1792654619.4204257,
+    "end_unix": 1792654622.6830013,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-4.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-4",
+    "start_unix": 1792654622.8183618,
+    "end_unix": 1792654625.0869782,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-5.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-5",
+    "start_unix": 1792654625.2247798,
+    "end_unix": 1792654628.4949925,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-6.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-6",
+    "start_unix": 1792654628.6408308,
+    "end_unix": 1792654630.906169,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-7.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-7",
+    "start_unix": 1792654631.0484612,
+    "end_unix": 1792654633.3116202,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-8.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-8",
+    "start_unix": 1792654633.4560237,
+    "end_unix": 1792654635.722775,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-9.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-9",
+    "start_unix": 1792654635.8695014,
+    "end_unix": 1792654638.1369839,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-10.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-10",
+    "start_unix": 1792654638.277168,
+    "end_unix": 1792654641.5465703,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-11.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-11",
+    "start_unix": 1792654641.694346,
+    "end_unix": 1792654643.9553626,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-12.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-12",
+    "start_unix": 1792654644.1056542,
+    "end_unix": 1792654646.3709054,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-13.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-13",
+    "start_unix": 1792654646.523023,
+    "end_unix": 1792654648.7887158,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-14.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-14",
+    "start_unix": 1792654648.9447145,
+    "end_unix": 1792654651.2091367,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-15.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-15",
+    "start_unix": 1792654651.371992,
+    "end_unix": 1792654654.6355855,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-16.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-16",
+    "start_unix": 1792654654.7786493,
+    "end_unix": 1792654657.0473197,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-17.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-17",
+    "start_unix": 1792654657.1932523,
+    "end_unix": 1792654659.4622283,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-18.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-18",
+    "start_unix": 1792654659.608806,
+    "end_unix": 1792654661.8673825,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-19.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-19",
+    "start_unix": 1792654662.012933,
+    "end_unix": 1792654664.2753577,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-20.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-20",
+    "start_unix": 1792654664.4204614,
+    "end_unix": 1792654667.683258,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-21.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-21",
+    "start_unix": 1792654667.83232,
+    "end_unix": 1792654670.100144,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-22.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-22",
+    "start_unix": 1792654670.2460926,
+    "end_unix": 1792654673.5168087,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-23.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-23",
+    "start_unix": 1792654673.6659184,
+    "end_unix": 1792654675.9233525,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-24.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-24",
+    "start_unix": 1792654676.0720224,
+    "end_unix": 1792654678.3386586,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-25.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-25",
+    "start_unix": 1792654678.4939487,
+    "end_unix": 1792654680.7561193,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-26.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-26",
+    "start_unix": 1792654680.9091415,
+    "end_unix": 1792654683.1676564,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-27.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-27",
+    "start_unix": 1792654683.318843,
+    "end_unix": 1792654686.5825891,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-28.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-28",
+    "start_unix": 1792654686.7319422,
+    "end_unix": 1792654688.9992397,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-29.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-29",
+    "start_unix": 1792654689.1513522,
+    "end_unix": 1792654691.4110572,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-30.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-30",
+    "start_unix": 1792654691.5617394,
+    "end_unix": 1792654693.8233004,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/batch-31.txt",
+      "/data/e1-20261022-r1/results/main",
+      "1"
+    ],
+    "label": "batch-31",
+    "start_unix": 1792654693.973523,
+    "end_unix": 1792654696.231354,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/repeat-0.txt",
+      "/data/e1-20261022-r1/results/repeat-0",
+      "10"
+    ],
+    "label": "repeat-0",
+    "start_unix": 1792654696.2720633,
+    "end_unix": 1792654699.515234,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/repeat-1.txt",
+      "/data/e1-20261022-r1/results/repeat-1",
+      "10"
+    ],
+    "label": "repeat-1",
+    "start_unix": 1792654699.700328,
+    "end_unix": 1792654701.763219,
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/data/e1-20261022-r1/build/e1_runner",
+      "/data/e1-20261022-r1/repeat-2.txt",
+      "/data/e1-20261022-r1/results/repeat-2",
+      "10"
+    ],
+    "label": "repeat-2",
+    "start_unix": 1792654701.9479423,
+    "end_unix": 1792654704.2157035,
+    "returncode": 0
+  }
+]

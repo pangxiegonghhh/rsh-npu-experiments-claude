@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "references_independently_recomputed": 170,
+  "physical_basis_cases_rechecked": 144,
+  "raw_device_calls_replayed": 233,
+  "device_process_groups": 179,
+  "groups": {
+    "physical-anchor": 1,
+    "controls-normal": 2,
+    "controls-direct": 2,
+    "B-independent": 144,
+    "A-confirmed-B": 24,
+    "core-repeat-0": 2,
+    "core-repeat-1": 2,
+    "core-repeat-2": 2
+  },
+  "actual_original_ELF_files_verified": 6,
+  "member_hashes_verified": 2932,
+  "maximum_absolute_error": 0.0,
+  "raw_evidence_modified": false
+}

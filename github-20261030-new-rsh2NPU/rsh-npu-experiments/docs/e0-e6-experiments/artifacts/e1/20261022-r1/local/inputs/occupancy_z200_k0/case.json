@@ -1,0 +1,19 @@
+{
+  "id": "occupancy_z200_k0",
+  "group": "occupancy",
+  "kind": "dense",
+  "U": 16,
+  "N": 16,
+  "Kp": 16,
+  "Np": 16,
+  "tiles": 1,
+  "nnz": 200,
+  "sha256": {
+    "config.bin": "34c9642464f65f7b931b0f0f2605c80acc81251eb8ef16956175d91bf4a884b2",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73",
+    "desc.bin": "d62feffcc2cf541de0e40c3ca51c64c534b54bef938371451b310256dbca33ca",
+    "original-a.bin": "df3659f31dea55a85dd4a5bd2ce048767abb38a33f9d306c92df58437632c5e1",
+    "payload.bin": "df3659f31dea55a85dd4a5bd2ce048767abb38a33f9d306c92df58437632c5e1",
+    "cols.bin": "7b165dc88c54d04ea4da68fe3df961af209d84692e1599be0cb18edb6782f799"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "occupancy_z205_k3",
+  "group": "occupancy",
+  "kind": "dense_tail",
+  "U": 16,
+  "N": 16,
+  "Kp": 16,
+  "Np": 16,
+  "tiles": 1,
+  "nnz": 205,
+  "sha256": {
+    "config.bin": "34c9642464f65f7b931b0f0f2605c80acc81251eb8ef16956175d91bf4a884b2",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73",
+    "desc.bin": "c30062d15c5ccaf6accb1f55f47e83b95474dd99f40d0668366cd2c98fb53090",
+    "original-a.bin": "638c708e07cbae85213a0e76c7d3b098af4de4ec1d37b916fd567b684c64e121",
+    "payload.bin": "638c708e07cbae85213a0e76c7d3b098af4de4ec1d37b916fd567b684c64e121",
+    "cols.bin": "7b165dc88c54d04ea4da68fe3df961af209d84692e1599be0cb18edb6782f799"
+  }
+}

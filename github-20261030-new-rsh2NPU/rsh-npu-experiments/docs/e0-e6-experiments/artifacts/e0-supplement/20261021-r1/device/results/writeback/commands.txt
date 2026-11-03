@@ -1,0 +1,4 @@
+["build/e0_normal", "inputs/writeback_r0_c0", "results/writeback/writeback_r0_c0", "normal", "1"]
+["build/e0_normal", "inputs/writeback_r15_c15", "results/writeback/writeback_r15_c15", "normal", "1"]
+["build/e0_normal", "inputs/writeback_r16_c16", "results/writeback/writeback_r16_c16", "normal", "1"]
+["build/e0_normal", "inputs/writeback_r29_c39", "results/writeback/writeback_r29_c39", "normal", "1"]

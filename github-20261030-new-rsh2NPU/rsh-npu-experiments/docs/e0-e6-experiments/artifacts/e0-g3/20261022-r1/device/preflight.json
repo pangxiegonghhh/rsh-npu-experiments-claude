@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "B_cases": 144,
+  "A_cases": 24,
+  "CXX_kernel_changed": false,
+  "parent_manifest_sha256": "d20e639192dd8de7d66677f7924e527abca2b79ef7ce807e96e6061c11888135",
+  "counterexample_rejected_with_fixed_A": true
+}

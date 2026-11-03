@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/data/e1-20261022-r1/build/CMakeFiles/e1_decode_lib_precompile"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/CMakeFiles/e1_decode_lib_precompile.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/CMakeFiles/e1_decode_lib_precompile-complete.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_decode_lib_precompile-prefix/src/e1_decode_lib_precompile-stamp/e1_decode_lib_precompile-build.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_decode_lib_precompile-prefix/src/e1_decode_lib_precompile-stamp/e1_decode_lib_precompile-configure.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_decode_lib_precompile-prefix/src/e1_decode_lib_precompile-stamp/e1_decode_lib_precompile-download.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_decode_lib_precompile-prefix/src/e1_decode_lib_precompile-stamp/e1_decode_lib_precompile-install.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_decode_lib_precompile-prefix/src/e1_decode_lib_precompile-stamp/e1_decode_lib_precompile-mkdir.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_decode_lib_precompile-prefix/src/e1_decode_lib_precompile-stamp/e1_decode_lib_precompile-patch.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_decode_lib_precompile-prefix/src/e1_decode_lib_precompile-stamp/e1_decode_lib_precompile-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"e1_decode_lib_precompile"
+		],
+		"name" : "e1_decode_lib_precompile"
+	}
+}

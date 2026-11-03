@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "current_local_sources_equal_actual_executed_sources": true,
+  "local_remote_fixture_manifest_semantically_equal": true,
+  "all_16_rejection_reasons_match_local_validator": true,
+  "archive_matches_remote_transfer_info": true,
+  "member_hashes": 42953,
+  "actual_ELF_and_libraries": 3,
+  "independent_checker_sha256": "92927f166ff718f33b1bc19594f6501512f632c3b7474c8afb7d5ebf7b1cfb23",
+  "shutdown_confirmed": true
+}

@@ -1,0 +1,9 @@
+{
+  "copied_files": 146,
+  "hash_mismatches": [],
+  "python_files_syntax_checked": 98,
+  "cpu_test_exit_code": 0,
+  "cpu_test_log": "docs/migration-20261020/cpu-tests.log",
+  "device_tests_run": false,
+  "historical_results_copied": false
+}

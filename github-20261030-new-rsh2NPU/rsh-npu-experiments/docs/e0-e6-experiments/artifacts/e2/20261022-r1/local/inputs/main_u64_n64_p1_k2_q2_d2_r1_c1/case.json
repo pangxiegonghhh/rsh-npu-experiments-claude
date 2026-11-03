@@ -1,0 +1,24 @@
+{
+  "id": "main_u64_n64_p1_k2_q2_d2_r1_c1",
+  "U": 64,
+  "N": 64,
+  "Kp": 64,
+  "Np": 64,
+  "tiles": 4,
+  "q": 2,
+  "depth": 2,
+  "rounds": 1,
+  "capture": 1,
+  "kind": 2,
+  "group": "main",
+  "selector_tile": null,
+  "sha256": {
+    "config.bin": "5c02031de4f0b6132d4267002461b0fee11e60abc1a81a8538064b3026d72055",
+    "b.bin": "268cc2a17e60ff12a4031584ceed7e9417bfd3f5b9ed96c31fbc97d3970684df",
+    "desc.bin": "e80a75961fe140243c760fdf2ec2dd8a3da2dede126abc4d2d3a40a3d7e7466d",
+    "original-a.bin": "5a28793d221ece8892c3745a1f6561dd0b830a7484dbf0ab17af14577e984a99",
+    "payload.bin": "e58b22b4f0c549c35727027d94fee675855dae28eef403df25605e5943f891ab",
+    "run.bin": "91ee13826d33ad873d71579fdab743b4f1e5ebfea4dd26a1e96dd7dbff1d5b35",
+    "cols.bin": "9ff716d72152081b9acad70893f08b20e9051ba84efe3479adbe8a10bbccd9e0"
+  }
+}

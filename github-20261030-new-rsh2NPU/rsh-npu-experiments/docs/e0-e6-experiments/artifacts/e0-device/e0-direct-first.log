@@ -1,0 +1,5 @@
+RegisterAscendBinary aic ret 107000 
+LaunchAscendKernel ret 507000
+V1 numerical failure row=0 col=0 actual=0.000000 ref=-1.968750
+
+

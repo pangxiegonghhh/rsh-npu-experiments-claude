@@ -1,0 +1,2508 @@
+[
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N16_l1_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/physical-anchor/B-selector_K16_N16_l1_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 852,
+    "start_unix": 1792640789.913886,
+    "group": "physical-anchor",
+    "returncode": 0,
+    "end_unix": 1792640793.183504
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/control_K16_N16",
+      "/data/e0-g3-20261022-r1/results/controls-normal/control_K16_N16",
+      "normal",
+      "1"
+    ],
+    "pid": 865,
+    "start_unix": 1792640793.187668,
+    "group": "controls-normal",
+    "returncode": 0,
+    "end_unix": 1792640795.4585764
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/control_K16_N16",
+      "/data/e0-g3-20261022-r1/results/controls-direct/control_K16_N16",
+      "direct",
+      "1"
+    ],
+    "pid": 876,
+    "start_unix": 1792640795.4623466,
+    "group": "controls-direct",
+    "returncode": 0,
+    "end_unix": 1792640797.7229002
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/control_K48_N64",
+      "/data/e0-g3-20261022-r1/results/controls-normal/control_K48_N64",
+      "normal",
+      "1"
+    ],
+    "pid": 888,
+    "start_unix": 1792640797.7268581,
+    "group": "controls-normal",
+    "returncode": 0,
+    "end_unix": 1792640799.982621
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/control_K48_N64",
+      "/data/e0-g3-20261022-r1/results/controls-direct/control_K48_N64",
+      "direct",
+      "1"
+    ],
+    "pid": 899,
+    "start_unix": 1792640799.9864633,
+    "group": "controls-direct",
+    "returncode": 0,
+    "end_unix": 1792640803.2559981
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N16_l0_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N16_l0_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 912,
+    "start_unix": 1792640803.2691436,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640805.5349402
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N16_l0_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N16_l0_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 923,
+    "start_unix": 1792640805.5386171,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640807.8086877
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N16_l0_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N16_l0_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 935,
+    "start_unix": 1792640807.8126712,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640811.0789535
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N16_l0_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N16_l0_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 948,
+    "start_unix": 1792640811.082827,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640813.339037
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N16_l1_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N16_l1_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 959,
+    "start_unix": 1792640813.343146,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640815.5989208
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N16_l1_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N16_l1_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 970,
+    "start_unix": 1792640815.603055,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640817.871087
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N16_l1_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N16_l1_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 982,
+    "start_unix": 1792640817.8753264,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640821.1389356
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N16_l1_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N16_l1_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 995,
+    "start_unix": 1792640821.1431031,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640823.3988674
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N32_l0_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N32_l0_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1006,
+    "start_unix": 1792640823.403096,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640825.6628928
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N32_l0_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N32_l0_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1017,
+    "start_unix": 1792640825.6672292,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640827.7229168
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N32_l0_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N32_l0_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1031,
+    "start_unix": 1792640827.7273407,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640829.9841568
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N32_l0_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N32_l0_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1042,
+    "start_unix": 1792640829.988682,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640833.2581308
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N32_l1_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N32_l1_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1055,
+    "start_unix": 1792640833.2624853,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640835.530878
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N32_l1_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N32_l1_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1066,
+    "start_unix": 1792640835.535513,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640837.7994041
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N32_l1_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N32_l1_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1078,
+    "start_unix": 1792640837.803863,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640840.0628617
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N32_l1_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N32_l1_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1089,
+    "start_unix": 1792640840.0674422,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640842.3267922
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N64_l0_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N64_l0_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1101,
+    "start_unix": 1792640842.3313558,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640844.5925152
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N64_l0_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N64_l0_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1112,
+    "start_unix": 1792640844.5972,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640846.8614516
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N64_l0_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N64_l0_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1123,
+    "start_unix": 1792640846.8663425,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640850.1348612
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N64_l0_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N64_l0_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1137,
+    "start_unix": 1792640850.1395817,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640852.2030106
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N64_l1_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N64_l1_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1148,
+    "start_unix": 1792640852.2081206,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640854.4733984
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N64_l1_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N64_l1_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1159,
+    "start_unix": 1792640854.4783175,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640856.7395544
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N64_l1_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N64_l1_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1170,
+    "start_unix": 1792640856.7445836,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640859.011259
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K16_N64_l1_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K16_N64_l1_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1182,
+    "start_unix": 1792640859.0163565,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640862.2786534
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N16_l0_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N16_l0_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1197,
+    "start_unix": 1792640862.2837775,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640864.5512242
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N16_l0_b0_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N16_l0_b0_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1208,
+    "start_unix": 1792640864.5564282,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640866.8232477
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N16_l0_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N16_l0_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1219,
+    "start_unix": 1792640866.8284776,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640870.099154
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N16_l0_b0_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N16_l0_b0_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1232,
+    "start_unix": 1792640870.1044424,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640872.3673341
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N16_l0_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N16_l0_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1244,
+    "start_unix": 1792640872.3728178,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640874.434876
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N16_l0_b1_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N16_l0_b1_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1255,
+    "start_unix": 1792640874.440287,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640876.5031636
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N16_l0_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N16_l0_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1266,
+    "start_unix": 1792640876.5086265,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640878.7711365
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N16_l0_b1_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N16_l0_b1_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1278,
+    "start_unix": 1792640878.7767467,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640880.8431547
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N16_l1_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N16_l1_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1289,
+    "start_unix": 1792640880.8487606,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640884.1191733
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N16_l1_b0_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N16_l1_b0_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1301,
+    "start_unix": 1792640884.1248393,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640886.3910978
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N16_l1_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N16_l1_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1313,
+    "start_unix": 1792640886.396806,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640888.6590877
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N16_l1_b0_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N16_l1_b0_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1325,
+    "start_unix": 1792640888.665037,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640890.7303836
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N16_l1_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N16_l1_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1336,
+    "start_unix": 1792640890.7361455,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640893.0072443
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N16_l1_b1_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N16_l1_b1_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1347,
+    "start_unix": 1792640893.013082,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640896.2752712
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N16_l1_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N16_l1_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1360,
+    "start_unix": 1792640896.281223,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640898.3433597
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N16_l1_b1_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N16_l1_b1_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1372,
+    "start_unix": 1792640898.349385,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640900.615224
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N32_l0_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N32_l0_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1383,
+    "start_unix": 1792640900.6212149,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640902.8866222
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N32_l0_b0_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N32_l0_b0_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1394,
+    "start_unix": 1792640902.8929405,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640906.1606126
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N32_l0_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N32_l0_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1406,
+    "start_unix": 1792640906.167081,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640908.4327385
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N32_l0_b0_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N32_l0_b0_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1419,
+    "start_unix": 1792640908.43912,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640910.4996948
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N32_l0_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N32_l0_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1430,
+    "start_unix": 1792640910.5059712,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640912.7653127
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N32_l0_b1_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N32_l0_b1_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1441,
+    "start_unix": 1792640912.771575,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640915.0367277
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N32_l0_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N32_l0_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1454,
+    "start_unix": 1792640915.0431445,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640918.2881796
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N32_l0_b1_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N32_l0_b1_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1468,
+    "start_unix": 1792640918.2946625,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640920.5569422
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N32_l1_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N32_l1_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1479,
+    "start_unix": 1792640920.563477,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640922.8272817
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N32_l1_b0_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N32_l1_b0_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1490,
+    "start_unix": 1792640922.8337536,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640926.1032863
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N32_l1_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N32_l1_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1502,
+    "start_unix": 1792640926.1099007,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640928.3710272
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N32_l1_b0_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N32_l1_b0_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1515,
+    "start_unix": 1792640928.3777084,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640930.638504
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N32_l1_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N32_l1_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1526,
+    "start_unix": 1792640930.645136,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640932.706616
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N32_l1_b1_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N32_l1_b1_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1537,
+    "start_unix": 1792640932.7132976,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640934.9752789
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N32_l1_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N32_l1_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1548,
+    "start_unix": 1792640934.9820728,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640938.2468145
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N32_l1_b1_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N32_l1_b1_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1562,
+    "start_unix": 1792640938.253613,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640940.5147882
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N64_l0_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N64_l0_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1573,
+    "start_unix": 1792640940.52177,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640942.7830973
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N64_l0_b0_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N64_l0_b0_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1584,
+    "start_unix": 1792640942.7902086,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640944.8510132
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N64_l0_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N64_l0_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1595,
+    "start_unix": 1792640944.8580256,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640947.1190615
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N64_l0_b0_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N64_l0_b0_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1606,
+    "start_unix": 1792640947.1261103,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640949.3863719
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N64_l0_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N64_l0_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1619,
+    "start_unix": 1792640949.3937144,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640951.6541827
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N64_l0_b1_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N64_l0_b1_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1630,
+    "start_unix": 1792640951.6613877,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640953.9220698
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N64_l0_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N64_l0_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1641,
+    "start_unix": 1792640953.9293494,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640957.1952336
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N64_l0_b1_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N64_l0_b1_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1655,
+    "start_unix": 1792640957.2026136,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640959.2708702
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N64_l1_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N64_l1_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1668,
+    "start_unix": 1792640959.2785313,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640961.5350482
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N64_l1_b0_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N64_l1_b0_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1679,
+    "start_unix": 1792640961.542545,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640963.800747
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N64_l1_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N64_l1_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1690,
+    "start_unix": 1792640963.8082097,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640966.0708437
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N64_l1_b0_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N64_l1_b0_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1701,
+    "start_unix": 1792640966.078379,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640969.3471525
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N64_l1_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N64_l1_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1715,
+    "start_unix": 1792640969.354944,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640971.6207652
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N64_l1_b1_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N64_l1_b1_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1726,
+    "start_unix": 1792640971.6284554,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640973.8917344
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N64_l1_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N64_l1_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1737,
+    "start_unix": 1792640973.8994179,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640977.1666856
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K32_N64_l1_b1_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K32_N64_l1_b1_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1749,
+    "start_unix": 1792640977.17449,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640979.4348645
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l0_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l0_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1762,
+    "start_unix": 1792640979.442701,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640981.7030456
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l0_b0_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l0_b0_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1773,
+    "start_unix": 1792640981.710926,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640983.9778268
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l0_b0_tile_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l0_b0_tile_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 1784,
+    "start_unix": 1792640983.9858131,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640987.25642
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l0_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l0_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1796,
+    "start_unix": 1792640987.2643754,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640989.5266106
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l0_b0_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l0_b0_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1809,
+    "start_unix": 1792640989.534598,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640991.808616
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l0_b0_element_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l0_b0_element_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 1820,
+    "start_unix": 1792640991.8166423,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640994.0833983
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l0_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l0_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1831,
+    "start_unix": 1792640994.0914216,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640997.3558054
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l0_b1_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l0_b1_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1844,
+    "start_unix": 1792640997.3641603,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792640999.42307
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l0_b1_tile_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l0_b1_tile_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 1856,
+    "start_unix": 1792640999.4313219,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641001.4868915
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l0_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l0_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1867,
+    "start_unix": 1792641001.4951696,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641003.5670114
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l0_b1_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l0_b1_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1878,
+    "start_unix": 1792641003.575312,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641005.8348355
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l0_b1_element_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l0_b1_element_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 1889,
+    "start_unix": 1792641005.843203,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641008.1028519
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l1_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l1_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1900,
+    "start_unix": 1792641008.1112802,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641011.3743742
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l1_b0_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l1_b0_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1914,
+    "start_unix": 1792641011.3829005,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641013.4429226
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l1_b0_tile_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l1_b0_tile_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 1925,
+    "start_unix": 1792641013.4516122,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641015.7068582
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l1_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l1_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1936,
+    "start_unix": 1792641015.7154596,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641017.774924
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l1_b0_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l1_b0_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1947,
+    "start_unix": 1792641017.7835338,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641019.84036
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l1_b0_element_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l1_b0_element_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 1959,
+    "start_unix": 1792641019.848999,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641022.1150014
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l1_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l1_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 1970,
+    "start_unix": 1792641022.1237836,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641025.390944
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l1_b1_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l1_b1_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 1983,
+    "start_unix": 1792641025.3998027,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641027.4590936
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l1_b1_tile_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l1_b1_tile_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 1994,
+    "start_unix": 1792641027.4679258,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641029.7229671
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l1_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l1_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2006,
+    "start_unix": 1792641029.7318165,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641032.0005367
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l1_b1_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l1_b1_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2017,
+    "start_unix": 1792641032.0115576,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641035.2787375
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N16_l1_b1_element_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N16_l1_b1_element_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2031,
+    "start_unix": 1792641035.2886598,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641037.550633
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l0_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l0_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2043,
+    "start_unix": 1792641037.5596411,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641039.8273044
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l0_b0_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l0_b0_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2055,
+    "start_unix": 1792641039.836433,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641041.898682
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l0_b0_tile_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l0_b0_tile_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2066,
+    "start_unix": 1792641041.907742,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641044.1789935
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l0_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l0_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2077,
+    "start_unix": 1792641044.1881132,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641047.450952
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l0_b0_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l0_b0_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2091,
+    "start_unix": 1792641047.4601643,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641049.726576
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l0_b0_element_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l0_b0_element_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2103,
+    "start_unix": 1792641049.7361827,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641052.0050387
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l0_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l0_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2114,
+    "start_unix": 1792641052.0143542,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641055.2788668
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l0_b1_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l0_b1_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2126,
+    "start_unix": 1792641055.2882743,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641057.5508142
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l0_b1_tile_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l0_b1_tile_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2138,
+    "start_unix": 1792641057.560602,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641059.8231993
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l0_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l0_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2150,
+    "start_unix": 1792641059.8329403,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641062.0991242
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l0_b1_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l0_b1_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2161,
+    "start_unix": 1792641062.1086848,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641065.370707
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l0_b1_element_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l0_b1_element_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2173,
+    "start_unix": 1792641065.38026,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641067.64035
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l1_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l1_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2185,
+    "start_unix": 1792641067.6505907,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641069.9077477
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l1_b0_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l1_b0_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2197,
+    "start_unix": 1792641069.9174938,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641072.1750393
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l1_b0_tile_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l1_b0_tile_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2208,
+    "start_unix": 1792641072.184749,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641075.451027
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l1_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l1_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2221,
+    "start_unix": 1792641075.4608905,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641077.7229908
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l1_b0_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l1_b0_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2236,
+    "start_unix": 1792641077.7330701,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641079.9956002
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l1_b0_element_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l1_b0_element_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2248,
+    "start_unix": 1792641080.0055673,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641083.2709944
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l1_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l1_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2260,
+    "start_unix": 1792641083.2809708,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641085.5462394
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l1_b1_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l1_b1_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2274,
+    "start_unix": 1792641085.556246,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641087.822901
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l1_b1_tile_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l1_b1_tile_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2285,
+    "start_unix": 1792641087.8331125,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641090.1022837
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l1_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l1_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2297,
+    "start_unix": 1792641090.1124332,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641093.3761058
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l1_b1_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l1_b1_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2309,
+    "start_unix": 1792641093.386321,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641095.6468654
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N32_l1_b1_element_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N32_l1_b1_element_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2321,
+    "start_unix": 1792641095.6570415,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641097.9189987
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l0_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l0_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2332,
+    "start_unix": 1792641097.9293272,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641100.1948075
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l0_b0_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l0_b0_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2344,
+    "start_unix": 1792641100.205211,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641103.4748962
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l0_b0_tile_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l0_b0_tile_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2357,
+    "start_unix": 1792641103.4853098,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641105.7472305
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l0_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l0_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2372,
+    "start_unix": 1792641105.7579694,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641108.0227542
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l0_b0_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l0_b0_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2383,
+    "start_unix": 1792641108.0332396,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641111.2988179
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l0_b0_element_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l0_b0_element_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2396,
+    "start_unix": 1792641111.3094146,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641113.5707624
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l0_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l0_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2408,
+    "start_unix": 1792641113.581415,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641115.8382363
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l0_b1_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l0_b1_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2419,
+    "start_unix": 1792641115.8489587,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641118.1107707
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l0_b1_tile_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l0_b1_tile_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2430,
+    "start_unix": 1792641118.1218524,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641121.389308
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l0_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l0_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2445,
+    "start_unix": 1792641121.4003851,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641123.663406
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l0_b1_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l0_b1_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2457,
+    "start_unix": 1792641123.6745636,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641125.9366462
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l0_b1_element_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l0_b1_element_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2468,
+    "start_unix": 1792641125.947559,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641128.206774
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l1_b0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l1_b0_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2479,
+    "start_unix": 1792641128.2177012,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641131.485683
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l1_b0_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l1_b0_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2493,
+    "start_unix": 1792641131.496685,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641133.7621372
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l1_b0_tile_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l1_b0_tile_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2504,
+    "start_unix": 1792641133.7731981,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641136.0393848
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l1_b0_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l1_b0_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2515,
+    "start_unix": 1792641136.050382,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641138.3108213
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l1_b0_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l1_b0_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2526,
+    "start_unix": 1792641138.3219604,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641140.5866735
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l1_b0_element_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l1_b0_element_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2539,
+    "start_unix": 1792641140.5980523,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641142.8661904
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l1_b1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l1_b1_tile_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2550,
+    "start_unix": 1792641142.877605,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641145.1388848
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l1_b1_tile_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l1_b1_tile_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2561,
+    "start_unix": 1792641145.1502037,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641148.414798
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l1_b1_tile_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l1_b1_tile_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2573,
+    "start_unix": 1792641148.4260683,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641150.6866484
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l1_b1_element_s0",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l1_b1_element_s0",
+      "direct",
+      "1"
+    ],
+    "pid": 2586,
+    "start_unix": 1792641150.6980958,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641152.9658568
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l1_b1_element_s1",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l1_b1_element_s1",
+      "direct",
+      "1"
+    ],
+    "pid": 2597,
+    "start_unix": 1792641152.977303,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641155.2387009
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l1_b1_element_s2",
+      "/data/e0-g3-20261022-r1/results/B-independent/B-selector_K48_N64_l1_b1_element_s2",
+      "direct",
+      "1"
+    ],
+    "pid": 2608,
+    "start_unix": 1792641155.2501748,
+    "group": "B-independent",
+    "returncode": 0,
+    "end_unix": 1792641158.5149207
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K16_bulk0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K16_bulk0_tile_s0",
+      "normal",
+      "1"
+    ],
+    "pid": 2621,
+    "start_unix": 1792641158.5266657,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641160.5914636
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K16_bulk0_element_s0",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K16_bulk0_element_s0",
+      "normal",
+      "1"
+    ],
+    "pid": 2633,
+    "start_unix": 1792641160.603149,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641162.866778
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K16_bulk1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K16_bulk1_tile_s0",
+      "normal",
+      "1"
+    ],
+    "pid": 2644,
+    "start_unix": 1792641162.8783288,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641165.134929
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K16_bulk1_element_s0",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K16_bulk1_element_s0",
+      "normal",
+      "1"
+    ],
+    "pid": 2655,
+    "start_unix": 1792641165.1465585,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641168.4066617
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K32_bulk0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K32_bulk0_tile_s0",
+      "normal",
+      "1"
+    ],
+    "pid": 2667,
+    "start_unix": 1792641168.4183805,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641170.6785777
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K32_bulk0_tile_s1",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K32_bulk0_tile_s1",
+      "normal",
+      "1"
+    ],
+    "pid": 2680,
+    "start_unix": 1792641170.690475,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641172.9556773
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K32_bulk0_element_s0",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K32_bulk0_element_s0",
+      "normal",
+      "1"
+    ],
+    "pid": 2691,
+    "start_unix": 1792641172.9674857,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641175.2267065
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K32_bulk0_element_s1",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K32_bulk0_element_s1",
+      "normal",
+      "1"
+    ],
+    "pid": 2702,
+    "start_unix": 1792641175.238541,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641178.5065496
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K32_bulk1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K32_bulk1_tile_s0",
+      "normal",
+      "1"
+    ],
+    "pid": 2716,
+    "start_unix": 1792641178.5184193,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641180.77961
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K32_bulk1_tile_s1",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K32_bulk1_tile_s1",
+      "normal",
+      "1"
+    ],
+    "pid": 2729,
+    "start_unix": 1792641180.7917917,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641182.8508449
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K32_bulk1_element_s0",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K32_bulk1_element_s0",
+      "normal",
+      "1"
+    ],
+    "pid": 2740,
+    "start_unix": 1792641182.8628337,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641185.1203926
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K32_bulk1_element_s1",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K32_bulk1_element_s1",
+      "normal",
+      "1"
+    ],
+    "pid": 2751,
+    "start_unix": 1792641185.1324713,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641187.395168
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K48_bulk0_tile_s0",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K48_bulk0_tile_s0",
+      "normal",
+      "1"
+    ],
+    "pid": 2762,
+    "start_unix": 1792641187.407532,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641189.6673706
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K48_bulk0_tile_s1",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K48_bulk0_tile_s1",
+      "normal",
+      "1"
+    ],
+    "pid": 2774,
+    "start_unix": 1792641189.6796286,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641191.9670277
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K48_bulk0_tile_s2",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K48_bulk0_tile_s2",
+      "normal",
+      "1"
+    ],
+    "pid": 2786,
+    "start_unix": 1792641191.9792767,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641194.2435408
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K48_bulk0_element_s0",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K48_bulk0_element_s0",
+      "normal",
+      "1"
+    ],
+    "pid": 2797,
+    "start_unix": 1792641194.2558928,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641197.5147889
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K48_bulk0_element_s1",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K48_bulk0_element_s1",
+      "normal",
+      "1"
+    ],
+    "pid": 2809,
+    "start_unix": 1792641197.5272522,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641199.5869532
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K48_bulk0_element_s2",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K48_bulk0_element_s2",
+      "normal",
+      "1"
+    ],
+    "pid": 2821,
+    "start_unix": 1792641199.5993097,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641201.858821
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K48_bulk1_tile_s0",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K48_bulk1_tile_s0",
+      "normal",
+      "1"
+    ],
+    "pid": 2833,
+    "start_unix": 1792641201.871281,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641204.1308339
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K48_bulk1_tile_s1",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K48_bulk1_tile_s1",
+      "normal",
+      "1"
+    ],
+    "pid": 2844,
+    "start_unix": 1792641204.1432655,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641207.4066203
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K48_bulk1_tile_s2",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K48_bulk1_tile_s2",
+      "normal",
+      "1"
+    ],
+    "pid": 2856,
+    "start_unix": 1792641207.4191778,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641209.6753533
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K48_bulk1_element_s0",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K48_bulk1_element_s0",
+      "normal",
+      "1"
+    ],
+    "pid": 2868,
+    "start_unix": 1792641209.6882298,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641211.7508757
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K48_bulk1_element_s1",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K48_bulk1_element_s1",
+      "normal",
+      "1"
+    ],
+    "pid": 2880,
+    "start_unix": 1792641211.7636337,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641214.0304425
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-g3-20261022-r1/inputs/A-selector_K48_bulk1_element_s2",
+      "/data/e0-g3-20261022-r1/results/A-confirmed-B/A-selector_K48_bulk1_element_s2",
+      "normal",
+      "1"
+    ],
+    "pid": 2891,
+    "start_unix": 1792641214.0442219,
+    "group": "A-confirmed-B",
+    "returncode": 0,
+    "end_unix": 1792641216.3075638
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l0_b1_element_s2",
+      "/data/e0-g3-20261022-r1/results/core-repeat-0/B-selector_K48_N64_l0_b1_element_s2",
+      "direct",
+      "10"
+    ],
+    "pid": 2902,
+    "start_unix": 1792641216.3212411,
+    "group": "core-repeat-0",
+    "returncode": 0,
+    "end_unix": 1792641219.5863943
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l1_b1_element_s2",
+      "/data/e0-g3-20261022-r1/results/core-repeat-0/B-selector_K48_N64_l1_b1_element_s2",
+      "direct",
+      "10"
+    ],
+    "pid": 2915,
+    "start_unix": 1792641219.6041358,
+    "group": "core-repeat-0",
+    "returncode": 0,
+    "end_unix": 1792641221.669825
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l0_b1_element_s2",
+      "/data/e0-g3-20261022-r1/results/core-repeat-1/B-selector_K48_N64_l0_b1_element_s2",
+      "direct",
+      "10"
+    ],
+    "pid": 2927,
+    "start_unix": 1792641221.687762,
+    "group": "core-repeat-1",
+    "returncode": 0,
+    "end_unix": 1792641223.7550273
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l1_b1_element_s2",
+      "/data/e0-g3-20261022-r1/results/core-repeat-1/B-selector_K48_N64_l1_b1_element_s2",
+      "direct",
+      "10"
+    ],
+    "pid": 2940,
+    "start_unix": 1792641223.772703,
+    "group": "core-repeat-1",
+    "returncode": 0,
+    "end_unix": 1792641226.0397186
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l0_b1_element_s2",
+      "/data/e0-g3-20261022-r1/results/core-repeat-2/B-selector_K48_N64_l0_b1_element_s2",
+      "direct",
+      "10"
+    ],
+    "pid": 2951,
+    "start_unix": 1792641226.0578022,
+    "group": "core-repeat-2",
+    "returncode": 0,
+    "end_unix": 1792641228.3187895
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-g3-20261022-r1/inputs/B-selector_K48_N64_l1_b1_element_s2",
+      "/data/e0-g3-20261022-r1/results/core-repeat-2/B-selector_K48_N64_l1_b1_element_s2",
+      "direct",
+      "10"
+    ],
+    "pid": 2962,
+    "start_unix": 1792641228.336857,
+    "group": "core-repeat-2",
+    "returncode": 0,
+    "end_unix": 1792641231.5986373
+  }
+]

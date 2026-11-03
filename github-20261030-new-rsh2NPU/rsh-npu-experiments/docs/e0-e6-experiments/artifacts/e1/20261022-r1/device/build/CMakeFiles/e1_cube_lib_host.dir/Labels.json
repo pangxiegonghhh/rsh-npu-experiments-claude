@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/data/e1-20261022-r1/build/CMakeFiles/e1_cube_lib_host"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/CMakeFiles/e1_cube_lib_host.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/CMakeFiles/e1_cube_lib_host-complete.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_cube_lib_host-prefix/src/e1_cube_lib_host-stamp/e1_cube_lib_host-build.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_cube_lib_host-prefix/src/e1_cube_lib_host-stamp/e1_cube_lib_host-configure.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_cube_lib_host-prefix/src/e1_cube_lib_host-stamp/e1_cube_lib_host-download.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_cube_lib_host-prefix/src/e1_cube_lib_host-stamp/e1_cube_lib_host-install.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_cube_lib_host-prefix/src/e1_cube_lib_host-stamp/e1_cube_lib_host-mkdir.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_cube_lib_host-prefix/src/e1_cube_lib_host-stamp/e1_cube_lib_host-patch.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_cube_lib_host-prefix/src/e1_cube_lib_host-stamp/e1_cube_lib_host-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"e1_cube_lib_host"
+		],
+		"name" : "e1_cube_lib_host"
+	}
+}

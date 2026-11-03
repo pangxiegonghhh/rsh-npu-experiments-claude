@@ -1,0 +1,3 @@
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/include/tiling/platform/platform_ascendc.h
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/include/utils/tiling/platform/platform_ascendc.h
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/include/platform/platform_info.h

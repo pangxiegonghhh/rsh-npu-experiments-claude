@@ -1,0 +1,32 @@
+tail-independent tail-A-selector_K1_s0 PASS
+tail-independent tail-B-selector_K1_s0 PASS
+tail-independent tail-A-selector_K5_s0 PASS
+tail-independent tail-B-selector_K5_s0 PASS
+tail-independent tail-A-selector_K15_s0 PASS
+tail-independent tail-B-selector_K15_s0 PASS
+tail-independent tail-A-selector_K17_s0 PASS
+tail-independent tail-B-selector_K17_s0 PASS
+tail-independent tail-A-selector_K17_s1 PASS
+tail-independent tail-B-selector_K17_s1 PASS
+tail-independent tail-A-selector_K31_s0 PASS
+tail-independent tail-B-selector_K31_s0 PASS
+tail-independent tail-A-selector_K31_s1 PASS
+tail-independent tail-B-selector_K31_s1 PASS
+tail-independent tail-A-selector_K37_s0 PASS
+tail-independent tail-B-selector_K37_s0 PASS
+tail-independent tail-A-selector_K37_s1 PASS
+tail-independent tail-B-selector_K37_s1 PASS
+tail-independent tail-A-selector_K37_s2 PASS
+tail-independent tail-B-selector_K37_s2 PASS
+repeat-0-normal control_K16_N16 FAIL
+Traceback (most recent call last):
+  File "/data/e0-supplement-r1/scripts/e0_finish.py", line 91, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/data/e0-supplement-r1/scripts/e0_finish.py", line 62, in main
+    for case,mode in cores:probe(case,mode,f'repeat-{rep}-{mode}',10)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/e0-supplement-r1/scripts/e0_finish.py", line 31, in probe
+    if result['status']!='PASS':raise RuntimeError(result)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: {'case_id': 'control_K16_N16', 'stage': 'S2', 'status': 'FAIL', 'path': 'normal', 'iterations': 10, 'checks': [{'max_abs_error': 0.0, 'value_errors': 0, 'guard_errors': 0, 'first_bad': [], 'debug_guard_errors': 0, 'debug': [1, 16, 16, 16], 'call_params_correct': True, 'padding_errors': 0}, {'max_abs_error': 0.0, 'value_errors': 0, 'guard_errors': 0, 'first_bad': [], 'debug_guard_errors': 0, 'debug': [1, 16, 16, 16], 'call_params_correct': True, 'padding_errors': 0}, {'max_abs_error': 7.5625, 'value_errors': 256, 'guard_errors': 0, 'first_bad': [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4]], 'debug_guard_errors': 0, 'debug': [1, 16, 16, 16], 'call_params_correct': True, 'padding_errors': 0}, {'max_abs_error': 7.5625, 'value_errors': 256, 'guard_errors': 0, 'first_bad': [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4]], 'debug_guard_errors': 0, 'debug': [1, 16, 16, 16], 'call_params_correct': True, 'padding_errors': 0}, {'max_abs_error': 0.0, 'value_errors': 0, 'guard_errors': 0, 'first_bad': [], 'debug_guard_errors': 0, 'debug': [1, 16, 16, 16], 'call_params_correct': True, 'padding_errors': 0}, {'max_abs_error': 0.0, 'value_errors': 0, 'guard_errors': 0, 'first_bad': [], 'debug_guard_errors': 0, 'debug': [1, 16, 16, 16], 'call_params_correct': True, 'padding_errors': 0}, {'max_abs_error': 7.5625, 'value_errors': 256, 'guard_errors': 0, 'first_bad': [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4]], 'debug_guard_errors': 0, 'debug': [1, 16, 16, 16], 'call_params_correct': True, 'padding_errors': 0}, {'max_abs_error': 7.5625, 'value_errors': 256, 'guard_errors': 0, 'first_bad': [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4]], 'debug_guard_errors': 0, 'debug': [1, 16, 16, 16], 'call_params_correct': True, 'padding_errors': 0}, {'max_abs_error': 0.0, 'value_errors': 0, 'guard_errors': 0, 'first_bad': [], 'debug_guard_errors': 0, 'debug': [1, 16, 16, 16], 'call_params_correct': True, 'padding_errors': 0}, {'max_abs_error': 0.0, 'value_errors': 0, 'guard_errors': 0, 'first_bad': [], 'debug_guard_errors': 0, 'debug': [1, 16, 16, 16], 'call_params_correct': True, 'padding_errors': 0}], 'sources': {'a': {'guard_errors': 0, 'payload_unchanged': True}, 'b': {'guard_errors': 0, 'payload_unchanged': True}, 'refs': {'guard_errors': 0, 'payload_unchanged': True}, 'config': {'guard_errors': 0, 'payload_unchanged': True}}, 'read_range_check': True, 'observation_method': 'product', 'max_abs_error': 7.5625, 'group': 'repeat-0-normal'}

@@ -1,0 +1,19 @@
+{
+  "id": "main_u1_n32_p2_k2",
+  "group": "main",
+  "kind": "local_index",
+  "U": 1,
+  "N": 32,
+  "Kp": 16,
+  "Np": 32,
+  "tiles": 1,
+  "nnz": 12,
+  "sha256": {
+    "original-a.bin": "5afeed61564d6b7e6ac714e0dff509c6f0fea60dbc724a28a8f1f8dfa0613ff1",
+    "cols.bin": "3f56473d402a3176f3cb8bbe1a85ae9805d876cb1a8398188774c6afc929cb8b",
+    "payload.bin": "6a919df65ca1702ac4370bff423315726ec454838ea4b19d1fdfc18fd6254906",
+    "config.bin": "256f19be0ca3081a20feec9813d4b507f84cad4475729b6ec7e3c86ea0aab401",
+    "desc.bin": "13008fcd671fdfc41882d6e1b06f3bffbb16665fd6fb70aef574cb51b77e8262",
+    "b.bin": "35ddb9f030f4619c4311e59e8e80a81dac6e1903037a560d7d2c4e09bd7370f7"
+  }
+}

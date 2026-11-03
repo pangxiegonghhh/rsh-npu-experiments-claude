@@ -1,0 +1,19 @@
+{
+  "id": "occupancy_z89_k1",
+  "group": "occupancy",
+  "kind": "bitmap",
+  "U": 16,
+  "N": 16,
+  "Kp": 16,
+  "Np": 16,
+  "tiles": 1,
+  "nnz": 89,
+  "sha256": {
+    "config.bin": "01dff153abf5a10b44b604bfb7b0426911d496d2f76473656e13cd9af15cb8af",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73",
+    "desc.bin": "d1b46fd946f0e99ec3d9b8fd2aa95eeb8479a2961cfcaab3189fa6118d49de9a",
+    "original-a.bin": "c38ea0f51109b2e4e3dcc6f467e56e13766e05907fb24409468c596bc9db7a6a",
+    "payload.bin": "b1631f8225dfb1cbc7d4db7e0f71f54924387fbc29cda806fbb16431277912b9",
+    "cols.bin": "7b165dc88c54d04ea4da68fe3df961af209d84692e1599be0cb18edb6782f799"
+  }
+}

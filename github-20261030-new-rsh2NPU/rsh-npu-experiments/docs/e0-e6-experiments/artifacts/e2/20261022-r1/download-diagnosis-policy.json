@@ -1,0 +1,8 @@
+{
+  "DownloadRestrictions": "not set",
+  "all_Chrome_policies": "none set after clearing filter",
+  "management": "Browser says not managed by company/organization",
+  "diagnosis": "Organization-policy cause NOT established; earlier attribution corrected",
+  "hypothesis": "Automation debugging session or extension could cancel downloads; unconfirmed",
+  "instance": "CPU_ONLY_START_REQUESTED_FOR_USER_HANDOFF"
+}

@@ -1,0 +1,9 @@
+/data/e1-20261022-r1/inputs/main_u0_n17_p1_k0
+/data/e1-20261022-r1/inputs/main_u37_n17_p1_k0
+/data/e1-20261022-r1/inputs/main_u37_n17_p1_k1
+/data/e1-20261022-r1/inputs/main_u37_n17_p1_k2
+/data/e1-20261022-r1/inputs/main_u37_n17_p1_k3
+/data/e1-20261022-r1/inputs/occupancy_z0_k2
+/data/e1-20261022-r1/inputs/occupancy_z1_k2
+/data/e1-20261022-r1/inputs/occupancy_z256_k1
+/data/e1-20261022-r1/inputs/main_u63_n64_p1_k3

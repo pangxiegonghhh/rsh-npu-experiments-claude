@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "case_count": 1988,
+  "by_kind": {
+    "dense": 497,
+    "bitmap": 497,
+    "local_index": 497,
+    "dense_tail": 497
+  },
+  "logical_windows": 497,
+  "same_A_B_colmap_across_four_kinds": true,
+  "U0_main_cases": 96,
+  "formal_decoder_calls": 2708,
+  "formal_cube_launches": 2612
+}

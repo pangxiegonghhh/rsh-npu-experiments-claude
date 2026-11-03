@@ -1,0 +1,19 @@
+{
+  "id": "occupancy_z131_k3",
+  "group": "occupancy",
+  "kind": "dense_tail",
+  "U": 16,
+  "N": 16,
+  "Kp": 16,
+  "Np": 16,
+  "tiles": 1,
+  "nnz": 131,
+  "sha256": {
+    "config.bin": "34c9642464f65f7b931b0f0f2605c80acc81251eb8ef16956175d91bf4a884b2",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73",
+    "desc.bin": "9a3941333daca2686922ba4d5fd1b77811495e4059d3f220db8d973b0d904f13",
+    "original-a.bin": "a50a8cb7df6eeb5b39f22d6f330cf510e762e00b5b273af01a12e6b6fb8e8b0b",
+    "payload.bin": "a50a8cb7df6eeb5b39f22d6f330cf510e762e00b5b273af01a12e6b6fb8e8b0b",
+    "cols.bin": "7b165dc88c54d04ea4da68fe3df961af209d84692e1599be0cb18edb6782f799"
+  }
+}

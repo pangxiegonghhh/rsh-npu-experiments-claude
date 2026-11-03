@@ -1,0 +1,5 @@
+CALL_OK "occupancy_z256_k0" 0
+CALL_OK "occupancy_z256_k1" 0
+CALL_OK "occupancy_z256_k2" 0
+CALL_OK "occupancy_z256_k3" 0
+BATCH_OK 4

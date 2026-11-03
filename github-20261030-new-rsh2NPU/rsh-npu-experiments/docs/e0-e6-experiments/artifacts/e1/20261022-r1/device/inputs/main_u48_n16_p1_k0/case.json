@@ -1,0 +1,19 @@
+{
+  "id": "main_u48_n16_p1_k0",
+  "group": "main",
+  "kind": "dense",
+  "U": 48,
+  "N": 16,
+  "Kp": 48,
+  "Np": 16,
+  "tiles": 3,
+  "nnz": 252,
+  "sha256": {
+    "original-a.bin": "7d6be42090b00480e0a0051e5e6a89b8c36153a505d83acaaf8af27cf9ecef3e",
+    "cols.bin": "fc618d24bb9d96fa58dc3faf057eee3578dfbcf8e316df0f857405fe04ae2821",
+    "payload.bin": "41b9e5ef563735ea04f06121c6bfc175604af1194e2b14190a9a39435a39f44d",
+    "config.bin": "083b0422d17c0ac63b56be3e706e8a021f835b92ed17d9206ce7f7c7eae77e01",
+    "desc.bin": "d13de6eeaff91521282008a7c4abf3520546159f98831051467b8e2ecb883f50",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73"
+  }
+}

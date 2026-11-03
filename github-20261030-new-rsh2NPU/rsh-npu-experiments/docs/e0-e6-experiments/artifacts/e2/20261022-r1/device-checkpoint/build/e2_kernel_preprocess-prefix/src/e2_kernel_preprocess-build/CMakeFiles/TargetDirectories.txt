@@ -1,0 +1,8 @@
+/data/e2-20261022-r1/build/e2_kernel_preprocess-prefix/src/e2_kernel_preprocess-build/CMakeFiles/preprocess_obj.dir
+/data/e2-20261022-r1/build/e2_kernel_preprocess-prefix/src/e2_kernel_preprocess-build/CMakeFiles/aiv_obj.dir
+/data/e2-20261022-r1/build/e2_kernel_preprocess-prefix/src/e2_kernel_preprocess-build/CMakeFiles/merge_aiv_obj_text.dir
+/data/e2-20261022-r1/build/e2_kernel_preprocess-prefix/src/e2_kernel_preprocess-build/CMakeFiles/aic_obj.dir
+/data/e2-20261022-r1/build/e2_kernel_preprocess-prefix/src/e2_kernel_preprocess-build/CMakeFiles/merge_aic_obj_text.dir
+/data/e2-20261022-r1/build/e2_kernel_preprocess-prefix/src/e2_kernel_preprocess-build/CMakeFiles/_host_cpp.dir
+/data/e2-20261022-r1/build/e2_kernel_preprocess-prefix/src/e2_kernel_preprocess-build/CMakeFiles/edit_cache.dir
+/data/e2-20261022-r1/build/e2_kernel_preprocess-prefix/src/e2_kernel_preprocess-build/CMakeFiles/rebuild_cache.dir

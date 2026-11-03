@@ -1,0 +1,2 @@
+/usr/bin/ar qc libe1_cube_lib_interface.a CMakeFiles/e1_cube_lib_interface.dir/e1_cube_lib_stub.cpp.o
+/usr/bin/ranlib libe1_cube_lib_interface.a

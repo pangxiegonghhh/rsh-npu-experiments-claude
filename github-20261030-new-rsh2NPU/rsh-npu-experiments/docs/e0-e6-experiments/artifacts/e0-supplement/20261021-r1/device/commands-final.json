@@ -1,0 +1,438 @@
+[
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/invalid-inputs/negative-ref",
+      "/data/e0-supplement-r1/results/final-rejection/negative-ref"
+    ],
+    "env_overrides": {},
+    "start": 1792588094.6999795,
+    "returncode": 1,
+    "end": 1792588095.1329348
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/invalid-inputs/misaligned-shape",
+      "/data/e0-supplement-r1/results/final-rejection/misaligned-shape"
+    ],
+    "env_overrides": {},
+    "start": 1792588095.1351614,
+    "returncode": 1,
+    "end": 1792588095.5656714
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/control_K16_N16",
+      "/data/e0-supplement-r1/results/final-repeat-0-normal/control_K16_N16",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588095.566446,
+    "returncode": 0,
+    "end": 1792588098.8310707
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-supplement-r1/inputs/control_K16_N16",
+      "/data/e0-supplement-r1/results/final-repeat-0-direct/control_K16_N16",
+      "direct",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588098.839972,
+    "returncode": 0,
+    "end": 1792588101.098627
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/N-tail_K48_N33",
+      "/data/e0-supplement-r1/results/final-repeat-0-normal/N-tail_K48_N33",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588101.1069825,
+    "returncode": 0,
+    "end": 1792588103.3668132
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/B-selector_K48_N64_l0_b1_element_s2",
+      "/data/e0-supplement-r1/results/final-repeat-0-normal/B-selector_K48_N64_l0_b1_element_s2",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588103.3756232,
+    "returncode": 0,
+    "end": 1792588105.6386218
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/B-selector_K48_N64_l1_b1_element_s2",
+      "/data/e0-supplement-r1/results/final-repeat-0-normal/B-selector_K48_N64_l1_b1_element_s2",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588105.6476758,
+    "returncode": 0,
+    "end": 1792588108.9106216
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-B-selector_K37_s2",
+      "/data/e0-supplement-r1/results/final-repeat-0-normal/tail-B-selector_K37_s2",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588108.9200299,
+    "returncode": 0,
+    "end": 1792588111.1825697
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/logical_M30_K70_N40",
+      "/data/e0-supplement-r1/results/final-repeat-0-normal/logical_M30_K70_N40",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588111.192239,
+    "returncode": 0,
+    "end": 1792588113.254591
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/control_K16_N16",
+      "/data/e0-supplement-r1/results/final-repeat-1-normal/control_K16_N16",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588113.2644193,
+    "returncode": 0,
+    "end": 1792588115.5307689
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-supplement-r1/inputs/control_K16_N16",
+      "/data/e0-supplement-r1/results/final-repeat-1-direct/control_K16_N16",
+      "direct",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588115.5407827,
+    "returncode": 0,
+    "end": 1792588117.6032586
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/N-tail_K48_N33",
+      "/data/e0-supplement-r1/results/final-repeat-1-normal/N-tail_K48_N33",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588117.615632,
+    "returncode": 0,
+    "end": 1792588120.8747275
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/B-selector_K48_N64_l0_b1_element_s2",
+      "/data/e0-supplement-r1/results/final-repeat-1-normal/B-selector_K48_N64_l0_b1_element_s2",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588120.8854725,
+    "returncode": 0,
+    "end": 1792588123.1426308
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/B-selector_K48_N64_l1_b1_element_s2",
+      "/data/e0-supplement-r1/results/final-repeat-1-normal/B-selector_K48_N64_l1_b1_element_s2",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588123.1537364,
+    "returncode": 0,
+    "end": 1792588125.4144638
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-B-selector_K37_s2",
+      "/data/e0-supplement-r1/results/final-repeat-1-normal/tail-B-selector_K37_s2",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588125.4259737,
+    "returncode": 0,
+    "end": 1792588127.6864905
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/logical_M30_K70_N40",
+      "/data/e0-supplement-r1/results/final-repeat-1-normal/logical_M30_K70_N40",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588127.6982212,
+    "returncode": 0,
+    "end": 1792588130.9625144
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/control_K16_N16",
+      "/data/e0-supplement-r1/results/final-repeat-2-normal/control_K16_N16",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588130.9743547,
+    "returncode": 0,
+    "end": 1792588133.2345228
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-supplement-r1/inputs/control_K16_N16",
+      "/data/e0-supplement-r1/results/final-repeat-2-direct/control_K16_N16",
+      "direct",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588133.246556,
+    "returncode": 0,
+    "end": 1792588135.302443
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/N-tail_K48_N33",
+      "/data/e0-supplement-r1/results/final-repeat-2-normal/N-tail_K48_N33",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588135.3147175,
+    "returncode": 0,
+    "end": 1792588137.5820096
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/B-selector_K48_N64_l0_b1_element_s2",
+      "/data/e0-supplement-r1/results/final-repeat-2-normal/B-selector_K48_N64_l0_b1_element_s2",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588137.5948303,
+    "returncode": 0,
+    "end": 1792588140.8545606
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/B-selector_K48_N64_l1_b1_element_s2",
+      "/data/e0-supplement-r1/results/final-repeat-2-normal/B-selector_K48_N64_l1_b1_element_s2",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588140.867959,
+    "returncode": 0,
+    "end": 1792588144.1415226
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-B-selector_K37_s2",
+      "/data/e0-supplement-r1/results/final-repeat-2-normal/tail-B-selector_K37_s2",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588144.1550047,
+    "returncode": 0,
+    "end": 1792588146.4225185
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/logical_M30_K70_N40",
+      "/data/e0-supplement-r1/results/final-repeat-2-normal/logical_M30_K70_N40",
+      "normal",
+      "10"
+    ],
+    "env_overrides": {},
+    "start": 1792588146.4361935,
+    "returncode": 0,
+    "end": 1792588148.698568
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/control_K17_N17",
+      "/data/e0-supplement-r1/results/final-poison-normal/control_K17_N17",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {
+      "E0_GUARD_BYTE": "0x36"
+    },
+    "start": 1792588148.7123365,
+    "returncode": 0,
+    "end": 1792588151.9822946
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/compact-A-selector_v5",
+      "/data/e0-supplement-r1/results/final-poison-normal/compact-A-selector_v5",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {
+      "E0_GUARD_BYTE": "0x36"
+    },
+    "start": 1792588151.9916,
+    "returncode": 0,
+    "end": 1792588154.2558324
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/tail-B-selector_K37_s2",
+      "/data/e0-supplement-r1/results/final-poison-normal/tail-B-selector_K37_s2",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {
+      "E0_GUARD_BYTE": "0x36"
+    },
+    "start": 1792588154.2651775,
+    "returncode": 0,
+    "end": 1792588156.5283687
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/logical_M30_K70_N40",
+      "/data/e0-supplement-r1/results/final-poison-normal/logical_M30_K70_N40",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {
+      "E0_GUARD_BYTE": "0x36"
+    },
+    "start": 1792588156.5379138,
+    "returncode": 0,
+    "end": 1792588158.7984989
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_normal",
+      "/data/e0-supplement-r1/inputs/mapping_segments",
+      "/data/e0-supplement-r1/results/final-poison-normal/mapping_segments",
+      "normal",
+      "1"
+    ],
+    "env_overrides": {
+      "E0_GUARD_BYTE": "0x36"
+    },
+    "start": 1792588158.8080554,
+    "returncode": 0,
+    "end": 1792588162.078701
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/build-final/e0_direct",
+      "/data/e0-supplement-r1/inputs/control_K17_N17",
+      "/data/e0-supplement-r1/results/final-poison-direct/control_K17_N17",
+      "direct",
+      "1"
+    ],
+    "env_overrides": {
+      "E0_GUARD_BYTE": "0x36"
+    },
+    "start": 1792588162.0883594,
+    "returncode": 0,
+    "end": 1792588164.354597
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/integrated-final/rsh_guarded",
+      "/data/e0-supplement-r1/integrated-inputs",
+      "1",
+      "1",
+      "10",
+      "20261021",
+      "/data/e0-supplement-r1/results/final-integrated-repeat-0/results.json",
+      "M30_K70_N40/V1",
+      "ADJACENT_U17_U37_N33/V1"
+    ],
+    "env_overrides": {},
+    "start": 1792588164.3643587,
+    "returncode": 0,
+    "end": 1792588166.6293368
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/integrated-final/rsh_guarded",
+      "/data/e0-supplement-r1/integrated-inputs",
+      "1",
+      "1",
+      "10",
+      "20261021",
+      "/data/e0-supplement-r1/results/final-integrated-repeat-1/results.json",
+      "M30_K70_N40/V1",
+      "ADJACENT_U17_U37_N33/V1"
+    ],
+    "env_overrides": {},
+    "start": 1792588166.6308637,
+    "returncode": 0,
+    "end": 1792588168.9016411
+  },
+  {
+    "argv": [
+      "/data/e0-supplement-r1/integrated-final/rsh_guarded",
+      "/data/e0-supplement-r1/integrated-inputs",
+      "1",
+      "1",
+      "10",
+      "20261021",
+      "/data/e0-supplement-r1/results/final-integrated-repeat-2/results.json",
+      "M30_K70_N40/V1",
+      "ADJACENT_U17_U37_N33/V1"
+    ],
+    "env_overrides": {},
+    "start": 1792588168.9031584,
+    "returncode": 0,
+    "end": 1792588171.1683583
+  }
+]

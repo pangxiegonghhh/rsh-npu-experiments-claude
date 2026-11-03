@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccFDiQNH.o: in function `main':
+resources.cpp:(.text+0xec): undefined reference to `fe::PlatformInfoManager::GetPlatformInfos(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, fe::PlatFormInfos&, fe::OptionalInfos&)'
+collect2: error: ld returned 1 exit status

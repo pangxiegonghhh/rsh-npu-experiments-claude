@@ -1,0 +1,5 @@
+/data/e2-20261022-r1/inputs/main_u0_n17_p0_k1_q1_d1_r1_c1
+/data/e2-20261022-r1/inputs/main_u16_n17_p0_k1_q1_d1_r1_c1
+/data/e2-20261022-r1/inputs/main_u17_n64_p0_k2_q2_d1_r1_c1
+/data/e2-20261022-r1/inputs/main_u257_n64_p0_k1_q8_d1_r1_c1
+/data/e2-20261022-r1/inputs/main_u37_n17_p0_k2_q1_d1_r1_c1

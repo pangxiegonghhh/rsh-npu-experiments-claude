@@ -1,0 +1,86 @@
+[
+  {
+    "mode": "normal",
+    "rep": 0,
+    "argv": [
+      "/data/e0-supplement-r1/repeat-each",
+      "/data/e0-supplement-r1/integrated-inputs",
+      "/data/e0-supplement-r1/each-call-followup/normal-0"
+    ],
+    "pid": 797,
+    "start_unix": 1792589969.5288115,
+    "RSH_E0_DIRECT_A": "0",
+    "returncode": 0,
+    "end_unix": 1792589971.7922094
+  },
+  {
+    "mode": "normal",
+    "rep": 1,
+    "argv": [
+      "/data/e0-supplement-r1/repeat-each",
+      "/data/e0-supplement-r1/integrated-inputs",
+      "/data/e0-supplement-r1/each-call-followup/normal-1"
+    ],
+    "pid": 808,
+    "start_unix": 1792589971.7939055,
+    "RSH_E0_DIRECT_A": "0",
+    "returncode": 0,
+    "end_unix": 1792589975.0624528
+  },
+  {
+    "mode": "normal",
+    "rep": 2,
+    "argv": [
+      "/data/e0-supplement-r1/repeat-each",
+      "/data/e0-supplement-r1/integrated-inputs",
+      "/data/e0-supplement-r1/each-call-followup/normal-2"
+    ],
+    "pid": 820,
+    "start_unix": 1792589975.06442,
+    "RSH_E0_DIRECT_A": "0",
+    "returncode": 0,
+    "end_unix": 1792589977.3322544
+  },
+  {
+    "mode": "direct",
+    "rep": 0,
+    "argv": [
+      "/data/e0-supplement-r1/repeat-each",
+      "/data/e0-supplement-r1/integrated-inputs",
+      "/data/e0-supplement-r1/each-call-followup/direct-0"
+    ],
+    "pid": 832,
+    "start_unix": 1792589977.3337038,
+    "RSH_E0_DIRECT_A": "1",
+    "returncode": 0,
+    "end_unix": 1792589979.5929163
+  },
+  {
+    "mode": "direct",
+    "rep": 1,
+    "argv": [
+      "/data/e0-supplement-r1/repeat-each",
+      "/data/e0-supplement-r1/integrated-inputs",
+      "/data/e0-supplement-r1/each-call-followup/direct-1"
+    ],
+    "pid": 843,
+    "start_unix": 1792589979.5944653,
+    "RSH_E0_DIRECT_A": "1",
+    "returncode": 0,
+    "end_unix": 1792589981.8602257
+  },
+  {
+    "mode": "direct",
+    "rep": 2,
+    "argv": [
+      "/data/e0-supplement-r1/repeat-each",
+      "/data/e0-supplement-r1/integrated-inputs",
+      "/data/e0-supplement-r1/each-call-followup/direct-2"
+    ],
+    "pid": 854,
+    "start_unix": 1792589981.8617368,
+    "RSH_E0_DIRECT_A": "1",
+    "returncode": 0,
+    "end_unix": 1792589985.130476
+  }
+]

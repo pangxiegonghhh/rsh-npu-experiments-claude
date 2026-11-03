@@ -1,0 +1,4 @@
+/data/e2-20261022-r1/build/e2_kernel_aic_device-prefix/src/e2_kernel_aic_device-build/CMakeFiles/device_obj.dir
+/data/e2-20261022-r1/build/e2_kernel_aic_device-prefix/src/e2_kernel_aic_device-build/CMakeFiles/merge_device_obj.dir
+/data/e2-20261022-r1/build/e2_kernel_aic_device-prefix/src/e2_kernel_aic_device-build/CMakeFiles/edit_cache.dir
+/data/e2-20261022-r1/build/e2_kernel_aic_device-prefix/src/e2_kernel_aic_device-build/CMakeFiles/rebuild_cache.dir

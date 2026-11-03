@@ -1,0 +1,12 @@
+{
+  "archive": "e0-evidence-final.tar.gz",
+  "bytes": 1415323,
+  "sha256": "4f209a7ea54481c46cd563af599a5708d57e3b0ce4fadf4167c03e666491622d",
+  "file_count": 7442,
+  "collected_unix": 1792588232.3466153,
+  "normal_cases": 223,
+  "repeat_probe_runs": 27,
+  "repeat_probe_calls": 216,
+  "poison_patterns_verified": 6,
+  "headers_hashed": 5
+}

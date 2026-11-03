@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/data/e0-supplement-r1/scripts/e0_finish.py", line 91, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/data/e0-supplement-r1/scripts/e0_finish.py", line 42, in main
+    result=json.loads((base/group/'results.json').read_text());assert result['correctness'] and result['e0_guarded'] and len(result['records'])==17
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python3.11.15/lib/python3.11/pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python3.11.15/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/data/e0-supplement-r1/results/integrated-direct/results.json'

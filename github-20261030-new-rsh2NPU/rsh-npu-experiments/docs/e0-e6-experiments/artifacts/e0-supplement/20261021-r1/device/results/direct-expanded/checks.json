@@ -1,0 +1,186 @@
+[
+  {
+    "case_id": "control_K16_N16",
+    "stage": "S2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "debug_guard_errors": 0,
+        "debug": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "call_params_correct": true,
+        "padding_errors": 0
+      }
+    ],
+    "sources": {
+      "a": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "b": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "refs": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "config": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      }
+    },
+    "read_range_check": true,
+    "observation_method": "product",
+    "max_abs_error": 0.0,
+    "elapsed_s": 2.2664334774017334
+  },
+  {
+    "case_id": "control_K32_N33",
+    "stage": "S2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "debug_guard_errors": 0,
+        "debug": [
+          2,
+          16,
+          16,
+          48
+        ],
+        "call_params_correct": true,
+        "padding_errors": 0
+      }
+    ],
+    "sources": {
+      "a": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "b": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "refs": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "config": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      }
+    },
+    "read_range_check": true,
+    "observation_method": "product",
+    "max_abs_error": 0.0,
+    "elapsed_s": 2.265568494796753
+  },
+  {
+    "case_id": "control_K48_N64",
+    "stage": "S2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "debug_guard_errors": 0,
+        "debug": [
+          3,
+          16,
+          16,
+          64
+        ],
+        "call_params_correct": true,
+        "padding_errors": 0
+      }
+    ],
+    "sources": {
+      "a": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "b": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "refs": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "config": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      }
+    },
+    "read_range_check": true,
+    "observation_method": "product",
+    "max_abs_error": 0.0,
+    "elapsed_s": 3.262769937515259
+  },
+  {
+    "case_id": "control_K17_N17",
+    "stage": "S2",
+    "status": "PASS",
+    "path": "direct",
+    "iterations": 1,
+    "checks": [
+      {
+        "max_abs_error": 0.0,
+        "value_errors": 0,
+        "guard_errors": 0,
+        "first_bad": [],
+        "debug_guard_errors": 0,
+        "debug": [
+          2,
+          16,
+          16,
+          32
+        ],
+        "call_params_correct": true,
+        "padding_errors": 0
+      }
+    ],
+    "sources": {
+      "a": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "b": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "refs": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      },
+      "config": {
+        "guard_errors": 0,
+        "payload_unchanged": true
+      }
+    },
+    "read_range_check": true,
+    "observation_method": "product",
+    "max_abs_error": 0.0,
+    "elapsed_s": 2.262996196746826
+  }
+]

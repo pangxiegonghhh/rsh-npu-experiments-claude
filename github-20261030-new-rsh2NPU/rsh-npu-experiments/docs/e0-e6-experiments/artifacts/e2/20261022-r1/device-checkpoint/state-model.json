@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "schedules": 2304,
+  "negative_protocols_rejected": 2,
+  "max_pending": 2
+}

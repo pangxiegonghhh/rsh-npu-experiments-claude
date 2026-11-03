@@ -1,0 +1,23 @@
+{
+  "schema": "e0-supplement-summary-v1",
+  "normal_cases": 223,
+  "extra_cases": 0,
+  "all_normal_pass": true,
+  "normal_max_error": 0.0,
+  "final_probe_runs": 27,
+  "final_probe_calls": 216,
+  "all_final_probes_pass": true,
+  "integrated_cases_per_path": 17,
+  "integrated_paths": [
+    "normal-final",
+    "direct-final"
+  ],
+  "integrated_repeat_processes": 3,
+  "integrated_repeat_cases": [
+    "M30_K70_N40",
+    "ADJACENT_U17_U37_N33"
+  ],
+  "known_failing_diagnostic": "same-translation-unit dual entry",
+  "repaired_diagnostic": "separate translation units normal/direct entries",
+  "end_unix": 1792588171.262666
+}

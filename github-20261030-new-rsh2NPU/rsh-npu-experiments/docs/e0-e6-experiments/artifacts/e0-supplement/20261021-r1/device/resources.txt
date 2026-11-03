@@ -1,0 +1,7 @@
+detected_soc=Ascend910B2
+platform_init=0 platform_query=0
+3 524032
+0 65536
+1 65536
+2 131072
+5 196352

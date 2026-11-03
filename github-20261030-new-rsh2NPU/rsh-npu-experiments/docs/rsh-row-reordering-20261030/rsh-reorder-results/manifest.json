@@ -1,0 +1,29 @@
+{
+  "experiment": "RSH row reordering structure experiment",
+  "scope": "row/column order and W16 structural metrics only",
+  "matrix": {
+    "name": "synthetic",
+    "n_rows": 192,
+    "n_cols": 192,
+    "nnz": 2462
+  },
+  "config": {
+    "w16": 16,
+    "k16": 16,
+    "rsh_k": 8,
+    "weighted_alpha": 0.0,
+    "seed": 0,
+    "neutron_cluster_windows": 8,
+    "rsh_refine_passes": 2,
+    "methods": [
+      "original",
+      "rsh",
+      "rabbit",
+      "neutron"
+    ],
+    "views": [
+      "row_only",
+      "native"
+    ]
+  }
+}

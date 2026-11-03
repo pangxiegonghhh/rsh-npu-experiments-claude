@@ -1,0 +1,82 @@
+[
+  {
+    "id": "kind",
+    "status": "REJECTED_BEFORE_ACL",
+    "returncode": 1
+  },
+  {
+    "id": "validk",
+    "status": "REJECTED_BEFORE_ACL",
+    "returncode": 1
+  },
+  {
+    "id": "offset",
+    "status": "REJECTED_BEFORE_ACL",
+    "returncode": 1
+  },
+  {
+    "id": "nnz",
+    "status": "REJECTED_BEFORE_ACL",
+    "returncode": 1
+  },
+  {
+    "id": "length",
+    "status": "REJECTED_BEFORE_ACL",
+    "returncode": 1
+  },
+  {
+    "id": "bitmap_popcount",
+    "status": "REJECTED_BEFORE_ACL",
+    "returncode": 1
+  },
+  {
+    "id": "index_duplicate",
+    "status": "REJECTED_BEFORE_ACL",
+    "returncode": 1
+  },
+  {
+    "id": "column_oob",
+    "status": "REJECTED_BEFORE_ACL",
+    "returncode": 1
+  },
+  {
+    "id": "column_duplicate",
+    "status": "REJECTED_BEFORE_ACL",
+    "returncode": 1
+  },
+  {
+    "id": "bad_config",
+    "status": "REJECTED_BEFORE_ACL",
+    "returncode": 1
+  },
+  {
+    "id": "nonfinite",
+    "status": "REJECTED_BEFORE_ACL",
+    "returncode": 1
+  },
+  {
+    "id": "A_tail",
+    "status": "REJECTED_BEFORE_ACL",
+    "returncode": 1
+  },
+  {
+    "id": "bitmap_tail",
+    "status": "REJECTED_BEFORE_ACL",
+    "returncode": 1
+  },
+  {
+    "id": "index_tail",
+    "status": "REJECTED_BEFORE_ACL",
+    "returncode": 1
+  },
+  {
+    "id": "empty_has_desc",
+    "status": "REJECTED_BEFORE_ACL",
+    "returncode": 1
+  },
+  {
+    "id": "B_pad",
+    "status": "REJECTED_BEFORE_ACL",
+    "returncode": 1
+  }
+]

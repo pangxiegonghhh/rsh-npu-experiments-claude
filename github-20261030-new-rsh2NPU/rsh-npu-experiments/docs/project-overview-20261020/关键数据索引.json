@@ -1,0 +1,1276 @@
+{
+  "date": "2026-10-20",
+  "type": "existing-results-index",
+  "new_device_experiment": false,
+  "source_sha256": {
+    "results/analysis-20261018/analysis-report.md": "26892fce19d1be4322b4ddc5414cfda5309c579adf2cd63b64fe15ce7a034efb",
+    "results/analysis-20261018/stats-appendix.md": "9d0910b2243d8241a391bc9b2aae68d2fa422028bc4b7f242a24a0b0216ef7ef",
+    "results/analysis-20261018/figure-catalog.md": "20e4cfc127cf058eda1484a7aaf97c1f91cb207a1f951f3132d9fa6d8eb8942e",
+    "results/d3/analysis.json": "88a2091e517cd0ff80b2c2b95d7a73e8816769cc3d57b30fb542a98ac236076e",
+    "results/d3/protocol.json": "12da575d3e4179c318f29d380b6101d670cd0cd2d88f599b608f8d7a8f4dba72",
+    "results/d3/结果解读.md": "e86935b2ac2ba31792891b80285d3bc4e58e7d9942c5aa7621ff6204c2ca7d96",
+    "results/d3/机制解读.md": "fa05285f93ed496c24a862e3e21561dee96a7930317a965e6f6ab4ba6b818766",
+    "results/d3/stats-appendix.md": "0e83a6fb97750054fc7ea5c363c5d0816e0cc7764e7b9bd24c72a16570e40016",
+    "results/d3/figure-catalog.md": "33309aef673c10a2a69313e874eaa6c5c1bf81322d16d5f31d08e8bc6d4fa204",
+    "results/d2/threshold_selection.json": "2b3aa7d8e85ed3fb0bd60eb302ab8cd6830ca5b08262d33b82ba68eca1e31dc2",
+    "results/d1/api_independent_audit.json": "c4874ca4615ee80dd699474db5afa6d02b3bb40a9a8e0a45b4a4a4a0b47a17f8",
+    "results/d0/independent_audit.json": "1bb3871e5308405125b99b98758bedece262fea620e4258977fb610d728ed83c",
+    "results/d1/independent_audit.json": "ee57dc3165c09143f89e217e0c7193f37d7403d93bce6f8011fd583a3e973532",
+    "results/d1b/independent_audit.json": "4a6b6fe22511ae7787a0732026ccda4184f34e0859ab0279ba11811aa996c765",
+    "results/d2/independent_audit.json": "646f0104273893e41d401cf883375113bffcb5237dc968375d4b0e4c387ec6aa",
+    "results/d3/independent_audit.json": "d6369663e84b36bc94743d760610197848ceeff2621a7bb909b79d144c34cc35"
+  },
+  "scope_limits": [
+    "Fixed eight previously seen matrices/three N and one device session; intervals/process sign tests are exploratory conditional summaries.",
+    "L/F share exact S, zero exclusion and AIV tail policy, but graph domain/weights/sampling local IDs and tail members may differ. F/J changes routing, grouping, S order and tails.",
+    "All L/F/J/O full output and common zero policy; J0 and V2-Z references reveal other changes, not Neutron or a strong sparse-library baseline.",
+    "Resident synchronized full-call timing, CPU preprocessing and host prepare/first call separate. device_prepare_us includes file/alloc/H2D and excludes some setup; no complete application E2E or q amortization claim.",
+    "Separate profile has instrumentation; G/ST branch timings cannot sum/max as real overlap.",
+    "No threshold tuning, no sample deletion, no long-row split; no originality/publication readiness conclusion."
+  ],
+  "D2_selection": {
+    "schema": "d2-threshold-selection-v1",
+    "selected_thresholds": [
+      8,
+      4
+    ],
+    "conditions": {
+      "primary_ci_lower_above_one": true,
+      "primary_exceeds_guard": true,
+      "at_least_eight_process_aggregates_faster": true,
+      "alternate_copies_direction": true,
+      "no_clear_dev_regression": true
+    },
+    "primary": {
+      "process_ratios": [
+        1.0864884382225595,
+        1.097848454783444,
+        1.0845186509784632,
+        1.1105411649755854,
+        1.1341988736524065,
+        1.0506897723974329,
+        1.188280985644059,
+        1.047213994392663,
+        1.086037071218567,
+        1.1256102267537793
+      ],
+      "geomean": 1.100446712239049,
+      "bootstrap95_conditional": [
+        1.0774945469650212,
+        1.1263621497386016
+      ],
+      "faster_count": 10,
+      "sign_test_two_sided": 0.001953125
+    },
+    "aggregate_null_guard": 1.095884522936341,
+    "alternate": {
+      "process_ratios": [
+        1.1157566774400853,
+        1.0892028640952147,
+        1.0490138762697703,
+        1.1141327653061897,
+        1.0874253573397137,
+        1.0507631770065518,
+        1.015625958677003,
+        1.1072421936295287,
+        1.1049212821588947,
+        1.0389732549556068
+      ],
+      "geomean": 1.0767658855304796,
+      "bootstrap95_conditional": [
+        1.0551075695009349,
+        1.0972607199992508
+      ],
+      "faster_count": 10,
+      "sign_test_two_sided": 0.001953125
+    },
+    "dev_analysis_sha256": "edccb3cea151571d017f76389b293b54574974e58694345fc0c53f7ca46ec28c",
+    "protocol_sha256": "ec382c5578e5fe726dba8edd80d6d0891d1ffa581458ce47e6ef6e99f7e57e37",
+    "backend_selection_sha256": "22b2e3a690ec560e907d1b188c2d1657cb0b7c08531e5757d4d2e47b83b719e0",
+    "eval_allowed": true
+  },
+  "stage_audits": {
+    "d0": {
+      "passed": true,
+      "formal_processes": 50,
+      "formal_samples": 6000,
+      "traced_calls": 8000,
+      "smoke_processes": 16,
+      "smoke_record_checks": 64,
+      "same_layer_process_ratios_independently_checked": 250,
+      "raw_source_sha256_checked": 205,
+      "case_metadata_files_checked": 30,
+      "full_input_binary_files_checked": 165,
+      "max_abs_error": 5.34058e-05,
+      "kernel_recompiled": false,
+      "new_host_executable": true,
+      "next": "stop; D1 not run; poweroff after backup"
+    },
+    "d1": {
+      "passed": true,
+      "formal_processes": 50,
+      "event_processes": 15,
+      "formal_samples": 10500,
+      "event_samples": 3150,
+      "trace_calls": 18200,
+      "smoke_processes": 16,
+      "smoke_record_checks": 112,
+      "paired_process_ratios_independently_checked": 350,
+      "case_metadata_files_checked": 108,
+      "binary_files_checked": 594,
+      "max_abs_error": 5.34058e-05,
+      "kernel_recompiled": false,
+      "next": "stop after D1; verify backup then power off; D2 not run"
+    },
+    "d1b": {
+      "passed": true,
+      "formal_processes": 50,
+      "formal_samples": 13500,
+      "profile_processes": 15,
+      "profile_samples": 4050,
+      "trace_calls": 23400,
+      "smoke_processes": 24,
+      "smoke_record_checks": 312,
+      "zero_guard_tests": 40,
+      "independent_process_ratios_checked": 500,
+      "independent_cost_process_medians_checked": 2025,
+      "binary_files_checked": 968,
+      "metadata_flag_files_checked": 220,
+      "max_abs_error": 5.34058e-05,
+      "spmm_kernels_recompiled": false,
+      "clear_deleted_or_fused": false,
+      "next": "D1b stop; recover/audit/save then power off; D2 not run"
+    },
+    "d2": {
+      "passed": true,
+      "scopes": [
+        "dev",
+        "eval"
+      ],
+      "formal_processes": 180,
+      "formal_samples": 32400,
+      "profile_processes": 54,
+      "profile_samples": 16200,
+      "trace_calls": 64800,
+      "smoke_processes": 24,
+      "smoke_record_checks": 240,
+      "zero_guard_tests": 40,
+      "independent_process_ratios_checked": 1800,
+      "independent_cost_process_medians_checked": 8100,
+      "binary_files_checked": 1936,
+      "metadata_flag_files_checked": 528,
+      "max_abs_error": 0.000114441,
+      "selected_thresholds": [
+        8,
+        4
+      ],
+      "next": "D2 stop; recover/save then verified poweroff; no D3"
+    },
+    "d3": {
+      "passed": true,
+      "formal_processes": 240,
+      "formal_samples": 64800,
+      "profile_processes": 72,
+      "profile_samples": 32400,
+      "trace_calls": 129600,
+      "smoke_processes": 20,
+      "smoke_record_checks": 300,
+      "zero_guard_tests": 40,
+      "independent_process_ratios_checked": 2880,
+      "independent_cost_medians_checked": 16200,
+      "binary_files_checked": 3828,
+      "metadata_flag_files_checked": 1044,
+      "max_abs_error": 3.05176e-05,
+      "semantic_matrices_checked": 8,
+      "source_and_runtime_unchanged": true,
+      "next": "D3 stop; recover/audit/save and verified poweroff"
+    }
+  },
+  "D1_extra_host_api_audit": {
+    "passed": true,
+    "diagnostic_processes": 15,
+    "samples": 3150,
+    "trace_calls": 4200,
+    "host_component_process_medians_independently_checked": 1050,
+    "host_clear_fraction_process_medians_independently_checked": 105,
+    "max_abs_error": 5.34058e-05,
+    "formal_data_changed": false,
+    "interpretation": "host submission time and event stream intervals, not pure device clear or HBM throughput"
+  },
+  "D3_primary_aggregate": {
+    "L/F": {
+      "geomean": 1.0020597159475535,
+      "bootstrap95_conditional": [
+        0.9999583241153939,
+        1.0042765058735077
+      ],
+      "mean": 1.0020657371139547,
+      "std": 0.003663328103263548,
+      "faster_count": 8,
+      "sign_test_holm": 0.109375,
+      "descriptive_positive": false,
+      "workflow_followup_signal": false,
+      "positive_matrices": [],
+      "clear_regression_points": []
+    },
+    "F/J": {
+      "geomean": 1.105924788178059,
+      "bootstrap95_conditional": [
+        1.103126737667044,
+        1.108905704206233
+      ],
+      "mean": 1.1059345141707184,
+      "std": 0.004890752501619771,
+      "faster_count": 10,
+      "sign_test_holm": 0.005859375,
+      "descriptive_positive": true,
+      "workflow_followup_signal": true,
+      "positive_matrices": [
+        "SNAP_ca-HepTh",
+        "SNAP_email-Enron",
+        "SNAP_web-NotreDame",
+        "Schmid_thermal1"
+      ],
+      "clear_regression_points": [
+        "SNAP_ca-HepTh/N16",
+        "SNAP_cit-HepTh/N64",
+        "SNAP_cit-HepTh/N256"
+      ]
+    },
+    "L/J": {
+      "geomean": 1.1080316721273882,
+      "bootstrap95_conditional": [
+        1.1048943277455325,
+        1.1111171662662893
+      ],
+      "mean": 1.1080427885324815,
+      "std": 0.005231132169597124,
+      "faster_count": 10,
+      "sign_test_holm": 0.005859375,
+      "descriptive_positive": true,
+      "workflow_followup_signal": true,
+      "positive_matrices": [
+        "SNAP_ca-HepTh",
+        "SNAP_email-Enron",
+        "SNAP_web-NotreDame",
+        "Schmid_thermal1"
+      ],
+      "clear_regression_points": [
+        "SNAP_ca-HepTh/N16",
+        "SNAP_cit-HepTh/N64",
+        "SNAP_cit-HepTh/N256"
+      ]
+    }
+  },
+  "D3_aggregate_null_guard": 1.017319583101711,
+  "D3_points": [
+    {
+      "matrix": "Boeing_bcsstk38",
+      "n": 16,
+      "comparisons": {
+        "L/F": {
+          "geomean": 0.9848767870543074,
+          "bootstrap95_conditional": [
+            0.9395588268537919,
+            1.0300135962855699
+          ],
+          "faster_count": 3,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 0.9745195045575126,
+          "bootstrap95_conditional": [
+            0.9533032157828745,
+            0.9944347697125204
+          ],
+          "faster_count": 2,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 0.9639377369940619,
+          "bootstrap95_conditional": [
+            0.9255941283742865,
+            0.9954223221910773
+          ],
+          "faster_count": 2,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "Boeing_bcsstk38",
+      "n": 64,
+      "comparisons": {
+        "L/F": {
+          "geomean": 0.9597754252144645,
+          "bootstrap95_conditional": [
+            0.9351219852542728,
+            0.9921803930945994
+          ],
+          "faster_count": 2,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 1.026194634147394,
+          "bootstrap95_conditional": [
+            0.9937671914165616,
+            1.0570253620675392
+          ],
+          "faster_count": 7,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 0.9835476695675276,
+          "bootstrap95_conditional": [
+            0.9517935585166963,
+            1.0204363102531533
+          ],
+          "faster_count": 3,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "Boeing_bcsstk38",
+      "n": 256,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.0038461267958356,
+          "bootstrap95_conditional": [
+            0.9801174092871302,
+            1.0293202852675913
+          ],
+          "faster_count": 6,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 0.9544409553488666,
+          "bootstrap95_conditional": [
+            0.9390673462973074,
+            0.9730272344040711
+          ],
+          "faster_count": 1,
+          "sign_test_holm": 0.90234375,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 0.9535009094021694,
+          "bootstrap95_conditional": [
+            0.930109912762202,
+            0.9760328884026962
+          ],
+          "faster_count": 0,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "FEMLAB_ns3Da",
+      "n": 16,
+      "comparisons": {
+        "L/F": {
+          "geomean": 0.9977381372171313,
+          "bootstrap95_conditional": [
+            0.9863847579050815,
+            1.009453250933789
+          ],
+          "faster_count": 3,
+          "sign_test_holm": 1.0,
+          "identical_execution": true,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 0.9923246565775014,
+          "bootstrap95_conditional": [
+            0.9786600690207973,
+            1.0063844244218132
+          ],
+          "faster_count": 2,
+          "sign_test_holm": 1.0,
+          "identical_execution": true,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 0.9931931367994581,
+          "bootstrap95_conditional": [
+            0.9780583266764072,
+            1.0095412655008906
+          ],
+          "faster_count": 4,
+          "sign_test_holm": 1.0,
+          "identical_execution": true,
+          "descriptive_positive": false,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "FEMLAB_ns3Da",
+      "n": 64,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.0014511993132085,
+          "bootstrap95_conditional": [
+            0.996956522012109,
+            1.0061279125949718
+          ],
+          "faster_count": 6,
+          "sign_test_holm": 1.0,
+          "identical_execution": true,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 0.9924689472694165,
+          "bootstrap95_conditional": [
+            0.9750094520157045,
+            1.0108806002090054
+          ],
+          "faster_count": 4,
+          "sign_test_holm": 1.0,
+          "identical_execution": true,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 0.9926447572531406,
+          "bootstrap95_conditional": [
+            0.9766266897220125,
+            1.0090764821302436
+          ],
+          "faster_count": 4,
+          "sign_test_holm": 1.0,
+          "identical_execution": true,
+          "descriptive_positive": false,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "FEMLAB_ns3Da",
+      "n": 256,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.0057155375648876,
+          "bootstrap95_conditional": [
+            0.9965251636595976,
+            1.0144961272886002
+          ],
+          "faster_count": 7,
+          "sign_test_holm": 1.0,
+          "identical_execution": true,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 0.9978888480374981,
+          "bootstrap95_conditional": [
+            0.9880914499494522,
+            1.0083500884003935
+          ],
+          "faster_count": 4,
+          "sign_test_holm": 1.0,
+          "identical_execution": true,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 1.0044057091676848,
+          "bootstrap95_conditional": [
+            0.9956230567544224,
+            1.0129695942759842
+          ],
+          "faster_count": 7,
+          "sign_test_holm": 1.0,
+          "identical_execution": true,
+          "descriptive_positive": false,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "HB_bcsstk17",
+      "n": 16,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.0150460198836988,
+          "bootstrap95_conditional": [
+            1.0009713066273545,
+            1.0302698972485593
+          ],
+          "faster_count": 6,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 1.0008510555656436,
+          "bootstrap95_conditional": [
+            0.9726255960450517,
+            1.02994592496422
+          ],
+          "faster_count": 5,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 1.0075329881692974,
+          "bootstrap95_conditional": [
+            0.9769801237912068,
+            1.041006082994161
+          ],
+          "faster_count": 4,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "HB_bcsstk17",
+      "n": 64,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.0427999148143563,
+          "bootstrap95_conditional": [
+            1.008622131732797,
+            1.0793293718930943
+          ],
+          "faster_count": 8,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 0.9778248697009881,
+          "bootstrap95_conditional": [
+            0.9524762765324084,
+            1.0013231030786987
+          ],
+          "faster_count": 4,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 1.0109488519965548,
+          "bootstrap95_conditional": [
+            0.9814832713128128,
+            1.0430239799585215
+          ],
+          "faster_count": 5,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "HB_bcsstk17",
+      "n": 256,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.0234166785751913,
+          "bootstrap95_conditional": [
+            0.9932772383594684,
+            1.0506533544998395
+          ],
+          "faster_count": 7,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 0.975019405617876,
+          "bootstrap95_conditional": [
+            0.9529883397007233,
+            0.9968833160872367
+          ],
+          "faster_count": 3,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 0.9963712034685576,
+          "bootstrap95_conditional": [
+            0.9749058395956388,
+            1.0212852999408766
+          ],
+          "faster_count": 4,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "SNAP_ca-HepTh",
+      "n": 16,
+      "comparisons": {
+        "L/F": {
+          "geomean": 0.9850186403811095,
+          "bootstrap95_conditional": [
+            0.9727098067215941,
+            0.9989744139703878
+          ],
+          "faster_count": 3,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 0.962358643171074,
+          "bootstrap95_conditional": [
+            0.942886580308459,
+            0.980173431508283
+          ],
+          "faster_count": 0,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": true
+        },
+        "L/J": {
+          "geomean": 0.9611022533991198,
+          "bootstrap95_conditional": [
+            0.9416291621977338,
+            0.9797870967003287
+          ],
+          "faster_count": 0,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": true
+        }
+      }
+    },
+    {
+      "matrix": "SNAP_ca-HepTh",
+      "n": 64,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.0102129835296654,
+          "bootstrap95_conditional": [
+            0.9931469029118233,
+            1.0308201944989452
+          ],
+          "faster_count": 6,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 1.1079367872564858,
+          "bootstrap95_conditional": [
+            1.0897795573258273,
+            1.1294287113975965
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 1.1175378921865302,
+          "bootstrap95_conditional": [
+            1.093325937695013,
+            1.1432227798033954
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "SNAP_ca-HepTh",
+      "n": 256,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.0002672723470065,
+          "bootstrap95_conditional": [
+            0.9916069711026926,
+            1.0086879626841965
+          ],
+          "faster_count": 5,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 1.1268242627503229,
+          "bootstrap95_conditional": [
+            1.112355962986191,
+            1.143265864297828
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 1.1224388075718434,
+          "bootstrap95_conditional": [
+            1.1032352356301844,
+            1.143294632721109
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "SNAP_cit-HepTh",
+      "n": 16,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.001039030258639,
+          "bootstrap95_conditional": [
+            0.9876780889326472,
+            1.0142192806075079
+          ],
+          "faster_count": 5,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 1.0601131473528083,
+          "bootstrap95_conditional": [
+            1.031497326349801,
+            1.092602344369882
+          ],
+          "faster_count": 9,
+          "sign_test_holm": 0.90234375,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 1.0665387129909878,
+          "bootstrap95_conditional": [
+            1.0375076127070986,
+            1.0983314848399424
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "SNAP_cit-HepTh",
+      "n": 64,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.0035643103836445,
+          "bootstrap95_conditional": [
+            0.9860865805593808,
+            1.020605245072219
+          ],
+          "faster_count": 6,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 0.8844670667280942,
+          "bootstrap95_conditional": [
+            0.8602335825658586,
+            0.9039156192375027
+          ],
+          "faster_count": 0,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": true
+        },
+        "L/J": {
+          "geomean": 0.8819850283319318,
+          "bootstrap95_conditional": [
+            0.857814881678557,
+            0.90210717556828
+          ],
+          "faster_count": 0,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": true
+        }
+      }
+    },
+    {
+      "matrix": "SNAP_cit-HepTh",
+      "n": 256,
+      "comparisons": {
+        "L/F": {
+          "geomean": 0.9940088560833135,
+          "bootstrap95_conditional": [
+            0.9872009887715643,
+            1.0011505528220779
+          ],
+          "faster_count": 3,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 0.821649594643015,
+          "bootstrap95_conditional": [
+            0.7949887426561819,
+            0.85023481096958
+          ],
+          "faster_count": 0,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": true
+        },
+        "L/J": {
+          "geomean": 0.8148325463221799,
+          "bootstrap95_conditional": [
+            0.7894183088484198,
+            0.8425705697154735
+          ],
+          "faster_count": 0,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": true
+        }
+      }
+    },
+    {
+      "matrix": "SNAP_email-Enron",
+      "n": 16,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.0035105363529508,
+          "bootstrap95_conditional": [
+            0.9971264249755802,
+            1.010771872711314
+          ],
+          "faster_count": 5,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 1.202266541036228,
+          "bootstrap95_conditional": [
+            1.1834212432279452,
+            1.2223960761822574
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 1.2055945332601337,
+          "bootstrap95_conditional": [
+            1.1905498480721897,
+            1.2225161188592504
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "SNAP_email-Enron",
+      "n": 64,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.0023976236395777,
+          "bootstrap95_conditional": [
+            0.995190681145903,
+            1.0099329194236144
+          ],
+          "faster_count": 7,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 1.114464493946635,
+          "bootstrap95_conditional": [
+            1.0998678423436616,
+            1.1295589916259916
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 1.1152258244086186,
+          "bootstrap95_conditional": [
+            1.099952492752175,
+            1.1310828614692137
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "SNAP_email-Enron",
+      "n": 256,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.0027132479988154,
+          "bootstrap95_conditional": [
+            0.9960709334762258,
+            1.009133306548121
+          ],
+          "faster_count": 6,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 1.108365235907972,
+          "bootstrap95_conditional": [
+            1.0912868928820254,
+            1.1262301676550523
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 1.1106521254932362,
+          "bootstrap95_conditional": [
+            1.0918058239219015,
+            1.1289243021331559
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "SNAP_web-NotreDame",
+      "n": 16,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.0019173381434758,
+          "bootstrap95_conditional": [
+            0.9939894204995968,
+            1.010141049103896
+          ],
+          "faster_count": 5,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 1.324961139459112,
+          "bootstrap95_conditional": [
+            1.3029061097696817,
+            1.3490214257886535
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 1.3378650105212095,
+          "bootstrap95_conditional": [
+            1.3139107054647639,
+            1.364737716504065
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "SNAP_web-NotreDame",
+      "n": 64,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.004228128249985,
+          "bootstrap95_conditional": [
+            0.9995209105376185,
+            1.0086291231934918
+          ],
+          "faster_count": 8,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 1.371545033987369,
+          "bootstrap95_conditional": [
+            1.3590653311420247,
+            1.3861326651936354
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 1.3783873259837593,
+          "bootstrap95_conditional": [
+            1.3632303436814759,
+            1.3944309574057423
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "SNAP_web-NotreDame",
+      "n": 256,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.0079831838844973,
+          "bootstrap95_conditional": [
+            1.0036101601822691,
+            1.0124218870716404
+          ],
+          "faster_count": 9,
+          "sign_test_holm": 0.90234375,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 1.236584236307402,
+          "bootstrap95_conditional": [
+            1.2218010878444319,
+            1.2510362959846995
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 1.2476905134532887,
+          "bootstrap95_conditional": [
+            1.2362447945257176,
+            1.2584962306590413
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "Schmid_thermal1",
+      "n": 16,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.0000435853182454,
+          "bootstrap95_conditional": [
+            0.998897463486868,
+            1.0011679340983033
+          ],
+          "faster_count": 5,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 1.4974729479327877,
+          "bootstrap95_conditional": [
+            1.4725806542593136,
+            1.522885238867398
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 1.4973686062041993,
+          "bootstrap95_conditional": [
+            1.472233164791522,
+            1.5230910880352415
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "Schmid_thermal1",
+      "n": 64,
+      "comparisons": {
+        "L/F": {
+          "geomean": 0.999817842783438,
+          "bootstrap95_conditional": [
+            0.9984674856893226,
+            1.001227573581438
+          ],
+          "faster_count": 4,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 1.625430115748927,
+          "bootstrap95_conditional": [
+            1.5936585921646846,
+            1.659258782657053
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 1.6304183854508811,
+          "bootstrap95_conditional": [
+            1.6007394327857871,
+            1.6636190141961675
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        }
+      }
+    },
+    {
+      "matrix": "Schmid_thermal1",
+      "n": 256,
+      "comparisons": {
+        "L/F": {
+          "geomean": 1.0004860865920981,
+          "bootstrap95_conditional": [
+            0.9986213421283496,
+            1.0025423605605475
+          ],
+          "faster_count": 6,
+          "sign_test_holm": 1.0,
+          "identical_execution": false,
+          "descriptive_positive": false,
+          "clear_regression": false
+        },
+        "F/J": {
+          "geomean": 1.664966318610032,
+          "bootstrap95_conditional": [
+            1.646910299835729,
+            1.6822483038730447
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        },
+        "L/J": {
+          "geomean": 1.6656326328750843,
+          "bootstrap95_conditional": [
+            1.647769040792799,
+            1.682290073906172
+          ],
+          "faster_count": 10,
+          "sign_test_holm": 0.140625,
+          "identical_execution": false,
+          "descriptive_positive": true,
+          "clear_regression": false
+        }
+      }
+    }
+  ]
+}

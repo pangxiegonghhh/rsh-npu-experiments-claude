@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "independent_original_space_references": 1988,
+  "main_cases": 1988,
+  "repeat_calls": 720,
+  "smoke_calls": 9,
+  "device_case_calls_replayed": 2717,
+  "output_arrays_checked": 13585,
+  "source_after_buffers_checked": 12414,
+  "four_kind_coverage": "497 cases each",
+  "member_hashes_verified": 42953,
+  "actual_binary_artifacts_verified": 3,
+  "max_abs_error": 0,
+  "raw_evidence_modified": false
+}

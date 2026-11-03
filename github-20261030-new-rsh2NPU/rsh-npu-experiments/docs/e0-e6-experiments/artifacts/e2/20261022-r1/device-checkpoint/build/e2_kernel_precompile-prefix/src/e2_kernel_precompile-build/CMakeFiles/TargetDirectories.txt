@@ -1,0 +1,4 @@
+/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-build/CMakeFiles/precompile_obj.dir
+/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-build/CMakeFiles/check_src_template.dir
+/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-build/CMakeFiles/edit_cache.dir
+/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-build/CMakeFiles/rebuild_cache.dir

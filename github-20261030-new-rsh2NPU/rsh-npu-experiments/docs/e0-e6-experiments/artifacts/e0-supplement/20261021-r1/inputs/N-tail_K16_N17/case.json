@@ -1,0 +1,114 @@
+{
+  "id": "N-tail_K16_N17",
+  "stage": "S4",
+  "config": [
+    16,
+    16,
+    17,
+    16,
+    16,
+    32,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+  ],
+  "global_k": 47,
+  "observation": "product",
+  "mapping": "scatter",
+  "tags": {},
+  "guard_bytes": 1024,
+  "a_source_elements": 256,
+  "a_l1_elements": 256,
+  "b_source_rows": 48,
+  "b_l1_elements": 512,
+  "mmad_calls": 1,
+  "expected_mmad": [
+    16,
+    16,
+    32
+  ],
+  "read_range_check": {
+    "pass": true,
+    "b_intervals_bytes": [
+      [
+        64,
+        128
+      ],
+      [
+        256,
+        320
+      ],
+      [
+        448,
+        512
+      ],
+      [
+        640,
+        704
+      ],
+      [
+        832,
+        896
+      ],
+      [
+        1024,
+        1088
+      ],
+      [
+        1216,
+        1280
+      ],
+      [
+        1408,
+        1472
+      ],
+      [
+        1600,
+        1664
+      ],
+      [
+        1792,
+        1856
+      ],
+      [
+        1984,
+        2048
+      ],
+      [
+        2176,
+        2240
+      ],
+      [
+        2368,
+        2432
+      ],
+      [
+        2560,
+        2624
+      ],
+      [
+        2752,
+        2816
+      ],
+      [
+        2944,
+        3008
+      ]
+    ],
+    "a_nd_bytes": 512,
+    "a_physical_bytes": 512,
+    "refs_bytes": 64
+  },
+  "sha256": {
+    "golden.bin": "b470d64c1e05a30d15a53856f0996e2c652df46fe8c9af2f9627ddd253873411",
+    "config.bin": "11eaebf811eaf541d5c34f1bb5ebd1f9fba03382ad6c43b3358ef1a10fb81446",
+    "b.bin": "78b2d88d5950ce1cd9f44d52bc110b9a3400255e623cd6e76310e8ebc53e5a8e",
+    "a.bin": "25fa288a4d6623509cb750cb4ceea527383c3d57bdb67f3c03047e7fe30993c3",
+    "mask.bin": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973",
+    "refs.bin": "7a5d8bd14d556b2cc180143f961c0459fcf8fac4ff21a336fbe2ae31da7f2ba8",
+    "a-direct.bin": "25fa288a4d6623509cb750cb4ceea527383c3d57bdb67f3c03047e7fe30993c3"
+  }
+}

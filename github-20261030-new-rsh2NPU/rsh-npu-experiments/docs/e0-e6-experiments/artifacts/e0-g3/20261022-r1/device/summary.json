@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "B_independent_cases": 144,
+  "A_regression_cases": 24,
+  "anchor_cases": 1,
+  "control_cases": 4,
+  "repeat_processes": 6,
+  "repeat_calls": 60,
+  "device_processes": 179,
+  "device_calls": 233,
+  "max_abs_error": 0.0,
+  "end_unix": 1792641231.616691,
+  "CXX_source_and_binaries_unchanged": true,
+  "physical_reference": "A direct, repeat=1, bulk=0"
+}

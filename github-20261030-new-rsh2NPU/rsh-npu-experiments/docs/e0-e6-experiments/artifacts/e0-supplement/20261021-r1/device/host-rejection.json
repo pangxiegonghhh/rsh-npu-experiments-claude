@@ -1,0 +1,14 @@
+[
+  {
+    "case": "negative-ref",
+    "status": "EXPECTED_REJECT",
+    "returncode": 1,
+    "message": "Unsafe B row\n"
+  },
+  {
+    "case": "misaligned-shape",
+    "status": "EXPECTED_REJECT",
+    "returncode": 1,
+    "message": "Unsafe shape\n"
+  }
+]

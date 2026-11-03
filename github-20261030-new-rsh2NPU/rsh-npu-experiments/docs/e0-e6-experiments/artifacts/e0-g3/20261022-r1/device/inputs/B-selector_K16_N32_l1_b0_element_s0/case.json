@@ -1,0 +1,120 @@
+{
+  "id": "B-selector_K16_N32_l1_b0_element_s0",
+  "stage": "S3",
+  "config": [
+    16,
+    16,
+    32,
+    16,
+    16,
+    32,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "global_k": 47,
+  "observation": "selector_observed",
+  "mapping": "scatter",
+  "tags": {},
+  "guard_bytes": 1024,
+  "a_source_elements": 256,
+  "a_l1_elements": 256,
+  "b_source_rows": 48,
+  "b_l1_elements": 512,
+  "mmad_calls": 1,
+  "expected_mmad": [
+    16,
+    16,
+    32
+  ],
+  "read_range_check": {
+    "pass": true,
+    "b_intervals_bytes": [
+      [
+        64,
+        128
+      ],
+      [
+        256,
+        320
+      ],
+      [
+        448,
+        512
+      ],
+      [
+        640,
+        704
+      ],
+      [
+        832,
+        896
+      ],
+      [
+        1024,
+        1088
+      ],
+      [
+        1216,
+        1280
+      ],
+      [
+        1408,
+        1472
+      ],
+      [
+        1600,
+        1664
+      ],
+      [
+        1792,
+        1856
+      ],
+      [
+        1984,
+        2048
+      ],
+      [
+        2176,
+        2240
+      ],
+      [
+        2368,
+        2432
+      ],
+      [
+        2560,
+        2624
+      ],
+      [
+        2752,
+        2816
+      ],
+      [
+        2944,
+        3008
+      ]
+    ],
+    "a_nd_bytes": 512,
+    "a_physical_bytes": 512,
+    "refs_bytes": 64
+  },
+  "sha256": {
+    "golden.bin": "841189ea636716e61c13a1f3df240b42336fb084f7079013d3d2e96336f4c7ba",
+    "refs.bin": "7a5d8bd14d556b2cc180143f961c0459fcf8fac4ff21a336fbe2ae31da7f2ba8",
+    "mask.bin": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973",
+    "a.bin": "77c34e226bf60c70d4c2f3ad82d1632635beafebcda758162b061a173041a9ff",
+    "config.bin": "e8febe71a5627984597c71423c5f95d45eff299f741ba7fdd8595ad13a34c930",
+    "a-direct.bin": "77c34e226bf60c70d4c2f3ad82d1632635beafebcda758162b061a173041a9ff",
+    "b.bin": "0baea66fe4b398ec3424127d6ed86e7e149aff112ad0b6126b283c136acf53e9"
+  },
+  "g3_config_diff": {
+    "index": 9,
+    "old": 1,
+    "new": 0
+  },
+  "parent_case_json_sha256": "600db110e800979d820627583a3c5922f951910cc72232162f0cc9dd500b35fa"
+}

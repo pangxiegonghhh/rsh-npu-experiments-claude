@@ -1,0 +1,19 @@
+{
+  "id": "main_u63_n16_p2_k1",
+  "group": "main",
+  "kind": "bitmap",
+  "U": 63,
+  "N": 16,
+  "Kp": 64,
+  "Np": 16,
+  "tiles": 4,
+  "nnz": 773,
+  "sha256": {
+    "config.bin": "157f206fa5910944bb39637cc48e4357b7d4fdce3601c597f30bc6bfd234807c",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73",
+    "desc.bin": "ea9c056042912040e34360b74518009c98b6666a37fa7aa3d8675115d0736cd0",
+    "original-a.bin": "2190c0e5e8219b14e4e9eff79595e5dfc3d8f595c7082b84678334b9bccc7488",
+    "payload.bin": "21108e0646106861a1f61ee05271e4911e638fe752ef97291f353ed30ed670f7",
+    "cols.bin": "197919c831f0f1e8525e79959bcf36791e78bd4031da32db97e6c01d9da2c20f"
+  }
+}

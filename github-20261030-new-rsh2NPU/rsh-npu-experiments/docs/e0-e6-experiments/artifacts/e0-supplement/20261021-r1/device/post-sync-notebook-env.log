@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+  File "/data/e0-supplement-r1/scripts/e0_supplement.py", line 11, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'

@@ -1,0 +1,4 @@
+RegisterAscendBinary aic ret 107000 
+LaunchAscendKernel ret 507000
+launch_submitted iteration=0
+PASS host launch/sync/readback

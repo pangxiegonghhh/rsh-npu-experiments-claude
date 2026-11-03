@@ -1,0 +1,19 @@
+{
+  "id": "main_u16_n32_p0_k1",
+  "group": "main",
+  "kind": "bitmap",
+  "U": 16,
+  "N": 32,
+  "Kp": 16,
+  "Np": 32,
+  "tiles": 1,
+  "nnz": 36,
+  "sha256": {
+    "config.bin": "74d7b618bf78f8f7e69aec3573138998f358e5e7570a0cb869e8006f5b786983",
+    "b.bin": "35ddb9f030f4619c4311e59e8e80a81dac6e1903037a560d7d2c4e09bd7370f7",
+    "desc.bin": "01ee3543d417985b7bab9b6ad998935cd7d55a193472fa3f96756f9c88c104bc",
+    "original-a.bin": "57e8c23097d5b8e6df54368fb6b513dfdfcca0db1fd698ed93d63e504090b4ea",
+    "payload.bin": "5d21a351ad70d565a7fb14997c89e09472792180b6c91c4488ae645e07e66de1",
+    "cols.bin": "4dc15faa9792bfd4224cd7b7ee5d30fce1f77a11320e935dfe058557492ba0ef"
+  }
+}

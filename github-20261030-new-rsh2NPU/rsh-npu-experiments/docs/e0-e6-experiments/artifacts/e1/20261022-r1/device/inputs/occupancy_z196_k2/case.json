@@ -1,0 +1,19 @@
+{
+  "id": "occupancy_z196_k2",
+  "group": "occupancy",
+  "kind": "local_index",
+  "U": 16,
+  "N": 16,
+  "Kp": 16,
+  "Np": 16,
+  "tiles": 1,
+  "nnz": 196,
+  "sha256": {
+    "original-a.bin": "5c32583239e8b37ebe9452944a44428ce3e309669e396f4fa73e52c6eb347d65",
+    "cols.bin": "7b165dc88c54d04ea4da68fe3df961af209d84692e1599be0cb18edb6782f799",
+    "payload.bin": "f8f227cd21894860e62a1c0b133252b7372fd99e0172b85cad1fb911011d805c",
+    "config.bin": "4909bb587936893f143e1da02ba061ba13609f565e521ec404eb1bb2ac66d882",
+    "desc.bin": "bc34cc95d15c72d919e214fd3fa669a413f2d40117c6145a77d414236bcbcdc9",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "scripts/e0_g3.py": "b0498a75dbf00e234457c39af1f8af9cc8a60bdb25e910d02a4c6fd53d393252",
+  "expected-parent-checkpoint.json": "d2077ec56919cd790e35a869ffed657e71577ba013eb79761af882bf79cee99a",
+  "expected-sdk-headers.json": "a52be50a045b559ad413e76bed63f62367b1e2c5513a21440566e94bd65c60eb",
+  "physical-basis.json": "42fb76d856014db2e8e113c02bba5b427a10ab62c464dba85742c2cb16269859",
+  "address-ranges.json": "80381f48208d0a29e88a9ff15cefaaf6da6c97df137dfa54f33a6085930d98b6"
+}

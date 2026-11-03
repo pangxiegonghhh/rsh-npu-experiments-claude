@@ -1,0 +1,978 @@
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/build
+[  2%] Performing build step for 'e0_kernel_split_precompile'
+[  2%] Performing build step for 'e0_kernel_dual_precompile'
+[  4%] Performing build step for 'e0_kernel_normal_precompile'
+[  4%] Performing build step for 'e0_kernel_direct_precompile'
+[100%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o
+[100%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o
+[ 50%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+[100%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+[100%] Built target precompile_obj
+[100%] Built target precompile_obj
+[100%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp.o
+[100%] Built target precompile_obj
+[100%] Built target check_src_template
+[100%] Built target check_src_template
+[100%] Built target check_src_template
+[  6%] No install step for 'e0_kernel_dual_precompile'
+[  6%] No install step for 'e0_kernel_direct_precompile'
+[  6%] No install step for 'e0_kernel_normal_precompile'
+[  6%] Completed 'e0_kernel_dual_precompile'
+[  6%] Completed 'e0_kernel_direct_precompile'
+[  6%] Completed 'e0_kernel_normal_precompile'
+[ 13%] Built target e0_kernel_normal_precompile
+[ 13%] Built target e0_kernel_dual_precompile
+[ 13%] Built target e0_kernel_direct_precompile
+[100%] Built target precompile_obj
+[ 13%] Performing build step for 'e0_kernel_normal_preprocess'
+[ 13%] Performing build step for 'e0_kernel_direct_preprocess'
+[ 13%] Performing build step for 'e0_kernel_dual_preprocess'
+-- Configuring done (0.0s)
+-- Configuring done (0.0s)
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Generating done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_dual_preprocess-prefix/src/e0_kernel_dual_preprocess-build
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_direct_preprocess-prefix/src/e0_kernel_direct_preprocess-build
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_normal_preprocess-prefix/src/e0_kernel_normal_preprocess-build
+[ 33%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o
+[ 33%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+[ 33%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o
+[100%] Built target check_src_template
+[ 13%] No install step for 'e0_kernel_split_precompile'
+[ 13%] Completed 'e0_kernel_split_precompile'
+[ 16%] Built target e0_kernel_split_precompile
+[ 66%] Building CXX object CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o
+[ 33%] Built target preprocess_obj
+[ 33%] Built target preprocess_obj
+[ 66%] Built target preprocess_obj
+[ 66%] Building CXX object CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o
+[ 66%] Building CXX object CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+[100%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+[100%] Built target aic_obj
+[100%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o
+[100%] Built target aiv_obj
+[100%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o
+[100%] Built target aiv_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_normal_preprocess-prefix/src/e0_kernel_normal_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o -o /data/e0-supplement-r1/build/e0_kernel_normal_preprocess-prefix/src/e0_kernel_normal_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o[100%] Built target merge_aic_obj_text
+[100%] Built target aiv_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_normal_preprocess-prefix/src/e0_kernel_normal_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o -o /data/e0-supplement-r1/build/e0_kernel_normal_preprocess-prefix/src/e0_kernel_normal_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_direct_preprocess-prefix/src/e0_kernel_direct_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o -o /data/e0-supplement-r1/build/e0_kernel_direct_preprocess-prefix/src/e0_kernel_direct_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o[100%] Built target merge_aiv_obj_text
+[100%] Built target merge_aiv_obj_text
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_dual_preprocess-prefix/src/e0_kernel_dual_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o -o /data/e0-supplement-r1/build/e0_kernel_dual_preprocess-prefix/src/e0_kernel_dual_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o[100%] Built target merge_aiv_obj_text
+[ 16%] Performing build step for 'e0_kernel_split_preprocess'
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_split_preprocess-prefix/src/e0_kernel_split_preprocess-build
+[ 16%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+[100%] Built target _host_cpp
+[ 17%] No install step for 'e0_kernel_normal_preprocess'
+[ 33%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp.o
+[ 18%] Completed 'e0_kernel_normal_preprocess'
+[ 20%] Built target e0_kernel_normal_preprocess
+[ 50%] Building CXX object CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+[ 50%] Built target preprocess_obj
+[ 66%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+[100%] Built target aic_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_direct_preprocess-prefix/src/e0_kernel_direct_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o -o /data/e0-supplement-r1/build/e0_kernel_direct_preprocess-prefix/src/e0_kernel_direct_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o[100%] Built target merge_aic_obj_text
+[100%] Built target _host_cpp
+[ 21%] No install step for 'e0_kernel_direct_preprocess'
+[ 22%] Completed 'e0_kernel_direct_preprocess'
+[ 26%] Built target e0_kernel_direct_preprocess
+[ 27%] Performing configure step for 'e0_kernel_normal_aic_device'
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_normal_aic_device-prefix/src/e0_kernel_normal_aic_device-build
+[ 27%] Performing build step for 'e0_kernel_normal_aic_device'
+[100%] Building CXX object CMakeFiles/device_aic_obj.dir/data/e0-supplement-r1/build/auto_gen/e0_kernel_normal/auto_gen_normal.cpp.o
+[100%] Built target aic_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_dual_preprocess-prefix/src/e0_kernel_dual_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o -o /data/e0-supplement-r1/build/e0_kernel_dual_preprocess-prefix/src/e0_kernel_dual_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o[100%] Built target merge_aic_obj_text
+[ 83%] Building CXX object CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp.o
+[WARNING]: Multiple kernel functions are detected. It is recommended to define only one kernel function per file.
+[100%] Built target _host_cpp
+[ 28%] No install step for 'e0_kernel_dual_preprocess'
+[ 29%] Completed 'e0_kernel_dual_preprocess'
+[ 32%] Built target e0_kernel_dual_preprocess
+[ 33%] Performing configure step for 'e0_kernel_normal_aiv_device'
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_normal_aiv_device-prefix/src/e0_kernel_normal_aiv_device-build
+[ 33%] Performing build step for 'e0_kernel_normal_aiv_device'
+[100%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp.o
+[ 33%] No install step for 'e0_kernel_normal_aiv_device'
+[ 34%] Completed 'e0_kernel_normal_aiv_device'
+[ 37%] Built target e0_kernel_normal_aiv_device
+[ 38%] Performing build step for 'e0_kernel_normal_host'
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_normal_host-prefix/src/e0_kernel_normal_host-build
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:30: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:41: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:52: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:63: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                              ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:74: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:85: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                                    ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+6 warnings generated.
+[100%] Built target host_bisheng_obj
+[ 38%] Performing install step for 'e0_kernel_normal_host'
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:30: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:41: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:52: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:63: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                              ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:74: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:85: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                                    ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+6 warnings generated.
+[100%] Built target host_bisheng_obj
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /data/e0-supplement-r1/build/e0_kernel_normal_host_dir/./objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+[ 38%] Completed 'e0_kernel_normal_host'
+[ 41%] Built target e0_kernel_normal_host
+[ 42%] Performing configure step for 'e0_kernel_direct_aic_device'
+[100%] Built target device_aic_obj
+-- Configuring done (0.0s)
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld  -m aicorelinux -r  -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_normal_aic_device-prefix/src/e0_kernel_normal_aic_device-build/CMakeFiles/device_aic_obj.dir/data/e0-supplement-r1/build/auto_gen/e0_kernel_normal/auto_gen_normal.cpp.o -static -o /data/e0-supplement-r1/build/e0_kernel_normal_aic_device_dir/device_aic.o
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_direct_aic_device-prefix/src/e0_kernel_direct_aic_device-build
+[100%] Built target merge_aic_device_obj
+[ 42%] Performing build step for 'e0_kernel_direct_aic_device'
+[ 43%] No install step for 'e0_kernel_normal_aic_device'
+[ 44%] Completed 'e0_kernel_normal_aic_device'
+[100%] Building CXX object CMakeFiles/device_aic_obj.dir/data/e0-supplement-r1/build/auto_gen/e0_kernel_direct/auto_gen_direct.cpp.o
+[ 45%] Built target e0_kernel_normal_aic_device
+[ 45%] Performing configure step for 'e0_kernel_direct_aiv_device'
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_direct_aiv_device-prefix/src/e0_kernel_direct_aiv_device-build
+[ 46%] Performing build step for 'e0_kernel_direct_aiv_device'
+[ 46%] No install step for 'e0_kernel_direct_aiv_device'
+[ 46%] Completed 'e0_kernel_direct_aiv_device'
+[100%] Built target aiv_obj
+[ 47%] Performing build step for 'e0_kernel_direct_host'
+[ 51%] Built target e0_kernel_direct_aiv_device
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_direct_host-prefix/src/e0_kernel_direct_host-build
+[ 52%] Performing configure step for 'e0_kernel_dual_aic_device'
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_dual_aic_device-prefix/src/e0_kernel_dual_aic_device-build
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o
+[ 52%] Performing build step for 'e0_kernel_dual_aic_device'
+[100%] Building CXX object CMakeFiles/device_aic_obj.dir/data/e0-supplement-r1/build/auto_gen/e0_kernel_dual/auto_gen_dual.cpp.o
+[100%] Built target aic_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_split_preprocess-prefix/src/e0_kernel_split_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o -o /data/e0-supplement-r1/build/e0_kernel_split_preprocess-prefix/src/e0_kernel_split_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_split_preprocess-prefix/src/e0_kernel_split_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp.o -o /data/e0-supplement-r1/build/e0_kernel_split_preprocess-prefix/src/e0_kernel_split_preprocess-build/CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp.o[100%] Built target merge_aiv_obj_text
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_split_preprocess-prefix/src/e0_kernel_split_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o -o /data/e0-supplement-r1/build/e0_kernel_split_preprocess-prefix/src/e0_kernel_split_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_split_preprocess-prefix/src/e0_kernel_split_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp.o -o /data/e0-supplement-r1/build/e0_kernel_split_preprocess-prefix/src/e0_kernel_split_preprocess-build/CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp.o[100%] Built target merge_aic_obj_text
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:30: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:41: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:52: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:63: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                              ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:74: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:85: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                                    ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+6 warnings generated.
+[100%] Built target host_bisheng_obj
+[ 53%] Performing install step for 'e0_kernel_direct_host'
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o
+[100%] Built target _host_cpp
+[ 54%] No install step for 'e0_kernel_split_preprocess'
+[ 55%] Completed 'e0_kernel_split_preprocess'
+[ 57%] Built target e0_kernel_split_preprocess
+[ 57%] Performing configure step for 'e0_kernel_dual_aiv_device'
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_dual_aiv_device-prefix/src/e0_kernel_dual_aiv_device-build
+[ 58%] Performing build step for 'e0_kernel_dual_aiv_device'
+[ 58%] No install step for 'e0_kernel_dual_aiv_device'
+[ 59%] Completed 'e0_kernel_dual_aiv_device'
+[ 62%] Built target e0_kernel_dual_aiv_device
+[ 63%] Performing build step for 'e0_kernel_dual_host'
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_dual_host-prefix/src/e0_kernel_dual_host-build
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:30: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:41: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:52: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:63: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                              ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:74: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:85: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                                    ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+6 warnings generated.
+[100%] Built target host_bisheng_obj
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /data/e0-supplement-r1/build/e0_kernel_direct_host_dir/./objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o
+[ 63%] Completed 'e0_kernel_direct_host'
+[ 65%] Built target e0_kernel_direct_host
+[ 66%] Performing configure step for 'e0_kernel_split_aic_device'
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_split_aic_device-prefix/src/e0_kernel_split_aic_device-build
+[ 66%] Performing build step for 'e0_kernel_split_aic_device'
+[ 50%] Building CXX object CMakeFiles/device_aic_obj.dir/data/e0-supplement-r1/build/auto_gen/e0_kernel_split/auto_gen_normal.cpp.o
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:30: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:41: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:52: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:63: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                              ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:74: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:85: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                                    ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:3:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:30: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:3:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:41: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:3:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:52: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:3:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:63: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                              ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:3:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:74: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:3:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:85: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                                    ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+12 warnings generated.
+[100%] Built target host_bisheng_obj
+[ 67%] Performing install step for 'e0_kernel_dual_host'
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o
+[100%] Built target device_aic_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld  -m aicorelinux -r  -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_direct_aic_device-prefix/src/e0_kernel_direct_aic_device-build/CMakeFiles/device_aic_obj.dir/data/e0-supplement-r1/build/auto_gen/e0_kernel_direct/auto_gen_direct.cpp.o -static -o /data/e0-supplement-r1/build/e0_kernel_direct_aic_device_dir/device_aic.o
+[100%] Built target merge_aic_device_obj
+[ 68%] No install step for 'e0_kernel_direct_aic_device'
+[ 69%] Completed 'e0_kernel_direct_aic_device'
+[ 71%] Built target e0_kernel_direct_aic_device
+[ 72%] Performing configure step for 'e0_kernel_split_aiv_device'
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_split_aiv_device-prefix/src/e0_kernel_split_aiv_device-build
+[ 72%] Performing build step for 'e0_kernel_split_aiv_device'
+[ 73%] No install step for 'e0_kernel_split_aiv_device'
+[ 75%] Completed 'e0_kernel_split_aiv_device'
+[ 77%] Built target e0_kernel_split_aiv_device
+[ 78%] Performing build step for 'e0_kernel_split_host'
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_split_host-prefix/src/e0_kernel_split_host-build
+[ 50%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:30: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:41: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:52: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:63: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                              ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:74: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:85: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                                    ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:3:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:30: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:3:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:41: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:3:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:52: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:3:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:63: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                              ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:3:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:74: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:3:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:85: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                                    ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+12 warnings generated.
+[100%] Built target device_aic_obj
+[100%] Built target host_bisheng_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld  -m aicorelinux -r  -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_dual_aic_device-prefix/src/e0_kernel_dual_aic_device-build/CMakeFiles/device_aic_obj.dir/data/e0-supplement-r1/build/auto_gen/e0_kernel_dual/auto_gen_dual.cpp.o -static -o /data/e0-supplement-r1/build/e0_kernel_dual_aic_device_dir/device_aic.o
+Install the project...
+[100%] Built target merge_aic_device_obj
+-- Install configuration: "Release"
+-- Installing: /data/e0-supplement-r1/build/e0_kernel_dual_host_dir/./objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o
+[ 78%] Completed 'e0_kernel_dual_host'
+[ 79%] No install step for 'e0_kernel_dual_aic_device'
+[ 80%] Completed 'e0_kernel_dual_aic_device'
+[ 82%] Built target e0_kernel_dual_host
+[ 83%] Built target e0_kernel_dual_aic_device
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -x -m aicorelinux   -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_normal_aic_device_dir/device_aic.o -static -o /data/e0-supplement-r1/build/e0_kernel_normal_merge_obj_dir/device_aic.o
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp.o
+[ 83%] Built target e0_kernel_normal_merge_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -x -m aicorelinux   -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_direct_aic_device_dir/device_aic.o -static -o /data/e0-supplement-r1/build/e0_kernel_direct_merge_obj_dir/device_aic.o
+[ 83%] Built target e0_kernel_direct_merge_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -x -m aicorelinux   -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_dual_aic_device_dir/device_aic.o -static -o /data/e0-supplement-r1/build/e0_kernel_dual_merge_obj_dir/device_aic.o
+[ 83%] Built target e0_kernel_dual_merge_obj
+[ 84%] Building CXX object CMakeFiles/e0_kernel_normal_host_stub_obj.dir/auto_gen/e0_kernel_normal/host_stub.cpp.o
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:30: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:41: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:52: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:63: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                              ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:74: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:85: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                                    ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+6 warnings generated.
+[ 85%] Building CXX object CMakeFiles/e0_kernel_direct_host_stub_obj.dir/auto_gen/e0_kernel_direct/host_stub.cpp.o
+[ 85%] Built target e0_kernel_normal_host_stub_obj
+[ 86%] Building CXX object CMakeFiles/e0_kernel_dual_host_stub_obj.dir/auto_gen/e0_kernel_dual/host_stub.cpp.o
+[ 86%] Built target e0_kernel_direct_host_stub_obj
+[ 86%] Linking CXX static library lib/libe0_kernel_normal.a
+/usr/local/Ascend/cann-9.0.0/bin/ascendc_pack_kernel /data/e0-supplement-r1/build/CMakeFiles/e0_kernel_normal_host_stub_obj.dir/auto_gen/e0_kernel_normal/host_stub.cpp.o /data/e0-supplement-r1/build/e0_kernel_normal_merge_obj_dir/device_aic.o 2 /data/e0-supplement-r1/build/CMakeFiles/e0_kernel_normal_host_stub_obj.dir/auto_gen/e0_kernel_normal/host_stub.cpp.o
+[ 86%] Built target e0_kernel_dual_host_stub_obj
+[ 86%] Linking CXX static library lib/libe0_kernel_direct.a
+/usr/local/Ascend/cann-9.0.0/bin/ascendc_pack_kernel /data/e0-supplement-r1/build/CMakeFiles/e0_kernel_direct_host_stub_obj.dir/auto_gen/e0_kernel_direct/host_stub.cpp.o /data/e0-supplement-r1/build/e0_kernel_direct_merge_obj_dir/device_aic.o 2 /data/e0-supplement-r1/build/CMakeFiles/e0_kernel_direct_host_stub_obj.dir/auto_gen/e0_kernel_direct/host_stub.cpp.o
+recompile: /usr/bin/ar qc lib/libe0_kernel_normal.a CMakeFiles/e0_kernel_normal_host_stub_obj.dir/auto_gen/e0_kernel_normal/host_stub.cpp.o /data/e0-supplement-r1/build/e0_kernel_normal_host_dir/objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o  ascendc_runtime.cpp.o aicpu_rt.cpp.o ascendc_elf_tool.c.o
+recompile: /usr/bin/ranlib lib/libe0_kernel_normal.a
+[ 86%] Built target e0_kernel_normal
+recompile: /usr/bin/ar qc lib/libe0_kernel_direct.a CMakeFiles/e0_kernel_direct_host_stub_obj.dir/auto_gen/e0_kernel_direct/host_stub.cpp.o /data/e0-supplement-r1/build/e0_kernel_direct_host_dir/objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o  ascendc_runtime.cpp.o aicpu_rt.cpp.o ascendc_elf_tool.c.o
+[ 86%] Linking CXX static library lib/libe0_kernel_dual.a
+recompile: /usr/bin/ranlib lib/libe0_kernel_direct.a
+/usr/local/Ascend/cann-9.0.0/bin/ascendc_pack_kernel /data/e0-supplement-r1/build/CMakeFiles/e0_kernel_dual_host_stub_obj.dir/auto_gen/e0_kernel_dual/host_stub.cpp.o /data/e0-supplement-r1/build/e0_kernel_dual_merge_obj_dir/device_aic.o 2 /data/e0-supplement-r1/build/CMakeFiles/e0_kernel_dual_host_stub_obj.dir/auto_gen/e0_kernel_dual/host_stub.cpp.o
+In file included from /data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:30: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:41: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:52: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:63: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                              ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:74: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:85: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                                    ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+[ 86%] Built target e0_kernel_direct
+6 warnings generated.
+[100%] Built target host_bisheng_obj
+[ 86%] Linking CXX executable e0_normal
+[ 86%] Performing install step for 'e0_kernel_split_host'
+recompile: /usr/bin/ar qc lib/libe0_kernel_dual.a CMakeFiles/e0_kernel_dual_host_stub_obj.dir/auto_gen/e0_kernel_dual/host_stub.cpp.o /data/e0-supplement-r1/build/e0_kernel_dual_host_dir/objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o  ascendc_runtime.cpp.o aicpu_rt.cpp.o ascendc_elf_tool.c.o
+recompile: /usr/bin/ranlib lib/libe0_kernel_dual.a
+[ 86%] Built target e0_kernel_dual
+[ 50%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+[ 87%] Linking CXX executable e0_direct
+[ 88%] Built target e0_normal
+[ 89%] Linking CXX executable e0_dual
+[ 89%] Built target e0_direct
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp.o
+[ 89%] Built target e0_dual
+[100%] Building CXX object CMakeFiles/device_aic_obj.dir/data/e0-supplement-r1/build/auto_gen/e0_kernel_split/auto_gen_direct_dual.cpp.o
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:30: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:41: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:52: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:63: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                              ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:74: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e0-supplement-r1/npu/e0_probe/normal.cpp:6:85: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_normal<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                                    ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+6 warnings generated.
+In file included from /data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:30: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:41: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:52: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:63: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                              ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:74: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+In file included from /data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp:2:
+/data/e0-supplement-r1/npu/e0_probe/direct.cpp:10:85: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e0_direct<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                                    ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+6 warnings generated.
+[100%] Built target host_bisheng_obj
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /data/e0-supplement-r1/build/e0_kernel_split_host_dir/./objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+-- Installing: /data/e0-supplement-r1/build/e0_kernel_split_host_dir/./objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp.o
+[ 89%] Completed 'e0_kernel_split_host'
+[ 92%] Built target e0_kernel_split_host
+[100%] Built target device_aic_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld  -m aicorelinux -r  -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_split_aic_device-prefix/src/e0_kernel_split_aic_device-build/CMakeFiles/device_aic_obj.dir/data/e0-supplement-r1/build/auto_gen/e0_kernel_split/auto_gen_normal.cpp.o /data/e0-supplement-r1/build/e0_kernel_split_aic_device-prefix/src/e0_kernel_split_aic_device-build/CMakeFiles/device_aic_obj.dir/data/e0-supplement-r1/build/auto_gen/e0_kernel_split/auto_gen_direct_dual.cpp.o -static -o /data/e0-supplement-r1/build/e0_kernel_split_aic_device_dir/device_aic.o
+[100%] Built target merge_aic_device_obj
+[ 93%] No install step for 'e0_kernel_split_aic_device'
+[ 94%] Completed 'e0_kernel_split_aic_device'
+[ 95%] Built target e0_kernel_split_aic_device
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -x -m aicorelinux   -Ttext=0 /data/e0-supplement-r1/build/e0_kernel_split_aic_device_dir/device_aic.o -static -o /data/e0-supplement-r1/build/e0_kernel_split_merge_obj_dir/device_aic.o
+[ 95%] Built target e0_kernel_split_merge_obj
+[ 96%] Building CXX object CMakeFiles/e0_kernel_split_host_stub_obj.dir/auto_gen/e0_kernel_split/host_stub.cpp.o
+[ 96%] Built target e0_kernel_split_host_stub_obj
+[ 97%] Linking CXX static library lib/libe0_kernel_split.a
+/usr/local/Ascend/cann-9.0.0/bin/ascendc_pack_kernel /data/e0-supplement-r1/build/CMakeFiles/e0_kernel_split_host_stub_obj.dir/auto_gen/e0_kernel_split/host_stub.cpp.o /data/e0-supplement-r1/build/e0_kernel_split_merge_obj_dir/device_aic.o 2 /data/e0-supplement-r1/build/CMakeFiles/e0_kernel_split_host_stub_obj.dir/auto_gen/e0_kernel_split/host_stub.cpp.o
+recompile: /usr/bin/ar qc lib/libe0_kernel_split.a CMakeFiles/e0_kernel_split_host_stub_obj.dir/auto_gen/e0_kernel_split/host_stub.cpp.o /data/e0-supplement-r1/build/e0_kernel_split_host_dir/objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp.o /data/e0-supplement-r1/build/e0_kernel_split_host_dir/objects-Release/host_bisheng_obj/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o  ascendc_runtime.cpp.o aicpu_rt.cpp.o ascendc_elf_tool.c.o
+recompile: /usr/bin/ranlib lib/libe0_kernel_split.a
+[ 97%] Built target e0_kernel_split
+[ 98%] Linking CXX executable e0_split
+[100%] Built target e0_split

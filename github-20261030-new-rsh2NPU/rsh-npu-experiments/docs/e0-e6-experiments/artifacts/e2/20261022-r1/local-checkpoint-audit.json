@@ -1,0 +1,19 @@
+{
+  "status": "VERIFIED_PRESERVED_FAILURE",
+  "archived_sources_verified": 6,
+  "workspace_source_matches": true,
+  "actual_binaries_verified": [
+    "build/e2_runner",
+    "build/lib/libe2_kernel.a"
+  ],
+  "U0_independent_replay": "PASS exact zero output, no snapshot/trace writes, 3 roles completion/padding, 10 output/input guards and inputs unchanged",
+  "successful_case_calls": 1,
+  "first_nonempty_case": "U16 N17 Bitmap16 q1 depth1; failed stream sync acl507015 MPU invalid",
+  "failure_log_preserved": true,
+  "bootstrap_returncode": 1,
+  "SDK_header_preserved": "sdk-headers/kernel_operator_data_copy_impl.h",
+  "SDK_header_sha256": "efb584d2ca41a9d3a316eef039d4fce469477b81b4ee8ec5ac9123cdcd76703b",
+  "E2_pass": false,
+  "formal_batch_started": false,
+  "E3_started": false
+}

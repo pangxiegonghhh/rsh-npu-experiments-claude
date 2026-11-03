@@ -1,0 +1,7 @@
+{
+  "/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/include/kernel_operator.h": "e27a175187f5ff1d059e2198ba125c0da7ff5e246a3cd8c0a2a6d1d6bc524457",
+  "/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/include/basic_api/kernel_struct_data_copy.h": "f05bcf8a9ad19fc96f7d279a748a1c30ab74709a9d3865e05cc8ba1175ea6b23",
+  "/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/include/basic_api/kernel_struct_mm.h": "8805639e1880c950d4cd8b4fe8a82883c5e5369ae5ac7daae4118adf3b2f815a",
+  "/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/include/utils/tiling/platform/platform_ascendc.h": "7ba13233d3fb2168b6193fc0e6d18964ae6449d6e5674721b6f8f41d235d4d58",
+  "/usr/local/Ascend/cann-9.0.0/aarch64-linux/include/platform/platform_info.h": "159d40e64754fb99b5611725eb7fea44d3b76ddb6c3dceb7e5cd5998f69f7d79"
+}

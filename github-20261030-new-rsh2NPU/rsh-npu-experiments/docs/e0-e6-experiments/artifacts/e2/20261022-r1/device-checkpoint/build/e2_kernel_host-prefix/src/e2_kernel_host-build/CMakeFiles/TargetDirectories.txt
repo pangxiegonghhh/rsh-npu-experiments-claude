@@ -1,0 +1,7 @@
+/data/e2-20261022-r1/build/e2_kernel_host-prefix/src/e2_kernel_host-build/CMakeFiles/host_bisheng_obj.dir
+/data/e2-20261022-r1/build/e2_kernel_host-prefix/src/e2_kernel_host-build/CMakeFiles/edit_cache.dir
+/data/e2-20261022-r1/build/e2_kernel_host-prefix/src/e2_kernel_host-build/CMakeFiles/rebuild_cache.dir
+/data/e2-20261022-r1/build/e2_kernel_host-prefix/src/e2_kernel_host-build/CMakeFiles/list_install_components.dir
+/data/e2-20261022-r1/build/e2_kernel_host-prefix/src/e2_kernel_host-build/CMakeFiles/install.dir
+/data/e2-20261022-r1/build/e2_kernel_host-prefix/src/e2_kernel_host-build/CMakeFiles/install/local.dir
+/data/e2-20261022-r1/build/e2_kernel_host-prefix/src/e2_kernel_host-build/CMakeFiles/install/strip.dir

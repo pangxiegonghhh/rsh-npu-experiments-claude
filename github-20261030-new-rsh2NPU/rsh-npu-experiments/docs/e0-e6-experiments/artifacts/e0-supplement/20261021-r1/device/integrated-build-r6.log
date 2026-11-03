@@ -1,0 +1,93 @@
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/integrated-build
+[  2%] Performing build step for 'rsh_kernels_precompile'
+[ 60%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/cube_direct.cpp.o
+[ 60%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/vector.cpp.o
+[ 60%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/cube.cpp.o
+[ 80%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/mix.cpp.o
+[100%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/restore.cpp.o
+[100%] Built target precompile_obj
+[100%] Built target check_src_template
+[  4%] No install step for 'rsh_kernels_precompile'
+[  6%] Completed 'rsh_kernels_precompile'
+[ 16%] Built target rsh_kernels_precompile
+[ 18%] Performing build step for 'rsh_kernels_preprocess'
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/integrated-build/rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-build
+[ 26%] Building CXX object CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/cube_direct.cpp.o
+[ 26%] Building CXX object CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/cube.cpp.o
+[ 26%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/cube.cpp.o
+[ 26%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/cube.cpp.o
+[ 33%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/cube_direct.cpp.o
+[ 40%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/vector.cpp.o
+[ 46%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/mix.cpp.o
+[ 53%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/restore.cpp.o
+[ 53%] Built target preprocess_obj
+[ 60%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/cube_direct.cpp.o
+In file included from /data/e0-supplement-r1/npu/cube_direct.cpp:1:
+/data/e0-supplement-r1/npu/work.h:79:56: error: cannot initialize a member subobject of type 'event_t' with an rvalue of type 'int'
+    RshConfig c;bool directA=false;event_t directReady=0,directReuse=0;
+                                                       ^
+/data/e0-supplement-r1/npu/work.h:79:70: error: cannot initialize a member subobject of type 'event_t' with an rvalue of type 'int'
+    RshConfig c;bool directA=false;event_t directReady=0,directReuse=0;
+                                                                     ^
+In file included from /data/e0-supplement-r1/npu/cube.cpp:1:
+/data/e0-supplement-r1/npu/work.h:79:56: error: cannot initialize a member subobject of type 'event_t' with an rvalue of type 'int'
+    RshConfig c;bool directA=false;event_t directReady=0,directReuse=0;
+                                                       ^
+/data/e0-supplement-r1/npu/work.h:79:70: error: cannot initialize a member subobject of type 'event_t' with an rvalue of type 'int'
+    RshConfig c;bool directA=false;event_t directReady=0,directReuse=0;
+                                                                     ^
+In file included from /data/e0-supplement-r1/npu/cube.cpp:1:
+/data/e0-supplement-r1/npu/work.h:79:56: error: cannot initialize a member subobject of type 'event_t' with an rvalue of type 'int'
+    RshConfig c;bool directA=false;event_t directReady=0,directReuse=0;
+                                                       ^
+/data/e0-supplement-r1/npu/work.h:79:70: error: cannot initialize a member subobject of type 'event_t' with an rvalue of type 'int'
+    RshConfig c;bool directA=false;event_t directReady=0,directReuse=0;
+                                                                     ^
+2 errors generated.
+2 errors generated.
+gmake[5]: *** [CMakeFiles/aiv_obj.dir/build.make:90: CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/cube_direct.cpp.o] Error 1
+gmake[5]: *** Waiting for unfinished jobs....
+gmake[5]: *** [CMakeFiles/aiv_obj.dir/build.make:76: CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/cube.cpp.o] Error 1
+gmake[4]: *** [CMakeFiles/Makefile2:119: CMakeFiles/aiv_obj.dir/all] Error 2
+gmake[4]: *** Waiting for unfinished jobs....
+[ 66%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/vector.cpp.o
+[ 73%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/mix.cpp.o
+2 errors generated.
+gmake[5]: *** [CMakeFiles/aic_obj.dir/build.make:76: CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/cube.cpp.o] Error 1
+gmake[5]: *** Waiting for unfinished jobs....
+In file included from /data/e0-supplement-r1/npu/cube_direct.cpp:1:
+/data/e0-supplement-r1/npu/work.h:79:56: error: cannot initialize a member subobject of type 'event_t' with an rvalue of type 'int'
+    RshConfig c;bool directA=false;event_t directReady=0,directReuse=0;
+                                                       ^
+/data/e0-supplement-r1/npu/work.h:79:70: error: cannot initialize a member subobject of type 'event_t' with an rvalue of type 'int'
+    RshConfig c;bool directA=false;event_t directReady=0,directReuse=0;
+                                                                     ^
+2 errors generated.
+gmake[5]: *** [CMakeFiles/aic_obj.dir/build.make:90: CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/cube_direct.cpp.o] Error 1
+In file included from /data/e0-supplement-r1/npu/mix.cpp:1:
+/data/e0-supplement-r1/npu/work.h:79:56: error: cannot initialize a member subobject of type 'event_t' with an rvalue of type 'int'
+    RshConfig c;bool directA=false;event_t directReady=0,directReuse=0;
+                                                       ^
+/data/e0-supplement-r1/npu/work.h:79:70: error: cannot initialize a member subobject of type 'event_t' with an rvalue of type 'int'
+    RshConfig c;bool directA=false;event_t directReady=0,directReuse=0;
+                                                                     ^
+In file included from /data/e0-supplement-r1/npu/vector.cpp:1:
+/data/e0-supplement-r1/npu/work.h:79:56: error: cannot initialize a member subobject of type 'event_t' with an rvalue of type 'int'
+    RshConfig c;bool directA=false;event_t directReady=0,directReuse=0;
+                                                       ^
+/data/e0-supplement-r1/npu/work.h:79:70: error: cannot initialize a member subobject of type 'event_t' with an rvalue of type 'int'
+    RshConfig c;bool directA=false;event_t directReady=0,directReuse=0;
+                                                                     ^
+2 errors generated.
+gmake[5]: *** [CMakeFiles/aic_obj.dir/build.make:118: CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/mix.cpp.o] Error 1
+2 errors generated.
+gmake[5]: *** [CMakeFiles/aic_obj.dir/build.make:104: CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/vector.cpp.o] Error 1
+gmake[4]: *** [CMakeFiles/Makefile2:171: CMakeFiles/aic_obj.dir/all] Error 2
+gmake[3]: *** [Makefile:91: all] Error 2
+gmake[2]: *** [CMakeFiles/rsh_kernels_preprocess.dir/build.make:86: rsh_kernels_preprocess-prefix/src/rsh_kernels_preprocess-stamp/rsh_kernels_preprocess-build] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/rsh_kernels_preprocess.dir/all] Error 2
+gmake: *** [Makefile:136: all] Error 2

@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "valid_cases": 1344,
+  "rejections": [
+    {
+      "id": "q0",
+      "reason": "q/depth"
+    },
+    {
+      "id": "q3",
+      "reason": "q/depth"
+    },
+    {
+      "id": "depth0",
+      "reason": "q/depth"
+    },
+    {
+      "id": "depth3",
+      "reason": "q/depth"
+    },
+    {
+      "id": "round0",
+      "reason": "rounds/capture/stall"
+    },
+    {
+      "id": "round258",
+      "reason": "rounds/capture/stall"
+    },
+    {
+      "id": "capture2",
+      "reason": "rounds/capture/stall"
+    },
+    {
+      "id": "stall65",
+      "reason": "rounds/capture/stall"
+    }
+  ]
+}

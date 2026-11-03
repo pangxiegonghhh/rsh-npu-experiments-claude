@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/data/e1-20261022-r1/bootstrap.py", line 40, in <module>
+    assert hashlib.sha256((root/'manifest.json').read_bytes()).hexdigest()=='b9debf29eb4983a52185ccf33d1f0f96ac02a0a82cd46efc22186b934a216926'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

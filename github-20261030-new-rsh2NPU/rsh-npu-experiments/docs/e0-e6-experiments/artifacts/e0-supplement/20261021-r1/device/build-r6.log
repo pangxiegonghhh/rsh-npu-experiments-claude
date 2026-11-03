@@ -1,0 +1,129 @@
+[  4%] Performing build step for 'e0_kernel_dual_precompile'
+[  4%] Performing build step for 'e0_kernel_normal_precompile'
+[  4%] Performing build step for 'e0_kernel_split_precompile'
+[  4%] Performing build step for 'e0_kernel_direct_precompile'
+[100%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+[100%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o
+[100%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o
+[ 50%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+[100%] Building CXX object CMakeFiles/precompile_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct_dual.cpp.o
+[100%] Built target precompile_obj
+[100%] Built target precompile_obj
+[100%] Built target precompile_obj
+[100%] Built target check_src_template
+[100%] Built target check_src_template
+[100%] Built target check_src_template
+[  6%] No install step for 'e0_kernel_direct_precompile'
+[  6%] No install step for 'e0_kernel_normal_precompile'
+[  6%] No install step for 'e0_kernel_dual_precompile'
+[  6%] Completed 'e0_kernel_dual_precompile'
+[  6%] Completed 'e0_kernel_normal_precompile'
+[  6%] Completed 'e0_kernel_direct_precompile'
+[ 10%] Built target e0_kernel_dual_precompile
+[ 10%] Built target e0_kernel_direct_precompile
+[ 13%] Built target e0_kernel_normal_precompile
+[100%] Built target precompile_obj
+[ 13%] Performing build step for 'e0_kernel_direct_preprocess'
+[ 13%] Performing build step for 'e0_kernel_normal_preprocess'
+[ 13%] Performing build step for 'e0_kernel_dual_preprocess'
+-- Configuring done (0.0s)
+-- Configuring done (0.0s)
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Generating done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_dual_preprocess-prefix/src/e0_kernel_dual_preprocess-build
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_normal_preprocess-prefix/src/e0_kernel_normal_preprocess-build
+-- Build files have been written to: /data/e0-supplement-r1/build/e0_kernel_direct_preprocess-prefix/src/e0_kernel_direct_preprocess-build
+[ 33%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o
+[ 33%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o
+[ 33%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+[100%] Built target check_src_template
+[ 13%] No install step for 'e0_kernel_split_precompile'
+[ 13%] Completed 'e0_kernel_split_precompile'
+[ 16%] Built target e0_kernel_split_precompile
+[ 66%] Building CXX object CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o
+[ 66%] Built target preprocess_obj
+[ 33%] Built target preprocess_obj
+[ 33%] Built target preprocess_obj
+[100%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o
+[ 66%] Building CXX object CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+[ 66%] Building CXX object CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:2:
+In file included from /data/e0-supplement-r1/npu/e0_probe/normal.cpp:1:
+/data/e0-supplement-r1/npu/e0_probe/probe.h:24:11: error: cannot initialize a variable of type 'event_t' with an rvalue of type 'int'
+  event_t ready=0,reuse=0;
+          ^     ~
+/data/e0-supplement-r1/npu/e0_probe/probe.h:24:19: error: cannot initialize a variable of type 'event_t' with an rvalue of type 'int'
+  event_t ready=0,reuse=0;
+                  ^     ~
+In file included from /data/e0-supplement-r1/npu/e0_probe/dual.cpp:2:
+In file included from /data/e0-supplement-r1/npu/e0_probe/normal.cpp:1:
+/data/e0-supplement-r1/npu/e0_probe/probe.h:24:11: error: cannot initialize a variable of type 'event_t' with an rvalue of type 'int'
+  event_t ready=0,reuse=0;
+          ^     ~
+/data/e0-supplement-r1/npu/e0_probe/probe.h:24:19: error: cannot initialize a variable of type 'event_t' with an rvalue of type 'int'
+  event_t ready=0,reuse=0;
+                  ^     ~
+2 errors generated.
+gmake[5]: *** [CMakeFiles/aic_obj.dir/build.make:76: CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o] Error 1
+gmake[4]: *** [CMakeFiles/Makefile2:171: CMakeFiles/aic_obj.dir/all] Error 2
+gmake[4]: *** Waiting for unfinished jobs....
+In file included from /data/e0-supplement-r1/npu/e0_probe/direct.cpp:1:
+/data/e0-supplement-r1/npu/e0_probe/probe.h:24:11: error: cannot initialize a variable of type 'event_t' with an rvalue of type 'int'
+  event_t ready=0,reuse=0;
+          ^     ~
+/data/e0-supplement-r1/npu/e0_probe/probe.h:24:19: error: cannot initialize a variable of type 'event_t' with an rvalue of type 'int'
+  event_t ready=0,reuse=0;
+                  ^     ~
+[100%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o
+In file included from /data/e0-supplement-r1/npu/e0_probe/normal.cpp:1:
+/data/e0-supplement-r1/npu/e0_probe/probe.h:24:11: error: cannot initialize a variable of type 'event_t' with an rvalue of type 'int'
+  event_t ready=0,reuse=0;
+          ^     ~
+/data/e0-supplement-r1/npu/e0_probe/probe.h:24:19: error: cannot initialize a variable of type 'event_t' with an rvalue of type 'int'
+  event_t ready=0,reuse=0;
+                  ^     ~
+2 errors generated.
+gmake[5]: *** [CMakeFiles/aiv_obj.dir/build.make:76: CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/dual.cpp.o] Error 1
+gmake[4]: *** [CMakeFiles/Makefile2:119: CMakeFiles/aiv_obj.dir/all] Error 2
+gmake[3]: *** [Makefile:91: all] Error 2
+gmake[2]: *** [CMakeFiles/e0_kernel_dual_preprocess.dir/build.make:86: e0_kernel_dual_preprocess-prefix/src/e0_kernel_dual_preprocess-stamp/e0_kernel_dual_preprocess-build] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:735: CMakeFiles/e0_kernel_dual_preprocess.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+2 errors generated.
+gmake[5]: *** [CMakeFiles/aiv_obj.dir/build.make:76: CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o] Error 1
+gmake[4]: *** [CMakeFiles/Makefile2:119: CMakeFiles/aiv_obj.dir/all] Error 2
+gmake[4]: *** Waiting for unfinished jobs....
+[100%] Building CXX object CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o
+2 errors generated.
+gmake[5]: *** [CMakeFiles/aiv_obj.dir/build.make:76: CMakeFiles/aiv_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o] Error 1
+gmake[4]: *** [CMakeFiles/Makefile2:119: CMakeFiles/aiv_obj.dir/all] Error 2
+gmake[4]: *** Waiting for unfinished jobs....
+In file included from /data/e0-supplement-r1/npu/e0_probe/direct.cpp:1:
+/data/e0-supplement-r1/npu/e0_probe/probe.h:24:11: error: cannot initialize a variable of type 'event_t' with an rvalue of type 'int'
+  event_t ready=0,reuse=0;
+          ^     ~
+/data/e0-supplement-r1/npu/e0_probe/probe.h:24:19: error: cannot initialize a variable of type 'event_t' with an rvalue of type 'int'
+  event_t ready=0,reuse=0;
+                  ^     ~
+In file included from /data/e0-supplement-r1/npu/e0_probe/normal.cpp:1:
+/data/e0-supplement-r1/npu/e0_probe/probe.h:24:11: error: cannot initialize a variable of type 'event_t' with an rvalue of type 'int'
+  event_t ready=0,reuse=0;
+          ^     ~
+/data/e0-supplement-r1/npu/e0_probe/probe.h:24:19: error: cannot initialize a variable of type 'event_t' with an rvalue of type 'int'
+  event_t ready=0,reuse=0;
+                  ^     ~
+2 errors generated.
+gmake[5]: *** [CMakeFiles/aic_obj.dir/build.make:76: CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/direct.cpp.o] Error 1
+gmake[4]: *** [CMakeFiles/Makefile2:171: CMakeFiles/aic_obj.dir/all] Error 2
+gmake[3]: *** [Makefile:91: all] Error 2
+gmake[2]: *** [CMakeFiles/e0_kernel_direct_preprocess.dir/build.make:86: e0_kernel_direct_preprocess-prefix/src/e0_kernel_direct_preprocess-stamp/e0_kernel_direct_preprocess-build] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:472: CMakeFiles/e0_kernel_direct_preprocess.dir/all] Error 2
+2 errors generated.
+gmake[5]: *** [CMakeFiles/aic_obj.dir/build.make:76: CMakeFiles/aic_obj.dir/data/e0-supplement-r1/npu/e0_probe/normal.cpp.o] Error 1
+gmake[4]: *** [CMakeFiles/Makefile2:171: CMakeFiles/aic_obj.dir/all] Error 2
+gmake[3]: *** [Makefile:91: all] Error 2
+gmake[2]: *** [CMakeFiles/e0_kernel_normal_preprocess.dir/build.make:86: e0_kernel_normal_preprocess-prefix/src/e0_kernel_normal_preprocess-stamp/e0_kernel_normal_preprocess-build] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/e0_kernel_normal_preprocess.dir/all] Error 2
+gmake: *** [Makefile:136: all] Error 2

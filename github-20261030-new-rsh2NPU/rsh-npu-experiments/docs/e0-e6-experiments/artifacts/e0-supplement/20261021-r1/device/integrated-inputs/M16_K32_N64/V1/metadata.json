@@ -1,0 +1,25 @@
+{
+  "experiment": "E0",
+  "compressed_k": 32,
+  "original_col_rule": "3*j+1",
+  "coordinate_values": "A=((row*11+j*7)%17-8)/8; B=((global_row*13+n*5)%19-9)/8",
+  "group_count": 1,
+  "padding_k_slots_per_group": 0,
+  "reference_arithmetic": "FP16 inputs, FP64 matmul, FP32 output",
+  "variant": "V1",
+  "files_sha256": {
+    "ptr": "01e829b620df7b9ac302b1a8e8453bec9cf1ff6795e7506a4b383cbacf855620",
+    "cols": "04b40fead7e0ff195d5aa702bab58701da7fbb3856c31571de045809b61dcae1",
+    "values": "98e3668e7638339c9a961ec4132a158132fc1791599296b132c3cba0603cc238",
+    "cube_ptr": "c571327cb01ac1de6972713cbf6cc1fc3c2cab8b581ee0bc3fe6d8b56963fd5b",
+    "colref": "b694833d86ae722f7d44251f6b57a1011ea2c7fd3b68c37ce217f99f7817b5d8",
+    "tiles": "89427d0dacb01dd9cf145c32d5c1843638338d970077c603fe6d2d4669dd4f9b",
+    "rowmap": "5d85718ec594b982c252d0279e5966ffca33a5eaf2a455038d3ab331fde70cea",
+    "srows": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "valid": "cc8cd41cef907c4d216069122c4b89936211361f9050a717a1e37ad1862e952f",
+    "rhs": "807d7327a91df0d2354cf6112e32d5f7735f6ee48d51e33044ca45fb932780ac",
+    "golden": "3daf5f6493bba16d1816617b996b74ea85b9474de099cae8341cb560cb751772"
+  },
+  "coverage": "full",
+  "tail_skip_rows": []
+}

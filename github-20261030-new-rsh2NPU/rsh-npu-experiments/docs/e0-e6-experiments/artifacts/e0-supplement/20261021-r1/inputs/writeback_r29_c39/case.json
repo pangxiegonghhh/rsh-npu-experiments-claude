@@ -1,0 +1,114 @@
+{
+  "id": "writeback_r29_c39",
+  "stage": "S1",
+  "config": [
+    32,
+    16,
+    48,
+    32,
+    16,
+    48,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+  ],
+  "global_k": 47,
+  "observation": "product",
+  "mapping": "scatter",
+  "tags": {},
+  "guard_bytes": 1024,
+  "a_source_elements": 512,
+  "a_l1_elements": 512,
+  "b_source_rows": 48,
+  "b_l1_elements": 768,
+  "mmad_calls": 1,
+  "expected_mmad": [
+    32,
+    16,
+    48
+  ],
+  "read_range_check": {
+    "pass": true,
+    "b_intervals_bytes": [
+      [
+        96,
+        192
+      ],
+      [
+        384,
+        480
+      ],
+      [
+        672,
+        768
+      ],
+      [
+        960,
+        1056
+      ],
+      [
+        1248,
+        1344
+      ],
+      [
+        1536,
+        1632
+      ],
+      [
+        1824,
+        1920
+      ],
+      [
+        2112,
+        2208
+      ],
+      [
+        2400,
+        2496
+      ],
+      [
+        2688,
+        2784
+      ],
+      [
+        2976,
+        3072
+      ],
+      [
+        3264,
+        3360
+      ],
+      [
+        3552,
+        3648
+      ],
+      [
+        3840,
+        3936
+      ],
+      [
+        4128,
+        4224
+      ],
+      [
+        4416,
+        4512
+      ]
+    ],
+    "a_nd_bytes": 1024,
+    "a_physical_bytes": 1024,
+    "refs_bytes": 64
+  },
+  "sha256": {
+    "golden.bin": "57bc2ea952b82a8dafb5ce3073708caf0ebafc48b002125072c9e28bd399f838",
+    "config.bin": "a5981d8f9b7130aa5a8fcd122742ab63b6f19030e15310e0e4303d2d3ea11678",
+    "b.bin": "dc4396b0d9587f320b02d7aeee3d8378826f64b351cd6cefaca061ce30044776",
+    "a.bin": "a944813645251713dd6e416e1364d3db434b2eee81507c0ff982ba8b97a038a2",
+    "mask.bin": "4fd49f9bdb750657b15e232707d8a60711b26d00a9875aa77faf67a6480fa8ea",
+    "refs.bin": "7a5d8bd14d556b2cc180143f961c0459fcf8fac4ff21a336fbe2ae31da7f2ba8",
+    "a-direct.bin": "a944813645251713dd6e416e1364d3db434b2eee81507c0ff982ba8b97a038a2"
+  }
+}

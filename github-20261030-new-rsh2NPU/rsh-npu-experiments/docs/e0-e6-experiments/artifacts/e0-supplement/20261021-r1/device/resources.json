@@ -1,0 +1,12 @@
+{
+  "soc": "Ascend910B2",
+  "method": "PlatformAscendC::GetCoreMemSize",
+  "bytes": {
+    "L1": 524032,
+    "L0A": 65536,
+    "L0B": 65536,
+    "L0C": 131072,
+    "UB": 196352
+  },
+  "raw": "resources.txt"
+}

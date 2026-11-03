@@ -1,0 +1,19 @@
+{
+  "id": "occupancy_z240_k2",
+  "group": "occupancy",
+  "kind": "local_index",
+  "U": 16,
+  "N": 16,
+  "Kp": 16,
+  "Np": 16,
+  "tiles": 1,
+  "nnz": 240,
+  "sha256": {
+    "config.bin": "8427282ed3edb7c6092dd657feab5487e092976a575621b178984b790e6147d9",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73",
+    "desc.bin": "2556aea3895666a4d1e87749190f142ef169f58f667014bb7e65eec2159f70d6",
+    "original-a.bin": "9883704623c6df8636295af5b1997fe4296c41cb1580b87326b0026f12aac44c",
+    "payload.bin": "19942f36e6c96c5b8f163664c2cc5dcfd1aa89623e732782a9b57ae66a6d21ab",
+    "cols.bin": "7b165dc88c54d04ea4da68fe3df961af209d84692e1599be0cb18edb6782f799"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "fixtures": 1988,
+  "main": 960,
+  "occupancy": 1028,
+  "four_kind_same_logical_inputs": true,
+  "independent_original_column_oracles": 1988,
+  "note": "occupancy isolates fixed structural column domain, including zero-valued columns"
+}

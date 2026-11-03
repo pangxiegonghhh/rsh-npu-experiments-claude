@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "valid_cases": 1988,
+  "invalid_cases_rejected": 16,
+  "method": "actual C++ Input validator extracted unchanged, compiled locally without ACL",
+  "negative": [
+    {
+      "id": "kind",
+      "rejected": true,
+      "reason": "descriptor fields"
+    },
+    {
+      "id": "validk",
+      "rejected": true,
+      "reason": "descriptor fields"
+    },
+    {
+      "id": "offset",
+      "rejected": true,
+      "reason": "payload bounds/alignment"
+    },
+    {
+      "id": "nnz",
+      "rejected": true,
+      "reason": "descriptor fields"
+    },
+    {
+      "id": "length",
+      "rejected": true,
+      "reason": "payload length"
+    },
+    {
+      "id": "bitmap_popcount",
+      "rejected": true,
+      "reason": "nnz mismatch"
+    },
+    {
+      "id": "index_duplicate",
+      "rejected": true,
+      "reason": "index order/tail"
+    },
+    {
+      "id": "column_oob",
+      "rejected": true,
+      "reason": "column map"
+    },
+    {
+      "id": "column_duplicate",
+      "rejected": true,
+      "reason": "column map"
+    },
+    {
+      "id": "bad_config",
+      "rejected": true,
+      "reason": "shape U/K"
+    },
+    {
+      "id": "nonfinite",
+      "rejected": true,
+      "reason": "nonfinite A"
+    },
+    {
+      "id": "A_tail",
+      "rejected": true,
+      "reason": "A tail nonzero"
+    },
+    {
+      "id": "bitmap_tail",
+      "rejected": true,
+      "reason": "bitmap tail"
+    },
+    {
+      "id": "index_tail",
+      "rejected": true,
+      "reason": "index order/tail"
+    },
+    {
+      "id": "empty_has_desc",
+      "rejected": true,
+      "reason": "directory length"
+    },
+    {
+      "id": "B_pad",
+      "rejected": true,
+      "reason": "B padding"
+    }
+  ]
+}

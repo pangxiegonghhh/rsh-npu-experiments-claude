@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "main_cases": 1988,
+  "four_kinds": [
+    "dense",
+    "bitmap",
+    "local_index",
+    "dense_tail"
+  ],
+  "normal_window_cases": 960,
+  "occupancy_cases": 1028,
+  "host_rejections": 16,
+  "repeat_processes": 3,
+  "repeat_configurations": 24,
+  "repeat_calls": 720,
+  "device_case_calls": 2708,
+  "decoder_launches": 2708,
+  "cube_launches": 2612,
+  "max_abs_error": 0,
+  "all_outputs_individually_saved": true,
+  "E2_started": false,
+  "end_unix": 1792654704.4047866
+}

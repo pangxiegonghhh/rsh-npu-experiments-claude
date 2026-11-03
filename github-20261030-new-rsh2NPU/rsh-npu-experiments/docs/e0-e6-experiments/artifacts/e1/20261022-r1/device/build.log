@@ -1,0 +1,601 @@
+[  2%] Creating directories for 'e1_cube_lib_precompile'
+[  2%] Creating directories for 'e1_decode_lib_precompile'
+[  3%] No download step for 'e1_decode_lib_precompile'
+[  4%] No download step for 'e1_cube_lib_precompile'
+[  5%] No update step for 'e1_decode_lib_precompile'
+[  6%] No update step for 'e1_cube_lib_precompile'
+[  8%] No patch step for 'e1_cube_lib_precompile'
+[  9%] No patch step for 'e1_decode_lib_precompile'
+[ 10%] Performing configure step for 'e1_cube_lib_precompile'
+[ 11%] Performing configure step for 'e1_decode_lib_precompile'
+-- The C compiler identification is GNU 12.3.1
+-- The C compiler identification is GNU 12.3.1
+-- The CXX compiler identification is GNU 12.3.1
+-- The CXX compiler identification is GNU 12.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DYNAMIC_MODE
+    INCLUDE_DIR
+
+
+-- Build files have been written to: /data/e1-20261022-r1/build/e1_decode_lib_precompile-prefix/src/e1_decode_lib_precompile-build
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DYNAMIC_MODE
+    INCLUDE_DIR
+
+
+-- Build files have been written to: /data/e1-20261022-r1/build/e1_cube_lib_precompile-prefix/src/e1_cube_lib_precompile-build
+[ 12%] Performing build step for 'e1_decode_lib_precompile'
+[ 13%] Performing build step for 'e1_cube_lib_precompile'
+[100%] Building CXX object CMakeFiles/precompile_obj.dir/data/e1-20261022-r1/npu/e1_probe/decode.cpp.o
+[100%] Building CXX object CMakeFiles/precompile_obj.dir/data/e1-20261022-r1/npu/e1_probe/cube.cpp.o
+[100%] Built target precompile_obj
+[100%] Built target precompile_obj
+[100%] Built target check_src_template
+[100%] Built target check_src_template
+[ 16%] No install step for 'e1_cube_lib_precompile'
+[ 16%] No install step for 'e1_decode_lib_precompile'
+[ 17%] Completed 'e1_decode_lib_precompile'
+[ 18%] Completed 'e1_cube_lib_precompile'
+[ 18%] Built target e1_decode_lib_precompile
+[ 18%] Built target e1_cube_lib_precompile
+[ 20%] Creating directories for 'e1_decode_lib_preprocess'
+[ 20%] Creating directories for 'e1_cube_lib_preprocess'
+[ 23%] No download step for 'e1_cube_lib_preprocess'
+[ 23%] No download step for 'e1_decode_lib_preprocess'
+[ 24%] No update step for 'e1_cube_lib_preprocess'
+[ 25%] No update step for 'e1_decode_lib_preprocess'
+[ 26%] No patch step for 'e1_cube_lib_preprocess'
+[ 27%] No patch step for 'e1_decode_lib_preprocess'
+[ 30%] Performing configure step for 'e1_decode_lib_preprocess'
+[ 30%] Performing configure step for 'e1_cube_lib_preprocess'
+-- The C compiler identification is GNU 12.3.1
+-- The C compiler identification is GNU 12.3.1
+-- The CXX compiler identification is GNU 12.3.1
+-- The CXX compiler identification is GNU 12.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e1-20261022-r1/build/e1_cube_lib_preprocess-prefix/src/e1_cube_lib_preprocess-build
+-- Build files have been written to: /data/e1-20261022-r1/build/e1_decode_lib_preprocess-prefix/src/e1_decode_lib_preprocess-build
+[ 32%] Performing build step for 'e1_decode_lib_preprocess'
+[ 32%] Performing build step for 'e1_cube_lib_preprocess'
+[ 33%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e1-20261022-r1/npu/e1_probe/decode.cpp.o
+[ 33%] Building CXX object CMakeFiles/preprocess_obj.dir/data/e1-20261022-r1/npu/e1_probe/cube.cpp.o
+[ 33%] Built target preprocess_obj
+[ 33%] Built target preprocess_obj
+[ 66%] Building CXX object CMakeFiles/aiv_obj.dir/data/e1-20261022-r1/npu/e1_probe/decode.cpp.o
+[ 66%] Building CXX object CMakeFiles/aiv_obj.dir/data/e1-20261022-r1/npu/e1_probe/cube.cpp.o
+[ 66%] Built target aiv_obj
+[100%] Building CXX object CMakeFiles/aic_obj.dir/data/e1-20261022-r1/npu/e1_probe/decode.cpp.o
+[ 66%] Built target aiv_obj
+[100%] Building CXX object CMakeFiles/aic_obj.dir/data/e1-20261022-r1/npu/e1_probe/cube.cpp.o
+[100%] Built target aic_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e1-20261022-r1/build/e1_decode_lib_preprocess-prefix/src/e1_decode_lib_preprocess-build/CMakeFiles/aiv_obj.dir/data/e1-20261022-r1/npu/e1_probe/decode.cpp.o -o /data/e1-20261022-r1/build/e1_decode_lib_preprocess-prefix/src/e1_decode_lib_preprocess-build/CMakeFiles/aiv_obj.dir/data/e1-20261022-r1/npu/e1_probe/decode.cpp.o[100%] Built target merge_aiv_obj_text
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e1-20261022-r1/build/e1_decode_lib_preprocess-prefix/src/e1_decode_lib_preprocess-build/CMakeFiles/aic_obj.dir/data/e1-20261022-r1/npu/e1_probe/decode.cpp.o -o /data/e1-20261022-r1/build/e1_decode_lib_preprocess-prefix/src/e1_decode_lib_preprocess-build/CMakeFiles/aic_obj.dir/data/e1-20261022-r1/npu/e1_probe/decode.cpp.o[100%] Built target merge_aic_obj_text
+[100%] Built target _host_cpp
+[ 33%] No install step for 'e1_decode_lib_preprocess'
+[ 34%] Completed 'e1_decode_lib_preprocess'
+[ 34%] Built target e1_decode_lib_preprocess
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e1-20261022-r1/build/e1_cube_lib_preprocess-prefix/src/e1_cube_lib_preprocess-build/CMakeFiles/aiv_obj.dir/data/e1-20261022-r1/npu/e1_probe/cube.cpp.o -o /data/e1-20261022-r1/build/e1_cube_lib_preprocess-prefix/src/e1_cube_lib_preprocess-build/CMakeFiles/aiv_obj.dir/data/e1-20261022-r1/npu/e1_probe/cube.cpp.o[100%] Built target merge_aiv_obj_text
+[ 36%] Creating directories for 'e1_decode_lib_aic_device'
+[ 37%] No download step for 'e1_decode_lib_aic_device'
+[ 38%] No update step for 'e1_decode_lib_aic_device'
+[ 39%] No patch step for 'e1_decode_lib_aic_device'
+[ 40%] Performing configure step for 'e1_decode_lib_aic_device'
+-- The C compiler identification is GNU 12.3.1
+-- The CXX compiler identification is GNU 12.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+[100%] Built target aic_obj
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /data/e1-20261022-r1/build/e1_cube_lib_preprocess-prefix/src/e1_cube_lib_preprocess-build/CMakeFiles/aic_obj.dir/data/e1-20261022-r1/npu/e1_probe/cube.cpp.o -o /data/e1-20261022-r1/build/e1_cube_lib_preprocess-prefix/src/e1_cube_lib_preprocess-build/CMakeFiles/aic_obj.dir/data/e1-20261022-r1/npu/e1_probe/cube.cpp.o-- Detecting CXX compiler ABI info
+[100%] Built target merge_aic_obj_text
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_MODE
+
+
+-- Build files have been written to: /data/e1-20261022-r1/build/e1_decode_lib_aic_device-prefix/src/e1_decode_lib_aic_device-build
+[ 41%] Performing build step for 'e1_decode_lib_aic_device'
+[ 43%] No install step for 'e1_decode_lib_aic_device'
+[ 44%] Completed 'e1_decode_lib_aic_device'
+[ 44%] Built target e1_decode_lib_aic_device
+[ 45%] Creating directories for 'e1_decode_lib_aiv_device'
+[100%] Built target _host_cpp
+[ 46%] No download step for 'e1_decode_lib_aiv_device'
+[ 47%] No install step for 'e1_cube_lib_preprocess'
+[ 48%] Completed 'e1_cube_lib_preprocess'
+[ 50%] No update step for 'e1_decode_lib_aiv_device'
+[ 51%] No patch step for 'e1_decode_lib_aiv_device'
+[ 51%] Built target e1_cube_lib_preprocess
+[ 52%] Performing configure step for 'e1_decode_lib_aiv_device'
+[ 53%] Creating directories for 'e1_decode_lib_host'
+[ 54%] No download step for 'e1_decode_lib_host'
+[ 55%] No update step for 'e1_decode_lib_host'
+-- The C compiler identification is GNU 12.3.1
+[ 56%] No patch step for 'e1_decode_lib_host'
+[ 58%] Performing configure step for 'e1_decode_lib_host'
+-- The CXX compiler identification is GNU 12.3.1
+-- Detecting C compiler ABI info
+-- The C compiler identification is GNU 12.3.1
+-- The CXX compiler identification is GNU 12.3.1
+-- Detecting C compiler ABI info - done
+-- Detecting C compiler ABI info
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e1-20261022-r1/build/e1_decode_lib_aiv_device-prefix/src/e1_decode_lib_aiv_device-build
+[ 59%] Performing build step for 'e1_decode_lib_aiv_device'
+[100%] Building CXX object CMakeFiles/device_aiv_obj.dir/data/e1-20261022-r1/build/auto_gen/e1_decode_lib/auto_gen_decode.cpp.o
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ASCEND_PYTHON_EXECUTABLE
+
+
+-- Build files have been written to: /data/e1-20261022-r1/build/e1_decode_lib_host-prefix/src/e1_decode_lib_host-build
+[ 60%] Performing build step for 'e1_decode_lib_host'
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e1-20261022-r1/npu/e1_probe/decode.cpp.o
+/data/e1-20261022-r1/npu/e1_probe/decode.cpp:40:30: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_decode<<<1,nullptr,s>>>((GM_ADDR)d,(GM_ADDR)p,(GM_ADDR)j,(GM_ADDR)c,(GM_ADDR)a,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)z);
+                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/decode.cpp:40:41: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_decode<<<1,nullptr,s>>>((GM_ADDR)d,(GM_ADDR)p,(GM_ADDR)j,(GM_ADDR)c,(GM_ADDR)a,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)z);
+                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/decode.cpp:40:52: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_decode<<<1,nullptr,s>>>((GM_ADDR)d,(GM_ADDR)p,(GM_ADDR)j,(GM_ADDR)c,(GM_ADDR)a,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)z);
+                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/decode.cpp:40:63: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_decode<<<1,nullptr,s>>>((GM_ADDR)d,(GM_ADDR)p,(GM_ADDR)j,(GM_ADDR)c,(GM_ADDR)a,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)z);
+                                                              ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/decode.cpp:40:74: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_decode<<<1,nullptr,s>>>((GM_ADDR)d,(GM_ADDR)p,(GM_ADDR)j,(GM_ADDR)c,(GM_ADDR)a,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)z);
+                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/decode.cpp:40:85: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_decode<<<1,nullptr,s>>>((GM_ADDR)d,(GM_ADDR)p,(GM_ADDR)j,(GM_ADDR)c,(GM_ADDR)a,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)z);
+                                                                                    ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/decode.cpp:40:96: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_decode<<<1,nullptr,s>>>((GM_ADDR)d,(GM_ADDR)p,(GM_ADDR)j,(GM_ADDR)c,(GM_ADDR)a,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)z);
+                                                                                               ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/decode.cpp:40:107: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_decode<<<1,nullptr,s>>>((GM_ADDR)d,(GM_ADDR)p,(GM_ADDR)j,(GM_ADDR)c,(GM_ADDR)a,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)z);
+                                                                                                          ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+8 warnings generated.
+[100%] Built target host_bisheng_obj
+[ 61%] Performing install step for 'e1_decode_lib_host'
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e1-20261022-r1/npu/e1_probe/decode.cpp.o
+/data/e1-20261022-r1/npu/e1_probe/decode.cpp:40:30: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_decode<<<1,nullptr,s>>>((GM_ADDR)d,(GM_ADDR)p,(GM_ADDR)j,(GM_ADDR)c,(GM_ADDR)a,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)z);
+                             ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/decode.cpp:40:41: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_decode<<<1,nullptr,s>>>((GM_ADDR)d,(GM_ADDR)p,(GM_ADDR)j,(GM_ADDR)c,(GM_ADDR)a,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)z);
+                                        ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/decode.cpp:40:52: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_decode<<<1,nullptr,s>>>((GM_ADDR)d,(GM_ADDR)p,(GM_ADDR)j,(GM_ADDR)c,(GM_ADDR)a,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)z);
+                                                   ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/decode.cpp:40:63: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_decode<<<1,nullptr,s>>>((GM_ADDR)d,(GM_ADDR)p,(GM_ADDR)j,(GM_ADDR)c,(GM_ADDR)a,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)z);
+                                                              ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/decode.cpp:40:74: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_decode<<<1,nullptr,s>>>((GM_ADDR)d,(GM_ADDR)p,(GM_ADDR)j,(GM_ADDR)c,(GM_ADDR)a,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)z);
+                                                                         ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/decode.cpp:40:85: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_decode<<<1,nullptr,s>>>((GM_ADDR)d,(GM_ADDR)p,(GM_ADDR)j,(GM_ADDR)c,(GM_ADDR)a,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)z);
+                                                                                    ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/decode.cpp:40:96: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_decode<<<1,nullptr,s>>>((GM_ADDR)d,(GM_ADDR)p,(GM_ADDR)j,(GM_ADDR)c,(GM_ADDR)a,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)z);
+                                                                                               ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/decode.cpp:40:107: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_decode<<<1,nullptr,s>>>((GM_ADDR)d,(GM_ADDR)p,(GM_ADDR)j,(GM_ADDR)c,(GM_ADDR)a,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)z);
+                                                                                                          ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+8 warnings generated.
+[100%] Built target host_bisheng_obj
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /data/e1-20261022-r1/build/e1_decode_lib_host_dir/./objects-Release/host_bisheng_obj/data/e1-20261022-r1/npu/e1_probe/decode.cpp.o
+[ 62%] Completed 'e1_decode_lib_host'
+[ 62%] Built target e1_decode_lib_host
+[ 63%] Creating directories for 'e1_cube_lib_aic_device'
+[ 65%] No download step for 'e1_cube_lib_aic_device'
+[ 66%] No update step for 'e1_cube_lib_aic_device'
+[ 67%] No patch step for 'e1_cube_lib_aic_device'
+[ 68%] Performing configure step for 'e1_cube_lib_aic_device'
+-- The C compiler identification is GNU 12.3.1
+[100%] Built target device_aiv_obj
+-- The CXX compiler identification is GNU 12.3.1
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld  -m aicorelinux -r  -Ttext=0 /data/e1-20261022-r1/build/e1_decode_lib_aiv_device-prefix/src/e1_decode_lib_aiv_device-build/CMakeFiles/device_aiv_obj.dir/data/e1-20261022-r1/build/auto_gen/e1_decode_lib/auto_gen_decode.cpp.o -static -o /data/e1-20261022-r1/build/e1_decode_lib_aiv_device_dir/device_aiv.o
+-- Detecting C compiler ABI info
+[100%] Built target merge_aiv_device_obj
+[ 69%] No install step for 'e1_decode_lib_aiv_device'
+[ 70%] Completed 'e1_decode_lib_aiv_device'
+[ 70%] Built target e1_decode_lib_aiv_device
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+[ 72%] Creating directories for 'e1_cube_lib_aiv_device'
+-- Detecting CXX compiler ABI info
+[ 73%] No download step for 'e1_cube_lib_aiv_device'
+[ 74%] No update step for 'e1_cube_lib_aiv_device'
+[ 75%] No patch step for 'e1_cube_lib_aiv_device'
+[ 76%] Performing configure step for 'e1_cube_lib_aiv_device'
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /data/e1-20261022-r1/build/e1_cube_lib_aic_device-prefix/src/e1_cube_lib_aic_device-build
+-- The C compiler identification is GNU 12.3.1
+[ 77%] Performing build step for 'e1_cube_lib_aic_device'
+[100%] Building CXX object CMakeFiles/device_aic_obj.dir/data/e1-20261022-r1/build/auto_gen/e1_cube_lib/auto_gen_cube.cpp.o
+-- The CXX compiler identification is GNU 12.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_MODE
+
+
+-- Build files have been written to: /data/e1-20261022-r1/build/e1_cube_lib_aiv_device-prefix/src/e1_cube_lib_aiv_device-build
+[ 79%] Performing build step for 'e1_cube_lib_aiv_device'
+[ 80%] No install step for 'e1_cube_lib_aiv_device'
+[ 81%] Completed 'e1_cube_lib_aiv_device'
+[ 81%] Built target e1_cube_lib_aiv_device
+[ 82%] Creating directories for 'e1_cube_lib_host'
+[ 83%] No download step for 'e1_cube_lib_host'
+[ 84%] No update step for 'e1_cube_lib_host'
+[ 86%] No patch step for 'e1_cube_lib_host'
+[ 87%] Performing configure step for 'e1_cube_lib_host'
+-- The C compiler identification is GNU 12.3.1
+-- The CXX compiler identification is GNU 12.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ASCEND_PYTHON_EXECUTABLE
+
+
+-- Build files have been written to: /data/e1-20261022-r1/build/e1_cube_lib_host-prefix/src/e1_cube_lib_host-build
+[ 88%] Performing build step for 'e1_cube_lib_host'
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e1-20261022-r1/npu/e1_probe/cube.cpp.o
+/data/e1-20261022-r1/npu/e1_probe/cube.cpp:7:28: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_cube<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                           ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/cube.cpp:7:39: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_cube<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                      ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/cube.cpp:7:50: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_cube<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                 ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/cube.cpp:7:61: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_cube<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                            ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/cube.cpp:7:72: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_cube<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                       ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/cube.cpp:7:83: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_cube<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                                  ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+6 warnings generated.
+[100%] Built target host_bisheng_obj
+[ 89%] Performing install step for 'e1_cube_lib_host'
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/data/e1-20261022-r1/npu/e1_probe/cube.cpp.o
+[100%] Built target device_aic_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld  -m aicorelinux -r  -Ttext=0 /data/e1-20261022-r1/build/e1_cube_lib_aic_device-prefix/src/e1_cube_lib_aic_device-build/CMakeFiles/device_aic_obj.dir/data/e1-20261022-r1/build/auto_gen/e1_cube_lib/auto_gen_cube.cpp.o -static -o /data/e1-20261022-r1/build/e1_cube_lib_aic_device_dir/device_aic.o
+[100%] Built target merge_aic_device_obj
+[ 90%] No install step for 'e1_cube_lib_aic_device'
+[ 91%] Completed 'e1_cube_lib_aic_device'
+[ 91%] Built target e1_cube_lib_aic_device
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -x -m aicorelinux   -Ttext=0 /data/e1-20261022-r1/build/e1_decode_lib_aiv_device_dir/device_aiv.o -static -o /data/e1-20261022-r1/build/e1_decode_lib_merge_obj_dir/device_aiv.o
+[ 91%] Built target e1_decode_lib_merge_obj
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/ccec_compiler/bin/ld.lld -x -m aicorelinux   -Ttext=0 /data/e1-20261022-r1/build/e1_cube_lib_aic_device_dir/device_aic.o -static -o /data/e1-20261022-r1/build/e1_cube_lib_merge_obj_dir/device_aic.o
+[ 91%] Built target e1_cube_lib_merge_obj
+/data/e1-20261022-r1/npu/e1_probe/cube.cpp:7:28: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_cube<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                           ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/cube.cpp:7:39: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_cube<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                      ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/cube.cpp:7:50: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_cube<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                 ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/cube.cpp:7:61: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_cube<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                            ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/cube.cpp:7:72: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_cube<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                       ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/data/e1-20261022-r1/npu/e1_probe/cube.cpp:7:83: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+ e1_cube<<<1,nullptr,s>>>((GM_ADDR)a,(GM_ADDR)b,(GM_ADDR)r,(GM_ADDR)o,(GM_ADDR)c,(GM_ADDR)d);
+                                                                                  ^~~~~~~
+/usr/local/Ascend/cann-9.0.0/aarch64-linux/asc/impl/basic_api/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/usr/local/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+[ 93%] Building CXX object CMakeFiles/e1_decode_lib_host_stub_obj.dir/auto_gen/e1_decode_lib/host_stub.cpp.o
+6 warnings generated.
+[100%] Built target host_bisheng_obj
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /data/e1-20261022-r1/build/e1_cube_lib_host_dir/./objects-Release/host_bisheng_obj/data/e1-20261022-r1/npu/e1_probe/cube.cpp.o
+[ 94%] Completed 'e1_cube_lib_host'
+[ 94%] Built target e1_cube_lib_host
+[ 94%] Built target e1_decode_lib_host_stub_obj
+[ 95%] Building CXX object CMakeFiles/e1_cube_lib_host_stub_obj.dir/auto_gen/e1_cube_lib/host_stub.cpp.o
+[ 96%] Linking CXX static library lib/libe1_decode_lib.a
+/usr/local/Ascend/cann-9.0.0/bin/ascendc_pack_kernel /data/e1-20261022-r1/build/CMakeFiles/e1_decode_lib_host_stub_obj.dir/auto_gen/e1_decode_lib/host_stub.cpp.o /data/e1-20261022-r1/build/e1_decode_lib_merge_obj_dir/device_aiv.o 1 /data/e1-20261022-r1/build/CMakeFiles/e1_decode_lib_host_stub_obj.dir/auto_gen/e1_decode_lib/host_stub.cpp.o
+recompile: /usr/bin/ar qc lib/libe1_decode_lib.a CMakeFiles/e1_decode_lib_host_stub_obj.dir/auto_gen/e1_decode_lib/host_stub.cpp.o /data/e1-20261022-r1/build/e1_decode_lib_host_dir/objects-Release/host_bisheng_obj/data/e1-20261022-r1/npu/e1_probe/decode.cpp.o  ascendc_runtime.cpp.o aicpu_rt.cpp.o ascendc_elf_tool.c.o
+recompile: /usr/bin/ranlib lib/libe1_decode_lib.a
+[ 96%] Built target e1_cube_lib_host_stub_obj
+[ 96%] Built target e1_decode_lib
+[ 97%] Linking CXX static library lib/libe1_cube_lib.a
+/usr/local/Ascend/cann-9.0.0/bin/ascendc_pack_kernel /data/e1-20261022-r1/build/CMakeFiles/e1_cube_lib_host_stub_obj.dir/auto_gen/e1_cube_lib/host_stub.cpp.o /data/e1-20261022-r1/build/e1_cube_lib_merge_obj_dir/device_aic.o 2 /data/e1-20261022-r1/build/CMakeFiles/e1_cube_lib_host_stub_obj.dir/auto_gen/e1_cube_lib/host_stub.cpp.o
+recompile: /usr/bin/ar qc lib/libe1_cube_lib.a CMakeFiles/e1_cube_lib_host_stub_obj.dir/auto_gen/e1_cube_lib/host_stub.cpp.o /data/e1-20261022-r1/build/e1_cube_lib_host_dir/objects-Release/host_bisheng_obj/data/e1-20261022-r1/npu/e1_probe/cube.cpp.o  ascendc_runtime.cpp.o aicpu_rt.cpp.o ascendc_elf_tool.c.o
+recompile: /usr/bin/ranlib lib/libe1_cube_lib.a
+[ 97%] Built target e1_cube_lib
+[ 98%] Building CXX object CMakeFiles/e1_runner.dir/host.cpp.o
+[100%] Linking CXX executable e1_runner
+[100%] Built target e1_runner

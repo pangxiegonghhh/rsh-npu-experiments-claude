@@ -1,0 +1,16 @@
+/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_interface.dir
+/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_precompile.dir
+/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_preprocess.dir
+/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_aic_device.dir
+/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_aiv_device.dir
+/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_merge_obj.dir
+/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_host.dir
+/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_host_stub_obj.dir
+/data/e2-20261022-r1/build/CMakeFiles/e2_kernel.dir
+/data/e2-20261022-r1/build/CMakeFiles/e2_runner.dir
+/data/e2-20261022-r1/build/CMakeFiles/edit_cache.dir
+/data/e2-20261022-r1/build/CMakeFiles/rebuild_cache.dir
+/data/e2-20261022-r1/build/CMakeFiles/list_install_components.dir
+/data/e2-20261022-r1/build/CMakeFiles/install.dir
+/data/e2-20261022-r1/build/CMakeFiles/install/local.dir
+/data/e2-20261022-r1/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,24 @@
+{
+  "id": "long_c1_k2_q8_d1_r257_c1",
+  "U": 257,
+  "N": 64,
+  "Kp": 272,
+  "Np": 64,
+  "tiles": 17,
+  "q": 8,
+  "depth": 1,
+  "rounds": 257,
+  "capture": 1,
+  "kind": 2,
+  "group": "long",
+  "selector_tile": null,
+  "sha256": {
+    "run.bin": "bab8a55d4e4d941884d852f36c9da072fb19701c52fc16196a27572426e9d529",
+    "original-a.bin": "a64a736a7bd8b0a752aa66fc46e7563e0e994df4febd4587bd1e41d103e015c1",
+    "cols.bin": "f709bdaa166a540ff05a3d8c187bed8a8977e1fba6c2f87bddd6a5b0258da5c8",
+    "payload.bin": "52d7bf0c7ead37eaedf1329c0a1a9f0b2e8799e11f5d565e5bff62de88867126",
+    "config.bin": "3b0b24b9339b23a79fd8b8552b7ea613e6b0af5fb8ef42f36e9909dfcb362d8c",
+    "desc.bin": "29bf1bddceace1cf6897570071ff5ef0064430d4526beeb156f44c8b0b16ff03",
+    "b.bin": "268cc2a17e60ff12a4031584ceed7e9417bfd3f5b9ed96c31fbc97d3970684df"
+  }
+}

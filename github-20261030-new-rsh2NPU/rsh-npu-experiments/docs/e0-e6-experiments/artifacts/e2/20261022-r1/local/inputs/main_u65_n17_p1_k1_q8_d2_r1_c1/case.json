@@ -1,0 +1,24 @@
+{
+  "id": "main_u65_n17_p1_k1_q8_d2_r1_c1",
+  "U": 65,
+  "N": 17,
+  "Kp": 80,
+  "Np": 32,
+  "tiles": 5,
+  "q": 8,
+  "depth": 2,
+  "rounds": 1,
+  "capture": 1,
+  "kind": 1,
+  "group": "main",
+  "selector_tile": null,
+  "sha256": {
+    "config.bin": "dc14dfe09b63ffe5c475fe7b8736d081389b9151016e2f34262552665c3ef394",
+    "b.bin": "78b068eb6b7d1ef073f606ad5c94d2a958cb1a95046837e03b571ac64c2d32a5",
+    "desc.bin": "58f6b4c26a21becf8c4b34384e7b94b8546b773cc786d21c514751680b658388",
+    "original-a.bin": "a576d5d3e5f37b28c83e2f97ea697084c25c2d7a8c6a979ec75498614deb5e95",
+    "payload.bin": "61f4697d36e65de20149555786ee5be1947d4dc9b71ddae92c280a46240e3d4c",
+    "run.bin": "8fd1222a31e2e30408f6b5095ae2e3c47389e2da21506436e3d82553eb7b081b",
+    "cols.bin": "c5c46248b6e31d14603daa828dba86ae762fd57db3aa19e4a50a7953f46743b0"
+  }
+}

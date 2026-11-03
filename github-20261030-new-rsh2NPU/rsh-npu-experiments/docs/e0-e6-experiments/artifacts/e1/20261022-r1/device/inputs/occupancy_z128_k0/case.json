@@ -1,0 +1,19 @@
+{
+  "id": "occupancy_z128_k0",
+  "group": "occupancy",
+  "kind": "dense",
+  "U": 16,
+  "N": 16,
+  "Kp": 16,
+  "Np": 16,
+  "tiles": 1,
+  "nnz": 128,
+  "sha256": {
+    "original-a.bin": "88702fc5fc4a05f45d72c24788f45d5049440ef4c82a13500ec279fe3f483174",
+    "cols.bin": "7b165dc88c54d04ea4da68fe3df961af209d84692e1599be0cb18edb6782f799",
+    "payload.bin": "88702fc5fc4a05f45d72c24788f45d5049440ef4c82a13500ec279fe3f483174",
+    "config.bin": "34c9642464f65f7b931b0f0f2605c80acc81251eb8ef16956175d91bf4a884b2",
+    "desc.bin": "9794240753946f58b7c3eb62927966dc05af4ce8493c2fe7d1dc0f2efa0d6f99",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73"
+  }
+}

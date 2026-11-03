@@ -1,0 +1,13 @@
+# Target labels
+ e2_kernel_precompile
+# Source files and their labels
+/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_precompile
+/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_precompile.rule
+/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_precompile-complete.rule
+/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-stamp/e2_kernel_precompile-build.rule
+/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-stamp/e2_kernel_precompile-configure.rule
+/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-stamp/e2_kernel_precompile-download.rule
+/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-stamp/e2_kernel_precompile-install.rule
+/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-stamp/e2_kernel_precompile-mkdir.rule
+/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-stamp/e2_kernel_precompile-patch.rule
+/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-stamp/e2_kernel_precompile-update.rule

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_precompile"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_precompile.rule"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_precompile-complete.rule"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-stamp/e2_kernel_precompile-build.rule"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-stamp/e2_kernel_precompile-configure.rule"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-stamp/e2_kernel_precompile-download.rule"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-stamp/e2_kernel_precompile-install.rule"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-stamp/e2_kernel_precompile-mkdir.rule"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-stamp/e2_kernel_precompile-patch.rule"
+		},
+		{
+			"file" : "/data/e2-20261022-r1/build/e2_kernel_precompile-prefix/src/e2_kernel_precompile-stamp/e2_kernel_precompile-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"e2_kernel_precompile"
+		],
+		"name" : "e2_kernel_precompile"
+	}
+}

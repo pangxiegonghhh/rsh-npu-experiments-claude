@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/data/e1-20261022-r1/build/CMakeFiles/e1_cube_lib_aic_device"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/CMakeFiles/e1_cube_lib_aic_device.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/CMakeFiles/e1_cube_lib_aic_device-complete.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_cube_lib_aic_device-prefix/src/e1_cube_lib_aic_device-stamp/e1_cube_lib_aic_device-build.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_cube_lib_aic_device-prefix/src/e1_cube_lib_aic_device-stamp/e1_cube_lib_aic_device-configure.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_cube_lib_aic_device-prefix/src/e1_cube_lib_aic_device-stamp/e1_cube_lib_aic_device-download.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_cube_lib_aic_device-prefix/src/e1_cube_lib_aic_device-stamp/e1_cube_lib_aic_device-install.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_cube_lib_aic_device-prefix/src/e1_cube_lib_aic_device-stamp/e1_cube_lib_aic_device-mkdir.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_cube_lib_aic_device-prefix/src/e1_cube_lib_aic_device-stamp/e1_cube_lib_aic_device-patch.rule"
+		},
+		{
+			"file" : "/data/e1-20261022-r1/build/e1_cube_lib_aic_device-prefix/src/e1_cube_lib_aic_device-stamp/e1_cube_lib_aic_device-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"e1_cube_lib_aic_device"
+		],
+		"name" : "e1_cube_lib_aic_device"
+	}
+}

@@ -1,0 +1,19 @@
+HC_PREPARED tiny G {'rows': 16, 'nnz': 80, 'zero_rows': 0} S {'rows': 1, 'nnz': 1, 'zero_rows': 0} T {'rows': 15, 'nnz': 75, 'zero_rows': 0}
+SKIP_PREPARED tiny R {'rows': 17, 'nnz': 119, 'zero_rows': 0, 'row_percent': 85.0, 'nnz_percent': 88.80597014925372} T {'rows': 3, 'nnz': 15, 'zero_rows': 0, 'row_percent': 15.0, 'nnz_percent': 11.194029850746269}
+SKIP_RECOVERED_EXACT tiny 16
+SKIP_RECOVERED_EXACT tiny 64
+SKIP_RECOVERED_EXACT tiny 256
+test_all_zero_tail_has_mapping_but_no_k_blocks (test_hc.FrozenHCTest.test_all_zero_tail_has_mapping_but_no_k_blocks) ... ok
+test_prepare_uses_frozen_route_and_reproduces_all_bytes (test_hc.FrozenHCTest.test_prepare_uses_frozen_route_and_reproduces_all_bytes) ... ok
+test_dynamic_tail_when_original_m_divisible (test_planner.PlannerTest.test_dynamic_tail_when_original_m_divisible) ... ok
+test_full_and_partial_output (test_planner.PlannerTest.test_full_and_partial_output) ... ok
+test_no_edges_and_empty_matrix (test_planner.PlannerTest.test_no_edges_and_empty_matrix) ... ok
+test_empty_retained_output_and_retained_zero_rows (test_skip.SkipCasesTest.test_empty_retained_output_and_retained_zero_rows) ... ok
+test_frozen_prepare_and_compact_recovery_preserve_metadata (test_skip.SkipCasesTest.test_frozen_prepare_and_compact_recovery_preserve_metadata) ... ok
+test_noncontiguous_retained_rows_preserve_b_tail_indices_and_s (test_skip.SkipCasesTest.test_noncontiguous_retained_rows_preserve_b_tail_indices_and_s) ... ok
+test_t0_equivalence_has_retained_long_row_without_splitting (test_skip.SkipCasesTest.test_t0_equivalence_has_retained_long_row_without_splitting) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.225s
+
+OK

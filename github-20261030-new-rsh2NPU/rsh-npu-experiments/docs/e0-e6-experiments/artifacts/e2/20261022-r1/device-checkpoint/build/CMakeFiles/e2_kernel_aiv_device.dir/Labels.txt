@@ -1,0 +1,13 @@
+# Target labels
+ e2_kernel_aiv_device
+# Source files and their labels
+/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_aiv_device
+/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_aiv_device.rule
+/data/e2-20261022-r1/build/CMakeFiles/e2_kernel_aiv_device-complete.rule
+/data/e2-20261022-r1/build/e2_kernel_aiv_device-prefix/src/e2_kernel_aiv_device-stamp/e2_kernel_aiv_device-build.rule
+/data/e2-20261022-r1/build/e2_kernel_aiv_device-prefix/src/e2_kernel_aiv_device-stamp/e2_kernel_aiv_device-configure.rule
+/data/e2-20261022-r1/build/e2_kernel_aiv_device-prefix/src/e2_kernel_aiv_device-stamp/e2_kernel_aiv_device-download.rule
+/data/e2-20261022-r1/build/e2_kernel_aiv_device-prefix/src/e2_kernel_aiv_device-stamp/e2_kernel_aiv_device-install.rule
+/data/e2-20261022-r1/build/e2_kernel_aiv_device-prefix/src/e2_kernel_aiv_device-stamp/e2_kernel_aiv_device-mkdir.rule
+/data/e2-20261022-r1/build/e2_kernel_aiv_device-prefix/src/e2_kernel_aiv_device-stamp/e2_kernel_aiv_device-patch.rule
+/data/e2-20261022-r1/build/e2_kernel_aiv_device-prefix/src/e2_kernel_aiv_device-stamp/e2_kernel_aiv_device-update.rule

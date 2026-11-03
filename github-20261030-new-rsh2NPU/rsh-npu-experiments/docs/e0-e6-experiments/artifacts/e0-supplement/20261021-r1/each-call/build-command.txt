@@ -1,0 +1,1 @@
+Exact compiler argv and working directory are in build-command.json (derived from the validated CMake link command).

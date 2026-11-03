@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libe2_kernel.a CMakeFiles/e2_kernel_host_stub_obj.dir/auto_gen/e2_kernel/host_stub.cpp.o ascendc_runtime.cpp.o aicpu_rt.cpp.o ascendc_elf_tool.c.o
+/usr/bin/ranlib lib/libe2_kernel.a

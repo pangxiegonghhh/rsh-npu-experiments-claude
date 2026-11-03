@@ -1,0 +1,19 @@
+{
+  "id": "main_u1_n16_p0_k3",
+  "group": "main",
+  "kind": "dense_tail",
+  "U": 1,
+  "N": 16,
+  "Kp": 16,
+  "Np": 16,
+  "tiles": 1,
+  "nnz": 3,
+  "sha256": {
+    "config.bin": "fbae607021e9182d141612e0a69d369de301eab6973f59846980b509e3a2eb6d",
+    "b.bin": "92fb9e841d526fa32450702876634a7ec89ccf9ddbf3a2a2f0a90d8f6a82cc73",
+    "desc.bin": "e916aa5f5c96d2a1e289a56f439e751d547bf2a509c39d1e91dbb16fcb0d8751",
+    "original-a.bin": "ba06f4f0b4a7c577ac49d975745e0e254e70c54c4561d3e004681578b0f9aa95",
+    "payload.bin": "ba06f4f0b4a7c577ac49d975745e0e254e70c54c4561d3e004681578b0f9aa95",
+    "cols.bin": "de6d696c194fb883fd153e435f68d0283ebcf1a28c46cba524df6a8c0807084a"
+  }
+}
