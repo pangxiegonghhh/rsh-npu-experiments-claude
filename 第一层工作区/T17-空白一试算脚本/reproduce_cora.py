@@ -15,7 +15,7 @@ OUT = os.path.join(os.getcwd(), 'out'); os.makedirs(OUT, exist_ok=True)
 n, adj = load_cora()
 P = existing_perms()
 orders = {'original': P['original'], 'rsh': P['rsh'], 'rabbit': P['rabbit'], 'neutron': P['neutron'],
-          'rcm': [int(x) for x in rcm(adj)], 'slashburn': slashburn(adj), 'bp': bp(adj),
+          'rcm': rcm(adj), 'slashburn': slashburn(adj), 'bp': bp(adj),
           'gorder': gorder(adj), 'gorder-S': gorder(adj, use_sn=False)}
 json.dump(orders, open(os.path.join(OUT, 'orders.json'), 'w'))
 
@@ -43,7 +43,7 @@ for name, rows in (('table_a.csv', rowsA), ('table_b.csv', rowsB)):
 # Self-check against the numbers printed in the research doc (§8)
 EXPECT_A = {'original': (56.37, 681, 43.26, 50.38, 43.83), 'rsh': (35.50, 455, 14.15, 17.22, 14.80),
             'rabbit': (45.16, 553, 19.79, 26.32, 20.67), 'neutron': (44.68, 554, 19.56, 26.46, 20.58),
-            'rcm': (46.16, 577, 15.98, 22.64, 17.47), 'slashburn': (44.86, 558, 15.94, 24.76, 18.44),
+            'rcm': (45.71, 562, 16.20, 22.23, 17.08), 'slashburn': (44.86, 558, 15.94, 24.76, 18.44),
             'bp': (36.08, 474, 14.91, 24.25, 15.28), 'gorder': (36.15, 463, 13.12, 17.11, 13.18),
             'gorder-S': (36.31, 460, 15.58, 19.50, 15.76)}
 bad = []
@@ -54,6 +54,8 @@ for r in rowsA:
 print('Table A self-check:', 'OK' if not bad else bad)
 for r in rowsA: print(r)
 for r in rowsB: print(r)
+if bad:
+    sys.exit(1)   # non-zero exit on a failed self-check
 
 if '--ls' in sys.argv:
     rows = []

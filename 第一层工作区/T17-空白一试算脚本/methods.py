@@ -2,7 +2,6 @@ import math, random, heapq
 import numpy as np
 from collections import defaultdict
 import scipy.sparse as sp
-from scipy.sparse.csgraph import reverse_cuthill_mckee, connected_components
 
 def csr(adj):
     n = len(adj); r = []; c = []
@@ -11,7 +10,23 @@ def csr(adj):
     return sp.csr_matrix((np.ones(len(r), dtype=np.int8), (r, c)), shape=(n, n))
 
 def rcm(adj):
-    return list(reverse_cuthill_mckee(csr(adj), symmetric_mode=True))
+    """Deterministic reverse Cuthill-McKee (platform/scipy-version independent).
+    Components are started from the unvisited node with the smallest (degree, index); BFS visits
+    neighbours in increasing (degree, index); the final order is reversed.
+    (scipy's reverse_cuthill_mckee breaks degree ties differently across versions/platforms:
+    1.18.1/x86-64 and 1.17.1/arm64 gave different Cora orders, so it is not used.)"""
+    n = len(adj); deg = [len(a) for a in adj]
+    key = lambda v: (deg[v], v)
+    seen = [False] * n; order = []
+    for s in sorted(range(n), key=key):
+        if seen[s]: continue
+        seen[s] = True; q = [s]; i = 0
+        while i < len(q):
+            v = q[i]; i += 1
+            for u in sorted(adj[v], key=key):
+                if not seen[u]: seen[u] = True; q.append(u)
+        order += q
+    return order[::-1]
 
 def slashburn(adj, k=None):
     n = len(adj); k = k or max(1, int(0.005 * n))

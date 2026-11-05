@@ -1,6 +1,7 @@
 # RQ2 验证实验方案（v1，2026-11-05）
 
 状态：规划方撰写，交执行方 agent 实施；数据回来后由规划方分析（用户 2026-11-05 确认的分工）。
+2026-11-06 修订：B-RCM-ref 改用确定性实现，§8 自检参考值随之更新（首次执行因 SciPy 版本差异在 RCM 一行未通过）。
 依据：`第一层工作区/T17-空白一调研.md`（下称"调研"）。本方案只做 **CPU 结构实验**，不测 NPU 性能。
 参考实现：`第一层工作区/T17-空白一试算脚本/`（Python，试算质量，已能复现调研 §8 的 Cora 数字）。
 
@@ -61,7 +62,7 @@
 | C9-Gorder、C9-S | 参考实现 `methods.gorder(adj, w=15, use_sn=True/False)` | w = W−1；hub 跳过阈值 √n | P0 |
 | C9-β（S_n 权重扫描） | 同上，打分 S_s + β·S_n | β ∈ {0.5, 2, 4}（β=0 即 C9-S，β=1 即 C9） | P1 |
 | C10-BP | 参考实现 `methods.bp(adj, W)`；二分左侧取 W 的倍数，递归到 W 点 | 每层 20 轮，随机初始划分，种子 0 | P0 |
-| B-RCM-ref | `scipy.sparse.csgraph.reverse_cuthill_mckee(symmetric_mode=True)` | 只在 dawson5、olafu 上报，其余矩阵可报作参考 | P1 |
+| B-RCM-ref | 参考实现 `methods.rcm(adj)`（确定性实现；**不要用** SciPy 的 `reverse_cuthill_mckee`，其平局处理随版本 / 平台变化，2026-11-06 自检因此失败） | 只在 dawson5、olafu 上报，其余矩阵可报作参考 | P1 |
 | SlashBurn | 参考实现 `methods.slashburn(adj)` | k = 0.5% n | P2 |
 | C6 / C6-M | 超图划分器（KaHyPar 或 PaToH）递归二分到 k = ⌈n/W⌉ 组、每组恰 W 点；C6-M 在每步加消息网（第 6 节） | 时间上限同 C6，超时记 INCOMPLETE | P2 |
 | B-RSH-ref、B-Neutron-ref | T4、T2 完成后补上 | — | 有则做 |
@@ -123,7 +124,8 @@ sumU, meanU, T, sumGamma, meanGamma, sumR, meanR, R_p50, R_p90, R_max, sumR_minu
 ## 8. 自检（报数前必须通过）
 
 1. **Cora 复现：** 在一个空目录运行 `python3 第一层工作区/T17-空白一试算脚本/reproduce_cora.py`，输出首行须为 `Table A self-check: OK`
-   （调研 §8 表 A 的 9 种成员的 U、T、Γ、自带序 R、D 后 R 全部吻合，容差 0.01）。若改写或移植了实现，用移植版在 cora 上重出表 A，须吻合。
+   （调研 §8 表 A 的 9 种成员的 U、T、Γ、自带序 R、D 后 R 全部吻合，容差 0.01），且退出码为 0（自检失败时退出码为 1）。
+   若改写或移植了实现，用移植版在 cora 上重出表 A，须吻合。
 2. **独立复核：** 用 `verify/indep_check.py`（不依赖 rq2lib 的 numpy/scipy 实现）对至少 3 个行序复算 U、T、Γ、R，须与主实现一致。
 3. 每个行序是 0..n−1 的排列；D 阶段前后 ΣU、ΣΓ 相等；划分后残余集合与第 2 节规定一致；A0 与 A1 的窗口集合相同。
 
