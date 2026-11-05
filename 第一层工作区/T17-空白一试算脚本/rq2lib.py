@@ -7,9 +7,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(os.path.dirname(HERE))
 BASE = os.path.join(REPO, '第一层实验结果', 'cora-pilot-20261104') + os.sep
 
-def load_mtx(path, selfloop=False):
+def load_mtx(path, selfloop=False, stats=None):
     """Matrix Market -> symmetric 0/1 adjacency (A ∪ Aᵀ), diagonal removed (A0); selfloop=True adds full diagonal (A1).
-    Explicit zero values are dropped."""
+    Structure = stored pattern: every stored entry counts, including explicit zeros (2026-11-06; matches SuiteSparse
+    "Pattern Entries"). If a dict is passed as `stats`, it receives entries / explicit_zeros / diagonal_entries counts."""
     with open(path) as f:
         header = f.readline().lower().split()
         pattern = 'pattern' in header
@@ -18,13 +19,17 @@ def load_mtx(path, selfloop=False):
         nr, nc, _ = map(int, line.split()[:3])
         assert nr == nc, 'square matrices only'
         adj = [set() for _ in range(nr)]
+        entries = zeros = diag = 0
         for line in f:
             t = line.split()
             if not t or t[0].startswith('%'): continue
             a = int(t[0]) - 1; b = int(t[1]) - 1
-            if not pattern and len(t) > 2 and float(t[2]) == 0.0: continue
-            if a == b: continue
+            entries += 1
+            if not pattern and len(t) > 2 and float(t[2]) == 0.0: zeros += 1   # kept as structure, only counted
+            if a == b: diag += 1; continue
             adj[a].add(b); adj[b].add(a)
+    if stats is not None:
+        stats.update(entries=entries, explicit_zeros=zeros, diagonal_entries=diag)
     if selfloop:
         for v in range(nr): adj[v].add(v)
     return nr, adj

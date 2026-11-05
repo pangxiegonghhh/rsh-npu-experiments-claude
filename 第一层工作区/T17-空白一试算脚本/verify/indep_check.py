@@ -8,7 +8,7 @@ with open(mtx) as f:
 n=int(lines[0].split()[0])
 for l in lines[1:]:
     t=l.split()
-    if len(t)>2 and float(t[2])==0.0: continue   # drop explicit zeros
+    # explicit zeros are kept: structure = stored pattern (same rule as rq2lib.load_mtx)
     a,b=int(t[0])-1,int(t[1])-1
     if a==b: continue                              # A0: no diagonal
     rows+= [a,b]; cols+=[b,a]
