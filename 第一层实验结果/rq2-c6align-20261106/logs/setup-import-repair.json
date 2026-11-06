@@ -1,0 +1,11 @@
+{
+  "observed_utc": "2026-11-06T10:01:22.050928+00:00",
+  "classification": "Runtime import/setup failure before any c6.reorder or KaHyPar partition call",
+  "cause": "Missing isolated work/selfcheck/rq2_hk_bin; rq2lib imports compile helper eagerly and parent directory had not been created",
+  "repair": "Copied byte-identical helper from original T21 working runtime, verified against sealed parent SHA256SUMS",
+  "helper_sha256": "a0021d06e5ee86dc5e5595fbbb3e3e33d21213934994f37b9c5822131c0fea18",
+  "prior_logs_preserved_at": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/logs/setup-import-failure",
+  "scientific_cases_attempted_before_failure": 0,
+  "main_cases_started": 0,
+  "campaign_or_c6_source_changed": false
+}

@@ -1,0 +1,5 @@
+{
+  "passed": false,
+  "reason": "New no-checkout clone had no populated index; patch not applied. Complete sparse read-tree before rechecking.",
+  "index_entries": 0
+}

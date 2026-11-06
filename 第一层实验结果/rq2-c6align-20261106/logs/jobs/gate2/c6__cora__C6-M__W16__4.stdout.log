@@ -1,0 +1,10 @@
+C6 progress 4 1 2
+C6 progress 4 2 3
+C6 progress 4 100 101
+c6__cora__C6-M__W16__4 D start 16 None D-greedy
+c6__cora__C6-M__W16__4 D done 16 None D-greedy 0.002
+c6__cora__C6-M__W16__4 D start 16 2 D-greedy
+c6__cora__C6-M__W16__4 D done 16 2 D-greedy 0.002
+c6__cora__C6-M__W16__4 D start 16 3 D-greedy
+c6__cora__C6-M__W16__4 D done 16 3 D-greedy 0.001
+CASE COMPLETE c6__cora__C6-M__W16__4 {'rule': 'min weighted-cut increase per single-vertex move, oversized->undersized block, ties smallest local index; cap |d|<=W//2', 'cap': 8, 'calls_repaired': 0, 'vertices_moved': 0, 'max_abs_d': 0, 'weighted_cut_delta_total': 0}

@@ -1,0 +1,5 @@
+c6__pattern1__C6-M__W16__1-bisections MATCH [47, 33] -> [48, 32] moved [11425] cut 806 -> 804
+c6__pattern1__C6-M__W16__16-bisections MATCH [49, 31] -> [48, 32] moved [11194] cut 1750 -> 1718
+c6__pattern1__C6-M__W16__4-bisections MATCH [47, 33] -> [48, 32] moved [546] cut 980 -> 972
+c6__pattern1__C6__W16__0-bisections MATCH [145, 143] -> [144, 144] moved [19204] cut 758 -> 756
+Gate 1 (failed-model replay): OK

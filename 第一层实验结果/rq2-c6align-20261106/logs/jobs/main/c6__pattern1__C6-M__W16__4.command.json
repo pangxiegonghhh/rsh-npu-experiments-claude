@@ -1,0 +1,52 @@
+{
+  "case": "c6__pattern1__C6-M__W16__4",
+  "stage": "main",
+  "spec": {
+    "matrix": "pattern1",
+    "member": "C6-M",
+    "kind": "c6",
+    "W": 16,
+    "mnc": 4,
+    "key": "c6__pattern1__C6-M__W16__4"
+  },
+  "spec_sha256": "cf44362b90806d5b6715a78d7d1ad4527d452a8aadb2ecbffd49e5d35cc625ac",
+  "argv": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/scripts/run_align_case.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/work/specs/c6__pattern1__C6-M__W16__4.json",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/delivery/第一层实验结果/rq2-c6align-20261106"
+  ],
+  "cwd": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/work",
+  "started_utc": "2026-11-06T10:02:58.571691+00:00",
+  "timeout_sec": 7200,
+  "max_parallel_cases": 2,
+  "source_sha256": {
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/scripts/run_align_case.py": "b7e0d816b3bf1ff4b9457eb546e26977f816a076dc6148aea2584db4b298856b",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/scripts/align_context.py": "7f22bb3e3c14c8033c94e01f7eb45cd4f00fcebfdabad8fbdd949fe595aea1f9",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/scripts/campaign.py": "3362199e76a42c5029c70a7b396de4cc71132dd3b7c4cbbbc5df45f5664c9314",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/scripts/c6.py": "c643598bb425c7967e685ff357919512f6a66b2eba7bb7cebfef000d2db92764",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/scripts/fast.py": "f9f465c044b22bcf95c1776f51b1ac9cc658e8eadfd09feed33b322c08e7ded5",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/scripts/metrics_fast.py": "69bb0174c611cdb4379d77c30d11f78e79961fe472ff7646a48b342d45ab8359",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/scripts/dstage_fast.py": "594b420bc6682c438472724dbc208ad4fdf5f0368eb5987dcdf6d3bfc5fa09da",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/scripts/kahypar-cut-v1.3.7.ini": "64ebd58a4f98b95bf87ae3de5341b2be00b09e122a0526ef65a799e39bb63dd8",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106/repo/第一层工作区/T17-空白一试算脚本/rq2lib.py": "b85642b99bd73df90f6202750a78fdb3fc02f876841c93eb5e29490ee8fe6c77",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106/repo/第一层工作区/T17-空白一试算脚本/methods.py": "a70f3f3295b2a99542debe498cd79e2519c4fb74fcc872358aea32689a486641"
+  },
+  "binary_sha256": {
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/work/librq2-v8.dylib": "cfdb8c9209ef92c9ea77460b636643a366e322032f7431fdbfc6f9bb7b14cb1d",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/work/libmetrics.dylib": "5e32229486459d0260afeb88736416c2ed19822062097e00342e18455e5128c5",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/work/libdstage-v2.dylib": "3fe3402469bd62dcbd3a31d2f288ee0085f70cd19c56708fe88e095c96bc861b",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/deps/kahypar.cpython-312-darwin.so": "b8f5fff175a8984baffaa04bcbc2f54726df8e5ca7a27148c927260381bd14b7",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/deps/libmini_boost.dylib": "722fa29f7a603d6e34b1ad1dd6c97a0fe501e20897e0f23b58c76c48ca3ddd59",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/deps/kahypar.dylibs/libmini_boost.dylib": "26350d2eef5eea7e36185954706575d553dd642910ba9886d8d0e5e60c69ab92"
+  },
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "pid": 94313,
+  "returncode": 0,
+  "ended_utc": "2026-11-06T10:04:39.272780+00:00",
+  "elapsed_sec": 100.69606716604903
+}

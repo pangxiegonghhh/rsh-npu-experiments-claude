@@ -1,0 +1,696 @@
+From 0206bde2e98d0c22bb3d3dec5e889f259b5883d8 Mon Sep 17 00:00:00 2001
+From: planner <planner@example.invalid>
+Date: Fri, 6 Nov 2026 17:27:25 +0800
+Subject: [PATCH] =?UTF-8?q?docs:=20RQ2=20=E6=96=B9=E6=A1=88=E5=8A=A0=20C6/?=
+ =?UTF-8?q?C6-M=20=E5=AF=B9=E9=BD=90=E4=BF=AE=E8=A1=A5=EF=BC=8C=E4=BA=A4?=
+ =?UTF-8?q?=20pattern1=20=E5=9B=9B=E4=B8=AA=E7=94=A8=E4=BE=8B=E7=9A=84?=
+ =?UTF-8?q?=E8=A1=A5=E8=B7=91=E8=AF=B4=E6=98=8E=EF=BC=88T21=20=E8=A1=A5?=
+ =?UTF-8?q?=E8=B7=91=EF=BC=89?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+- RQ2验证实验方案.md：头部第三次修订说明，§6 J2 增「对齐修补」（|d| <= W/2 时逐点挪齐，加权割增加最少、并列取局部编号最小；超出仍记 INCOMPLETE；§9 判据不变）
+- 第一层工作区/T21补跑-C6对齐修补/：执行说明、改后的 c6.py 及 diff、失败现场回放脚本与预期值
+- 讨论记录 2026-11-06-0922：用户拍板与规划方回放结果
+- 代办清单 T21 状态、流程图、第一层工作区 README 同步
+---
+ ...43\345\212\236\346\270\205\345\215\225.md" |   4 +-
+ .../\346\265\201\347\250\213\345\233\276.md"  |   2 +-
+ .../README.md"                                |   1 +
+ ...36\351\252\214\346\226\271\346\241\210.md" |  14 ++
+ .../c6.py"                                    | 124 ++++++++++++++++++
+ .../c6.py.diff"                               |  99 ++++++++++++++
+ .../check_failed_models.py"                   |  51 +++++++
+ .../expected-repairs.json"                    |  82 ++++++++++++
+ .../\350\257\264\346\230\216.md"              | 116 ++++++++++++++++
+ ...344\270\216T21\350\241\245\350\267\221.md" |  72 ++++++++++
+ 10 files changed, 562 insertions(+), 3 deletions(-)
+ create mode 100644 "\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/c6.py"
+ create mode 100644 "\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/c6.py.diff"
+ create mode 100644 "\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/check_failed_models.py"
+ create mode 100644 "\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/expected-repairs.json"
+ create mode 100644 "\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/\350\257\264\346\230\216.md"
+ create mode 100644 "\350\256\250\350\256\272\350\256\260\345\275\225/2026-11-06/2026-11-06-0922-C6\345\257\271\351\275\220\344\277\256\350\241\245\344\270\216T21\350\241\245\350\267\221.md"
+
+diff --git "a/\345\275\223\345\211\215\346\265\201\347\250\213\344\270\216\344\273\243\345\212\236\345\210\227\350\241\250/\344\273\243\345\212\236\346\270\205\345\215\225.md" "b/\345\275\223\345\211\215\346\265\201\347\250\213\344\270\216\344\273\243\345\212\236\345\210\227\350\241\250/\344\273\243\345\212\236\346\270\205\345\215\225.md"
+index 0d2dd49..41f52da 100644
+--- "a/\345\275\223\345\211\215\346\265\201\347\250\213\344\270\216\344\273\243\345\212\236\345\210\227\350\241\250/\344\273\243\345\212\236\346\270\205\345\215\225.md"
++++ "b/\345\275\223\345\211\215\346\265\201\347\250\213\344\270\216\344\273\243\345\212\236\345\210\227\350\241\250/\344\273\243\345\212\236\346\270\205\345\215\225.md"
+@@ -1,6 +1,6 @@
+ # 当前代办清单
+ 
+-最后更新：2026-11-06（交付包十四：T19 更正与四条拍板并入，T2/T6/T10/T16 增备注）。本文件是当前状态的权威版，持续覆盖重写，不保留历史版本。
++最后更新：2026-11-06（交付包十五：T21 跑完入库；C6 / C6-M 对齐修补写入 RQ2 方案，pattern1 补跑说明交执行方）。本文件是当前状态的权威版，持续覆盖重写，不保留历史版本。
+ 「出处」列指向 `讨论记录/` 下的具体文件，想知道某条代办为什么是这样，去对应文件查。
+ 第一层的研究计划（前提假设、研究问题、方法空间、评价协议、归因、数据）见
+ `第一层工作区/第一层研究骨架.md`，以下简称「骨架」。
+@@ -29,7 +29,7 @@
+ | T18 | 实现 B-Ascend-ref：按 Ascend-SpMM §3.3（式 4、5，定理 1）在输入行序的 W=16 窗口上按密度 z/c 前缀整窗分配、边界窗口按列块细分；用于 G1b，亦可在第 1 层评价"重排 + Ascend 式映射"的组合 | 2 | CPU | 未开始；规则原文完整，可纯 CPU 实现；α/β 取原文实测 1/295、1/505 并注明出处 | 无 | `2026-11-05-0334-残余点编号与Ascend-SpMM对motivation的影响` |
+ | T19 | 读 NeutronSparse 实验章节：核对 Ascend-SpMM 图 8 中 NeutronSparse 吞吐与 Naive CSR 同档是否与其原文一致；核对 NeutronSparse 的列抽取如何处理同一输出行被两种核写的冲突；（2026-11-05 增）顺带核其 SpMM 矩阵是否带对角（自环），供骨架 P12 定主口径 | 1 | 读论文 | 完成，见 `第一层工作区/T19-NeutronSparse实验章节核对.md`：GNN 图不带对角（cora 10,556 = A0）；列抽取的写冲突原文未写；删后分组为 128 行 anchor-Jaccard；（2026-11-06 更正，据用户上传的 Ascend-SpMM 全文）原"只测单次调用"的推断**作废**——它用"latest open-source implementations"、预热后连跑 10 次；公开代码只找到 NeutronSparseLite，图 8 的差异大概率因其测的是 Lite【推】，引用时优先引其 Table 6（1.23–1.36×）；新增 §7 对比论文与 Lite；P12、motivation、T16、RQ4 判据四条已拍板 | 无 | `2026-11-05-0334-残余点编号与Ascend-SpMM对motivation的影响`、`2026-11-05-1430-RQ2空白一调研结论`、`2026-11-06-0654-T19T20T23` |
+ | T20 | 补写新增候选与变体的实现规格：C5-U（单部图 Rabbit）、C5 局部阶段的共同邻居链接、C8-METIS（容量修复沿用 C6）、C9-Gorder（w=W−1）与 C9-S、C3/C4/C7 的"换输入编号"变体；（2026-11-05 增）D-greedy、P-LS(λ)、C6-M、C10-BP、B-RCM-ref；格式同 `candidates.md` 各节（来源、完整流程、本项目适配、成本与失败条件、待验证假设）；（2026-11-06 增）末尾-co（放置规则）、间隙（参照规则）、对齐红利 A 与写回段数（诊断指标） | 1 | 文档 | 完成，见 `第一层工作区/候选规格补充-T20.md`（C5-U、C5-CN、C8-METIS、C9 系、-R 变体、C10-BP、C6-RB/C6-M、B-RCM-ref、D 阶段、P-LS、放置规则、诊断指标） | 无 | `2026-11-05-0408-RQ1补充调研讨论结论`、`2026-11-05-1430-RQ2空白一调研结论`、`2026-11-06-0617-RQ3待拍板决定`、`2026-11-06-0654-T19T20T23` |
+-| T21 | RQ2 验证实验：多矩阵（T16 第一批）、A0/A1 两口径、全行与划分后（τ=2、3，原位/末尾）下复核空白一的结论 H1–H8；含 D 规则对比、P-LS(λ)、C9 的 S_n 权重扫描、C6 vs C6-M；按 `第一层工作区/RQ2验证实验方案.md` 执行 | 1 | CPU（执行方 agent 实施，规划方分析） | 未开始；先通过方案 §8 的 Cora 复现自检再报数；C6-M 需超图划分器 | T16（矩阵）；T1 可复用但非必需（可用参考实现） | `2026-11-05-1430-RQ2空白一调研结论` |
++| T21 | RQ2 验证实验：多矩阵（T16 第一批）、A0/A1 两口径、全行与划分后（τ=2、3，原位/末尾）下复核空白一的结论 H1–H8；含 D 规则对比、P-LS(λ)、C9 的 S_n 权重扫描、C6 vs C6-M；按 `第一层工作区/RQ2验证实验方案.md` 执行 | 1 | CPU（执行方 agent 实施，规划方分析） | 进行中：（2026-11-06）已跑完并入库 `第一层实验结果/rq2-validate-20261106/`，规划方入库核验通过（3097 个文件哈希全符；自检、独立复核、全口径移植门通过）；OK 4306 行、SKIPPED 152 行（均为方案预登记的排除）、INCOMPLETE 64 行（全是 pattern1 × C6 / C6-M，KaHyPar 差 1 个点未命中精确大小）；（2026-11-06 拍板）方案 §6 J2 加对齐修补，只补跑这 4 个用例，见 `第一层工作区/T21补跑-C6对齐修补/说明.md`（执行方）；规划方按方案 §9 分析中，pattern1 的 C6 / C6-M 先按缺失处理；`orders/`（577 MiB）未入库、只在本地完整归档 `t21-rq2-87594cc-20261106.tar.gz`，T22 / T23 派发时须写明行序来源 | T16（矩阵）；T1 可复用但非必需（可用参考实现） | `2026-11-05-1430-RQ2空白一调研结论`、`2026-11-06-0922-C6对齐修补与T21补跑` |
+ | T22 | RQ3 验证实验：多矩阵（同 T21 第一批）、A0/A1 两口径下复核空白二的结论 R3-H1–H9（H9 为与 NeutronSparse 式删后重排的对照）：四个数（并报 ΣU）与对齐红利、在剩余行上重跑（T(π′)）、名次一致性、残余点放置规则（末尾 / 末尾-co / 间隙 / 就近 / 原位，报写回段数）、划分感知 P-LS 后处理、残余集合估错（跨 τ）；按 `第一层工作区/RQ3验证实验方案.md` 执行 | 1 | CPU（执行方 agent 实施，规划方分析） | 未开始；**等 T21 跑通后派发**（用户 2026-11-06 确认），复用 T21 的矩阵、行序与大图移植代码；先通过方案 §6 的 Cora 复现自检再报数；τ=3 时残余不足 10% 的矩阵改用分位数 τ | T21（产物复用）、T16（矩阵） | `2026-11-05-1806-RQ3空白二调研结论`、`2026-11-06-0617-RQ3待拍板决定` |
+ | T23 | 首轮候选比较实验：全部候选（`candidates.md` C1–C7 与 T20 新增）在同一批矩阵、主口径（W16、对称视图、划分后、D-greedy、末尾-co，A0/A1）下比较 T、U、R 与成本；归因对比 A1–A12；另报"后处理之后"一套；W 敏感性与 RQ4 判读计划；按 `第一层工作区/首轮候选比较实验方案.md` 执行 | 1 | CPU（执行方 agent 实施，规划方分析） | 未开始；派发前规划方先补齐 C2、C3、C4、C7 的纯 Python 参考实现与 Cora 自检表（方案 §10 第 0 步）；T21 跑通后派发，可与 T22 同批；（2026-11-06）RQ4 判据与短名单规则的阈值已由用户拍板固定（方案 §7），正式比较前不再改动 | T21（产物复用）、T16（矩阵）、T20（规格）；B-RSH-ref、B-Neutron-ref 依赖 T4、T2 | `2026-11-06-0654-T19T20T23` |
+ 
+diff --git "a/\345\275\223\345\211\215\346\265\201\347\250\213\344\270\216\344\273\243\345\212\236\345\210\227\350\241\250/\346\265\201\347\250\213\345\233\276.md" "b/\345\275\223\345\211\215\346\265\201\347\250\213\344\270\216\344\273\243\345\212\236\345\210\227\350\241\250/\346\265\201\347\250\213\345\233\276.md"
+index a4090fd..9c1ba5e 100644
+--- "a/\345\275\223\345\211\215\346\265\201\347\250\213\344\270\216\344\273\243\345\212\236\345\210\227\350\241\250/\346\265\201\347\250\213\345\233\276.md"
++++ "b/\345\275\223\345\211\215\346\265\201\347\250\213\344\270\216\344\273\243\345\212\236\345\210\227\350\241\250/\346\265\201\347\250\213\345\233\276.md"
+@@ -67,7 +67,7 @@
+ 第 1 层的研究计划已整理为 `第一层工作区/第一层研究骨架.md`（2026-11-04）。T3（首轮候选
+ 比较方案）与 T12（T1 的主口径与固定简单划分规则）已定，见骨架 §4.2、§3.3。T17 的 RQ1 补充与
+ 空白一（RQ2）调研已完成（2026-11-05）；RQ2 的验证实验为 T21（方案见 `第一层工作区/RQ2验证实验方案.md`，
+-由执行方 agent 实施）。空白二（RQ3）调研已完成（2026-11-06），结论已并入骨架（P10 修订、新增 P13、RQ3 归因改写）；
++由执行方 agent 实施），已跑完（2026-11-06，结果见 `第一层实验结果/rq2-validate-20261106/`），pattern1 上 C6 / C6-M 按对齐修补补跑，规划方分析中。空白二（RQ3）调研已完成（2026-11-06），结论已并入骨架（P10 修订、新增 P13、RQ3 归因改写）；
+ RQ3 的验证实验为 T22（方案见 `第一层工作区/RQ3验证实验方案.md`，等 T21 跑通后派发）。T19（NeutronSparse 实验章节核对）、T20（候选规格补写）已完成（2026-11-06）；首轮候选比较登记为 T23（方案见 `第一层工作区/首轮候选比较实验方案.md`，含 RQ4 判读计划），它产出第 1 层的候选短名单。下一步 T1、T2、T4、T15、T16、T19、T20、T21 可并行推进，第 1 层产出候选
+ 短名单后交第 2 层复选；T7（G1 实验）依赖 T2、T6。详见 `代办清单.md`。
+ 
+diff --git "a/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/README.md" "b/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/README.md"
+index ca8ea12..19283ba 100644
+--- "a/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/README.md"
++++ "b/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/README.md"
+@@ -8,6 +8,7 @@
+ | `T17-RQ1补充调研.md` | T17 第一块：新条件下复核 C1–C7、补查 GNN/幂律图重排（2026-11-05，已讨论完毕，结论见其 §6） |
+ | `T17-空白一调研.md` | T17 第二块：空白一（D 阶段，服务 RQ2）调研与 Cora 试算（2026-11-05，用户决定见其 §7、§9） |
+ | `RQ2验证实验方案.md` | T21：RQ2 结论的多矩阵验证实验方案，交执行方 agent 实施 |
++| `T21补跑-C6对齐修补/` | T21 补跑：pattern1 上 C6 / C6-M 的对齐修补（方案 §6 J2 第三次修订）——执行说明、改后的 `c6.py`、失败现场回放脚本与预期值，交执行方 agent 实施 |
+ | `T17-空白一试算脚本/` | 空白一试算的参考实现（Python，试算质量，非 T1 评价器）；可复现调研 §8 的 Cora 数字 |
+ | `T17-空白二调研.md` | T17 第三块：空白二（E 阶段，划分感知重排，服务 RQ3）调研与 Cora 试算（2026-11-06，待拍板项见其 §9） |
+ | `RQ3验证实验方案.md` | T22：RQ3 结论的多矩阵验证实验方案，等 T21 跑通后交执行方 agent 实施 |
+diff --git "a/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/RQ2\351\252\214\350\257\201\345\256\236\351\252\214\346\226\271\346\241\210.md" "b/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/RQ2\351\252\214\350\257\201\345\256\236\351\252\214\346\226\271\346\241\210.md"
+index cc7fbb1..2044573 100644
+--- "a/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/RQ2\351\252\214\350\257\201\345\256\236\351\252\214\346\226\271\346\241\210.md"
++++ "b/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/RQ2\351\252\214\350\257\201\345\256\236\351\252\214\346\226\271\346\241\210.md"
+@@ -3,6 +3,8 @@
+ 状态：规划方撰写，交执行方 agent 实施；数据回来后由规划方分析（用户 2026-11-05 确认的分工）。
+ 2026-11-06 修订：B-RCM-ref 改用确定性实现，§8 自检参考值随之更新（首次执行因 SciPy 版本差异在 RCM 一行未通过）；
+ 同日第二次修订：结构按存储条目定义（显式零值保留），补 SuiteSparse 数据来源说明（§2）。
++同日第三次修订（T21 跑完之后）：§6 J2 增「对齐修补」。起因：pattern1 上 C6 / C6-M 共 4 个用例中，KaHyPar 在某一层差 1 个顶点没分出精确目标大小，按原方案记 INCOMPLETE。
++补跑说明见 `第一层工作区/T21补跑-C6对齐修补/说明.md`；§9 判据不变。
+ 依据：`第一层工作区/T17-空白一调研.md`（下称"调研"）。本方案只做 **CPU 结构实验**，不测 NPU 性能。
+ 参考实现：`第一层工作区/T17-空白一试算脚本/`（Python，试算质量，已能复现调研 §8 的 Cora 数字）。
+ 
+@@ -115,6 +117,18 @@ co(u, v) = 同时用到列 u、v 的窗口数（窗口的列并集同时含 u 
+ 为当前部分与每个其他部分加 send / receive 消息网（对称 A 下二者管脚相同），消息网代价 mnc ∈ {1, 4, 16}（通信量网代价 1；mnc = 0 即 C6）。
+ 报 U、T、Γ、R（own 与 D-greedy）、划分耗时。
+ 
++**对齐修补（2026-11-06 第三次修订）。** 划分器不保证精确命中目标大小（KaHyPar 设 ε = 0 也会差 1 个顶点），而每组恰 W 点是窗口对齐的前提，
++所以在每次二分之后加一步：
++
++1. 若划分器给出的左块大小等于目标 s1，什么都不做（与修订前完全相同）。
++2. 否则记 d = 左块大小 − s1。|d| ≤ W/2（W = 16 时为 8）时，从偏大的一侧向偏小的一侧逐个挪 |d| 个顶点；每挪一个，
++   都在**同一个超图**（本层的列网与消息网，权重不变）上选使加权割增加最少（可以为负）的顶点；并列取本层局部编号最小者。
++3. |d| > W/2 时仍记 INCOMPLETE（不放宽 ε、不换种子、不接受非整数倍的大小）。
++4. 每次修补写入划分轨迹：原始大小、挪动的顶点（局部与全局编号）、修补前后的加权割；每个用例另报修补次数、挪动点数、最大 |d|。
++
++修补只在未命中时触发；T21 中其余 6 张矩阵的 24 个 C6 / C6-M 用例每层都精确命中，结果不受这次修订影响，不重跑。
++参考实现：`第一层工作区/T21补跑-C6对齐修补/c6.py`（在 T21 实际运行的 `c6.py` 上只加这一步）。
++
+ **J3：S_n 权重扫描（P1）。** 见第 3 节 C9-β。
+ 
+ ## 7. 指标与输出
+diff --git "a/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/c6.py" "b/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/c6.py"
+new file mode 100644
+index 0000000..0cb8624
+--- /dev/null
++++ "b/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/c6.py"
+@@ -0,0 +1,124 @@
++"""Column-net recursive bisection, with explicit symmetric send/receive message nets.
++
++T21 supplement (RQ2 plan section 6 J2, amendment 2026-11-06): alignment repair.
++If KaHyPar returns block sizes that miss the exact targets (s1, s2) by d = |size0 - s1| <= W//2,
++move d vertices from the oversized block to the undersized block, one at a time; each move picks the
++vertex whose move increases the weighted cut of the SAME hypergraph (column nets + message nets, same
++weights) the least; ties go to the smallest local index. d > W//2 still aborts as INCOMPLETE.
++When KaHyPar hits the targets exactly, nothing changes (identical code path and output as before).
++"""
++from __future__ import annotations
++import collections,hashlib,json,math,sys,time
++from pathlib import Path
++BASE=Path(__file__).resolve().parents[1]
++sys.path.insert(0,str(BASE/'deps'))
++
++class ExactBalanceUnavailable(RuntimeError):pass
++
++ALIGN_REPAIR_RULE='min weighted-cut increase per single-vertex move, oversized->undersized block, ties smallest local index; cap |d|<=W//2'
++
++def weighted_cut(nets:list[list[int]],weights:list[int],labels:list[int])->int:
++    return sum(w for pins,w in zip(nets,weights) if any(labels[v]!=labels[pins[0]] for v in pins))
++
++def align_repair(size:int,nets:list[list[int]],weights:list[int],labels:list[int],s1:int,s2:int)->tuple[list[int],list[dict]]:
++    """Return (repaired labels, moves). Pure function; does not call KaHyPar."""
++    labels=list(labels);d=labels.count(0)-s1
++    if d==0:return labels,[]
++    src=0 if d>0 else 1;dst=1-src
++    incident=[[] for _ in range(size)];cnt=[[0,0] for _ in nets]
++    for e,pins in enumerate(nets):
++        for v in pins:incident[v].append(e);cnt[e][labels[v]]+=1
++    moves=[]
++    for _ in range(abs(d)):
++        best=None
++        for v in range(size):
++            if labels[v]!=src:continue
++            delta=0
++            for e in incident[v]:
++                a,b=cnt[e][src],cnt[e][dst]
++                if a==1 and b>0:delta-=weights[e]
++                elif b==0 and a>1:delta+=weights[e]
++            if best is None or delta<best[0]:best=(delta,v)
++        delta,v=best;labels[v]=dst
++        for e in incident[v]:cnt[e][src]-=1;cnt[e][dst]+=1
++        moves.append({'local_vertex':v,'from_block':src,'to_block':dst,'cut_delta':delta})
++    assert labels.count(0)==s1 and labels.count(1)==s2
++    return labels,moves
++
++def reorder(adj:list[set[int]],W:int,mnc:int,trace_path:Path)->tuple[list[int],dict]:
++    import kahypar
++    n=len(adj);owner=[0]*n;parts={0:list(range(n))};queue=collections.deque([0]);tree={};nextid=1;trace=[];repairs=[];started=time.perf_counter()
++    def checkpoint(status:str)->None:
++        trace_path.parent.mkdir(parents=True,exist_ok=True)
++        tmp=trace_path.with_suffix('.tmp');tmp.write_text(json.dumps({'status':status,'W':W,'mnc':mnc,'seed':0,'align_repair_rule':ALIGN_REPAIR_RULE,'align_repairs':repairs,'calls':trace,'elapsed_sec':time.perf_counter()-started},separators=(',',':')));tmp.replace(trace_path)
++    while queue:
++        pid=queue.popleft();vertices=parts[pid];size=len(vertices)
++        if size<=W:continue
++        s1=W*math.ceil(size/(2*W));s2=size-s1
++        columns=collections.defaultdict(list);messages=collections.defaultdict(list)
++        for local,v in enumerate(vertices):
++            destinations=set()
++            for c in adj[v]:
++                columns[c].append(local)
++                if mnc and pid!=0 and owner[c]!=pid:destinations.add(owner[c])
++            for other in destinations:messages[other].append(local)
++        nets=[];weights=[];num_column_nets=0;num_message_nets=0
++        for c in sorted(columns):
++            pins=columns[c]
++            if len(pins)>1:nets.append(pins);weights.append(1);num_column_nets+=1
++        for other in sorted(messages):
++            pins=messages[other]
++            if len(pins)>1:
++                # A0 is structurally symmetric: send and receive pin sets coincide.
++                nets.extend([pins,pins]);weights.extend([mnc,mnc]);num_message_nets+=2
++        pointers=[0];flat=[]
++        for pins in nets:flat.extend(pins);pointers.append(len(flat))
++        call={'part_id':pid,'size':size,'targets':[s1,s2],'column_nets':num_column_nets,'message_nets':num_message_nets,'pins':len(flat),'hypergraph_sha256':hashlib.sha256(json.dumps([pointers,flat,weights],separators=(',',':')).encode()).hexdigest()}
++        t=time.perf_counter()
++        if not nets:labels=[0]*s1+[1]*s2;call['solver']='edgeless objective; deterministic feasible exact split'
++        else:
++            hypergraph=kahypar.Hypergraph(size,len(nets),pointers,flat,2,weights,[1]*size)
++            context=kahypar.Context();context.loadINIconfiguration(str(BASE/'scripts/kahypar-cut-v1.3.7.ini'))
++            context.setK(2);context.setEpsilon(0.0);context.setCustomTargetBlockWeights([s1,s2]);context.setSeed(0);context.suppressOutput(True)
++            kahypar.partition(hypergraph,context);labels=[int(hypergraph.blockID(v)) for v in range(size)];call['solver']='KaHyPar 1.3.7, cut, custom exact target upper bounds, epsilon=0'
++        left=[v for i,v in enumerate(vertices) if labels[i]==0];right=[v for i,v in enumerate(vertices) if labels[i]==1]
++        call.update(actual_sizes=[len(left),len(right)],solver_sec=time.perf_counter()-t,weighted_cut=weighted_cut(nets,weights,labels),labels_sha256=hashlib.sha256(json.dumps(labels).encode()).hexdigest())
++        trace.append(call)
++        if (len(left),len(right))!=(s1,s2):
++            d=len(left)-s1
++            if abs(d)>W//2:
++                call['failure']=f'Exact target sizes not met; |d|={abs(d)} exceeds alignment-repair cap W//2={W//2}; no relaxed acceptance.';call['vertices']=vertices;call['labels']=labels
++                model=trace_path.with_name(trace_path.stem+'-failed-model.json');model.write_text(json.dumps({'vertices':vertices,'pointers':pointers,'pins':flat,'weights':weights,'labels':labels,'targets':[s1,s2]},separators=(',',':')));call['failed_model']=str(model);checkpoint('INCOMPLETE_ALIGN_REPAIR_CAP')
++                raise ExactBalanceUnavailable(f'part {pid}: requested {(s1,s2)}, returned {(len(left),len(right))}, |d| > {W//2}')
++            t=time.perf_counter();repaired,moves=align_repair(size,nets,weights,labels,s1,s2)
++            for m in moves:m['global_vertex']=vertices[m['local_vertex']]
++            left=[v for i,v in enumerate(vertices) if repaired[i]==0];right=[v for i,v in enumerate(vertices) if repaired[i]==1]
++            assert (len(left),len(right))==(s1,s2)
++            call['align_repair']={'rule':ALIGN_REPAIR_RULE,'raw_sizes':call['actual_sizes'],'final_sizes':[len(left),len(right)],'d':d,'moves':moves,
++                                  'weighted_cut_before':call['weighted_cut'],'weighted_cut_after':weighted_cut(nets,weights,repaired),
++                                  'final_labels_sha256':hashlib.sha256(json.dumps(repaired).encode()).hexdigest(),'repair_sec':time.perf_counter()-t}
++            repairs.append({'part_id':pid,'size':size,'targets':[s1,s2],'raw_sizes':call['actual_sizes'],'moved_global_vertices':[m['global_vertex'] for m in moves],
++                            'weighted_cut_before':call['weighted_cut'],'weighted_cut_after':call['align_repair']['weighted_cut_after']})
++            print('C6 align repair',mnc,pid,call['actual_sizes'],'->',[s1,s2],flush=True)
++        lid,rid=nextid,nextid+1;nextid+=2;tree[pid]=(lid,rid);del parts[pid];parts[lid]=left;parts[rid]=right
++        for v in left:owner[v]=lid
++        for v in right:owner[v]=rid
++        queue.extend([lid,rid])
++        if len(trace)<=2 or len(trace)%100==0:print('C6 progress',mnc,len(trace),len(parts),flush=True);checkpoint('RUNNING')
++    leaves=[];stack=[0]
++    while stack:
++        pid=stack.pop()
++        if pid in tree:lid,rid=tree[pid];stack.extend([rid,lid])
++        else:leaves.append(parts[pid])
++    full=[x for x in leaves if len(x)==W];partial=[x for x in leaves if len(x)<W]
++    assert len(partial)<=1 and len(full)+len(partial)==math.ceil(n/W)
++    order=[v for part in full+partial for v in part];assert sorted(order)==list(range(n))
++    checkpoint('OK')
++    return order,{'implementation':'KaHyPar recursive bisection','W':W,'mnc':mnc,'seed':0,'epsilon':0.0,'group_sizes':[len(x) for x in full+partial],
++                  'bisection_schedule':'breadth first; current parts define message destinations; final own order is DFS left/right with partial leaf last',
++                  'column_nets':'all global A0 columns restricted to vertices in the current part, cost 1; degree<=1 nets omitted',
++                  'message_nets':'each other current part: row vertices accessing that part; symmetric send/receive duplicate nets, each cost mnc; no root message nets',
++                  'configuration':'code/runner/kahypar-cut-v1.3.7.ini','trace':str(trace_path),'partition_sec':time.perf_counter()-started,
++                  'alignment_repair':{'rule':ALIGN_REPAIR_RULE,'cap':W//2,'calls_repaired':len(repairs),'vertices_moved':sum(len(r['moved_global_vertices']) for r in repairs),
++                                      'max_abs_d':max((len(r['moved_global_vertices']) for r in repairs),default=0),
++                                      'weighted_cut_delta_total':sum(r['weighted_cut_after']-r['weighted_cut_before'] for r in repairs)}}
+diff --git "a/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/c6.py.diff" "b/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/c6.py.diff"
+new file mode 100644
+index 0000000..464eb56
+--- /dev/null
++++ "b/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/c6.py.diff"
+@@ -0,0 +1,99 @@
++--- a/code/runner/c6.py
+++++ b/第一层工作区/T21补跑-C6对齐修补/c6.py
++@@ -1,4 +1,12 @@
++-"""Column-net recursive bisection, with explicit symmetric send/receive message nets."""
+++"""Column-net recursive bisection, with explicit symmetric send/receive message nets.
+++
+++T21 supplement (RQ2 plan section 6 J2, amendment 2026-11-06): alignment repair.
+++If KaHyPar returns block sizes that miss the exact targets (s1, s2) by d = |size0 - s1| <= W//2,
+++move d vertices from the oversized block to the undersized block, one at a time; each move picks the
+++vertex whose move increases the weighted cut of the SAME hypergraph (column nets + message nets, same
+++weights) the least; ties go to the smallest local index. d > W//2 still aborts as INCOMPLETE.
+++When KaHyPar hits the targets exactly, nothing changes (identical code path and output as before).
+++"""
++ from __future__ import annotations
++ import collections,hashlib,json,math,sys,time
++ from pathlib import Path
++@@ -7,12 +15,42 @@
++ 
++ class ExactBalanceUnavailable(RuntimeError):pass
++ 
+++ALIGN_REPAIR_RULE='min weighted-cut increase per single-vertex move, oversized->undersized block, ties smallest local index; cap |d|<=W//2'
+++
+++def weighted_cut(nets:list[list[int]],weights:list[int],labels:list[int])->int:
+++    return sum(w for pins,w in zip(nets,weights) if any(labels[v]!=labels[pins[0]] for v in pins))
+++
+++def align_repair(size:int,nets:list[list[int]],weights:list[int],labels:list[int],s1:int,s2:int)->tuple[list[int],list[dict]]:
+++    """Return (repaired labels, moves). Pure function; does not call KaHyPar."""
+++    labels=list(labels);d=labels.count(0)-s1
+++    if d==0:return labels,[]
+++    src=0 if d>0 else 1;dst=1-src
+++    incident=[[] for _ in range(size)];cnt=[[0,0] for _ in nets]
+++    for e,pins in enumerate(nets):
+++        for v in pins:incident[v].append(e);cnt[e][labels[v]]+=1
+++    moves=[]
+++    for _ in range(abs(d)):
+++        best=None
+++        for v in range(size):
+++            if labels[v]!=src:continue
+++            delta=0
+++            for e in incident[v]:
+++                a,b=cnt[e][src],cnt[e][dst]
+++                if a==1 and b>0:delta-=weights[e]
+++                elif b==0 and a>1:delta+=weights[e]
+++            if best is None or delta<best[0]:best=(delta,v)
+++        delta,v=best;labels[v]=dst
+++        for e in incident[v]:cnt[e][src]-=1;cnt[e][dst]+=1
+++        moves.append({'local_vertex':v,'from_block':src,'to_block':dst,'cut_delta':delta})
+++    assert labels.count(0)==s1 and labels.count(1)==s2
+++    return labels,moves
+++
++ def reorder(adj:list[set[int]],W:int,mnc:int,trace_path:Path)->tuple[list[int],dict]:
++     import kahypar
++-    n=len(adj);owner=[0]*n;parts={0:list(range(n))};queue=collections.deque([0]);tree={};nextid=1;trace=[];started=time.perf_counter()
+++    n=len(adj);owner=[0]*n;parts={0:list(range(n))};queue=collections.deque([0]);tree={};nextid=1;trace=[];repairs=[];started=time.perf_counter()
++     def checkpoint(status:str)->None:
++         trace_path.parent.mkdir(parents=True,exist_ok=True)
++-        tmp=trace_path.with_suffix('.tmp');tmp.write_text(json.dumps({'status':status,'W':W,'mnc':mnc,'seed':0,'calls':trace,'elapsed_sec':time.perf_counter()-started},separators=(',',':')));tmp.replace(trace_path)
+++        tmp=trace_path.with_suffix('.tmp');tmp.write_text(json.dumps({'status':status,'W':W,'mnc':mnc,'seed':0,'align_repair_rule':ALIGN_REPAIR_RULE,'align_repairs':repairs,'calls':trace,'elapsed_sec':time.perf_counter()-started},separators=(',',':')));tmp.replace(trace_path)
++     while queue:
++         pid=queue.popleft();vertices=parts[pid];size=len(vertices)
++         if size<=W:continue
++@@ -44,12 +82,24 @@
++             context.setK(2);context.setEpsilon(0.0);context.setCustomTargetBlockWeights([s1,s2]);context.setSeed(0);context.suppressOutput(True)
++             kahypar.partition(hypergraph,context);labels=[int(hypergraph.blockID(v)) for v in range(size)];call['solver']='KaHyPar 1.3.7, cut, custom exact target upper bounds, epsilon=0'
++         left=[v for i,v in enumerate(vertices) if labels[i]==0];right=[v for i,v in enumerate(vertices) if labels[i]==1]
++-        call.update(actual_sizes=[len(left),len(right)],solver_sec=time.perf_counter()-t,weighted_cut=sum(w for pins,w in zip(nets,weights) if any(labels[v]!=labels[pins[0]] for v in pins)),labels_sha256=hashlib.sha256(json.dumps(labels).encode()).hexdigest())
+++        call.update(actual_sizes=[len(left),len(right)],solver_sec=time.perf_counter()-t,weighted_cut=weighted_cut(nets,weights,labels),labels_sha256=hashlib.sha256(json.dumps(labels).encode()).hexdigest())
++         trace.append(call)
++         if (len(left),len(right))!=(s1,s2):
++-            call['failure']='Exact target sizes not met; no manual rebalance and no relaxed acceptance.';call['vertices']=vertices;call['labels']=labels
++-            model=trace_path.with_name(trace_path.stem+'-failed-model.json');model.write_text(json.dumps({'vertices':vertices,'pointers':pointers,'pins':flat,'weights':weights,'labels':labels,'targets':[s1,s2]},separators=(',',':')));call['failed_model']=str(model);checkpoint('INCOMPLETE_EXACT_BALANCE')
++-            raise ExactBalanceUnavailable(f'part {pid}: requested {(s1,s2)}, returned {(len(left),len(right))}')
+++            d=len(left)-s1
+++            if abs(d)>W//2:
+++                call['failure']=f'Exact target sizes not met; |d|={abs(d)} exceeds alignment-repair cap W//2={W//2}; no relaxed acceptance.';call['vertices']=vertices;call['labels']=labels
+++                model=trace_path.with_name(trace_path.stem+'-failed-model.json');model.write_text(json.dumps({'vertices':vertices,'pointers':pointers,'pins':flat,'weights':weights,'labels':labels,'targets':[s1,s2]},separators=(',',':')));call['failed_model']=str(model);checkpoint('INCOMPLETE_ALIGN_REPAIR_CAP')
+++                raise ExactBalanceUnavailable(f'part {pid}: requested {(s1,s2)}, returned {(len(left),len(right))}, |d| > {W//2}')
+++            t=time.perf_counter();repaired,moves=align_repair(size,nets,weights,labels,s1,s2)
+++            for m in moves:m['global_vertex']=vertices[m['local_vertex']]
+++            left=[v for i,v in enumerate(vertices) if repaired[i]==0];right=[v for i,v in enumerate(vertices) if repaired[i]==1]
+++            assert (len(left),len(right))==(s1,s2)
+++            call['align_repair']={'rule':ALIGN_REPAIR_RULE,'raw_sizes':call['actual_sizes'],'final_sizes':[len(left),len(right)],'d':d,'moves':moves,
+++                                  'weighted_cut_before':call['weighted_cut'],'weighted_cut_after':weighted_cut(nets,weights,repaired),
+++                                  'final_labels_sha256':hashlib.sha256(json.dumps(repaired).encode()).hexdigest(),'repair_sec':time.perf_counter()-t}
+++            repairs.append({'part_id':pid,'size':size,'targets':[s1,s2],'raw_sizes':call['actual_sizes'],'moved_global_vertices':[m['global_vertex'] for m in moves],
+++                            'weighted_cut_before':call['weighted_cut'],'weighted_cut_after':call['align_repair']['weighted_cut_after']})
+++            print('C6 align repair',mnc,pid,call['actual_sizes'],'->',[s1,s2],flush=True)
++         lid,rid=nextid,nextid+1;nextid+=2;tree[pid]=(lid,rid);del parts[pid];parts[lid]=left;parts[rid]=right
++         for v in left:owner[v]=lid
++         for v in right:owner[v]=rid
++@@ -68,4 +118,7 @@
++                   'bisection_schedule':'breadth first; current parts define message destinations; final own order is DFS left/right with partial leaf last',
++                   'column_nets':'all global A0 columns restricted to vertices in the current part, cost 1; degree<=1 nets omitted',
++                   'message_nets':'each other current part: row vertices accessing that part; symmetric send/receive duplicate nets, each cost mnc; no root message nets',
++-                  'configuration':'code/runner/kahypar-cut-v1.3.7.ini','trace':str(trace_path),'partition_sec':time.perf_counter()-started}
+++                  'configuration':'code/runner/kahypar-cut-v1.3.7.ini','trace':str(trace_path),'partition_sec':time.perf_counter()-started,
+++                  'alignment_repair':{'rule':ALIGN_REPAIR_RULE,'cap':W//2,'calls_repaired':len(repairs),'vertices_moved':sum(len(r['moved_global_vertices']) for r in repairs),
+++                                      'max_abs_d':max((len(r['moved_global_vertices']) for r in repairs),default=0),
+++                                      'weighted_cut_delta_total':sum(r['weighted_cut_after']-r['weighted_cut_before'] for r in repairs)}}
+diff --git "a/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/check_failed_models.py" "b/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/check_failed_models.py"
+new file mode 100644
+index 0000000..0a0e1cd
+--- /dev/null
++++ "b/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/check_failed_models.py"
+@@ -0,0 +1,51 @@
++#!/usr/bin/env python3
++"""Gate 1 of the T21 C6 alignment-repair supplement.
++
++Replays c6.align_repair on the four KaHyPar outputs that failed in T21 (the *-failed-model.json
++files kept under 第一层实验结果/rq2-validate-20261106/checks/) and compares the result with
++expected-repairs.json. Pure Python; does not import KaHyPar.
++
++usage: python3 -I check_failed_models.py <T21 checks dir> [<output json>]
++exit code 0 = all four cases match, 1 = mismatch.
++"""
++import hashlib, importlib.util, json, sys
++from pathlib import Path
++
++HERE = Path(__file__).resolve().parent
++spec = importlib.util.spec_from_file_location('c6_align', HERE / 'c6.py')
++c6 = importlib.util.module_from_spec(spec); spec.loader.exec_module(c6)
++
++checks = Path(sys.argv[1])
++expected = json.loads((HERE / 'expected-repairs.json').read_text())
++out, ok = [], True
++for case, exp in sorted(expected.items()):
++    m = json.loads((checks / f'{case}-failed-model.json').read_text())
++    trace = json.loads((checks / f'{case}.json').read_text())
++    call = trace['calls'][-1]
++    P, Q, Wt, L = m['pointers'], m['pins'], m['weights'], m['labels']
++    nets = [Q[P[e]:P[e + 1]] for e in range(len(Wt))]
++    s1, s2 = m['targets']
++    size = len(m['vertices'])
++    raw_sha = hashlib.sha256(json.dumps(L).encode()).hexdigest()
++    cut0 = c6.weighted_cut(nets, Wt, L)
++    lab, moves = c6.align_repair(size, nets, Wt, L, s1, s2)
++    cut1 = c6.weighted_cut(nets, Wt, lab)
++    got = {
++        'part_id': call['part_id'], 'targets': [s1, s2], 'raw_sizes': [L.count(0), L.count(1)],
++        'raw_labels_sha256_matches_trace': raw_sha == call['labels_sha256'],
++        'weighted_cut_before': cut0, 'weighted_cut_before_matches_trace': cut0 == call['weighted_cut'],
++        'moved_local_vertices': [mv['local_vertex'] for mv in moves],
++        'moved_global_vertices': [m['vertices'][mv['local_vertex']] for mv in moves],
++        'weighted_cut_after': cut1,
++        'final_labels_sha256': hashlib.sha256(json.dumps(lab).encode()).hexdigest(),
++    }
++    match = all(got[k] == exp[k] for k in exp) and got['raw_labels_sha256_matches_trace'] and got['weighted_cut_before_matches_trace']
++    ok &= match
++    out.append({'case': case, 'match': match, 'got': got})
++    print(case, 'MATCH' if match else 'MISMATCH', got['raw_sizes'], '->', got['targets'],
++          'moved', got['moved_global_vertices'], 'cut', cut0, '->', cut1)
++result = {'passed': ok, 'c6_py_sha256': hashlib.sha256((HERE / 'c6.py').read_bytes()).hexdigest(), 'cases': out}
++if len(sys.argv) > 2:
++    Path(sys.argv[2]).write_text(json.dumps(result, ensure_ascii=False, indent=1))
++print('Gate 1 (failed-model replay):', 'OK' if ok else 'FAILED')
++sys.exit(0 if ok else 1)
+diff --git "a/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/expected-repairs.json" "b/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/expected-repairs.json"
+new file mode 100644
+index 0000000..fc31dc7
+--- /dev/null
++++ "b/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/expected-repairs.json"
+@@ -0,0 +1,82 @@
++{
++ "c6__pattern1__C6-M__W16__1-bisections": {
++  "part_id": 289,
++  "targets": [
++   48,
++   32
++  ],
++  "raw_sizes": [
++   47,
++   33
++  ],
++  "weighted_cut_before": 806,
++  "moved_local_vertices": [
++   16
++  ],
++  "moved_global_vertices": [
++   11425
++  ],
++  "weighted_cut_after": 804,
++  "final_labels_sha256": "52061e5edd9693d7b459bfd62b767a4beddf9e9a737085a4503f5b39edb80fef"
++ },
++ "c6__pattern1__C6-M__W16__16-bisections": {
++  "part_id": 272,
++  "targets": [
++   48,
++   32
++  ],
++  "raw_sizes": [
++   49,
++   31
++  ],
++  "weighted_cut_before": 1750,
++  "moved_local_vertices": [
++   10
++  ],
++  "moved_global_vertices": [
++   11194
++  ],
++  "weighted_cut_after": 1718,
++  "final_labels_sha256": "07ea3405c2f34f5843f5e193f35a29e5bafc189bfe5cf687daddabfb65b68470"
++ },
++ "c6__pattern1__C6-M__W16__4-bisections": {
++  "part_id": 271,
++  "targets": [
++   48,
++   32
++  ],
++  "raw_sizes": [
++   47,
++   33
++  ],
++  "weighted_cut_before": 980,
++  "moved_local_vertices": [
++   13
++  ],
++  "moved_global_vertices": [
++   546
++  ],
++  "weighted_cut_after": 972,
++  "final_labels_sha256": "dff25dd4b2696ba07854c61b786058bd57325ebac87c84e7983d7d0c77e29d4a"
++ },
++ "c6__pattern1__C6__W16__0-bisections": {
++  "part_id": 106,
++  "targets": [
++   144,
++   144
++  ],
++  "raw_sizes": [
++   145,
++   143
++  ],
++  "weighted_cut_before": 758,
++  "moved_local_vertices": [
++   286
++  ],
++  "moved_global_vertices": [
++   19204
++  ],
++  "weighted_cut_after": 756,
++  "final_labels_sha256": "38cddefc63b30e05cdf2c9d2b61b3cb9d5ae2bea4af70732a53970763fdaeaf2"
++ }
++}
+diff --git "a/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/\350\257\264\346\230\216.md" "b/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/\350\257\264\346\230\216.md"
+new file mode 100644
+index 0000000..6945b93
+--- /dev/null
++++ "b/\347\254\254\344\270\200\345\261\202\345\267\245\344\275\234\345\214\272/T21\350\241\245\350\267\221-C6\345\257\271\351\275\220\344\277\256\350\241\245/\350\257\264\346\230\216.md"
+@@ -0,0 +1,116 @@
++# T21 补跑：pattern1 上 C6 / C6-M 的对齐修补（执行说明，2026-11-06）
++
++状态：规划方撰写，交执行方 agent 实施。依据：`第一层工作区/RQ2验证实验方案.md` §6 J2「对齐修补」（2026-11-06 第三次修订）；
++决定出处：`讨论记录/2026-11-06/2026-11-06-0922-C6对齐修补与T21补跑.md`。
++本说明只补 T21 中 4 个 INCOMPLETE 的用例，不做研究分析，不改动 T21 已交付的任何文件。
++
++---
++
++## 0. 背景（一句话）
++
++T21 里 pattern1 的 C6（mnc = 0）与 C6-M（mnc = 1 / 4 / 16）各有一层二分，KaHyPar 差 1 个顶点没分出精确目标大小，
++按原方案整例记 INCOMPLETE（`第一层实验结果/rq2-validate-20261106/logs/pattern1-c6-failure-summary.json`）。
++现在方案加了一步「对齐修补」，用改后的 `c6.py` 重跑这 4 个用例。
++
++## 1. 本目录文件
++
++| 文件 | 作用 |
++|---|---|
++| `c6.py` | T21 实际运行的 `code/runner/c6.py`（sha256 `1a46ada2d8feaca006401b4b41be16eff4a10c9ae6ea84975a45c2b9a0ae70ba`）加上对齐修补后的完整文件，**原样使用，不得再改** |
++| `c6.py.diff` | 相对 T21 版 `c6.py` 的差异，供核对 |
++| `check_failed_models.py` | 门 1：用 `c6.align_repair` 回放 T21 保存的 4 个失败现场，对照 `expected-repairs.json` |
++| `expected-repairs.json` | 规划方用另一份独立实现算出的预期修补结果（挪哪个点、修补后的加权割、修补后标签的 sha256） |
++
++文件 sha256 见本说明末尾 §8。
++
++## 2. 硬约束
++
++- **不改动 T21 的交付**：仓库里的 `第一层实验结果/rq2-validate-20261106/` 与本地完整归档 `t21-rq2-87594cc-20261106.tar.gz` 一个字节都不动；
++  T21 工作目录里旧的 `checks/c6__pattern1__*` 轨迹与 `*-failed-model.json` 是失败现场的证据，**不得覆盖**。新产物一律写新目录（§6）。
++- 环境与 T21 相同：KaHyPar Python 绑定 1.3.7（T21 记录的模块 sha256 `b8f5fff175a8984baffaa04bcbc2f54726df8e5ca7a27148c927260381bd14b7`）、配置 `kahypar-cut-v1.3.7.ini`
++  （T21 记录的 sha256 `64ebd58a4f98b95bf87ae3de5341b2be00b09e122a0526ef65a799e39bb63dd8`）、种子 0、ε = 0、`campaign.py` 与 T21 相同（sha256 `3362199e76a42c5029c70a7b396de4cc71132dd3b7c4cbbbc5df45f5664c9314`）；**只把 `c6.py` 换成本目录的版本**。
++  若环境有任何不同（例如 KaHyPar 需要重装），照常进行，但在 README 里写明差异。
++- 不放宽 ε、不换种子、不改修补规则或上限 W/2、不手工挪点。修补上限内无法收口的，按 §5 记 INCOMPLETE。
++- 不执行仓库 `binaries/` 下的任何文件（那些是 T21 的留痕）。
++- 不提交、不推送；产物交给用户入库。
++
++## 3. 三道门（全部通过才报数；任何一道不过，停下并把现场交回）
++
++**门 1：回放失败现场（纯 Python，几秒钟）。**
++
++```bash
++python3 -I 第一层工作区/T21补跑-C6对齐修补/check_failed_models.py \
++  第一层实验结果/rq2-validate-20261106/checks  <新目录>/checks/gate1-failed-model-replay.json
++```
++
++须输出 4 行 `MATCH` 和末行 `Gate 1 (failed-model replay): OK`，退出码 0。预期：
++
++| 用例 | 层（part） | 原始大小 → 目标 | 挪动的全局顶点 | 加权割 |
++|---|---|---|---|---|
++| C6，mnc = 0 | 106 | [145, 143] → [144, 144] | 19204 | 758 → 756 |
++| C6-M，mnc = 1 | 289 | [47, 33] → [48, 32] | 11425 | 806 → 804 |
++| C6-M，mnc = 4 | 271 | [47, 33] → [48, 32] | 546 | 980 → 972 |
++| C6-M，mnc = 16 | 272 | [49, 31] → [48, 32] | 11194 | 1750 → 1718 |
++
++**门 2：修补不触发时与 T21 逐位相同（cora，每例约 2 秒）。** 用改后的 `c6.py` 在 cora 上重跑 C6（mnc = 0）与 C6-M（mnc = 4），须同时满足：
++
++1. 新轨迹每一次调用的 `hypergraph_sha256`、`labels_sha256`、`actual_sizes` 与 T21 的
++   `checks/c6__cora__C6__W16__0-bisections.json`、`checks/c6__cora__C6-M__W16__4-bisections.json` 逐条相同，调用次数相同（169）；
++2. `alignment_repair.calls_repaired = 0`；
++3. 16 个评价条件的 `sumU、T、sumGamma、sumR、R_p50、R_p90、R_max` 与 T21 `joint.csv` 中对应行（matrix = cora，member、mnc 相同）逐个相等；
++4. 若本地完整归档在手，行序与 T21 `orders/` 中对应文件相同（可选，做了就报）。
++
++结果写 `checks/gate2-cora-noop.json`。
++
++**门 3：pattern1 前缀可复现（在主运行中顺带做）。** 对每个用例，新轨迹中**旧失败层之前**的每次调用，`hypergraph_sha256`、`labels_sha256` 须与 T21 旧轨迹
++（`checks/c6__pattern1__<成员>__W16__<mnc>-bisections.json`）逐条相同；旧失败层本身，新轨迹的原始 `labels_sha256` 须与旧轨迹相同，
++且其 `align_repair` 的挪动顶点、`weighted_cut_after`、`final_labels_sha256` 须与 `expected-repairs.json` 相同。
++不相同时**不停**：照常跑完，在 `checks/gate3-pattern1-prefix.json` 里记 `reproduced: false` 与第一处不同的调用序号，README 里显著标出。
++
++## 4. 主运行
++
++- 用例 4 个，规格与 T21 完全相同（T21 工作目录 `work/specs/` 下）：
++  `c6__pattern1__C6__W16__0`、`c6__pattern1__C6-M__W16__1`、`c6__pattern1__C6-M__W16__4`、`c6__pattern1__C6-M__W16__16`。
++- 每例上限 7200 秒，同时最多 2 个（与 T21 的 c6 阶段相同）。耗时参考：T21 中这几例在失败前约 1 分钟走完 107–290 次调用（共需约 1202 次）；
++  同为长行的 human_gene1 每例约 22 分钟【推：pattern1 应在此量级以内】。
++- 每例跑完后，按 T21 对 c6 的做法评价同样的 16 个条件（A0 / A1 × {全行 own、全行 D-greedy、τ = 2 / 3 的原位 own、末尾 own、末尾 D-greedy}），
++  同样的不变量检查（行序是排列；D 阶段前后 ΣU、ΣΓ 相等；A0 / A1 窗口集合相同；组大小除末组外全为 16）。
++- `member_params` 在 T21 原有字段之外带上 `alignment_repair`（修补规则、上限、修补次数、挪动点数、最大 |d|、加权割变化合计），
++  `note` 指向新的行序文件与轨迹。
++
++## 5. 失败的处理
++
++| 情况 | 记法 |
++|---|---|
++| 某层 |d| > 8 | `INCOMPLETE`，轨迹状态 `INCOMPLETE_ALIGN_REPAIR_CAP`，保留该层 `*-failed-model.json` |
++| 超时（7200 秒） | `INCOMPLETE`，注明超时 |
++| 其他报错 | `INCOMPLETE`，保留完整 stderr |
++
++都不重试、不换参数；未完成的不得解释为通过（与 T21 相同）。
++
++## 6. 交回内容
++
++新目录 `第一层实验结果/rq2-c6align-YYYYMMDD/`（YYYYMMDD 为运行日期，北京时间），内含：
++
++| 路径 | 内容 |
++|---|---|
++| `results-c6align.csv` | 64 行（4 个用例 × 16 个条件），列与 T21 `results.csv` 完全相同（26 列、同序） |
++| `joint-c6align.csv` | 64 行，列与 T21 `joint.csv` 完全相同（32 列、同序） |
++| `checks/` | 4 个新轨迹 `c6__pattern1__*-bisections.json`（含每次修补的 `align_repair` 记录）、门 1 / 2 / 3 的 json、不变量记录；若有失败，失败现场 |
++| `orders/` | 新行序（`row_perm[新位置] = 原编号`）；合计不超过 20 MiB 则一并交回入库，超过则只留本地并在 README 写明大小与 sha256 |
++| `code/` | 实际运行的 `c6.py`（应与本目录同一 sha256）及调用它的脚本 |
++| `logs/` | 每例的命令、开始 / 结束时间、退出码、stdout / stderr，环境记录（Python、KaHyPar 模块 sha256、配置 sha256） |
++| `README.md` | 一张表：每例的状态、二分调用次数、修补次数、挪动点数、最大 \|d\|、加权割变化合计、划分耗时；门 1 / 2 / 3 结果；与 T21 环境的任何差异 |
++| `SHA256SUMS` | 覆盖本目录全部文件（自身除外） |
++
++**不要改 T21 的 `results.csv`、`joint.csv`、`matrix-method-status.*`**：两份结果的合并由规划方在分析时做
++（按 matrix、diag、member、mnc、W、tau、placement、d_rule 用新行替换那 64 行 INCOMPLETE）。
++
++## 7. 一句话复述（给执行方核对理解）
++
++用本目录的 `c6.py` 重跑 pattern1 上 4 个 C6 / C6-M 用例；先过三道门；每层若 KaHyPar 差 d ≤ 8 个点，就按「挪一个点、加权割增加最少、并列取局部编号最小」
++逐个挪齐，并全部记下来；结果写新目录，不碰 T21 的任何文件，不提交、不推送。
++
++## 8. 本目录文件的 sha256
++
++见包十五的 `pkg15-sha256-after.txt`；应用后可用 `shasum -a 256 第一层工作区/T21补跑-C6对齐修补/*` 核对。
+diff --git "a/\350\256\250\350\256\272\350\256\260\345\275\225/2026-11-06/2026-11-06-0922-C6\345\257\271\351\275\220\344\277\256\350\241\245\344\270\216T21\350\241\245\350\267\221.md" "b/\350\256\250\350\256\272\350\256\260\345\275\225/2026-11-06/2026-11-06-0922-C6\345\257\271\351\275\220\344\277\256\350\241\245\344\270\216T21\350\241\245\350\267\221.md"
+new file mode 100644
+index 0000000..f8e7438
+--- /dev/null
++++ "b/\350\256\250\350\256\272\350\256\260\345\275\225/2026-11-06/2026-11-06-0922-C6\345\257\271\351\275\220\344\277\256\350\241\245\344\270\216T21\350\241\245\350\267\221.md"
+@@ -0,0 +1,72 @@
++# C6 / C6-M 对齐修补与 T21 补跑
++
++日期：2026-11-06（北京时间 17:22；文件名按 UTC）。接 `讨论记录/2026-11-06/2026-11-06-0722-T19更正与四条拍板.md`。
++本轮未在执行环境运行新实验；规划方只在本地用 T21 保存的失败现场做了纯 Python 回放。
++
++---
++
++## 1. 起因
++
++T21（RQ2 验证实验）已跑完并由用户入库（`第一层实验结果/rq2-validate-20261106/`）。规划方入库核验：3097 个文件逐个重算 sha256 全部相符；
++方案 §8 的自检、独立复核、全口径移植门都通过；`results.csv` 4522 行，OK 4306、SKIPPED 152、INCOMPLETE 64。
++
++SKIPPED 都是方案预先登记的排除（D-exact 只做小矩阵、indep-CBM 超对数预算、B-RSH-ref / B-Neutron-ref 待 T4 / T2）。
++INCOMPLETE 的 64 行全部来自 pattern1 上的 4 个用例：
++
++| 用例 | 失败的层（part） | 目标 | KaHyPar 给出 |
++|---|---|---|---|
++| C6（mnc = 0） | 106 | [144, 144] | [145, 143] |
++| C6-M（mnc = 1） | 289 | [48, 32] | [47, 33] |
++| C6-M（mnc = 4） | 271 | [48, 32] | [47, 33] |
++| C6-M（mnc = 16） | 272 | [48, 32] | [49, 31] |
++
++执行方没有手工凑数、没有放宽接受条件，直接记 INCOMPLETE，做法正确。根因在方案：C6 要求每组恰 W 点，
++而 KaHyPar 设 ε = 0 也不保证精确命中目标大小。全是差 1 个顶点。
++
++## 2. 用户决定（2026-11-06）
++
++规划方给了两条路：(1) 在每次二分后加「对齐修补」，写进方案，只补跑这 4 个用例；(2) pattern1 上永久缺 C6 / C6-M。
++两条都不包括放宽 ε 或接受非 W 整数倍的大小（会破坏窗口对齐，C6 的 T 不可比）。
++
++**用户选 (1)**：加对齐修补，出执行方案交其他 agent 执行；规划方同时开始分析 T21。
++
++## 3. 修补规则（已写入方案 §6 J2）
++
++- 命中目标：不做任何事（与修订前同一条代码路径、同样输出）。
++- 差 d 个点、|d| ≤ W/2：从偏大一侧向偏小一侧逐个挪 |d| 个点；每次选在**本层同一个超图**（列网 + 消息网，权重不变）上使加权割增加最少的点；
++  并列取本层局部编号最小者。
++- |d| > W/2：仍记 INCOMPLETE。
++- 每次修补都写进轨迹，每个用例另报修补次数、挪动点数、最大 |d|、加权割变化。
++
++上限取 W/2 的理由：修补只用来收口「差一点」，挪的点数少于半个窗口；差得更多说明划分器本身出了问题，不应由修补掩盖。
++
++为什么只补 pattern1：其余 6 张矩阵的 24 个 C6 / C6-M 用例都是 OK，而旧代码在任何一层未命中时都会中止，所以这些用例每一层都精确命中，
++加上修补后输出不变，不必重跑。补跑说明里另设一道门（cora 上重跑两例，与 T21 逐位相同）来确认这一点。
++
++## 4. 规划方的回放（纯 Python，用 T21 保存的 `*-failed-model.json`）
++
++用改后的 `c6.py` 中的修补函数，与规划方另写的一份独立实现分别回放 4 个失败现场，结果一致：
++
++| 用例 | 挪动的全局顶点 | 加权割 |
++|---|---|---|
++| C6，mnc = 0 | 19204 | 758 → 756 |
++| C6-M，mnc = 1 | 11425 | 806 → 804 |
++| C6-M，mnc = 4 | 546 | 980 → 972 |
++| C6-M，mnc = 16 | 11194 | 1750 → 1718 |
++
++- 回放前先核对：失败现场的标签 sha256 与加权割都与 T21 轨迹记录的相同。
++- 4 处都只挪 1 个点，且加权割都**下降**——KaHyPar 在这几层的输出在单点移动下并非局部最优。
++- 三个 C6-M 用例在最优增量上有并列（mnc = 1、4、16 分别有 7、8、4 个候选点），所以「并列取局部编号最小」这条规则会影响结果，已固定在参考实现里，执行方须原样使用。
++- 这只是失败那一层；补跑时后续各层也可能再触发修补，次数以补跑结果为准。
++
++## 5. 分析时怎么处理
++
++- T21 分析先按「pattern1 缺 C6 / C6-M」进行，补跑回来后用新行替换那 64 行 INCOMPLETE（按 matrix、diag、member、mnc、W、tau、placement、d_rule 对应）。
++- 补跑若仍有 INCOMPLETE（|d| > 8 或超时），对应用例永久按缺失处理，不再改规则。
++- pattern1 上的 C6 / C6-M 在报数时注明「含对齐修补，修补次数 x、挪动点数 y」。§9 的判据不因此改动。
++
++## 6. 产出
++
++- `第一层工作区/RQ2验证实验方案.md`：头部修订说明、§6 J2「对齐修补」。
++- `第一层工作区/T21补跑-C6对齐修补/`：执行说明 `说明.md`、改后的 `c6.py`、`c6.py.diff`、回放检查脚本与预期值。
++- `当前流程与代办列表/代办清单.md`：T21 状态更新。
+-- 
+2.43.0
+

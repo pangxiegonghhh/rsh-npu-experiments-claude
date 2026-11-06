@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "case": "c6__pattern1__C6__W16__0",
+      "mnc": 0,
+      "status": "OK",
+      "bisection_calls": 1202,
+      "rule": "min weighted-cut increase per single-vertex move, oversized->undersized block, ties smallest local index; cap |d|<=W//2",
+      "cap": 8,
+      "calls_repaired": 380,
+      "vertices_moved": 1072,
+      "max_abs_d": 4,
+      "weighted_cut_delta_total": -62,
+      "partition_sec": 89.2727935409639,
+      "wall_sec": 92.81792708300054,
+      "returncode": 0
+    },
+    {
+      "case": "c6__pattern1__C6-M__W16__1",
+      "mnc": 1,
+      "status": "OK",
+      "bisection_calls": 1202,
+      "rule": "min weighted-cut increase per single-vertex move, oversized->undersized block, ties smallest local index; cap |d|<=W//2",
+      "cap": 8,
+      "calls_repaired": 216,
+      "vertices_moved": 501,
+      "max_abs_d": 4,
+      "weighted_cut_delta_total": -786,
+      "partition_sec": 96.9946258328855,
+      "wall_sec": 100.93400079081766,
+      "returncode": 0
+    },
+    {
+      "case": "c6__pattern1__C6-M__W16__4",
+      "mnc": 4,
+      "status": "OK",
+      "bisection_calls": 1202,
+      "rule": "min weighted-cut increase per single-vertex move, oversized->undersized block, ties smallest local index; cap |d|<=W//2",
+      "cap": 8,
+      "calls_repaired": 225,
+      "vertices_moved": 551,
+      "max_abs_d": 4,
+      "weighted_cut_delta_total": -3766,
+      "partition_sec": 97.34140329202637,
+      "wall_sec": 100.69606716604903,
+      "returncode": 0
+    },
+    {
+      "case": "c6__pattern1__C6-M__W16__16",
+      "mnc": 16,
+      "status": "OK",
+      "bisection_calls": 1202,
+      "rule": "min weighted-cut increase per single-vertex move, oversized->undersized block, ties smallest local index; cap |d|<=W//2",
+      "cap": 8,
+      "calls_repaired": 158,
+      "vertices_moved": 298,
+      "max_abs_d": 4,
+      "weighted_cut_delta_total": -10692,
+      "partition_sec": 96.98839966696687,
+      "wall_sec": 100.2074179998599,
+      "returncode": 0
+    }
+  ]
+}
