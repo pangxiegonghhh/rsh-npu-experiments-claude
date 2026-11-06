@@ -1,0 +1,4 @@
+p1__cora__C10-BP__W64 D start 64 None D-greedy
+p1__cora__C10-BP__W64 D done 64 None D-greedy 0.027
+p1__cora__C10-BP__W64 D start 64 3 D-greedy
+p1__cora__C10-BP__W64 D done 64 3 D-greedy 0.011

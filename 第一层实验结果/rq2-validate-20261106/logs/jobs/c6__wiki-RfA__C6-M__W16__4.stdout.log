@@ -1,0 +1,15 @@
+C6 progress 4 1 2
+C6 progress 4 2 3
+C6 progress 4 100 101
+C6 progress 4 200 201
+C6 progress 4 300 301
+C6 progress 4 400 401
+C6 progress 4 500 501
+C6 progress 4 600 601
+C6 progress 4 700 701
+c6__wiki-RfA__C6-M__W16__4 D start 16 None D-greedy
+c6__wiki-RfA__C6-M__W16__4 D done 16 None D-greedy 0.053
+c6__wiki-RfA__C6-M__W16__4 D start 16 2 D-greedy
+c6__wiki-RfA__C6-M__W16__4 D done 16 2 D-greedy 0.037
+c6__wiki-RfA__C6-M__W16__4 D start 16 3 D-greedy
+c6__wiki-RfA__C6-M__W16__4 D done 16 3 D-greedy 0.034

@@ -1,0 +1,8 @@
+LS 2 0.0 0 {'sweep': 0, 'accepted': 360, 'sumU': 4906, 'sumGamma': 1846}
+LS 2 0.0 0 {'sweep': 1, 'accepted': 57, 'sumU': 4844, 'sumGamma': 1792}
+LS 2 0.0 0 {'sweep': 2, 'accepted': 9, 'sumU': 4835, 'sumGamma': 1781}
+LS 2 0.0 0 {'sweep': 3, 'accepted': 10, 'sumU': 4825, 'sumGamma': 1767}
+LS 2 0.0 0 {'sweep': 4, 'accepted': 2, 'sumU': 4823, 'sumGamma': 1765}
+LS 2 0.0 0 {'sweep': 5, 'accepted': 0, 'sumU': 4823, 'sumGamma': 1765}
+p1__cora__P-LS__W16__rsh-α0__2__0.0__0 D start 16 2 D-greedy
+p1__cora__P-LS__W16__rsh-α0__2__0.0__0 D done 16 2 D-greedy 0.008

@@ -1,0 +1,12 @@
+LS 2 0.5 2 {'sweep': 0, 'accepted': 41541, 'sumU': 1217286, 'sumGamma': 563694}
+LS 2 0.5 2 {'sweep': 1, 'accepted': 17276, 'sumU': 1191410, 'sumGamma': 537215}
+LS 2 0.5 2 {'sweep': 2, 'accepted': 8019, 'sumU': 1181730, 'sumGamma': 526009}
+LS 2 0.5 2 {'sweep': 3, 'accepted': 3795, 'sumU': 1177678, 'sumGamma': 521025}
+LS 2 0.5 2 {'sweep': 4, 'accepted': 1950, 'sumU': 1175742, 'sumGamma': 518579}
+LS 2 0.5 2 {'sweep': 5, 'accepted': 1016, 'sumU': 1174765, 'sumGamma': 517057}
+LS 2 0.5 2 {'sweep': 6, 'accepted': 543, 'sumU': 1174171, 'sumGamma': 516470}
+LS 2 0.5 2 {'sweep': 7, 'accepted': 345, 'sumU': 1173841, 'sumGamma': 516000}
+LS 2 0.5 2 {'sweep': 8, 'accepted': 177, 'sumU': 1173668, 'sumGamma': 515756}
+LS 2 0.5 2 {'sweep': 9, 'accepted': 110, 'sumU': 1173522, 'sumGamma': 515556}
+p1__ogbn-arxiv__P-LS__W16__rsh-α0__2__0.5__2 D start 16 2 D-greedy
+p1__ogbn-arxiv__P-LS__W16__rsh-α0__2__0.5__2 D done 16 2 D-greedy 3.23

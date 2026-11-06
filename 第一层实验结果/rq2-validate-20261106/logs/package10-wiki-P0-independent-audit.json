@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "explicit_zeros_retained": 11493,
+  "raw_nnz_A0": 361960,
+  "members": [
+    "rsh-α0",
+    "C10-BP",
+    "C9-S",
+    "B0",
+    "C9-Gorder",
+    "neutron-pilot",
+    "rabbit-pilot"
+  ]
+}

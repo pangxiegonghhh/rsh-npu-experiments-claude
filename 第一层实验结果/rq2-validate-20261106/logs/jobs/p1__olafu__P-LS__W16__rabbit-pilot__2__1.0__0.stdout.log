@@ -1,0 +1,7 @@
+LS 2 1.0 0 {'sweep': 0, 'accepted': 775, 'sumU': 148392, 'sumGamma': 13806}
+LS 2 1.0 0 {'sweep': 1, 'accepted': 58, 'sumU': 148073, 'sumGamma': 13780}
+LS 2 1.0 0 {'sweep': 2, 'accepted': 11, 'sumU': 147992, 'sumGamma': 13766}
+LS 2 1.0 0 {'sweep': 3, 'accepted': 1, 'sumU': 147989, 'sumGamma': 13766}
+LS 2 1.0 0 {'sweep': 4, 'accepted': 0, 'sumU': 147989, 'sumGamma': 13766}
+p1__olafu__P-LS__W16__rabbit-pilot__2__1.0__0 D start 16 2 D-greedy
+p1__olafu__P-LS__W16__rabbit-pilot__2__1.0__0 D done 16 2 D-greedy 0.064

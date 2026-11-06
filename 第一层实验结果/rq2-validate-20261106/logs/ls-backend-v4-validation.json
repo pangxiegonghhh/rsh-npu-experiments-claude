@@ -1,0 +1,1 @@
+{"passed": true, "six_ten_sweep_cases_all_orders_and_counters_exact": true, "change": "Fused exact U/Gamma delta and reusable dense trial scratch arrays; no rule changes."}

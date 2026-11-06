@@ -1,0 +1,58 @@
+[
+  {
+    "case": "c6__pattern1__C6-M__W16__4-bisections",
+    "status": "INCOMPLETE_EXACT_BALANCE",
+    "part_id": 271,
+    "targets": [
+      48,
+      32
+    ],
+    "actual_sizes": [
+      47,
+      33
+    ],
+    "failure": "Exact target sizes not met; no manual rebalance and no relaxed acceptance."
+  },
+  {
+    "case": "c6__pattern1__C6__W16__0-bisections",
+    "status": "INCOMPLETE_EXACT_BALANCE",
+    "part_id": 106,
+    "targets": [
+      144,
+      144
+    ],
+    "actual_sizes": [
+      145,
+      143
+    ],
+    "failure": "Exact target sizes not met; no manual rebalance and no relaxed acceptance."
+  },
+  {
+    "case": "c6__pattern1__C6-M__W16__16-bisections",
+    "status": "INCOMPLETE_EXACT_BALANCE",
+    "part_id": 272,
+    "targets": [
+      48,
+      32
+    ],
+    "actual_sizes": [
+      49,
+      31
+    ],
+    "failure": "Exact target sizes not met; no manual rebalance and no relaxed acceptance."
+  },
+  {
+    "case": "c6__pattern1__C6-M__W16__1-bisections",
+    "status": "INCOMPLETE_EXACT_BALANCE",
+    "part_id": 289,
+    "targets": [
+      48,
+      32
+    ],
+    "actual_sizes": [
+      47,
+      33
+    ],
+    "failure": "Exact target sizes not met; no manual rebalance and no relaxed acceptance."
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "matrix": "cora",
+    "status": "OK",
+    "n": 2708,
+    "stored_entries": 5278,
+    "explicit_zero_entries": 0,
+    "diagonal_entries": 0,
+    "nnz_A0": 10556,
+    "nnz_A1": 13264,
+    "degree_median": 3.0,
+    "degree_mean": 3.8980797636632203,
+    "degree_max": 168,
+    "input_mtx_sha256": "f54431cb38cf0e4b832093889736bf1e3397019b90a186a1c13405038a573856",
+    "source_url": "https://github.com/pangxiegonghhh/rsh-npu-experiments-claude/blob/87594cc9e80e800c77a65988c09f7067b63957be/第一层实验结果/cora-pilot-20261104/neutron-matrices/cora.mtx",
+    "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106/repo/第一层实验结果/cora-pilot-20261104/neutron-matrices/cora.mtx",
+    "source_variant": "original",
+    "reference_only": "",
+    "archive_sha256": "",
+    "archive_member": "derived MTX",
+    "structure": "stored pattern including explicit zeros",
+    "residual_sets": {
+      "2": {
+        "count": 1068,
+        "sha256": "92a42ad8e1d1595a5e7087f7d4e213f3b88ddf2c0d67dd3d93f0e485fbd5c9e7",
+        "fixed_for_both_diag_modes": true
+      },
+      "3": {
+        "count": 1621,
+        "sha256": "8d2bcdd3e777618f204adf520b9b7520546fee747ae8c687ede93f408c5d8eb1",
+        "fixed_for_both_diag_modes": true
+      }
+    }
+  },
+  {
+    "matrix": "wiki-RfA",
+    "status": "OK",
+    "n": 11380,
+    "stored_entries": 188077,
+    "explicit_zero_entries": 11493,
+    "diagonal_entries": 93,
+    "nnz_A0": 361960,
+    "nnz_A1": 373340,
+    "degree_median": 4.0,
+    "degree_mean": 31.806678383128297,
+    "degree_max": 1270,
+    "input_mtx_sha256": "de2a93800a08edb5d3e6289b57b56aa8afd43c37b709306efbceecf137adf005",
+    "source_url": "https://snap.stanford.edu/data/wiki-RfA.txt.gz",
+    "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/wiki-RfA-reconstructed.mtx",
+    "source_variant": "SNAP reconstruction (sorted usernames)",
+    "reference_only": "B0 and P11 sumR/sumU, no comparison with other wiki-RfA numbering",
+    "archive_sha256": "9f522535bda636ed44922ad3f193c70a8a8ee1d4a61f976e96794a60c1adf656",
+    "archive_member": "wiki-RfA/wiki-RfA.mtx",
+    "structure": "stored pattern including explicit zeros",
+    "residual_sets": {
+      "2": {
+        "count": 4736,
+        "sha256": "ea874ed77a2086591899388358b3c3148488e1f34d8358ce923851a6ea5fb12d",
+        "fixed_for_both_diag_modes": true
+      },
+      "3": {
+        "count": 5366,
+        "sha256": "471775158b0117bd30ff521096a684029f1ccd99fc4ab9c51e7febabb0f23642",
+        "fixed_for_both_diag_modes": true
+      }
+    }
+  },
+  {
+    "matrix": "olafu",
+    "status": "OK",
+    "n": 16146,
+    "stored_entries": 515651,
+    "explicit_zero_entries": 0,
+    "diagonal_entries": 16146,
+    "nnz_A0": 999010,
+    "nnz_A1": 1015156,
+    "degree_median": 66.0,
+    "degree_mean": 61.87352904744209,
+    "degree_max": 88,
+    "input_mtx_sha256": "8ff0691051957f7e4c6fb302c3ad026ee526691958d4f1c2c0a5520c8e89a4d5",
+    "source_url": "https://www.cise.ufl.edu/research/sparse/MM/Simon/olafu.tar.gz",
+    "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/olafu.mtx",
+    "source_variant": "original",
+    "reference_only": "",
+    "archive_sha256": "09d31e88be43e3c7f6287cbb3103f133ea06ab0b6dc285dec01df45247cf476c",
+    "archive_member": "olafu/olafu.mtx",
+    "structure": "stored pattern including explicit zeros",
+    "residual_sets": {
+      "2": {
+        "count": 0,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fixed_for_both_diag_modes": true
+      },
+      "3": {
+        "count": 0,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fixed_for_both_diag_modes": true
+      }
+    }
+  },
+  {
+    "matrix": "dawson5",
+    "status": "OK",
+    "n": 51537,
+    "stored_entries": 531157,
+    "explicit_zero_entries": 0,
+    "diagonal_entries": 51537,
+    "nnz_A0": 959240,
+    "nnz_A1": 1010777,
+    "degree_median": 17,
+    "degree_mean": 18.61264722432427,
+    "degree_max": 32,
+    "input_mtx_sha256": "549f0f6076676c622a32a4d622fd5d2dc8d0a0651c22307ca4435c569d94a0d6",
+    "source_url": "https://www.cise.ufl.edu/research/sparse/MM/GHS_indef/dawson5.tar.gz",
+    "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/dawson5.mtx",
+    "source_variant": "original",
+    "reference_only": "",
+    "archive_sha256": "e143f2dd27f38fc19297438579078422e73883edf6b7f01ce27b0b5bf9a53583",
+    "archive_member": "dawson5/dawson5.mtx",
+    "structure": "stored pattern including explicit zeros",
+    "residual_sets": {
+      "2": {
+        "count": 288,
+        "sha256": "d73bb65d60c33aa189edbc406551bef22492625cf53718ac15512b342d401f54",
+        "fixed_for_both_diag_modes": true
+      },
+      "3": {
+        "count": 292,
+        "sha256": "edeab67a71f87609cf2d6b66454bf5d3a46fa081c73588e8009ef6245e06cf52",
+        "fixed_for_both_diag_modes": true
+      }
+    }
+  },
+  {
+    "matrix": "human_gene1",
+    "status": "OK",
+    "n": 22283,
+    "stored_entries": 12345963,
+    "explicit_zero_entries": 0,
+    "diagonal_entries": 22283,
+    "nnz_A0": 24647360,
+    "nnz_A1": 24669643,
+    "degree_median": 536,
+    "degree_mean": 1106.1060000897546,
+    "degree_max": 7938,
+    "input_mtx_sha256": "5c035d8398baf2045367e3d77b12bc367a6f3e4ef9e8e202849de480b0ce120f",
+    "source_url": "https://www.cise.ufl.edu/research/sparse/MM/Belcastro/human_gene1.tar.gz",
+    "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/human_gene1.mtx",
+    "source_variant": "original",
+    "reference_only": "",
+    "archive_sha256": "218b9a683247486d065459e48c8127a162d443bab720d17fb287e5fa12abb121",
+    "archive_member": "human_gene1/human_gene1.mtx",
+    "structure": "stored pattern including explicit zeros",
+    "residual_sets": {
+      "2": {
+        "count": 955,
+        "sha256": "9dc3488a1081d6b4b5718940b8761257189ca8d42a601cf527c365f231578a77",
+        "fixed_for_both_diag_modes": true
+      },
+      "3": {
+        "count": 1094,
+        "sha256": "436fcf357551f75372270b97ccaa7f61253fa0347ff2435aae218e8a81d1cf95",
+        "fixed_for_both_diag_modes": true
+      }
+    }
+  },
+  {
+    "matrix": "pattern1",
+    "status": "OK",
+    "n": 19242,
+    "stored_entries": 4671337,
+    "explicit_zero_entries": 0,
+    "diagonal_entries": 19242,
+    "nnz_A0": 9304190,
+    "nnz_A1": 9323432,
+    "degree_median": 757.0,
+    "degree_mean": 483.5354952707619,
+    "degree_max": 6027,
+    "input_mtx_sha256": "62e04b81ff10bca38216a8f31235085673f018e6fa055c672b6fdae6ddd92ae1",
+    "source_url": "https://www.cise.ufl.edu/research/sparse/MM/Andrianov/pattern1.tar.gz",
+    "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/pattern1.mtx",
+    "source_variant": "original",
+    "reference_only": "",
+    "archive_sha256": "4abbac94dd6e820b9256dec9c45422df31a7c79e0e1886a8f09f80811ed3936d",
+    "archive_member": "pattern1/pattern1.mtx",
+    "structure": "stored pattern including explicit zeros",
+    "residual_sets": {
+      "2": {
+        "count": 0,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fixed_for_both_diag_modes": true
+      },
+      "3": {
+        "count": 0,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fixed_for_both_diag_modes": true
+      }
+    }
+  },
+  {
+    "matrix": "ogbn-arxiv",
+    "status": "OK",
+    "n": 169343,
+    "stored_entries": 1166243,
+    "explicit_zero_entries": 0,
+    "diagonal_entries": 0,
+    "nnz_A0": 2315598,
+    "nnz_A1": 2484941,
+    "degree_median": 6,
+    "degree_mean": 13.674010735607613,
+    "degree_max": 13161,
+    "input_mtx_sha256": "c80df13aa49c918bc4daf8634d0458910ad0be0bfd8be634038bf03b566de108",
+    "source_url": "https://snap.stanford.edu/ogb/data/nodeproppred/arxiv.zip",
+    "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/ogbn-arxiv.mtx",
+    "source_variant": "original",
+    "reference_only": "",
+    "archive_sha256": "",
+    "archive_member": "derived MTX",
+    "structure": "stored pattern including explicit zeros",
+    "residual_sets": {
+      "2": {
+        "count": 39126,
+        "sha256": "a98b57f28e1bdfdfb1df0550595a9b321d6dafed82c452c3d615bac8b89875da",
+        "fixed_for_both_diag_modes": true
+      },
+      "3": {
+        "count": 54353,
+        "sha256": "37cdbd248705c3b58a31f5db8795b9ec5f6ffa49a9bd7d4053173b8659aa7942",
+        "fixed_for_both_diag_modes": true
+      }
+    }
+  }
+]

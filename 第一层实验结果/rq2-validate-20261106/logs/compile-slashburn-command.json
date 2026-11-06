@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "clang++",
+    "-std=c++17",
+    "-O3",
+    "-ffp-contract=off",
+    "-dynamiclib",
+    "scripts/slashburn.cpp",
+    "-o",
+    "work/libslashburn.dylib"
+  ],
+  "changes": "Exact same SlashBurn degree/hub/component/DFS/back-stack/final-tie behavior; no heuristic changes."
+}

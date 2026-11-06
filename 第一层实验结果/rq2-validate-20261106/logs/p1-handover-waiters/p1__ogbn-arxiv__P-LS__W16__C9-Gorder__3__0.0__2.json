@@ -1,0 +1,1 @@
+{"pid":91606,"spec":{"matrix":"ogbn-arxiv","member":"P-LS","kind":"ls","W":16,"start":"C9-Gorder","tau":3,"lambda":0.0,"seed":2,"key":"p1__ogbn-arxiv__P-LS__W16__C9-Gorder__3__0.0__2"},"status":"WAITING_BEFORE_INPUT_OR_COMPUTATION"}

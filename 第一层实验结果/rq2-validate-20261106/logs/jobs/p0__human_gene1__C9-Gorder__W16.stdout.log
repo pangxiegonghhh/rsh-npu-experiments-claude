@@ -1,0 +1,12 @@
+p0__human_gene1__C9-Gorder__W16 D start 16 None D-greedy
+p0__human_gene1__C9-Gorder__W16 D done 16 None D-greedy 2.747
+p0__human_gene1__C9-Gorder__W16 D start 16 None D-exact
+p0__human_gene1__C9-Gorder__W16 D done 16 None D-exact 12.649
+p0__human_gene1__C9-Gorder__W16 D start 16 2 D-greedy
+p0__human_gene1__C9-Gorder__W16 D done 16 2 D-greedy 2.804
+p0__human_gene1__C9-Gorder__W16 D start 16 2 D-exact
+p0__human_gene1__C9-Gorder__W16 D done 16 2 D-exact 10.387
+p0__human_gene1__C9-Gorder__W16 D start 16 3 D-greedy
+p0__human_gene1__C9-Gorder__W16 D done 16 3 D-greedy 1.665
+p0__human_gene1__C9-Gorder__W16 D start 16 3 D-exact
+p0__human_gene1__C9-Gorder__W16 D done 16 3 D-exact 12.635

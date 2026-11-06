@@ -1,0 +1,12 @@
+LS 3 2.0 0 {'sweep': 0, 'accepted': 1651, 'sumU': 156313, 'sumGamma': 40535}
+LS 3 2.0 0 {'sweep': 1, 'accepted': 756, 'sumU': 153777, 'sumGamma': 39135}
+LS 3 2.0 0 {'sweep': 2, 'accepted': 498, 'sumU': 152565, 'sumGamma': 38241}
+LS 3 2.0 0 {'sweep': 3, 'accepted': 283, 'sumU': 151844, 'sumGamma': 37918}
+LS 3 2.0 0 {'sweep': 4, 'accepted': 170, 'sumU': 151500, 'sumGamma': 37672}
+LS 3 2.0 0 {'sweep': 5, 'accepted': 120, 'sumU': 151322, 'sumGamma': 37502}
+LS 3 2.0 0 {'sweep': 6, 'accepted': 75, 'sumU': 151228, 'sumGamma': 37403}
+LS 3 2.0 0 {'sweep': 7, 'accepted': 79, 'sumU': 151043, 'sumGamma': 37315}
+LS 3 2.0 0 {'sweep': 8, 'accepted': 47, 'sumU': 150940, 'sumGamma': 37259}
+LS 3 2.0 0 {'sweep': 9, 'accepted': 27, 'sumU': 150905, 'sumGamma': 37218}
+p1__wiki-RfA__P-LS__W16__rsh-α0__3__2.0__0 D start 16 3 D-greedy
+p1__wiki-RfA__P-LS__W16__rsh-α0__3__2.0__0 D done 16 3 D-greedy 0.049

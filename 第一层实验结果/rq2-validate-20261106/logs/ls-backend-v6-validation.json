@@ -1,0 +1,1 @@
+{"passed": true, "dense_and_sparse_modes": true, "cases_per_mode": 6, "sweeps_max": 10, "orders_all_sweep_counters_and_accepts_exact": true, "change": "Column presence/singleton bitsets answer exact 0/1/>1 count queries in trial deltas; accepted-swap count maintenance unchanged."}

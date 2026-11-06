@@ -1,0 +1,26 @@
+[
+  {
+    "path": "第一层工作区/RQ2验证实验方案.md",
+    "expected": "9b70bc067c5854ab8daec155ae8f1efb550d7955c821b9972d91cce8a8cbccb4",
+    "actual": "72b3a247b3dac9d1b887d62409a99a8ea897c42f4f9f03d2bde1753dd17d9aec",
+    "match": false
+  },
+  {
+    "path": "第一层工作区/T17-空白一试算脚本/methods.py",
+    "expected": "a70f3f3295b2a99542debe498cd79e2519c4fb74fcc872358aea32689a486641",
+    "actual": "59f24c353747670bc7be72377ea735c21c026eb64e42a3fd918064628c4ea9fb",
+    "match": false
+  },
+  {
+    "path": "第一层工作区/T17-空白一试算脚本/reproduce_cora.py",
+    "expected": "386e318331c7fc3c00015c24e3ca0e2c3d2b9170d86cc69e47f0ef37726aa280",
+    "actual": "5bbd54d58cf4efd8a302cfa9193532356c15a3e8b93c225c17c8a212bf79373c",
+    "match": false
+  },
+  {
+    "path": "第一层工作区/T17-空白一调研.md",
+    "expected": "105233bc0eb46560d0afd0dfa65e36b4ac8057e2902e08878c32e2975f6961ab",
+    "actual": "c653e392df470df4eb28a1d115eca55a811a1c635911984eff66a8b49ff4d2a5",
+    "match": false
+  }
+]

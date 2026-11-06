@@ -1,0 +1,9 @@
+scripts/accelerate-v6.cpp:43:280: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+   43 |   for(int root=0;root<n;root++)if(!seen[root]){vector<int> stack{root},comp;seen[root]=1;while(!stack.empty()){int v=stack.back();stack.pop_back();comp.push_back(v);for(auto [u,w]:edges[v])if(!seen[u]){seen[u]=1;stack.push_back(u);}}sort(comp.begin(),comp.end());comps.push_back(move(comp));}
+      |                                                                                                                                                                                                                                                                                        ^
+      |                                                                                                                                                                                                                                                                                        std::
+scripts/accelerate-v6.cpp:51:134: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+   51 |   vector<int> noniso,iso;for(int v:out)if(edges[v].empty())iso.push_back(v);else noniso.push_back(v);sort(iso.begin(),iso.end());out=move(noniso);out.insert(out.end(),iso.begin(),iso.end());
+      |                                                                                                                                      ^
+      |                                                                                                                                      std::
+2 warnings generated.

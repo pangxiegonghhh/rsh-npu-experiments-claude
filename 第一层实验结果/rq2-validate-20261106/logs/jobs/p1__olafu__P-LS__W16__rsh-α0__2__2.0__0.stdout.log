@@ -1,0 +1,7 @@
+LS 2 2.0 0 {'sweep': 0, 'accepted': 639, 'sumU': 133443, 'sumGamma': 13980}
+LS 2 2.0 0 {'sweep': 1, 'accepted': 105, 'sumU': 132694, 'sumGamma': 13900}
+LS 2 2.0 0 {'sweep': 2, 'accepted': 23, 'sumU': 132556, 'sumGamma': 13884}
+LS 2 2.0 0 {'sweep': 3, 'accepted': 2, 'sumU': 132546, 'sumGamma': 13884}
+LS 2 2.0 0 {'sweep': 4, 'accepted': 0, 'sumU': 132546, 'sumGamma': 13884}
+p1__olafu__P-LS__W16__rsh-α0__2__2.0__0 D start 16 2 D-greedy
+p1__olafu__P-LS__W16__rsh-α0__2__2.0__0 D done 16 2 D-greedy 0.063

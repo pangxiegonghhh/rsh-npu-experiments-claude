@@ -1,0 +1,14 @@
+LS None 2.0 0 {'sweep': 0, 'accepted': 1206, 'sumU': 6482, 'sumGamma': 2319}
+LS None 2.0 0 {'sweep': 1, 'accepted': 452, 'sumU': 6191, 'sumGamma': 1975}
+LS None 2.0 0 {'sweep': 2, 'accepted': 179, 'sumU': 6066, 'sumGamma': 1865}
+LS None 2.0 0 {'sweep': 3, 'accepted': 91, 'sumU': 6027, 'sumGamma': 1809}
+LS None 2.0 0 {'sweep': 4, 'accepted': 50, 'sumU': 6010, 'sumGamma': 1782}
+LS None 2.0 0 {'sweep': 5, 'accepted': 25, 'sumU': 5991, 'sumGamma': 1770}
+LS None 2.0 0 {'sweep': 6, 'accepted': 7, 'sumU': 5992, 'sumGamma': 1762}
+LS None 2.0 0 {'sweep': 7, 'accepted': 0, 'sumU': 5992, 'sumGamma': 1762}
+p1__cora__P-LS-full-control__W16__rabbit-pilot__None__2.0__0 D start 16 None D-greedy
+p1__cora__P-LS-full-control__W16__rabbit-pilot__None__2.0__0 D done 16 None D-greedy 0.011
+p1__cora__P-LS-full-control__W16__rabbit-pilot__None__2.0__0 D start 16 2 D-greedy
+p1__cora__P-LS-full-control__W16__rabbit-pilot__None__2.0__0 D done 16 2 D-greedy 0.007
+p1__cora__P-LS-full-control__W16__rabbit-pilot__None__2.0__0 D start 16 3 D-greedy
+p1__cora__P-LS-full-control__W16__rabbit-pilot__None__2.0__0 D done 16 3 D-greedy 0.005

@@ -1,0 +1,14 @@
+{
+  "old_run": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106",
+  "removed_generated_items": [
+    "task_plan.md",
+    "deliverables",
+    "logs",
+    "work",
+    "t21-rq2-20261106-selfcheck-failed.tar.gz",
+    "t21-rq2-20261106-selfcheck-failed.tar.gz.sha256",
+    "notes.md"
+  ],
+  "checkout_preserved": true,
+  "old_selfcheck_reused": false
+}

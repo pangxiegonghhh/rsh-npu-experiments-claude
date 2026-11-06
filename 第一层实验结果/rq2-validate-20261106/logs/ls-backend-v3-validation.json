@@ -1,0 +1,1 @@
+{"passed": true, "cases": 6, "same_all_sweep_counters_accepts_and_final_permutations": true, "changes": "Exact delta trial evaluation, dense block counts, bitset owner-swap calculation, incrementally maintained overlap scores; objective and candidate rules unchanged."}

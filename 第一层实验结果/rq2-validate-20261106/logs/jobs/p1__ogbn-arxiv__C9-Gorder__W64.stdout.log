@@ -1,0 +1,4 @@
+p1__ogbn-arxiv__C9-Gorder__W64 D start 64 None D-greedy
+p1__ogbn-arxiv__C9-Gorder__W64 D done 64 None D-greedy 2.79
+p1__ogbn-arxiv__C9-Gorder__W64 D start 64 3 D-greedy
+p1__ogbn-arxiv__C9-Gorder__W64 D done 64 3 D-greedy 2.609

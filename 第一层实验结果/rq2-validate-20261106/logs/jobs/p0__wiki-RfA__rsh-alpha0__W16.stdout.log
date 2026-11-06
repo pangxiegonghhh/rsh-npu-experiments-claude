@@ -1,0 +1,12 @@
+p0__wiki-RfA__rsh-alpha0__W16 D start 16 None D-greedy
+p0__wiki-RfA__rsh-alpha0__W16 D done 16 None D-greedy 0.047
+p0__wiki-RfA__rsh-alpha0__W16 D start 16 None D-exact
+p0__wiki-RfA__rsh-alpha0__W16 D done 16 None D-exact 2.915
+p0__wiki-RfA__rsh-alpha0__W16 D start 16 2 D-greedy
+p0__wiki-RfA__rsh-alpha0__W16 D done 16 2 D-greedy 0.037
+p0__wiki-RfA__rsh-alpha0__W16 D start 16 2 D-exact
+p0__wiki-RfA__rsh-alpha0__W16 D done 16 2 D-exact 2.073
+p0__wiki-RfA__rsh-alpha0__W16 D start 16 3 D-greedy
+p0__wiki-RfA__rsh-alpha0__W16 D done 16 3 D-greedy 0.033
+p0__wiki-RfA__rsh-alpha0__W16 D start 16 3 D-exact
+p0__wiki-RfA__rsh-alpha0__W16 D done 16 3 D-exact 2.015

@@ -1,0 +1,12 @@
+p0__dawson5__neutron-pilot__W16 D start 16 None D-greedy
+p0__dawson5__neutron-pilot__W16 D done 16 None D-greedy 0.1
+p0__dawson5__neutron-pilot__W16 D start 16 None D-exact
+p0__dawson5__neutron-pilot__W16 D done 16 None D-exact 95.138
+p0__dawson5__neutron-pilot__W16 D start 16 2 D-greedy
+p0__dawson5__neutron-pilot__W16 D done 16 2 D-greedy 0.111
+p0__dawson5__neutron-pilot__W16 D start 16 2 D-exact
+p0__dawson5__neutron-pilot__W16 D done 16 2 D-exact 91.771
+p0__dawson5__neutron-pilot__W16 D start 16 3 D-greedy
+p0__dawson5__neutron-pilot__W16 D done 16 3 D-greedy 0.098
+p0__dawson5__neutron-pilot__W16 D start 16 3 D-exact
+p0__dawson5__neutron-pilot__W16 D done 16 3 D-exact 90.264

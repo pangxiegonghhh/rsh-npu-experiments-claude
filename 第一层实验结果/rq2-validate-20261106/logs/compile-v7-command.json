@@ -1,0 +1,1 @@
+{"argv": ["clang++", "-std=c++17", "-O3", "-mcpu=native", "-ffp-contract=off", "-dynamiclib", "scripts/accelerate-v7.cpp", "-o", "work/librq2-v7-candidate.dylib"], "change": "Force scratch-delta lambdas inline, native CPU code generation, no algorithm changes."}

@@ -1,0 +1,16 @@
+LS None 0.0 0 {'sweep': 0, 'accepted': 34646, 'sumU': 1248563, 'sumGamma': 599518}
+LS None 0.0 0 {'sweep': 1, 'accepted': 11113, 'sumU': 1227393, 'sumGamma': 584969}
+LS None 0.0 0 {'sweep': 2, 'accepted': 4094, 'sumU': 1220318, 'sumGamma': 579490}
+LS None 0.0 0 {'sweep': 3, 'accepted': 1677, 'sumU': 1217528, 'sumGamma': 577473}
+LS None 0.0 0 {'sweep': 4, 'accepted': 817, 'sumU': 1216254, 'sumGamma': 576281}
+LS None 0.0 0 {'sweep': 5, 'accepted': 348, 'sumU': 1215705, 'sumGamma': 575797}
+LS None 0.0 0 {'sweep': 6, 'accepted': 163, 'sumU': 1215452, 'sumGamma': 575575}
+LS None 0.0 0 {'sweep': 7, 'accepted': 61, 'sumU': 1215361, 'sumGamma': 575489}
+LS None 0.0 0 {'sweep': 8, 'accepted': 54, 'sumU': 1215284, 'sumGamma': 575428}
+LS None 0.0 0 {'sweep': 9, 'accepted': 23, 'sumU': 1215249, 'sumGamma': 575408}
+p1__ogbn-arxiv__P-LS-full-control__W16__C9-Gorder__None__0.0__0 D start 16 None D-greedy
+p1__ogbn-arxiv__P-LS-full-control__W16__C9-Gorder__None__0.0__0 D done 16 None D-greedy 3.633
+p1__ogbn-arxiv__P-LS-full-control__W16__C9-Gorder__None__0.0__0 D start 16 2 D-greedy
+p1__ogbn-arxiv__P-LS-full-control__W16__C9-Gorder__None__0.0__0 D done 16 2 D-greedy 3.594
+p1__ogbn-arxiv__P-LS-full-control__W16__C9-Gorder__None__0.0__0 D start 16 3 D-greedy
+p1__ogbn-arxiv__P-LS-full-control__W16__C9-Gorder__None__0.0__0 D done 16 3 D-greedy 3.353

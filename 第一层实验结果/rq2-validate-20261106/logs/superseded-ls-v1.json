@@ -1,0 +1,38 @@
+[
+  {
+    "key": "p1__ogbn-arxiv__P-LS__W16__C9-Gorder__2__0.0__0",
+    "pid": 47393,
+    "spec": {
+      "matrix": "ogbn-arxiv",
+      "member": "P-LS",
+      "kind": "ls",
+      "W": 16,
+      "start": "C9-Gorder",
+      "tau": 2,
+      "lambda": 0.0,
+      "seed": 0,
+      "key": "p1__ogbn-arxiv__P-LS__W16__C9-Gorder__2__0.0__0"
+    },
+    "status": "INCOMPLETE_SUPERSEDED",
+    "reason": "V1 trial stopped before completing; exact-delta V2 passed six 10-sweep differential cases and full Table A. Same case will be rerun with V2; original logs retained.",
+    "at_utc": "2026-11-05T17:07:36.525226+00:00"
+  },
+  {
+    "key": "p1__ogbn-arxiv__P-LS__W16__C9-Gorder__2__0.0__1",
+    "pid": 48046,
+    "spec": {
+      "matrix": "ogbn-arxiv",
+      "member": "P-LS",
+      "kind": "ls",
+      "W": 16,
+      "start": "C9-Gorder",
+      "tau": 2,
+      "lambda": 0.0,
+      "seed": 1,
+      "key": "p1__ogbn-arxiv__P-LS__W16__C9-Gorder__2__0.0__1"
+    },
+    "status": "INCOMPLETE_SUPERSEDED",
+    "reason": "V1 trial stopped before completing; exact-delta V2 passed six 10-sweep differential cases and full Table A. Same case will be rerun with V2; original logs retained.",
+    "at_utc": "2026-11-05T17:07:36.535142+00:00"
+  }
+]

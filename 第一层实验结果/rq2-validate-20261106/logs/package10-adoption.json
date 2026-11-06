@@ -1,0 +1,14 @@
+{
+  "commit": "87594cc9e80e800c77a65988c09f7067b63957be",
+  "tree": "f8025fa031f1a56906de58e21ec730f6b6666293",
+  "Cora_arxiv_reused": true,
+  "reason": "Both have zero explicit zeros. Their completed calculations are identical under new structural convention. User explicitly says no rerun.",
+  "four_UF_originals_explicit_zeros": {
+    "dawson5": 0,
+    "olafu": 0,
+    "pattern1": 0,
+    "human_gene1": 0
+  },
+  "wiki": "canonical protocol label now uses delivered SNAP reconstruction; explicit zeros retained; pre-package-ten alias mapped transparently, not numerically changed.",
+  "old_sources_preserved": "source-baselines/fd1fc09"
+}

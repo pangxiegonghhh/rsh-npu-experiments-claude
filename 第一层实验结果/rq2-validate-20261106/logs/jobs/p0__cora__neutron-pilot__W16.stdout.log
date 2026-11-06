@@ -1,0 +1,12 @@
+p0__cora__neutron-pilot__W16 D start 16 None D-greedy
+p0__cora__neutron-pilot__W16 D done 16 None D-greedy 0.013
+p0__cora__neutron-pilot__W16 D start 16 None D-exact
+p0__cora__neutron-pilot__W16 D done 16 None D-exact 4.736
+p0__cora__neutron-pilot__W16 D start 16 2 D-greedy
+p0__cora__neutron-pilot__W16 D done 16 2 D-greedy 0.01
+p0__cora__neutron-pilot__W16 D start 16 2 D-exact
+p0__cora__neutron-pilot__W16 D done 16 2 D-exact 2.829
+p0__cora__neutron-pilot__W16 D start 16 3 D-greedy
+p0__cora__neutron-pilot__W16 D done 16 3 D-greedy 0.005
+p0__cora__neutron-pilot__W16 D start 16 3 D-exact
+p0__cora__neutron-pilot__W16 D done 16 3 D-exact 1.899

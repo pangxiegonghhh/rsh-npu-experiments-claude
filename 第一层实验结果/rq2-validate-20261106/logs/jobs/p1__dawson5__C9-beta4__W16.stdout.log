@@ -1,0 +1,12 @@
+p1__dawson5__C9-beta4__W16 D start 16 None D-greedy
+p1__dawson5__C9-beta4__W16 D done 16 None D-greedy 0.093
+p1__dawson5__C9-beta4__W16 D start 16 None D-exact
+p1__dawson5__C9-beta4__W16 D done 16 None D-exact 13.019
+p1__dawson5__C9-beta4__W16 D start 16 2 D-greedy
+p1__dawson5__C9-beta4__W16 D done 16 2 D-greedy 0.101
+p1__dawson5__C9-beta4__W16 D start 16 2 D-exact
+p1__dawson5__C9-beta4__W16 D done 16 2 D-exact 13.017
+p1__dawson5__C9-beta4__W16 D start 16 3 D-greedy
+p1__dawson5__C9-beta4__W16 D done 16 3 D-greedy 0.098
+p1__dawson5__C9-beta4__W16 D start 16 3 D-exact
+p1__dawson5__C9-beta4__W16 D done 16 3 D-exact 12.711

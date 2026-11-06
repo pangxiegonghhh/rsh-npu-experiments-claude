@@ -1,0 +1,1 @@
+{"argv": ["clang++", "-std=c++17", "-O3", "-mcpu=native", "-ffp-contract=off", "-dynamiclib", "scripts/accelerate-v8.cpp", "-o", "work/librq2-v8-candidate.dylib"], "change": "Exact 0/1/>1 count flags laid out by group and column for locality; trial rules unchanged."}

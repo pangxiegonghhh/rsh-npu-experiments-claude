@@ -1,0 +1,12 @@
+LS 3 0.5 0 {'sweep': 0, 'accepted': 2121, 'sumU': 190520, 'sumGamma': 58552}
+LS 3 0.5 0 {'sweep': 1, 'accepted': 1434, 'sumU': 179991, 'sumGamma': 55540}
+LS 3 0.5 0 {'sweep': 2, 'accepted': 852, 'sumU': 174910, 'sumGamma': 53417}
+LS 3 0.5 0 {'sweep': 3, 'accepted': 491, 'sumU': 172354, 'sumGamma': 52520}
+LS 3 0.5 0 {'sweep': 4, 'accepted': 313, 'sumU': 171070, 'sumGamma': 51992}
+LS 3 0.5 0 {'sweep': 5, 'accepted': 170, 'sumU': 170453, 'sumGamma': 51666}
+LS 3 0.5 0 {'sweep': 6, 'accepted': 116, 'sumU': 170033, 'sumGamma': 51428}
+LS 3 0.5 0 {'sweep': 7, 'accepted': 91, 'sumU': 169690, 'sumGamma': 51291}
+LS 3 0.5 0 {'sweep': 8, 'accepted': 64, 'sumU': 169442, 'sumGamma': 51240}
+LS 3 0.5 0 {'sweep': 9, 'accepted': 55, 'sumU': 169188, 'sumGamma': 51091}
+p1__wiki-RfA__P-LS__W16__rabbit-pilot__3__0.5__0 D start 16 3 D-greedy
+p1__wiki-RfA__P-LS__W16__rabbit-pilot__3__0.5__0 D done 16 3 D-greedy 0.037

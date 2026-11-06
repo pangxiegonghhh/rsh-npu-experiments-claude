@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "python3",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106/repo/第一层工作区/T17-空白一试算脚本/reproduce_cora.py"
+  ],
+  "cwd": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/work/selfcheck",
+  "cwd_initially_empty": true,
+  "start": "2026-11-05T16:37:44.298089+00:00",
+  "head": "fd1fc09253b086daf394aa6e9c921faa59ae7569"
+}

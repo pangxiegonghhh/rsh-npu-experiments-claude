@@ -1,0 +1,16 @@
+START p0 jobs 14
+DONE p0__cora__B0__W16 0 9.52
+DONE p0__cora__rsh-alpha0__W16 0 9.53
+DONE p0__cora__neutron-pilot__W16 0 9.76
+DONE p0__cora__rabbit-pilot__W16 0 9.77
+DONE p0__cora__C9-Gorder__W16 0 9.38
+DONE p0__cora__C9-S__W16 0 9.45
+DONE p0__cora__C10-BP__W16 0 9.57
+DONE p0__ogbn-arxiv__B0__W16 0 27.28
+DONE p0__ogbn-arxiv__rsh-alpha0__W16 0 33.35
+DONE p0__ogbn-arxiv__rabbit-pilot__W16 0 43.86
+DONE p0__ogbn-arxiv__neutron-pilot__W16 0 43.31
+DONE p0__ogbn-arxiv__C9-Gorder__W16 0 88.95
+DONE p0__ogbn-arxiv__C9-S__W16 0 89.83
+DONE p0__ogbn-arxiv__C10-BP__W16 0 45.73
+STAGE FINISHED p0

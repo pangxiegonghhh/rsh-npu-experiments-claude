@@ -1,0 +1,5 @@
+C6 progress 0 1 2
+C6 progress 0 2 3
+C6 progress 4 1 2
+C6 progress 4 2 3
+C6 exact-size fixture validation passed.

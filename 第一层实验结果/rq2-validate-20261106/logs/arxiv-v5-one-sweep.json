@@ -1,0 +1,1 @@
+{"passed":true,"same_reference_first_sweep_counters_and_accepted":true,"expected":{"sweep":0,"accepted":39670,"sumU":1250825,"sumGamma":548589},"actual":{"sweep":0,"accepted":39670,"sumU":1250825,"sumGamma":548589},"elapsed_sec":130.16660570795648}

@@ -1,0 +1,4 @@
+p1__ogbn-arxiv__C9-Gorder__W32 D start 32 None D-greedy
+p1__ogbn-arxiv__C9-Gorder__W32 D done 32 None D-greedy 2.961
+p1__ogbn-arxiv__C9-Gorder__W32 D start 32 3 D-greedy
+p1__ogbn-arxiv__C9-Gorder__W32 D done 32 3 D-greedy 2.521

@@ -1,0 +1,4 @@
+p1__ogbn-arxiv__rsh-alpha0__W128 D start 128 None D-greedy
+p1__ogbn-arxiv__rsh-alpha0__W128 D done 128 None D-greedy 8.424
+p1__ogbn-arxiv__rsh-alpha0__W128 D start 128 3 D-greedy
+p1__ogbn-arxiv__rsh-alpha0__W128 D done 128 3 D-greedy 4.084

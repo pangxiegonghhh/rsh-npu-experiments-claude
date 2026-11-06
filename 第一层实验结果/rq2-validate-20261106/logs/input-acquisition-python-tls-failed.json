@@ -1,0 +1,57 @@
+[
+  {
+    "matrix": "cora",
+    "status": "OK",
+    "mtx": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106/repo/第一层实验结果/cora-pilot-20261104/neutron-matrices/cora.mtx",
+    "mtx_sha256": "f54431cb38cf0e4b832093889736bf1e3397019b90a186a1c13405038a573856",
+    "source": "exact repository file"
+  },
+  {
+    "matrix": "dawson5",
+    "url": "https://sparse.tamu.edu/MM/GHS_indef/dawson5.tar.gz",
+    "started_utc": "2026-11-05T16:41:32.785987+00:00",
+    "status": "INCOMPLETE",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+    "download_sec": 1.2207236248068511
+  },
+  {
+    "matrix": "olafu",
+    "url": "https://sparse.tamu.edu/MM/Simon/olafu.tar.gz",
+    "started_utc": "2026-11-05T16:41:32.786088+00:00",
+    "status": "INCOMPLETE",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+    "download_sec": 1.2208382079843432
+  },
+  {
+    "matrix": "wiki-RfA",
+    "url": "https://sparse.tamu.edu/MM/SNAP/wiki-RfA.tar.gz",
+    "started_utc": "2026-11-05T16:41:32.785572+00:00",
+    "status": "INCOMPLETE",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+    "download_sec": 1.227443166077137
+  },
+  {
+    "matrix": "ogbn-arxiv",
+    "url": "https://snap.stanford.edu/ogb/data/nodeproppred/arxiv.zip",
+    "started_utc": "2026-11-05T16:41:34.013196+00:00",
+    "status": "INCOMPLETE",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>",
+    "download_sec": 0.42093699984252453
+  },
+  {
+    "matrix": "human_gene1",
+    "url": "https://sparse.tamu.edu/MM/Belcastro/human_gene1.tar.gz",
+    "started_utc": "2026-11-05T16:41:34.006948+00:00",
+    "status": "INCOMPLETE",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+    "download_sec": 0.4878216669894755
+  },
+  {
+    "matrix": "pattern1",
+    "url": "https://sparse.tamu.edu/MM/Andrianov/pattern1.tar.gz",
+    "started_utc": "2026-11-05T16:41:34.006782+00:00",
+    "status": "INCOMPLETE",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+    "download_sec": 0.5373079578857869
+  }
+]

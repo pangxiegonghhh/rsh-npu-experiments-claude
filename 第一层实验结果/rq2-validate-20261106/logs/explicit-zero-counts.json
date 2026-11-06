@@ -1,0 +1,65 @@
+[
+  {
+    "matrix": "cora",
+    "n": 2708,
+    "stored_entries": 5278,
+    "declared_entries": 5278,
+    "explicit_zero_stored_entries": 0,
+    "explicit_zero_diagonal_entries": 0,
+    "sha256": "f54431cb38cf0e4b832093889736bf1e3397019b90a186a1c13405038a573856"
+  },
+  {
+    "matrix": "ogbn-arxiv",
+    "n": 169343,
+    "stored_entries": 1166243,
+    "declared_entries": 1166243,
+    "explicit_zero_stored_entries": 0,
+    "explicit_zero_diagonal_entries": 0,
+    "sha256": "c80df13aa49c918bc4daf8634d0458910ad0be0bfd8be634038bf03b566de108"
+  },
+  {
+    "matrix": "dawson5",
+    "n": 51537,
+    "stored_entries": 531157,
+    "declared_entries": 531157,
+    "explicit_zero_stored_entries": 0,
+    "explicit_zero_diagonal_entries": 0,
+    "sha256": "549f0f6076676c622a32a4d622fd5d2dc8d0a0651c22307ca4435c569d94a0d6"
+  },
+  {
+    "matrix": "olafu",
+    "n": 16146,
+    "stored_entries": 515651,
+    "declared_entries": 515651,
+    "explicit_zero_stored_entries": 0,
+    "explicit_zero_diagonal_entries": 0,
+    "sha256": "8ff0691051957f7e4c6fb302c3ad026ee526691958d4f1c2c0a5520c8e89a4d5"
+  },
+  {
+    "matrix": "pattern1",
+    "n": 19242,
+    "stored_entries": 4671337,
+    "declared_entries": 4671337,
+    "explicit_zero_stored_entries": 0,
+    "explicit_zero_diagonal_entries": 0,
+    "sha256": "62e04b81ff10bca38216a8f31235085673f018e6fa055c672b6fdae6ddd92ae1"
+  },
+  {
+    "matrix": "human_gene1",
+    "n": 22283,
+    "stored_entries": 12345963,
+    "declared_entries": 12345963,
+    "explicit_zero_stored_entries": 0,
+    "explicit_zero_diagonal_entries": 0,
+    "sha256": "5c035d8398baf2045367e3d77b12bc367a6f3e4ef9e8e202849de480b0ce120f"
+  },
+  {
+    "matrix": "wiki-RfA-reconstructed",
+    "n": 11380,
+    "stored_entries": 188077,
+    "declared_entries": 188077,
+    "explicit_zero_stored_entries": 11493,
+    "explicit_zero_diagonal_entries": 14,
+    "sha256": "de2a93800a08edb5d3e6289b57b56aa8afd43c37b709306efbceecf137adf005"
+  }
+]

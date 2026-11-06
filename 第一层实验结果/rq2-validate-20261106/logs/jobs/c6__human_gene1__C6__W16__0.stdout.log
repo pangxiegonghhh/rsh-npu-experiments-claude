@@ -1,0 +1,21 @@
+C6 progress 0 1 2
+C6 progress 0 2 3
+C6 progress 0 100 101
+C6 progress 0 200 201
+C6 progress 0 300 301
+C6 progress 0 400 401
+C6 progress 0 500 501
+C6 progress 0 600 601
+C6 progress 0 700 701
+C6 progress 0 800 801
+C6 progress 0 900 901
+C6 progress 0 1000 1001
+C6 progress 0 1100 1101
+C6 progress 0 1200 1201
+C6 progress 0 1300 1301
+c6__human_gene1__C6__W16__0 D start 16 None D-greedy
+c6__human_gene1__C6__W16__0 D done 16 None D-greedy 2.371
+c6__human_gene1__C6__W16__0 D start 16 2 D-greedy
+c6__human_gene1__C6__W16__0 D done 16 2 D-greedy 2.518
+c6__human_gene1__C6__W16__0 D start 16 3 D-greedy
+c6__human_gene1__C6__W16__0 D done 16 3 D-greedy 2.471

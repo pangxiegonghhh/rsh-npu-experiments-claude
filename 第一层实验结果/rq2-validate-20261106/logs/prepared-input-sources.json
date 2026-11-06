@@ -1,0 +1,36 @@
+{
+  "cora": {
+    "type": "repo",
+    "path": "第一层实验结果/cora-pilot-20261104/neutron-matrices/cora.mtx"
+  },
+  "ogbn-arxiv": {
+    "metadata": "https://ogb.stanford.edu/docs/nodeprop/",
+    "n": 169343,
+    "directed_edges": 1166243
+  },
+  "wiki-RfA": {
+    "metadata": "https://sparse.tamu.edu/SNAP/wiki-RfA",
+    "n": 11380
+  },
+  "dawson5": {
+    "metadata": "https://sparse.tamu.edu/GHS_indef/dawson5",
+    "n": 51537
+  },
+  "olafu": {
+    "metadata": "https://sparse.tamu.edu/Simon/olafu",
+    "n": 16146
+  },
+  "pattern1": {
+    "metadata": "https://sparse.tamu.edu/Andrianov/pattern1",
+    "n": 19242
+  },
+  "human_gene1": {
+    "metadata": "https://sparse.tamu.edu/Belcastro",
+    "n": 22283
+  },
+  "availability_note": {
+    "source": "https://sparse.tamu.edu/?page=95",
+    "notice_date": "2026-10-16",
+    "notice": "Collection download endpoint offline; observed website notice only, no matrix downloads attempted yet."
+  }
+}

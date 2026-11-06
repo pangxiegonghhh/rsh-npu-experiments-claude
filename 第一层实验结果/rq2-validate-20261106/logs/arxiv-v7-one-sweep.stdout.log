@@ -1,0 +1,2 @@
+LS 2 2.0 2 {'sweep': 0, 'accepted': 39670, 'sumU': 1250825, 'sumGamma': 548589}
+{'passed': True, 'same_reference_first_sweep_counters_and_accepted': True, 'expected': {'sweep': 0, 'accepted': 39670, 'sumU': 1250825, 'sumGamma': 548589}, 'actual': {'sweep': 0, 'accepted': 39670, 'sumU': 1250825, 'sumGamma': 548589}, 'elapsed_sec': 123.24111983296461, 'library': '/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/work/librq2-v7-candidate.dylib'}

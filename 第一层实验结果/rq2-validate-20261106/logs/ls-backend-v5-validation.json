@@ -1,0 +1,1 @@
+{"passed": true, "dense_and_sparse_modes": true, "cases_per_mode": 6, "sweeps_max": 10, "orders_all_sweep_counters_and_accepts_exact": true, "change": "Transpose block-presence/singleton bitsets replace equivalent per-window Gamma loop; contiguous sparse overlap for arxiv; rules unchanged."}

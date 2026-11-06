@@ -1,0 +1,12 @@
+p1__olafu__C9-beta2__W16 D start 16 None D-greedy
+p1__olafu__C9-beta2__W16 D done 16 None D-greedy 0.062
+p1__olafu__C9-beta2__W16 D start 16 None D-exact
+p1__olafu__C9-beta2__W16 D done 16 None D-exact 2.741
+p1__olafu__C9-beta2__W16 D start 16 2 D-greedy
+p1__olafu__C9-beta2__W16 D done 16 2 D-greedy 0.06
+p1__olafu__C9-beta2__W16 D start 16 2 D-exact
+p1__olafu__C9-beta2__W16 D done 16 2 D-exact 2.751
+p1__olafu__C9-beta2__W16 D start 16 3 D-greedy
+p1__olafu__C9-beta2__W16 D done 16 3 D-greedy 0.06
+p1__olafu__C9-beta2__W16 D start 16 3 D-exact
+p1__olafu__C9-beta2__W16 D done 16 3 D-exact 2.757

@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/scripts/campaign.py", line 189, in <module>
+    try:worker(spec)
+        ^^^^^^^^^^^^
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/scripts/campaign.py", line 155, in worker
+    matrix=spec['matrix'];adj=load_adj(matrix);graph=FastGraph(adj);kind=spec['kind'];member=spec['member'];W=spec.get('W',16)
+                              ^^^^^^^^^^^^^^^^
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/scripts/campaign.py", line 32, in load_adj
+    temp=cache.with_suffix('.tmp');temp.write_bytes(pickle.dumps(adj,protocol=5));temp.replace(cache)
+                                                                                  ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/pathlib.py", line 1376, in replace
+    os.replace(self, target)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/work/olafu-A0.tmp' -> '/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/work/olafu-A0.pickle'
+Traceback (most recent call last):
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/scripts/campaign.py", line 189, in <module>
+    try:worker(spec)
+        ^^^^^^^^^^^^
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/scripts/campaign.py", line 155, in worker
+    matrix=spec['matrix'];adj=load_adj(matrix);graph=FastGraph(adj);kind=spec['kind'];member=spec['member'];W=spec.get('W',16)
+                              ^^^^^^^^^^^^^^^^
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/scripts/campaign.py", line 32, in load_adj
+    temp=cache.with_suffix('.tmp');temp.write_bytes(pickle.dumps(adj,protocol=5));temp.replace(cache)
+                                                                                  ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/pathlib.py", line 1376, in replace
+    os.replace(self, target)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/work/olafu-A0.tmp' -> '/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/work/olafu-A0.pickle'

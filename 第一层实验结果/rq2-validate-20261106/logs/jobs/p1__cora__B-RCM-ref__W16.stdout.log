@@ -1,0 +1,12 @@
+p1__cora__B-RCM-ref__W16 D start 16 None D-greedy
+p1__cora__B-RCM-ref__W16 D done 16 None D-greedy 0.012
+p1__cora__B-RCM-ref__W16 D start 16 None D-exact
+p1__cora__B-RCM-ref__W16 D done 16 None D-exact 4.65
+p1__cora__B-RCM-ref__W16 D start 16 2 D-greedy
+p1__cora__B-RCM-ref__W16 D done 16 2 D-greedy 0.008
+p1__cora__B-RCM-ref__W16 D start 16 2 D-exact
+p1__cora__B-RCM-ref__W16 D done 16 2 D-exact 2.831
+p1__cora__B-RCM-ref__W16 D start 16 3 D-greedy
+p1__cora__B-RCM-ref__W16 D done 16 3 D-greedy 0.005
+p1__cora__B-RCM-ref__W16 D start 16 3 D-exact
+p1__cora__B-RCM-ref__W16 D done 16 3 D-exact 1.902

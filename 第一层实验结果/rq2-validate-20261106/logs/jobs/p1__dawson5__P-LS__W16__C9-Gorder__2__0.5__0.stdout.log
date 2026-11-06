@@ -1,0 +1,8 @@
+LS 2 0.5 0 {'sweep': 0, 'accepted': 7461, 'sumU': 218069, 'sumGamma': 33963}
+LS 2 0.5 0 {'sweep': 1, 'accepted': 1147, 'sumU': 215451, 'sumGamma': 33263}
+LS 2 0.5 0 {'sweep': 2, 'accepted': 263, 'sumU': 214899, 'sumGamma': 33111}
+LS 2 0.5 0 {'sweep': 3, 'accepted': 67, 'sumU': 214752, 'sumGamma': 33065}
+LS 2 0.5 0 {'sweep': 4, 'accepted': 14, 'sumU': 214720, 'sumGamma': 33057}
+LS 2 0.5 0 {'sweep': 5, 'accepted': 0, 'sumU': 214720, 'sumGamma': 33057}
+p1__dawson5__P-LS__W16__C9-Gorder__2__0.5__0 D start 16 2 D-greedy
+p1__dawson5__P-LS__W16__C9-Gorder__2__0.5__0 D done 16 2 D-greedy 0.093

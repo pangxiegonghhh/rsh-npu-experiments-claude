@@ -1,0 +1,12 @@
+LS 3 1.0 0 {'sweep': 0, 'accepted': 6596, 'sumU': 3627698, 'sumGamma': 480203}
+LS 3 1.0 0 {'sweep': 1, 'accepted': 3593, 'sumU': 3577136, 'sumGamma': 467799}
+LS 3 1.0 0 {'sweep': 2, 'accepted': 1874, 'sumU': 3554370, 'sumGamma': 462060}
+LS 3 1.0 0 {'sweep': 3, 'accepted': 1088, 'sumU': 3543071, 'sumGamma': 459404}
+LS 3 1.0 0 {'sweep': 4, 'accepted': 673, 'sumU': 3536896, 'sumGamma': 457605}
+LS 3 1.0 0 {'sweep': 5, 'accepted': 447, 'sumU': 3532820, 'sumGamma': 456497}
+LS 3 1.0 0 {'sweep': 6, 'accepted': 279, 'sumU': 3530474, 'sumGamma': 455835}
+LS 3 1.0 0 {'sweep': 7, 'accepted': 218, 'sumU': 3528515, 'sumGamma': 455580}
+LS 3 1.0 0 {'sweep': 8, 'accepted': 139, 'sumU': 3527494, 'sumGamma': 455299}
+LS 3 1.0 0 {'sweep': 9, 'accepted': 89, 'sumU': 3526711, 'sumGamma': 455153}
+p1__human_gene1__P-LS__W16__rsh-α0__3__1.0__0 D start 16 3 D-greedy
+p1__human_gene1__P-LS__W16__rsh-α0__3__1.0__0 D done 16 3 D-greedy 2.138

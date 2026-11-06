@@ -1,0 +1,12 @@
+p2__wiki-RfA__SlashBurn__W16 D start 16 None D-greedy
+p2__wiki-RfA__SlashBurn__W16 D done 16 None D-greedy 0.054
+p2__wiki-RfA__SlashBurn__W16 D start 16 None D-exact
+p2__wiki-RfA__SlashBurn__W16 D done 16 None D-exact 3.298
+p2__wiki-RfA__SlashBurn__W16 D start 16 2 D-greedy
+p2__wiki-RfA__SlashBurn__W16 D done 16 2 D-greedy 0.043
+p2__wiki-RfA__SlashBurn__W16 D start 16 2 D-exact
+p2__wiki-RfA__SlashBurn__W16 D done 16 2 D-exact 2.449
+p2__wiki-RfA__SlashBurn__W16 D start 16 3 D-greedy
+p2__wiki-RfA__SlashBurn__W16 D done 16 3 D-greedy 0.038
+p2__wiki-RfA__SlashBurn__W16 D start 16 3 D-exact
+p2__wiki-RfA__SlashBurn__W16 D done 16 3 D-exact 2.128

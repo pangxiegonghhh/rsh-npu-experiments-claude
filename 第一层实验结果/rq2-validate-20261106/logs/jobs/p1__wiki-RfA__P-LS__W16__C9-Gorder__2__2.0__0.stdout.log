@@ -1,0 +1,12 @@
+LS 2 2.0 0 {'sweep': 0, 'accepted': 1041, 'sumU': 161426, 'sumGamma': 45760}
+LS 2 2.0 0 {'sweep': 1, 'accepted': 522, 'sumU': 159355, 'sumGamma': 44581}
+LS 2 2.0 0 {'sweep': 2, 'accepted': 255, 'sumU': 158344, 'sumGamma': 44120}
+LS 2 2.0 0 {'sweep': 3, 'accepted': 186, 'sumU': 157756, 'sumGamma': 43844}
+LS 2 2.0 0 {'sweep': 4, 'accepted': 141, 'sumU': 157387, 'sumGamma': 43632}
+LS 2 2.0 0 {'sweep': 5, 'accepted': 94, 'sumU': 157218, 'sumGamma': 43443}
+LS 2 2.0 0 {'sweep': 6, 'accepted': 47, 'sumU': 157083, 'sumGamma': 43346}
+LS 2 2.0 0 {'sweep': 7, 'accepted': 46, 'sumU': 156914, 'sumGamma': 43283}
+LS 2 2.0 0 {'sweep': 8, 'accepted': 17, 'sumU': 156901, 'sumGamma': 43252}
+LS 2 2.0 0 {'sweep': 9, 'accepted': 17, 'sumU': 156859, 'sumGamma': 43247}
+p1__wiki-RfA__P-LS__W16__C9-Gorder__2__2.0__0 D start 16 2 D-greedy
+p1__wiki-RfA__P-LS__W16__C9-Gorder__2__2.0__0 D done 16 2 D-greedy 0.04

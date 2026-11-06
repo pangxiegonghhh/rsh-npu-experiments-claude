@@ -1,0 +1,6 @@
+LS None 0.0 0 {'sweep': 0, 'accepted': 357, 'sumU': 5592, 'sumGamma': 2115}
+{'tau': None, 'lambda': 0.0, 'member': 'rsh', 'order_equal': True, 'sumU': 5592, 'sumGamma': 2115, 'sec': 8.333315375028178}
+LS 2 1.0 0 {'sweep': 0, 'accepted': 380, 'sumU': 4970, 'sumGamma': 1525}
+{'tau': 2, 'lambda': 1.0, 'member': 'gorder', 'order_equal': True, 'sumU': 4970, 'sumGamma': 1525, 'sec': 5.9565412499941885}
+LS 3 0.5 0 {'sweep': 0, 'accepted': 361, 'sumU': 4258, 'sumGamma': 1355}
+{'tau': 3, 'lambda': 0.5, 'member': 'rsh', 'order_equal': True, 'sumU': 4258, 'sumGamma': 1355, 'sec': 3.597528208978474}

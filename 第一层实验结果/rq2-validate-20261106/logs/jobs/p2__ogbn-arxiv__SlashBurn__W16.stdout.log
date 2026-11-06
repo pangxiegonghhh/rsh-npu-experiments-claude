@@ -1,0 +1,6 @@
+p2__ogbn-arxiv__SlashBurn__W16 D start 16 None D-greedy
+p2__ogbn-arxiv__SlashBurn__W16 D done 16 None D-greedy 3.777
+p2__ogbn-arxiv__SlashBurn__W16 D start 16 2 D-greedy
+p2__ogbn-arxiv__SlashBurn__W16 D done 16 2 D-greedy 3.419
+p2__ogbn-arxiv__SlashBurn__W16 D start 16 3 D-greedy
+p2__ogbn-arxiv__SlashBurn__W16 D done 16 3 D-greedy 3.412

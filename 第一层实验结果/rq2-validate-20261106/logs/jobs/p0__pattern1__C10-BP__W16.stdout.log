@@ -1,0 +1,12 @@
+p0__pattern1__C10-BP__W16 D start 16 None D-greedy
+p0__pattern1__C10-BP__W16 D done 16 None D-greedy 0.57
+p0__pattern1__C10-BP__W16 D start 16 None D-exact
+p0__pattern1__C10-BP__W16 D done 16 None D-exact 4.947
+p0__pattern1__C10-BP__W16 D start 16 2 D-greedy
+p0__pattern1__C10-BP__W16 D done 16 2 D-greedy 0.551
+p0__pattern1__C10-BP__W16 D start 16 2 D-exact
+p0__pattern1__C10-BP__W16 D done 16 2 D-exact 4.822
+p0__pattern1__C10-BP__W16 D start 16 3 D-greedy
+p0__pattern1__C10-BP__W16 D done 16 3 D-greedy 0.567
+p0__pattern1__C10-BP__W16 D start 16 3 D-exact
+p0__pattern1__C10-BP__W16 D done 16 3 D-exact 4.878

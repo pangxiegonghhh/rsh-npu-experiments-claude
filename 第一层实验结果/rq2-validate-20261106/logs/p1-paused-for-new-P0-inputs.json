@@ -1,0 +1,15 @@
+{
+  "driver_pid": 37935,
+  "workers": [
+    {
+      "pid": 56847,
+      "key": "p1__ogbn-arxiv__P-LS__W16__C9-Gorder__2__0.5__0"
+    },
+    {
+      "pid": 56846,
+      "key": "p1__ogbn-arxiv__P-LS__W16__C9-Gorder__2__0.0__2"
+    }
+  ],
+  "paused_utc": "2026-11-05T17:11:26.736352+00:00",
+  "reason": "New first-batch inputs supplied; supplement P0 before continuing P1."
+}

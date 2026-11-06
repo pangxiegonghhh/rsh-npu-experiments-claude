@@ -1,0 +1,122 @@
+matrix,member,status,OK,INCOMPLETE,SKIPPED,reason
+cora,B-Neutron-ref,SKIPPED,0,0,1,Optional T4/T2 reference not available in selected repository commit; pilot variants are separately labeled.
+cora,B-RCM-ref,OK,22,0,0,
+cora,B-RSH-ref,SKIPPED,0,0,1,Optional T4/T2 reference not available in selected repository commit; pilot variants are separately labeled.
+cora,B0,OK,68,0,0,
+cora,C10-BP,OK,68,0,0,
+cora,C6,OK,16,0,0,
+cora,C6-M,OK,48,0,0,
+cora,C9-Gorder,OK,68,0,0,
+cora,C9-S,OK,26,0,0,
+cora,C9-beta0.5,OK,22,0,0,
+cora,C9-beta2,OK,22,0,0,
+cora,C9-beta4,OK,22,0,0,
+cora,P-LS,OK,288,0,0,
+cora,P-LS-full-control,OK,144,0,0,
+cora,SlashBurn,OK,22,0,0,
+cora,neutron-pilot,OK,26,0,0,
+cora,rabbit-pilot,OK,26,0,0,
+cora,rsh-α0,OK,68,0,0,
+ogbn-arxiv,B-Neutron-ref,SKIPPED,0,0,1,Optional T4/T2 reference not available in selected repository commit; pilot variants are separately labeled.
+ogbn-arxiv,B-RCM-ref,OK,16,0,6,Plan §5: D-exact restricted to cora/dawson5/olafu for large k.
+ogbn-arxiv,B-RSH-ref,SKIPPED,0,0,1,Optional T4/T2 reference not available in selected repository commit; pilot variants are separately labeled.
+ogbn-arxiv,B0,OK,54,0,14,"Plan §5: D-exact restricted to cora/dawson5/olafu for large k. | SKIPPED: distinct co pairs >= choose(max A0 degree=13161,2) = 86599380 > 50000000; every pair of columns in this row co-occurs in its window."
+ogbn-arxiv,C10-BP,OK,54,0,14,"Plan §5: D-exact restricted to cora/dawson5/olafu for large k. | SKIPPED: distinct co pairs >= choose(max A0 degree=13161,2) = 86599380 > 50000000; every pair of columns in this row co-occurs in its window."
+ogbn-arxiv,C6,OK,16,0,0,
+ogbn-arxiv,C6-M,OK,48,0,0,
+ogbn-arxiv,C9-Gorder,OK,54,0,14,"Plan §5: D-exact restricted to cora/dawson5/olafu for large k. | SKIPPED: distinct co pairs >= choose(max A0 degree=13161,2) = 86599380 > 50000000; every pair of columns in this row co-occurs in its window."
+ogbn-arxiv,C9-S,OK,18,0,8,"Plan §5: D-exact restricted to cora/dawson5/olafu for large k. | SKIPPED: distinct co pairs >= choose(max A0 degree=13161,2) = 86599380 > 50000000; every pair of columns in this row co-occurs in its window."
+ogbn-arxiv,C9-beta0.5,OK,16,0,6,Plan §5: D-exact restricted to cora/dawson5/olafu for large k.
+ogbn-arxiv,C9-beta2,OK,16,0,6,Plan §5: D-exact restricted to cora/dawson5/olafu for large k.
+ogbn-arxiv,C9-beta4,OK,16,0,6,Plan §5: D-exact restricted to cora/dawson5/olafu for large k.
+ogbn-arxiv,P-LS,OK,288,0,0,
+ogbn-arxiv,P-LS-full-control,OK,144,0,0,
+ogbn-arxiv,SlashBurn,OK,16,0,6,Plan §5: D-exact omitted on ogbn-arxiv (large k); all other first-batch matrices are covered.
+ogbn-arxiv,neutron-pilot,OK,18,0,8,"Plan §5: D-exact restricted to cora/dawson5/olafu for large k. | SKIPPED: distinct co pairs >= choose(max A0 degree=13161,2) = 86599380 > 50000000; every pair of columns in this row co-occurs in its window."
+ogbn-arxiv,rabbit-pilot,OK,18,0,8,"Plan §5: D-exact restricted to cora/dawson5/olafu for large k. | SKIPPED: distinct co pairs >= choose(max A0 degree=13161,2) = 86599380 > 50000000; every pair of columns in this row co-occurs in its window."
+ogbn-arxiv,rsh-α0,OK,54,0,14,"Plan §5: D-exact restricted to cora/dawson5/olafu for large k. | SKIPPED: distinct co pairs >= choose(max A0 degree=13161,2) = 86599380 > 50000000; every pair of columns in this row co-occurs in its window."
+wiki-RfA,B-Neutron-ref,SKIPPED,0,0,1,Optional T4/T2 reference not available in selected repository commit; pilot variants are separately labeled.
+wiki-RfA,B-RCM-ref,OK,22,0,0,
+wiki-RfA,B-RSH-ref,SKIPPED,0,0,1,Optional T4/T2 reference not available in selected repository commit; pilot variants are separately labeled.
+wiki-RfA,B0,OK,68,0,0,
+wiki-RfA,C10-BP,OK,68,0,0,
+wiki-RfA,C6,OK,16,0,0,
+wiki-RfA,C6-M,OK,48,0,0,
+wiki-RfA,C9-Gorder,OK,68,0,0,
+wiki-RfA,C9-S,OK,26,0,0,
+wiki-RfA,C9-beta0.5,OK,22,0,0,
+wiki-RfA,C9-beta2,OK,22,0,0,
+wiki-RfA,C9-beta4,OK,22,0,0,
+wiki-RfA,P-LS,OK,96,0,0,
+wiki-RfA,SlashBurn,OK,22,0,0,
+wiki-RfA,neutron-pilot,OK,26,0,0,
+wiki-RfA,rabbit-pilot,OK,26,0,0,
+wiki-RfA,rsh-α0,OK,68,0,0,
+dawson5,B-Neutron-ref,SKIPPED,0,0,1,Optional T4/T2 reference not available in selected repository commit; pilot variants are separately labeled.
+dawson5,B-RCM-ref,OK,22,0,0,
+dawson5,B-RSH-ref,SKIPPED,0,0,1,Optional T4/T2 reference not available in selected repository commit; pilot variants are separately labeled.
+dawson5,B0,OK,68,0,0,
+dawson5,C10-BP,OK,68,0,0,
+dawson5,C6,OK,16,0,0,
+dawson5,C6-M,OK,48,0,0,
+dawson5,C9-Gorder,OK,68,0,0,
+dawson5,C9-S,OK,26,0,0,
+dawson5,C9-beta0.5,OK,22,0,0,
+dawson5,C9-beta2,OK,22,0,0,
+dawson5,C9-beta4,OK,22,0,0,
+dawson5,P-LS,OK,96,0,0,
+dawson5,SlashBurn,OK,22,0,0,
+dawson5,neutron-pilot,OK,26,0,0,
+dawson5,rabbit-pilot,OK,26,0,0,
+dawson5,rsh-α0,OK,68,0,0,
+olafu,B-Neutron-ref,SKIPPED,0,0,1,Optional T4/T2 reference not available in selected repository commit; pilot variants are separately labeled.
+olafu,B-RCM-ref,OK,22,0,0,
+olafu,B-RSH-ref,SKIPPED,0,0,1,Optional T4/T2 reference not available in selected repository commit; pilot variants are separately labeled.
+olafu,B0,OK,26,0,0,
+olafu,C10-BP,OK,26,0,0,
+olafu,C6,OK,16,0,0,
+olafu,C6-M,OK,48,0,0,
+olafu,C9-Gorder,OK,26,0,0,
+olafu,C9-S,OK,26,0,0,
+olafu,C9-beta0.5,OK,22,0,0,
+olafu,C9-beta2,OK,22,0,0,
+olafu,C9-beta4,OK,22,0,0,
+olafu,P-LS,OK,96,0,0,
+olafu,SlashBurn,OK,22,0,0,
+olafu,neutron-pilot,OK,26,0,0,
+olafu,rabbit-pilot,OK,26,0,0,
+olafu,rsh-α0,OK,26,0,0,
+pattern1,B-Neutron-ref,SKIPPED,0,0,1,Optional T4/T2 reference not available in selected repository commit; pilot variants are separately labeled.
+pattern1,B-RCM-ref,OK,22,0,0,
+pattern1,B-RSH-ref,SKIPPED,0,0,1,Optional T4/T2 reference not available in selected repository commit; pilot variants are separately labeled.
+pattern1,B0,OK,24,0,2,"SKIPPED: distinct co pairs >= choose(max window union=12130,2) = 73562385 > 50000000."
+pattern1,C10-BP,OK,24,0,2,"SKIPPED: distinct co pairs > 50000000; distinct_co_pairs=50000001; pair_operations=167257918; greedy edges sorted by (co,u,v) descending"
+pattern1,C6,INCOMPLETE,0,16,0,"Job incomplete; see logs/jobs/c6__pattern1__C6__W16__0.command.json; returncode=1; KaHyPar exact balance failed: part 106, targets [144, 144], actual [145, 143]; Exact target sizes not met; no manual rebalance and no relaxed acceptance.; trace=checks/c6__pattern1__C6__W16__0-bisections.json; stderr=logs/jobs/c6__pattern1__C6__W16__0.stderr.log"
+pattern1,C6-M,INCOMPLETE,0,48,0,"Job incomplete; see logs/jobs/c6__pattern1__C6-M__W16__1.command.json; returncode=1; KaHyPar exact balance failed: part 289, targets [48, 32], actual [47, 33]; Exact target sizes not met; no manual rebalance and no relaxed acceptance.; trace=checks/c6__pattern1__C6-M__W16__1-bisections.json; stderr=logs/jobs/c6__pattern1__C6-M__W16__1.stderr.log | Job incomplete; see logs/jobs/c6__pattern1__C6-M__W16__16.command.json; returncode=1; KaHyPar exact balance failed: part 272, targets [48, 32], actual [49, 31]; Exact target sizes not met; no manual rebalance and no relaxed acceptance.; trace=checks/c6__pattern1__C6-M__W16__16-bisections.json; stderr=logs/jobs/c6__pattern1__C6-M__W16__16.stderr.log | Job incomplete; see logs/jobs/c6__pattern1__C6-M__W16__4.command.json; returncode=1; KaHyPar exact balance failed: part 271, targets [48, 32], actual [47, 33]; Exact target sizes not met; no manual rebalance and no relaxed acceptance.; trace=checks/c6__pattern1__C6-M__W16__4-bisections.json; stderr=logs/jobs/c6__pattern1__C6-M__W16__4.stderr.log"
+pattern1,C9-Gorder,OK,24,0,2,"SKIPPED: distinct co pairs >= choose(max window union=19205,2) = 184406410 > 50000000."
+pattern1,C9-S,OK,24,0,2,"SKIPPED: distinct co pairs >= choose(max window union=19205,2) = 184406410 > 50000000."
+pattern1,C9-beta0.5,OK,22,0,0,
+pattern1,C9-beta2,OK,22,0,0,
+pattern1,C9-beta4,OK,22,0,0,
+pattern1,P-LS,OK,96,0,0,
+pattern1,SlashBurn,OK,22,0,0,
+pattern1,neutron-pilot,OK,24,0,2,"SKIPPED: distinct co pairs >= choose(max window union=15940,2) = 127033830 > 50000000."
+pattern1,rabbit-pilot,OK,24,0,2,"SKIPPED: distinct co pairs > 50000000; distinct_co_pairs=50000001; pair_operations=4512128862; greedy edges sorted by (co,u,v) descending"
+pattern1,rsh-α0,OK,24,0,2,"SKIPPED: distinct co pairs >= choose(max window union=19194,2) = 184195221 > 50000000."
+human_gene1,B-Neutron-ref,SKIPPED,0,0,1,Optional T4/T2 reference not available in selected repository commit; pilot variants are separately labeled.
+human_gene1,B-RCM-ref,OK,22,0,0,
+human_gene1,B-RSH-ref,SKIPPED,0,0,1,Optional T4/T2 reference not available in selected repository commit; pilot variants are separately labeled.
+human_gene1,B0,OK,24,0,2,"SKIPPED: distinct co pairs >= choose(max window union=12407,2) = 76960621 > 50000000."
+human_gene1,C10-BP,OK,24,0,2,"SKIPPED: distinct co pairs > 50000000; distinct_co_pairs=50000001; pair_operations=754896067; greedy edges sorted by (co,u,v) descending"
+human_gene1,C6,OK,16,0,0,
+human_gene1,C6-M,OK,48,0,0,
+human_gene1,C9-Gorder,OK,24,0,2,"SKIPPED: distinct co pairs > 50000000; distinct_co_pairs=50000001; pair_operations=145459613; greedy edges sorted by (co,u,v) descending"
+human_gene1,C9-S,OK,24,0,2,"SKIPPED: distinct co pairs > 50000000; distinct_co_pairs=50000001; pair_operations=145459613; greedy edges sorted by (co,u,v) descending"
+human_gene1,C9-beta0.5,OK,22,0,0,
+human_gene1,C9-beta2,OK,22,0,0,
+human_gene1,C9-beta4,OK,22,0,0,
+human_gene1,P-LS,OK,96,0,0,
+human_gene1,SlashBurn,OK,22,0,0,
+human_gene1,neutron-pilot,OK,24,0,2,"SKIPPED: distinct co pairs > 50000000; distinct_co_pairs=50000001; pair_operations=164573544; greedy edges sorted by (co,u,v) descending"
+human_gene1,rabbit-pilot,OK,24,0,2,"SKIPPED: distinct co pairs > 50000000; distinct_co_pairs=50000001; pair_operations=135321161; greedy edges sorted by (co,u,v) descending"
+human_gene1,rsh-α0,OK,24,0,2,"SKIPPED: distinct co pairs > 50000000; distinct_co_pairs=50000001; pair_operations=862772214; greedy edges sorted by (co,u,v) descending"

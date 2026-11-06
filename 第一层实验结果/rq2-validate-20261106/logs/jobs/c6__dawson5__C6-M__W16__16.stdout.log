@@ -1,0 +1,40 @@
+C6 progress 16 1 2
+C6 progress 16 2 3
+C6 progress 16 100 101
+C6 progress 16 200 201
+C6 progress 16 300 301
+C6 progress 16 400 401
+C6 progress 16 500 501
+C6 progress 16 600 601
+C6 progress 16 700 701
+C6 progress 16 800 801
+C6 progress 16 900 901
+C6 progress 16 1000 1001
+C6 progress 16 1100 1101
+C6 progress 16 1200 1201
+C6 progress 16 1300 1301
+C6 progress 16 1400 1401
+C6 progress 16 1500 1501
+C6 progress 16 1600 1601
+C6 progress 16 1700 1701
+C6 progress 16 1800 1801
+C6 progress 16 1900 1901
+C6 progress 16 2000 2001
+C6 progress 16 2100 2101
+C6 progress 16 2200 2201
+C6 progress 16 2300 2301
+C6 progress 16 2400 2401
+C6 progress 16 2500 2501
+C6 progress 16 2600 2601
+C6 progress 16 2700 2701
+C6 progress 16 2800 2801
+C6 progress 16 2900 2901
+C6 progress 16 3000 3001
+C6 progress 16 3100 3101
+C6 progress 16 3200 3201
+c6__dawson5__C6-M__W16__16 D start 16 None D-greedy
+c6__dawson5__C6-M__W16__16 D done 16 None D-greedy 0.094
+c6__dawson5__C6-M__W16__16 D start 16 2 D-greedy
+c6__dawson5__C6-M__W16__16 D done 16 2 D-greedy 0.097
+c6__dawson5__C6-M__W16__16 D start 16 3 D-greedy
+c6__dawson5__C6-M__W16__16 D done 16 3 D-greedy 0.098

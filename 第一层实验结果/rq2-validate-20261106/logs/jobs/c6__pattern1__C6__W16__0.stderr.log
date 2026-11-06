@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/scripts/campaign.py", line 219, in <module>
+    try:worker(spec)
+        ^^^^^^^^^^^^
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/scripts/campaign.py", line 181, in worker
+    t=time.perf_counter();o,params=c6.reorder(adj,W,spec['mnc'],OUT/'checks'/(spec['key']+'-bisections.json'));sec=time.perf_counter()-t
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/scripts/c6.py", line 52, in reorder
+    raise ExactBalanceUnavailable(f'part {pid}: requested {(s1,s2)}, returned {(len(left),len(right))}')
+c6.ExactBalanceUnavailable: part 106: requested (144, 144), returned (145, 143)
+Traceback (most recent call last):
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/scripts/campaign.py", line 219, in <module>
+    try:worker(spec)
+        ^^^^^^^^^^^^
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/scripts/campaign.py", line 181, in worker
+    t=time.perf_counter();o,params=c6.reorder(adj,W,spec['mnc'],OUT/'checks'/(spec['key']+'-bisections.json'));sec=time.perf_counter()-t
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/scripts/c6.py", line 52, in reorder
+    raise ExactBalanceUnavailable(f'part {pid}: requested {(s1,s2)}, returned {(len(left),len(right))}')
+c6.ExactBalanceUnavailable: part 106: requested (144, 144), returned (145, 143)
