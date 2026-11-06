@@ -5,6 +5,11 @@ B=str(Path(__file__).resolve().parents[2]/'第一层实验结果'/'rq2-validate-
 def rows(f): return list(csv.DictReader(open(B+f,encoding='utf-8')))
 R=[x for x in rows('results.csv') if x['member'] not in ('P-LS','P-LS-full-control','C6','C6-M')]
 J=rows('joint.csv')
+import os
+S=str(Path(__file__).resolve().parents[2]/'第一层实验结果'/'rq2-c6align-20261106')+'/'
+if os.path.exists(S+'joint-c6align.csv') and not os.environ.get('RQ2_NO_SUPPLEMENT'):
+    J=[x for x in J if not (x['matrix']=='pattern1' and x['member'] in ('C6','C6-M'))]+list(csv.DictReader(open(S+'joint-c6align.csv',encoding='utf-8')))
+    print('[verify] pattern1 C6 / C6-M taken from rq2-c6align-20261106')
 def var(x):
     m=x['member']
     if m=='C6-M': return 'C6-M(mnc=%d)'%int(float(x['mnc']))
