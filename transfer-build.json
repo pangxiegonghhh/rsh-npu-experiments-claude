@@ -1,0 +1,243 @@
+{
+  "created_at_utc": "2026-11-09T15:47:23.785411+00:00",
+  "packages": [
+    {
+      "name": "rq3-validate-20261106",
+      "archive": "rq3-validate-20261106.tar.gz",
+      "archive_bytes": 1901732,
+      "archive_sha256": "9a1fb25066f64ece1470d01e7bd48c5425a1de1806b54f98a3a1e4966249d1dc",
+      "source_directory": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/delivery/第一层实验结果/rq3-validate-20261106",
+      "snapshot": false,
+      "original_files": 7409,
+      "original_bytes": 14617072,
+      "included_files": 7394,
+      "included_bytes": 12177264
+    },
+    {
+      "name": "round1-compare-20261106",
+      "archive": "round1-compare-20261106.tar.gz",
+      "archive_bytes": 8259483,
+      "archive_sha256": "01c0f901791ba2198faf938aedcee822f16997aaff13e0e0489e5717db641a0f",
+      "source_directory": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/delivery/第一层实验结果/round1-compare-20261106",
+      "snapshot": false,
+      "original_files": 6451,
+      "original_bytes": 31117549,
+      "included_files": 6438,
+      "included_bytes": 28766949
+    },
+    {
+      "name": "round1-compare-stage3-inprogress-20261109",
+      "archive": "round1-compare-stage3-inprogress-20261109.tar.gz",
+      "archive_bytes": 53710470,
+      "archive_sha256": "6c99fe6bc1248d206f7865e3d27e6c7fdfbba8020334719a8d7760ca1c521d63",
+      "source_directory": "isolated read-only collection from work/ + raw stage3 evidence",
+      "snapshot": true,
+      "original_files": 6465,
+      "original_bytes": 203746912,
+      "included_files": 6465,
+      "included_bytes": 203746912
+    }
+  ],
+  "exclusions": [
+    {
+      "package": "rq3-validate-20261106",
+      "path": "runtime/librect.dylib",
+      "bytes": 96912,
+      "sha256": "ee09a37dc6589bf4c6b5e0eff2233aea0ff791ebff4e52bc5166afadfb0d2652",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "rq3-validate-20261106",
+      "path": "runtime/libslashburn.dylib",
+      "bytes": 52944,
+      "sha256": "ff239674b7018dccdc5d86c98229c0ea77414339babb7034089e9e513776d643",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "rq3-validate-20261106",
+      "path": "runtime/librq2-v8.dylib",
+      "bytes": 114816,
+      "sha256": "1ef640c85454fadd0b173f59733c85fdd5648a75646bd283c1cd746cfef14228",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "rq3-validate-20261106",
+      "path": "runtime/libc1-forest.dylib",
+      "bytes": 55152,
+      "sha256": "16ad5a3f9c3b21f7c7b7721284291bfd2617ea38019fd12914c856299183f39f",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "rq3-validate-20261106",
+      "path": "runtime/liblarge-rcm.dylib",
+      "bytes": 36112,
+      "sha256": "b1a817e8690f9d2ed7691da0009f45c7a0d8ab402ff118bcd4787cb67c8a797b",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "rq3-validate-20261106",
+      "path": "runtime/libindependent-sorted.dylib",
+      "bytes": 34888,
+      "sha256": "de02cb779878faaa5ba7e4f7de1b6a418e38706027e46cebd2c6cb8d88039451",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "rq3-validate-20261106",
+      "path": "runtime/librabbit-local.dylib",
+      "bytes": 35080,
+      "sha256": "8bf25e6c480a07a1bec8c6cb3d042dfe1cf97c497a3222774a794716eed70fd5",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "rq3-validate-20261106",
+      "path": "runtime/rabbit-reorder-linux-aarch64",
+      "bytes": 1530392,
+      "sha256": "f91bdc5d266497a3833ddc5eb1b6ac17ce521552eb2cf529211703faa074f73b",
+      "reason": "executable binary magic"
+    },
+    {
+      "package": "rq3-validate-20261106",
+      "path": "runtime/liblayouts.dylib",
+      "bytes": 94448,
+      "sha256": "41191c0e37c6520f093ac853599e46ce78756ae1fa12e1f2f37e73e8327c5e3c",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "rq3-validate-20261106",
+      "path": "runtime/librabbit-edges.dylib",
+      "bytes": 33496,
+      "sha256": "3d009c3827ec859fdeae0a12132316060678467b8423e71b0047bf13367de537",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "rq3-validate-20261106",
+      "path": "runtime/libmemory-guard.dylib",
+      "bytes": 34056,
+      "sha256": "7b0f6e09c9997027ad5a6da7272dd78456fd785bdb948e6e512ef098c5730e2c",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "rq3-validate-20261106",
+      "path": "runtime/liblayouts-v2.dylib",
+      "bytes": 76080,
+      "sha256": "3da15a48d838dd57df51cc217414a36414c03e2366b572a1874c998698dd4f10",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "rq3-validate-20261106",
+      "path": "runtime/libcandidates.dylib",
+      "bytes": 94400,
+      "sha256": "5e1b4a8625e5d305a515c48918619851de9ed6bcfb49a50e647c3a8001172b7d",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "rq3-validate-20261106",
+      "path": "runtime/librepair.dylib",
+      "bytes": 56592,
+      "sha256": "e95572f181f12c5d247c559b88a81e633a8db1ed40ac1b1c71bea9f5e2bf1b43",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "rq3-validate-20261106",
+      "path": "runtime/libcandidates-v2.dylib",
+      "bytes": 94440,
+      "sha256": "e2a6f987555c7bcb100c4cb29bf8a9def514ceefb4247654b23a94b8aa72467c",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "round1-compare-20261106",
+      "path": "runtime/librect.dylib",
+      "bytes": 96912,
+      "sha256": "ee09a37dc6589bf4c6b5e0eff2233aea0ff791ebff4e52bc5166afadfb0d2652",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "round1-compare-20261106",
+      "path": "runtime/libslashburn.dylib",
+      "bytes": 52944,
+      "sha256": "ff239674b7018dccdc5d86c98229c0ea77414339babb7034089e9e513776d643",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "round1-compare-20261106",
+      "path": "runtime/librq2-v8.dylib",
+      "bytes": 114816,
+      "sha256": "1ef640c85454fadd0b173f59733c85fdd5648a75646bd283c1cd746cfef14228",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "round1-compare-20261106",
+      "path": "runtime/liblarge-rcm.dylib",
+      "bytes": 36112,
+      "sha256": "b1a817e8690f9d2ed7691da0009f45c7a0d8ab402ff118bcd4787cb67c8a797b",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "round1-compare-20261106",
+      "path": "runtime/libindependent-sorted.dylib",
+      "bytes": 34888,
+      "sha256": "de02cb779878faaa5ba7e4f7de1b6a418e38706027e46cebd2c6cb8d88039451",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "round1-compare-20261106",
+      "path": "runtime/librabbit-local.dylib",
+      "bytes": 35080,
+      "sha256": "8bf25e6c480a07a1bec8c6cb3d042dfe1cf97c497a3222774a794716eed70fd5",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "round1-compare-20261106",
+      "path": "runtime/rabbit-reorder-linux-aarch64",
+      "bytes": 1530392,
+      "sha256": "f91bdc5d266497a3833ddc5eb1b6ac17ce521552eb2cf529211703faa074f73b",
+      "reason": "executable binary magic"
+    },
+    {
+      "package": "round1-compare-20261106",
+      "path": "runtime/liblayouts.dylib",
+      "bytes": 94448,
+      "sha256": "41191c0e37c6520f093ac853599e46ce78756ae1fa12e1f2f37e73e8327c5e3c",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "round1-compare-20261106",
+      "path": "runtime/librabbit-edges.dylib",
+      "bytes": 33496,
+      "sha256": "3d009c3827ec859fdeae0a12132316060678467b8423e71b0047bf13367de537",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "round1-compare-20261106",
+      "path": "runtime/liblayouts-v2.dylib",
+      "bytes": 76080,
+      "sha256": "3da15a48d838dd57df51cc217414a36414c03e2366b572a1874c998698dd4f10",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "round1-compare-20261106",
+      "path": "runtime/libcandidates.dylib",
+      "bytes": 94400,
+      "sha256": "5e1b4a8625e5d305a515c48918619851de9ed6bcfb49a50e647c3a8001172b7d",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "round1-compare-20261106",
+      "path": "runtime/librepair.dylib",
+      "bytes": 56592,
+      "sha256": "e95572f181f12c5d247c559b88a81e633a8db1ed40ac1b1c71bea9f5e2bf1b43",
+      "reason": "compiled binary/library"
+    },
+    {
+      "package": "round1-compare-20261106",
+      "path": "runtime/libcandidates-v2.dylib",
+      "bytes": 94440,
+      "sha256": "e2a6f987555c7bcb100c4cb29bf8a9def514ceefb4247654b23a94b8aa72467c",
+      "reason": "compiled binary/library"
+    }
+  ],
+  "live_copy_changes": [],
+  "total_archive_bytes": 63871685,
+  "limit_bytes": 1610612736,
+  "over_limit": false
+}
