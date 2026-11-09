@@ -1,0 +1,22 @@
+[
+  {
+    "matrix": "cora",
+    "member": "C3-W4",
+    "W": 16,
+    "boundary": "candidate groups",
+    "k_windows": 174,
+    "sumU": 7873,
+    "T": 572,
+    "diagnostic_only": true
+  },
+  {
+    "matrix": "cora",
+    "member": "C3-W4",
+    "W": 16,
+    "boundary": "W16 evaluation windows",
+    "k_windows": 170,
+    "sumU": 8030,
+    "T": 582,
+    "diagnostic_only": true
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "pid": 25862,
+  "slot": 1,
+  "command": [
+    "-c",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slot-selftest"
+  ],
+  "queued_at": 1793972060.575976,
+  "acquired_at": 1793972060.5763378,
+  "queue_seconds": 0.0003619194030761719,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slot-selftest"
+}

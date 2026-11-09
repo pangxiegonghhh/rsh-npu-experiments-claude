@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 7820, 'sumU': 3796922, 'sumGamma': 546930, 'elapsed': 20.115191221237183}
+LS {'sweep': 1, 'accepted': 6759, 'sumU': 3549607, 'sumGamma': 499267, 'elapsed': 40.33677625656128}
+LS {'sweep': 2, 'accepted': 4904, 'sumU': 3415259, 'sumGamma': 471362, 'elapsed': 58.9846613407135}
+LS {'sweep': 3, 'accepted': 3035, 'sumU': 3349085, 'sumGamma': 456891, 'elapsed': 77.3634123802185}
+LS {'sweep': 4, 'accepted': 1884, 'sumU': 3310607, 'sumGamma': 447810, 'elapsed': 95.35382127761841}
+LS {'sweep': 5, 'accepted': 1179, 'sumU': 3291525, 'sumGamma': 442651, 'elapsed': 113.10350108146667}
+LS {'sweep': 6, 'accepted': 778, 'sumU': 3278793, 'sumGamma': 439894, 'elapsed': 131.56286430358887}
+LS {'sweep': 7, 'accepted': 526, 'sumU': 3271420, 'sumGamma': 438200, 'elapsed': 149.4973042011261}
+LS {'sweep': 8, 'accepted': 296, 'sumU': 3266598, 'sumGamma': 437216, 'elapsed': 168.27474522590637}
+LS {'sweep': 9, 'accepted': 195, 'sumU': 3263868, 'sumGamma': 436193, 'elapsed': 185.90144324302673}
+{"matrix": "human_gene1", "method": "C5", "W": 16, "seed": 0, "start": 1793972684.9727712, "status": "OK", "command": ["scripts/rabbit_family.py", "--matrix", "human_gene1", "--mode", "B", "--rep", "0"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/human_gene1__C5__W16__seed0.order.json", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/human_gene1__C5__W16__seed0.order.json", "sha256": "afbeb29451a7d11a5932637c4e6d706df09dc5fc606349e921a968beea4db273", "size": 123921, "local_seconds": 22.1462242603302, "coarse_seconds": 63.83941102027893, "end": 1793972899.1824121, "seconds": 214.20964097976685, "member": "C5", "tau": 342, "reuse": false, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/human_gene1__C5__tau342/order.json", "peak_mem_mb": 811.5625}

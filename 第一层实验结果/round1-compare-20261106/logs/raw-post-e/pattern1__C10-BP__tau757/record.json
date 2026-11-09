@@ -1,0 +1,69 @@
+{
+  "task": "T23",
+  "use": "base-order",
+  "matrix": "pattern1",
+  "t23_member": "C10-BP",
+  "t21_member": "C10-BP",
+  "W": 16,
+  "params": "",
+  "source": "T21 \u5b8c\u6574\u5f52\u6863",
+  "path": "orders/pattern1__C10-BP__W16__tauNone__own__8f222137b9eb.json",
+  "sha256": "26770ed6b83f4c5b5c922fb907e3626c1750b3a05c9cfde8fd2924b4fe2ceb6f",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__C10-BP__W16__tauNone__own__8f222137b9eb.json",
+  "verified_sha256": "1d8b0c62ba652636903424a758dc70e25896077a5ab7a5d906c25c1feb9a1509",
+  "origin": "T21 archive",
+  "member": "C10-BP",
+  "tau": 757,
+  "reuse": false,
+  "status": "OK",
+  "start": 1793975355.6428218,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/pattern1__C10-BP__tau757/order.json",
+  "size": 105027,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 68,
+        "sumU": 471669,
+        "sumGamma": 51247,
+        "elapsed": 0.8181109428405762
+      },
+      {
+        "sweep": 1,
+        "accepted": 4,
+        "sumU": 470948,
+        "sumGamma": 51218,
+        "elapsed": 2.0763959884643555
+      },
+      {
+        "sweep": 2,
+        "accepted": 0,
+        "sumU": 470948,
+        "sumGamma": 51218,
+        "elapsed": 3.2914249897003174
+      }
+    ],
+    "sweeps_done": 3,
+    "accepted_swaps": 72,
+    "tracked_sumU": 470948,
+    "tracked_sumGamma": 51218,
+    "independent_full_recompute": {
+      "k_windows": 521,
+      "sumU": 470948,
+      "T": 29818,
+      "sumGamma": 51218,
+      "sumR": 28487,
+      "R_p50": 54,
+      "R_p90": 58,
+      "R_max": 111,
+      "write_runs_aic": 521,
+      "meanR": 54.677543
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 452455942
+  },
+  "end": 1793975365.319726,
+  "seconds": 9.676904201507568,
+  "peak_mem_mb": 415.21875
+}

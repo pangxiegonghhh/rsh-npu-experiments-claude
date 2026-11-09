@@ -1,0 +1,38 @@
+[
+ {
+  "matrix": "cora",
+  "member": 1793975061.8558578,
+  "W": 16,
+  "tau": 2,
+  "diag": "A0",
+  "source": "pls-1",
+  "k_windows": 103,
+  "sumU": 4832,
+  "T": 356,
+  "sumGamma": 1503,
+  "sumR": 3009,
+  "R_p50": 27,
+  "R_p90": 37,
+  "R_max": 93,
+  "write_runs_aic": 103,
+  "meanR": 29.213592
+ },
+ {
+  "matrix": "cora",
+  "member": 1793975061.8558578,
+  "W": 16,
+  "tau": 2,
+  "diag": "A1",
+  "source": "pls-1",
+  "k_windows": 103,
+  "sumU": 5350,
+  "T": 380,
+  "sumGamma": 1508,
+  "sumR": 2763,
+  "R_p50": 24,
+  "R_p90": 35,
+  "R_max": 92,
+  "write_runs_aic": 103,
+  "meanR": 26.825243
+ }
+]

@@ -1,0 +1,85 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "cora",
+  "member": "C10-BP",
+  "start": 1793969833.0470269,
+  "lam": "",
+  "tau": 3,
+  "seed": 0,
+  "t21_path": "orders/cora__C10-BP__W16__tauNone__own__633780c3b8aa.json",
+  "sha256": "9a7ac61dfc8c082330e2b1b9b1d7bab5bff4958818d583227e0eff73bb2d3ec4",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__C10-BP__W16__tauNone__own__633780c3b8aa.json",
+  "verified_sha256": "f7ff2e41c5ccf4d2158d4a192b18823dd547e57599152648a85f9bfef9b2a270",
+  "origin": "T21 archive",
+  "kind": "ls",
+  "W": 16,
+  "lambda": 0,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/cora__C10-BP__ls__tau3__lam0.json"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/cora__C10-BP__ls__tau3__lam0.order.json",
+  "size": 13274,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 339,
+        "sumU": 4198,
+        "sumGamma": 1566,
+        "elapsed": 0.006504058837890625
+      },
+      {
+        "sweep": 1,
+        "accepted": 73,
+        "sumU": 4105,
+        "sumGamma": 1492,
+        "elapsed": 0.013122081756591797
+      },
+      {
+        "sweep": 2,
+        "accepted": 26,
+        "sumU": 4076,
+        "sumGamma": 1491,
+        "elapsed": 0.019639015197753906
+      },
+      {
+        "sweep": 3,
+        "accepted": 5,
+        "sumU": 4071,
+        "sumGamma": 1483,
+        "elapsed": 0.02690577507019043
+      },
+      {
+        "sweep": 4,
+        "accepted": 0,
+        "sumU": 4071,
+        "sumGamma": 1483,
+        "elapsed": 0.033782005310058594
+      }
+    ],
+    "sweeps_done": 5,
+    "accepted_swaps": 443,
+    "tracked_sumU": 4071,
+    "tracked_sumGamma": 1483,
+    "independent_full_recompute": {
+      "k_windows": 68,
+      "sumU": 4071,
+      "T": 282,
+      "sumGamma": 1483,
+      "sumR": 2484,
+      "R_p50": 34,
+      "R_p90": 56,
+      "R_max": 90,
+      "write_runs_aic": 68,
+      "meanR": 36.529412
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 694992
+  },
+  "end": 1793969833.095281,
+  "seconds": 0.04825401306152344
+}

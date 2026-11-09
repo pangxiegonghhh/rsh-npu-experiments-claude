@@ -1,0 +1,20 @@
+In file included from /root/boost_1_58_0/boost/optional/optional.hpp:51,
+                 from /root/boost_1_58_0/boost/range/detail/default_constructible_unary_fn.hpp:13,
+                 from /root/boost_1_58_0/boost/range/adaptor/transformed.hpp:15,
+                 from reorder.cc:7:
+/root/boost_1_58_0/boost/utility/compare_pointees.hpp:36:32: warning: 'template<class _Arg1, class _Arg2, class _Result> struct std::binary_function' is deprecated [-Wdeprecated-declarations]
+   36 | struct equal_pointees_t : std::binary_function<OptionalPointee,OptionalPointee,bool>
+      |                                ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/14.2.0/string:49,
+                 from /usr/include/c++/14.2.0/stdexcept:39,
+                 from /root/boost_1_58_0/boost/optional/bad_optional_access.hpp:15,
+                 from /root/boost_1_58_0/boost/optional/optional.hpp:27:
+/usr/include/c++/14.2.0/bits/stl_function.h:131:12: note: declared here
+  131 |     struct binary_function
+      |            ^~~~~~~~~~~~~~~
+/root/boost_1_58_0/boost/utility/compare_pointees.hpp:59:31: warning: 'template<class _Arg1, class _Arg2, class _Result> struct std::binary_function' is deprecated [-Wdeprecated-declarations]
+   59 | struct less_pointees_t : std::binary_function<OptionalPointee,OptionalPointee,bool>
+      |                               ^~~~~~~~~~~~~~~
+/usr/include/c++/14.2.0/bits/stl_function.h:131:12: note: declared here
+  131 |     struct binary_function
+      |            ^~~~~~~~~~~~~~~

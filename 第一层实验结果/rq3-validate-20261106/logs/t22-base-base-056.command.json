@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/measure_t22_base.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-056.json"
+  ],
+  "start": 1793971026.2949781,
+  "end": 1793971154.502885,
+  "exitcode": 0
+}

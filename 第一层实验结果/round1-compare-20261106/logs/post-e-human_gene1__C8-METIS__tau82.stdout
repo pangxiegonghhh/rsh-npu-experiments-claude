@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 17640, 'sumU': 6466675, 'sumGamma': 1017872, 'elapsed': 30.477349758148193}
+LS {'sweep': 1, 'accepted': 15891, 'sumU': 5394049, 'sumGamma': 851593, 'elapsed': 57.785425901412964}
+LS {'sweep': 2, 'accepted': 12819, 'sumU': 4758731, 'sumGamma': 739458, 'elapsed': 82.0661199092865}
+LS {'sweep': 3, 'accepted': 9407, 'sumU': 4402336, 'sumGamma': 669100, 'elapsed': 105.17669081687927}
+LS {'sweep': 4, 'accepted': 6770, 'sumU': 4184062, 'sumGamma': 623888, 'elapsed': 126.20179891586304}
+LS {'sweep': 5, 'accepted': 4652, 'sumU': 4059490, 'sumGamma': 598246, 'elapsed': 146.27460074424744}
+LS {'sweep': 6, 'accepted': 3076, 'sumU': 3987852, 'sumGamma': 583318, 'elapsed': 166.05906081199646}
+LS {'sweep': 7, 'accepted': 2213, 'sumU': 3939597, 'sumGamma': 572517, 'elapsed': 185.51165676116943}
+LS {'sweep': 8, 'accepted': 1597, 'sumU': 3906667, 'sumGamma': 565648, 'elapsed': 204.5190258026123}
+LS {'sweep': 9, 'accepted': 1215, 'sumU': 3883784, 'sumGamma': 561686, 'elapsed': 224.11598992347717}
+{"matrix": "human_gene1", "method": "C8-METIS", "W": 16, "seed": 0, "start": 1793973330.1504052, "status": "OK", "params": "edgecut; ufactor=30; seed=0; direct k-way; exact capacity repair", "command": ["scripts/external_metis.py", "--matrix", "human_gene1"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/human_gene1__C8-METIS__W16__seed0.order.json", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/human_gene1__C8-METIS__W16__seed0.order.json", "sha256": "74ddfa790d05ae97db3036ba369f3f3595219cf62bbccac11f00310ebade146a", "size": 123942, "end": 1793973589.100321, "seconds": 258.9499158859253, "peak_mem_mb": 1161.234375, "member": "C8-METIS", "tau": 82, "reuse": false, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/human_gene1__C8-METIS__tau82/order.json"}

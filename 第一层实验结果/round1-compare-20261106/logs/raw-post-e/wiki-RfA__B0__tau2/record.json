@@ -1,0 +1,118 @@
+{
+  "task": "T23",
+  "use": "base-order",
+  "matrix": "wiki-RfA",
+  "t23_member": "B0",
+  "t21_member": "B0",
+  "W": 16,
+  "params": "",
+  "source": "T21 \u5b8c\u6574\u5f52\u6863",
+  "path": "orders/wiki-RfA__B0__W16__tauNone__own__817118d2f455.json",
+  "sha256": "acbbd5285ba11aeacb47c053c96026deaf1340d7bae29cce5bedd8f7fe76c4eb",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__B0__W16__tauNone__own__817118d2f455.json",
+  "verified_sha256": "aadf6fca7e6a5e9562d2666a3a45cf8e37425e4aad9430f23273ce03a943231a",
+  "origin": "T21 archive",
+  "member": "B0",
+  "tau": 2,
+  "reuse": false,
+  "status": "OK",
+  "start": 1793972896.321661,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/wiki-RfA__B0__tau2/order.json",
+  "size": 58469,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 6096,
+        "sumU": 245233,
+        "sumGamma": 114811,
+        "elapsed": 0.8150360584259033
+      },
+      {
+        "sweep": 1,
+        "accepted": 3781,
+        "sumU": 222545,
+        "sumGamma": 99938,
+        "elapsed": 1.6895239353179932
+      },
+      {
+        "sweep": 2,
+        "accepted": 2449,
+        "sumU": 210372,
+        "sumGamma": 91234,
+        "elapsed": 2.484915018081665
+      },
+      {
+        "sweep": 3,
+        "accepted": 1638,
+        "sumU": 203524,
+        "sumGamma": 85862,
+        "elapsed": 3.2500879764556885
+      },
+      {
+        "sweep": 4,
+        "accepted": 1245,
+        "sumU": 198630,
+        "sumGamma": 82276,
+        "elapsed": 3.9871418476104736
+      },
+      {
+        "sweep": 5,
+        "accepted": 944,
+        "sumU": 195096,
+        "sumGamma": 79348,
+        "elapsed": 4.726557016372681
+      },
+      {
+        "sweep": 6,
+        "accepted": 786,
+        "sumU": 191913,
+        "sumGamma": 77257,
+        "elapsed": 5.460632085800171
+      },
+      {
+        "sweep": 7,
+        "accepted": 609,
+        "sumU": 189535,
+        "sumGamma": 75167,
+        "elapsed": 6.213962078094482
+      },
+      {
+        "sweep": 8,
+        "accepted": 452,
+        "sumU": 187821,
+        "sumGamma": 74070,
+        "elapsed": 6.9373939037323
+      },
+      {
+        "sweep": 9,
+        "accepted": 329,
+        "sumU": 186550,
+        "sumGamma": 73059,
+        "elapsed": 7.660015106201172
+      }
+    ],
+    "sweeps_done": 10,
+    "accepted_swaps": 18329,
+    "tracked_sumU": 186550,
+    "tracked_sumGamma": 73059,
+    "independent_full_recompute": {
+      "k_windows": 416,
+      "sumU": 186550,
+      "T": 11850,
+      "sumGamma": 73059,
+      "sumR": 133727,
+      "R_p50": 291,
+      "R_p90": 521,
+      "R_max": 1261,
+      "write_runs_aic": 416,
+      "meanR": 321.459135
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 20294240
+  },
+  "end": 1793972904.428022,
+  "seconds": 8.106360912322998,
+  "peak_mem_mb": 74.65625
+}

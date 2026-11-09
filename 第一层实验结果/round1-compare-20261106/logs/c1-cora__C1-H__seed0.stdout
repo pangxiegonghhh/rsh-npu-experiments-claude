@@ -1,0 +1,10 @@
+Fri Nov  6 20:41:23 2026 Building RP forest with 7 trees
+Fri Nov  6 20:41:23 2026 metric NN descent for 11 iterations
+	 1  /  11
+	 2  /  11
+	 3  /  11
+	 4  /  11
+	 5  /  11
+	 6  /  11
+	Stopping threshold met -- exiting after 6 iterations
+{"matrix": "cora", "method": "C1-H", "W": 16, "seed": 0, "start": 1793968883.721689, "status": "OK", "command": ["scripts/external_c1.py", "--matrix", "cora", "--variant", "H", "--seed", "0"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/cora__C1-H__W16__seed0.order.json", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/cora__C1-H__W16__seed0.order.json", "sha256": "743625dd83fb360b9f702f5267f4804cd5b3177ffd1b08361c22bd0cd7fc4dc9", "size": 12432, "diagnostics": {"graph_components": 1, "graph_edges": 39224, "zero_distance_edges": 233, "recall_sample_original_rows": [7, 14, 21, 42, 57, 74, 87, 105, 129, 140, 157, 193, 194, 210, 213, 224, 233, 245, 326, 357, 404, 453, 458, 536, 607, 622, 642, 676, 678, 697, 705, 721, 784, 795, 822, 849, 857, 876, 901, 904, 951, 995, 1000, 1009, 1010, 1026, 1028, 1045, 1056, 1074, 1093, 1107, 1122, 1213, 1259, 1289, 1305, 1320, 1345, 1380, 1392, 1412, 1416, 1445, 1455, 1521, 1532, 1539, 1543, 1571, 1573, 1584, 1618, 1642, 1644, 1667, 1682, 1686, 1700, 1717, 1746, 1761, 1790, 1805, 1808, 1818, 1860, 1893, 1902, 1904, 1908, 1910, 1917, 1995, 2010, 2030, 2070, 2106, 2110, 2121, 2122, 2125, 2146, 2195, 2210, 2219, 2231, 2234, 2239, 2256, 2314, 2316, 2354, 2362, 2365, 2378, 2412, 2431, 2482, 2507, 2519, 2560, 2585, 2626, 2658, 2674, 2693, 2702], "recall_at16": 0.2255859375, "graph_type": "nonempty row exact-distance undirected union of approximate neighbors; Kruskal MSF", "pynndescent_version": "0.7.0", "n_jobs": 1, "metric_units": "symmetric difference count"}, "end": 1793968892.732346, "seconds": 9.01065707206726, "peak_mem_mb": 292.3125}

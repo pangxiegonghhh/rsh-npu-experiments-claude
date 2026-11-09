@@ -1,0 +1,33 @@
+{
+  "matrix": "olafu",
+  "member": "C8-METIS",
+  "W": 16,
+  "diag": "A0",
+  "tau": 56,
+  "T_full": 15589,
+  "T_full_phase": 17301.266666666666,
+  "align_premium": 1712.2666666666664,
+  "T_inplace": 12814,
+  "T_keep": 12656,
+  "U_inplace": 199190,
+  "U_keep": 197893,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.22567176818847656,
+  "status": "OK"
+}

@@ -1,0 +1,33 @@
+{
+  "matrix": "human_gene1",
+  "member": "B-RCM-ref",
+  "W": 16,
+  "diag": "A0",
+  "tau": 342,
+  "T_full": 293821,
+  "T_full_phase": 293512.8,
+  "align_premium": -308.20000000001164,
+  "T_inplace": 270650,
+  "T_keep": 246470,
+  "U_inplace": 4321213,
+  "U_keep": 3937221,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 5.46597695350647,
+  "status": "OK"
+}

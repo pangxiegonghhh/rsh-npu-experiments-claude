@@ -1,0 +1,13 @@
+{
+  "pid": 96182,
+  "slot": 1,
+  "command": [
+    "scripts/post_e_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__C1-J__tau56.json"
+  ],
+  "queued_at": 1793975525.63062,
+  "acquired_at": 1793975613.963073,
+  "queue_seconds": 88.33245301246643,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots"
+}

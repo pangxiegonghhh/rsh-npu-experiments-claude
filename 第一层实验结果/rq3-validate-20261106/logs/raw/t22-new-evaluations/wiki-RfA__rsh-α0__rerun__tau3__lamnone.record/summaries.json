@@ -1,0 +1,38 @@
+[
+ {
+  "matrix": "wiki-RfA",
+  "member": 1793974935.3989902,
+  "W": 16,
+  "tau": 3,
+  "diag": "A0",
+  "source": "rerun",
+  "k_windows": 376,
+  "sumU": 161616,
+  "T": 10275,
+  "sumGamma": 44891,
+  "sumR": 75978,
+  "R_p50": 165,
+  "R_p90": 403,
+  "R_max": 705,
+  "write_runs_aic": 376,
+  "meanR": 202.069149
+ },
+ {
+  "matrix": "wiki-RfA",
+  "member": 1793974935.3989902,
+  "W": 16,
+  "tau": 3,
+  "diag": "A1",
+  "source": "rerun",
+  "k_windows": 376,
+  "sumU": 165562,
+  "T": 10525,
+  "sumGamma": 45051,
+  "sumR": 75771,
+  "R_p50": 166,
+  "R_p90": 403,
+  "R_max": 705,
+  "write_runs_aic": 376,
+  "meanR": 201.518617
+ }
+]

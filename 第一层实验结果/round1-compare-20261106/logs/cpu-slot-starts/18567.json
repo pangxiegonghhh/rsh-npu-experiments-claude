@@ -1,0 +1,13 @@
+{
+  "pid": 18567,
+  "slot": 1,
+  "command": [
+    "scripts/derive_t22.py"
+  ],
+  "queued_at": 1793976578.986217,
+  "acquired_at": 1793976764.291269,
+  "queue_seconds": 185.30505204200745,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false
+}

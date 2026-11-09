@@ -1,0 +1,9 @@
+{
+  "time": 1793973792.250863,
+  "rule": "base rows use source record member; new rows use nonempty string start only, else start_member/member; numeric start is a timestamp",
+  "reason": "empty start field inherited from CSV base-order records; numeric results and source record IDs unchanged",
+  "old_raw_rows_retained": true,
+  "apply_during_final_aggregation": true,
+  "additional_cause": "order-job start Unix timestamp occupies the start key; labels reconstructed from authoritative source-record member and source path",
+  "scientific_values_recomputed": false
+}

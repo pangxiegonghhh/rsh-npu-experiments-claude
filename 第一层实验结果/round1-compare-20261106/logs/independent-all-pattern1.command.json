@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/independent_matrix_job.py",
+    "pattern1"
+  ],
+  "start": 1793974030.374597,
+  "end": 1793974306.638171,
+  "exitcode": 0
+}

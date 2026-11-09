@@ -1,0 +1,13 @@
+{
+  "pid": 70957,
+  "slot": 1,
+  "command": [
+    "scripts/independent_matrix_job.py",
+    "human_gene1"
+  ],
+  "queued_at": 1793974306.766738,
+  "acquired_at": 1793974455.015496,
+  "queue_seconds": 148.24875807762146,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots"
+}

@@ -1,0 +1,22 @@
+{
+  "pid": 90343,
+  "slot": 0,
+  "command": [
+    "scripts/rabbit_family.py",
+    "--matrix",
+    "cora",
+    "--W",
+    "16",
+    "--mode",
+    "U",
+    "--rep",
+    "0",
+    "--cn"
+  ],
+  "queued_at": 1793980167.531112,
+  "acquired_at": 1793980171.0649421,
+  "queue_seconds": 3.5338311195373535,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false
+}

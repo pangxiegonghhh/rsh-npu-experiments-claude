@@ -1,0 +1,29 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "pattern1",
+  "member": "rabbit-pilot",
+  "start": 1793979950.810302,
+  "lam": "",
+  "tau": 757,
+  "seed": 0,
+  "t21_path": "orders/pattern1__rabbit-pilot__W16__tauNone__own__f6228d937bf8.json",
+  "sha256": "0f610b6784c92c8d537244a63e72ca0110362311e7e0d28af5e330d7305d468a",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__rabbit-pilot__W16__tauNone__own__f6228d937bf8.json",
+  "verified_sha256": "86f31e2968dc9745e4420fd2cfc515a951cf59647f21c1a8f6a6deb19b86f007",
+  "origin": "T21 archive",
+  "kind": "rerun",
+  "W": 16,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/pattern1__rabbit-pilot__rerun__tau757__lamnone.json"
+  ],
+  "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/pattern1__rabbit-pilot__rerun__tau757__lamnone.checkpoint.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/pattern1__rabbit-pilot__rerun__tau757__lamnone.order.json",
+  "size": 46533,
+  "diagnostics": {},
+  "end": 1793979951.126213,
+  "seconds": 0.31591105461120605
+}

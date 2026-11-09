@@ -1,0 +1,29 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "human_gene1",
+  "member": "B-RCM-ref",
+  "start": 1793985377.567721,
+  "lam": "",
+  "tau": 342,
+  "seed": 0,
+  "t21_path": "orders/human_gene1__B-RCM-ref__W16__tauNone__own__291210d9ea07.json",
+  "sha256": "ecf5cc98dc28473939de443b828463fd79d3aafd8d96fcdaeae0ec9e8e0f5503",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__B-RCM-ref__W16__tauNone__own__291210d9ea07.json",
+  "verified_sha256": "db2b04abac1390863e757bd005be5a40b50ab211ae55f76dabdbb3cd325ca66a",
+  "origin": "T21 archive",
+  "kind": "rerun",
+  "W": 16,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/human_gene1__B-RCM-ref__rerun__tau342__lamnone.json"
+  ],
+  "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/human_gene1__B-RCM-ref__rerun__tau342__lamnone.checkpoint.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/human_gene1__B-RCM-ref__rerun__tau342__lamnone.order.json",
+  "size": 73768,
+  "diagnostics": {},
+  "end": 1793985397.199477,
+  "seconds": 19.631756067276
+}

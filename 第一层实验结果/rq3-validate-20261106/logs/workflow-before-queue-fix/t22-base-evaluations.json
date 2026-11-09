@@ -1,0 +1,915 @@
+[
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-000.json"
+    ],
+    "start": 1793969255.7629309,
+    "end": 1793969256.314013,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-001.json"
+    ],
+    "start": 1793969255.7631202,
+    "end": 1793969256.2464352,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-002.json"
+    ],
+    "start": 1793969256.2496939,
+    "end": 1793969256.614837,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-003.json"
+    ],
+    "start": 1793969256.315021,
+    "end": 1793969256.694295,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-004.json"
+    ],
+    "start": 1793969256.615268,
+    "end": 1793969257.2350311,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-005.json"
+    ],
+    "start": 1793969256.6947231,
+    "end": 1793969257.377314,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-006.json"
+    ],
+    "start": 1793969257.2358122,
+    "end": 1793969257.884778,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-007.json"
+    ],
+    "start": 1793969257.378498,
+    "end": 1793969257.978007,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-008.json"
+    ],
+    "start": 1793969257.885397,
+    "end": 1793969258.527791,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-009.json"
+    ],
+    "start": 1793969257.979776,
+    "end": 1793969343.663605,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-010.json"
+    ],
+    "start": 1793969258.528824,
+    "end": 1793969361.624341,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-011.json"
+    ],
+    "start": 1793969343.664721,
+    "end": 1793969496.3373382,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-012.json"
+    ],
+    "start": 1793969361.625719,
+    "end": 1793969523.5480409,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-013.json"
+    ],
+    "start": 1793969496.339355,
+    "end": 1793969664.45007,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-014.json"
+    ],
+    "start": 1793969523.550009,
+    "end": 1793969693.091611,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-015.json"
+    ],
+    "start": 1793969664.452925,
+    "end": 1793969809.2871811,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-016.json"
+    ],
+    "start": 1793969693.093313,
+    "end": 1793969907.602166,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-017.json"
+    ],
+    "start": 1793969809.288629,
+    "end": 1793970079.0299468,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-018.json"
+    ],
+    "start": 1793969907.608623,
+    "end": 1793969911.376409,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-019.json"
+    ],
+    "start": 1793969911.3867872,
+    "end": 1793969917.087512,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-020.json"
+    ],
+    "start": 1793969917.09885,
+    "end": 1793969926.091349,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-021.json"
+    ],
+    "start": 1793969926.0972118,
+    "end": 1793969933.508538,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-022.json"
+    ],
+    "start": 1793969933.514675,
+    "end": 1793969937.8893352,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-023.json"
+    ],
+    "start": 1793969937.892381,
+    "end": 1793969942.8199859,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-024.json"
+    ],
+    "start": 1793969942.8210812,
+    "end": 1793969947.136678,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-025.json"
+    ],
+    "start": 1793969947.1382651,
+    "end": 1793969951.680353,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-026.json"
+    ],
+    "start": 1793969951.6824079,
+    "end": 1793969961.874392,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-027.json"
+    ],
+    "start": 1793969961.8836071,
+    "end": 1793969987.7800808,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-028.json"
+    ],
+    "start": 1793969987.806189,
+    "end": 1793970008.439521,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-029.json"
+    ],
+    "start": 1793970008.441049,
+    "end": 1793970038.8081138,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-030.json"
+    ],
+    "start": 1793970038.822654,
+    "end": 1793970080.782568,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-031.json"
+    ],
+    "start": 1793970079.039593,
+    "end": 1793970109.093825,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-032.json"
+    ],
+    "start": 1793970080.783618,
+    "end": 1793970109.794336,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-033.json"
+    ],
+    "start": 1793970109.094922,
+    "end": 1793970133.377804,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-034.json"
+    ],
+    "start": 1793970109.794865,
+    "end": 1793970127.393968,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-035.json"
+    ],
+    "start": 1793970127.395125,
+    "end": 1793970156.601013,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-036.json"
+    ],
+    "start": 1793970133.3786619,
+    "end": 1793970136.416097,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-037.json"
+    ],
+    "start": 1793970136.41952,
+    "end": 1793970138.926816,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-038.json"
+    ],
+    "start": 1793970138.927565,
+    "end": 1793970141.897685,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-039.json"
+    ],
+    "start": 1793970141.898595,
+    "end": 1793970144.562439,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-040.json"
+    ],
+    "start": 1793970144.5629811,
+    "end": 1793970146.487155,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-041.json"
+    ],
+    "start": 1793970146.487626,
+    "end": 1793970148.514144,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-042.json"
+    ],
+    "start": 1793970148.5150132,
+    "end": 1793970151.9539142,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-043.json"
+    ],
+    "start": 1793970151.954684,
+    "end": 1793970154.165956,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-044.json"
+    ],
+    "start": 1793970154.166677,
+    "end": 1793970168.891693,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-045.json"
+    ],
+    "start": 1793970156.607754,
+    "end": 1793970219.938802,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-046.json"
+    ],
+    "start": 1793970168.893267,
+    "end": 1793970495.3976471,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-047.json"
+    ],
+    "start": 1793970219.939733,
+    "end": 1793970318.623266,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-048.json"
+    ],
+    "start": 1793970318.625603,
+    "end": 1793970437.250349,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-049.json"
+    ],
+    "start": 1793970437.253302,
+    "end": 1793970599.773888,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-050.json"
+    ],
+    "start": 1793970495.399768,
+    "end": 1793970641.809195,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-051.json"
+    ],
+    "start": 1793970599.7749581,
+    "end": 1793970917.656543,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-052.json"
+    ],
+    "start": 1793970641.810352,
+    "end": 1793970792.674638,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-053.json"
+    ],
+    "start": 1793970792.679244,
+    "end": 1793970903.710347,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-054.json"
+    ],
+    "start": 1793970903.711814,
+    "end": 1793971034.773684,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-055.json"
+    ],
+    "start": 1793970917.657459,
+    "end": 1793971026.2926579,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-056.json"
+    ],
+    "start": 1793971026.2949781,
+    "end": 1793971154.502885,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-057.json"
+    ],
+    "start": 1793971034.7746592,
+    "end": 1793971158.0282729,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-058.json"
+    ],
+    "start": 1793971154.504135,
+    "end": 1793971343.938576,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-059.json"
+    ],
+    "start": 1793971158.029889,
+    "end": 1793971347.868923,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-060.json"
+    ],
+    "start": 1793971343.941739,
+    "end": 1793971462.161073,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-061.json"
+    ],
+    "start": 1793971347.873085,
+    "end": 1793971465.384862,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-062.json"
+    ],
+    "start": 1793971462.162391,
+    "end": 1793971462.3056939,
+    "exitcode": 1
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-063.json"
+    ],
+    "start": 1793971462.306465,
+    "end": 1793971466.2827232,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-064.json"
+    ],
+    "start": 1793971465.386594,
+    "end": 1793971466.744405,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-065.json"
+    ],
+    "start": 1793971466.283436,
+    "end": 1793971675.01777,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-066.json"
+    ],
+    "start": 1793971466.745319,
+    "end": 1793971667.223773,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-067.json"
+    ],
+    "start": 1793971667.226133,
+    "end": 1793971667.4832919,
+    "exitcode": 1
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-068.json"
+    ],
+    "start": 1793971667.483983,
+    "end": 1793971669.497979,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-069.json"
+    ],
+    "start": 1793971669.498508,
+    "end": 1793971669.693408,
+    "exitcode": 1
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-070.json"
+    ],
+    "start": 1793971669.694922,
+    "end": 1793971671.170122,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-071.json"
+    ],
+    "start": 1793971671.17085,
+    "end": 1793971671.378755,
+    "exitcode": 1
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-072.json"
+    ],
+    "start": 1793971671.379851,
+    "end": 1793971672.302119,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-073.json"
+    ],
+    "start": 1793971672.30703,
+    "end": 1793971672.500965,
+    "exitcode": 1
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-074.json"
+    ],
+    "start": 1793971672.5019279,
+    "end": 1793971672.696228,
+    "exitcode": 1
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-075.json"
+    ],
+    "start": 1793971672.6970198,
+    "end": 1793971672.838552,
+    "exitcode": 1
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-076.json"
+    ],
+    "start": 1793971672.8389351,
+    "end": 1793971672.9669518,
+    "exitcode": 1
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-077.json"
+    ],
+    "start": 1793971672.967395,
+    "end": 1793971673.176718,
+    "exitcode": 1
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-078.json"
+    ],
+    "start": 1793971673.17715,
+    "end": 1793971673.325044,
+    "exitcode": 1
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-079.json"
+    ],
+    "start": 1793971673.326079,
+    "end": 1793971673.45522,
+    "exitcode": 1
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-080.json"
+    ],
+    "start": 1793971673.4616818,
+    "end": 1793971673.677332,
+    "exitcode": 1
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-081.json"
+    ],
+    "start": 1793971673.677721,
+    "end": 1793971673.827577,
+    "exitcode": 1
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/measure_t22_base.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-082.json"
+    ],
+    "start": 1793971673.827977,
+    "end": 1793971673.974158,
+    "exitcode": 1
+  }
+]

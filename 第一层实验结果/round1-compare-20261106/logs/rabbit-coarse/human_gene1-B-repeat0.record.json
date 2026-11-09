@@ -1,0 +1,23 @@
+{
+  "key": "human_gene1-B-repeat0",
+  "input_filename": "human_gene1-B.edges.gz",
+  "start": 1793970565.6232543,
+  "threads": 1,
+  "author_ref": "f93776e9c1e1d4a8962ee56bc7ff0091e6fe12dd",
+  "requested_seed": null,
+  "seed_api": "author demo exposes no RNG seed; serial execution fixed",
+  "status": "OK",
+  "command": [
+    "/root/rabbit/demo/reorder",
+    "/root/rabbit-runs/human_gene1-B-repeat0.edges"
+  ],
+  "input_gz_sha256": "9d2f0e9a36e9db8893ebcedbf23b5344ffca36d455032042ddda53096e80a929",
+  "input_prepare_seconds": 9.007207155227661,
+  "exitcode": 0,
+  "coarse_seconds": 63.83941102027893,
+  "mapping_sha256": "53f78edf429184bdddfd8c9ccf35cc22725fe318fe502c67b6048a2f7cf63763",
+  "peak_mem_mb": 1274.78515625,
+  "end": 1793970638.5049193,
+  "requested_replica_label": 0,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/rabbit-coarse/human_gene1-B-repeat0.mapping"
+}

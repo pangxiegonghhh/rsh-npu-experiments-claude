@@ -1,0 +1,38 @@
+[
+ {
+  "matrix": "olafu",
+  "member": "rabbit-pilot",
+  "W": 16,
+  "tau": 53,
+  "diag": "A0",
+  "source": "pls-0",
+  "k_windows": 623,
+  "sumU": 105758,
+  "T": 6878,
+  "sumGamma": 10205,
+  "sumR": 8251,
+  "R_p50": 11,
+  "R_p90": 27,
+  "R_max": 57,
+  "write_runs_aic": 623,
+  "meanR": 13.243981
+ },
+ {
+  "matrix": "olafu",
+  "member": "rabbit-pilot",
+  "W": 16,
+  "tau": 53,
+  "diag": "A1",
+  "source": "pls-0",
+  "k_windows": 623,
+  "sumU": 105759,
+  "T": 6878,
+  "sumGamma": 10205,
+  "sumR": 8250,
+  "R_p50": 11,
+  "R_p90": 27,
+  "R_max": 57,
+  "write_runs_aic": 623,
+  "meanR": 13.242376
+ }
+]

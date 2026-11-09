@@ -1,0 +1,33 @@
+{
+  "matrix": "human_gene1",
+  "member": "rabbit-pilot",
+  "W": 16,
+  "diag": "A0",
+  "tau": 342,
+  "T_full": 313033,
+  "T_full_phase": 313249.3333333333,
+  "align_premium": 216.33333333331393,
+  "T_inplace": 285701,
+  "T_keep": 266414,
+  "U_inplace": 4562480,
+  "U_keep": 4256346,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 16.20327401161194,
+  "status": "OK"
+}

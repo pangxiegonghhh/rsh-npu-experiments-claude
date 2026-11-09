@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 104276, 'sumU': 1729613, 'sumGamma': 1314999, 'elapsed': 32.277435302734375}
+LS {'sweep': 1, 'accepted': 73724, 'sumU': 1511138, 'sumGamma': 1013718, 'elapsed': 109.56273007392883}
+LS {'sweep': 2, 'accepted': 44750, 'sumU': 1402290, 'sumGamma': 879853, 'elapsed': 155.11596012115479}
+LS {'sweep': 3, 'accepted': 25187, 'sumU': 1347863, 'sumGamma': 814913, 'elapsed': 198.3805661201477}
+LS {'sweep': 4, 'accepted': 14014, 'sumU': 1320828, 'sumGamma': 783724, 'elapsed': 263.43837213516235}
+LS {'sweep': 5, 'accepted': 8110, 'sumU': 1305396, 'sumGamma': 766085, 'elapsed': 293.46055912971497}
+LS {'sweep': 6, 'accepted': 4833, 'sumU': 1296489, 'sumGamma': 756025, 'elapsed': 320.5716631412506}
+LS {'sweep': 7, 'accepted': 2949, 'sumU': 1291257, 'sumGamma': 750034, 'elapsed': 366.29512429237366}
+LS {'sweep': 8, 'accepted': 1875, 'sumU': 1287939, 'sumGamma': 746424, 'elapsed': 420.1864204406738}
+LS {'sweep': 9, 'accepted': 1174, 'sumU': 1285678, 'sumGamma': 743858, 'elapsed': 477.4706790447235}
+{"task": "T22", "use": "base-order", "matrix": "ogbn-arxiv", "member": "B0", "start": 1793969833.5925078, "lam": "", "tau": 3, "seed": 0, "t21_path": "orders/ogbn-arxiv__B0__W16__tauNone__own__4b33dcbc93b8.json", "sha256": "10b61bf80cf1f2a5049fda3fea09ddceaad9cfa6e231d64afe4bfaeda88a4902", "note": "", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__B0__W16__tauNone__own__4b33dcbc93b8.json", "verified_sha256": "48a0ca8f77b752dcc34d48bf48b60ef0cb722cfcf70996c8375df3f44b6cc73a", "origin": "T21 archive", "kind": "ls", "W": 16, "lambda": 0, "status": "OK", "command": ["scripts/order_job.py", "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/ogbn-arxiv__B0__ls__tau3__lam0.json"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/ogbn-arxiv__B0__ls__tau3__lam0.order.json", "size": 1075648, "end": 1793970316.543338, "seconds": 482.95083022117615}

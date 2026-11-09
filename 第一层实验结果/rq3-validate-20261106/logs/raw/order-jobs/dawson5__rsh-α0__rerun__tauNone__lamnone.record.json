@@ -1,0 +1,29 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "dawson5",
+  "member": "rsh-\u03b10",
+  "start": 1793976999.01025,
+  "lam": "",
+  "tau": null,
+  "seed": 0,
+  "t21_path": "orders/dawson5__rsh-alpha0__W16__tauNone__own__4f1f28cb1ae2.json",
+  "sha256": "7577e30b83d7ec27a4587d1769147c186f8fc07695e8888a05fc8502cc6e7ff9",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__rsh-alpha0__W16__tauNone__own__4f1f28cb1ae2.json",
+  "verified_sha256": "76296832789ae8aa9e7296e62277a46d784122920648b4d0211777ff49d62380",
+  "origin": "T21 archive",
+  "kind": "rerun",
+  "W": 16,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/dawson5__rsh-\u03b10__rerun__tauNone__lamnone.json"
+  ],
+  "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/dawson5__rsh-\u03b10__rerun__tauNone__lamnone.checkpoint.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/dawson5__rsh-\u03b10__rerun__tauNone__lamnone.order.json",
+  "size": 298219,
+  "diagnostics": {},
+  "end": 1793976999.410059,
+  "seconds": 0.3998088836669922
+}

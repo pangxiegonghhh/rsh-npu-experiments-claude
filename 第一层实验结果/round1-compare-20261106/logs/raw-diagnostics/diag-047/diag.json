@@ -1,0 +1,33 @@
+{
+  "matrix": "pattern1",
+  "member": "B-RCM-ref",
+  "W": 16,
+  "diag": "A0",
+  "tau": 757,
+  "T_full": 46682,
+  "T_full_phase": 46525.26666666667,
+  "align_premium": -156.73333333332994,
+  "T_inplace": 29601,
+  "T_keep": 29222,
+  "U_inplace": 467381,
+  "U_keep": 461337,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 3.381464719772339,
+  "status": "OK"
+}

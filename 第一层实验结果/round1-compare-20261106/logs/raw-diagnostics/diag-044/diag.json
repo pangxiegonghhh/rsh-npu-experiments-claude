@@ -1,0 +1,33 @@
+{
+  "matrix": "pattern1",
+  "member": "C9-Gorder",
+  "W": 16,
+  "diag": "A0",
+  "tau": 757,
+  "T_full": 187952,
+  "T_full_phase": 188444.86666666667,
+  "align_premium": 492.8666666666686,
+  "T_inplace": 147196,
+  "T_keep": 103124,
+  "U_inplace": 2347461,
+  "U_keep": 1644213,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 5.024450063705444,
+  "status": "OK"
+}

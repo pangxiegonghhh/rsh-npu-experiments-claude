@@ -1,0 +1,18 @@
+{
+  "name": "t23-reference",
+  "argv": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/第一层工作区/T23参考实现/reproduce_cora_t23.py"
+  ],
+  "cwd": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/gates/t23-reference",
+  "initial_directory_entries": [],
+  "started_utc": "2026-11-06T12:07:56.613365+00:00",
+  "source_sha256": "f11bc828ed94eeb4db81e8a31d1262711399acae53235d38996faf77142ed48d",
+  "pid": 60406,
+  "returncode": 0,
+  "ended_utc": "2026-11-06T12:08:00.572869+00:00",
+  "elapsed_sec": 3.9591520419344306,
+  "first_line": "T23 Cora self-check: OK",
+  "passed": true
+}

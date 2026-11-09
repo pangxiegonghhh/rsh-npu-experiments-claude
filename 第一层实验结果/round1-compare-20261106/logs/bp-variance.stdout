@@ -1,0 +1,5 @@
+bp-variance-order-cora__C10-BP__W16__seed1 0 40.1
+bp-variance-eval-cora__C10-BP__W16__seed1 1 0.2
+bp-variance-order-cora__C10-BP__W16__seed2 1 0.2
+bp-variance-order-ogbn-arxiv__C10-BP__W16__seed1 1 0.1
+bp-variance-order-ogbn-arxiv__C10-BP__W16__seed2 1 0.2

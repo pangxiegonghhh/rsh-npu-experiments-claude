@@ -1,0 +1,38 @@
+[
+ {
+  "matrix": "dawson5",
+  "member": "rsh-\u03b10",
+  "W": 16,
+  "tau": 17,
+  "diag": "A0",
+  "source": "pls-0",
+  "k_windows": 1143,
+  "sumU": 137530,
+  "T": 9121,
+  "sumGamma": 22829,
+  "sumR": 32334,
+  "R_p50": 27,
+  "R_p90": 44,
+  "R_max": 90,
+  "write_runs_aic": 1143,
+  "meanR": 28.288714
+ },
+ {
+  "matrix": "dawson5",
+  "member": "rsh-\u03b10",
+  "W": 16,
+  "tau": 17,
+  "diag": "A1",
+  "source": "pls-0",
+  "k_windows": 1143,
+  "sumU": 137535,
+  "T": 9121,
+  "sumGamma": 22829,
+  "sumR": 32332,
+  "R_p50": 27,
+  "R_p90": 44,
+  "R_max": 90,
+  "write_runs_aic": 1143,
+  "meanR": 28.286964
+ }
+]

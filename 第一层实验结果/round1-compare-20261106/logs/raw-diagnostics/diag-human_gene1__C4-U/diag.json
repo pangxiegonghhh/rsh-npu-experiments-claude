@@ -1,0 +1,33 @@
+{
+  "matrix": "human_gene1",
+  "member": "C4-U",
+  "W": 16,
+  "diag": "A0",
+  "tau": 342,
+  "T_full": 260699,
+  "T_full_phase": 282991.2,
+  "align_premium": 22292.20000000001,
+  "T_inplace": 242127,
+  "T_keep": 248467,
+  "U_inplace": 3865899,
+  "U_keep": 3969119,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 2.827421188354492,
+  "status": "OK"
+}

@@ -1,0 +1,29 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "wiki-RfA",
+  "member": "rabbit-pilot",
+  "start": 1793974970.365388,
+  "lam": "",
+  "tau": null,
+  "seed": 0,
+  "t21_path": "orders/wiki-RfA__rabbit-pilot__W16__tauNone__own__232d5db7480d.json",
+  "sha256": "5aa6d7c081be0519d87be96dfebcbfa861693cd383e9a0acf4a11ffab1a14211",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__rabbit-pilot__W16__tauNone__own__232d5db7480d.json",
+  "verified_sha256": "588aa5f55c21a1cf72c894d300b3e129ba62dff9eb081a74ceb1415568c99da0",
+  "origin": "T21 archive",
+  "kind": "rerun",
+  "W": 16,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/wiki-RfA__rabbit-pilot__rerun__tauNone__lamnone.json"
+  ],
+  "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/wiki-RfA__rabbit-pilot__rerun__tauNone__lamnone.checkpoint.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/wiki-RfA__rabbit-pilot__rerun__tauNone__lamnone.order.json",
+  "size": 57279,
+  "diagnostics": {},
+  "end": 1793974970.41536,
+  "seconds": 0.0499720573425293
+}

@@ -1,0 +1,12 @@
+{
+  "pid": 18608,
+  "slot": 1,
+  "command": [
+    "scripts/post_e_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__C2-LSH__tau8.json"
+  ],
+  "queued_at": 1793971679.0470111,
+  "acquired_at": 1793971679.0473752,
+  "queue_seconds": 0.0003647804260253906,
+  "discipline": "FIFO"
+}

@@ -1,0 +1,29 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "human_gene1",
+  "member": "neutron-pilot",
+  "start": 1793982482.987659,
+  "lam": "",
+  "tau": null,
+  "seed": 0,
+  "t21_path": "orders/human_gene1__neutron-pilot__W16__tauNone__own__0dcb814a40f6.json",
+  "sha256": "34eeb9f51e9ae5c1380729ef18cec796e61da00f635e0184b2c785a6ca20085d",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__neutron-pilot__W16__tauNone__own__0dcb814a40f6.json",
+  "verified_sha256": "b5465b0e6ec9b1058c5f6c23af1faf74fee1dc04d479981451907b738cf1e0ff",
+  "origin": "T21 archive",
+  "kind": "rerun",
+  "W": 16,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/human_gene1__neutron-pilot__rerun__tauNone__lamnone.json"
+  ],
+  "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/human_gene1__neutron-pilot__rerun__tauNone__lamnone.checkpoint.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/human_gene1__neutron-pilot__rerun__tauNone__lamnone.order.json",
+  "size": 122701,
+  "diagnostics": {},
+  "end": 1793982495.169685,
+  "seconds": 12.182025909423828
+}

@@ -1,0 +1,13 @@
+{
+  "pid": 38544,
+  "slot": 1,
+  "command": [
+    "scripts/evaluate_t23.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/variance-cora__C10-BP__W16__seed1.json"
+  ],
+  "queued_at": 1793972684.7496161,
+  "acquired_at": 1793972919.360331,
+  "queue_seconds": 234.61071491241455,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots"
+}

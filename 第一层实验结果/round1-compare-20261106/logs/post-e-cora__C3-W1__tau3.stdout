@@ -1,0 +1,9 @@
+LS {'sweep': 0, 'accepted': 691, 'sumU': 4803, 'sumGamma': 2373, 'elapsed': 0.006298065185546875}
+LS {'sweep': 1, 'accepted': 271, 'sumU': 4439, 'sumGamma': 2051, 'elapsed': 0.01415109634399414}
+LS {'sweep': 2, 'accepted': 85, 'sumU': 4344, 'sumGamma': 1962, 'elapsed': 0.021535158157348633}
+LS {'sweep': 3, 'accepted': 36, 'sumU': 4301, 'sumGamma': 1933, 'elapsed': 0.0286099910736084}
+LS {'sweep': 4, 'accepted': 24, 'sumU': 4273, 'sumGamma': 1895, 'elapsed': 0.03685307502746582}
+LS {'sweep': 5, 'accepted': 10, 'sumU': 4261, 'sumGamma': 1889, 'elapsed': 0.04373502731323242}
+LS {'sweep': 6, 'accepted': 1, 'sumU': 4260, 'sumGamma': 1886, 'elapsed': 0.050611257553100586}
+LS {'sweep': 7, 'accepted': 0, 'sumU': 4260, 'sumGamma': 1886, 'elapsed': 0.05760312080383301}
+{"matrix": "cora", "method": "C3-W1", "W": 16, "seed": 0, "start": 1793976999.5137799, "status": "OK", "command": ["/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py", "--matrix", "cora", "--method", "C3-W1", "--seed", "0"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/cora__C3-W1__W16__seed0.order.json", "sha256": "2ef1632713f3a25870ead80dd9b46d6830ce1f37f80ab489d1a9426ac937b0be", "size": 13514, "end": 1793976999.610079, "seconds": 0.0962991714477539, "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/cora__C3-W1__W16__seed0.order.json", "member": "C3-W1", "tau": 3, "reuse": false, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/cora__C3-W1__tau3/order.json", "peak_mem_mb": 29.734375}

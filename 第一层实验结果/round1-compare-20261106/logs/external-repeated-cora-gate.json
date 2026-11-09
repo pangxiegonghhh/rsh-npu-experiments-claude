@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "candidate": "C1-H",
+      "same_seed": 0,
+      "identical": true,
+      "version": "0.7.0",
+      "n_jobs": 1,
+      "reference_sha256": "743625dd83fb360b9f702f5267f4804cd5b3177ffd1b08361c22bd0cd7fc4dc9"
+    },
+    {
+      "candidate": "C8-METIS",
+      "same_seed": 0,
+      "identical": true,
+      "pymetis_version": "2025.2.2",
+      "seed": 0,
+      "ufactor": 30,
+      "reference_sha256": "e67286102728231f43fc241904590b064e0b3e40bb65febb9d582f6ded1f067e"
+    }
+  ],
+  "C1_J_gate": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/c1-reproducibility.json",
+  "Rabbit_gate": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/rabbit-reproducibility-gate.json"
+}

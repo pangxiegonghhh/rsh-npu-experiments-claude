@@ -1,0 +1,29 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "olafu",
+  "member": "neutron-pilot",
+  "start": 1793979755.032765,
+  "lam": "",
+  "tau": 56,
+  "seed": 0,
+  "t21_path": "orders/olafu__neutron-pilot__W16__tauNone__own__1664355cdaa7.json",
+  "sha256": "4b7f693479e51cc12a033e6f1581dee9ea63e7c24a4c82d1a3e4a800545b6aa4",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__neutron-pilot__W16__tauNone__own__1664355cdaa7.json",
+  "verified_sha256": "e34bace6e655e31662ca68f7d3f3d50b55b9305f127a86303cd881e837c1ec01",
+  "origin": "T21 archive",
+  "kind": "rerun",
+  "W": 16,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/olafu__neutron-pilot__rerun__tau56__lamnone.json"
+  ],
+  "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/olafu__neutron-pilot__rerun__tau56__lamnone.checkpoint.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/olafu__neutron-pilot__rerun__tau56__lamnone.order.json",
+  "size": 51463,
+  "diagnostics": {},
+  "end": 1793979755.2352152,
+  "seconds": 0.20245027542114258
+}

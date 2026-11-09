@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/independent_matrix_job.py",
+    "wiki-RfA"
+  ],
+  "start": 1793972957.4887528,
+  "end": 1793973154.879762,
+  "exitcode": 0
+}

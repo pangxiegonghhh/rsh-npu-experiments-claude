@@ -1,0 +1,1 @@
+c++ -fopenmp -std=c++14 -O3 -DNDEBUG    -MD -o reorder reorder.cc -lnuma -latomic

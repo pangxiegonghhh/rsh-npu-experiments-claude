@@ -1,0 +1,38 @@
+[
+ {
+  "matrix": "human_gene1",
+  "member": "rabbit-pilot",
+  "W": 16,
+  "tau": 342,
+  "diag": "A0",
+  "source": "rerun",
+  "k_windows": 836,
+  "sumU": 4265030,
+  "T": 266961,
+  "sumGamma": 553202,
+  "sumR": 1016670,
+  "R_p50": 1128,
+  "R_p90": 1832,
+  "R_max": 2660,
+  "write_runs_aic": 836,
+  "meanR": 1216.11244
+ },
+ {
+  "matrix": "human_gene1",
+  "member": "rabbit-pilot",
+  "W": 16,
+  "tau": 342,
+  "diag": "A1",
+  "source": "rerun",
+  "k_windows": 836,
+  "sumU": 4267499,
+  "T": 267110,
+  "sumGamma": 553229,
+  "sumR": 1015960,
+  "R_p50": 1128,
+  "R_p90": 1828,
+  "R_max": 2655,
+  "write_runs_aic": 836,
+  "meanR": 1215.263158
+ }
+]

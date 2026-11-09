@@ -1,0 +1,19 @@
+Linux localhost 6.12.115-0-virt #1-Alpine SMP PREEMPT_DYNAMIC 2026-11-01 10:34:06 aarch64 Linux
+c++ (Alpine 14.2.0) 14.2.0
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+f91bdc5d266497a3833ddc5eb1b6ac17ce521552eb2cf529211703faa074f73b  /root/rabbit/demo/reorder
+25da8af4cb917a7349b1c669f4e92851faa54ac8a902f8074c0e46443662c068  /root/rabbit/rabbit_order.hpp
+851c60510271bea440bb7402bd8655b126c0d1f93c983ce17cda7faf24a93047  /root/rabbit/demo/reorder.cc
+e5283fb01c6e534c5e48651645587cba11665a39fc40cdb1992f11d61c460391  /root/gperftools-2.16/.libs/libtcmalloc_minimal.a
+libstdc++: GNU C++ standard runtime library
+libstdc++: https://gcc.gnu.org
+libstdc++: 2690 KiB
+musl: the musl c library (libc) implementation
+musl: https://musl.libc.org/
+musl: 706 KiB
+numactl: Simple NUMA policy support
+numactl: https://github.com/numactl/numactl
+numactl: 66 KiB

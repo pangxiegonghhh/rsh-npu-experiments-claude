@@ -1,0 +1,13 @@
+{
+  "pid": 7795,
+  "slot": 1,
+  "command": [
+    "scripts/verify_reused_pls.py"
+  ],
+  "queued_at": 1793976059.862459,
+  "acquired_at": 1793976261.134672,
+  "queue_seconds": 201.27221298217773,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false
+}

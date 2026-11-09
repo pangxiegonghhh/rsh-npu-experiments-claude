@@ -1,0 +1,120 @@
+{
+  "matrix": "human_gene1",
+  "method": "C7-I",
+  "W": 16,
+  "seed": 0,
+  "start": 1793978530.104506,
+  "status": "OK",
+  "command": [
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+    "--matrix",
+    "human_gene1",
+    "--method",
+    "C7-I",
+    "--seed",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/human_gene1__C7-I__W16__seed0.order.json",
+  "sha256": "460bd14c0eaaf5b84531de95e3403dc9c1482628714b36195d5d2e1784d187bb",
+  "size": 123925,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 10468,
+        "sumU": 4021975,
+        "sumGamma": 511841,
+        "elapsed": 16.901533126831055
+      },
+      {
+        "sweep": 1,
+        "accepted": 8483,
+        "sumU": 3727990,
+        "sumGamma": 467121,
+        "elapsed": 34.903363943099976
+      },
+      {
+        "sweep": 2,
+        "accepted": 5769,
+        "sumU": 3570100,
+        "sumGamma": 443569,
+        "elapsed": 53.23330807685852
+      },
+      {
+        "sweep": 3,
+        "accepted": 3436,
+        "sumU": 3493932,
+        "sumGamma": 431184,
+        "elapsed": 70.39743876457214
+      },
+      {
+        "sweep": 4,
+        "accepted": 2090,
+        "sumU": 3448893,
+        "sumGamma": 424399,
+        "elapsed": 87.60734105110168
+      },
+      {
+        "sweep": 5,
+        "accepted": 1310,
+        "sumU": 3423322,
+        "sumGamma": 421011,
+        "elapsed": 104.9307279586792
+      },
+      {
+        "sweep": 6,
+        "accepted": 874,
+        "sumU": 3406090,
+        "sumGamma": 418713,
+        "elapsed": 121.99719786643982
+      },
+      {
+        "sweep": 7,
+        "accepted": 583,
+        "sumU": 3394954,
+        "sumGamma": 417536,
+        "elapsed": 139.7371470928192
+      },
+      {
+        "sweep": 8,
+        "accepted": 379,
+        "sumU": 3387591,
+        "sumGamma": 416413,
+        "elapsed": 157.17305994033813
+      },
+      {
+        "sweep": 9,
+        "accepted": 292,
+        "sumU": 3381628,
+        "sumGamma": 415730,
+        "elapsed": 174.8189558982849
+      }
+    ],
+    "sweeps_done": 10,
+    "accepted_swaps": 33684,
+    "tracked_sumU": 3381628,
+    "tracked_sumGamma": 415730,
+    "independent_full_recompute": {
+      "k_windows": 836,
+      "sumU": 3381628,
+      "T": 211729,
+      "sumGamma": 415730,
+      "sumR": 753104,
+      "R_p50": 823,
+      "R_p90": 1281,
+      "R_max": 1817,
+      "write_runs_aic": 836,
+      "meanR": 900.842105
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 1193734392
+  },
+  "end": 1793978735.921855,
+  "seconds": 205.81734895706177,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/human_gene1__C7-I__W16__seed0.order.json",
+  "member": "C7-I",
+  "tau": 342,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/human_gene1__C7-I__tau342/order.json",
+  "peak_mem_mb": 799.28125
+}

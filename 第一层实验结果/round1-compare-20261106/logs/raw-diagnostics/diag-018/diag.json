@@ -1,0 +1,33 @@
+{
+  "matrix": "wiki-RfA",
+  "member": "rabbit-pilot",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 13983,
+  "T_full_phase": 14061.333333333334,
+  "align_premium": 78.33333333333394,
+  "T_inplace": 13715,
+  "T_keep": 13555,
+  "U_inplace": 214828,
+  "U_keep": 214121,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.5661678314208984,
+  "status": "OK"
+}

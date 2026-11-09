@@ -1,0 +1,29 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "olafu",
+  "member": "SlashBurn",
+  "start": 1793979846.8567271,
+  "lam": "",
+  "tau": 56,
+  "seed": 0,
+  "t21_path": "orders/olafu__SlashBurn__W16__tauNone__own__8dbe7b9a5150.json",
+  "sha256": "a725bb1f8e4ba296e45f87dbc83a59f35d74defdb68c312632ff8ffaf352d3a8",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__SlashBurn__W16__tauNone__own__8dbe7b9a5150.json",
+  "verified_sha256": "68f2cf599dbff9156257afac39f92bc1f15047fbaf58bb14aea3c668f8dcfe19",
+  "origin": "T21 archive",
+  "kind": "rerun",
+  "W": 16,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/olafu__SlashBurn__rerun__tau56__lamnone.json"
+  ],
+  "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/olafu__SlashBurn__rerun__tau56__lamnone.checkpoint.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/olafu__SlashBurn__rerun__tau56__lamnone.order.json",
+  "size": 51459,
+  "diagnostics": {},
+  "end": 1793979847.3208268,
+  "seconds": 0.464099645614624
+}

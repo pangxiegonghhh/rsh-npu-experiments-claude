@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/gate_independent_sorted.py", line 16, in <module>
+    sigma,_=lc.layout(pi,D,placement,d);a=lc.metrics(sigma);b=metrics(m,chunks(K),sigma,diag=diag);assert all(a[k]==v for k,v in b.items()),(member,tau,diag,placement,d,a,b);checks.append(dict(member=member,tau=tau,diag=diag,placement=placement,d=d,identical=True))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/native.py", line 48, in layout
+    if rc:raise RuntimeError(err.value.decode() or str(rc))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: unknown rule

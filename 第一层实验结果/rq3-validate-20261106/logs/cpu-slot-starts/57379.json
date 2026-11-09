@@ -1,0 +1,14 @@
+{
+  "pid": 57379,
+  "slot": 1,
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/dawson5__B-RCM-ref__rerun__tau17__lamnone.json"
+  ],
+  "queued_at": 1793978530.049143,
+  "acquired_at": 1793978731.0524402,
+  "queue_seconds": 201.0032970905304,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false
+}

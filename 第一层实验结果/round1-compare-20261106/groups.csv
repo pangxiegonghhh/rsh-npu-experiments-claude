@@ -1,0 +1,43 @@
+matrix,member,W,boundary,k_windows,sumU,T,diagnostic_only
+cora,C2-LSH,16,candidate groups,172,8004,586,True
+cora,C2-LSH,16,W16 evaluation windows,170,8215,597,True
+cora,C3-W1,16,candidate groups,174,7482,549,True
+cora,C3-W1,16,W16 evaluation windows,170,7728,562,True
+cora,C3-W4,16,candidate groups,174,7873,572,True
+cora,C3-W4,16,W16 evaluation windows,170,8030,582,True
+wiki-RfA,C2-LSH,16,candidate groups,718,258491,16493,True
+wiki-RfA,C2-LSH,16,W16 evaluation windows,712,261106,16658,True
+dawson5,C2-LSH,16,candidate groups,3360,219445,15238,True
+dawson5,C2-LSH,16,W16 evaluation windows,3222,229575,15818,True
+dawson5,C3-W1,16,candidate groups,3313,327979,22019,True
+dawson5,C3-W1,16,W16 evaluation windows,3222,338128,22650,True
+dawson5,C3-W4,16,candidate groups,3292,278894,18947,True
+dawson5,C3-W4,16,W16 evaluation windows,3222,284660,19285,True
+human_gene1,C2-LSH,16,candidate groups,1394,3830597,240044,True
+human_gene1,C2-LSH,16,W16 evaluation windows,1393,3830597,240044,True
+human_gene1,C3-W1,16,candidate groups,1400,4796347,300404,True
+human_gene1,C3-W1,16,W16 evaluation windows,1393,4808503,301164,True
+human_gene1,C3-W4,16,candidate groups,1399,5044199,315898,True
+human_gene1,C3-W4,16,W16 evaluation windows,1393,5051634,316357,True
+ogbn-arxiv,C2-LSH,16,candidate groups,10584,1952898,127049,True
+ogbn-arxiv,C2-LSH,16,W16 evaluation windows,10584,1952898,127049,True
+ogbn-arxiv,C3-W1,16,candidate groups,10643,1769116,115484,True
+ogbn-arxiv,C3-W1,16,W16 evaluation windows,10584,1784074,116390,True
+ogbn-arxiv,C3-W4,16,candidate groups,10723,1769555,115600,True
+ogbn-arxiv,C3-W4,16,W16 evaluation windows,10584,1811466,118135,True
+olafu,C2-LSH,16,candidate groups,1346,127679,8750,True
+olafu,C2-LSH,16,W16 evaluation windows,1010,135147,8907,True
+olafu,C3-W1,16,candidate groups,1011,136123,9015,True
+olafu,C3-W1,16,W16 evaluation windows,1010,136415,9033,True
+olafu,C3-W4,16,candidate groups,1010,121685,8092,True
+olafu,C3-W4,16,W16 evaluation windows,1010,121888,8104,True
+pattern1,C2-LSH,16,candidate groups,1214,693178,44075,True
+pattern1,C2-LSH,16,W16 evaluation windows,1203,697253,44344,True
+pattern1,C3-W1,16,candidate groups,1264,710720,45086,True
+pattern1,C3-W1,16,W16 evaluation windows,1203,710580,45062,True
+pattern1,C3-W4,16,candidate groups,1253,2959025,185523,True
+pattern1,C3-W4,16,W16 evaluation windows,1203,2963363,185765,True
+wiki-RfA,C3-W1,16,candidate groups,718,230905,14760,True
+wiki-RfA,C3-W1,16,W16 evaluation windows,712,233697,14934,True
+wiki-RfA,C3-W4,16,candidate groups,719,217980,13968,True
+wiki-RfA,C3-W4,16,W16 evaluation windows,712,220583,14126,True

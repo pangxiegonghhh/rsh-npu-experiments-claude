@@ -1,0 +1,14 @@
+{
+  "pid": 33133,
+  "slot": 1,
+  "command": [
+    "scripts/post_e_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C7-I__tau15.json"
+  ],
+  "queued_at": 1793977270.6507862,
+  "acquired_at": 1793977279.228608,
+  "queue_seconds": 8.577821731567383,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false
+}

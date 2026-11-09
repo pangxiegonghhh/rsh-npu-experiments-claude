@@ -1,0 +1,13 @@
+{
+  "pid": 47382,
+  "slot": 0,
+  "command": [
+    "scripts/post_e_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C8-METIS__tau82.json"
+  ],
+  "queued_at": 1793973111.706557,
+  "acquired_at": 1793973330.149767,
+  "queue_seconds": 218.4432098865509,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots"
+}

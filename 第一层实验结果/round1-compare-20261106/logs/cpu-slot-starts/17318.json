@@ -1,0 +1,12 @@
+{
+  "pid": 17318,
+  "slot": 0,
+  "command": [
+    "scripts/measure_t22_base.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-base-catalog/base-066.json"
+  ],
+  "queued_at": 1793971466.838735,
+  "acquired_at": 1793971470.4028008,
+  "queue_seconds": 3.5640668869018555,
+  "discipline": "FIFO"
+}

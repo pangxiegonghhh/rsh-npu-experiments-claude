@@ -1,0 +1,38 @@
+[
+ {
+  "matrix": "human_gene1",
+  "member": "neutron-pilot",
+  "W": 16,
+  "tau": 82,
+  "diag": "A0",
+  "source": "rerun",
+  "k_windows": 1114,
+  "sumU": 4199783,
+  "T": 262993,
+  "sumGamma": 591504,
+  "sumR": 1151491,
+  "R_p50": 995,
+  "R_p90": 1491,
+  "R_max": 2297,
+  "write_runs_aic": 1114,
+  "meanR": 1033.654399
+ },
+ {
+  "matrix": "human_gene1",
+  "member": "neutron-pilot",
+  "W": 16,
+  "tau": 82,
+  "diag": "A1",
+  "source": "rerun",
+  "k_windows": 1114,
+  "sumU": 4203247,
+  "T": 263218,
+  "sumGamma": 591556,
+  "sumR": 1150550,
+  "R_p50": 995,
+  "R_p90": 1489,
+  "R_max": 2296,
+  "write_runs_aic": 1114,
+  "meanR": 1032.809695
+ }
+]

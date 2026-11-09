@@ -1,0 +1,23 @@
+{
+  "key": "olafu-U-repeat0",
+  "input_filename": "olafu-U.edges.gz",
+  "start": 1793970529.4544933,
+  "threads": 1,
+  "author_ref": "f93776e9c1e1d4a8962ee56bc7ff0091e6fe12dd",
+  "requested_seed": null,
+  "seed_api": "author demo exposes no RNG seed; serial execution fixed",
+  "status": "OK",
+  "command": [
+    "/root/rabbit/demo/reorder",
+    "/root/rabbit-runs/olafu-U-repeat0.edges"
+  ],
+  "input_gz_sha256": "1ed029f3fbbc797224aeaaa571f09f3f699c45b15d73e2c9348b39568875df77",
+  "input_prepare_seconds": 0.1598186492919922,
+  "exitcode": 0,
+  "coarse_seconds": 0.7305104732513428,
+  "mapping_sha256": "c3dbd048e33aeb276e40d532af23b9505d9abf95026ba951760fe77ec24ecfac",
+  "peak_mem_mb": 37.015625,
+  "end": 1793970530.3466446,
+  "requested_replica_label": 0,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/rabbit-coarse/olafu-U-repeat0.mapping"
+}

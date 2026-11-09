@@ -1,0 +1,78 @@
+{
+  "matrix": "pattern1",
+  "method": "C4-U",
+  "W": 16,
+  "seed": 0,
+  "start": 1793971726.1092072,
+  "status": "OK",
+  "command": [
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+    "--matrix",
+    "pattern1",
+    "--method",
+    "C4-U",
+    "--seed",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/pattern1__C4-U__W16__seed0.order.json",
+  "sha256": "a7b7ec1bcfe9484fa5848f5c667831a01492e991b9cebcb8c1c38aefa7dc333d",
+  "size": 105113,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 704,
+        "sumU": 692453,
+        "sumGamma": 84619,
+        "elapsed": 2.5385830402374268
+      },
+      {
+        "sweep": 1,
+        "accepted": 57,
+        "sumU": 687111,
+        "sumGamma": 83941,
+        "elapsed": 5.178022146224976
+      },
+      {
+        "sweep": 2,
+        "accepted": 8,
+        "sumU": 685601,
+        "sumGamma": 83675,
+        "elapsed": 7.656532049179077
+      },
+      {
+        "sweep": 3,
+        "accepted": 0,
+        "sumU": 685601,
+        "sumGamma": 83675,
+        "elapsed": 10.149656057357788
+      }
+    ],
+    "sweeps_done": 4,
+    "accepted_swaps": 769,
+    "tracked_sumU": 685601,
+    "tracked_sumGamma": 83675,
+    "independent_full_recompute": {
+      "k_windows": 521,
+      "sumU": 685601,
+      "T": 43132,
+      "sumGamma": 83675,
+      "sumR": 77964,
+      "R_p50": 86,
+      "R_p90": 286,
+      "R_max": 377,
+      "write_runs_aic": 521,
+      "meanR": 149.642994
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 452455942
+  },
+  "end": 1793971743.664834,
+  "seconds": 17.55562686920166,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/pattern1__C4-U__W16__seed0.order.json",
+  "member": "C4-U",
+  "tau": 757,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/pattern1__C4-U__tau757/order.json",
+  "peak_mem_mb": 399.140625
+}

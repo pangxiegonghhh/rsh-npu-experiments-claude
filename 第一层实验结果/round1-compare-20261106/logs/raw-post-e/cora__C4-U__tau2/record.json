@@ -1,0 +1,92 @@
+{
+  "matrix": "cora",
+  "method": "C4-U",
+  "W": 16,
+  "seed": 0,
+  "start": 1793977084.841802,
+  "status": "OK",
+  "command": [
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+    "--matrix",
+    "cora",
+    "--method",
+    "C4-U",
+    "--seed",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/cora__C4-U__W16__seed0.order.json",
+  "sha256": "552d3ed3ea79eface74db484339e22361096d1202ac56fd5c2752bed1cf3d80c",
+  "size": 13349,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 734,
+        "sumU": 5464,
+        "sumGamma": 2734,
+        "elapsed": 0.008642911911010742
+      },
+      {
+        "sweep": 1,
+        "accepted": 225,
+        "sumU": 5185,
+        "sumGamma": 2470,
+        "elapsed": 0.020099878311157227
+      },
+      {
+        "sweep": 2,
+        "accepted": 77,
+        "sumU": 5101,
+        "sumGamma": 2371,
+        "elapsed": 0.030298948287963867
+      },
+      {
+        "sweep": 3,
+        "accepted": 24,
+        "sumU": 5073,
+        "sumGamma": 2341,
+        "elapsed": 0.04033374786376953
+      },
+      {
+        "sweep": 4,
+        "accepted": 3,
+        "sumU": 5070,
+        "sumGamma": 2345,
+        "elapsed": 0.04985976219177246
+      },
+      {
+        "sweep": 5,
+        "accepted": 0,
+        "sumU": 5070,
+        "sumGamma": 2345,
+        "elapsed": 0.059912919998168945
+      }
+    ],
+    "sweeps_done": 6,
+    "accepted_swaps": 1063,
+    "tracked_sumU": 5070,
+    "tracked_sumGamma": 2345,
+    "independent_full_recompute": {
+      "k_windows": 103,
+      "sumU": 5070,
+      "T": 365,
+      "sumGamma": 2345,
+      "sumR": 3485,
+      "R_p50": 31,
+      "R_p90": 44,
+      "R_max": 121,
+      "write_runs_aic": 103,
+      "meanR": 33.834951
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 766812
+  },
+  "end": 1793977084.9316711,
+  "seconds": 0.08986926078796387,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/cora__C4-U__W16__seed0.order.json",
+  "member": "C4-U",
+  "tau": 2,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/cora__C4-U__tau2/order.json",
+  "peak_mem_mb": 28.921875
+}

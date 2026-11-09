@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/rabbit_family.py",
+    "--matrix",
+    "ogbn-arxiv",
+    "--mode",
+    "U",
+    "--rep",
+    "0"
+  ],
+  "start": 1793970755.975122,
+  "end": 1793970758.9176042,
+  "exitcode": 0
+}

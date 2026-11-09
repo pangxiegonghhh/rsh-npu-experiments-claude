@@ -1,0 +1,69 @@
+{
+  "task": "T23",
+  "use": "base-order",
+  "matrix": "olafu",
+  "t23_member": "C9-S",
+  "t21_member": "C9-S",
+  "W": 16,
+  "params": "",
+  "source": "T21 \u5b8c\u6574\u5f52\u6863",
+  "path": "orders/olafu__C9-S__W16__tauNone__own__5da9c4019ec4.json",
+  "sha256": "6a721f615a9b575c664bbeef555c3aa67d1d79749bab437c5c6258e6c8a8199b",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__C9-S__W16__tauNone__own__5da9c4019ec4.json",
+  "verified_sha256": "49cb724ff8e5579578adebd07394af68a722e86581762feaa1ce4aaf5f2bef09",
+  "origin": "T21 archive",
+  "member": "C9-S",
+  "tau": 53,
+  "reuse": false,
+  "status": "OK",
+  "start": 1793975006.294118,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/olafu__C9-S__tau53/order.json",
+  "size": 86433,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 357,
+        "sumU": 85411,
+        "sumGamma": 8357,
+        "elapsed": 0.22983884811401367
+      },
+      {
+        "sweep": 1,
+        "accepted": 3,
+        "sumU": 85406,
+        "sumGamma": 8357,
+        "elapsed": 0.46958112716674805
+      },
+      {
+        "sweep": 2,
+        "accepted": 0,
+        "sumU": 85406,
+        "sumGamma": 8357,
+        "elapsed": 0.7060620784759521
+      }
+    ],
+    "sweeps_done": 3,
+    "accepted_swaps": 360,
+    "tracked_sumU": 85406,
+    "tracked_sumGamma": 8357,
+    "independent_full_recompute": {
+      "k_windows": 623,
+      "sumU": 85406,
+      "T": 5662,
+      "sumGamma": 8357,
+      "sumR": 5445,
+      "R_p50": 7,
+      "R_p90": 16,
+      "R_max": 39,
+      "write_runs_aic": 623,
+      "meanR": 8.739968
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 53824076
+  },
+  "end": 1793975007.203419,
+  "seconds": 0.9093010425567627,
+  "peak_mem_mb": 92.15625
+}

@@ -1,0 +1,11 @@
+{
+  "pid": 16930,
+  "slot": 1,
+  "command": [
+    "scripts/measure_t22_new.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/extra-order-jobs/ogbn-arxiv__C9-Gorder__W32__rerun__tau2.record.json"
+  ],
+  "queued_at": 1793971346.893653,
+  "acquired_at": 1793971346.893776,
+  "queue_seconds": 0.00012302398681640625
+}

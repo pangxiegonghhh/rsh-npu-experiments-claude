@@ -1,0 +1,10 @@
+{
+  "activated_at": 1793971332.473525,
+  "host_ram_bytes": 17179869184,
+  "global_slots_for_new_CPU_driver_processes": 2,
+  "earlier_concurrency": "independent campaign supervisors each used two workers; some overlapped; original wall times and failures preserved",
+  "transition": "already running jobs drain; long-lived layout repair worker retains one already started queue until its completion",
+  "method_timing": "new driver method timers start after slot acquisition; cpu-slot-starts records queue time separately",
+  "resource_budget_bytes_per_method": 8589934592,
+  "no_parameters_or_random_seeds_changed": true
+}

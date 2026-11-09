@@ -1,0 +1,28 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "cora",
+  "member": "rsh-\u03b10",
+  "start": 1793969001.417164,
+  "lam": "",
+  "tau": null,
+  "seed": "",
+  "t21_path": "orders/cora__rsh-alpha0__W16__tauNone__own__60d4a3f802ea.json",
+  "sha256": "06d14adc8ac8f8965a2ac04fb5412dc36b102a925d9a3d317e626e2f8e8036d7",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__rsh-alpha0__W16__tauNone__own__60d4a3f802ea.json",
+  "verified_sha256": "1c1889794c291f9afb95cb32263f13bc59969c9d2e77e3446296069b63e82a72",
+  "origin": "T21 archive",
+  "kind": "rerun",
+  "W": 16,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/cora__rsh-\u03b10__rerun__tauNone__lamnone.json"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/cora__rsh-\u03b10__rerun__tauNone__lamnone.order.json",
+  "size": 12534,
+  "diagnostics": {},
+  "end": 1793969001.43902,
+  "seconds": 0.021855831146240234
+}

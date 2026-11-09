@@ -1,0 +1,7 @@
+{
+  "time": 1793972150.555547,
+  "policy": "FIFO file heartbeats; two global slots; proved by independent five-process selftest",
+  "retries": "launcher failures before method execution only; completed statuses skipped",
+  "old_launch_evidence": "logs/queue-probe-failure/",
+  "old_controller_receipts": "logs/workflow-before-queue-fix/"
+}

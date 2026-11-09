@@ -1,0 +1,38 @@
+[
+ {
+  "matrix": "pattern1",
+  "member": "B-RCM-ref",
+  "W": 16,
+  "tau": 8,
+  "diag": "A0",
+  "source": "rerun",
+  "k_windows": 943,
+  "sumU": 708403,
+  "T": 44855,
+  "sumGamma": 56472,
+  "sumR": 16495,
+  "R_p50": 12,
+  "R_p90": 35,
+  "R_max": 163,
+  "write_runs_aic": 943,
+  "meanR": 17.492047
+ },
+ {
+  "matrix": "pattern1",
+  "member": "B-RCM-ref",
+  "W": 16,
+  "tau": 8,
+  "diag": "A1",
+  "source": "rerun",
+  "k_windows": 943,
+  "sumU": 711401,
+  "T": 45044,
+  "sumGamma": 56658,
+  "sumR": 16675,
+  "R_p50": 12,
+  "R_p90": 36,
+  "R_max": 160,
+  "write_runs_aic": 943,
+  "meanR": 17.682927
+ }
+]

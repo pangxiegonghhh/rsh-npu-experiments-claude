@@ -1,0 +1,83 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "olafu",
+  "member": "C10-BP",
+  "start": 1793979834.8792472,
+  "lam": "",
+  "tau": 53,
+  "seed": 0,
+  "t21_path": "orders/olafu__C10-BP__W16__tauNone__own__5f83fbefe087.json",
+  "sha256": "4958f2ecdaf054864995ab10106ca43244f98121dac8098b2fe8e0194eaeb9d9",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/olafu__C10-BP__rerun__tau53__lamnone.order.json",
+  "verified_sha256": "835b84eb62c0056f4ba89547edd7758575754397289941f38a278d8c1da4a773",
+  "origin": "T21 archive",
+  "kind": "ls",
+  "W": 16,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-extra-catalog/olafu__C10-BP__rerun-start-LS__tau53__lam0.json",
+    "--output-dir",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/extra-order-jobs"
+  ],
+  "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/extra-order-jobs/olafu__C10-BP__rerun-start-LS__tau53__lam0.checkpoint.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/extra-order-jobs/olafu__C10-BP__rerun-start-LS__tau53__lam0.order.json",
+  "size": 86539,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 670,
+        "sumU": 94049,
+        "sumGamma": 10494,
+        "elapsed": 0.23552203178405762
+      },
+      {
+        "sweep": 1,
+        "accepted": 32,
+        "sumU": 93792,
+        "sumGamma": 10450,
+        "elapsed": 0.4797241687774658
+      },
+      {
+        "sweep": 2,
+        "accepted": 2,
+        "sumU": 93789,
+        "sumGamma": 10450,
+        "elapsed": 0.7206652164459229
+      },
+      {
+        "sweep": 3,
+        "accepted": 0,
+        "sumU": 93789,
+        "sumGamma": 10450,
+        "elapsed": 0.9623501300811768
+      }
+    ],
+    "sweeps_done": 4,
+    "accepted_swaps": 704,
+    "tracked_sumU": 93789,
+    "tracked_sumGamma": 10450,
+    "independent_full_recompute": {
+      "k_windows": 623,
+      "sumU": 93789,
+      "T": 6165,
+      "sumGamma": 10450,
+      "sumR": 26489,
+      "R_p50": 41,
+      "R_p90": 61,
+      "R_max": 99,
+      "write_runs_aic": 623,
+      "meanR": 42.518459
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 53824076
+  },
+  "end": 1793979835.917943,
+  "seconds": 1.0386958122253418,
+  "start_source": "rerun",
+  "original_runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__C10-BP__W16__tauNone__own__5f83fbefe087.json",
+  "lambda": 0
+}

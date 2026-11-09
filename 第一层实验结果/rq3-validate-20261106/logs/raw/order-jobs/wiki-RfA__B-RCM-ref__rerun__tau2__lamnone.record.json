@@ -1,0 +1,29 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "wiki-RfA",
+  "member": "B-RCM-ref",
+  "start": 1793976275.417809,
+  "lam": "",
+  "tau": 2,
+  "seed": 0,
+  "t21_path": "orders/wiki-RfA__B-RCM-ref__W16__tauNone__own__afd32022b778.json",
+  "sha256": "3e8839f1e0c9ef3e25b20957d043fd6f959d9b4a8eb7f55caf682b82ab60ee93",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__B-RCM-ref__W16__tauNone__own__afd32022b778.json",
+  "verified_sha256": "07da0608ed2ec789915953efc272e6bcf10fc0361d7838b3f2f41660c92552a1",
+  "origin": "T21 archive",
+  "kind": "rerun",
+  "W": 16,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/wiki-RfA__B-RCM-ref__rerun__tau2__lamnone.json"
+  ],
+  "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/wiki-RfA__B-RCM-ref__rerun__tau2__lamnone.checkpoint.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/wiki-RfA__B-RCM-ref__rerun__tau2__lamnone.order.json",
+  "size": 33530,
+  "diagnostics": {},
+  "end": 1793976275.6678112,
+  "seconds": 0.2500021457672119
+}

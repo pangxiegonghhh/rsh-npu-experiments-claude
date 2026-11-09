@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/gate_rect.py", line 11, in <module>
+    actual=r.order(method);expected=orders[key] if tau is None else reruns[f'{tau}|{key}'];assert actual==expected,(method,tau,next((i,x,y) for i,(x,y) in enumerate(zip(actual,expected)) if x!=y));checks.append(dict(member=method,tau=tau,identical=True));print(method,tau,'IDENTICAL',flush=True)
+                                                                                                  ^^^^^^^^^^^^^^^^
+AssertionError: ('C9-Gorder', None, (759, 2285, 1661))

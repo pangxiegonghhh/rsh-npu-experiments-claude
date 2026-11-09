@@ -1,0 +1,23 @@
+{
+  "key": "pattern1-U-repeat0",
+  "input_filename": "pattern1-U.edges.gz",
+  "start": 1793970551.7474408,
+  "threads": 1,
+  "author_ref": "f93776e9c1e1d4a8962ee56bc7ff0091e6fe12dd",
+  "requested_seed": null,
+  "seed_api": "author demo exposes no RNG seed; serial execution fixed",
+  "status": "OK",
+  "command": [
+    "/root/rabbit/demo/reorder",
+    "/root/rabbit-runs/pattern1-U-repeat0.edges"
+  ],
+  "input_gz_sha256": "e369223ea6cc30fc44f2acfb3ffe8c575f7f9769bc08d7fbc52d1344683936e5",
+  "input_prepare_seconds": 2.030813694000244,
+  "exitcode": 0,
+  "coarse_seconds": 10.589770078659058,
+  "mapping_sha256": "6a4f0225f1cc148f778b17e6f4fc1e0e87c71ec2e240dbe1dfed526d18c7b3bd",
+  "peak_mem_mb": 243.203125,
+  "end": 1793970564.389428,
+  "requested_replica_label": 0,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/rabbit-coarse/pattern1-U-repeat0.mapping"
+}

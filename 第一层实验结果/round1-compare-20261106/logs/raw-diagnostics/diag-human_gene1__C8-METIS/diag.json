@@ -1,0 +1,33 @@
+{
+  "matrix": "human_gene1",
+  "member": "C8-METIS",
+  "W": 16,
+  "diag": "A0",
+  "tau": 342,
+  "T_full": 545830,
+  "T_full_phase": 594828.4,
+  "align_premium": 48998.40000000002,
+  "T_inplace": 530485,
+  "T_keep": 445625,
+  "U_inplace": 8477264,
+  "U_keep": 7123852,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 4.617982864379883,
+  "status": "OK"
+}

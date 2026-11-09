@@ -1,0 +1,29 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "human_gene1",
+  "member": "C9-Gorder",
+  "start": 1793983403.235164,
+  "lam": "",
+  "tau": 342,
+  "seed": 0,
+  "t21_path": "orders/human_gene1__C9-Gorder__W16__tauNone__own__afe0999e10f6.json",
+  "sha256": "1f037d5c23ae7c360b277388406e6d4feea1d3b6787bbc83e7b45ad4531c9a0d",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__C9-Gorder__W16__tauNone__own__afe0999e10f6.json",
+  "verified_sha256": "e26276f5aec8209f6f42b952eb97b5a57bdb35530ef2c88862e80660e75247fb",
+  "origin": "T21 archive",
+  "kind": "rerun",
+  "W": 16,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/human_gene1__C9-Gorder__rerun__tau342__lamnone.json"
+  ],
+  "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/human_gene1__C9-Gorder__rerun__tau342__lamnone.checkpoint.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/human_gene1__C9-Gorder__rerun__tau342__lamnone.order.json",
+  "size": 73768,
+  "diagnostics": {},
+  "end": 1793983404.606184,
+  "seconds": 1.3710200786590576
+}

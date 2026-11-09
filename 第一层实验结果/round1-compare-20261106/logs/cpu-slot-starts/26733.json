@@ -1,0 +1,14 @@
+{
+  "pid": 26733,
+  "slot": 0,
+  "command": [
+    "scripts/post_e_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/cora__C3-W1__tau3.json"
+  ],
+  "queued_at": 1793976960.1303308,
+  "acquired_at": 1793976999.513281,
+  "queue_seconds": 39.38295030593872,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false
+}

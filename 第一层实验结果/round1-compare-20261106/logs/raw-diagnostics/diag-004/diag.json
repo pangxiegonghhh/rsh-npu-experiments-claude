@@ -1,0 +1,33 @@
+{
+  "matrix": "cora",
+  "member": "C9-Gorder",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 463,
+  "T_full_phase": 464.3333333333333,
+  "align_premium": 1.3333333333333144,
+  "T_inplace": 359,
+  "T_keep": 311,
+  "U_inplace": 4686,
+  "U_keep": 4480,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.10800576210021973,
+  "status": "OK"
+}

@@ -1,0 +1,33 @@
+{
+  "matrix": "olafu",
+  "member": "neutron-pilot",
+  "W": 16,
+  "diag": "A0",
+  "tau": 56,
+  "T_full": 9140,
+  "T_full_phase": 10206.933333333332,
+  "align_premium": 1066.9333333333325,
+  "T_inplace": 6877,
+  "T_keep": 6888,
+  "U_inplace": 104467,
+  "U_keep": 106003,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.47252392768859863,
+  "status": "OK"
+}

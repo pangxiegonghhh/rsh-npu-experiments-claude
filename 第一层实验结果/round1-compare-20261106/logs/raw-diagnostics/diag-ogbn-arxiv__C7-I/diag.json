@@ -1,0 +1,33 @@
+{
+  "matrix": "ogbn-arxiv",
+  "member": "C7-I",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 119032,
+  "T_full_phase": 120710.26666666666,
+  "align_premium": 1678.2666666666628,
+  "T_inplace": 114708,
+  "T_keep": 114173,
+  "U_inplace": 1759038,
+  "U_keep": 1772532,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 3.1799418926239014,
+  "status": "OK"
+}

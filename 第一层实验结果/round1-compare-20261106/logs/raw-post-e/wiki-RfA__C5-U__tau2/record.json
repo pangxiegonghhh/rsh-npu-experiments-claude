@@ -1,0 +1,122 @@
+{
+  "matrix": "wiki-RfA",
+  "method": "C5-U",
+  "W": 16,
+  "seed": 0,
+  "start": 1793975054.093054,
+  "status": "OK",
+  "command": [
+    "scripts/rabbit_family.py",
+    "--matrix",
+    "wiki-RfA",
+    "--mode",
+    "U",
+    "--rep",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/wiki-RfA__C5-U__W16__seed0.order.json",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/wiki-RfA__C5-U__W16__seed0.order.json",
+  "sha256": "c0592a882363ebd88b6270cdda03bfb22c84d9d1de66117618063eef59ec8845",
+  "size": 58464,
+  "local_seconds": 0.2917191982269287,
+  "coarse_seconds": 0.38454198837280273,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 3145,
+        "sumU": 181948,
+        "sumGamma": 58503,
+        "elapsed": 0.6933708190917969
+      },
+      {
+        "sweep": 1,
+        "accepted": 1366,
+        "sumU": 174771,
+        "sumGamma": 55334,
+        "elapsed": 1.4365980625152588
+      },
+      {
+        "sweep": 2,
+        "accepted": 726,
+        "sumU": 171408,
+        "sumGamma": 53852,
+        "elapsed": 2.1722021102905273
+      },
+      {
+        "sweep": 3,
+        "accepted": 429,
+        "sumU": 169686,
+        "sumGamma": 53088,
+        "elapsed": 2.900097131729126
+      },
+      {
+        "sweep": 4,
+        "accepted": 294,
+        "sumU": 168690,
+        "sumGamma": 52748,
+        "elapsed": 3.6233291625976562
+      },
+      {
+        "sweep": 5,
+        "accepted": 218,
+        "sumU": 167968,
+        "sumGamma": 52342,
+        "elapsed": 4.354741096496582
+      },
+      {
+        "sweep": 6,
+        "accepted": 136,
+        "sumU": 167569,
+        "sumGamma": 52183,
+        "elapsed": 5.073531866073608
+      },
+      {
+        "sweep": 7,
+        "accepted": 98,
+        "sumU": 167258,
+        "sumGamma": 51934,
+        "elapsed": 5.79198694229126
+      },
+      {
+        "sweep": 8,
+        "accepted": 71,
+        "sumU": 167023,
+        "sumGamma": 51756,
+        "elapsed": 6.510905981063843
+      },
+      {
+        "sweep": 9,
+        "accepted": 53,
+        "sumU": 166858,
+        "sumGamma": 51679,
+        "elapsed": 7.225164890289307
+      }
+    ],
+    "sweeps_done": 10,
+    "accepted_swaps": 6536,
+    "tracked_sumU": 166858,
+    "tracked_sumGamma": 51679,
+    "independent_full_recompute": {
+      "k_windows": 416,
+      "sumU": 166858,
+      "T": 10627,
+      "sumGamma": 51679,
+      "sumR": 101653,
+      "R_p50": 211,
+      "R_p90": 436,
+      "R_max": 1184,
+      "write_runs_aic": 416,
+      "meanR": 244.358173
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 20294240
+  },
+  "end": 1793975061.655405,
+  "seconds": 7.5623509883880615,
+  "member": "C5-U",
+  "tau": 2,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/wiki-RfA__C5-U__tau2/order.json",
+  "peak_mem_mb": 87.984375
+}

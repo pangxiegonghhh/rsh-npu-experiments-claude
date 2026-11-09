@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 6312, 'sumU': 3505280, 'sumGamma': 441313, 'elapsed': 24.083622932434082}
+LS {'sweep': 1, 'accepted': 3596, 'sumU': 3457589, 'sumGamma': 430401, 'elapsed': 47.645658016204834}
+LS {'sweep': 2, 'accepted': 1804, 'sumU': 3438432, 'sumGamma': 425411, 'elapsed': 71.51814794540405}
+LS {'sweep': 3, 'accepted': 981, 'sumU': 3428497, 'sumGamma': 423036, 'elapsed': 95.65540981292725}
+LS {'sweep': 4, 'accepted': 562, 'sumU': 3422783, 'sumGamma': 421711, 'elapsed': 119.80279803276062}
+LS {'sweep': 5, 'accepted': 350, 'sumU': 3419642, 'sumGamma': 420946, 'elapsed': 143.9492950439453}
+LS {'sweep': 6, 'accepted': 200, 'sumU': 3417898, 'sumGamma': 420522, 'elapsed': 168.13248705863953}
+LS {'sweep': 7, 'accepted': 116, 'sumU': 3416819, 'sumGamma': 420348, 'elapsed': 192.27627205848694}
+LS {'sweep': 8, 'accepted': 85, 'sumU': 3416172, 'sumGamma': 420259, 'elapsed': 216.5585949420929}
+LS {'sweep': 9, 'accepted': 69, 'sumU': 3415849, 'sumGamma': 420110, 'elapsed': 240.68428301811218}
+{"task": "T22", "use": "base-order", "matrix": "human_gene1", "member": "C10-BP", "start": 1793984829.3109162, "lam": "", "tau": 82, "seed": 0, "t21_path": "orders/human_gene1__C10-BP__W16__tauNone__own__3039bcab6091.json", "sha256": "1abc68a4743f6fb6d887bef32c112eb5c3fdbc9dc1fd4cec123e66b33314cfa2", "note": "", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__C10-BP__W16__tauNone__own__3039bcab6091.json", "verified_sha256": "a938b3d24df9866c55ad43543958aff6ecd913c57bad42e6d4cbd8e7d3208644", "origin": "T21 archive", "kind": "ls", "W": 16, "lambda": 1, "status": "OK", "command": ["scripts/order_job.py", "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/human_gene1__C10-BP__ls__tau82__lam1.json"], "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/human_gene1__C10-BP__ls__tau82__lam1.checkpoint.json", "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/human_gene1__C10-BP__ls__tau82__lam1.order.json", "size": 123935, "end": 1793985084.00962, "seconds": 254.69870376586914}

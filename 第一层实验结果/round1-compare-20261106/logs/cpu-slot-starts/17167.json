@@ -1,0 +1,14 @@
+{
+  "pid": 17167,
+  "slot": 0,
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/bp-variance-catalog/cora__C10-BP__W16__seed1.json",
+    "--output-dir",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/bp-variance-orders"
+  ],
+  "queued_at": 1793971422.546255,
+  "acquired_at": 1793971462.329823,
+  "queue_seconds": 39.783567905426025,
+  "discipline": "FIFO"
+}

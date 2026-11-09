@@ -1,0 +1,2859 @@
+{
+  "experiment": "T22 RQ3 validation",
+  "repository": {
+    "commit": "3ecc8f4ae0f6a7dff556fe1ad4e888a500f3162b",
+    "tree": "54dd7a113c4ecad145e07b47d8745f9de7d56756",
+    "branch": "codex/t22-t23-20261106",
+    "status": "",
+    "verified_original_files": 263,
+    "all_original_sha256_unchanged": true,
+    "before_manifest": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/repository-before.json",
+    "before_manifest_sha256": "b653ff515043a210a59a9b989af22cbe917e5b0563efb8f9cb2fa3e6bd88945e"
+  },
+  "CPU_only": true,
+  "NPU_used": false,
+  "environment": {
+    "platform": "macOS-15.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "python": "3.12.10",
+    "host_resources": "17179869184\n8\nApple M1 Pro\n",
+    "CPU_only": true,
+    "no_NPU": true,
+    "dependencies": "isolated deps/python and KaHyPar1.3.7; package versions and exact build options in logs; genuine Rabbit in local Alpine ARM VM",
+    "time_definition": "per-job wall times; queue waits recorded separately after global queue activation; historical T21 costs retain original provenance; new order timers include cached CSR mmap-object setup",
+    "current_utc": "2026-11-06T17:23:57.170815+00:00"
+  },
+  "matrices": [
+    {
+      "matrix": "cora",
+      "status": "OK",
+      "n": 2708,
+      "stored_entries": 5278,
+      "explicit_zero_entries": 0,
+      "diagonal_entries": 0,
+      "nnz_A0": 10556,
+      "nnz_A1": 13264,
+      "degree_median": 3.0,
+      "degree_mean": 3.8980797636632203,
+      "degree_max": 168,
+      "input_mtx_sha256": "f54431cb38cf0e4b832093889736bf1e3397019b90a186a1c13405038a573856",
+      "source_url": "https://github.com/pangxiegonghhh/rsh-npu-experiments-claude/blob/87594cc9e80e800c77a65988c09f7067b63957be/第一层实验结果/cora-pilot-20261104/neutron-matrices/cora.mtx",
+      "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/cora.mtx",
+      "source_variant": "original",
+      "reference_only": "",
+      "archive_sha256": "",
+      "archive_member": "derived MTX",
+      "structure": "stored pattern including explicit zeros",
+      "residual_sets": {
+        "2": {
+          "count": 1068,
+          "sha256": "92a42ad8e1d1595a5e7087f7d4e213f3b88ddf2c0d67dd3d93f0e485fbd5c9e7",
+          "fixed_for_both_diag_modes": true
+        },
+        "3": {
+          "count": 1621,
+          "sha256": "8d2bcdd3e777618f204adf520b9b7520546fee747ae8c687ede93f408c5d8eb1",
+          "fixed_for_both_diag_modes": true
+        }
+      },
+      "parent_runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106/repo/第一层实验结果/cora-pilot-20261104/neutron-matrices/cora.mtx",
+      "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/cora",
+      "adjacency_order": "original T21 pickle set iteration, independently identical to raw MTX pattern",
+      "csr_sha256": {
+        "indptr": "0bcfb45e9e788d52c6b5242efd902a376618e15426bc595a743b389551744ddd",
+        "indices": "fd234c1a16a9a59e0c022127ab01847b58ea170f72d82919c81c336ad2d9bc15",
+        "degrees": "162e73d5fe3c494f4ed2bae13833fc956361ddc11bfb43704c9b09f53f73286e"
+      },
+      "taus": [
+        {
+          "tau": 2,
+          "tau_rule": "fixed",
+          "resid_count": 1068,
+          "resid_frac": 0.39438700147710487,
+          "resid_nnz_frac": 0.1564039408866995
+        },
+        {
+          "tau": 3,
+          "tau_rule": "fixed",
+          "resid_count": 1621,
+          "resid_frac": 0.5985967503692762,
+          "resid_nnz_frac": 0.31356574460022735
+        }
+      ],
+      "fixed_tau_diagnostics": {
+        "2": {
+          "resid_frac": 0.39438700147710487,
+          "resid_nnz_frac": 0.1564039408866995
+        },
+        "3": {
+          "resid_frac": 0.5985967503692762,
+          "resid_nnz_frac": 0.31356574460022735
+        }
+      },
+      "prepared_sec": 0.035874250112101436
+    },
+    {
+      "matrix": "wiki-RfA",
+      "status": "OK",
+      "n": 11380,
+      "stored_entries": 188077,
+      "explicit_zero_entries": 11493,
+      "diagonal_entries": 93,
+      "nnz_A0": 361960,
+      "nnz_A1": 373340,
+      "degree_median": 4.0,
+      "degree_mean": 31.806678383128297,
+      "degree_max": 1270,
+      "input_mtx_sha256": "de2a93800a08edb5d3e6289b57b56aa8afd43c37b709306efbceecf137adf005",
+      "source_url": "https://snap.stanford.edu/data/wiki-RfA.txt.gz",
+      "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/wiki-RfA.mtx",
+      "source_variant": "SNAP reconstruction (sorted usernames)",
+      "reference_only": "B0 and P11 sumR/sumU, no comparison with other wiki-RfA numbering",
+      "archive_sha256": "9f522535bda636ed44922ad3f193c70a8a8ee1d4a61f976e96794a60c1adf656",
+      "archive_member": "wiki-RfA/wiki-RfA.mtx",
+      "structure": "stored pattern including explicit zeros",
+      "residual_sets": {
+        "2": {
+          "count": 4736,
+          "sha256": "ea874ed77a2086591899388358b3c3148488e1f34d8358ce923851a6ea5fb12d",
+          "fixed_for_both_diag_modes": true
+        },
+        "3": {
+          "count": 5366,
+          "sha256": "471775158b0117bd30ff521096a684029f1ccd99fc4ab9c51e7febabb0f23642",
+          "fixed_for_both_diag_modes": true
+        }
+      },
+      "parent_runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/wiki-RfA-reconstructed.mtx",
+      "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/wiki-RfA",
+      "adjacency_order": "original T21 pickle set iteration, independently identical to raw MTX pattern",
+      "csr_sha256": {
+        "indptr": "1a646bcede9e5f6efc55434e8754f9ea2ee1210ddf3be624178ad298c9d84318",
+        "indices": "ce96618d981a2fea54dc97eb0989d8a4eb43116267a96a7b4de857f13f0afc22",
+        "degrees": "8ceb46ebee6963169e09d19b3eefb31650921a302b99821f513e07bc05f72165"
+      },
+      "taus": [
+        {
+          "tau": 2,
+          "tau_rule": "fixed",
+          "resid_count": 4736,
+          "resid_frac": 0.4161687170474517,
+          "resid_nnz_frac": 0.016054260139241903
+        },
+        {
+          "tau": 3,
+          "tau_rule": "fixed",
+          "resid_count": 5366,
+          "resid_frac": 0.47152899824253075,
+          "resid_nnz_frac": 0.0212758315836004
+        }
+      ],
+      "fixed_tau_diagnostics": {
+        "2": {
+          "resid_frac": 0.4161687170474517,
+          "resid_nnz_frac": 0.016054260139241903
+        },
+        "3": {
+          "resid_frac": 0.47152899824253075,
+          "resid_nnz_frac": 0.0212758315836004
+        }
+      },
+      "prepared_sec": 0.09952366701327264
+    },
+    {
+      "matrix": "olafu",
+      "status": "OK",
+      "n": 16146,
+      "stored_entries": 515651,
+      "explicit_zero_entries": 0,
+      "diagonal_entries": 16146,
+      "nnz_A0": 999010,
+      "nnz_A1": 1015156,
+      "degree_median": 66.0,
+      "degree_mean": 61.87352904744209,
+      "degree_max": 88,
+      "input_mtx_sha256": "8ff0691051957f7e4c6fb302c3ad026ee526691958d4f1c2c0a5520c8e89a4d5",
+      "source_url": "https://www.cise.ufl.edu/research/sparse/MM/Simon/olafu.tar.gz",
+      "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/olafu.mtx",
+      "source_variant": "original",
+      "reference_only": "",
+      "archive_sha256": "09d31e88be43e3c7f6287cbb3103f133ea06ab0b6dc285dec01df45247cf476c",
+      "archive_member": "olafu/olafu.mtx",
+      "structure": "stored pattern including explicit zeros",
+      "residual_sets": {
+        "2": {
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "fixed_for_both_diag_modes": true
+        },
+        "3": {
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "fixed_for_both_diag_modes": true
+        }
+      },
+      "parent_runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/olafu.mtx",
+      "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/olafu",
+      "adjacency_order": "original T21 pickle set iteration, independently identical to raw MTX pattern",
+      "csr_sha256": {
+        "indptr": "9a3b7351d6cecfe20f880fcd4093466dc551c40c508616c7e5b5e20c4118ff1f",
+        "indices": "c76f38a528b6ce9b47bcb2beedd242795966b5ee37a0f7c7bc18d3bf693fa25f",
+        "degrees": "37f36eb91f37a04b5cf7e57c5d425fef6b79bb578154fdaabbeb0db648c141e9"
+      },
+      "taus": [
+        {
+          "tau": 53,
+          "tau_rule": "q20",
+          "resid_count": 6186,
+          "resid_frac": 0.38312894834633965,
+          "resid_nnz_frac": 0.29949349856357793
+        },
+        {
+          "tau": 56,
+          "tau_rule": "q40",
+          "resid_count": 6584,
+          "resid_frac": 0.40777901647466863,
+          "resid_nnz_frac": 0.3215993833895557
+        }
+      ],
+      "fixed_tau_diagnostics": {
+        "2": {
+          "resid_frac": 0.0,
+          "resid_nnz_frac": 0.0
+        },
+        "3": {
+          "resid_frac": 0.0,
+          "resid_nnz_frac": 0.0
+        }
+      },
+      "prepared_sec": 0.21635741600766778
+    },
+    {
+      "matrix": "dawson5",
+      "status": "OK",
+      "n": 51537,
+      "stored_entries": 531157,
+      "explicit_zero_entries": 0,
+      "diagonal_entries": 51537,
+      "nnz_A0": 959240,
+      "nnz_A1": 1010777,
+      "degree_median": 17,
+      "degree_mean": 18.61264722432427,
+      "degree_max": 32,
+      "input_mtx_sha256": "549f0f6076676c622a32a4d622fd5d2dc8d0a0651c22307ca4435c569d94a0d6",
+      "source_url": "https://www.cise.ufl.edu/research/sparse/MM/GHS_indef/dawson5.tar.gz",
+      "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/dawson5.mtx",
+      "source_variant": "original",
+      "reference_only": "",
+      "archive_sha256": "e143f2dd27f38fc19297438579078422e73883edf6b7f01ce27b0b5bf9a53583",
+      "archive_member": "dawson5/dawson5.mtx",
+      "structure": "stored pattern including explicit zeros",
+      "residual_sets": {
+        "2": {
+          "count": 288,
+          "sha256": "d73bb65d60c33aa189edbc406551bef22492625cf53718ac15512b342d401f54",
+          "fixed_for_both_diag_modes": true
+        },
+        "3": {
+          "count": 292,
+          "sha256": "edeab67a71f87609cf2d6b66454bf5d3a46fa081c73588e8009ef6245e06cf52",
+          "fixed_for_both_diag_modes": true
+        }
+      },
+      "parent_runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/dawson5.mtx",
+      "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/dawson5",
+      "adjacency_order": "original T21 pickle set iteration, independently identical to raw MTX pattern",
+      "csr_sha256": {
+        "indptr": "38d558f524f74074cce03626b94624f548d833607026382aa329cd64f1361b6b",
+        "indices": "9734e3458d9c454534d73f23184ed7ab6d45943e914d3850ffb33b560d2107b1",
+        "degrees": "e6f51998c8a6d64f9e72d0f452afbe48d02ec99eae0561b201399b4aac61af95"
+      },
+      "taus": [
+        {
+          "tau": 15,
+          "tau_rule": "q20",
+          "resid_count": 10528,
+          "resid_frac": 0.20428041989250442,
+          "resid_nnz_frac": 0.1253012801801426
+        },
+        {
+          "tau": 17,
+          "tau_rule": "q40",
+          "resid_count": 33263,
+          "resid_frac": 0.6454197954867377,
+          "resid_nnz_frac": 0.5282098327842876
+        }
+      ],
+      "fixed_tau_diagnostics": {
+        "2": {
+          "resid_frac": 0.005588218173351185,
+          "resid_nnz_frac": 0.0
+        },
+        "3": {
+          "resid_frac": 0.005665832314647729,
+          "resid_nnz_frac": 1.2509903673741712e-05
+        }
+      },
+      "prepared_sec": 0.23310012510046363
+    },
+    {
+      "matrix": "human_gene1",
+      "status": "OK",
+      "n": 22283,
+      "stored_entries": 12345963,
+      "explicit_zero_entries": 0,
+      "diagonal_entries": 22283,
+      "nnz_A0": 24647360,
+      "nnz_A1": 24669643,
+      "degree_median": 536,
+      "degree_mean": 1106.1060000897546,
+      "degree_max": 7938,
+      "input_mtx_sha256": "5c035d8398baf2045367e3d77b12bc367a6f3e4ef9e8e202849de480b0ce120f",
+      "source_url": "https://www.cise.ufl.edu/research/sparse/MM/Belcastro/human_gene1.tar.gz",
+      "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/human_gene1.mtx",
+      "source_variant": "original",
+      "reference_only": "",
+      "archive_sha256": "218b9a683247486d065459e48c8127a162d443bab720d17fb287e5fa12abb121",
+      "archive_member": "human_gene1/human_gene1.mtx",
+      "structure": "stored pattern including explicit zeros",
+      "residual_sets": {
+        "2": {
+          "count": 955,
+          "sha256": "9dc3488a1081d6b4b5718940b8761257189ca8d42a601cf527c365f231578a77",
+          "fixed_for_both_diag_modes": true
+        },
+        "3": {
+          "count": 1094,
+          "sha256": "436fcf357551f75372270b97ccaa7f61253fa0347ff2435aae218e8a81d1cf95",
+          "fixed_for_both_diag_modes": true
+        }
+      },
+      "parent_runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/human_gene1.mtx",
+      "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/human_gene1",
+      "adjacency_order": "original T21 pickle set iteration, independently identical to raw MTX pattern",
+      "csr_sha256": {
+        "indptr": "d3913e67d1bc203638617b4f21a754781a0b33ceb8c1f4c5ef1b92b80dab743d",
+        "indices": "8c52fb76357407311cc6cff110fb8bd1c95ed3d3bdfe4ad59d4e0076299bd99b",
+        "degrees": "ff03ea45aadc1412d2583c456a61d3d8840c460b58facb5d5d2e0971e09a284d"
+      },
+      "taus": [
+        {
+          "tau": 82,
+          "tau_rule": "q20",
+          "resid_count": 4466,
+          "resid_frac": 0.20042184625050488,
+          "resid_nnz_frac": 0.004529612907832725
+        },
+        {
+          "tau": 342,
+          "tau_rule": "q40",
+          "resid_count": 8917,
+          "resid_frac": 0.40017053359062965,
+          "resid_nnz_frac": 0.04008936454046194
+        }
+      ],
+      "fixed_tau_diagnostics": {
+        "2": {
+          "resid_frac": 0.04285778396086703,
+          "resid_nnz_frac": 3.266069875232074e-05
+        },
+        "3": {
+          "resid_frac": 0.04909572319705605,
+          "resid_nnz_frac": 4.957934642898874e-05
+        }
+      },
+      "prepared_sec": 9.523889499949291
+    },
+    {
+      "matrix": "pattern1",
+      "status": "OK",
+      "n": 19242,
+      "stored_entries": 4671337,
+      "explicit_zero_entries": 0,
+      "diagonal_entries": 19242,
+      "nnz_A0": 9304190,
+      "nnz_A1": 9323432,
+      "degree_median": 757.0,
+      "degree_mean": 483.5354952707619,
+      "degree_max": 6027,
+      "input_mtx_sha256": "62e04b81ff10bca38216a8f31235085673f018e6fa055c672b6fdae6ddd92ae1",
+      "source_url": "https://www.cise.ufl.edu/research/sparse/MM/Andrianov/pattern1.tar.gz",
+      "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/pattern1.mtx",
+      "source_variant": "original",
+      "reference_only": "",
+      "archive_sha256": "4abbac94dd6e820b9256dec9c45422df31a7c79e0e1886a8f09f80811ed3936d",
+      "archive_member": "pattern1/pattern1.mtx",
+      "structure": "stored pattern including explicit zeros",
+      "residual_sets": {
+        "2": {
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "fixed_for_both_diag_modes": true
+        },
+        "3": {
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "fixed_for_both_diag_modes": true
+        }
+      },
+      "parent_runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/pattern1.mtx",
+      "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/pattern1",
+      "adjacency_order": "original T21 pickle set iteration, independently identical to raw MTX pattern",
+      "csr_sha256": {
+        "indptr": "fe05deb9852001abfa4242387131d11ce1e043ed0518f98a958c001afdbb87b2",
+        "indices": "88068a0961d429c1638bee48d1724b08e73f899371d029ddb9d10c54e7350413",
+        "degrees": "490aca3382dd88cddfa243e237bdd7b42ddec7f431930aba4c479631bd33f850"
+      },
+      "taus": [
+        {
+          "tau": 8,
+          "tau_rule": "q20",
+          "resid_count": 4155,
+          "resid_frac": 0.21593389460555035,
+          "resid_nnz_frac": 0.0035725839648588433
+        },
+        {
+          "tau": 757,
+          "tau_rule": "q40",
+          "resid_count": 10918,
+          "resid_frac": 0.5674046356927555,
+          "resid_nnz_frac": 0.31575720186281664
+        }
+      ],
+      "fixed_tau_diagnostics": {
+        "2": {
+          "resid_frac": 0.0,
+          "resid_nnz_frac": 0.0
+        },
+        "3": {
+          "resid_frac": 0.0,
+          "resid_nnz_frac": 0.0
+        }
+      },
+      "prepared_sec": 2.0432431660592556
+    },
+    {
+      "matrix": "ogbn-arxiv",
+      "status": "OK",
+      "n": 169343,
+      "stored_entries": 1166243,
+      "explicit_zero_entries": 0,
+      "diagonal_entries": 0,
+      "nnz_A0": 2315598,
+      "nnz_A1": 2484941,
+      "degree_median": 6,
+      "degree_mean": 13.674010735607613,
+      "degree_max": 13161,
+      "input_mtx_sha256": "c80df13aa49c918bc4daf8634d0458910ad0be0bfd8be634038bf03b566de108",
+      "source_url": "https://snap.stanford.edu/ogb/data/nodeproppred/arxiv.zip",
+      "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/ogbn-arxiv.mtx",
+      "source_variant": "original",
+      "reference_only": "",
+      "archive_sha256": "",
+      "archive_member": "derived MTX",
+      "structure": "stored pattern including explicit zeros",
+      "residual_sets": {
+        "2": {
+          "count": 39126,
+          "sha256": "a98b57f28e1bdfdfb1df0550595a9b321d6dafed82c452c3d615bac8b89875da",
+          "fixed_for_both_diag_modes": true
+        },
+        "3": {
+          "count": 54353,
+          "sha256": "37cdbd248705c3b58a31f5db8795b9ec5f6ffa49a9bd7d4053173b8659aa7942",
+          "fixed_for_both_diag_modes": true
+        }
+      },
+      "parent_runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/ogbn-arxiv.mtx",
+      "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/ogbn-arxiv",
+      "adjacency_order": "original T21 pickle set iteration, independently identical to raw MTX pattern",
+      "csr_sha256": {
+        "indptr": "80b420ed6a444f6e96cc0371993c35845ecba17c47dab13ad6aa32a969f3ecdf",
+        "indices": "61df4ad24ed23ef0841c2cf830fcb84cdce3d5b5066483dfc4f937d0c094984e",
+        "degrees": "0b01835d1ca2a40e4c80b4ef34ffaafceec3bebfc92501b60da08bf8eb65f72a"
+      },
+      "taus": [
+        {
+          "tau": 2,
+          "tau_rule": "fixed",
+          "resid_count": 39126,
+          "resid_frac": 0.23104586549193057,
+          "resid_nnz_frac": 0.024895512951729964
+        },
+        {
+          "tau": 3,
+          "tau_rule": "fixed",
+          "resid_count": 54353,
+          "resid_frac": 0.32096396071877786,
+          "resid_nnz_frac": 0.044623030422379015
+        }
+      ],
+      "fixed_tau_diagnostics": {
+        "2": {
+          "resid_frac": 0.23104586549193057,
+          "resid_nnz_frac": 0.024895512951729964
+        },
+        "3": {
+          "resid_frac": 0.32096396071877786,
+          "resid_nnz_frac": 0.044623030422379015
+        }
+      },
+      "prepared_sec": 0.596966709010303
+    }
+  ],
+  "coverage": {
+    "expected_cases": 170,
+    "actual_cases": 170,
+    "OK": 170,
+    "INCOMPLETE": 0,
+    "result_rows": 4012,
+    "expected_result_rows": 4012,
+    "pls_records": 182,
+    "expected_pls_records": 182,
+    "derived_present": true
+  },
+  "reused_orders": [
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "cora",
+      "member": "B0",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/cora__B0__W16__tauNone__own__bb3cb228f4bc.json",
+      "sha256": "9739dc1c2fd074489eb436924460371788f38016e0a49c3eb2580e3db6c2af8a",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__B0__W16__tauNone__own__bb3cb228f4bc.json",
+      "verified_sha256": "9739dc1c2fd074489eb436924460371788f38016e0a49c3eb2580e3db6c2af8a",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "cora",
+      "member": "rsh-α0",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/cora__rsh-alpha0__W16__tauNone__own__60d4a3f802ea.json",
+      "sha256": "1c1889794c291f9afb95cb32263f13bc59969c9d2e77e3446296069b63e82a72",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__rsh-alpha0__W16__tauNone__own__60d4a3f802ea.json",
+      "verified_sha256": "1c1889794c291f9afb95cb32263f13bc59969c9d2e77e3446296069b63e82a72",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "cora",
+      "member": "rabbit-pilot",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/cora__rabbit-pilot__W16__tauNone__own__f25f5d9ab240.json",
+      "sha256": "5a162cc12e28301952afa1b97d19f9a9edc733c5bb41cfa89710ddecab7f3177",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__rabbit-pilot__W16__tauNone__own__f25f5d9ab240.json",
+      "verified_sha256": "5a162cc12e28301952afa1b97d19f9a9edc733c5bb41cfa89710ddecab7f3177",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "cora",
+      "member": "neutron-pilot",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/cora__neutron-pilot__W16__tauNone__own__d7aa58d7e541.json",
+      "sha256": "47387db160a883a7941a1a60d1e8f2623d4248b1aa2e2e2d14112d9bb24e09ca",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__neutron-pilot__W16__tauNone__own__d7aa58d7e541.json",
+      "verified_sha256": "47387db160a883a7941a1a60d1e8f2623d4248b1aa2e2e2d14112d9bb24e09ca",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "cora",
+      "member": "C9-Gorder",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/cora__C9-Gorder__W16__tauNone__own__b717b789b237.json",
+      "sha256": "fbb3cab1de0f31227b065bc28d6e576d0425b50d0001c66af7f8488c1e064b4f",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__C9-Gorder__W16__tauNone__own__b717b789b237.json",
+      "verified_sha256": "fbb3cab1de0f31227b065bc28d6e576d0425b50d0001c66af7f8488c1e064b4f",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "cora",
+      "member": "C9-S",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/cora__C9-S__W16__tauNone__own__13615f81231f.json",
+      "sha256": "3f8c35c7a882379b372032e25f5b851fa4ad5d63f7d70b6b28634ad6bf759778",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__C9-S__W16__tauNone__own__13615f81231f.json",
+      "verified_sha256": "3f8c35c7a882379b372032e25f5b851fa4ad5d63f7d70b6b28634ad6bf759778",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "cora",
+      "member": "C10-BP",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/cora__C10-BP__W16__tauNone__own__633780c3b8aa.json",
+      "sha256": "f7ff2e41c5ccf4d2158d4a192b18823dd547e57599152648a85f9bfef9b2a270",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__C10-BP__W16__tauNone__own__633780c3b8aa.json",
+      "verified_sha256": "f7ff2e41c5ccf4d2158d4a192b18823dd547e57599152648a85f9bfef9b2a270",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "cora",
+      "member": "B-RCM-ref",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/cora__B-RCM-ref__W16__tauNone__own__c620cb3427ba.json",
+      "sha256": "bf7600d38fdd3be6688e9ce0bde3281dede6bdaeed55ee30dee04a865037f3ad",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__B-RCM-ref__W16__tauNone__own__c620cb3427ba.json",
+      "verified_sha256": "bf7600d38fdd3be6688e9ce0bde3281dede6bdaeed55ee30dee04a865037f3ad",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "cora",
+      "member": "SlashBurn",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/cora__SlashBurn__W16__tauNone__own__4e5441adfee7.json",
+      "sha256": "a1d640e463d1bbbe981cb4508f332e75833457bad0decad1a719d77dbc935657",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__SlashBurn__W16__tauNone__own__4e5441adfee7.json",
+      "verified_sha256": "a1d640e463d1bbbe981cb4508f332e75833457bad0decad1a719d77dbc935657",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "ogbn-arxiv",
+      "member": "B0",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/ogbn-arxiv__B0__W16__tauNone__own__4b33dcbc93b8.json",
+      "sha256": "48a0ca8f77b752dcc34d48bf48b60ef0cb722cfcf70996c8375df3f44b6cc73a",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__B0__W16__tauNone__own__4b33dcbc93b8.json",
+      "verified_sha256": "48a0ca8f77b752dcc34d48bf48b60ef0cb722cfcf70996c8375df3f44b6cc73a",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "ogbn-arxiv",
+      "member": "rsh-α0",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/ogbn-arxiv__rsh-alpha0__W16__tauNone__own__a6340c0d6c29.json",
+      "sha256": "faff0625413a5d724bcbeceb937e9e504077a72b7fe109287ff143fe4e04aa82",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__rsh-alpha0__W16__tauNone__own__a6340c0d6c29.json",
+      "verified_sha256": "faff0625413a5d724bcbeceb937e9e504077a72b7fe109287ff143fe4e04aa82",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "ogbn-arxiv",
+      "member": "rabbit-pilot",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/ogbn-arxiv__rabbit-pilot__W16__tauNone__own__06ad245b849c.json",
+      "sha256": "a6c3d102c017dd82041ac4aedfc281518cb3a254d34973f88bc49d27c0f0a134",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__rabbit-pilot__W16__tauNone__own__06ad245b849c.json",
+      "verified_sha256": "a6c3d102c017dd82041ac4aedfc281518cb3a254d34973f88bc49d27c0f0a134",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "ogbn-arxiv",
+      "member": "neutron-pilot",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/ogbn-arxiv__neutron-pilot__W16__tauNone__own__52bc8c1b72ee.json",
+      "sha256": "6f745a7883e7154329040e7c5ef585f4c17a6a4f774dffd1216d83db63c0edeb",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__neutron-pilot__W16__tauNone__own__52bc8c1b72ee.json",
+      "verified_sha256": "6f745a7883e7154329040e7c5ef585f4c17a6a4f774dffd1216d83db63c0edeb",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "ogbn-arxiv",
+      "member": "C9-Gorder",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/ogbn-arxiv__C9-Gorder__W16__tauNone__own__47d89f24b6ed.json",
+      "sha256": "771b8c78add9b481f9ef4422606b52ca932ba031eb22140d003882c8bf06e595",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__C9-Gorder__W16__tauNone__own__47d89f24b6ed.json",
+      "verified_sha256": "771b8c78add9b481f9ef4422606b52ca932ba031eb22140d003882c8bf06e595",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "ogbn-arxiv",
+      "member": "C9-S",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/ogbn-arxiv__C9-S__W16__tauNone__own__98cafee0416d.json",
+      "sha256": "03032c8aa913d491e1ce58f7be75551b76fd47034d6f10a55ef87a4c53514c4d",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__C9-S__W16__tauNone__own__98cafee0416d.json",
+      "verified_sha256": "03032c8aa913d491e1ce58f7be75551b76fd47034d6f10a55ef87a4c53514c4d",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "ogbn-arxiv",
+      "member": "C10-BP",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/ogbn-arxiv__C10-BP__W16__tauNone__own__7a6ba73893a1.json",
+      "sha256": "cb6166e35b79d6454f6a88e53b7b2439e5f96c81a1ee8c2f0c8ed36f45320134",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__C10-BP__W16__tauNone__own__7a6ba73893a1.json",
+      "verified_sha256": "cb6166e35b79d6454f6a88e53b7b2439e5f96c81a1ee8c2f0c8ed36f45320134",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "ogbn-arxiv",
+      "member": "B-RCM-ref",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/ogbn-arxiv__B-RCM-ref__W16__tauNone__own__7e8aebbe4091.json",
+      "sha256": "8e9821780bc6b304651e24bf5bf1e6d9a58a778c056c849b2fde58adaf829c83",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__B-RCM-ref__W16__tauNone__own__7e8aebbe4091.json",
+      "verified_sha256": "8e9821780bc6b304651e24bf5bf1e6d9a58a778c056c849b2fde58adaf829c83",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "ogbn-arxiv",
+      "member": "SlashBurn",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/ogbn-arxiv__SlashBurn__W16__tauNone__own__778618046fa2.json",
+      "sha256": "89a60a19f68035d5e06a5f244635a25a010b98dc0f7b8efa6573af55504899f4",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__SlashBurn__W16__tauNone__own__778618046fa2.json",
+      "verified_sha256": "89a60a19f68035d5e06a5f244635a25a010b98dc0f7b8efa6573af55504899f4",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "wiki-RfA",
+      "member": "B0",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/wiki-RfA__B0__W16__tauNone__own__817118d2f455.json",
+      "sha256": "aadf6fca7e6a5e9562d2666a3a45cf8e37425e4aad9430f23273ce03a943231a",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__B0__W16__tauNone__own__817118d2f455.json",
+      "verified_sha256": "aadf6fca7e6a5e9562d2666a3a45cf8e37425e4aad9430f23273ce03a943231a",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "wiki-RfA",
+      "member": "rsh-α0",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/wiki-RfA__rsh-alpha0__W16__tauNone__own__abbf7494a451.json",
+      "sha256": "a794ae7ca18f92a4c86d59911d8a8d297b68e4cfeecd18015e1e78f631897a04",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__rsh-alpha0__W16__tauNone__own__abbf7494a451.json",
+      "verified_sha256": "a794ae7ca18f92a4c86d59911d8a8d297b68e4cfeecd18015e1e78f631897a04",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "wiki-RfA",
+      "member": "rabbit-pilot",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/wiki-RfA__rabbit-pilot__W16__tauNone__own__232d5db7480d.json",
+      "sha256": "588aa5f55c21a1cf72c894d300b3e129ba62dff9eb081a74ceb1415568c99da0",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__rabbit-pilot__W16__tauNone__own__232d5db7480d.json",
+      "verified_sha256": "588aa5f55c21a1cf72c894d300b3e129ba62dff9eb081a74ceb1415568c99da0",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "wiki-RfA",
+      "member": "neutron-pilot",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/wiki-RfA__neutron-pilot__W16__tauNone__own__8390c2f67d90.json",
+      "sha256": "87bb7fe87e04ef2df1fa201027a8139ed2f0c72d6259533f73c2999c357086e5",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__neutron-pilot__W16__tauNone__own__8390c2f67d90.json",
+      "verified_sha256": "87bb7fe87e04ef2df1fa201027a8139ed2f0c72d6259533f73c2999c357086e5",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "wiki-RfA",
+      "member": "C9-Gorder",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/wiki-RfA__C9-Gorder__W16__tauNone__own__81b8b67a36b5.json",
+      "sha256": "06a21748b6bfa8485634b92138c405ac5bc744acdc97e7cd3d6d17cd8a80363a",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__C9-Gorder__W16__tauNone__own__81b8b67a36b5.json",
+      "verified_sha256": "06a21748b6bfa8485634b92138c405ac5bc744acdc97e7cd3d6d17cd8a80363a",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "wiki-RfA",
+      "member": "C9-S",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/wiki-RfA__C9-S__W16__tauNone__own__95e6f9fe8ee8.json",
+      "sha256": "0a7373ad4e848a37f15389f728b6d54e308de922c66ae9a53b8dc85536968ca9",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__C9-S__W16__tauNone__own__95e6f9fe8ee8.json",
+      "verified_sha256": "0a7373ad4e848a37f15389f728b6d54e308de922c66ae9a53b8dc85536968ca9",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "wiki-RfA",
+      "member": "C10-BP",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/wiki-RfA__C10-BP__W16__tauNone__own__3f8b5f9379bd.json",
+      "sha256": "88dd9ec20fce2f76e0bf9b397c6eb2d94abdeedf68b0126b5e3363a0fa426711",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__C10-BP__W16__tauNone__own__3f8b5f9379bd.json",
+      "verified_sha256": "88dd9ec20fce2f76e0bf9b397c6eb2d94abdeedf68b0126b5e3363a0fa426711",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "wiki-RfA",
+      "member": "B-RCM-ref",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/wiki-RfA__B-RCM-ref__W16__tauNone__own__afd32022b778.json",
+      "sha256": "07da0608ed2ec789915953efc272e6bcf10fc0361d7838b3f2f41660c92552a1",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__B-RCM-ref__W16__tauNone__own__afd32022b778.json",
+      "verified_sha256": "07da0608ed2ec789915953efc272e6bcf10fc0361d7838b3f2f41660c92552a1",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "wiki-RfA",
+      "member": "SlashBurn",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/wiki-RfA__SlashBurn__W16__tauNone__own__e00639fe3673.json",
+      "sha256": "61a887670d70368a8087b2ccbe566aa785f7c55a051ef623ed72e5feaf7dd21a",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__SlashBurn__W16__tauNone__own__e00639fe3673.json",
+      "verified_sha256": "61a887670d70368a8087b2ccbe566aa785f7c55a051ef623ed72e5feaf7dd21a",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "dawson5",
+      "member": "B0",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/dawson5__B0__W16__tauNone__own__91a652a2e6a9.json",
+      "sha256": "8ff846f7199accc37cf216ce48ebc59c8c1f26b905f2c8fe70a089c5062f3dda",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__B0__W16__tauNone__own__91a652a2e6a9.json",
+      "verified_sha256": "8ff846f7199accc37cf216ce48ebc59c8c1f26b905f2c8fe70a089c5062f3dda",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "dawson5",
+      "member": "rsh-α0",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/dawson5__rsh-alpha0__W16__tauNone__own__4f1f28cb1ae2.json",
+      "sha256": "76296832789ae8aa9e7296e62277a46d784122920648b4d0211777ff49d62380",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__rsh-alpha0__W16__tauNone__own__4f1f28cb1ae2.json",
+      "verified_sha256": "76296832789ae8aa9e7296e62277a46d784122920648b4d0211777ff49d62380",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "dawson5",
+      "member": "rabbit-pilot",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/dawson5__rabbit-pilot__W16__tauNone__own__dd2fb30668dd.json",
+      "sha256": "f95c0a9ea8e1e0780530afb63121a319f235c13a92122539dfe7205b905c0688",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__rabbit-pilot__W16__tauNone__own__dd2fb30668dd.json",
+      "verified_sha256": "f95c0a9ea8e1e0780530afb63121a319f235c13a92122539dfe7205b905c0688",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "dawson5",
+      "member": "neutron-pilot",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/dawson5__neutron-pilot__W16__tauNone__own__af5b0f59d660.json",
+      "sha256": "1fc4003b27aff9b7976dec5981c3dd80c4246985ba494d419d874894740d3358",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__neutron-pilot__W16__tauNone__own__af5b0f59d660.json",
+      "verified_sha256": "1fc4003b27aff9b7976dec5981c3dd80c4246985ba494d419d874894740d3358",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "dawson5",
+      "member": "C9-Gorder",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/dawson5__C9-Gorder__W16__tauNone__own__cea9f6addf71.json",
+      "sha256": "652cd64f082f0551a420422d731822f9204adb48815837b9ad228576ca2b0e4f",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__C9-Gorder__W16__tauNone__own__cea9f6addf71.json",
+      "verified_sha256": "652cd64f082f0551a420422d731822f9204adb48815837b9ad228576ca2b0e4f",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "dawson5",
+      "member": "C9-S",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/dawson5__C9-S__W16__tauNone__own__9f77feb26bbe.json",
+      "sha256": "54410fe369332f8839842b0e8f2fb87c70cb5999709c20455d881d094df15aad",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__C9-S__W16__tauNone__own__9f77feb26bbe.json",
+      "verified_sha256": "54410fe369332f8839842b0e8f2fb87c70cb5999709c20455d881d094df15aad",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "dawson5",
+      "member": "C10-BP",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/dawson5__C10-BP__W16__tauNone__own__0e5bcf7f0480.json",
+      "sha256": "40a01ee9129204a187f6ebb7603ce61b432d4f21464fc406f51f55a45e546497",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__C10-BP__W16__tauNone__own__0e5bcf7f0480.json",
+      "verified_sha256": "40a01ee9129204a187f6ebb7603ce61b432d4f21464fc406f51f55a45e546497",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "dawson5",
+      "member": "B-RCM-ref",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/dawson5__B-RCM-ref__W16__tauNone__own__4e5314214aed.json",
+      "sha256": "e6822c8dc97c00a16e90c7c5f38d126aad46c879453b95f57299e56929bc8345",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__B-RCM-ref__W16__tauNone__own__4e5314214aed.json",
+      "verified_sha256": "e6822c8dc97c00a16e90c7c5f38d126aad46c879453b95f57299e56929bc8345",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "dawson5",
+      "member": "SlashBurn",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/dawson5__SlashBurn__W16__tauNone__own__3a5846d7de70.json",
+      "sha256": "69246a13118260d5fee5890be89ccfe2558f5fcdef2f7de415885183a9281ff2",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__SlashBurn__W16__tauNone__own__3a5846d7de70.json",
+      "verified_sha256": "69246a13118260d5fee5890be89ccfe2558f5fcdef2f7de415885183a9281ff2",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "olafu",
+      "member": "B0",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/olafu__B0__W16__tauNone__own__1d9535b3516c.json",
+      "sha256": "3075d10648babce299c70b3c66fba3dd8ae2a7b6817d2da63cee87bf6e03817c",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__B0__W16__tauNone__own__1d9535b3516c.json",
+      "verified_sha256": "3075d10648babce299c70b3c66fba3dd8ae2a7b6817d2da63cee87bf6e03817c",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "olafu",
+      "member": "rsh-α0",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/olafu__rsh-alpha0__W16__tauNone__own__fa92edee20f4.json",
+      "sha256": "05dcd0649feab853e2469b406398a777606d6f8f30d6a2e8a4ced549013e67d7",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__rsh-alpha0__W16__tauNone__own__fa92edee20f4.json",
+      "verified_sha256": "05dcd0649feab853e2469b406398a777606d6f8f30d6a2e8a4ced549013e67d7",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "olafu",
+      "member": "rabbit-pilot",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/olafu__rabbit-pilot__W16__tauNone__own__47bc0151f033.json",
+      "sha256": "5bba5bbb5253b4a87af959cf1b2b3c13642c9de048b8d915276d1e3d34b4386e",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__rabbit-pilot__W16__tauNone__own__47bc0151f033.json",
+      "verified_sha256": "5bba5bbb5253b4a87af959cf1b2b3c13642c9de048b8d915276d1e3d34b4386e",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "olafu",
+      "member": "neutron-pilot",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/olafu__neutron-pilot__W16__tauNone__own__1664355cdaa7.json",
+      "sha256": "e34bace6e655e31662ca68f7d3f3d50b55b9305f127a86303cd881e837c1ec01",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__neutron-pilot__W16__tauNone__own__1664355cdaa7.json",
+      "verified_sha256": "e34bace6e655e31662ca68f7d3f3d50b55b9305f127a86303cd881e837c1ec01",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "olafu",
+      "member": "C9-Gorder",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/olafu__C9-Gorder__W16__tauNone__own__ca58985925c0.json",
+      "sha256": "ec0bb10ed05a5bf4e05a8d05e35e513f42f109e12feecdbdedb1cfda0b8789a9",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__C9-Gorder__W16__tauNone__own__ca58985925c0.json",
+      "verified_sha256": "ec0bb10ed05a5bf4e05a8d05e35e513f42f109e12feecdbdedb1cfda0b8789a9",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "olafu",
+      "member": "C9-S",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/olafu__C9-S__W16__tauNone__own__5da9c4019ec4.json",
+      "sha256": "49cb724ff8e5579578adebd07394af68a722e86581762feaa1ce4aaf5f2bef09",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__C9-S__W16__tauNone__own__5da9c4019ec4.json",
+      "verified_sha256": "49cb724ff8e5579578adebd07394af68a722e86581762feaa1ce4aaf5f2bef09",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "olafu",
+      "member": "C10-BP",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/olafu__C10-BP__W16__tauNone__own__5f83fbefe087.json",
+      "sha256": "835b84eb62c0056f4ba89547edd7758575754397289941f38a278d8c1da4a773",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__C10-BP__W16__tauNone__own__5f83fbefe087.json",
+      "verified_sha256": "835b84eb62c0056f4ba89547edd7758575754397289941f38a278d8c1da4a773",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "olafu",
+      "member": "B-RCM-ref",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/olafu__B-RCM-ref__W16__tauNone__own__b5673ec69b51.json",
+      "sha256": "fbba7e0b89d6f81a476b74b719ad480e24182440720c66ee06a7929cef7a31a8",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__B-RCM-ref__W16__tauNone__own__b5673ec69b51.json",
+      "verified_sha256": "fbba7e0b89d6f81a476b74b719ad480e24182440720c66ee06a7929cef7a31a8",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "olafu",
+      "member": "SlashBurn",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/olafu__SlashBurn__W16__tauNone__own__8dbe7b9a5150.json",
+      "sha256": "68f2cf599dbff9156257afac39f92bc1f15047fbaf58bb14aea3c668f8dcfe19",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__SlashBurn__W16__tauNone__own__8dbe7b9a5150.json",
+      "verified_sha256": "68f2cf599dbff9156257afac39f92bc1f15047fbaf58bb14aea3c668f8dcfe19",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "pattern1",
+      "member": "B0",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/pattern1__B0__W16__tauNone__own__51fd886f8de6.json",
+      "sha256": "43a6f6750611b8a6f772a630668e145d6354b423da3b55922d80743e9501bf18",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__B0__W16__tauNone__own__51fd886f8de6.json",
+      "verified_sha256": "43a6f6750611b8a6f772a630668e145d6354b423da3b55922d80743e9501bf18",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "pattern1",
+      "member": "rsh-α0",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/pattern1__rsh-alpha0__W16__tauNone__own__06b994e10c18.json",
+      "sha256": "d7def42c8bd4068e2ccdd155d10afc1b37f0835eb0ce4d2de630be87622d3dd3",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__rsh-alpha0__W16__tauNone__own__06b994e10c18.json",
+      "verified_sha256": "d7def42c8bd4068e2ccdd155d10afc1b37f0835eb0ce4d2de630be87622d3dd3",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "pattern1",
+      "member": "rabbit-pilot",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/pattern1__rabbit-pilot__W16__tauNone__own__f6228d937bf8.json",
+      "sha256": "86f31e2968dc9745e4420fd2cfc515a951cf59647f21c1a8f6a6deb19b86f007",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__rabbit-pilot__W16__tauNone__own__f6228d937bf8.json",
+      "verified_sha256": "86f31e2968dc9745e4420fd2cfc515a951cf59647f21c1a8f6a6deb19b86f007",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "pattern1",
+      "member": "neutron-pilot",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/pattern1__neutron-pilot__W16__tauNone__own__dfe8f24ebdec.json",
+      "sha256": "8053433eaa7bf3d0f77ab73996a834988c8c0fc01957542e3cc78d8c7d001fb6",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__neutron-pilot__W16__tauNone__own__dfe8f24ebdec.json",
+      "verified_sha256": "8053433eaa7bf3d0f77ab73996a834988c8c0fc01957542e3cc78d8c7d001fb6",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "pattern1",
+      "member": "C9-Gorder",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/pattern1__C9-Gorder__W16__tauNone__own__f65a44c64e70.json",
+      "sha256": "28719515e3fecae5cc3f98b8f425b4f6cb4cb06081680de48e83d413723b663c",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__C9-Gorder__W16__tauNone__own__f65a44c64e70.json",
+      "verified_sha256": "28719515e3fecae5cc3f98b8f425b4f6cb4cb06081680de48e83d413723b663c",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "pattern1",
+      "member": "C9-S",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/pattern1__C9-S__W16__tauNone__own__35b4ed0bc6b8.json",
+      "sha256": "4ea3bceff4c09594a6abbab119399d6de324d815a2565a176dac590e42506a21",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__C9-S__W16__tauNone__own__35b4ed0bc6b8.json",
+      "verified_sha256": "4ea3bceff4c09594a6abbab119399d6de324d815a2565a176dac590e42506a21",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "pattern1",
+      "member": "C10-BP",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/pattern1__C10-BP__W16__tauNone__own__8f222137b9eb.json",
+      "sha256": "1d8b0c62ba652636903424a758dc70e25896077a5ab7a5d906c25c1feb9a1509",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__C10-BP__W16__tauNone__own__8f222137b9eb.json",
+      "verified_sha256": "1d8b0c62ba652636903424a758dc70e25896077a5ab7a5d906c25c1feb9a1509",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "pattern1",
+      "member": "B-RCM-ref",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/pattern1__B-RCM-ref__W16__tauNone__own__90562d88dcff.json",
+      "sha256": "005b47f53938b8f688a5800e13ec80ddc0e622128d13bb68d140b3f35788de55",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__B-RCM-ref__W16__tauNone__own__90562d88dcff.json",
+      "verified_sha256": "005b47f53938b8f688a5800e13ec80ddc0e622128d13bb68d140b3f35788de55",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "pattern1",
+      "member": "SlashBurn",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/pattern1__SlashBurn__W16__tauNone__own__11a4cd16cf65.json",
+      "sha256": "43dcae04c488d8f44f26109a064d99844efbd70ff605e0fbbcb828fb88f33303",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__SlashBurn__W16__tauNone__own__11a4cd16cf65.json",
+      "verified_sha256": "43dcae04c488d8f44f26109a064d99844efbd70ff605e0fbbcb828fb88f33303",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "human_gene1",
+      "member": "B0",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/human_gene1__B0__W16__tauNone__own__79af31260e8f.json",
+      "sha256": "08617eb1e4b122fc3ab2f679caf4bc725139a140526705ef276d21566f8f67a4",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__B0__W16__tauNone__own__79af31260e8f.json",
+      "verified_sha256": "08617eb1e4b122fc3ab2f679caf4bc725139a140526705ef276d21566f8f67a4",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "human_gene1",
+      "member": "rsh-α0",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/human_gene1__rsh-alpha0__W16__tauNone__own__9991e2895fee.json",
+      "sha256": "d1327fd800a11b4b04397c0c5c88c34ab90c162479dacb7aae8c8171a8467e9e",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__rsh-alpha0__W16__tauNone__own__9991e2895fee.json",
+      "verified_sha256": "d1327fd800a11b4b04397c0c5c88c34ab90c162479dacb7aae8c8171a8467e9e",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "human_gene1",
+      "member": "rabbit-pilot",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/human_gene1__rabbit-pilot__W16__tauNone__own__936764cedab2.json",
+      "sha256": "7c875eef0b8fa6b2bdcd879289a49a2b176100fc583a6a5222ba609932e9412d",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__rabbit-pilot__W16__tauNone__own__936764cedab2.json",
+      "verified_sha256": "7c875eef0b8fa6b2bdcd879289a49a2b176100fc583a6a5222ba609932e9412d",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "human_gene1",
+      "member": "neutron-pilot",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/human_gene1__neutron-pilot__W16__tauNone__own__0dcb814a40f6.json",
+      "sha256": "b5465b0e6ec9b1058c5f6c23af1faf74fee1dc04d479981451907b738cf1e0ff",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__neutron-pilot__W16__tauNone__own__0dcb814a40f6.json",
+      "verified_sha256": "b5465b0e6ec9b1058c5f6c23af1faf74fee1dc04d479981451907b738cf1e0ff",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "human_gene1",
+      "member": "C9-Gorder",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/human_gene1__C9-Gorder__W16__tauNone__own__afe0999e10f6.json",
+      "sha256": "e26276f5aec8209f6f42b952eb97b5a57bdb35530ef2c88862e80660e75247fb",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__C9-Gorder__W16__tauNone__own__afe0999e10f6.json",
+      "verified_sha256": "e26276f5aec8209f6f42b952eb97b5a57bdb35530ef2c88862e80660e75247fb",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "human_gene1",
+      "member": "C9-S",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/human_gene1__C9-S__W16__tauNone__own__fefd37cb62f9.json",
+      "sha256": "5c59dfd0748ad6b3f798f3985db88df3839604dd0bee4ad8b913ed26ed0dea56",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__C9-S__W16__tauNone__own__fefd37cb62f9.json",
+      "verified_sha256": "5c59dfd0748ad6b3f798f3985db88df3839604dd0bee4ad8b913ed26ed0dea56",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "human_gene1",
+      "member": "C10-BP",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/human_gene1__C10-BP__W16__tauNone__own__3039bcab6091.json",
+      "sha256": "a938b3d24df9866c55ad43543958aff6ecd913c57bad42e6d4cbd8e7d3208644",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__C10-BP__W16__tauNone__own__3039bcab6091.json",
+      "verified_sha256": "a938b3d24df9866c55ad43543958aff6ecd913c57bad42e6d4cbd8e7d3208644",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "human_gene1",
+      "member": "B-RCM-ref",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/human_gene1__B-RCM-ref__W16__tauNone__own__291210d9ea07.json",
+      "sha256": "db2b04abac1390863e757bd005be5a40b50ab211ae55f76dabdbb3cd325ca66a",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__B-RCM-ref__W16__tauNone__own__291210d9ea07.json",
+      "verified_sha256": "db2b04abac1390863e757bd005be5a40b50ab211ae55f76dabdbb3cd325ca66a",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "base-order",
+      "matrix": "human_gene1",
+      "member": "SlashBurn",
+      "start": "",
+      "lam": "",
+      "tau": "none",
+      "seed": "",
+      "t21_path": "orders/human_gene1__SlashBurn__W16__tauNone__own__808008ffae40.json",
+      "sha256": "f684cb2773ad9cd936b95f8b38dcf3eeb82344a105545fb80622f7f27e6e2958",
+      "note": "",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__SlashBurn__W16__tauNone__own__808008ffae40.json",
+      "verified_sha256": "f684cb2773ad9cd936b95f8b38dcf3eeb82344a105545fb80622f7f27e6e2958",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "LS-full",
+      "matrix": "cora",
+      "member": "LS-full(C9-Gorder)",
+      "start": "C9-Gorder",
+      "lam": "0",
+      "tau": "none",
+      "seed": "0",
+      "t21_path": "orders/cora__P-LS-full-control__W16__tauNone__own__389492761be1.json",
+      "sha256": "d665ce77ae0cc7c4648f1d12e66d7740346e26ccf4d3efcaa56f95e33fef88b8",
+      "note": "T21 P-LS-full-control, lambda=0, seed 0",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__P-LS-full-control__W16__tauNone__own__389492761be1.json",
+      "verified_sha256": "d665ce77ae0cc7c4648f1d12e66d7740346e26ccf4d3efcaa56f95e33fef88b8",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "LS-full",
+      "matrix": "cora",
+      "member": "LS-full(rsh-α0)",
+      "start": "rsh-α0",
+      "lam": "0",
+      "tau": "none",
+      "seed": "0",
+      "t21_path": "orders/cora__P-LS-full-control__W16__tauNone__own__163ee7ae1483.json",
+      "sha256": "40ae51e9603120060c81198af8a906b65b610d6bf8161f7d9decb6300fef2a70",
+      "note": "T21 P-LS-full-control, lambda=0, seed 0",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__P-LS-full-control__W16__tauNone__own__163ee7ae1483.json",
+      "verified_sha256": "40ae51e9603120060c81198af8a906b65b610d6bf8161f7d9decb6300fef2a70",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "LS-full",
+      "matrix": "ogbn-arxiv",
+      "member": "LS-full(C9-Gorder)",
+      "start": "C9-Gorder",
+      "lam": "0",
+      "tau": "none",
+      "seed": "0",
+      "t21_path": "orders/ogbn-arxiv__P-LS-full-control__W16__tauNone__own__ca2408b792c9.json",
+      "sha256": "0e00a5889856487a35fae5dc24c3c5643375bf5049a94ffff9087702c0913bc1",
+      "note": "T21 P-LS-full-control, lambda=0, seed 0",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__P-LS-full-control__W16__tauNone__own__ca2408b792c9.json",
+      "verified_sha256": "0e00a5889856487a35fae5dc24c3c5643375bf5049a94ffff9087702c0913bc1",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "LS-full",
+      "matrix": "ogbn-arxiv",
+      "member": "LS-full(rsh-α0)",
+      "start": "rsh-α0",
+      "lam": "0",
+      "tau": "none",
+      "seed": "0",
+      "t21_path": "orders/ogbn-arxiv__P-LS-full-control__W16__tauNone__own__e3c58a9f8c41.json",
+      "sha256": "b28863d4282aa9104e7bcf8f71a25e94d822992f8f617ab1cc26202fa326280f",
+      "note": "T21 P-LS-full-control, lambda=0, seed 0",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__P-LS-full-control__W16__tauNone__own__e3c58a9f8c41.json",
+      "verified_sha256": "b28863d4282aa9104e7bcf8f71a25e94d822992f8f617ab1cc26202fa326280f",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "cora",
+      "member": "P-LS",
+      "start": "C9-Gorder",
+      "lam": "0",
+      "tau": "2",
+      "seed": "0",
+      "t21_path": "orders/cora__P-LS__W16__tau2__own__fe55f0165da6.json",
+      "sha256": "63a61f371f9f1c172db5d2ffe0a753601197ea8b3efae3daacb552b3f2cfc14f",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__P-LS__W16__tau2__own__fe55f0165da6.json",
+      "verified_sha256": "63a61f371f9f1c172db5d2ffe0a753601197ea8b3efae3daacb552b3f2cfc14f",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "cora",
+      "member": "P-LS",
+      "start": "C9-Gorder",
+      "lam": "0",
+      "tau": "3",
+      "seed": "0",
+      "t21_path": "orders/cora__P-LS__W16__tau3__own__13c0e68fe6ff.json",
+      "sha256": "2413c057980e3cfda5c61479dfab2c814d42bb909251b18e3f4e24dbabe7e6b8",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__P-LS__W16__tau3__own__13c0e68fe6ff.json",
+      "verified_sha256": "2413c057980e3cfda5c61479dfab2c814d42bb909251b18e3f4e24dbabe7e6b8",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "cora",
+      "member": "P-LS",
+      "start": "C9-Gorder",
+      "lam": "1",
+      "tau": "2",
+      "seed": "0",
+      "t21_path": "orders/cora__P-LS__W16__tau2__own__771ce85ab57d.json",
+      "sha256": "f4b726217b0107d6f13f974dae01dc151e05475980e9c5166dd616750a937e99",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__P-LS__W16__tau2__own__771ce85ab57d.json",
+      "verified_sha256": "f4b726217b0107d6f13f974dae01dc151e05475980e9c5166dd616750a937e99",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "cora",
+      "member": "P-LS",
+      "start": "C9-Gorder",
+      "lam": "1",
+      "tau": "3",
+      "seed": "0",
+      "t21_path": "orders/cora__P-LS__W16__tau3__own__3ea2668dd3d2.json",
+      "sha256": "071a8a708ecade8199a99ec304ee3aea33ce0a126a0aec39c1744691c3d822b2",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__P-LS__W16__tau3__own__3ea2668dd3d2.json",
+      "verified_sha256": "071a8a708ecade8199a99ec304ee3aea33ce0a126a0aec39c1744691c3d822b2",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "cora",
+      "member": "P-LS",
+      "start": "rsh-α0",
+      "lam": "0",
+      "tau": "2",
+      "seed": "0",
+      "t21_path": "orders/cora__P-LS__W16__tau2__own__6020f66d25d7.json",
+      "sha256": "8115ffd3179a603de9535029a401d233f271e65409c2183beec2c618578c8f5d",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__P-LS__W16__tau2__own__6020f66d25d7.json",
+      "verified_sha256": "8115ffd3179a603de9535029a401d233f271e65409c2183beec2c618578c8f5d",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "cora",
+      "member": "P-LS",
+      "start": "rsh-α0",
+      "lam": "0",
+      "tau": "3",
+      "seed": "0",
+      "t21_path": "orders/cora__P-LS__W16__tau3__own__63b920cccef4.json",
+      "sha256": "06fa602d9171b0a9831c6d9ef573d48fca713f585ceacce138260fbd075e6983",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__P-LS__W16__tau3__own__63b920cccef4.json",
+      "verified_sha256": "06fa602d9171b0a9831c6d9ef573d48fca713f585ceacce138260fbd075e6983",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "cora",
+      "member": "P-LS",
+      "start": "rsh-α0",
+      "lam": "1",
+      "tau": "2",
+      "seed": "0",
+      "t21_path": "orders/cora__P-LS__W16__tau2__own__33b7faadad06.json",
+      "sha256": "1a8e3ea1ffc77a288d36fc996db9d121471cc80417938f39439b6242ee097ae0",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__P-LS__W16__tau2__own__33b7faadad06.json",
+      "verified_sha256": "1a8e3ea1ffc77a288d36fc996db9d121471cc80417938f39439b6242ee097ae0",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "cora",
+      "member": "P-LS",
+      "start": "rsh-α0",
+      "lam": "1",
+      "tau": "3",
+      "seed": "0",
+      "t21_path": "orders/cora__P-LS__W16__tau3__own__522bd427b6d8.json",
+      "sha256": "3793c59489e0ea05fa5d416181e953fff9c09247e5d42633b53f21264835154e",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__P-LS__W16__tau3__own__522bd427b6d8.json",
+      "verified_sha256": "3793c59489e0ea05fa5d416181e953fff9c09247e5d42633b53f21264835154e",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "cora",
+      "member": "P-LS",
+      "start": "rabbit-pilot",
+      "lam": "0",
+      "tau": "2",
+      "seed": "0",
+      "t21_path": "orders/cora__P-LS__W16__tau2__own__b26f2cff6cb4.json",
+      "sha256": "396f794d0a381a80f8679ce5e28a7873e5931c199db11466c1ceb78a0c50f21c",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__P-LS__W16__tau2__own__b26f2cff6cb4.json",
+      "verified_sha256": "396f794d0a381a80f8679ce5e28a7873e5931c199db11466c1ceb78a0c50f21c",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "cora",
+      "member": "P-LS",
+      "start": "rabbit-pilot",
+      "lam": "0",
+      "tau": "3",
+      "seed": "0",
+      "t21_path": "orders/cora__P-LS__W16__tau3__own__133850dd1b73.json",
+      "sha256": "36be3db54ae223a12a899d21c6e14a96bb4640238d750a59b7d14abab115e25d",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__P-LS__W16__tau3__own__133850dd1b73.json",
+      "verified_sha256": "36be3db54ae223a12a899d21c6e14a96bb4640238d750a59b7d14abab115e25d",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "ogbn-arxiv",
+      "member": "P-LS",
+      "start": "C9-Gorder",
+      "lam": "0",
+      "tau": "2",
+      "seed": "0",
+      "t21_path": "orders/ogbn-arxiv__P-LS__W16__tau2__own__f762ffe0067c.json",
+      "sha256": "c35b4c3be00aa1cab9b5101465e2dcc4186ff85da7399966cf0e0b8c6b27b8b3",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__P-LS__W16__tau2__own__f762ffe0067c.json",
+      "verified_sha256": "c35b4c3be00aa1cab9b5101465e2dcc4186ff85da7399966cf0e0b8c6b27b8b3",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "ogbn-arxiv",
+      "member": "P-LS",
+      "start": "C9-Gorder",
+      "lam": "0",
+      "tau": "3",
+      "seed": "0",
+      "t21_path": "orders/ogbn-arxiv__P-LS__W16__tau3__own__497904383ac4.json",
+      "sha256": "2ad4ca4663e7f423b846cbdea92c94b7cee8bca9d17942938e178e7e9c8a9662",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__P-LS__W16__tau3__own__497904383ac4.json",
+      "verified_sha256": "2ad4ca4663e7f423b846cbdea92c94b7cee8bca9d17942938e178e7e9c8a9662",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "ogbn-arxiv",
+      "member": "P-LS",
+      "start": "C9-Gorder",
+      "lam": "1",
+      "tau": "2",
+      "seed": "0",
+      "t21_path": "orders/ogbn-arxiv__P-LS__W16__tau2__own__0b22cc8d64b2.json",
+      "sha256": "ac2ef0314a999b08b46418d366aa1ed0f7774ba531094a38e041df7f0e89d08a",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__P-LS__W16__tau2__own__0b22cc8d64b2.json",
+      "verified_sha256": "ac2ef0314a999b08b46418d366aa1ed0f7774ba531094a38e041df7f0e89d08a",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "ogbn-arxiv",
+      "member": "P-LS",
+      "start": "C9-Gorder",
+      "lam": "1",
+      "tau": "3",
+      "seed": "0",
+      "t21_path": "orders/ogbn-arxiv__P-LS__W16__tau3__own__a0305d0e9272.json",
+      "sha256": "16dfad8e26e0bd34f1cda4f207a42c3774d405d752b7fe51c27dc2273252858d",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__P-LS__W16__tau3__own__a0305d0e9272.json",
+      "verified_sha256": "16dfad8e26e0bd34f1cda4f207a42c3774d405d752b7fe51c27dc2273252858d",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "ogbn-arxiv",
+      "member": "P-LS",
+      "start": "rsh-α0",
+      "lam": "0",
+      "tau": "2",
+      "seed": "0",
+      "t21_path": "orders/ogbn-arxiv__P-LS__W16__tau2__own__be280720321c.json",
+      "sha256": "deda12d2505c26b1006ba1ebfda38a876fef6bbbf9b9e9aba0071b700f8223b9",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__P-LS__W16__tau2__own__be280720321c.json",
+      "verified_sha256": "deda12d2505c26b1006ba1ebfda38a876fef6bbbf9b9e9aba0071b700f8223b9",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "ogbn-arxiv",
+      "member": "P-LS",
+      "start": "rsh-α0",
+      "lam": "0",
+      "tau": "3",
+      "seed": "0",
+      "t21_path": "orders/ogbn-arxiv__P-LS__W16__tau3__own__0cd2c9f7377b.json",
+      "sha256": "db2ddf5c655a533caac5685af78eb440cbb358db4fdc8363b37323591020800e",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__P-LS__W16__tau3__own__0cd2c9f7377b.json",
+      "verified_sha256": "db2ddf5c655a533caac5685af78eb440cbb358db4fdc8363b37323591020800e",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "ogbn-arxiv",
+      "member": "P-LS",
+      "start": "rsh-α0",
+      "lam": "1",
+      "tau": "2",
+      "seed": "0",
+      "t21_path": "orders/ogbn-arxiv__P-LS__W16__tau2__own__4637811091aa.json",
+      "sha256": "69c71b8e44f26b769b8704abc7927b277e144dfc86f0ddda879f76f3eacb1ab1",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__P-LS__W16__tau2__own__4637811091aa.json",
+      "verified_sha256": "69c71b8e44f26b769b8704abc7927b277e144dfc86f0ddda879f76f3eacb1ab1",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "ogbn-arxiv",
+      "member": "P-LS",
+      "start": "rsh-α0",
+      "lam": "1",
+      "tau": "3",
+      "seed": "0",
+      "t21_path": "orders/ogbn-arxiv__P-LS__W16__tau3__own__217f85bef482.json",
+      "sha256": "20866c53817c2a8cb24c028bb93d22c403ff6b7038306e59391c85411a292e02",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__P-LS__W16__tau3__own__217f85bef482.json",
+      "verified_sha256": "20866c53817c2a8cb24c028bb93d22c403ff6b7038306e59391c85411a292e02",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "ogbn-arxiv",
+      "member": "P-LS",
+      "start": "rabbit-pilot",
+      "lam": "0",
+      "tau": "2",
+      "seed": "0",
+      "t21_path": "orders/ogbn-arxiv__P-LS__W16__tau2__own__e37c17b97c70.json",
+      "sha256": "49188686383937cf1bcbb27b49f7b34a3c4f29c04039f33d034eedd00ce78173",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__P-LS__W16__tau2__own__e37c17b97c70.json",
+      "verified_sha256": "49188686383937cf1bcbb27b49f7b34a3c4f29c04039f33d034eedd00ce78173",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "ogbn-arxiv",
+      "member": "P-LS",
+      "start": "rabbit-pilot",
+      "lam": "0",
+      "tau": "3",
+      "seed": "0",
+      "t21_path": "orders/ogbn-arxiv__P-LS__W16__tau3__own__06be4bbe3f6f.json",
+      "sha256": "f06d416cec44524ebaf242ccf4c91a30d1ae61ad8bd950ddf17e03ff3551656e",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__P-LS__W16__tau3__own__06be4bbe3f6f.json",
+      "verified_sha256": "f06d416cec44524ebaf242ccf4c91a30d1ae61ad8bd950ddf17e03ff3551656e",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "wiki-RfA",
+      "member": "P-LS",
+      "start": "C9-Gorder",
+      "lam": "0",
+      "tau": "2",
+      "seed": "0",
+      "t21_path": "orders/wiki-RfA__P-LS__W16__tau2__own__1069b7192861.json",
+      "sha256": "42a8225da9f9a84b61024d619681ae0294d92152bbc8ed2890eb3041495871c8",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__P-LS__W16__tau2__own__1069b7192861.json",
+      "verified_sha256": "42a8225da9f9a84b61024d619681ae0294d92152bbc8ed2890eb3041495871c8",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "wiki-RfA",
+      "member": "P-LS",
+      "start": "C9-Gorder",
+      "lam": "0",
+      "tau": "3",
+      "seed": "0",
+      "t21_path": "orders/wiki-RfA__P-LS__W16__tau3__own__36977e3e7fe4.json",
+      "sha256": "3dc08d815e2d5854beefb06434252b3b659d0e0d82d4dd76c905114715ad29c6",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__P-LS__W16__tau3__own__36977e3e7fe4.json",
+      "verified_sha256": "3dc08d815e2d5854beefb06434252b3b659d0e0d82d4dd76c905114715ad29c6",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "wiki-RfA",
+      "member": "P-LS",
+      "start": "C9-Gorder",
+      "lam": "1",
+      "tau": "2",
+      "seed": "0",
+      "t21_path": "orders/wiki-RfA__P-LS__W16__tau2__own__bdd0754112e3.json",
+      "sha256": "23b68b613988e8c982e60c12ec937203a2cd62ac8ec72125e45120fe9e6e7031",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__P-LS__W16__tau2__own__bdd0754112e3.json",
+      "verified_sha256": "23b68b613988e8c982e60c12ec937203a2cd62ac8ec72125e45120fe9e6e7031",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "wiki-RfA",
+      "member": "P-LS",
+      "start": "C9-Gorder",
+      "lam": "1",
+      "tau": "3",
+      "seed": "0",
+      "t21_path": "orders/wiki-RfA__P-LS__W16__tau3__own__7d97f1bc4877.json",
+      "sha256": "7fcb68b92bb7d82066a2911080453aefe0ca541f4912ae82d2a30b9d3015b65e",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__P-LS__W16__tau3__own__7d97f1bc4877.json",
+      "verified_sha256": "7fcb68b92bb7d82066a2911080453aefe0ca541f4912ae82d2a30b9d3015b65e",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "wiki-RfA",
+      "member": "P-LS",
+      "start": "rsh-α0",
+      "lam": "0",
+      "tau": "2",
+      "seed": "0",
+      "t21_path": "orders/wiki-RfA__P-LS__W16__tau2__own__3420496d8f4d.json",
+      "sha256": "d15cc7226762d96822d72c5f54fbd0dc883ac277b5faa7e2a2f8d97cf1613dd1",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__P-LS__W16__tau2__own__3420496d8f4d.json",
+      "verified_sha256": "d15cc7226762d96822d72c5f54fbd0dc883ac277b5faa7e2a2f8d97cf1613dd1",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "wiki-RfA",
+      "member": "P-LS",
+      "start": "rsh-α0",
+      "lam": "0",
+      "tau": "3",
+      "seed": "0",
+      "t21_path": "orders/wiki-RfA__P-LS__W16__tau3__own__31b804be77c6.json",
+      "sha256": "e012374171102686d8dbd2ba68f2740db6bfdfb602ee28be68dd6c4c0387d916",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__P-LS__W16__tau3__own__31b804be77c6.json",
+      "verified_sha256": "e012374171102686d8dbd2ba68f2740db6bfdfb602ee28be68dd6c4c0387d916",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "wiki-RfA",
+      "member": "P-LS",
+      "start": "rsh-α0",
+      "lam": "1",
+      "tau": "2",
+      "seed": "0",
+      "t21_path": "orders/wiki-RfA__P-LS__W16__tau2__own__d19077f8e157.json",
+      "sha256": "e5a1fcde35967b9897ab2961831be2281818845dcffbf9204057c2401dea24bc",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__P-LS__W16__tau2__own__d19077f8e157.json",
+      "verified_sha256": "e5a1fcde35967b9897ab2961831be2281818845dcffbf9204057c2401dea24bc",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "wiki-RfA",
+      "member": "P-LS",
+      "start": "rsh-α0",
+      "lam": "1",
+      "tau": "3",
+      "seed": "0",
+      "t21_path": "orders/wiki-RfA__P-LS__W16__tau3__own__1ab4dbaf05b1.json",
+      "sha256": "a2cb2886fb8cec51a8be4fdcd904428edb534c3bbd5b8cbc8f15aa9bde91c0dd",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__P-LS__W16__tau3__own__1ab4dbaf05b1.json",
+      "verified_sha256": "a2cb2886fb8cec51a8be4fdcd904428edb534c3bbd5b8cbc8f15aa9bde91c0dd",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "wiki-RfA",
+      "member": "P-LS",
+      "start": "rabbit-pilot",
+      "lam": "0",
+      "tau": "2",
+      "seed": "0",
+      "t21_path": "orders/wiki-RfA__P-LS__W16__tau2__own__8cca5cfec88d.json",
+      "sha256": "1321451524e1e053cc1f45cbae5f7099d2d9adc694600ec061cfbf2aba56cb33",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__P-LS__W16__tau2__own__8cca5cfec88d.json",
+      "verified_sha256": "1321451524e1e053cc1f45cbae5f7099d2d9adc694600ec061cfbf2aba56cb33",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T22",
+      "use": "M6-reuse",
+      "matrix": "wiki-RfA",
+      "member": "P-LS",
+      "start": "rabbit-pilot",
+      "lam": "0",
+      "tau": "3",
+      "seed": "0",
+      "t21_path": "orders/wiki-RfA__P-LS__W16__tau3__own__20d6a4dad8b2.json",
+      "sha256": "b4b00222d8a87a774e38ce8dd0a132c903faed5d1e59e625e72805770216b528",
+      "note": "T21 J1 output before D stage (own)",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__P-LS__W16__tau3__own__20d6a4dad8b2.json",
+      "verified_sha256": "b4b00222d8a87a774e38ce8dd0a132c903faed5d1e59e625e72805770216b528",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T23",
+      "use": "W-sensitivity",
+      "matrix": "cora",
+      "t23_member": "B0",
+      "t21_member": "B0",
+      "W": "32",
+      "params": "",
+      "source": "T21 完整归档",
+      "path": "orders/cora__B0__W32__tauNone__own__bb3cb228f4bc.json",
+      "sha256": "3d646f765ad40275e802736f0b8b36f10ed2861a673ce4ea2e822c623f2e42c3",
+      "note": "B0、B1 与 W 无关，与 W16 文件内容相同",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__B0__W32__tauNone__own__bb3cb228f4bc.json",
+      "verified_sha256": "3d646f765ad40275e802736f0b8b36f10ed2861a673ce4ea2e822c623f2e42c3",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T23",
+      "use": "W-sensitivity",
+      "matrix": "cora",
+      "t23_member": "B0",
+      "t21_member": "B0",
+      "W": "64",
+      "params": "",
+      "source": "T21 完整归档",
+      "path": "orders/cora__B0__W64__tauNone__own__bb3cb228f4bc.json",
+      "sha256": "5756eaff6885138d67a2e1ccdcc6a37f1da9c53f05a888da4229e750578d6e55",
+      "note": "B0、B1 与 W 无关，与 W16 文件内容相同",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__B0__W64__tauNone__own__bb3cb228f4bc.json",
+      "verified_sha256": "5756eaff6885138d67a2e1ccdcc6a37f1da9c53f05a888da4229e750578d6e55",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T23",
+      "use": "W-sensitivity",
+      "matrix": "cora",
+      "t23_member": "B1 (rsh-α0)",
+      "t21_member": "rsh-α0",
+      "W": "32",
+      "params": "",
+      "source": "T21 完整归档",
+      "path": "orders/cora__rsh-alpha0__W32__tauNone__own__60d4a3f802ea.json",
+      "sha256": "2ca22114d096fba5e3490b3d4e6758809904ffdbbf54a22e30078a0ad567e6fb",
+      "note": "B0、B1 与 W 无关，与 W16 文件内容相同",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__rsh-alpha0__W32__tauNone__own__60d4a3f802ea.json",
+      "verified_sha256": "2ca22114d096fba5e3490b3d4e6758809904ffdbbf54a22e30078a0ad567e6fb",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T23",
+      "use": "W-sensitivity",
+      "matrix": "cora",
+      "t23_member": "B1 (rsh-α0)",
+      "t21_member": "rsh-α0",
+      "W": "64",
+      "params": "",
+      "source": "T21 完整归档",
+      "path": "orders/cora__rsh-alpha0__W64__tauNone__own__60d4a3f802ea.json",
+      "sha256": "2832a53ba62588083e6d754a5ef4812f7170f9b15bbf6006b7927f6832138397",
+      "note": "B0、B1 与 W 无关，与 W16 文件内容相同",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__rsh-alpha0__W64__tauNone__own__60d4a3f802ea.json",
+      "verified_sha256": "2832a53ba62588083e6d754a5ef4812f7170f9b15bbf6006b7927f6832138397",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T23",
+      "use": "W-sensitivity",
+      "matrix": "cora",
+      "t23_member": "C9-Gorder",
+      "t21_member": "C9-Gorder",
+      "W": "32",
+      "params": "w=W-1",
+      "source": "T21 完整归档",
+      "path": "orders/cora__C9-Gorder__W32__tauNone__own__a9b64271f2f0.json",
+      "sha256": "eca1c199b544234216014d4c6e8f853aec3061528f383ab6b66cadd00fac5145",
+      "note": "按该 W 重算的行序",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__C9-Gorder__W32__tauNone__own__a9b64271f2f0.json",
+      "verified_sha256": "eca1c199b544234216014d4c6e8f853aec3061528f383ab6b66cadd00fac5145",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T23",
+      "use": "W-sensitivity",
+      "matrix": "cora",
+      "t23_member": "C9-Gorder",
+      "t21_member": "C9-Gorder",
+      "W": "64",
+      "params": "w=W-1",
+      "source": "T21 完整归档",
+      "path": "orders/cora__C9-Gorder__W64__tauNone__own__64caa80636ba.json",
+      "sha256": "3b5a549a2600bf26bacc2560b7936cfe7c6bdc37cc69822b2b5629a56290fdc3",
+      "note": "按该 W 重算的行序",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__C9-Gorder__W64__tauNone__own__64caa80636ba.json",
+      "verified_sha256": "3b5a549a2600bf26bacc2560b7936cfe7c6bdc37cc69822b2b5629a56290fdc3",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T23",
+      "use": "W-sensitivity",
+      "matrix": "cora",
+      "t23_member": "C10-BP",
+      "t21_member": "C10-BP",
+      "W": "32",
+      "params": "",
+      "source": "T21 完整归档",
+      "path": "orders/cora__C10-BP__W32__tauNone__own__b0a310c46bab.json",
+      "sha256": "a46bc93a09c5a38b539fb9b4108007079a247d0ee728dd1a835a275e915aaa35",
+      "note": "按该 W 重算的行序",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__C10-BP__W32__tauNone__own__b0a310c46bab.json",
+      "verified_sha256": "a46bc93a09c5a38b539fb9b4108007079a247d0ee728dd1a835a275e915aaa35",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T23",
+      "use": "W-sensitivity",
+      "matrix": "cora",
+      "t23_member": "C10-BP",
+      "t21_member": "C10-BP",
+      "W": "64",
+      "params": "",
+      "source": "T21 完整归档",
+      "path": "orders/cora__C10-BP__W64__tauNone__own__f76b03fd2f1d.json",
+      "sha256": "dd538495983a3283ea26063fc1edb5a78861b8b2f38e05bca13fe197693a0fcc",
+      "note": "按该 W 重算的行序",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__C10-BP__W64__tauNone__own__f76b03fd2f1d.json",
+      "verified_sha256": "dd538495983a3283ea26063fc1edb5a78861b8b2f38e05bca13fe197693a0fcc",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T23",
+      "use": "W-sensitivity",
+      "matrix": "ogbn-arxiv",
+      "t23_member": "B0",
+      "t21_member": "B0",
+      "W": "32",
+      "params": "",
+      "source": "T21 完整归档",
+      "path": "orders/ogbn-arxiv__B0__W32__tauNone__own__4b33dcbc93b8.json",
+      "sha256": "c9182e5c5bf3d91dead8628a7ded68bac5c74b5fc54f75dac49766d9a791d9ba",
+      "note": "B0、B1 与 W 无关，与 W16 文件内容相同",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__B0__W32__tauNone__own__4b33dcbc93b8.json",
+      "verified_sha256": "c9182e5c5bf3d91dead8628a7ded68bac5c74b5fc54f75dac49766d9a791d9ba",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T23",
+      "use": "W-sensitivity",
+      "matrix": "ogbn-arxiv",
+      "t23_member": "B0",
+      "t21_member": "B0",
+      "W": "64",
+      "params": "",
+      "source": "T21 完整归档",
+      "path": "orders/ogbn-arxiv__B0__W64__tauNone__own__4b33dcbc93b8.json",
+      "sha256": "6668cd15857fa37f895922bf52ea5cc2064932f53dcd8ff19f3ad369ec07ad92",
+      "note": "B0、B1 与 W 无关，与 W16 文件内容相同",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__B0__W64__tauNone__own__4b33dcbc93b8.json",
+      "verified_sha256": "6668cd15857fa37f895922bf52ea5cc2064932f53dcd8ff19f3ad369ec07ad92",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T23",
+      "use": "W-sensitivity",
+      "matrix": "ogbn-arxiv",
+      "t23_member": "B1 (rsh-α0)",
+      "t21_member": "rsh-α0",
+      "W": "32",
+      "params": "",
+      "source": "T21 完整归档",
+      "path": "orders/ogbn-arxiv__rsh-alpha0__W32__tauNone__own__a6340c0d6c29.json",
+      "sha256": "4ea1e741e1f939b7f3eba7f35285067d1193a1edc109def3bb0befd236b4f8ce",
+      "note": "B0、B1 与 W 无关，与 W16 文件内容相同",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__rsh-alpha0__W32__tauNone__own__a6340c0d6c29.json",
+      "verified_sha256": "4ea1e741e1f939b7f3eba7f35285067d1193a1edc109def3bb0befd236b4f8ce",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T23",
+      "use": "W-sensitivity",
+      "matrix": "ogbn-arxiv",
+      "t23_member": "B1 (rsh-α0)",
+      "t21_member": "rsh-α0",
+      "W": "64",
+      "params": "",
+      "source": "T21 完整归档",
+      "path": "orders/ogbn-arxiv__rsh-alpha0__W64__tauNone__own__a6340c0d6c29.json",
+      "sha256": "66efa73c5c31dc14a698111a791856207767e1a5ba716b37e9b017608f8bfc5f",
+      "note": "B0、B1 与 W 无关，与 W16 文件内容相同",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__rsh-alpha0__W64__tauNone__own__a6340c0d6c29.json",
+      "verified_sha256": "66efa73c5c31dc14a698111a791856207767e1a5ba716b37e9b017608f8bfc5f",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T23",
+      "use": "W-sensitivity",
+      "matrix": "ogbn-arxiv",
+      "t23_member": "C9-Gorder",
+      "t21_member": "C9-Gorder",
+      "W": "32",
+      "params": "w=W-1",
+      "source": "T21 完整归档",
+      "path": "orders/ogbn-arxiv__C9-Gorder__W32__tauNone__own__d04ab5646264.json",
+      "sha256": "0b412d2a33247853d820e9f9dad6139ecc8eda71df451021e063d8c5426e6cc5",
+      "note": "按该 W 重算的行序",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__C9-Gorder__W32__tauNone__own__d04ab5646264.json",
+      "verified_sha256": "0b412d2a33247853d820e9f9dad6139ecc8eda71df451021e063d8c5426e6cc5",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T23",
+      "use": "W-sensitivity",
+      "matrix": "ogbn-arxiv",
+      "t23_member": "C9-Gorder",
+      "t21_member": "C9-Gorder",
+      "W": "64",
+      "params": "w=W-1",
+      "source": "T21 完整归档",
+      "path": "orders/ogbn-arxiv__C9-Gorder__W64__tauNone__own__ea3e02d5780e.json",
+      "sha256": "b12d97021bc66088c9ff80711da40c1158fa2b80acffce0c93e1d0aa00c95300",
+      "note": "按该 W 重算的行序",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__C9-Gorder__W64__tauNone__own__ea3e02d5780e.json",
+      "verified_sha256": "b12d97021bc66088c9ff80711da40c1158fa2b80acffce0c93e1d0aa00c95300",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T23",
+      "use": "W-sensitivity",
+      "matrix": "ogbn-arxiv",
+      "t23_member": "C10-BP",
+      "t21_member": "C10-BP",
+      "W": "32",
+      "params": "",
+      "source": "T21 完整归档",
+      "path": "orders/ogbn-arxiv__C10-BP__W32__tauNone__own__6f40a9429534.json",
+      "sha256": "4989aa381b30281324b85b95091b5ecf89e427076fc6d55890089d33d6626326",
+      "note": "按该 W 重算的行序",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__C10-BP__W32__tauNone__own__6f40a9429534.json",
+      "verified_sha256": "4989aa381b30281324b85b95091b5ecf89e427076fc6d55890089d33d6626326",
+      "origin": "T21 archive"
+    },
+    {
+      "task": "T23",
+      "use": "W-sensitivity",
+      "matrix": "ogbn-arxiv",
+      "t23_member": "C10-BP",
+      "t21_member": "C10-BP",
+      "W": "64",
+      "params": "",
+      "source": "T21 完整归档",
+      "path": "orders/ogbn-arxiv__C10-BP__W64__tauNone__own__3368f6316f02.json",
+      "sha256": "9bb0c1d9e39b88d9ab44b7195e8a338b485a866b5b45907760fabae366aac7a2",
+      "note": "按该 W 重算的行序",
+      "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__C10-BP__W64__tauNone__own__3368f6316f02.json",
+      "verified_sha256": "9bb0c1d9e39b88d9ab44b7195e8a338b485a866b5b45907760fabae366aac7a2",
+      "origin": "T21 archive"
+    }
+  ],
+  "new_orders": {
+    "file_count": 312,
+    "total_bytes": 68435536,
+    "local_only": true,
+    "local_directory": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/local-orders/rq3-validate-20261106",
+    "index_sha256": "9abeb3de5121c320247dabaad1711057c2934c2c355fa9ed19040109b73f2c92"
+  },
+  "code_and_runtime": [
+    {
+      "path": "code/artifact_pack.py",
+      "sha256": "c305207b39332999616c7da1e62fa5771c546c91c53894225f6c6a1dd7b7b258"
+    },
+    {
+      "path": "code/audit_results.py",
+      "sha256": "90f1dff4b87dc0355e133f56194435eced2b61d2fd183197b53754f28b0eb6d5"
+    },
+    {
+      "path": "code/boot_linux.py",
+      "sha256": "3141f7f2b0146389c35edc48a96e0c4f111fd3ffbaa8c892a8cbcbaee670fafb"
+    },
+    {
+      "path": "code/boot_linux_second.py",
+      "sha256": "809f5c69b6cf42f794c4029d07cc7cdcbdb25f9a62f8f1bff11d78097d7ee873"
+    },
+    {
+      "path": "code/bounded_case.py",
+      "sha256": "bd8e0f6b9557684722904f9934e2d153b01681b7918dc4926190bd13a0e3b9e0"
+    },
+    {
+      "path": "code/bp_variance.py",
+      "sha256": "82e01bace9b5a39b92b60bac26da28861133ebdf76590adeba9f0c992bc729ee"
+    },
+    {
+      "path": "code/build_rect_source.py",
+      "sha256": "c44efa62d7a8ab1a5b4f4f06f85497541ba8c42266e39cecf3eb7a4510debff9"
+    },
+    {
+      "path": "code/build_stage3.py",
+      "sha256": "48959d022cf116e0693d19373e89fb7325101f61489b550252e29e68f3af58fd"
+    },
+    {
+      "path": "code/build_t22.py",
+      "sha256": "e12ffb0717fbaba9e3a49df6dd3fc90c5edd40819604a166724bb233ce5b1171"
+    },
+    {
+      "path": "code/build_t23_first.py",
+      "sha256": "8d19c44cb98864bccfb277b61fcfb4e629d0060582323fbcbb39a77bd90ae039"
+    },
+    {
+      "path": "code/c1_forest.cpp",
+      "sha256": "6bf0742db53b13b23222aeaaf02509bfbdd5da001902edda7300a0f4dcb3168e"
+    },
+    {
+      "path": "code/c1_forest.py",
+      "sha256": "0db6a1c7bba791cd1c8c7c8d5b60707ad36235313212689d5924a55ef314f0b5"
+    },
+    {
+      "path": "code/candidates.cpp",
+      "sha256": "278a7115c5ba6da911ea1307fe41a4bfe986c8174fdb9f2538293803b4171c55"
+    },
+    {
+      "path": "code/capacity.py",
+      "sha256": "9931c0fcb69e25787e53b71810864f9dbb6d71999dd6b926efd060ddfa5c7fbb"
+    },
+    {
+      "path": "code/collect_stage3.py",
+      "sha256": "23d2c2a9a4881a2c076d4d6afc8c5c1fe154a13e3078b6831bbe22a7f02d5f21"
+    },
+    {
+      "path": "code/collect_t22.py",
+      "sha256": "80c796e30d3e90884996e079a36be46feabbc94aa8ef364c8b7736b2e31c969b"
+    },
+    {
+      "path": "code/collect_t23_first.py",
+      "sha256": "9ae9d33c3e212e16333170d88af671746b56ad88deb4cb7351278bb41f6c5397"
+    },
+    {
+      "path": "code/derive_t22.py",
+      "sha256": "c8d341a5038f3991899ec3478d63d016cc052b4db4299522e45ab54be8a0c77a"
+    },
+    {
+      "path": "code/diagnose_t23.py",
+      "sha256": "b1d794563c28c1b75b27ea10b3617f98d53ff8a2f783a191f217c0bf8de0fd75"
+    },
+    {
+      "path": "code/edges_csr.cpp",
+      "sha256": "368cf5fc12a1fd72269e3d254e44de68c914b7c4f004268c4b0ffe2151ec7464"
+    },
+    {
+      "path": "code/evaluate_t23.py",
+      "sha256": "33fad739a71e6a20847280c08f0b20af589a84d33f46d394053845bd785cf419"
+    },
+    {
+      "path": "code/external_c1.py",
+      "sha256": "aaa3c4ca2aa3d35dd1ed5050e22f4f047751f2bd28fd4cc0fbb2c5922cea6890"
+    },
+    {
+      "path": "code/external_hp.py",
+      "sha256": "44178747c6b6eb2f76fcc550032cd30e54865409f713e3e9c83e86be59415d51"
+    },
+    {
+      "path": "code/external_metis.py",
+      "sha256": "447e2ce3de47c96dec109b744de43ccdb99d0f1b9772604fcf064fe8bc48b774"
+    },
+    {
+      "path": "code/fetch_zip_structure.py",
+      "sha256": "2bd448d3add286644a6be2955ee1f2d3899f47b5208ba10a95bc57e2a746b208"
+    },
+    {
+      "path": "code/finish_stage3_when_ready.py",
+      "sha256": "50b2b7479f291e3af049f69a9f6b92e7a2cd67caffe03edaa4e472af78dc33c0"
+    },
+    {
+      "path": "code/first_delivery_when_ready.py",
+      "sha256": "82b545a52d1a2065f635db73edcd292fb09c71eee1a6b9020d3754835834ba90"
+    },
+    {
+      "path": "code/first_group_supplement.py",
+      "sha256": "cc3bbe43d470173118e39dd19fe63144a1c6ea9c81ee777582851921a889dd36"
+    },
+    {
+      "path": "code/gate_adaptive_widths.py",
+      "sha256": "78ad5e0cfdf225daecb05377379f0de7c6dfe1327f14a6d997c49f1be541b7b5"
+    },
+    {
+      "path": "code/gate_c1_native.py",
+      "sha256": "f41d99efb3a1880b19a1308c3fb54583c3365e4b2d2361410f4370f884c04c84"
+    },
+    {
+      "path": "code/gate_candidates.py",
+      "sha256": "56279f14cb3a864f61fd7e2739a78fe77d07be47171b208eeec977a00ea1b0ae"
+    },
+    {
+      "path": "code/gate_external_repeats.py",
+      "sha256": "63cd0ca848719dfbdb542ce24809379ad951cc60583f2db3ec529ac2fc8e753b"
+    },
+    {
+      "path": "code/gate_independent_sorted.py",
+      "sha256": "222e3edab8f1b2eac623e243799771f4dee1a47f831bb25e10e30285c06e32d0"
+    },
+    {
+      "path": "code/gate_layouts.py",
+      "sha256": "793d4b215b003614f66b9dd94eb0321cd97b61687b4c997afb9b011ee7915508"
+    },
+    {
+      "path": "code/gate_ls.py",
+      "sha256": "8e81bdff0bc1057a51212ffc178256e49582d188a0ff286a5fdcb0072a8b49c6"
+    },
+    {
+      "path": "code/gate_ls_full.py",
+      "sha256": "dd3b8ea3c2e33e2cc14c0f7f1419a324e952fe5345eea67bccfcb78f491075d5"
+    },
+    {
+      "path": "code/gate_rabbit_local.py",
+      "sha256": "3cb51091373ab2122e848aa149060795a690f6f68ca10ff4ffe19efe2d3f89b6"
+    },
+    {
+      "path": "code/gate_rect.py",
+      "sha256": "44246d8e4cf591c58162dbbcf1fc313c5e5e7fc9f0ea22db61137531011a0d3b"
+    },
+    {
+      "path": "code/gate_repair.py",
+      "sha256": "28f2989c3d4d2633880a24c92bd984c66a857c0e22cd3b7b31264f182e6c806d"
+    },
+    {
+      "path": "code/gate_rq3_tables.py",
+      "sha256": "136256df3a3b343b94c0e31dcc6e673242aa704e49eb41e8fd05424d462318a7"
+    },
+    {
+      "path": "code/gate_stage3_preparation.py",
+      "sha256": "9ab4b8e50e9fdc1a1ad85566952c145e4dec945de71a10d331317fbed1525e12"
+    },
+    {
+      "path": "code/gate_width_sensitivity.py",
+      "sha256": "9ee293704f91733ab210a620c82391aa5f067627f70e280168c9a11b9a30041d"
+    },
+    {
+      "path": "code/generate_pure.py",
+      "sha256": "b3d9003c4606765ca718c4612ceaea0f21a1d3f97728ac4ffa71cce5ad4d0aa4"
+    },
+    {
+      "path": "code/group_metadata.py",
+      "sha256": "a64d4d98047d9efad3c2f5510104c7272f8c32c99828b2e957adaf6e56d107a1"
+    },
+    {
+      "path": "code/history/layouts-v1.cpp",
+      "sha256": "ae7fdf2aec9888c79cc56930cb419c7e3a3d06c4580ae1a7f193b61bc08470a7"
+    },
+    {
+      "path": "code/independent_gates.py",
+      "sha256": "8dd2f334895d549b3c27a1a0f7fc027b74f3b6b44ac3cc2867998638ad227b42"
+    },
+    {
+      "path": "code/independent_matrix_job.py",
+      "sha256": "84afc632a9342e53792c4c71431385caf43219503e9ca6259c404772424fd44c"
+    },
+    {
+      "path": "code/independent_sorted.cpp",
+      "sha256": "a1babb0e9cdaf549acf1799a928b533b2ce848d5395681618303e979ac36fedc"
+    },
+    {
+      "path": "code/independent_sorted.py",
+      "sha256": "879c1586a0ed760216d7918100c48f9baaf579672b26f5c9f49430c204a6da8d"
+    },
+    {
+      "path": "code/independent_stage3.py",
+      "sha256": "bad898ab583d4b5a20f0429d88ad802fb7304e24ec5f63a2a4f3b3dd4acd9a32"
+    },
+    {
+      "path": "code/large_rcm.cpp",
+      "sha256": "884ccc61ceca4db69a4d498e77b9214c734b2eb4733d36f9d7042bcc6181d497"
+    },
+    {
+      "path": "code/layouts.cpp",
+      "sha256": "cc1e9458ebb544aebe7c3162bc9e4f60ab38da6343a11261a391eecaf2280e33"
+    },
+    {
+      "path": "code/ls_runtime.py",
+      "sha256": "4074067ec787cb9be78b87f7d479d4f369cff8b7353daf90fddd755a5508757a"
+    },
+    {
+      "path": "code/measure_t22_base.py",
+      "sha256": "366a7f224d69b7278ce87b313e289ab0b6261f963224092e259704a094dcc8a8"
+    },
+    {
+      "path": "code/measure_t22_new.py",
+      "sha256": "b0b2bf1367a7ca2eb397ff2f141af210efdbd077c614524c9068859d288a82e1"
+    },
+    {
+      "path": "code/memory_guard.c",
+      "sha256": "214e5f655c0e14ec85ea6ecf5c8ef208f83b334aa545a85c4d07fcdbfb8c2514"
+    },
+    {
+      "path": "code/memory_guard.py",
+      "sha256": "ac8e1e36a11ecb3c398531077805d6cb8013eb9071d8d443e403cf15e8036136"
+    },
+    {
+      "path": "code/naming.py",
+      "sha256": "9874f5f632b98b17740b9b8446667e066b5cb7bf3fdb420e18f59f0159bcffeb"
+    },
+    {
+      "path": "code/native.py",
+      "sha256": "0927bfe6bd1f8d95855f4823ceb5ad657bc1f5e84233bf2ce3b0a4cdcf165794"
+    },
+    {
+      "path": "code/new_full_order.py",
+      "sha256": "1a842be2bb65906bda24d24555f327f3a2f8dc926ce7f62388f052727453c293"
+    },
+    {
+      "path": "code/order_job.py",
+      "sha256": "b7331ca98c390c0b5cb57b0d14261fa5520df84c32eda21fc07bca72b4d4e26e"
+    },
+    {
+      "path": "code/post_e_job.py",
+      "sha256": "5a57b975d55b39f84fb41cd3bc21f48e5b66a775140e8efafb61ac2b5061c299"
+    },
+    {
+      "path": "code/prepare_matrices.py",
+      "sha256": "1fa65d09955c053f3839f7497614e24452d7cc7ca8f8ad369feb1c1111019db2"
+    },
+    {
+      "path": "code/prepare_rabbit_inputs.py",
+      "sha256": "e042db65f754b5ab0a684f96be756ff6be0dc98b9842b95eefa271338051a002"
+    },
+    {
+      "path": "code/prepare_rabbit_second.py",
+      "sha256": "520de21d372b9649a9235bb19274a9a7c6871dfc27952d52e4029d8f5d443120"
+    },
+    {
+      "path": "code/prepare_reuse.py",
+      "sha256": "95d996d300620136c98b6c07512af7c54763eb9c32042d1e0c37ca987d1ace67"
+    },
+    {
+      "path": "code/prepare_second.py",
+      "sha256": "c42396a78eed6c29a8f79fb7a42bd170bd827de1e89ca41e57a1809f510b8b02"
+    },
+    {
+      "path": "code/qemu-entitlements.plist",
+      "sha256": "70d65ae13874e183526aa48e55bb330f2156da94effca24f89b5e2f940262723"
+    },
+    {
+      "path": "code/qemu-launch.c",
+      "sha256": "fbab2c4057e05b9b9b2eb01d20e28a83582ed5f060247d4259a850af414508bc"
+    },
+    {
+      "path": "code/rabbit_coarse_batch.py",
+      "sha256": "08baab964386bf5beb9adb99318324d384532ee333c8bd5dd6185b1dc99030ee"
+    },
+    {
+      "path": "code/rabbit_edges.cpp",
+      "sha256": "9e155e2effcd95d4e9ebbcbd78e7301a7e646f9a582772bf7b9b7b38aef67768"
+    },
+    {
+      "path": "code/rabbit_family.py",
+      "sha256": "6b91b2548437458e1351f61089092ccb193dd4bcedec134e4195fe40ecad86d5"
+    },
+    {
+      "path": "code/rabbit_local.cpp",
+      "sha256": "510a560b275fd18d7db422e1359e296eb44ed7f4be2999d0c2ad3ea266b2d193"
+    },
+    {
+      "path": "code/rabbit_second_batch.py",
+      "sha256": "11072257e5cd52becf5eede66088994e6fc30143a985b15113ef2cba81143e49"
+    },
+    {
+      "path": "code/recover_partial_post.py",
+      "sha256": "61e63be8cdf443c94dfe9fe49798b07e3629bb788575923c12698d3c90d9eb84"
+    },
+    {
+      "path": "code/rect.cpp",
+      "sha256": "634d0d2cd0453422021419ab5ae4c2b7289868a1012ecc3ca34ee7aaaa2e5c43"
+    },
+    {
+      "path": "code/repair.cpp",
+      "sha256": "b8f89b5229dd20e86bbdb5be4fcef5c7bc2533bc94550a0d0086d7916f0c43cd"
+    },
+    {
+      "path": "code/repair_failed_layouts.py",
+      "sha256": "f94441be6be4c1a542a7b66e3dc40130ba4ed612221c0a3a6960bcd7ebe3a0e3"
+    },
+    {
+      "path": "code/resource_slots.py",
+      "sha256": "4fb6e8cce3a3a51a22119fc396d9adee9b13cb63f8d1c3b24eb9f5e1b836d0af"
+    },
+    {
+      "path": "code/resume_utils.py",
+      "sha256": "7fecbff9fe291beaaebb6cecc64e050e30d125c77947b6d9132e75558058147f"
+    },
+    {
+      "path": "code/run_c1_batch.py",
+      "sha256": "b1a72f9a66cd2f1ceebb46dafbf87feaf227b465ad60f2da371e1ee17b460cde"
+    },
+    {
+      "path": "code/run_external_evaluations.py",
+      "sha256": "cef5a3fc486caea487954491c819b0f84de516a27ec0157f327cce886cb232ea"
+    },
+    {
+      "path": "code/run_external_post_e.py",
+      "sha256": "e1978b8f6a7b3d6833e79c231fe029d4b142e86fd376d18ceb08b470c0e4379b"
+    },
+    {
+      "path": "code/run_independent_first_batch.py",
+      "sha256": "e31372b5bce022abd069ff2fdcbe3695e02665e863cc502b2dce432faf781393"
+    },
+    {
+      "path": "code/run_metis_batch.py",
+      "sha256": "b4944d56805e15e3e46c6c0ea000e0ff3586790069911475c3e0613bf88a7f06"
+    },
+    {
+      "path": "code/run_post_e_initial.py",
+      "sha256": "babf17145c3006cfdbda393e2816284c397c3d7444cfaf453fc7a43685d31067"
+    },
+    {
+      "path": "code/run_pure_batch.py",
+      "sha256": "63cf8596589c590f649a85ecf028bb664138ea7900087c8beae27b7f8b71951d"
+    },
+    {
+      "path": "code/run_rabbit_eval_post.py",
+      "sha256": "1ef0861da3b7291d9e8b3aa56f2c5260be6424bfa798256cf5bda9a4ef8d27f4"
+    },
+    {
+      "path": "code/run_rabbit_primary.py",
+      "sha256": "308e30ab0e6d916c4e11f34611493412f57da9f2d89c45dc139efcf55fd5e884"
+    },
+    {
+      "path": "code/run_rabbit_second_guest.py",
+      "sha256": "5fb3c9de72af79e56371b662a4dfdbff20f02fa6b8496c1d74333f0ae4d48992"
+    },
+    {
+      "path": "code/run_reference_gates.py",
+      "sha256": "cb5e3d845c0b9a7f8db5456e355b5452f5e4f7489cf6f9e559b19c67901c4189"
+    },
+    {
+      "path": "code/run_stage3.py",
+      "sha256": "9a221afdb4df07dd60062953a0652a89756b7fe4bd9d9f4ac7ce1a803111061c"
+    },
+    {
+      "path": "code/run_t22_base_eval.py",
+      "sha256": "b4d566c27a58569103f59bfbd51823894998365c5f614217b9c3dcff106bdd8d"
+    },
+    {
+      "path": "code/run_t22_extras.py",
+      "sha256": "eb1d36e29eaf7a4c6e158e9c50ec0bdd75d0416fae24c784084d0e5ed7630f3f"
+    },
+    {
+      "path": "code/run_t22_new_eval.py",
+      "sha256": "bbd5f93640acbfa973873eb05245abad6c71153c19f2d14ba182a052455f14e4"
+    },
+    {
+      "path": "code/run_t22_order_jobs.py",
+      "sha256": "b744b196e663afdc3e7993a1ea3126edc52dadcdbeed93f999aee0f4eaaa1327"
+    },
+    {
+      "path": "code/run_t23_diagnostics.py",
+      "sha256": "2147edc665b2627d4fa3e7650989631e55a56a7bef436aa4070d9cb74a360d0a"
+    },
+    {
+      "path": "code/run_t23_initial_eval.py",
+      "sha256": "872b2ebfd8b1892b117cd575e67789de0b5f0c6b0186ccc308bf9d8708efbeab"
+    },
+    {
+      "path": "code/shared_phase_budget.py",
+      "sha256": "2bcd334881f663b28da444a8f8ebf09c5c070e8d6ef8f7078ec25b5692edece6"
+    },
+    {
+      "path": "code/source_provenance_audit.py",
+      "sha256": "0238e182c5a7e2635407a486a1059a22311343002f41b0593364ce78042a00c1"
+    },
+    {
+      "path": "code/stage3_catalog.py",
+      "sha256": "47817080f2b813f1040fc86ecf22b1d26a67ba89d9eec26b2d2ca1112f53f1ed"
+    },
+    {
+      "path": "code/stage3_p1.py",
+      "sha256": "66aeb7d9e775f34304d644af2683bd559c34a52b284d5e23052580e1872ef9be"
+    },
+    {
+      "path": "code/t21/accelerate-v8.cpp",
+      "sha256": "28680c055cd9bc197ee9ec52b34422404f7650516b79845833bcd17d4768f3a0"
+    },
+    {
+      "path": "code/t21/dstage-v2.cpp",
+      "sha256": "3ecb33736b818f472ddcc7285ca17b65ae515344b4dfdd3c7c85cf14b14d7f1d"
+    },
+    {
+      "path": "code/t21/fast.py",
+      "sha256": "f9f465c044b22bcf95c1776f51b1ac9cc658e8eadfd09feed33b322c08e7ded5"
+    },
+    {
+      "path": "code/t21/kahypar-cut-v1.3.7.ini",
+      "sha256": "64ebd58a4f98b95bf87ae3de5341b2be00b09e122a0526ef65a799e39bb63dd8"
+    },
+    {
+      "path": "code/t21/slashburn.cpp",
+      "sha256": "be2eaec02ae8b60430cc99e3850431a3b119893a410f71549a031f8d27a9f2f6"
+    },
+    {
+      "path": "code/t21/slashburn_fast.py",
+      "sha256": "bc570b7a0deeafee443d4ca5bbdd78d012739f85d00ac289c91f0f04cc90a161"
+    },
+    {
+      "path": "code/t22_finish_when_ready.py",
+      "sha256": "11f6c9156cc775b73d06b9e687e6ed7d04b4f66092d5b48d0fd01a899d8e3388"
+    },
+    {
+      "path": "code/test_partial_recovery.py",
+      "sha256": "b78c20fc412d7d157d23d4de5f3c091d65867cb3acc3f6daf78023ebaec48dd4"
+    },
+    {
+      "path": "code/verify_reused_pls.py",
+      "sha256": "a9254d0657e4ad11393556dafa96d9bbd1e4d986ded7928aa674c6aa56a4a2b3"
+    },
+    {
+      "path": "runtime/libc1-forest.dylib",
+      "sha256": "16ad5a3f9c3b21f7c7b7721284291bfd2617ea38019fd12914c856299183f39f"
+    },
+    {
+      "path": "runtime/libcandidates-v2.dylib",
+      "sha256": "e2a6f987555c7bcb100c4cb29bf8a9def514ceefb4247654b23a94b8aa72467c"
+    },
+    {
+      "path": "runtime/libcandidates.dylib",
+      "sha256": "5e1b4a8625e5d305a515c48918619851de9ed6bcfb49a50e647c3a8001172b7d"
+    },
+    {
+      "path": "runtime/libindependent-sorted.dylib",
+      "sha256": "de02cb779878faaa5ba7e4f7de1b6a418e38706027e46cebd2c6cb8d88039451"
+    },
+    {
+      "path": "runtime/liblarge-rcm.dylib",
+      "sha256": "b1a817e8690f9d2ed7691da0009f45c7a0d8ab402ff118bcd4787cb67c8a797b"
+    },
+    {
+      "path": "runtime/liblayouts-v2.dylib",
+      "sha256": "3da15a48d838dd57df51cc217414a36414c03e2366b572a1874c998698dd4f10"
+    },
+    {
+      "path": "runtime/liblayouts.dylib",
+      "sha256": "41191c0e37c6520f093ac853599e46ce78756ae1fa12e1f2f37e73e8327c5e3c"
+    },
+    {
+      "path": "runtime/libmemory-guard.dylib",
+      "sha256": "7b0f6e09c9997027ad5a6da7272dd78456fd785bdb948e6e512ef098c5730e2c"
+    },
+    {
+      "path": "runtime/librabbit-edges.dylib",
+      "sha256": "3d009c3827ec859fdeae0a12132316060678467b8423e71b0047bf13367de537"
+    },
+    {
+      "path": "runtime/librabbit-local.dylib",
+      "sha256": "8bf25e6c480a07a1bec8c6cb3d042dfe1cf97c497a3222774a794716eed70fd5"
+    },
+    {
+      "path": "runtime/librect.dylib",
+      "sha256": "ee09a37dc6589bf4c6b5e0eff2233aea0ff791ebff4e52bc5166afadfb0d2652"
+    },
+    {
+      "path": "runtime/librepair.dylib",
+      "sha256": "e95572f181f12c5d247c559b88a81e633a8db1ed40ac1b1c71bea9f5e2bf1b43"
+    },
+    {
+      "path": "runtime/libslashburn.dylib",
+      "sha256": "ff239674b7018dccdc5d86c98229c0ea77414339babb7034089e9e513776d643"
+    },
+    {
+      "path": "runtime/librq2-v8.dylib",
+      "sha256": "1ef640c85454fadd0b173f59733c85fdd5648a75646bd283c1cd746cfef14228"
+    },
+    {
+      "path": "runtime/rabbit-reorder-linux-aarch64",
+      "sha256": "f91bdc5d266497a3833ddc5eb1b6ac17ce521552eb2cf529211703faa074f73b"
+    }
+  ],
+  "parameters": {
+    "W_main": 16,
+    "W_sensitivity": [
+      32,
+      64
+    ],
+    "LS_lambda": [
+      0,
+      1
+    ],
+    "LS_max_sweeps": 10,
+    "seed": 0,
+    "co_chain_skip_threshold": 400,
+    "method_timeout_seconds": 7200
+  },
+  "metadata_normalization": "authoritative labels reconstructed from source records; Unix start timestamp is not a member label; original numeric outputs unchanged",
+  "reuse_note": "97 indexed T22 orders plus16 verified T23 W32/W64 orders; retained frozen order vectors including historical SlashBurn/empty-node behavior",
+  "timing_note": "raw per-case wall times and original T21 costs retained; CPU queue delays recorded; no timing fabricated",
+  "results_source": "original successful records plus14 packed-v2 gap supplement rows; failed original attempts retained",
+  "analysis_conclusions_written": false,
+  "git_commit_or_push_performed": false
+}

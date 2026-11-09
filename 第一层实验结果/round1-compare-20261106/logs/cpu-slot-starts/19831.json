@@ -1,0 +1,12 @@
+{
+  "pid": 19831,
+  "slot": 1,
+  "command": [
+    "scripts/post_e_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/wiki-RfA__C3-W1__tau3.json"
+  ],
+  "queued_at": 1793971761.485334,
+  "acquired_at": 1793971770.574232,
+  "queue_seconds": 9.088898181915283,
+  "discipline": "FIFO"
+}

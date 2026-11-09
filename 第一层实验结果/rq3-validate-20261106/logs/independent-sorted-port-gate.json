@@ -1,0 +1,1304 @@
+{
+  "passed": true,
+  "cases": 162,
+  "checks": [
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 0,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 0,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 0,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 0,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 0,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 0,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 0,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 1,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 1,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 1,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 1,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 1,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 1,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": null,
+      "diag": 1,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 0,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 0,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 0,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 0,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 0,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 0,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 0,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 1,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 1,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 1,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 1,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 1,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 1,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 2,
+      "diag": 1,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 0,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 0,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 0,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 0,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 0,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 0,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 0,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 1,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 1,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 1,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 1,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 1,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 1,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "B0",
+      "tau": 3,
+      "diag": 1,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 0,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 0,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 0,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 0,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 0,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 0,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 0,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 1,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 1,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 1,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 1,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 1,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 1,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "diag": 1,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 0,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 0,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 0,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 0,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 0,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 0,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 0,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 1,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 1,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 1,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 1,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 1,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 1,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "diag": 1,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 0,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 0,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 0,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 0,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 0,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 0,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 0,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 1,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 1,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 1,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 1,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 1,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 1,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "diag": 1,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 0,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 0,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 0,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 0,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 0,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 0,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 0,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 1,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 1,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 1,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 1,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 1,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 1,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "diag": 1,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 0,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 0,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 0,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 0,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 0,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 0,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 0,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 1,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 1,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 1,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 1,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 1,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 1,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "diag": 1,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 0,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 0,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 0,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 0,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 0,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 0,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 0,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 0,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 1,
+      "placement": "tail",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 1,
+      "placement": "tail",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 1,
+      "placement": "tail-co",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 1,
+      "placement": "inplace",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 1,
+      "placement": "inplace",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 1,
+      "placement": "snap",
+      "d": false,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 1,
+      "placement": "snap",
+      "d": true,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "diag": 1,
+      "placement": "gap",
+      "d": true,
+      "identical": true
+    }
+  ],
+  "independent_algorithm": "sort/unique mapped column positions; run and bucket counts",
+  "native_candidate_counters_used": false
+}

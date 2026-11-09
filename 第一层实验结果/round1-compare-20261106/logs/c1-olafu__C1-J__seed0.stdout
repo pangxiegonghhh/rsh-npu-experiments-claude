@@ -1,0 +1,10 @@
+Fri Nov  6 20:45:40 2026 Building RP forest with 8 trees
+Fri Nov  6 20:45:41 2026 metric NN descent for 14 iterations
+	 1  /  14
+	 2  /  14
+	 3  /  14
+	 4  /  14
+	 5  /  14
+	 6  /  14
+	Stopping threshold met -- exiting after 6 iterations
+{"matrix": "olafu", "method": "C1-J", "W": 16, "seed": 0, "start": 1793969140.739687, "status": "OK", "command": ["scripts/external_c1.py", "--matrix", "olafu", "--variant", "J", "--seed", "0"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/olafu__C1-J__W16__seed0.order.json", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/olafu__C1-J__W16__seed0.order.json", "sha256": "239049a5ac6219448a57538d97bed3410ccfd5969b047272e5e71d0d38a682aa", "size": 85768, "diagnostics": {"graph_components": 1, "graph_edges": 145545, "zero_distance_edges": 0, "recall_sample_original_rows": [43, 85, 133, 264, 354, 454, 538, 656, 782, 839, 944, 1174, 1205, 1278, 1290, 1353, 1433, 1465, 1996, 2172, 2424, 2809, 2819, 3204, 3659, 3721, 3859, 4099, 4134, 4252, 4322, 4448, 4812, 4932, 4991, 5101, 5182, 5286, 5420, 5442, 5759, 6040, 6078, 6100, 6165, 6254, 6308, 6323, 6461, 6475, 6529, 6787, 6805, 7264, 7407, 7724, 7818, 8073, 8123, 8188, 8444, 8451, 8553, 8692, 8717, 8893, 8979, 9200, 9201, 9252, 9311, 9370, 9570, 9725, 9888, 10042, 10061, 10138, 10204, 10397, 10409, 10458, 10761, 10772, 10825, 10830, 11020, 11070, 11321, 11380, 11507, 11567, 11586, 11605, 11696, 11709, 12251, 12274, 12277, 12377, 12688, 12764, 12847, 12938, 13035, 13086, 13420, 13511, 13586, 13601, 13626, 13756, 13855, 13873, 14075, 14132, 14315, 14342, 14438, 14631, 14996, 15034, 15274, 15279, 15563, 15765, 16027, 16086], "recall_at16": 0.9208984375, "graph_type": "nonempty row exact-distance undirected union of approximate neighbors; Kruskal MSF", "pynndescent_version": "0.7.0", "n_jobs": 1, "metric_units": "Jaccard distance"}, "end": 1793969153.268615, "seconds": 12.52892804145813, "peak_mem_mb": 342.84375}

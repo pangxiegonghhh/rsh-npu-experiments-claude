@@ -1,0 +1,23 @@
+{
+  "key": "dawson5-U-repeat0",
+  "input_filename": "dawson5-U.edges.gz",
+  "start": 1793970524.3759341,
+  "threads": 1,
+  "author_ref": "f93776e9c1e1d4a8962ee56bc7ff0091e6fe12dd",
+  "requested_seed": null,
+  "seed_api": "author demo exposes no RNG seed; serial execution fixed",
+  "status": "OK",
+  "command": [
+    "/root/rabbit/demo/reorder",
+    "/root/rabbit-runs/dawson5-U-repeat0.edges"
+  ],
+  "input_gz_sha256": "8bfd74c93c144df08994bd1ad4d27024b33cff0c799aaa4a564e39e3751b215e",
+  "input_prepare_seconds": 0.49162983894348145,
+  "exitcode": 0,
+  "coarse_seconds": 0.6357531547546387,
+  "mapping_sha256": "28a5babc4f941ac0ff85a9aee69c9e307018fd087fb617355fcbbfd4deed37eb",
+  "peak_mem_mb": 37.7109375,
+  "end": 1793970525.5098197,
+  "requested_replica_label": 0,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/rabbit-coarse/dawson5-U-repeat0.mapping"
+}

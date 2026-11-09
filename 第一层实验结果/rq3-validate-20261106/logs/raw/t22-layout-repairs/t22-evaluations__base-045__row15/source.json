@@ -1,0 +1,38 @@
+{
+  "original_results": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-evaluations/base-045/results.json",
+  "original_row_index": 15,
+  "record": {
+    "task": "T22",
+    "use": "base-order",
+    "matrix": "pattern1",
+    "member": "B0",
+    "start": "",
+    "lam": "",
+    "tau": "none",
+    "seed": "",
+    "t21_path": "orders/pattern1__B0__W16__tauNone__own__51fd886f8de6.json",
+    "sha256": "43a6f6750611b8a6f772a630668e145d6354b423da3b55922d80743e9501bf18",
+    "note": "",
+    "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__B0__W16__tauNone__own__51fd886f8de6.json",
+    "verified_sha256": "43a6f6750611b8a6f772a630668e145d6354b423da3b55922d80743e9501bf18",
+    "origin": "T21 archive"
+  },
+  "old_row": {
+    "matrix": "pattern1",
+    "diag": "A0",
+    "member": "B0",
+    "W": 16,
+    "tau": 757,
+    "tau_rule": "q40",
+    "resid_frac": 0.5674046356927555,
+    "resid_nnz_frac": 0.31575720186281664,
+    "source": "keep",
+    "placement": "gap",
+    "d_rule": "D-greedy",
+    "status": "INCOMPLETE",
+    "note": "inter candidate workspace exceeds 8GiB safety budget; INCOMPLETE",
+    "lambda": "",
+    "sec": 17.83247423171997
+  },
+  "representation": "packed, all logical candidates retained and ordered identically"
+}

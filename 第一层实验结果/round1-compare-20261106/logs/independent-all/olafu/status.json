@@ -1,0 +1,103 @@
+{
+  "matrix": "olafu",
+  "status": "OK",
+  "start": 1793974025.786738,
+  "checks": [
+    {
+      "script": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/\u7b2c\u4e00\u5c42\u5de5\u4f5c\u533a/T17-\u7a7a\u767d\u4e00\u8bd5\u7b97\u811a\u672c/verify/indep_check.py",
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-I",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/\u7b2c\u4e00\u5c42\u5de5\u4f5c\u533a/T17-\u7a7a\u767d\u4e00\u8bd5\u7b97\u811a\u672c/verify/indep_check.py",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/olafu.mtx",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/independent-all/olafu/rq2-independent-input.json"
+      ],
+      "exitcode": 0,
+      "seconds": 1.1522057056427002,
+      "orders": 3,
+      "identical": true
+    },
+    {
+      "script": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/\u7b2c\u4e00\u5c42\u5de5\u4f5c\u533a/T17-\u7a7a\u767d\u4e8c\u8bd5\u7b97\u811a\u672c/verify/indep_check_rq3.py",
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-I",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/\u7b2c\u4e00\u5c42\u5de5\u4f5c\u533a/T17-\u7a7a\u767d\u4e8c\u8bd5\u7b97\u811a\u672c/verify/indep_check_rq3.py",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/olafu.mtx",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/independent-all/olafu/rq3-independent-input.json"
+      ],
+      "exitcode": 0,
+      "seconds": 2.864423990249634,
+      "orders": 3,
+      "identical": true
+    }
+  ],
+  "T21_consistency": [
+    {
+      "member": "B0",
+      "sumU": 129004,
+      "T": 8539,
+      "T21_identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "sumU": 122951,
+      "T": 8126,
+      "T21_identical": true
+    },
+    {
+      "member": "C10-BP",
+      "sumU": 138834,
+      "T": 9122,
+      "T21_identical": true
+    }
+  ],
+  "expected_full": {
+    "B0": [
+      127.73,
+      8539,
+      11.11,
+      4.49
+    ],
+    "C9-Gorder": [
+      121.73,
+      8126,
+      12.61,
+      8.38
+    ],
+    "C10-BP": [
+      137.46,
+      9122,
+      15.48,
+      41.49
+    ]
+  },
+  "expected_four": {
+    "B0|tau56|order": {
+      "T_full": 8539,
+      "T_inplace": 6216,
+      "T_keep": 5807,
+      "U_inplace": 92903,
+      "U_keep": 87429,
+      "T_full_phase": 8690.7
+    },
+    "C9-Gorder|tau56|order": {
+      "T_full": 8126,
+      "T_inplace": 6203,
+      "T_keep": 5555,
+      "U_inplace": 94016,
+      "U_keep": 84122,
+      "T_full_phase": 8095.0
+    },
+    "C10-BP|tau56|order": {
+      "T_full": 9122,
+      "T_inplace": 6832,
+      "T_keep": 7962,
+      "U_inplace": 103414,
+      "U_keep": 123090,
+      "T_full_phase": 12471.3
+    }
+  },
+  "end": 1793974030.354597,
+  "seconds": 4.567859172821045
+}

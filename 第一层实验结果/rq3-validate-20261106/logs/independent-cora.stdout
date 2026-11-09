@@ -1,0 +1,12 @@
+C9-Gorder|tau3|order {'T_full': 463, 'T_inplace': 359, 'T_keep': 311, 'U_inplace': 4686, 'U_keep': 4480, 'T_full_phase': 464.3}
+C9-Gorder-tail|tau3|sigma {'U': 65.88, 'T': 311, 'R': 25.46, 'write_runs_aic': 68, 'write_runs_resid': 1}
+C9-Gorder-tail-co|tau3|sigma {'U': 65.88, 'T': 311, 'R': 18.93, 'write_runs_aic': 68, 'write_runs_resid': 1}
+C9-Gorder-gap|tau3|sigma {'U': 65.88, 'T': 311, 'R': 17.65, 'write_runs_aic': 68, 'write_runs_resid': 56}
+rsh-α0|tau3|order {'T_full': 455, 'T_inplace': 380, 'T_keep': 317, 'U_inplace': 4902, 'U_keep': 4591, 'T_full_phase': 458.3}
+rsh-α0-tail|tau3|sigma {'U': 67.51, 'T': 317, 'R': 29.66, 'write_runs_aic': 68, 'write_runs_resid': 1}
+rsh-α0-tail-co|tau3|sigma {'U': 67.51, 'T': 317, 'R': 23.03, 'write_runs_aic': 68, 'write_runs_resid': 1}
+rsh-α0-gap|tau3|sigma {'U': 67.51, 'T': 317, 'R': 22.16, 'write_runs_aic': 68, 'write_runs_resid': 58}
+C10-BP|tau3|order {'T_full': 474, 'T_inplace': 362, 'T_keep': 330, 'U_inplace': 4628, 'U_keep': 4720, 'T_full_phase': 511.9}
+C10-BP-tail|tau3|sigma {'U': 69.41, 'T': 330, 'R': 33.0, 'write_runs_aic': 68, 'write_runs_resid': 1}
+C10-BP-tail-co|tau3|sigma {'U': 69.41, 'T': 330, 'R': 21.49, 'write_runs_aic': 68, 'write_runs_resid': 1}
+C10-BP-gap|tau3|sigma {'U': 69.41, 'T': 330, 'R': 20.53, 'write_runs_aic': 68, 'write_runs_resid': 53}

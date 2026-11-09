@@ -1,0 +1,15 @@
+LS {'sweep': 0, 'accepted': 222, 'sumU': 4125, 'sumGamma': 1457, 'elapsed': 0.007449150085449219}
+LS {'sweep': 1, 'accepted': 47, 'sumU': 4075, 'sumGamma': 1428, 'elapsed': 0.016499042510986328}
+LS {'sweep': 2, 'accepted': 12, 'sumU': 4061, 'sumGamma': 1423, 'elapsed': 0.026504039764404297}
+LS {'sweep': 3, 'accepted': 3, 'sumU': 4058, 'sumGamma': 1423, 'elapsed': 0.03506898880004883}
+LS {'sweep': 4, 'accepted': 2, 'sumU': 4056, 'sumGamma': 1419, 'elapsed': 0.04327797889709473}
+LS {'sweep': 5, 'accepted': 4, 'sumU': 4052, 'sumGamma': 1415, 'elapsed': 0.05126810073852539}
+LS {'sweep': 6, 'accepted': 1, 'sumU': 4051, 'sumGamma': 1415, 'elapsed': 0.058808088302612305}
+LS {'sweep': 7, 'accepted': 0, 'sumU': 4051, 'sumGamma': 1415, 'elapsed': 0.06550097465515137}
+LS 0 IDENTICAL
+LS {'sweep': 0, 'accepted': 264, 'sumU': 4214, 'sumGamma': 1233, 'elapsed': 0.014905929565429688}
+LS {'sweep': 1, 'accepted': 61, 'sumU': 4161, 'sumGamma': 1200, 'elapsed': 0.030794858932495117}
+LS {'sweep': 2, 'accepted': 15, 'sumU': 4135, 'sumGamma': 1202, 'elapsed': 0.04646706581115723}
+LS {'sweep': 3, 'accepted': 4, 'sumU': 4133, 'sumGamma': 1199, 'elapsed': 0.06129884719848633}
+LS {'sweep': 4, 'accepted': 0, 'sumU': 4133, 'sumGamma': 1199, 'elapsed': 0.07734274864196777}
+LS 1 IDENTICAL

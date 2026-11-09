@@ -1,0 +1,28 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "ogbn-arxiv",
+  "member": "B0",
+  "start": 1793969004.822529,
+  "lam": "",
+  "tau": 3,
+  "seed": "",
+  "t21_path": "orders/ogbn-arxiv__B0__W16__tauNone__own__4b33dcbc93b8.json",
+  "sha256": "18c069f26d34de6c75188fb3fe8b1c451a1ed4cbbdb51580c8e5effd56b3ba33",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__B0__W16__tauNone__own__4b33dcbc93b8.json",
+  "verified_sha256": "48a0ca8f77b752dcc34d48bf48b60ef0cb722cfcf70996c8375df3f44b6cc73a",
+  "origin": "T21 archive",
+  "kind": "rerun",
+  "W": 16,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/ogbn-arxiv__B0__rerun__tau3__lamnone.json"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/ogbn-arxiv__B0__rerun__tau3__lamnone.order.json",
+  "size": 729718,
+  "diagnostics": {},
+  "end": 1793969004.868623,
+  "seconds": 0.04609394073486328
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "matrix": "human_gene1",
+    "member": "C3-W1",
+    "W": 16,
+    "boundary": "candidate groups",
+    "k_windows": 1400,
+    "sumU": 4796347,
+    "T": 300404,
+    "diagnostic_only": true
+  },
+  {
+    "matrix": "human_gene1",
+    "member": "C3-W1",
+    "W": 16,
+    "boundary": "W16 evaluation windows",
+    "k_windows": 1393,
+    "sumU": 4808503,
+    "T": 301164,
+    "diagnostic_only": true
+  }
+]

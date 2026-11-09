@@ -1,0 +1,14 @@
+{
+  "pid": 92027,
+  "slot": 0,
+  "command": [
+    "scripts/evaluate_t23.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-eval-catalog/stage3-cora__C6-M mnc=4 (T21 \u53e3\u5f84)__W16__seed0.json"
+  ],
+  "queued_at": 1793980254.72946,
+  "acquired_at": 1793980296.376968,
+  "queue_seconds": 41.64750790596008,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false
+}

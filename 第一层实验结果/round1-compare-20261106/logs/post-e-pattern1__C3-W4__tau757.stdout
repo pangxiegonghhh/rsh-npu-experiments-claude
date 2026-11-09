@@ -1,0 +1,8 @@
+LS {'sweep': 0, 'accepted': 2014, 'sumU': 1823813, 'sumGamma': 211707, 'elapsed': 2.8625340461730957}
+LS {'sweep': 1, 'accepted': 424, 'sumU': 1692784, 'sumGamma': 207986, 'elapsed': 4.719182968139648}
+LS {'sweep': 2, 'accepted': 76, 'sumU': 1668690, 'sumGamma': 207074, 'elapsed': 6.482967138290405}
+LS {'sweep': 3, 'accepted': 41, 'sumU': 1657394, 'sumGamma': 206794, 'elapsed': 8.235702991485596}
+LS {'sweep': 4, 'accepted': 16, 'sumU': 1652126, 'sumGamma': 206678, 'elapsed': 9.859138011932373}
+LS {'sweep': 5, 'accepted': 3, 'sumU': 1651373, 'sumGamma': 206641, 'elapsed': 11.446296215057373}
+LS {'sweep': 6, 'accepted': 0, 'sumU': 1651373, 'sumGamma': 206641, 'elapsed': 13.0345139503479}
+{"matrix": "pattern1", "method": "C3-W4", "W": 16, "seed": 0, "start": 1793979779.515338, "status": "OK", "command": ["/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py", "--matrix", "pattern1", "--method", "C3-W4", "--seed", "0"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/pattern1__C3-W4__W16__seed0.order.json", "sha256": "e672a7ac2c5353dac240482cb88ece20b2ab6c93145591c85c594877e197101c", "size": 105396, "end": 1793979800.757899, "seconds": 21.242561101913452, "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/pattern1__C3-W4__W16__seed0.order.json", "member": "C3-W4", "tau": 757, "reuse": false, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/pattern1__C3-W4__tau757/order.json", "peak_mem_mb": 468.25}

@@ -1,0 +1,14 @@
+{
+  "pid": 83912,
+  "slot": 0,
+  "command": [
+    "scripts/measure_t22_new.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-new-eval-catalog/olafu__B-RCM-ref__rerun__tau56__lamnone.record.json"
+  ],
+  "queued_at": 1793979847.73628,
+  "acquired_at": 1793979875.164858,
+  "queue_seconds": 27.428578853607178,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false
+}

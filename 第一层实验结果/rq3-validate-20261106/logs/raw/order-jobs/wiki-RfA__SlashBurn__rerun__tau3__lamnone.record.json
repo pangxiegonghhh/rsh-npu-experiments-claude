@@ -1,0 +1,29 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "wiki-RfA",
+  "member": "SlashBurn",
+  "start": 1793976743.37236,
+  "lam": "",
+  "tau": 3,
+  "seed": 0,
+  "t21_path": "orders/wiki-RfA__SlashBurn__W16__tauNone__own__e00639fe3673.json",
+  "sha256": "ae150ce4931e8badf22b909b6a08174f948c840f88aa3216d6122de5160abb9a",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__SlashBurn__W16__tauNone__own__e00639fe3673.json",
+  "verified_sha256": "61a887670d70368a8087b2ccbe566aa785f7c55a051ef623ed72e5feaf7dd21a",
+  "origin": "T21 archive",
+  "kind": "rerun",
+  "W": 16,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/wiki-RfA__SlashBurn__rerun__tau3__lamnone.json"
+  ],
+  "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/wiki-RfA__SlashBurn__rerun__tau3__lamnone.checkpoint.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/wiki-RfA__SlashBurn__rerun__tau3__lamnone.order.json",
+  "size": 30354,
+  "diagnostics": {},
+  "end": 1793976743.639064,
+  "seconds": 0.26670408248901367
+}

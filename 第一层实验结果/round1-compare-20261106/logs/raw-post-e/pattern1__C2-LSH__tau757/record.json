@@ -1,0 +1,78 @@
+{
+  "matrix": "pattern1",
+  "method": "C2-LSH",
+  "W": 16,
+  "seed": 0,
+  "start": 1793971680.099518,
+  "status": "OK",
+  "command": [
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+    "--matrix",
+    "pattern1",
+    "--method",
+    "C2-LSH",
+    "--seed",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/pattern1__C2-LSH__W16__seed0.order.json",
+  "sha256": "856da7774f2908505eb6553b14b291b63dbe0377d867850c3cdd5aef78dc01d0",
+  "size": 105123,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 1689,
+        "sumU": 837881,
+        "sumGamma": 103137,
+        "elapsed": 1.6926681995391846
+      },
+      {
+        "sweep": 1,
+        "accepted": 39,
+        "sumU": 837055,
+        "sumGamma": 102987,
+        "elapsed": 3.543131113052368
+      },
+      {
+        "sweep": 2,
+        "accepted": 3,
+        "sumU": 837050,
+        "sumGamma": 102981,
+        "elapsed": 5.343996047973633
+      },
+      {
+        "sweep": 3,
+        "accepted": 0,
+        "sumU": 837050,
+        "sumGamma": 102981,
+        "elapsed": 7.434098958969116
+      }
+    ],
+    "sweeps_done": 4,
+    "accepted_swaps": 1731,
+    "tracked_sumU": 837050,
+    "tracked_sumGamma": 102981,
+    "independent_full_recompute": {
+      "k_windows": 521,
+      "sumU": 837050,
+      "T": 52500,
+      "sumGamma": 102981,
+      "sumR": 62626,
+      "R_p50": 120,
+      "R_p90": 133,
+      "R_max": 248,
+      "write_runs_aic": 521,
+      "meanR": 120.203455
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 452455942
+  },
+  "end": 1793971697.479711,
+  "seconds": 17.38019299507141,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/pattern1__C2-LSH__W16__seed0.order.json",
+  "member": "C2-LSH",
+  "tau": 757,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/pattern1__C2-LSH__tau757/order.json",
+  "peak_mem_mb": 372.078125
+}

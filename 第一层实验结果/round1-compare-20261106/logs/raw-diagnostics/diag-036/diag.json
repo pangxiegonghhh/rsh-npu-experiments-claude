@@ -1,0 +1,33 @@
+{
+  "matrix": "olafu",
+  "member": "C9-Gorder",
+  "W": 16,
+  "diag": "A0",
+  "tau": 56,
+  "T_full": 8126,
+  "T_full_phase": 8095.0,
+  "align_premium": -31.0,
+  "T_inplace": 6203,
+  "T_keep": 5555,
+  "U_inplace": 94016,
+  "U_keep": 84122,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.9398379325866699,
+  "status": "OK"
+}

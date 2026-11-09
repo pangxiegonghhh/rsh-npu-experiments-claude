@@ -1,0 +1,12 @@
+{
+  "pid": 23599,
+  "slot": 0,
+  "command": [
+    "scripts/post_e_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C5__tau82.json"
+  ],
+  "queued_at": 1793971950.5930612,
+  "acquired_at": 1793971950.593768,
+  "queue_seconds": 0.0007066726684570312,
+  "discipline": "FIFO"
+}

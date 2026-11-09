@@ -1,0 +1,38 @@
+[
+ {
+  "matrix": "human_gene1",
+  "member": "SlashBurn",
+  "W": 16,
+  "tau": 82,
+  "diag": "A0",
+  "source": "rerun",
+  "k_windows": 1114,
+  "sumU": 7519189,
+  "T": 470493,
+  "sumGamma": 1127377,
+  "sumR": 2882918,
+  "R_p50": 2863,
+  "R_p90": 3238,
+  "R_max": 3589,
+  "write_runs_aic": 1114,
+  "meanR": 2587.897666
+ },
+ {
+  "matrix": "human_gene1",
+  "member": "SlashBurn",
+  "W": 16,
+  "tau": 82,
+  "diag": "A1",
+  "source": "rerun",
+  "k_windows": 1114,
+  "sumU": 7526465,
+  "T": 470940,
+  "sumGamma": 1127502,
+  "sumR": 2881384,
+  "R_p50": 2861,
+  "R_p90": 3236,
+  "R_max": 3585,
+  "write_runs_aic": 1114,
+  "meanR": 2586.520646
+ }
+]

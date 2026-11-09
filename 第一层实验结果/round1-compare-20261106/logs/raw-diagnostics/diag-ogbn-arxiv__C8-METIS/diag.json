@@ -1,0 +1,33 @@
+{
+  "matrix": "ogbn-arxiv",
+  "member": "C8-METIS",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 113364,
+  "T_full_phase": 122432.93333333333,
+  "align_premium": 9068.933333333334,
+  "T_inplace": 111079,
+  "T_keep": 115577,
+  "U_inplace": 1697992,
+  "U_keep": 1795942,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 3.587038993835449,
+  "status": "OK"
+}

@@ -1,0 +1,46 @@
+[
+ {
+  "matrix": "ogbn-arxiv",
+  "member": 1793971364.186324,
+  "W": 32,
+  "tau": 3,
+  "diag": 0,
+  "source": "rerun",
+  "placement": "tail",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "ogbn-arxiv",
+  "member": 1793971364.186324,
+  "W": 32,
+  "tau": 3,
+  "diag": 0,
+  "source": "rerun",
+  "placement": "tail-co",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 2
+ },
+ {
+  "matrix": "ogbn-arxiv",
+  "member": 1793971364.186324,
+  "W": 32,
+  "tau": 3,
+  "diag": 1,
+  "source": "rerun",
+  "placement": "tail",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "ogbn-arxiv",
+  "member": 1793971364.186324,
+  "W": 32,
+  "tau": 3,
+  "diag": 1,
+  "source": "rerun",
+  "placement": "tail-co",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 2
+ }
+]

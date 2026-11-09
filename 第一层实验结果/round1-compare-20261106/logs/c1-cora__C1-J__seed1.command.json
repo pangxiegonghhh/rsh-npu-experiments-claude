@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/external_c1.py",
+    "--matrix",
+    "cora",
+    "--variant",
+    "J",
+    "--seed",
+    "1"
+  ],
+  "env": {
+    "PYTHONPATH": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/deps/python",
+    "NUMBA_NUM_THREADS": "1",
+    "NUMBA_CACHE_DIR": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/numba-cache",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "start": 1793969760.0674691,
+  "end": 1793969772.451595,
+  "exitcode": 0
+}

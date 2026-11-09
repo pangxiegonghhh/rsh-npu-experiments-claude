@@ -1,0 +1,120 @@
+{
+  "matrix": "dawson5",
+  "method": "C7-I",
+  "W": 16,
+  "seed": 0,
+  "start": 1793977293.536103,
+  "status": "OK",
+  "command": [
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+    "--matrix",
+    "dawson5",
+    "--method",
+    "C7-I",
+    "--seed",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/dawson5__C7-I__W16__seed0.order.json",
+  "sha256": "dc94fbe5c179660260a8f97b95b7a942b648c12ed32a6c92d55ee879d9b15e56",
+  "size": 299396,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 4053,
+        "sumU": 144477,
+        "sumGamma": 26409,
+        "elapsed": 0.32251405715942383
+      },
+      {
+        "sweep": 1,
+        "accepted": 1223,
+        "sumU": 139543,
+        "sumGamma": 25643,
+        "elapsed": 0.636214017868042
+      },
+      {
+        "sweep": 2,
+        "accepted": 413,
+        "sumU": 137949,
+        "sumGamma": 25348,
+        "elapsed": 0.9649150371551514
+      },
+      {
+        "sweep": 3,
+        "accepted": 75,
+        "sumU": 137662,
+        "sumGamma": 25257,
+        "elapsed": 1.284452199935913
+      },
+      {
+        "sweep": 4,
+        "accepted": 64,
+        "sumU": 137443,
+        "sumGamma": 25218,
+        "elapsed": 1.5984551906585693
+      },
+      {
+        "sweep": 5,
+        "accepted": 23,
+        "sumU": 137352,
+        "sumGamma": 25184,
+        "elapsed": 1.9074549674987793
+      },
+      {
+        "sweep": 6,
+        "accepted": 10,
+        "sumU": 137309,
+        "sumGamma": 25161,
+        "elapsed": 2.2192330360412598
+      },
+      {
+        "sweep": 7,
+        "accepted": 6,
+        "sumU": 137290,
+        "sumGamma": 25150,
+        "elapsed": 2.53775691986084
+      },
+      {
+        "sweep": 8,
+        "accepted": 1,
+        "sumU": 137288,
+        "sumGamma": 25150,
+        "elapsed": 2.869370222091675
+      },
+      {
+        "sweep": 9,
+        "accepted": 0,
+        "sumU": 137288,
+        "sumGamma": 25150,
+        "elapsed": 3.184777021408081
+      }
+    ],
+    "sweeps_done": 10,
+    "accepted_swaps": 5868,
+    "tracked_sumU": 137288,
+    "tracked_sumGamma": 25150,
+    "independent_full_recompute": {
+      "k_windows": 1143,
+      "sumU": 137288,
+      "T": 9093,
+      "sumGamma": 25150,
+      "sumR": 40676,
+      "R_p50": 34,
+      "R_p90": 51,
+      "R_max": 81,
+      "write_runs_aic": 1143,
+      "meanR": 35.587052
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 77668836
+  },
+  "end": 1793977299.7271302,
+  "seconds": 6.1910271644592285,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/dawson5__C7-I__W16__seed0.order.json",
+  "member": "C7-I",
+  "tau": 17,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/dawson5__C7-I__tau17/order.json",
+  "peak_mem_mb": 343.03125
+}

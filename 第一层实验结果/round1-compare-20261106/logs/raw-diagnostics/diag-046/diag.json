@@ -1,0 +1,33 @@
+{
+  "matrix": "pattern1",
+  "member": "C10-BP",
+  "W": 16,
+  "diag": "A0",
+  "tau": 757,
+  "T_full": 47389,
+  "T_full_phase": 49121.666666666664,
+  "align_premium": 1732.6666666666642,
+  "T_inplace": 40718,
+  "T_keep": 31079,
+  "U_inplace": 644711,
+  "U_keep": 491138,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 3.932508945465088,
+  "status": "OK"
+}

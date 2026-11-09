@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/independent_matrix_job.py",
+    "human_gene1"
+  ],
+  "start": 1793974306.640343,
+  "end": 1793974551.717224,
+  "exitcode": 0
+}

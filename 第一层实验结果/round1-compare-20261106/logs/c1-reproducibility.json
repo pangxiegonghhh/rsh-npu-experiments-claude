@@ -1,0 +1,7 @@
+{
+  "cora_J_repeated_twice": true,
+  "first_sha256": "d9f72194f16e7ebc8ffc665b1a2e7457786b1a2ed574ab1def2075030dd0d78e",
+  "second_sha256": "d9f72194f16e7ebc8ffc665b1a2e7457786b1a2ed574ab1def2075030dd0d78e",
+  "n_jobs": 1,
+  "passed": true
+}

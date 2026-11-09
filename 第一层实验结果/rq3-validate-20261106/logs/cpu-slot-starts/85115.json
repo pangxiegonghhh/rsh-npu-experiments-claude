@@ -1,0 +1,13 @@
+{
+  "pid": 85115,
+  "slot": 0,
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/wiki-RfA__neutron-pilot__rerun__tau2__lamnone.json"
+  ],
+  "queued_at": 1793975003.767883,
+  "acquired_at": 1793975012.415204,
+  "queue_seconds": 8.647320985794067,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots"
+}

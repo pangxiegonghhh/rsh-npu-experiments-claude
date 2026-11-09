@@ -1,0 +1,33 @@
+{
+  "matrix": "pattern1",
+  "member": "C8-METIS",
+  "W": 16,
+  "diag": "A0",
+  "tau": 757,
+  "T_full": 75922,
+  "T_full_phase": 122994.46666666666,
+  "align_premium": 47072.46666666666,
+  "T_inplace": 66473,
+  "T_keep": 80876,
+  "U_inplace": 1055855,
+  "U_keep": 1289672,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.9376859664916992,
+  "status": "OK"
+}

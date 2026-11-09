@@ -1,0 +1,29 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "olafu",
+  "member": "rabbit-pilot",
+  "start": 1793979595.81978,
+  "lam": "",
+  "tau": 56,
+  "seed": 0,
+  "t21_path": "orders/olafu__rabbit-pilot__W16__tauNone__own__47bc0151f033.json",
+  "sha256": "cecfef81202eb696f80e0b7b01a8a2c95dfbbfe3d30c30c9d2ccfe692c959b9c",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__rabbit-pilot__W16__tauNone__own__47bc0151f033.json",
+  "verified_sha256": "5bba5bbb5253b4a87af959cf1b2b3c13642c9de048b8d915276d1e3d34b4386e",
+  "origin": "T21 archive",
+  "kind": "rerun",
+  "W": 16,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/olafu__rabbit-pilot__rerun__tau56__lamnone.json"
+  ],
+  "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/olafu__rabbit-pilot__rerun__tau56__lamnone.checkpoint.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/olafu__rabbit-pilot__rerun__tau56__lamnone.order.json",
+  "size": 51462,
+  "diagnostics": {},
+  "end": 1793979595.866535,
+  "seconds": 0.04675483703613281
+}

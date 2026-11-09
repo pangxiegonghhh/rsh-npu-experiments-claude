@@ -1,0 +1,12 @@
+{
+  "default_v2_activated_at": 1793970808.758466,
+  "change": "packed lexicographic port records with consecutive b-singleton ports expanded during consumption; no edge, weight or tie change",
+  "v2_cora_all_placements_and_40_grid_gate": "logs/layout-port-gate-v2.stdout",
+  "old_failed_cases_preserved": true,
+  "files": {
+    "scripts/history/layouts-v1.cpp": "ae7fdf2aec9888c79cc56930cb419c7e3a3d06c4580ae1a7f193b61bc08470a7",
+    "scripts/layouts.cpp": "cc1e9458ebb544aebe7c3162bc9e4f60ab38da6343a11261a391eecaf2280e33",
+    "work/liblayouts.dylib": "41191c0e37c6520f093ac853599e46ce78756ae1fa12e1f2f37e73e8327c5e3c",
+    "work/liblayouts-v2.dylib": "3da15a48d838dd57df51cc217414a36414c03e2366b572a1874c998698dd4f10"
+  }
+}

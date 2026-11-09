@@ -1,0 +1,78 @@
+{
+  "matrix": "olafu",
+  "method": "C3-W1",
+  "W": 16,
+  "seed": 0,
+  "start": 1793979755.660602,
+  "status": "OK",
+  "command": [
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+    "--matrix",
+    "olafu",
+    "--method",
+    "C3-W1",
+    "--seed",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/olafu__C3-W1__W16__seed0.order.json",
+  "sha256": "a03cf6c98b991ac28e47e3f7dd5834a86030339b67b31edfeb6717366e549c3b",
+  "size": 86537,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 1255,
+        "sumU": 107750,
+        "sumGamma": 12244,
+        "elapsed": 0.23735499382019043
+      },
+      {
+        "sweep": 1,
+        "accepted": 173,
+        "sumU": 106839,
+        "sumGamma": 12096,
+        "elapsed": 0.48012208938598633
+      },
+      {
+        "sweep": 2,
+        "accepted": 17,
+        "sumU": 106748,
+        "sumGamma": 12075,
+        "elapsed": 0.7223210334777832
+      },
+      {
+        "sweep": 3,
+        "accepted": 0,
+        "sumU": 106748,
+        "sumGamma": 12075,
+        "elapsed": 0.9633951187133789
+      }
+    ],
+    "sweeps_done": 4,
+    "accepted_swaps": 1445,
+    "tracked_sumU": 106748,
+    "tracked_sumGamma": 12075,
+    "independent_full_recompute": {
+      "k_windows": 623,
+      "sumU": 106748,
+      "T": 6969,
+      "sumGamma": 12075,
+      "sumR": 12731,
+      "R_p50": 20,
+      "R_p90": 31,
+      "R_max": 84,
+      "write_runs_aic": 623,
+      "meanR": 20.434992
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 53824076
+  },
+  "end": 1793979756.8796759,
+  "seconds": 1.21907377243042,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/olafu__C3-W1__W16__seed0.order.json",
+  "member": "C3-W1",
+  "tau": 53,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/olafu__C3-W1__tau53/order.json",
+  "peak_mem_mb": 100.34375
+}

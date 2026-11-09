@@ -1,0 +1,6 @@
+Number of threads: 1
+Reading an edge-list file: /root/rabbit-runs/olafu-U-repeat0.edges
+Number of vertices: 16146
+Number of edges: 999010
+Generating a permutation...
+Runtime for permutation generation [sec]: 0.0750551

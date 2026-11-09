@@ -1,0 +1,89 @@
+{
+  "matrix": "cora",
+  "method": "C8-METIS",
+  "W": 16,
+  "seed": 0,
+  "start": 1793970163.0808342,
+  "status": "OK",
+  "params": "edgecut; ufactor=30; seed=0; direct k-way; exact capacity repair",
+  "command": [
+    "scripts/external_metis.py",
+    "--matrix",
+    "cora"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/cora__C8-METIS__W16__seed0.order.json",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/cora__C8-METIS__W16__seed0.order.json",
+  "sha256": "f741e1329c729262543275b56816fd6ee8b0a8190c62b7ff7356db6771c79dc9",
+  "size": 13350,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 513,
+        "sumU": 4515,
+        "sumGamma": 1997,
+        "elapsed": 0.006247997283935547
+      },
+      {
+        "sweep": 1,
+        "accepted": 156,
+        "sumU": 4321,
+        "sumGamma": 1831,
+        "elapsed": 0.012933969497680664
+      },
+      {
+        "sweep": 2,
+        "accepted": 40,
+        "sumU": 4278,
+        "sumGamma": 1791,
+        "elapsed": 0.019353866577148438
+      },
+      {
+        "sweep": 3,
+        "accepted": 11,
+        "sumU": 4266,
+        "sumGamma": 1778,
+        "elapsed": 0.02573680877685547
+      },
+      {
+        "sweep": 4,
+        "accepted": 2,
+        "sumU": 4264,
+        "sumGamma": 1771,
+        "elapsed": 0.03256869316101074
+      },
+      {
+        "sweep": 5,
+        "accepted": 0,
+        "sumU": 4264,
+        "sumGamma": 1771,
+        "elapsed": 0.039247751235961914
+      }
+    ],
+    "sweeps_done": 6,
+    "accepted_swaps": 722,
+    "tracked_sumU": 4264,
+    "tracked_sumGamma": 1771,
+    "independent_full_recompute": {
+      "k_windows": 68,
+      "sumU": 4264,
+      "T": 297,
+      "sumGamma": 1771,
+      "sumR": 2859,
+      "R_p50": 39,
+      "R_p90": 53,
+      "R_max": 125,
+      "write_runs_aic": 68,
+      "meanR": 42.044118
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 694992
+  },
+  "end": 1793970163.158787,
+  "seconds": 0.07795286178588867,
+  "peak_mem_mb": 35.8125,
+  "member": "C8-METIS",
+  "tau": 3,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/cora__C8-METIS__tau3/order.json"
+}

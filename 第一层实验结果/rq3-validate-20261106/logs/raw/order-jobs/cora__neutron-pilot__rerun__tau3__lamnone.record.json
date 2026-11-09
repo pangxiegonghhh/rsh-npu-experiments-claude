@@ -1,0 +1,28 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "cora",
+  "member": "neutron-pilot",
+  "start": 1793969002.0333,
+  "lam": "",
+  "tau": 3,
+  "seed": "",
+  "t21_path": "orders/cora__neutron-pilot__W16__tauNone__own__d7aa58d7e541.json",
+  "sha256": "06743ebb20cd34c9cf23a53ab43d23e74e2ebd4a7d3f6a362f543e96b1618ccb",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__neutron-pilot__W16__tauNone__own__d7aa58d7e541.json",
+  "verified_sha256": "47387db160a883a7941a1a60d1e8f2623d4248b1aa2e2e2d14112d9bb24e09ca",
+  "origin": "T21 archive",
+  "kind": "rerun",
+  "W": 16,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/cora__neutron-pilot__rerun__tau3__lamnone.json"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/cora__neutron-pilot__rerun__tau3__lamnone.order.json",
+  "size": 5066,
+  "diagnostics": {},
+  "end": 1793969002.050477,
+  "seconds": 0.017177104949951172
+}

@@ -1,0 +1,33 @@
+{
+  "matrix": "pattern1",
+  "member": "rabbit-pilot",
+  "W": 16,
+  "diag": "A0",
+  "tau": 757,
+  "T_full": 138872,
+  "T_full_phase": 139349.6,
+  "align_premium": 477.6000000000058,
+  "T_inplace": 100407,
+  "T_keep": 99413,
+  "U_inplace": 1600738,
+  "U_keep": 1584882,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 4.965723991394043,
+  "status": "OK"
+}

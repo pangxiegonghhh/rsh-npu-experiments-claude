@@ -1,0 +1,40 @@
+{
+  "source": "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude",
+  "observed_utc": "2026-11-06T11:55:56.108147+00:00",
+  "commit": "3ecc8f4ae0f6a7dff556fe1ad4e888a500f3162b",
+  "tree": "54dd7a113c4ecad145e07b47d8745f9de7d56756",
+  "files": [
+    {
+      "path": "第一层工作区/agent下载文件区/rsh_pkg21/T22-AGENT-README.md",
+      "sha256": "5e9601983d678215f05167d5cff99da684fe892036486d59437e2d6444b7621c"
+    },
+    {
+      "path": "第一层工作区/agent下载文件区/rsh_pkg21/T23-AGENT-README.md",
+      "sha256": "3a2fdfae895ea226c244d8fb4151cb43dae2fe9a546153c28aa0718231dd1fa6"
+    },
+    {
+      "path": "第一层工作区/T22派发/说明.md",
+      "sha256": "17fd0c3216417ad45d23891891ba4ada1145b39228d8146eb84cd555edb0c658"
+    },
+    {
+      "path": "第一层工作区/T22派发/orders-index.csv",
+      "sha256": "d703aed359829e4033fcf0913e19799e74b57fd09b2f4bacaa7072d9c39fb823"
+    },
+    {
+      "path": "第一层工作区/RQ3验证实验方案.md",
+      "sha256": "9a45f3a7da4252bd169b7e2731d8c8537770b9295688a7b713c835602519e790"
+    },
+    {
+      "path": "第一层工作区/T23派发/说明.md",
+      "sha256": "961dc4aa7c3fe8733b199c22de52b6706b93010d07c7a18f080d38b030efb0db"
+    },
+    {
+      "path": "第一层工作区/T23派发/orders-index.csv",
+      "sha256": "a9997a105adbe3f8c682c90dca6fb94f6787b7053f61a4f7dd553546647cb9a0"
+    },
+    {
+      "path": "第一层工作区/首轮候选比较实验方案.md",
+      "sha256": "402712edf397d4391ebe253646a122c891f77a90f5458182c92b2f6f9f58bbc8"
+    }
+  ]
+}

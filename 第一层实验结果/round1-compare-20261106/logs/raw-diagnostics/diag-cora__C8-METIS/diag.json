@@ -1,0 +1,33 @@
+{
+  "matrix": "cora",
+  "member": "C8-METIS",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 470,
+  "T_full_phase": 540.2,
+  "align_premium": 70.20000000000005,
+  "T_inplace": 403,
+  "T_keep": 371,
+  "U_inplace": 5208,
+  "U_keep": 5387,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.02922797203063965,
+  "status": "OK"
+}

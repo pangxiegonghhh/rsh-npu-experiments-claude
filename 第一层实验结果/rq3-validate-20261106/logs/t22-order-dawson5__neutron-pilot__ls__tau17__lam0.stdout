@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 3363, 'sumU': 147837, 'sumGamma': 23971, 'elapsed': 0.36432600021362305}
+LS {'sweep': 1, 'accepted': 1126, 'sumU': 143074, 'sumGamma': 23613, 'elapsed': 0.703881025314331}
+LS {'sweep': 2, 'accepted': 328, 'sumU': 141782, 'sumGamma': 23514, 'elapsed': 1.1019470691680908}
+LS {'sweep': 3, 'accepted': 126, 'sumU': 141276, 'sumGamma': 23459, 'elapsed': 1.4566199779510498}
+LS {'sweep': 4, 'accepted': 69, 'sumU': 140957, 'sumGamma': 23398, 'elapsed': 1.797415018081665}
+LS {'sweep': 5, 'accepted': 17, 'sumU': 140915, 'sumGamma': 23378, 'elapsed': 2.1505630016326904}
+LS {'sweep': 6, 'accepted': 2, 'sumU': 140907, 'sumGamma': 23381, 'elapsed': 2.497594118118286}
+LS {'sweep': 7, 'accepted': 2, 'sumU': 140895, 'sumGamma': 23380, 'elapsed': 2.8466668128967285}
+LS {'sweep': 8, 'accepted': 1, 'sumU': 140889, 'sumGamma': 23380, 'elapsed': 3.1838738918304443}
+LS {'sweep': 9, 'accepted': 1, 'sumU': 140883, 'sumGamma': 23378, 'elapsed': 3.522022008895874}
+{"task": "T22", "use": "base-order", "matrix": "dawson5", "member": "neutron-pilot", "start": 1793977241.33434, "lam": "", "tau": 17, "seed": 0, "t21_path": "orders/dawson5__neutron-pilot__W16__tauNone__own__af5b0f59d660.json", "sha256": "fafa94bc0894dd049e55b496f6bdadd9599e8e3da5d4545f705de980d27961fe", "note": "", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__neutron-pilot__W16__tauNone__own__af5b0f59d660.json", "verified_sha256": "1fc4003b27aff9b7976dec5981c3dd80c4246985ba494d419d874894740d3358", "origin": "T21 archive", "kind": "ls", "W": 16, "lambda": 0, "status": "OK", "command": ["scripts/order_job.py", "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/dawson5__neutron-pilot__ls__tau17__lam0.json"], "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/dawson5__neutron-pilot__ls__tau17__lam0.checkpoint.json", "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/dawson5__neutron-pilot__ls__tau17__lam0.order.json", "size": 299419, "end": 1793977245.024149, "seconds": 3.6898088455200195}

@@ -1,0 +1,42 @@
+[
+  {
+    "matrix": "reddit",
+    "mode": "B",
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/reddit-B.edges.gz",
+    "sha256": "f450f148bde4b0b1c78f5eac65a686cf008804bfc34147461b1fbb6da8d9ec21",
+    "size": 453128567,
+    "seconds": 18.716672897338867,
+    "entries": 114615892,
+    "rule": "A0 bipartite graph; original row vertex and n+column vertex"
+  },
+  {
+    "matrix": "reddit",
+    "mode": "U",
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/reddit-U.edges.gz",
+    "sha256": "6f02af91d8bc3c0d915591e32be8ec36cf796331888c57d804ca80dc3be2e194",
+    "size": 229134723,
+    "seconds": 8.860185146331787,
+    "entries": 57307946,
+    "rule": "A0 undirected edges r<c, author demo symmetrizes"
+  },
+  {
+    "matrix": "ogbn-products",
+    "mode": "B",
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/ogbn-products-B.edges.gz",
+    "sha256": "0066e30ae497193dffdcb4095c8f0ae0233a2a31e41206f2259edad632f32600",
+    "size": 640768050,
+    "seconds": 23.829313039779663,
+    "entries": 123718024,
+    "rule": "A0 bipartite graph; original row vertex and n+column vertex"
+  },
+  {
+    "matrix": "ogbn-products",
+    "mode": "U",
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/ogbn-products-U.edges.gz",
+    "sha256": "4fdebf3ba6d4480dfb46dfef8a502e8f839e3e4c0e87706a2ef98d13b85bfa87",
+    "size": 320404888,
+    "seconds": 12.490998983383179,
+    "entries": 61859012,
+    "rule": "A0 undirected edges r<c, author demo symmetrizes"
+  }
+]

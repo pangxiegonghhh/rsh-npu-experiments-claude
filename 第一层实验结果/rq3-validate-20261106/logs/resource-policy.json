@@ -1,0 +1,17 @@
+{
+  "frozen_before_formal_runs": true,
+  "CPU_only": true,
+  "method_timeout_sec": 7200,
+  "LS_sweeps_max": 10,
+  "main_seed": 0,
+  "random_variance_seeds_cora_arxiv": [
+    1,
+    2
+  ],
+  "co_chain_residual_points_guard": 400,
+  "C2_candidate_pair_cap": 50000000,
+  "method_workspace_safety_budget_bytes": 8589934592,
+  "large_graph_workers": 1,
+  "first_batch_workers": 2,
+  "policy": "Resource/candidate-pair cap failure is INCOMPLETE; no truncated candidate is reported under the original name. No parameter retries."
+}

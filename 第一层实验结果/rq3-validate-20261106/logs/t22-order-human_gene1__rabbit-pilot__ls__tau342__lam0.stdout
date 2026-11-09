@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 8426, 'sumU': 3868781, 'sumGamma': 504095, 'elapsed': 44.67825889587402}
+LS {'sweep': 1, 'accepted': 7078, 'sumU': 3649883, 'sumGamma': 467844, 'elapsed': 81.27356696128845}
+LS {'sweep': 2, 'accepted': 4594, 'sumU': 3535457, 'sumGamma': 449308, 'elapsed': 118.45562601089478}
+LS {'sweep': 3, 'accepted': 2624, 'sumU': 3477981, 'sumGamma': 439604, 'elapsed': 155.9502170085907}
+LS {'sweep': 4, 'accepted': 1538, 'sumU': 3444116, 'sumGamma': 434126, 'elapsed': 192.67365193367004}
+LS {'sweep': 5, 'accepted': 900, 'sumU': 3427350, 'sumGamma': 431462, 'elapsed': 226.99176383018494}
+LS {'sweep': 6, 'accepted': 637, 'sumU': 3416390, 'sumGamma': 429815, 'elapsed': 261.15240597724915}
+LS {'sweep': 7, 'accepted': 475, 'sumU': 3408152, 'sumGamma': 428786, 'elapsed': 294.6325590610504}
+LS {'sweep': 8, 'accepted': 351, 'sumU': 3402116, 'sumGamma': 428113, 'elapsed': 325.8741879463196}
+LS {'sweep': 9, 'accepted': 261, 'sumU': 3397951, 'sumGamma': 427498, 'elapsed': 356.27927803993225}
+{"task": "T22", "use": "base-order", "matrix": "human_gene1", "member": "rabbit-pilot", "start": 1793982064.8568552, "lam": "", "tau": 342, "seed": 0, "t21_path": "orders/human_gene1__rabbit-pilot__W16__tauNone__own__936764cedab2.json", "sha256": "f6cc761ee44fc42678ed4f2e86c280eb79ee70901cc826a4469aad35dbc7d22a", "note": "", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__rabbit-pilot__W16__tauNone__own__936764cedab2.json", "verified_sha256": "7c875eef0b8fa6b2bdcd879289a49a2b176100fc583a6a5222ba609932e9412d", "origin": "T21 archive", "kind": "ls", "W": 16, "lambda": 0, "status": "OK", "command": ["scripts/order_job.py", "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/human_gene1__rabbit-pilot__ls__tau342__lam0.json"], "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/human_gene1__rabbit-pilot__ls__tau342__lam0.checkpoint.json", "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/human_gene1__rabbit-pilot__ls__tau342__lam0.order.json", "size": 123944, "end": 1793982448.778341, "seconds": 383.9214859008789}

@@ -1,0 +1,23 @@
+{
+  "key": "ogbn-arxiv-B-repeat2",
+  "input_filename": "ogbn-arxiv-B.edges.gz",
+  "start": 1793970679.8585632,
+  "threads": 1,
+  "author_ref": "f93776e9c1e1d4a8962ee56bc7ff0091e6fe12dd",
+  "requested_seed": null,
+  "seed_api": "author demo exposes no RNG seed; serial execution fixed",
+  "status": "OK",
+  "command": [
+    "/root/rabbit/demo/reorder",
+    "/root/rabbit-runs/ogbn-arxiv-B-repeat2.edges"
+  ],
+  "input_gz_sha256": "e9d25bb7dcd1514dbbfad9528217db41bc672010b56cd37d90d067d3230d4944",
+  "input_prepare_seconds": 1.3374829292297363,
+  "exitcode": 0,
+  "coarse_seconds": 6.890990257263184,
+  "mapping_sha256": "ec116f57ca3d640b3f30117aa4754bd2e4b6ad7690f17dbe6f30c750b7471505",
+  "peak_mem_mb": 138.54296875,
+  "end": 1793970688.101916,
+  "requested_replica_label": 2,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/rabbit-coarse/ogbn-arxiv-B-repeat2.mapping"
+}

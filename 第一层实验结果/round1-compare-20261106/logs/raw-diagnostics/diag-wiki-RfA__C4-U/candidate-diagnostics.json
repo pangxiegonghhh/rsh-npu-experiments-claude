@@ -1,0 +1,13 @@
+{
+  "groups_full_before": 0,
+  "short_before": 0,
+  "P_merges": 0,
+  "P_new_full": 0,
+  "short_after": 0,
+  "groups_cut_by_windows": 0,
+  "groups": 712,
+  "accelerated_comparisons_or_pairs": 1273185,
+  "short_or_qualified": 1,
+  "merged": 0,
+  "rejected_capacity": 0
+}

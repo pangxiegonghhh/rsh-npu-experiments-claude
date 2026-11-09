@@ -1,0 +1,9 @@
+LS {'sweep': 0, 'accepted': 1358, 'sumU': 989592, 'sumGamma': 130488, 'elapsed': 3.487159013748169}
+LS {'sweep': 1, 'accepted': 361, 'sumU': 910397, 'sumGamma': 120105, 'elapsed': 6.175132989883423}
+LS {'sweep': 2, 'accepted': 91, 'sumU': 894531, 'sumGamma': 117887, 'elapsed': 8.763763904571533}
+LS {'sweep': 3, 'accepted': 19, 'sumU': 890768, 'sumGamma': 117232, 'elapsed': 11.352367877960205}
+LS {'sweep': 4, 'accepted': 9, 'sumU': 889257, 'sumGamma': 116949, 'elapsed': 13.92472505569458}
+LS {'sweep': 5, 'accepted': 4, 'sumU': 888504, 'sumGamma': 116826, 'elapsed': 16.510300874710083}
+LS {'sweep': 6, 'accepted': 2, 'sumU': 888500, 'sumGamma': 116824, 'elapsed': 19.084088802337646}
+LS {'sweep': 7, 'accepted': 0, 'sumU': 888500, 'sumGamma': 116824, 'elapsed': 21.676208972930908}
+{"task": "T23", "use": "base-order", "matrix": "pattern1", "t23_member": "C9-Gorder", "t21_member": "C9-Gorder", "W": 16, "params": "", "source": "T21 \u5b8c\u6574\u5f52\u6863", "path": "orders/pattern1__C9-Gorder__W16__tauNone__own__f65a44c64e70.json", "sha256": "5121b5da58242197e3b75436d42e0a637f2662f7b0889b35f0c0ef59dd334081", "note": "", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__C9-Gorder__W16__tauNone__own__f65a44c64e70.json", "verified_sha256": "28719515e3fecae5cc3f98b8f425b4f6cb4cb06081680de48e83d413723b663c", "origin": "T21 archive", "member": "C9-Gorder", "tau": 757, "reuse": false, "status": "OK", "start": 1793975208.2348878, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/pattern1__C9-Gorder__tau757/order.json", "size": 105474, "end": 1793975237.6258821, "seconds": 29.39099431037903, "peak_mem_mb": 427.90625}

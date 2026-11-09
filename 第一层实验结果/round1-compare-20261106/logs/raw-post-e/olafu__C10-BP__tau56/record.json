@@ -1,0 +1,83 @@
+{
+  "task": "T23",
+  "use": "base-order",
+  "matrix": "olafu",
+  "t23_member": "C10-BP",
+  "t21_member": "C10-BP",
+  "W": 16,
+  "params": "",
+  "source": "T21 \u5b8c\u6574\u5f52\u6863",
+  "path": "orders/olafu__C10-BP__W16__tauNone__own__5f83fbefe087.json",
+  "sha256": "0df688f3c990cad16ddb4ace8aaa9fdbbc1df2fb7535fb5fe99a2c594b55b11c",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__C10-BP__W16__tauNone__own__5f83fbefe087.json",
+  "verified_sha256": "835b84eb62c0056f4ba89547edd7758575754397289941f38a278d8c1da4a773",
+  "origin": "T21 archive",
+  "member": "C10-BP",
+  "tau": 56,
+  "reuse": false,
+  "status": "OK",
+  "start": 1793975021.773097,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/olafu__C10-BP__tau56/order.json",
+  "size": 86623,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 2009,
+        "sumU": 107630,
+        "sumGamma": 13556,
+        "elapsed": 0.23370099067687988
+      },
+      {
+        "sweep": 1,
+        "accepted": 202,
+        "sumU": 106385,
+        "sumGamma": 13310,
+        "elapsed": 0.47677087783813477
+      },
+      {
+        "sweep": 2,
+        "accepted": 21,
+        "sumU": 106133,
+        "sumGamma": 13261,
+        "elapsed": 0.7177829742431641
+      },
+      {
+        "sweep": 3,
+        "accepted": 3,
+        "sumU": 106109,
+        "sumGamma": 13259,
+        "elapsed": 0.9663729667663574
+      },
+      {
+        "sweep": 4,
+        "accepted": 0,
+        "sumU": 106109,
+        "sumGamma": 13259,
+        "elapsed": 1.210434913635254
+      }
+    ],
+    "sweeps_done": 5,
+    "accepted_swaps": 2235,
+    "tracked_sumU": 106109,
+    "tracked_sumGamma": 13259,
+    "independent_full_recompute": {
+      "k_windows": 598,
+      "sumU": 106109,
+      "T": 6901,
+      "sumGamma": 13259,
+      "sumR": 25900,
+      "R_p50": 42,
+      "R_p90": 65,
+      "R_max": 104,
+      "write_runs_aic": 598,
+      "meanR": 43.311037
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 53646776
+  },
+  "end": 1793975023.268973,
+  "seconds": 1.4958760738372803,
+  "peak_mem_mb": 96.328125
+}

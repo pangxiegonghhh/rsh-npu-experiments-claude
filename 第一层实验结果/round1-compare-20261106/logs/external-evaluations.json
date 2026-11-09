@@ -1,0 +1,321 @@
+[
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-cora__C1-H__W16__seed0.record.json"
+    ],
+    "start": 1793970159.580895,
+    "end": 1793970159.946537,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-cora__C1-H__W16__seed1.record.json"
+    ],
+    "start": 1793970159.584138,
+    "end": 1793970159.946683,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-cora__C1-H__W16__seed2.record.json"
+    ],
+    "start": 1793970159.9477708,
+    "end": 1793970160.170308,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-cora__C1-J__W16__seed0.record.json"
+    ],
+    "start": 1793970159.9478872,
+    "end": 1793970160.1730108,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-cora__C1-J__W16__seed1.record.json"
+    ],
+    "start": 1793970160.170771,
+    "end": 1793970160.412174,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-cora__C1-J__W16__seed2.record.json"
+    ],
+    "start": 1793970160.173546,
+    "end": 1793970160.430975,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-cora__C8-METIS__W16__seed0.record.json"
+    ],
+    "start": 1793970160.412718,
+    "end": 1793970160.787928,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-dawson5__C1-H__W16__seed0.record.json"
+    ],
+    "start": 1793970160.431915,
+    "end": 1793970219.866169,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-dawson5__C1-J__W16__seed0.record.json"
+    ],
+    "start": 1793970160.789599,
+    "end": 1793970320.022004,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-dawson5__C8-METIS__W16__seed0.record.json"
+    ],
+    "start": 1793970219.868984,
+    "end": 1793970250.042528,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-human_gene1__C1-H__W16__seed0.record.json"
+    ],
+    "start": 1793970250.045389,
+    "end": 1793970336.109913,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-human_gene1__C1-J__W16__seed0.record.json"
+    ],
+    "start": 1793970320.0268328,
+    "end": 1793970416.9179242,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-human_gene1__C8-METIS__W16__seed0.record.json"
+    ],
+    "start": 1793970336.110969,
+    "end": 1793970433.355089,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-ogbn-arxiv__C1-H__W16__seed0.record.json"
+    ],
+    "start": 1793970416.922773,
+    "end": 1793970687.730442,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-ogbn-arxiv__C1-J__W16__seed0.record.json"
+    ],
+    "start": 1793970433.3584828,
+    "end": 1793970580.963048,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-ogbn-arxiv__C1-J__W16__seed1.record.json"
+    ],
+    "start": 1793970580.9702132,
+    "end": 1793970729.569463,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-ogbn-arxiv__C1-J__W16__seed2.record.json"
+    ],
+    "start": 1793970687.733273,
+    "end": 1793970808.872868,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-ogbn-arxiv__C8-METIS__W16__seed0.record.json"
+    ],
+    "start": 1793970729.574485,
+    "end": 1793970826.306249,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-olafu__C1-H__W16__seed0.record.json"
+    ],
+    "start": 1793970808.896964,
+    "end": 1793970812.061027,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-olafu__C1-J__W16__seed0.record.json"
+    ],
+    "start": 1793970812.06187,
+    "end": 1793970813.9411001,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-olafu__C8-METIS__W16__seed0.record.json"
+    ],
+    "start": 1793970813.942016,
+    "end": 1793970818.331436,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-pattern1__C1-H__W16__seed0.record.json"
+    ],
+    "start": 1793970818.3325608,
+    "end": 1793970849.567644,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-pattern1__C1-J__W16__seed0.record.json"
+    ],
+    "start": 1793970826.3188548,
+    "end": 1793970859.4511511,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-pattern1__C8-METIS__W16__seed0.record.json"
+    ],
+    "start": 1793970849.5692532,
+    "end": 1793970883.988814,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-wiki-RfA__C1-H__W16__seed0.record.json"
+    ],
+    "start": 1793970859.454292,
+    "end": 1793970861.592245,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-wiki-RfA__C1-J__W16__seed0.record.json"
+    ],
+    "start": 1793970861.5932071,
+    "end": 1793970864.380621,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-wiki-RfA__C8-METIS__W16__seed0.record.json"
+    ],
+    "start": 1793970864.3818188,
+    "end": 1793970866.1711419,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-ogbn-arxiv__C1-H__W16__seed1.record.json"
+    ],
+    "start": 1793970866.1729522,
+    "end": 1793971024.790947,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-external-catalog/external-ogbn-arxiv__C1-H__W16__seed2.record.json"
+    ],
+    "start": 1793970883.990349,
+    "end": 1793971048.307616,
+    "exitcode": 0
+  }
+]

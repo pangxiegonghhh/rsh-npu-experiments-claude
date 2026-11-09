@@ -1,0 +1,33 @@
+{
+  "matrix": "cora",
+  "member": "rabbit-pilot",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 553,
+  "T_full_phase": 553.9333333333333,
+  "align_premium": 0.9333333333332803,
+  "T_inplace": 434,
+  "T_keep": 381,
+  "U_inplace": 5777,
+  "U_keep": 5573,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.14345383644104004,
+  "status": "OK"
+}

@@ -1,0 +1,99 @@
+{
+  "matrix": "cora",
+  "method": "C7-I",
+  "W": 16,
+  "seed": 0,
+  "start": 1793977105.786935,
+  "status": "OK",
+  "command": [
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+    "--matrix",
+    "cora",
+    "--method",
+    "C7-I",
+    "--seed",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/cora__C7-I__W16__seed0.order.json",
+  "sha256": "e1c06cd4c61578b56166d0455cc38eb8aefeb5155f7339e767b6cf30dd16d8c9",
+  "size": 13432,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 875,
+        "sumU": 5657,
+        "sumGamma": 2985,
+        "elapsed": 0.010468006134033203
+      },
+      {
+        "sweep": 1,
+        "accepted": 326,
+        "sumU": 5272,
+        "sumGamma": 2619,
+        "elapsed": 0.029899120330810547
+      },
+      {
+        "sweep": 2,
+        "accepted": 121,
+        "sumU": 5140,
+        "sumGamma": 2511,
+        "elapsed": 0.04272603988647461
+      },
+      {
+        "sweep": 3,
+        "accepted": 27,
+        "sumU": 5109,
+        "sumGamma": 2468,
+        "elapsed": 0.05512404441833496
+      },
+      {
+        "sweep": 4,
+        "accepted": 17,
+        "sumU": 5090,
+        "sumGamma": 2453,
+        "elapsed": 0.06795787811279297
+      },
+      {
+        "sweep": 5,
+        "accepted": 3,
+        "sumU": 5087,
+        "sumGamma": 2444,
+        "elapsed": 0.07977890968322754
+      },
+      {
+        "sweep": 6,
+        "accepted": 0,
+        "sumU": 5087,
+        "sumGamma": 2444,
+        "elapsed": 0.09068703651428223
+      }
+    ],
+    "sweeps_done": 7,
+    "accepted_swaps": 1369,
+    "tracked_sumU": 5087,
+    "tracked_sumGamma": 2444,
+    "independent_full_recompute": {
+      "k_windows": 103,
+      "sumU": 5087,
+      "T": 369,
+      "sumGamma": 2444,
+      "sumR": 3602,
+      "R_p50": 32,
+      "R_p90": 45,
+      "R_max": 120,
+      "write_runs_aic": 103,
+      "meanR": 34.970874
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 766812
+  },
+  "end": 1793977105.913882,
+  "seconds": 0.12694692611694336,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/cora__C7-I__W16__seed0.order.json",
+  "member": "C7-I",
+  "tau": 2,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/cora__C7-I__tau2/order.json",
+  "peak_mem_mb": 29.4375
+}

@@ -1,0 +1,41 @@
+{
+  "complete": true,
+  "expected_own_cases": 157,
+  "own_cases_complete": 157,
+  "expected_post_cases": 224,
+  "post_cases_complete": 224,
+  "missing_own": [],
+  "missing_post": [],
+  "missing_diag": [],
+  "independent_proofs": [
+    {
+      "matrix": "cora",
+      "passed": true
+    },
+    {
+      "matrix": "ogbn-arxiv",
+      "passed": true
+    },
+    {
+      "matrix": "wiki-RfA",
+      "passed": true
+    },
+    {
+      "matrix": "dawson5",
+      "passed": true
+    },
+    {
+      "matrix": "olafu",
+      "passed": true
+    },
+    {
+      "matrix": "pattern1",
+      "passed": true
+    },
+    {
+      "matrix": "human_gene1",
+      "passed": true
+    }
+  ],
+  "missing_gates": []
+}

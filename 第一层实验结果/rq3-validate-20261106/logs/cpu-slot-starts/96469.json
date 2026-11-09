@@ -1,0 +1,21 @@
+{
+  "pid": 96469,
+  "slot": 1,
+  "command": [
+    "scripts/stage3_p1.py",
+    "--matrix",
+    "ogbn-arxiv",
+    "--W",
+    "16",
+    "--method",
+    "C3-W4-R",
+    "--seed",
+    "0"
+  ],
+  "queued_at": 1793980477.501156,
+  "acquired_at": 1793980495.795507,
+  "queue_seconds": 18.29435086250305,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false
+}

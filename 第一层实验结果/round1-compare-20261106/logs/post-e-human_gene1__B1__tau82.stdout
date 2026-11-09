@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 5721, 'sumU': 3532872, 'sumGamma': 453094, 'elapsed': 19.106598138809204}
+LS {'sweep': 1, 'accepted': 3122, 'sumU': 3488491, 'sumGamma': 442508, 'elapsed': 38.20104908943176}
+LS {'sweep': 2, 'accepted': 1650, 'sumU': 3468522, 'sumGamma': 437939, 'elapsed': 57.308409214019775}
+LS {'sweep': 3, 'accepted': 890, 'sumU': 3459265, 'sumGamma': 436316, 'elapsed': 76.28225207328796}
+LS {'sweep': 4, 'accepted': 526, 'sumU': 3453674, 'sumGamma': 435292, 'elapsed': 95.25306105613708}
+LS {'sweep': 5, 'accepted': 295, 'sumU': 3450929, 'sumGamma': 434781, 'elapsed': 114.15993595123291}
+LS {'sweep': 6, 'accepted': 173, 'sumU': 3448997, 'sumGamma': 434326, 'elapsed': 133.20056700706482}
+LS {'sweep': 7, 'accepted': 107, 'sumU': 3448059, 'sumGamma': 434071, 'elapsed': 152.1307270526886}
+LS {'sweep': 8, 'accepted': 78, 'sumU': 3447132, 'sumGamma': 433720, 'elapsed': 171.07463908195496}
+LS {'sweep': 9, 'accepted': 55, 'sumU': 3446721, 'sumGamma': 433653, 'elapsed': 189.94872403144836}
+{"task": "T23", "use": "base-order", "matrix": "human_gene1", "t23_member": "B1 (rsh-\u03b10)", "t21_member": "rsh-\u03b10", "W": 16, "params": "", "source": "T21 \u5b8c\u6574\u5f52\u6863", "path": "orders/human_gene1__rsh-alpha0__W16__tauNone__own__9991e2895fee.json", "sha256": "fe912f06bddc2910237f058e09b9b490606001708ee02f2826fd630c08c4f05e", "note": "", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__rsh-alpha0__W16__tauNone__own__9991e2895fee.json", "verified_sha256": "d1327fd800a11b4b04397c0c5c88c34ab90c162479dacb7aae8c8171a8467e9e", "origin": "T21 archive", "member": "B1", "tau": 82, "reuse": false, "status": "OK", "start": 1793975615.642293, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/human_gene1__B1__tau82/order.json", "size": 123918, "end": 1793975822.148722, "seconds": 206.50642895698547, "peak_mem_mb": 750.140625}

@@ -1,0 +1,14 @@
+{
+  "pid": 83526,
+  "slot": 1,
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/olafu__C10-BP__ls__tau53__lam1.json"
+  ],
+  "queued_at": 1793979830.826318,
+  "acquired_at": 1793979832.8643441,
+  "queue_seconds": 2.0380260944366455,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false
+}

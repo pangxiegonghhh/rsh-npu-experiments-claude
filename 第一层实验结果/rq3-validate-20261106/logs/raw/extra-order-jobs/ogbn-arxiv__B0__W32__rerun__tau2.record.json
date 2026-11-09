@@ -1,0 +1,32 @@
+{
+  "task": "T23",
+  "use": "W-sensitivity",
+  "matrix": "ogbn-arxiv",
+  "t23_member": "B0",
+  "t21_member": "B0",
+  "W": 32,
+  "params": "",
+  "source": "T21 \u5b8c\u6574\u5f52\u6863",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/extra-order-jobs/ogbn-arxiv__B0__W32__rerun__tau2.order.json",
+  "sha256": "358c750cba9fccf6831124641d19e28b63fe13cba3b6eb456797219ec961a21d",
+  "note": "B0\u3001B1 \u4e0e W \u65e0\u5173\uff0c\u4e0e W16 \u6587\u4ef6\u5185\u5bb9\u76f8\u540c",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__B0__W32__tauNone__own__4b33dcbc93b8.json",
+  "verified_sha256": "c9182e5c5bf3d91dead8628a7ded68bac5c74b5fc54f75dac49766d9a791d9ba",
+  "origin": "T21 archive",
+  "member": "B0",
+  "kind": "rerun",
+  "tau": 2,
+  "seed": 0,
+  "start": 1793970904.7168598,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-extra-catalog/ogbn-arxiv__B0__W32__rerun__tau2.json",
+    "--output-dir",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/extra-order-jobs"
+  ],
+  "size": 826257,
+  "diagnostics": {},
+  "end": 1793970904.85923,
+  "seconds": 0.14237022399902344
+}

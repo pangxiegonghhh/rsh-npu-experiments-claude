@@ -1,0 +1,38 @@
+[
+ {
+  "matrix": "olafu",
+  "member": "C9-Gorder",
+  "W": 16,
+  "tau": 53,
+  "diag": "A0",
+  "source": "rerun",
+  "k_windows": 623,
+  "sumU": 90019,
+  "T": 5900,
+  "sumGamma": 9045,
+  "sumR": 5487,
+  "R_p50": 8,
+  "R_p90": 16,
+  "R_max": 36,
+  "write_runs_aic": 623,
+  "meanR": 8.807384
+ },
+ {
+  "matrix": "olafu",
+  "member": "C9-Gorder",
+  "W": 16,
+  "tau": 53,
+  "diag": "A1",
+  "source": "rerun",
+  "k_windows": 623,
+  "sumU": 90021,
+  "T": 5900,
+  "sumGamma": 9045,
+  "sumR": 5485,
+  "R_p50": 8,
+  "R_p90": 16,
+  "R_max": 36,
+  "write_runs_aic": 623,
+  "meanR": 8.804173
+ }
+]

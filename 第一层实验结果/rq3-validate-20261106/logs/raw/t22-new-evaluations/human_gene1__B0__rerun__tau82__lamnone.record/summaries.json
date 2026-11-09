@@ -1,0 +1,38 @@
+[
+ {
+  "matrix": "human_gene1",
+  "member": "B0",
+  "W": 16,
+  "tau": 82,
+  "diag": "A0",
+  "source": "rerun",
+  "k_windows": 1114,
+  "sumU": 8717313,
+  "T": 545347,
+  "sumGamma": 1281292,
+  "sumR": 4023407,
+  "R_p50": 3669,
+  "R_p90": 4255,
+  "R_max": 4507,
+  "write_runs_aic": 1114,
+  "meanR": 3611.675943
+ },
+ {
+  "matrix": "human_gene1",
+  "member": "B0",
+  "W": 16,
+  "tau": 82,
+  "diag": "A1",
+  "source": "rerun",
+  "k_windows": 1114,
+  "sumU": 8722999,
+  "T": 545717,
+  "sumGamma": 1281293,
+  "sumR": 4020184,
+  "R_p50": 3666,
+  "R_p90": 4251,
+  "R_max": 4504,
+  "write_runs_aic": 1114,
+  "meanR": 3608.782765
+ }
+]

@@ -1,0 +1,79 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "olafu",
+  "member": "rabbit-pilot",
+  "start": 1793979749.478441,
+  "lam": "",
+  "tau": 56,
+  "seed": 0,
+  "t21_path": "orders/olafu__rabbit-pilot__W16__tauNone__own__47bc0151f033.json",
+  "sha256": "1d13ddb43112556e6d5f22e8e607e8b12eeb8f0dde71395d14bb500b8da39f41",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__rabbit-pilot__W16__tauNone__own__47bc0151f033.json",
+  "verified_sha256": "5bba5bbb5253b4a87af959cf1b2b3c13642c9de048b8d915276d1e3d34b4386e",
+  "origin": "T21 archive",
+  "kind": "ls",
+  "W": 16,
+  "lambda": 0,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/olafu__rabbit-pilot__ls__tau56__lam0.json"
+  ],
+  "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/olafu__rabbit-pilot__ls__tau56__lam0.checkpoint.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/olafu__rabbit-pilot__ls__tau56__lam0.order.json",
+  "size": 86542,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 679,
+        "sumU": 101879,
+        "sumGamma": 9702,
+        "elapsed": 0.24481201171875
+      },
+      {
+        "sweep": 1,
+        "accepted": 47,
+        "sumU": 101477,
+        "sumGamma": 9662,
+        "elapsed": 0.48007893562316895
+      },
+      {
+        "sweep": 2,
+        "accepted": 1,
+        "sumU": 101473,
+        "sumGamma": 9662,
+        "elapsed": 0.7154619693756104
+      },
+      {
+        "sweep": 3,
+        "accepted": 0,
+        "sumU": 101473,
+        "sumGamma": 9662,
+        "elapsed": 0.9519639015197754
+      }
+    ],
+    "sweeps_done": 4,
+    "accepted_swaps": 727,
+    "tracked_sumU": 101473,
+    "tracked_sumGamma": 9662,
+    "independent_full_recompute": {
+      "k_windows": 598,
+      "sumU": 101473,
+      "T": 6617,
+      "sumGamma": 9662,
+      "sumR": 7712,
+      "R_p50": 10,
+      "R_p90": 26,
+      "R_max": 55,
+      "write_runs_aic": 598,
+      "meanR": 12.896321
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 53646776
+  },
+  "end": 1793979750.504153,
+  "seconds": 1.025712013244629
+}

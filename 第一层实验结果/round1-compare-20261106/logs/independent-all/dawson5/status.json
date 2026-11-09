@@ -1,0 +1,103 @@
+{
+  "matrix": "dawson5",
+  "status": "OK",
+  "start": 1793973603.2623081,
+  "checks": [
+    {
+      "script": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/\u7b2c\u4e00\u5c42\u5de5\u4f5c\u533a/T17-\u7a7a\u767d\u4e00\u8bd5\u7b97\u811a\u672c/verify/indep_check.py",
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-I",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/\u7b2c\u4e00\u5c42\u5de5\u4f5c\u533a/T17-\u7a7a\u767d\u4e00\u8bd5\u7b97\u811a\u672c/verify/indep_check.py",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/dawson5.mtx",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/independent-all/dawson5/rq2-independent-input.json"
+      ],
+      "exitcode": 0,
+      "seconds": 1.1387181282043457,
+      "orders": 3,
+      "identical": true
+    },
+    {
+      "script": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/\u7b2c\u4e00\u5c42\u5de5\u4f5c\u533a/T17-\u7a7a\u767d\u4e8c\u8bd5\u7b97\u811a\u672c/verify/indep_check_rq3.py",
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-I",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/\u7b2c\u4e00\u5c42\u5de5\u4f5c\u533a/T17-\u7a7a\u767d\u4e8c\u8bd5\u7b97\u811a\u672c/verify/indep_check_rq3.py",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/dawson5.mtx",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/independent-all/dawson5/rq3-independent-input.json"
+      ],
+      "exitcode": 0,
+      "seconds": 6.470322847366333,
+      "orders": 3,
+      "identical": true
+    }
+  ],
+  "T21_consistency": [
+    {
+      "member": "B0",
+      "sumU": 319254,
+      "T": 21480,
+      "T21_identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "sumU": 235019,
+      "T": 16180,
+      "T21_identical": true
+    },
+    {
+      "member": "C10-BP",
+      "sumU": 235749,
+      "T": 16213,
+      "T21_identical": true
+    }
+  ],
+  "expected_full": {
+    "B0": [
+      99.09,
+      21480,
+      13.39,
+      16.7
+    ],
+    "C9-Gorder": [
+      72.94,
+      16180,
+      12.33,
+      24.15
+    ],
+    "C10-BP": [
+      73.17,
+      16213,
+      13.2,
+      36.49
+    ]
+  },
+  "expected_four": {
+    "B0|tau17|order": {
+      "T_full": 21480,
+      "T_inplace": 14202,
+      "T_keep": 10667,
+      "U_inplace": 207158,
+      "U_keep": 161563,
+      "T_full_phase": 21470.9
+    },
+    "C9-Gorder|tau17|order": {
+      "T_full": 16180,
+      "T_inplace": 10634,
+      "T_keep": 8503,
+      "U_inplace": 153871,
+      "U_keep": 127840,
+      "T_full_phase": 16183.9
+    },
+    "C10-BP|tau17|order": {
+      "T_full": 16213,
+      "T_inplace": 12569,
+      "T_keep": 11306,
+      "U_inplace": 180459,
+      "U_keep": 172314,
+      "T_full_phase": 21800.9
+    }
+  },
+  "end": 1793973612.332323,
+  "seconds": 9.070014953613281
+}

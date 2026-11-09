@@ -1,0 +1,22 @@
+{
+  "task": "T23",
+  "use": "base-order",
+  "matrix": "dawson5",
+  "t23_member": "rabbit-pilot (\u5386\u53f2\u53c2\u7167)",
+  "t21_member": "rabbit-pilot",
+  "W": 16,
+  "params": "",
+  "source": "T21 \u5b8c\u6574\u5f52\u6863",
+  "path": "orders/dawson5__rabbit-pilot__W16__tauNone__own__dd2fb30668dd.json",
+  "sha256": "f95c0a9ea8e1e0780530afb63121a319f235c13a92122539dfe7205b905c0688",
+  "note": "historical/reference order; post-E not required by T23 P0 scope",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__rabbit-pilot__W16__tauNone__own__dd2fb30668dd.json",
+  "verified_sha256": "f95c0a9ea8e1e0780530afb63121a319f235c13a92122539dfe7205b905c0688",
+  "origin": "T21 archive",
+  "member": "rabbit-pilot",
+  "tau": 17,
+  "reuse": false,
+  "status": "SKIPPED",
+  "start": 1793971648.703012,
+  "end": 1793971648.703016
+}

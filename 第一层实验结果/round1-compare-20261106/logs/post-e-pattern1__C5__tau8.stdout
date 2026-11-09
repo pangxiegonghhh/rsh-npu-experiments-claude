@@ -1,0 +1,8 @@
+LS {'sweep': 0, 'accepted': 400, 'sumU': 675054, 'sumGamma': 73926, 'elapsed': 1.9029390811920166}
+LS {'sweep': 1, 'accepted': 51, 'sumU': 671499, 'sumGamma': 73122, 'elapsed': 4.102727890014648}
+LS {'sweep': 2, 'accepted': 22, 'sumU': 670110, 'sumGamma': 73014, 'elapsed': 6.852082967758179}
+LS {'sweep': 3, 'accepted': 7, 'sumU': 669081, 'sumGamma': 72730, 'elapsed': 9.571874141693115}
+LS {'sweep': 4, 'accepted': 4, 'sumU': 668489, 'sumGamma': 72556, 'elapsed': 12.307125091552734}
+LS {'sweep': 5, 'accepted': 4, 'sumU': 668009, 'sumGamma': 72411, 'elapsed': 15.069140911102295}
+LS {'sweep': 6, 'accepted': 0, 'sumU': 668009, 'sumGamma': 72411, 'elapsed': 17.8582820892334}
+{"matrix": "pattern1", "method": "C5", "W": 16, "seed": 0, "start": 1793974983.7417622, "status": "OK", "command": ["scripts/rabbit_family.py", "--matrix", "pattern1", "--mode", "B", "--rep", "0"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/pattern1__C5__W16__seed0.order.json", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/pattern1__C5__W16__seed0.order.json", "sha256": "bb53e8ccf6acbc0b9aa7834f415c64452bff081d032bca647711e9f2d3130ff8", "size": 105360, "local_seconds": 11.235661029815674, "coarse_seconds": 16.701615571975708, "end": 1793975003.07499, "seconds": 19.33322787284851, "member": "C5", "tau": 8, "reuse": false, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/pattern1__C5__tau8/order.json", "peak_mem_mb": 295.515625}

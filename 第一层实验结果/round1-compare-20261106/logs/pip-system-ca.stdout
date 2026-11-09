@@ -1,0 +1,43 @@
+Collecting pynndescent==0.7.0
+  Downloading pynndescent-0.7.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting numba==0.68.1
+  Downloading numba-0.68.1-cp312-cp312-macosx_12_0_arm64.whl.metadata (2.8 kB)
+Collecting pymetis==2025.2.2
+  Downloading pymetis-2025.2.2-cp312-cp312-macosx_11_0_arm64.whl.metadata (4.4 kB)
+Collecting scikit-learn>=0.18 (from pynndescent==0.7.0)
+  Downloading scikit_learn-1.9.1-cp312-cp312-macosx_12_0_arm64.whl.metadata (9.3 kB)
+Collecting scipy>=1.0 (from pynndescent==0.7.0)
+  Downloading scipy-1.18.1-cp312-cp312-macosx_14_0_arm64.whl.metadata (62 kB)
+Collecting llvmlite>=0.38 (from pynndescent==0.7.0)
+  Downloading llvmlite-0.50.0-cp312-cp312-macosx_12_0_arm64.whl.metadata (5.1 kB)
+Collecting joblib>=0.11 (from pynndescent==0.7.0)
+  Downloading joblib-1.6.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting numpy<2.6,>=1.22 (from numba==0.68.1)
+  Downloading numpy-2.5.4-cp312-cp312-macosx_14_0_arm64.whl.metadata (6.6 kB)
+Collecting typing-extensions>=4.5 (from pymetis==2025.2.2)
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting cloudpickle>=3.0 (from joblib>=0.11->pynndescent==0.7.0)
+  Downloading cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+Collecting narwhals>=2.0.1 (from scikit-learn>=0.18->pynndescent==0.7.0)
+  Downloading narwhals-2.28.0-py3-none-any.whl.metadata (15 kB)
+Collecting threadpoolctl>=3.5.0 (from scikit-learn>=0.18->pynndescent==0.7.0)
+  Downloading threadpoolctl-3.8.0-py3-none-any.whl.metadata (29 kB)
+Downloading pynndescent-0.7.0-py3-none-any.whl (112 kB)
+Downloading numba-0.68.1-cp312-cp312-macosx_12_0_arm64.whl (2.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.8/2.8 MB 3.9 MB/s eta 0:00:00
+Downloading pymetis-2025.2.2-cp312-cp312-macosx_11_0_arm64.whl (236 kB)
+Downloading joblib-1.6.0-py3-none-any.whl (306 kB)
+Downloading llvmlite-0.50.0-cp312-cp312-macosx_12_0_arm64.whl (40.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.5/40.5 MB 7.7 MB/s eta 0:00:00
+Downloading numpy-2.5.4-cp312-cp312-macosx_14_0_arm64.whl (5.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 7.9 MB/s eta 0:00:00
+Downloading scikit_learn-1.9.1-cp312-cp312-macosx_12_0_arm64.whl (8.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 9.2 MB/s eta 0:00:00
+Downloading scipy-1.18.1-cp312-cp312-macosx_14_0_arm64.whl (20.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.5/20.5 MB 6.9 MB/s eta 0:00:00
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Downloading narwhals-2.28.0-py3-none-any.whl (490 kB)
+Downloading threadpoolctl-3.8.0-py3-none-any.whl (32 kB)
+Installing collected packages: typing-extensions, threadpoolctl, numpy, narwhals, llvmlite, cloudpickle, scipy, pymetis, numba, joblib, scikit-learn, pynndescent
+Successfully installed cloudpickle-3.1.2 joblib-1.6.0 llvmlite-0.50.0 narwhals-2.28.0 numba-0.68.1 numpy-2.5.4 pymetis-2025.2.2 pynndescent-0.7.0 scikit-learn-1.9.1 scipy-1.18.1 threadpoolctl-3.8.0 typing-extensions-4.16.0

@@ -1,0 +1,7 @@
+Number of threads: 1
+Reading an edge-list file: /root/rabbit-runs/wiki-RfA-U-repeat0.edges
+WARNING: 3/11380 vertex IDs are unused (zero-degree vertices or noncontiguous IDs?)
+Number of vertices: 11380
+Number of edges: 361960
+Generating a permutation...
+Runtime for permutation generation [sec]: 0.165868

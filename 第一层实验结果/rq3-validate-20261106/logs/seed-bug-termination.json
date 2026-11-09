@@ -1,0 +1,20 @@
+[
+  {
+    "pid": 4933,
+    "command": "/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -B scripts/run_t22_order_jobs.py",
+    "signal": "SIGTERM",
+    "time": 1793969747.391142
+  },
+  {
+    "pid": 10330,
+    "command": "/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -B scripts/order_job.py /Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/ogbn-arxiv__C9-S__ls__tau2__lam0.json",
+    "signal": "SIGTERM",
+    "time": 1793969747.405459
+  },
+  {
+    "pid": 10356,
+    "command": "/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -B scripts/order_job.py /Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/ogbn-arxiv__C9-S__ls__tau2__lam1.json",
+    "signal": "SIGTERM",
+    "time": 1793969747.4233038
+  }
+]

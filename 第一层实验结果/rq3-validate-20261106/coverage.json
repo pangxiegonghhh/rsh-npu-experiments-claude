@@ -1,0 +1,11 @@
+{
+  "expected_cases": 170,
+  "actual_cases": 170,
+  "OK": 170,
+  "INCOMPLETE": 0,
+  "result_rows": 4012,
+  "expected_result_rows": 4012,
+  "pls_records": 182,
+  "expected_pls_records": 182,
+  "derived_present": true
+}

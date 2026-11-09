@@ -1,0 +1,15 @@
+In file included from /usr/include/boost/atomic.hpp:15,
+                 from ../rabbit_order.hpp:22,
+                 from reorder.cc:9:
+/usr/include/boost/atomic/atomic.hpp: In instantiation of 'class boost::atomics::atomic<rabbit_order::aux::atom>':
+../rabbit_order.hpp:168:20:   required from 'union rabbit_order::aux::atomix<rabbit_order::aux::atom>'
+  168 |   boost::atomic<T> a;
+      |                    ^
+../rabbit_order.hpp:280:16:   required from here
+  280 |   atomix<atom> a;
+      |                ^
+/usr/include/boost/atomic/atomic.hpp:51:73: error: static assertion failed: boost::atomic<T> requires T to be a trivially copyable type
+   51 |     static_assert(atomics::detail::is_trivially_copyable< value_type >::value, "boost::atomic<T> requires T to be a trivially copyable type");
+      |                                                                         ^~~~~
+/usr/include/boost/atomic/atomic.hpp:51:73: note: 'std::integral_constant<bool, false>::value' evaluates to false
+make: *** [Makefile:12: reorder] Error 1

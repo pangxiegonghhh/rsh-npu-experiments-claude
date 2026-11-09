@@ -1,0 +1,14 @@
+{
+  "pid": 52370,
+  "slot": 1,
+  "command": [
+    "scripts/measure_t22_new.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/extra-order-jobs/wiki-RfA__C10-BP__rerun-start-LS__tau3__lam1.record.json"
+  ],
+  "queued_at": 1793978274.436445,
+  "acquired_at": 1793978488.7233331,
+  "queue_seconds": 214.2868881225586,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false
+}

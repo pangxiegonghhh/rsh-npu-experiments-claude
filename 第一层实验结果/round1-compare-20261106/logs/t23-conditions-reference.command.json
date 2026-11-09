@@ -1,0 +1,19 @@
+{
+  "name": "t23-conditions-reference",
+  "argv": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/第一层工作区/T23派发/conditions_ref.py",
+    "--cora-selfcheck"
+  ],
+  "cwd": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/gates/t23-conditions-reference",
+  "initial_directory_entries": [],
+  "started_utc": "2026-11-06T12:08:00.573257+00:00",
+  "source_sha256": "df0f3e390c4149399b1981f2ea2f509a3ad6003b328e58247666c0598dd556f0",
+  "pid": 60486,
+  "returncode": 0,
+  "ended_utc": "2026-11-06T12:08:01.529633+00:00",
+  "elapsed_sec": 0.9561724159866571,
+  "first_line": "T23 conditions self-check: OK",
+  "passed": true
+}

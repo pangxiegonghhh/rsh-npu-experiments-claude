@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "mode": "B",
+      "W": 16,
+      "cn": false,
+      "identical": true
+    },
+    {
+      "mode": "B",
+      "W": 16,
+      "cn": true,
+      "identical": true
+    },
+    {
+      "mode": "B",
+      "W": 32,
+      "cn": false,
+      "identical": true
+    },
+    {
+      "mode": "B",
+      "W": 32,
+      "cn": true,
+      "identical": true
+    },
+    {
+      "mode": "U",
+      "W": 16,
+      "cn": false,
+      "identical": true
+    },
+    {
+      "mode": "U",
+      "W": 16,
+      "cn": true,
+      "identical": true
+    },
+    {
+      "mode": "U",
+      "W": 32,
+      "cn": false,
+      "identical": true
+    },
+    {
+      "mode": "U",
+      "W": 32,
+      "cn": true,
+      "identical": true
+    }
+  ]
+}

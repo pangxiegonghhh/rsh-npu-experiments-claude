@@ -1,0 +1,118 @@
+{
+  "task": "T23",
+  "use": "base-order",
+  "matrix": "human_gene1",
+  "t23_member": "B0",
+  "t21_member": "B0",
+  "W": 16,
+  "params": "",
+  "source": "T21 \u5b8c\u6574\u5f52\u6863",
+  "path": "orders/human_gene1__B0__W16__tauNone__own__79af31260e8f.json",
+  "sha256": "fcd30d6884004ec4cb2edc9bd9f09a646a03c9f71705e8eaed2bbab8f8f35e1d",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__B0__W16__tauNone__own__79af31260e8f.json",
+  "verified_sha256": "08617eb1e4b122fc3ab2f679caf4bc725139a140526705ef276d21566f8f67a4",
+  "origin": "T21 archive",
+  "member": "B0",
+  "tau": 342,
+  "reuse": false,
+  "status": "OK",
+  "start": 1793975526.5496042,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/human_gene1__B0__tau342/order.json",
+  "size": 123932,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 13227,
+        "sumU": 5647358,
+        "sumGamma": 884763,
+        "elapsed": 20.1353440284729
+      },
+      {
+        "sweep": 1,
+        "accepted": 11892,
+        "sumU": 4757720,
+        "sumGamma": 766010,
+        "elapsed": 40.061360120773315
+      },
+      {
+        "sweep": 2,
+        "accepted": 9842,
+        "sumU": 4239367,
+        "sumGamma": 683161,
+        "elapsed": 58.871264934539795
+      },
+      {
+        "sweep": 3,
+        "accepted": 7386,
+        "sumU": 3936084,
+        "sumGamma": 626501,
+        "elapsed": 76.37720322608948
+      },
+      {
+        "sweep": 4,
+        "accepted": 5295,
+        "sumU": 3760584,
+        "sumGamma": 590517,
+        "elapsed": 92.79254126548767
+      },
+      {
+        "sweep": 5,
+        "accepted": 3732,
+        "sumU": 3660861,
+        "sumGamma": 570418,
+        "elapsed": 108.66422009468079
+      },
+      {
+        "sweep": 6,
+        "accepted": 2764,
+        "sumU": 3589417,
+        "sumGamma": 555771,
+        "elapsed": 124.26093792915344
+      },
+      {
+        "sweep": 7,
+        "accepted": 2087,
+        "sumU": 3538307,
+        "sumGamma": 545241,
+        "elapsed": 139.8055899143219
+      },
+      {
+        "sweep": 8,
+        "accepted": 1455,
+        "sumU": 3504549,
+        "sumGamma": 539505,
+        "elapsed": 155.19072103500366
+      },
+      {
+        "sweep": 9,
+        "accepted": 1136,
+        "sumU": 3482214,
+        "sumGamma": 534913,
+        "elapsed": 170.59644198417664
+      }
+    ],
+    "sweeps_done": 10,
+    "accepted_swaps": 58816,
+    "tracked_sumU": 3482214,
+    "tracked_sumGamma": 534913,
+    "independent_full_recompute": {
+      "k_windows": 836,
+      "sumU": 3482214,
+      "T": 218032,
+      "sumGamma": 534913,
+      "sumR": 1001795,
+      "R_p50": 1105,
+      "R_p90": 1722,
+      "R_max": 2419,
+      "write_runs_aic": 836,
+      "meanR": 1198.319378
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 1193734392
+  },
+  "end": 1793975735.394509,
+  "seconds": 208.84490489959717,
+  "peak_mem_mb": 1118.640625
+}

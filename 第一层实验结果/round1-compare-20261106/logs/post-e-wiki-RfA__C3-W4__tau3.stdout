@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 2676, 'sumU': 203076, 'sumGamma': 81492, 'elapsed': 0.7577581405639648}
+LS {'sweep': 1, 'accepted': 1192, 'sumU': 195377, 'sumGamma': 77623, 'elapsed': 1.5837790966033936}
+LS {'sweep': 2, 'accepted': 619, 'sumU': 192048, 'sumGamma': 75489, 'elapsed': 2.3284201622009277}
+LS {'sweep': 3, 'accepted': 417, 'sumU': 189846, 'sumGamma': 74153, 'elapsed': 3.0736682415008545}
+LS {'sweep': 4, 'accepted': 276, 'sumU': 188517, 'sumGamma': 73321, 'elapsed': 3.799661159515381}
+LS {'sweep': 5, 'accepted': 184, 'sumU': 187618, 'sumGamma': 72625, 'elapsed': 4.552148103713989}
+LS {'sweep': 6, 'accepted': 123, 'sumU': 186902, 'sumGamma': 72216, 'elapsed': 5.280394077301025}
+LS {'sweep': 7, 'accepted': 93, 'sumU': 186504, 'sumGamma': 71917, 'elapsed': 6.005640983581543}
+LS {'sweep': 8, 'accepted': 61, 'sumU': 186206, 'sumGamma': 71722, 'elapsed': 6.730281114578247}
+LS {'sweep': 9, 'accepted': 52, 'sumU': 185902, 'sumGamma': 71480, 'elapsed': 7.4593610763549805}
+{"matrix": "wiki-RfA", "method": "C3-W4", "W": 16, "seed": 0, "start": 1793971787.4800441, "status": "OK", "command": ["/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py", "--matrix", "wiki-RfA", "--method", "C3-W4", "--seed", "0"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/wiki-RfA__C3-W4__W16__seed0.order.json", "sha256": "e7221729a6019cc7e0930c702499db5fafc3f7f844590709ad5df4d86c2fec58", "size": 58467, "end": 1793971795.445596, "seconds": 7.965551853179932, "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/wiki-RfA__C3-W4__W16__seed0.order.json", "member": "C3-W4", "tau": 3, "reuse": false, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/wiki-RfA__C3-W4__tau3/order.json", "peak_mem_mb": 88.359375}

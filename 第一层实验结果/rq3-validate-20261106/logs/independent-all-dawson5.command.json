@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/independent_matrix_job.py",
+    "dawson5"
+  ],
+  "start": 1793973154.881003,
+  "end": 1793973612.354069,
+  "exitcode": 0
+}

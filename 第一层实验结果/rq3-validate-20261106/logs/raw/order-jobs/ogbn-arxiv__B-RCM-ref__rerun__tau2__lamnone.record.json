@@ -1,0 +1,29 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "ogbn-arxiv",
+  "member": "B-RCM-ref",
+  "start": 1793974368.616995,
+  "lam": "",
+  "tau": 2,
+  "seed": 0,
+  "t21_path": "orders/ogbn-arxiv__B-RCM-ref__W16__tauNone__own__7e8aebbe4091.json",
+  "sha256": "55cee2c5bb488f5a191fc0443dcb369d6f9e6b6290d387044a4b64a866526989",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__B-RCM-ref__W16__tauNone__own__7e8aebbe4091.json",
+  "verified_sha256": "8e9821780bc6b304651e24bf5bf1e6d9a58a778c056c849b2fde58adaf829c83",
+  "origin": "T21 archive",
+  "kind": "rerun",
+  "W": 16,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/ogbn-arxiv__B-RCM-ref__rerun__tau2__lamnone.json"
+  ],
+  "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/ogbn-arxiv__B-RCM-ref__rerun__tau2__lamnone.checkpoint.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/ogbn-arxiv__B-RCM-ref__rerun__tau2__lamnone.order.json",
+  "size": 826264,
+  "diagnostics": {},
+  "end": 1793974370.663748,
+  "seconds": 2.0467529296875
+}

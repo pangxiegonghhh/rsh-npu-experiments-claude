@@ -1,0 +1,33 @@
+{
+  "matrix": "wiki-RfA",
+  "member": "B-RCM-ref",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 13414,
+  "T_full_phase": 13522.266666666666,
+  "align_premium": 108.26666666666642,
+  "T_inplace": 13157,
+  "T_keep": 13057,
+  "U_inplace": 205937,
+  "U_keep": 205911,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.47144603729248047,
+  "status": "OK"
+}

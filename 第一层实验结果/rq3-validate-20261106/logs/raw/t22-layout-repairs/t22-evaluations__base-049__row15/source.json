@@ -1,0 +1,38 @@
+{
+  "original_results": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-evaluations/base-049/results.json",
+  "original_row_index": 15,
+  "record": {
+    "task": "T22",
+    "use": "base-order",
+    "matrix": "pattern1",
+    "member": "C9-Gorder",
+    "start": "",
+    "lam": "",
+    "tau": "none",
+    "seed": "",
+    "t21_path": "orders/pattern1__C9-Gorder__W16__tauNone__own__f65a44c64e70.json",
+    "sha256": "28719515e3fecae5cc3f98b8f425b4f6cb4cb06081680de48e83d413723b663c",
+    "note": "",
+    "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__C9-Gorder__W16__tauNone__own__f65a44c64e70.json",
+    "verified_sha256": "28719515e3fecae5cc3f98b8f425b4f6cb4cb06081680de48e83d413723b663c",
+    "origin": "T21 archive"
+  },
+  "old_row": {
+    "matrix": "pattern1",
+    "diag": "A0",
+    "member": "C9-Gorder",
+    "W": 16,
+    "tau": 757,
+    "tau_rule": "q40",
+    "resid_frac": 0.5674046356927555,
+    "resid_nnz_frac": 0.31575720186281664,
+    "source": "keep",
+    "placement": "gap",
+    "d_rule": "D-greedy",
+    "status": "INCOMPLETE",
+    "note": "inter candidate workspace exceeds 8GiB safety budget; INCOMPLETE",
+    "lambda": "",
+    "sec": 22.861360788345337
+  },
+  "representation": "packed, all logical candidates retained and ordered identically"
+}

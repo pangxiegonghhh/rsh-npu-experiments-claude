@@ -1,0 +1,68 @@
+[
+ {
+  "matrix": "pattern1",
+  "member": "B-RCM-ref",
+  "W": 16,
+  "tau": 8,
+  "diag": 0,
+  "source": "rerun",
+  "placement": "tail",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "pattern1",
+  "member": "B-RCM-ref",
+  "W": 16,
+  "tau": 8,
+  "diag": 0,
+  "source": "rerun",
+  "placement": "tail-co",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 2
+ },
+ {
+  "matrix": "pattern1",
+  "member": "B-RCM-ref",
+  "W": 16,
+  "tau": 8,
+  "diag": 0,
+  "source": "rerun",
+  "placement": "gap",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "pattern1",
+  "member": "B-RCM-ref",
+  "W": 16,
+  "tau": 8,
+  "diag": 1,
+  "source": "rerun",
+  "placement": "tail",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "pattern1",
+  "member": "B-RCM-ref",
+  "W": 16,
+  "tau": 8,
+  "diag": 1,
+  "source": "rerun",
+  "placement": "tail-co",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 2
+ },
+ {
+  "matrix": "pattern1",
+  "member": "B-RCM-ref",
+  "W": 16,
+  "tau": 8,
+  "diag": 1,
+  "source": "rerun",
+  "placement": "gap",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 0
+ }
+]

@@ -1,0 +1,33 @@
+{
+  "matrix": "dawson5",
+  "member": "rabbit-pilot",
+  "W": 16,
+  "diag": "A0",
+  "tau": 17,
+  "T_full": 18897,
+  "T_full_phase": 18895.4,
+  "align_premium": -1.5999999999985448,
+  "T_inplace": 14294,
+  "T_keep": 10733,
+  "U_inplace": 208291,
+  "U_keep": 163680,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 1.7714219093322754,
+  "status": "OK"
+}

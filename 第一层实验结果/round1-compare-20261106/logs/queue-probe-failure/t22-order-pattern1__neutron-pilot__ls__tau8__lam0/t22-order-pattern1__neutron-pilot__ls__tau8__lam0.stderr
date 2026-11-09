@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/order_job.py", line 41, in <module>
+    cpu_slot=acquire()
+             ^^^^^^^^^
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/resource_slots.py", line 10, in acquire
+    try:os.kill(entry['pid'],0);alive.append(entry)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted

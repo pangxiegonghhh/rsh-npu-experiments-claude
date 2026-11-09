@@ -1,0 +1,3 @@
+B0|tau342|order {'T_full': 613486, 'T_inplace': 585323, 'T_keep': 444856, 'U_inplace': 9354315, 'U_keep': 7111546, 'T_full_phase': 613330.1}
+C9-Gorder|tau342|order {'T_full': 278479, 'T_inplace': 257950, 'T_keep': 236648, 'U_inplace': 4118650, 'U_keep': 3780096, 'T_full_phase': 279059.3}
+C10-BP|tau342|order {'T_full': 223374, 'T_inplace': 203991, 'T_keep': 205067, 'U_inplace': 3256504, 'U_keep': 3274921, 'T_full_phase': 231138.9}

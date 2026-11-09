@@ -1,0 +1,32 @@
+{
+  "task": "T23",
+  "use": "W-sensitivity",
+  "matrix": "cora",
+  "t23_member": "C10-BP",
+  "t21_member": "C10-BP",
+  "W": 32,
+  "params": "",
+  "source": "T21 \u5b8c\u6574\u5f52\u6863",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/extra-order-jobs/cora__C10-BP__W32__rerun__tauNone.order.json",
+  "sha256": "9ff0e4a699f38d8389d49b4cc23fc1c9567a4dd26c020e8354e5dbe8c37b5ab7",
+  "note": "\u6309\u8be5 W \u91cd\u7b97\u7684\u884c\u5e8f",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__C10-BP__W32__tauNone__own__b0a310c46bab.json",
+  "verified_sha256": "a46bc93a09c5a38b539fb9b4108007079a247d0ee728dd1a835a275e915aaa35",
+  "origin": "T21 archive",
+  "member": "C10-BP",
+  "kind": "rerun",
+  "tau": null,
+  "seed": 0,
+  "start": 1793970901.887289,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-extra-catalog/cora__C10-BP__W32__rerun__tauNone.json",
+    "--output-dir",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/extra-order-jobs"
+  ],
+  "size": 12529,
+  "diagnostics": {},
+  "end": 1793970901.958645,
+  "seconds": 0.07135605812072754
+}

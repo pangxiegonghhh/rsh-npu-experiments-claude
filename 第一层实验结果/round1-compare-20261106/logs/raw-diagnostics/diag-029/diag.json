@@ -1,0 +1,33 @@
+{
+  "matrix": "dawson5",
+  "member": "C9-S",
+  "W": 16,
+  "diag": "A0",
+  "tau": 17,
+  "T_full": 16038,
+  "T_full_phase": 16061.2,
+  "align_premium": 23.200000000000728,
+  "T_inplace": 10659,
+  "T_keep": 8476,
+  "U_inplace": 154653,
+  "U_keep": 127213,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 2.3383588790893555,
+  "status": "OK"
+}

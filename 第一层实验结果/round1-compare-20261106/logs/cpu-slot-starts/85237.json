@@ -1,0 +1,13 @@
+{
+  "pid": 85237,
+  "slot": 1,
+  "command": [
+    "scripts/measure_t22_new.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-new-eval-catalog/wiki-RfA__rabbit-pilot__rerun__tau3__lamnone.record.json"
+  ],
+  "queued_at": 1793975008.282961,
+  "acquired_at": 1793975023.554394,
+  "queue_seconds": 15.271433115005493,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots"
+}

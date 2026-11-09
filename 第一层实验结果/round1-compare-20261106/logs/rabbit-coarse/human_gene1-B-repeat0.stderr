@@ -1,0 +1,7 @@
+Number of threads: 1
+Reading an edge-list file: /root/rabbit-runs/human_gene1-B-repeat0.edges
+WARNING: 786/44566 vertex IDs are unused (zero-degree vertices or noncontiguous IDs?)
+Number of vertices: 44566
+Number of edges: 49294720
+Generating a permutation...
+Runtime for permutation generation [sec]: 14.8928

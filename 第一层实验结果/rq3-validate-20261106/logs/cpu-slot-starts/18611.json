@@ -1,0 +1,12 @@
+{
+  "pid": 18611,
+  "slot": 0,
+  "command": [
+    "scripts/diagnose_t23.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-125.json"
+  ],
+  "queued_at": 1793971680.149667,
+  "acquired_at": 1793971697.8643358,
+  "queue_seconds": 17.71466875076294,
+  "discipline": "FIFO"
+}

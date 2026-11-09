@@ -1,0 +1,33 @@
+{
+  "matrix": "human_gene1",
+  "member": "C9-Gorder",
+  "W": 16,
+  "diag": "A0",
+  "tau": 342,
+  "T_full": 278479,
+  "T_full_phase": 279059.26666666666,
+  "align_premium": 580.2666666666628,
+  "T_inplace": 257950,
+  "T_keep": 236648,
+  "U_inplace": 4118650,
+  "U_keep": 3780096,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 15.401265144348145,
+  "status": "OK"
+}

@@ -1,0 +1,38 @@
+[
+ {
+  "matrix": "pattern1",
+  "member": "C10-BP",
+  "W": 16,
+  "tau": 757,
+  "diag": "A0",
+  "source": "pls-0",
+  "k_windows": 521,
+  "sumU": 470948,
+  "T": 29818,
+  "sumGamma": 51218,
+  "sumR": 28487,
+  "R_p50": 54,
+  "R_p90": 58,
+  "R_max": 111,
+  "write_runs_aic": 521,
+  "meanR": 54.677543
+ },
+ {
+  "matrix": "pattern1",
+  "member": "C10-BP",
+  "W": 16,
+  "tau": 757,
+  "diag": "A1",
+  "source": "pls-0",
+  "k_windows": 521,
+  "sumU": 470964,
+  "T": 29818,
+  "sumGamma": 51218,
+  "sumR": 28476,
+  "R_p50": 54,
+  "R_p90": 58,
+  "R_max": 110,
+  "write_runs_aic": 521,
+  "meanR": 54.65643
+ }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "matrix": "olafu",
+    "member": "C3-W1",
+    "W": 16,
+    "boundary": "candidate groups",
+    "k_windows": 1011,
+    "sumU": 136123,
+    "T": 9015,
+    "diagnostic_only": true
+  },
+  {
+    "matrix": "olafu",
+    "member": "C3-W1",
+    "W": 16,
+    "boundary": "W16 evaluation windows",
+    "k_windows": 1010,
+    "sumU": 136415,
+    "T": 9033,
+    "diagnostic_only": true
+  }
+]

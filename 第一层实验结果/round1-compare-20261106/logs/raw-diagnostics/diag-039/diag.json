@@ -1,0 +1,33 @@
+{
+  "matrix": "olafu",
+  "member": "B-RCM-ref",
+  "W": 16,
+  "diag": "A0",
+  "tau": 56,
+  "T_full": 8786,
+  "T_full_phase": 8920.733333333334,
+  "align_premium": 134.73333333333358,
+  "T_inplace": 6475,
+  "T_keep": 5896,
+  "U_inplace": 96819,
+  "U_keep": 89593,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 1.0774312019348145,
+  "status": "OK"
+}

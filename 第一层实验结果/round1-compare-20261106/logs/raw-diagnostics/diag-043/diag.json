@@ -1,0 +1,33 @@
+{
+  "matrix": "pattern1",
+  "member": "neutron-pilot",
+  "W": 16,
+  "diag": "A0",
+  "tau": 757,
+  "T_full": 72098,
+  "T_full_phase": 85205.73333333334,
+  "align_premium": 13107.733333333337,
+  "T_inplace": 48158,
+  "T_keep": 46437,
+  "U_inplace": 764365,
+  "U_keep": 737133,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 3.9808011054992676,
+  "status": "OK"
+}

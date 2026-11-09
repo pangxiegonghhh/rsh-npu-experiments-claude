@@ -1,0 +1,6 @@
+Number of threads: 1
+Reading an edge-list file: /root/rabbit-runs/cora-U-repeat2.edges
+Number of vertices: 2708
+Number of edges: 10556
+Generating a permutation...
+Runtime for permutation generation [sec]: 0.00073123

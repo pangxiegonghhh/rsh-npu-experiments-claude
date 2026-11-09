@@ -1,0 +1,3 @@
+B0|tau17|order {'T_full': 21480, 'T_inplace': 14202, 'T_keep': 10667, 'U_inplace': 207158, 'U_keep': 161563, 'T_full_phase': 21470.9}
+C9-Gorder|tau17|order {'T_full': 16180, 'T_inplace': 10634, 'T_keep': 8503, 'U_inplace': 153871, 'U_keep': 127840, 'T_full_phase': 16183.9}
+C10-BP|tau17|order {'T_full': 16213, 'T_inplace': 12569, 'T_keep': 11306, 'U_inplace': 180459, 'U_keep': 172314, 'T_full_phase': 21800.9}

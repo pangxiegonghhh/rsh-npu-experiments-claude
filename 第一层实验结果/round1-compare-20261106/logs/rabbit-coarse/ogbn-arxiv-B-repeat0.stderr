@@ -1,0 +1,6 @@
+Number of threads: 1
+Reading an edge-list file: /root/rabbit-runs/ogbn-arxiv-B-repeat0.edges
+Number of vertices: 338686
+Number of edges: 4631196
+Generating a permutation...
+Runtime for permutation generation [sec]: 2.41846

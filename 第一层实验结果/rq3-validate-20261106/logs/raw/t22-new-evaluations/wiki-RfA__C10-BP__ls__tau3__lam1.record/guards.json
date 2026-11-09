@@ -1,0 +1,35 @@
+[
+ {
+  "matrix": "wiki-RfA",
+  "member": 1793976173.524204,
+  "W": 16,
+  "tau": 3,
+  "diag": 0,
+  "source": "pls-1",
+  "placement": "tail",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "wiki-RfA",
+  "member": 1793976173.524204,
+  "W": 16,
+  "tau": 3,
+  "diag": 0,
+  "source": "pls-1",
+  "placement": "tail-co",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "wiki-RfA",
+  "member": 1793976173.524204,
+  "W": 16,
+  "tau": 3,
+  "diag": 0,
+  "source": "pls-1",
+  "placement": "gap",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 0
+ }
+]

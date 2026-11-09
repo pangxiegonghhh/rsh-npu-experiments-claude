@@ -1,0 +1,72 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "pattern1",
+  "member": "C10-BP",
+  "start": 1793980463.222694,
+  "lam": "",
+  "tau": 757,
+  "seed": 0,
+  "t21_path": "orders/pattern1__C10-BP__W16__tauNone__own__8f222137b9eb.json",
+  "sha256": "824577428ccc666147f2a74fac758c3f13b61ba9e702a00cdcc9e7a3ea7b91ca",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__C10-BP__W16__tauNone__own__8f222137b9eb.json",
+  "verified_sha256": "1d8b0c62ba652636903424a758dc70e25896077a5ab7a5d906c25c1feb9a1509",
+  "origin": "T21 archive",
+  "kind": "ls",
+  "W": 16,
+  "lambda": 0,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/pattern1__C10-BP__ls__tau757__lam0.json"
+  ],
+  "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/pattern1__C10-BP__ls__tau757__lam0.checkpoint.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/pattern1__C10-BP__ls__tau757__lam0.order.json",
+  "size": 105038,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 68,
+        "sumU": 471669,
+        "sumGamma": 51247,
+        "elapsed": 0.8503680229187012
+      },
+      {
+        "sweep": 1,
+        "accepted": 4,
+        "sumU": 470948,
+        "sumGamma": 51218,
+        "elapsed": 2.1061320304870605
+      },
+      {
+        "sweep": 2,
+        "accepted": 0,
+        "sumU": 470948,
+        "sumGamma": 51218,
+        "elapsed": 3.353722095489502
+      }
+    ],
+    "sweeps_done": 3,
+    "accepted_swaps": 72,
+    "tracked_sumU": 470948,
+    "tracked_sumGamma": 51218,
+    "independent_full_recompute": {
+      "k_windows": 521,
+      "sumU": 470948,
+      "T": 29818,
+      "sumGamma": 51218,
+      "sumR": 28487,
+      "R_p50": 54,
+      "R_p90": 58,
+      "R_max": 111,
+      "write_runs_aic": 521,
+      "meanR": 54.677543
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 452455942
+  },
+  "end": 1793980467.326554,
+  "seconds": 4.103860139846802
+}

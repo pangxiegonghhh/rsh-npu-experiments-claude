@@ -1,0 +1,7 @@
+Number of threads: 1
+Reading an edge-list file: /root/rabbit-runs/dawson5-U-repeat0.edges
+WARNING: 288/51537 vertex IDs are unused (zero-degree vertices or noncontiguous IDs?)
+Number of vertices: 51537
+Number of edges: 959240
+Generating a permutation...
+Runtime for permutation generation [sec]: 0.239007

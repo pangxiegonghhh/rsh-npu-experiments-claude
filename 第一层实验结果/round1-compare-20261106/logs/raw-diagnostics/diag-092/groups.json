@@ -1,0 +1,22 @@
+[
+  {
+    "matrix": "wiki-RfA",
+    "member": "C2-LSH",
+    "W": 16,
+    "boundary": "candidate groups",
+    "k_windows": 718,
+    "sumU": 258491,
+    "T": 16493,
+    "diagnostic_only": true
+  },
+  {
+    "matrix": "wiki-RfA",
+    "member": "C2-LSH",
+    "W": 16,
+    "boundary": "W16 evaluation windows",
+    "k_windows": 712,
+    "sumU": 261106,
+    "T": 16658,
+    "diagnostic_only": true
+  }
+]

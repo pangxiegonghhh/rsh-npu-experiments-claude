@@ -1,0 +1,94 @@
+{
+  "matrix": "pattern1",
+  "method": "C5-U",
+  "W": 16,
+  "seed": 0,
+  "start": 1793974922.175499,
+  "status": "OK",
+  "command": [
+    "scripts/rabbit_family.py",
+    "--matrix",
+    "pattern1",
+    "--mode",
+    "U",
+    "--rep",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/pattern1__C5-U__W16__seed0.order.json",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/pattern1__C5-U__W16__seed0.order.json",
+  "sha256": "600b593bef63df482af9b2a3ee4ab06591eb25039583bb09dca1c6484c024b97",
+  "size": 105278,
+  "local_seconds": 10.129650831222534,
+  "coarse_seconds": 10.589770078659058,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 409,
+        "sumU": 679990,
+        "sumGamma": 73254,
+        "elapsed": 1.722527027130127
+      },
+      {
+        "sweep": 1,
+        "accepted": 39,
+        "sumU": 676895,
+        "sumGamma": 72495,
+        "elapsed": 3.6267099380493164
+      },
+      {
+        "sweep": 2,
+        "accepted": 14,
+        "sumU": 676751,
+        "sumGamma": 72427,
+        "elapsed": 5.610630989074707
+      },
+      {
+        "sweep": 3,
+        "accepted": 1,
+        "sumU": 676750,
+        "sumGamma": 72426,
+        "elapsed": 7.600641965866089
+      },
+      {
+        "sweep": 4,
+        "accepted": 2,
+        "sumU": 676745,
+        "sumGamma": 72423,
+        "elapsed": 9.574432134628296
+      },
+      {
+        "sweep": 5,
+        "accepted": 0,
+        "sumU": 676745,
+        "sumGamma": 72423,
+        "elapsed": 11.535827875137329
+      }
+    ],
+    "sweeps_done": 6,
+    "accepted_swaps": 465,
+    "tracked_sumU": 676745,
+    "tracked_sumGamma": 72423,
+    "independent_full_recompute": {
+      "k_windows": 943,
+      "sumU": 676745,
+      "T": 42914,
+      "sumGamma": 72423,
+      "sumR": 44309,
+      "R_p50": 40,
+      "R_p90": 82,
+      "R_max": 492,
+      "write_runs_aic": 943,
+      "meanR": 46.987275
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 456974858
+  },
+  "end": 1793974935.251575,
+  "seconds": 13.076076030731201,
+  "member": "C5-U",
+  "tau": 8,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/pattern1__C5-U__tau8/order.json",
+  "peak_mem_mb": 297.71875
+}

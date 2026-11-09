@@ -1,0 +1,33 @@
+{
+  "matrix": "wiki-RfA",
+  "member": "C8-METIS",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 17605,
+  "T_full_phase": 18553.133333333335,
+  "align_premium": 948.133333333335,
+  "T_inplace": 17467,
+  "T_keep": 16751,
+  "U_inplace": 273983,
+  "U_keep": 265183,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.24271583557128906,
+  "status": "OK"
+}

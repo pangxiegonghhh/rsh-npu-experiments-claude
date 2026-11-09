@@ -1,0 +1,72 @@
+{
+  "task": "T22",
+  "use": "base-order",
+  "matrix": "olafu",
+  "member": "C9-S",
+  "start": 1793979826.127773,
+  "lam": "",
+  "tau": 56,
+  "seed": 0,
+  "t21_path": "orders/olafu__C9-S__W16__tauNone__own__5da9c4019ec4.json",
+  "sha256": "311be106619c091a630f430c5ccf91d01b35455bce2c9296ee86080de9429b57",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__C9-S__W16__tauNone__own__5da9c4019ec4.json",
+  "verified_sha256": "49cb724ff8e5579578adebd07394af68a722e86581762feaa1ce4aaf5f2bef09",
+  "origin": "T21 archive",
+  "kind": "ls",
+  "W": 16,
+  "lambda": 1,
+  "status": "OK",
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/olafu__C9-S__ls__tau56__lam1.json"
+  ],
+  "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/olafu__C9-S__ls__tau56__lam1.checkpoint.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/olafu__C9-S__ls__tau56__lam1.order.json",
+  "size": 86443,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 299,
+        "sumU": 83759,
+        "sumGamma": 8436,
+        "elapsed": 0.3137829303741455
+      },
+      {
+        "sweep": 1,
+        "accepted": 1,
+        "sumU": 83757,
+        "sumGamma": 8436,
+        "elapsed": 0.6355047225952148
+      },
+      {
+        "sweep": 2,
+        "accepted": 0,
+        "sumU": 83757,
+        "sumGamma": 8436,
+        "elapsed": 0.9575228691101074
+      }
+    ],
+    "sweeps_done": 3,
+    "accepted_swaps": 300,
+    "tracked_sumU": 83757,
+    "tracked_sumGamma": 8436,
+    "independent_full_recompute": {
+      "k_windows": 598,
+      "sumU": 83757,
+      "T": 5579,
+      "sumGamma": 8436,
+      "sumR": 5425,
+      "R_p50": 7,
+      "R_p90": 17,
+      "R_max": 39,
+      "write_runs_aic": 598,
+      "meanR": 9.071906
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 53646776
+  },
+  "end": 1793979827.155596,
+  "seconds": 1.0278229713439941
+}

@@ -1,0 +1,13 @@
+{
+  "pid": 44288,
+  "slot": 1,
+  "command": [
+    "scripts/independent_matrix_job.py",
+    "wiki-RfA"
+  ],
+  "queued_at": 1793972957.6160371,
+  "acquired_at": 1793973151.2945862,
+  "queue_seconds": 193.6785490512848,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots"
+}

@@ -1,0 +1,117 @@
+{
+  "matrix": "wiki-RfA",
+  "method": "C8-METIS",
+  "W": 16,
+  "seed": 0,
+  "start": 1793977198.668278,
+  "status": "OK",
+  "params": "edgecut; ufactor=30; seed=0; direct k-way; exact capacity repair",
+  "command": [
+    "scripts/external_metis.py",
+    "--matrix",
+    "wiki-RfA"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/wiki-RfA__C8-METIS__W16__seed0.order.json",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/wiki-RfA__C8-METIS__W16__seed0.order.json",
+  "sha256": "3ff357f590613ae24e6391c50043e69c4ac40987bb282ebe81828afcfc6bf9c8",
+  "size": 58471,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 5053,
+        "sumU": 218994,
+        "sumGamma": 88527,
+        "elapsed": 0.8410468101501465
+      },
+      {
+        "sweep": 1,
+        "accepted": 2751,
+        "sumU": 201587,
+        "sumGamma": 78649,
+        "elapsed": 1.8877079486846924
+      },
+      {
+        "sweep": 2,
+        "accepted": 1546,
+        "sumU": 193642,
+        "sumGamma": 73960,
+        "elapsed": 2.804569959640503
+      },
+      {
+        "sweep": 3,
+        "accepted": 1009,
+        "sumU": 188982,
+        "sumGamma": 71281,
+        "elapsed": 3.601942777633667
+      },
+      {
+        "sweep": 4,
+        "accepted": 690,
+        "sumU": 186126,
+        "sumGamma": 69503,
+        "elapsed": 4.414788007736206
+      },
+      {
+        "sweep": 5,
+        "accepted": 484,
+        "sumU": 184260,
+        "sumGamma": 68402,
+        "elapsed": 5.270555019378662
+      },
+      {
+        "sweep": 6,
+        "accepted": 346,
+        "sumU": 183020,
+        "sumGamma": 67476,
+        "elapsed": 6.07831883430481
+      },
+      {
+        "sweep": 7,
+        "accepted": 242,
+        "sumU": 182238,
+        "sumGamma": 66978,
+        "elapsed": 6.90069580078125
+      },
+      {
+        "sweep": 8,
+        "accepted": 211,
+        "sumU": 181428,
+        "sumGamma": 66227,
+        "elapsed": 7.742325067520142
+      },
+      {
+        "sweep": 9,
+        "accepted": 219,
+        "sumU": 180516,
+        "sumGamma": 65446,
+        "elapsed": 8.606948852539062
+      }
+    ],
+    "sweeps_done": 10,
+    "accepted_swaps": 12551,
+    "tracked_sumU": 180516,
+    "tracked_sumGamma": 65446,
+    "independent_full_recompute": {
+      "k_windows": 376,
+      "sumU": 180516,
+      "T": 11465,
+      "sumGamma": 65446,
+      "sumR": 124229,
+      "R_p50": 303,
+      "R_p90": 518,
+      "R_max": 1220,
+      "write_runs_aic": 376,
+      "meanR": 330.396277
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 19979968
+  },
+  "end": 1793977207.8463628,
+  "seconds": 9.17808485031128,
+  "peak_mem_mb": 81.390625,
+  "member": "C8-METIS",
+  "tau": 3,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/wiki-RfA__C8-METIS__tau3/order.json"
+}

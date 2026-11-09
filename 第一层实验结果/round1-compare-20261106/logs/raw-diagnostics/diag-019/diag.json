@@ -1,0 +1,33 @@
+{
+  "matrix": "wiki-RfA",
+  "member": "neutron-pilot",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 12065,
+  "T_full_phase": 12783.333333333334,
+  "align_premium": 718.3333333333339,
+  "T_inplace": 11823,
+  "T_keep": 12026,
+  "U_inplace": 184249,
+  "U_keep": 189566,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.6133649349212646,
+  "status": "OK"
+}

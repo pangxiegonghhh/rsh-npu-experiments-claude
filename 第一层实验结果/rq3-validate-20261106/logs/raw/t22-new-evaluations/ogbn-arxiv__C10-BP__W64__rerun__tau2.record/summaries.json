@@ -1,0 +1,38 @@
+[
+ {
+  "matrix": "ogbn-arxiv",
+  "member": 1793974867.693662,
+  "W": 64,
+  "tau": 2,
+  "diag": "A0",
+  "source": "rerun",
+  "k_windows": 2035,
+  "sumU": 942889,
+  "T": 59894,
+  "sumGamma": 276543,
+  "sumR": 678578,
+  "R_p50": 237,
+  "R_p90": 547,
+  "R_max": 10162,
+  "write_runs_aic": 2035,
+  "meanR": 333.453563
+ },
+ {
+  "matrix": "ogbn-arxiv",
+  "member": 1793974867.693662,
+  "W": 64,
+  "tau": 2,
+  "diag": "A1",
+  "source": "rerun",
+  "k_windows": 2035,
+  "sumU": 986300,
+  "T": 62614,
+  "sumGamma": 276551,
+  "sumR": 660538,
+  "R_p50": 228,
+  "R_p90": 539,
+  "R_max": 10161,
+  "write_runs_aic": 2035,
+  "meanR": 324.588698
+ }
+]

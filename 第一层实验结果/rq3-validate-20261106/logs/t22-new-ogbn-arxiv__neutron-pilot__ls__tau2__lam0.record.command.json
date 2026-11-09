@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/measure_t22_new.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-new-eval-catalog/ogbn-arxiv__neutron-pilot__ls__tau2__lam0.record.json"
+  ],
+  "start": 1793971087.040433,
+  "end": 1793971144.513719,
+  "exitcode": 0
+}
