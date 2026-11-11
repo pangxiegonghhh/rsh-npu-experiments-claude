@@ -1,0 +1,182 @@
+[
+  {
+    "matrix": "cora",
+    "actual": {
+      "indptr": "0bcfb45e9e788d52c6b5242efd902a376618e15426bc595a743b389551744ddd",
+      "indices": "fd234c1a16a9a59e0c022127ab01847b58ea170f72d82919c81c336ad2d9bc15",
+      "degrees": "162e73d5fe3c494f4ed2bae13833fc956361ddc11bfb43704c9b09f53f73286e"
+    },
+    "expected": {
+      "indptr": "0bcfb45e9e788d52c6b5242efd902a376618e15426bc595a743b389551744ddd",
+      "indices": "fd234c1a16a9a59e0c022127ab01847b58ea170f72d82919c81c336ad2d9bc15",
+      "degrees": "162e73d5fe3c494f4ed2bae13833fc956361ddc11bfb43704c9b09f53f73286e"
+    },
+    "passed": true,
+    "after": {
+      "indptr": "0bcfb45e9e788d52c6b5242efd902a376618e15426bc595a743b389551744ddd",
+      "indices": "fd234c1a16a9a59e0c022127ab01847b58ea170f72d82919c81c336ad2d9bc15",
+      "degrees": "162e73d5fe3c494f4ed2bae13833fc956361ddc11bfb43704c9b09f53f73286e"
+    },
+    "unchanged_after": true
+  },
+  {
+    "matrix": "wiki-RfA",
+    "actual": {
+      "indptr": "1a646bcede9e5f6efc55434e8754f9ea2ee1210ddf3be624178ad298c9d84318",
+      "indices": "ce96618d981a2fea54dc97eb0989d8a4eb43116267a96a7b4de857f13f0afc22",
+      "degrees": "8ceb46ebee6963169e09d19b3eefb31650921a302b99821f513e07bc05f72165"
+    },
+    "expected": {
+      "indptr": "1a646bcede9e5f6efc55434e8754f9ea2ee1210ddf3be624178ad298c9d84318",
+      "indices": "ce96618d981a2fea54dc97eb0989d8a4eb43116267a96a7b4de857f13f0afc22",
+      "degrees": "8ceb46ebee6963169e09d19b3eefb31650921a302b99821f513e07bc05f72165"
+    },
+    "passed": true,
+    "after": {
+      "indptr": "1a646bcede9e5f6efc55434e8754f9ea2ee1210ddf3be624178ad298c9d84318",
+      "indices": "ce96618d981a2fea54dc97eb0989d8a4eb43116267a96a7b4de857f13f0afc22",
+      "degrees": "8ceb46ebee6963169e09d19b3eefb31650921a302b99821f513e07bc05f72165"
+    },
+    "unchanged_after": true
+  },
+  {
+    "matrix": "olafu",
+    "actual": {
+      "indptr": "9a3b7351d6cecfe20f880fcd4093466dc551c40c508616c7e5b5e20c4118ff1f",
+      "indices": "c76f38a528b6ce9b47bcb2beedd242795966b5ee37a0f7c7bc18d3bf693fa25f",
+      "degrees": "37f36eb91f37a04b5cf7e57c5d425fef6b79bb578154fdaabbeb0db648c141e9"
+    },
+    "expected": {
+      "indptr": "9a3b7351d6cecfe20f880fcd4093466dc551c40c508616c7e5b5e20c4118ff1f",
+      "indices": "c76f38a528b6ce9b47bcb2beedd242795966b5ee37a0f7c7bc18d3bf693fa25f",
+      "degrees": "37f36eb91f37a04b5cf7e57c5d425fef6b79bb578154fdaabbeb0db648c141e9"
+    },
+    "passed": true,
+    "after": {
+      "indptr": "9a3b7351d6cecfe20f880fcd4093466dc551c40c508616c7e5b5e20c4118ff1f",
+      "indices": "c76f38a528b6ce9b47bcb2beedd242795966b5ee37a0f7c7bc18d3bf693fa25f",
+      "degrees": "37f36eb91f37a04b5cf7e57c5d425fef6b79bb578154fdaabbeb0db648c141e9"
+    },
+    "unchanged_after": true
+  },
+  {
+    "matrix": "dawson5",
+    "actual": {
+      "indptr": "38d558f524f74074cce03626b94624f548d833607026382aa329cd64f1361b6b",
+      "indices": "9734e3458d9c454534d73f23184ed7ab6d45943e914d3850ffb33b560d2107b1",
+      "degrees": "e6f51998c8a6d64f9e72d0f452afbe48d02ec99eae0561b201399b4aac61af95"
+    },
+    "expected": {
+      "indptr": "38d558f524f74074cce03626b94624f548d833607026382aa329cd64f1361b6b",
+      "indices": "9734e3458d9c454534d73f23184ed7ab6d45943e914d3850ffb33b560d2107b1",
+      "degrees": "e6f51998c8a6d64f9e72d0f452afbe48d02ec99eae0561b201399b4aac61af95"
+    },
+    "passed": true,
+    "after": {
+      "indptr": "38d558f524f74074cce03626b94624f548d833607026382aa329cd64f1361b6b",
+      "indices": "9734e3458d9c454534d73f23184ed7ab6d45943e914d3850ffb33b560d2107b1",
+      "degrees": "e6f51998c8a6d64f9e72d0f452afbe48d02ec99eae0561b201399b4aac61af95"
+    },
+    "unchanged_after": true
+  },
+  {
+    "matrix": "human_gene1",
+    "actual": {
+      "indptr": "d3913e67d1bc203638617b4f21a754781a0b33ceb8c1f4c5ef1b92b80dab743d",
+      "indices": "8c52fb76357407311cc6cff110fb8bd1c95ed3d3bdfe4ad59d4e0076299bd99b",
+      "degrees": "ff03ea45aadc1412d2583c456a61d3d8840c460b58facb5d5d2e0971e09a284d"
+    },
+    "expected": {
+      "indptr": "d3913e67d1bc203638617b4f21a754781a0b33ceb8c1f4c5ef1b92b80dab743d",
+      "indices": "8c52fb76357407311cc6cff110fb8bd1c95ed3d3bdfe4ad59d4e0076299bd99b",
+      "degrees": "ff03ea45aadc1412d2583c456a61d3d8840c460b58facb5d5d2e0971e09a284d"
+    },
+    "passed": true,
+    "after": {
+      "indptr": "d3913e67d1bc203638617b4f21a754781a0b33ceb8c1f4c5ef1b92b80dab743d",
+      "indices": "8c52fb76357407311cc6cff110fb8bd1c95ed3d3bdfe4ad59d4e0076299bd99b",
+      "degrees": "ff03ea45aadc1412d2583c456a61d3d8840c460b58facb5d5d2e0971e09a284d"
+    },
+    "unchanged_after": true
+  },
+  {
+    "matrix": "pattern1",
+    "actual": {
+      "indptr": "fe05deb9852001abfa4242387131d11ce1e043ed0518f98a958c001afdbb87b2",
+      "indices": "88068a0961d429c1638bee48d1724b08e73f899371d029ddb9d10c54e7350413",
+      "degrees": "490aca3382dd88cddfa243e237bdd7b42ddec7f431930aba4c479631bd33f850"
+    },
+    "expected": {
+      "indptr": "fe05deb9852001abfa4242387131d11ce1e043ed0518f98a958c001afdbb87b2",
+      "indices": "88068a0961d429c1638bee48d1724b08e73f899371d029ddb9d10c54e7350413",
+      "degrees": "490aca3382dd88cddfa243e237bdd7b42ddec7f431930aba4c479631bd33f850"
+    },
+    "passed": true,
+    "after": {
+      "indptr": "fe05deb9852001abfa4242387131d11ce1e043ed0518f98a958c001afdbb87b2",
+      "indices": "88068a0961d429c1638bee48d1724b08e73f899371d029ddb9d10c54e7350413",
+      "degrees": "490aca3382dd88cddfa243e237bdd7b42ddec7f431930aba4c479631bd33f850"
+    },
+    "unchanged_after": true
+  },
+  {
+    "matrix": "ogbn-arxiv",
+    "actual": {
+      "indptr": "80b420ed6a444f6e96cc0371993c35845ecba17c47dab13ad6aa32a969f3ecdf",
+      "indices": "61df4ad24ed23ef0841c2cf830fcb84cdce3d5b5066483dfc4f937d0c094984e",
+      "degrees": "0b01835d1ca2a40e4c80b4ef34ffaafceec3bebfc92501b60da08bf8eb65f72a"
+    },
+    "expected": {
+      "indptr": "80b420ed6a444f6e96cc0371993c35845ecba17c47dab13ad6aa32a969f3ecdf",
+      "indices": "61df4ad24ed23ef0841c2cf830fcb84cdce3d5b5066483dfc4f937d0c094984e",
+      "degrees": "0b01835d1ca2a40e4c80b4ef34ffaafceec3bebfc92501b60da08bf8eb65f72a"
+    },
+    "passed": true,
+    "after": {
+      "indptr": "80b420ed6a444f6e96cc0371993c35845ecba17c47dab13ad6aa32a969f3ecdf",
+      "indices": "61df4ad24ed23ef0841c2cf830fcb84cdce3d5b5066483dfc4f937d0c094984e",
+      "degrees": "0b01835d1ca2a40e4c80b4ef34ffaafceec3bebfc92501b60da08bf8eb65f72a"
+    },
+    "unchanged_after": true
+  },
+  {
+    "matrix": "ogbn-products",
+    "actual": {
+      "indptr": "e0ae33cbd5684708e81d47c5f673f56a9e4b975f3101c4a6bb7e1a2326bc01ef",
+      "indices": "a46395085b796bc1c9149ab13ba62a2c0f5dd04396c0deaacf0cff3dc53ba3e5",
+      "degrees": "ee009b1b0fbf6abec86d19efac7db6d9f8b0e0e955328a3ae0344f53cb434014"
+    },
+    "expected": {
+      "indptr": "e0ae33cbd5684708e81d47c5f673f56a9e4b975f3101c4a6bb7e1a2326bc01ef",
+      "indices": "a46395085b796bc1c9149ab13ba62a2c0f5dd04396c0deaacf0cff3dc53ba3e5",
+      "degrees": "ee009b1b0fbf6abec86d19efac7db6d9f8b0e0e955328a3ae0344f53cb434014"
+    },
+    "passed": true,
+    "after": {
+      "indptr": "e0ae33cbd5684708e81d47c5f673f56a9e4b975f3101c4a6bb7e1a2326bc01ef",
+      "indices": "a46395085b796bc1c9149ab13ba62a2c0f5dd04396c0deaacf0cff3dc53ba3e5",
+      "degrees": "ee009b1b0fbf6abec86d19efac7db6d9f8b0e0e955328a3ae0344f53cb434014"
+    },
+    "unchanged_after": true
+  },
+  {
+    "matrix": "reddit",
+    "actual": {
+      "indptr": "5a983eedff76f2067ee3d8fa1378ef6186ab8dddefea1709a6e3de7844ec6e15",
+      "indices": "aaf205c856d2ac120206698d22ef95d29c1710f95b64433f17db360eb2e6f730",
+      "degrees": "08fd497895795f74b30594f73279b9e2f0be8451fa02542c213202b65a36656b"
+    },
+    "expected": {
+      "indptr": "5a983eedff76f2067ee3d8fa1378ef6186ab8dddefea1709a6e3de7844ec6e15",
+      "indices": "aaf205c856d2ac120206698d22ef95d29c1710f95b64433f17db360eb2e6f730",
+      "degrees": "08fd497895795f74b30594f73279b9e2f0be8451fa02542c213202b65a36656b"
+    },
+    "passed": true,
+    "after": {
+      "indptr": "5a983eedff76f2067ee3d8fa1378ef6186ab8dddefea1709a6e3de7844ec6e15",
+      "indices": "aaf205c856d2ac120206698d22ef95d29c1710f95b64433f17db360eb2e6f730",
+      "degrees": "08fd497895795f74b30594f73279b9e2f0be8451fa02542c213202b65a36656b"
+    },
+    "unchanged_after": true
+  }
+]

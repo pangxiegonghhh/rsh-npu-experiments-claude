@@ -1,0 +1,30 @@
+{
+  "matrix": "ogbn-arxiv",
+  "t23_member": "B-RSH-ref",
+  "method": "B-RSH-ref",
+  "params": "alpha=0.125,k=8,iso=tail",
+  "W": 16,
+  "seed": 0,
+  "recorded_execution_host_id": "hostA-macos-arm64",
+  "hostname": "JMacBook-Pro.local",
+  "alpha": 0.125,
+  "k": 8,
+  "iso": 0,
+  "status": "OK",
+  "path": "/Users/Zhuanz/Documents/ChatGPT/RSH\u8fc1\u79fbNPU\u5b9e\u9a8c/\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/t4-rshref-20261111/orders/ogbn-arxiv__B-RSH-ref__alpha=0.125,k=8,iso=tail.order.json",
+  "runtime_path": "/Users/Zhuanz/Documents/ChatGPT/RSH\u8fc1\u79fbNPU\u5b9e\u9a8c/\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/t4-rshref-20261111/orders/ogbn-arxiv__B-RSH-ref__alpha=0.125,k=8,iso=tail.order.json",
+  "sha256": "136323140603a2e3fcae29bcdc6fa78abdaac4844401a4c160168219cf21dec2",
+  "diagnostics": {
+    "local_isolated": 0,
+    "moved": 0,
+    "candidates": 589665358,
+    "isolated": 0,
+    "components": 5,
+    "empty_rows_appended": 0
+  },
+  "size": 1074293,
+  "start": 1794392109.983058,
+  "end": 1794392118.278592,
+  "seconds": 8.295534133911133,
+  "peak_mem_mb": 221.328125
+}

@@ -1,0 +1,34 @@
+{
+  "start_HEAD": "0d01756bfe36e2d07b4a99f49143d648af48c44b",
+  "dispatch_repo_HEAD": "a4b7e978b07945a7403b04ba11d1bdccbf37a3b4",
+  "dispatch_tree": "27c60cd392eef8bccef66bb760e150e678c8f245",
+  "host_id": "hostA-macos-arm64",
+  "hostname": "JMacBook-Pro.local",
+  "platform": "macOS-15.2-arm64-arm-64bit",
+  "python": "3.12.10",
+  "hostA_match_evidence": "same macOS15.2/arm64, original T23 workspace present; T23 host-resource Apple M1 Pro / 16GiB / 8 cores",
+  "NPU_used": false,
+  "compiler": "Apple clang version 16.0.0 (clang-1600.0.26.6)\nTarget: arm64-apple-darwin24.2.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "original_workspace": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106",
+  "new_workspace": "/Users/Zhuanz/Documents/ChatGPT/RSH\u8fc1\u79fbNPU\u5b9e\u9a8c/\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/t4-rshref-20261111",
+  "evaluator_byte_identical": true,
+  "reference_additions": 57,
+  "additional_changes": "non-ordering diagnostic counters; Python wrapper",
+  "time_definition": "wall from cached CSR setup through graph/order/validation/JSON writing, as T23 new_full_order; ru_maxrss bytes on macOS",
+  "git_fetch": "completed; original attempt sandbox FETCH_HEAD restriction; approved fetch succeeded",
+  "baseline_originals": {
+    "scripts/rect.cpp": "634d0d2cd0453422021419ab5ae4c2b7289868a1012ecc3ca34ee7aaaa2e5c43",
+    "scripts/evaluate_t23.py": "33fad739a71e6a20847280c08f0b20af589a84d33f46d394053845bd785cf419",
+    "work/librect.dylib": "ee09a37dc6589bf4c6b5e0eff2233aea0ff791ebff4e52bc5166afadfb0d2652",
+    "work/liblayouts-v2.dylib": "3da15a48d838dd57df51cc217414a36414c03e2366b572a1874c998698dd4f10",
+    "work/libcandidates-v2.dylib": "e2a6f987555c7bcb100c4cb29bf8a9def514ceefb4247654b23a94b8aa72467c"
+  },
+  "actual_host_resources": {
+    "model": "MacBookPro18,3",
+    "memory_bytes": 17179869184,
+    "cpu_count": 8,
+    "cpu": "Apple M1 Pro"
+  },
+  "original_T23_compiler_version": "Apple clang version 16.0.0 (clang-1600.0.26.6)\nTarget: arm64-apple-darwin24.2.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "compiler_version_matches_T23": true
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/Zhuanz/Documents/ChatGPT/RSH迁移NPU实验/第一层实验结果/t4-rshref-20261111/code/pareto_audit.py", line 40, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/Zhuanz/Documents/ChatGPT/RSH迁移NPU实验/第一层实验结果/t4-rshref-20261111/code/pareto_audit.py", line 23, in main
+    r=next(x for x in raw if match(x,source));b=next(x for x in raw if match(x,'B0'))
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration

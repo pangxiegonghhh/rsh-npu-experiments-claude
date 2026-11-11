@@ -1,0 +1,44 @@
+--- reference/rect_t4.cpp
++++ executed/rect_t4.cpp
+@@ -55,6 +55,7 @@
+ 
+  // ===== T4：rsh 的 α / k / 孤立行模式版本（原 rsh() 不动）=====
+  vector<int> rsh_t4(double alpha,int K,int iso_mode)const{
++  last_candidates=0; last_isolated=0; last_components=0;
+   const bool Wt=(alpha!=0.0);
+   vector<double> w(Wt?nc:0,0.0),wdeg(Wt?n:0,0.0);
+   if(Wt){for(int j=0;j<nc;j++){size_t d=inv[j].size();w[j]=d?pow((double)d,-alpha):0.0;}
+@@ -69,6 +70,7 @@
+    touched.clear();for(int c:a[v])for(int u:inv[c]){if(counts[u]++==0)touched.push_back(u);if(Wt)wcnt[u]+=w[c];}
+    vector<pair<double,int>> cand;cand.reserve(touched.size());
+    for(int u:touched){if(u!=v){double sc=Wt?-wcnt[u]/(wdeg[v]+wdeg[u]-wcnt[u]):-double(counts[u])/(deg[v]+deg[u]-counts[u]);cand.emplace_back(sc,u);}counts[u]=0;if(Wt)wcnt[u]=0;}
++   last_candidates+=(long)cand.size();
+    int kk=min(K,(int)cand.size());partial_sort(cand.begin(),cand.begin()+kk,cand.end());
+    for(int i=0;i<kk;i++){int u=cand[i].second;double ww=-cand[i].first;if(ww>0){edges[v][u]=ww;edges[u][v]=ww;}}
+   }
+@@ -83,6 +85,7 @@
+   }
+   vector<int> noniso,iso;for(int v:out)if(edges[v].empty())iso.push_back(v);else noniso.push_back(v);sort(iso.begin(),iso.end());out=move(noniso);out.insert(out.end(),iso.begin(),iso.end());
+   for(int pass=0;pass<2;pass++){bool changed=false;for(int i=0;i<n-2;i++)for(int j=i+1;j<min(n-1,i+8);j++){double old=0,neu=0;if(i){old+=1-simw(out[i-1],out[i]);neu+=1-simw(out[i-1],out[j]);}if(j+1<n){old+=1-simw(out[j],out[j+1]);neu+=1-simw(out[i],out[j+1]);}if(neu+1e-12<old){reverse(out.begin()+i,out.begin()+j+1);changed=true;}}if(!changed)break;}
++  last_components=(long)comps.size(); last_isolated=(long)iso.size();
+   last_local_isolated=0;last_moved=0;
+   if(iso_mode==1&&n>1){
+    auto share=[&](int u,int v){int i=0,j=0;while(i<(int)s[u].size()&&j<(int)s[v].size()){if(s[u][i]==s[v][j])return true;if(s[u][i]<s[v][j])i++;else j++;}return false;};
+@@ -105,7 +108,7 @@
+   }
+   return out;
+  }
+- mutable long last_local_isolated=0,last_moved=0;
++ mutable long last_local_isolated=0,last_moved=0,last_candidates=0,last_isolated=0,last_components=0;
+  vector<int> gorder(int W,double beta)const{
+   vector<int64_t>score(n),delta(n);vector<int>heap(n),loc(n),fallback(n),touched;vector<char>placed(n),mark(n);iota(heap.begin(),heap.end(),0);iota(loc.begin(),loc.end(),0);iota(fallback.begin(),fallback.end(),0);
+   sort(fallback.begin(),fallback.end(),[&](int x,int y){return deg[x]!=deg[y]?deg[x]>deg[y]:x<y;});
+@@ -138,5 +141,8 @@
+  void rect_bp(void*p,const int32_t*v,int size,int s1,int iters,const double*L,int32_t*out){static_cast<Graph*>(p)->bp_split(v,size,s1,iters,L,out);}
+ void rect_order_rsh(void*p,double alpha,int k,int iso,int32_t*out){auto*g=static_cast<Graph*>(p);auto v=g->rsh_t4(alpha,k,iso);copy(v.begin(),v.end(),out);}
+ long rect_last_local_isolated(void*p){return static_cast<Graph*>(p)->last_local_isolated;}
++long rect_last_candidates(void*p){return static_cast<Graph*>(p)->last_candidates;}
++long rect_last_isolated(void*p){return static_cast<Graph*>(p)->last_isolated;}
++long rect_last_components(void*p){return static_cast<Graph*>(p)->last_components;}
+ long rect_last_moved(void*p){return static_cast<Graph*>(p)->last_moved;}
+ }

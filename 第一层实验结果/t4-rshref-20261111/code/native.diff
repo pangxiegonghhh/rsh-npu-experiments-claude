@@ -1,0 +1,21 @@
+--- T23/native.py
++++ T4/native.py
+@@ -75,3 +75,18 @@
+    size=len(vertices);s1=W*math.ceil(size/(2*W));vertices=vertices[:];rng.shuffle(vertices);arr=np.asarray(vertices,np.int32);side=np.empty(size,np.int32);self.lib.rect_bp(self.ptr,ip(arr),size,s1,20,logs.ctypes.data_as(D),ip(side))
+    return split([v for i,v in enumerate(vertices) if side[i]==0])+split([v for i,v in enumerate(vertices) if side[i]==1])
+   return [self.K[i] for i in split(list(range(self.n)))]
++
++# T4: same Rect graph and original-ID mapping; original library remains untouched.
++class RectT4(Rect):
++ lib=C.CDLL(str(BASE/'work/librect-t4.dylib'))
++ lib.rect_make.argtypes=[C.c_int,L,I,C.c_int,I];lib.rect_make.restype=C.c_void_p
++ lib.rect_free.argtypes=[C.c_void_p]
++ lib.rect_order_rsh.argtypes=[C.c_void_p,C.c_double,C.c_int,C.c_int,I]
++ for _metric in ['local_isolated','moved','candidates','isolated','components']:
++  _fn=getattr(lib,'rect_last_'+_metric);_fn.argtypes=[C.c_void_p];_fn.restype=C.c_long
++ def order_rsh(self,alpha:float,k:int,iso_mode:int)->list[int]:
++  if alpha<0 or k<1 or iso_mode not in (0,1):raise ValueError('invalid T4 parameters')
++  out=np.empty(self.n,np.int32);self.lib.rect_order_rsh(self.ptr,alpha,k,iso_mode,ip(out))
++  return [self.K[i] for i in out]
++ def diagnostics(self)->dict:
++  return {metric:int(getattr(self.lib,'rect_last_'+metric)(self.ptr)) for metric in ['local_isolated','moved','candidates','isolated','components']}

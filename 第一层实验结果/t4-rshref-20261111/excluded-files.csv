@@ -1,0 +1,7 @@
+path,bytes,sha256,reason
+/Users/Zhuanz/Documents/ChatGPT/RSH迁移NPU实验/第一层实验结果/t4-rshref-20261111/work/librect.dylib,96912,ee09a37dc6589bf4c6b5e0eff2233aea0ff791ebff4e52bc5166afadfb0d2652,runtime binary retained locally; excluded per T4 delivery contract
+/Users/Zhuanz/Documents/ChatGPT/RSH迁移NPU实验/第一层实验结果/t4-rshref-20261111/work/librect-t4.dylib,117424,fec20ea4c3803e1cae5c581b929788e9b9387f4a7b5023cd88458035f8e3c923,runtime binary retained locally; excluded per T4 delivery contract
+/Users/Zhuanz/Documents/ChatGPT/RSH迁移NPU实验/第一层实验结果/t4-rshref-20261111/work/libmemory-guard.dylib,34056,7b0f6e09c9997027ad5a6da7272dd78456fd785bdb948e6e512ef098c5730e2c,runtime binary retained locally; excluded per T4 delivery contract
+/Users/Zhuanz/Documents/ChatGPT/RSH迁移NPU实验/第一层实验结果/t4-rshref-20261111/work/liblayouts-v2.dylib,76080,3da15a48d838dd57df51cc217414a36414c03e2366b572a1874c998698dd4f10,runtime binary retained locally; excluded per T4 delivery contract
+/Users/Zhuanz/Documents/ChatGPT/RSH迁移NPU实验/第一层实验结果/t4-rshref-20261111/work/matrices,,,immutable reused T23 inputs; hashes and source paths in logs/matrices-and-taus.json and input-hash-verification.json
+/Users/Zhuanz/Documents/ChatGPT/RSH迁移NPU实验/第一层实验结果/t4-rshref-20261111/work/libcandidates-v2.dylib,94440,e2a6f987555c7bcb100c4cb29bf8a9def514ceefb4247654b23a94b8aa72467c,runtime binary retained locally; excluded per T4 delivery contract

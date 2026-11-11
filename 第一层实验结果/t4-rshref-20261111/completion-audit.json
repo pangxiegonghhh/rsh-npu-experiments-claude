@@ -1,0 +1,89 @@
+{
+  "experiment": "T4",
+  "scope": "completion audit of NO branch; no experiment rerun",
+  "checks": [
+    {
+      "requirement": "四张B1置换复现",
+      "status": "VERIFIED",
+      "evidence": "manifest.baseline_gates; original references sha256 checked"
+    },
+    {
+      "requirement": "cora自检",
+      "status": "VERIFIED",
+      "evidence": "logs/cora-selfcheck.log"
+    },
+    {
+      "requirement": "完整alpha/k与E1网格",
+      "status": "VERIFIED",
+      "evidence": "results.csv: 18 cases × 20 grid rows"
+    },
+    {
+      "requirement": "预登记档位完整",
+      "status": "VERIFIED",
+      "evidence": "manifest.orders; selected alpha/k; rows for each required tuple"
+    },
+    {
+      "requirement": "早停与范围",
+      "status": "VERIFIED",
+      "evidence": "manifest.early_stop; third round/validation/E2/E3 SKIPPED"
+    },
+    {
+      "requirement": "确定性和参数生效",
+      "status": "VERIFIED",
+      "evidence": "manifest.determinism_passed / parameter_activation"
+    },
+    {
+      "requirement": "C4八张校准",
+      "status": "VERIFIED",
+      "evidence": "manifest.calibration; 8 original Candidates C4-U runs"
+    },
+    {
+      "requirement": "同主机与逐次计时/峰值",
+      "status": "VERIFIED",
+      "evidence": "manifest.orders; logs/provenance.json matches original T23 host/clang"
+    },
+    {
+      "requirement": "逐次RSH诊断",
+      "status": "VERIFIED",
+      "evidence": "21 RSH records including baseline, scans, E1, determinism"
+    },
+    {
+      "requirement": "时限和返回码",
+      "status": "VERIFIED",
+      "evidence": "29 generation commands + 18 evaluation commands; each rc0"
+    },
+    {
+      "requirement": "T23评价器字节不变",
+      "status": "VERIFIED",
+      "evidence": "original actual T23 evaluator and executed copy sha256"
+    },
+    {
+      "requirement": "原源码和库未改",
+      "status": "VERIFIED",
+      "evidence": "logs/provenance.json original baseline hashes"
+    },
+    {
+      "requirement": "所有新行序哈希",
+      "status": "VERIFIED",
+      "evidence": "orders/*.record.json and actual order bytes"
+    },
+    {
+      "requirement": "v1归档不含库且成员完整",
+      "status": "VERIFIED",
+      "evidence": "v1 tar inventory; excluded-files.csv; prior fresh extraction receipt"
+    },
+    {
+      "requirement": "v1字节不变",
+      "status": "VERIFIED",
+      "evidence": "archive sha256 equals previously delivered SHA256"
+    }
+  ],
+  "pending": [
+    {
+      "requirement": "GitHub同步并远端SHA核对",
+      "status": "AWAITING_USER_AUTHORIZATION",
+      "evidence": "t4-rshref-20261111-sync-status.json; two automatic review rejections"
+    }
+  ],
+  "v1_archive_unchanged": true
+}

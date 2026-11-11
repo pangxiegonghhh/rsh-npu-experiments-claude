@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "-c",
+    "import sys,json;from pathlib import Path;sys.path.insert(0,sys.argv[1]);from memory_guard import ensure_limit;ensure_limit();from evaluate_t23 import evaluate;r=json.loads(Path(sys.argv[2]).read_text());p=Path(sys.argv[3]);s=evaluate(r,p);(p/\"status.json\").write_text(json.dumps(s));print(json.dumps(s))",
+    "/Users/Zhuanz/Documents/ChatGPT/RSH\u8fc1\u79fbNPU\u5b9e\u9a8c/\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/t4-rshref-20261111/code",
+    "/Users/Zhuanz/Documents/ChatGPT/RSH\u8fc1\u79fbNPU\u5b9e\u9a8c/\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/t4-rshref-20261111/orders/ogbn-arxiv__B-RSH-ref__alpha=0.125,k=8,iso=tail.record.json",
+    "/Users/Zhuanz/Documents/ChatGPT/RSH\u8fc1\u79fbNPU\u5b9e\u9a8c/\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/t4-rshref-20261111/evaluations/ogbn-arxiv__B-RSH-ref__alpha=0.125,k=8,iso=tail"
+  ],
+  "start": 1794392118.295755,
+  "end": 1794392145.046651,
+  "rc": 0,
+  "timeout": 7200
+}

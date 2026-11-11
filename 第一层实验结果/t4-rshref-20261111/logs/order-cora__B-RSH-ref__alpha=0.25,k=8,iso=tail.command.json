@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "/Users/Zhuanz/Documents/ChatGPT/RSH\u8fc1\u79fbNPU\u5b9e\u9a8c/\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/t4-rshref-20261111/code/run_order.py",
+    "cora",
+    "0.25",
+    "8",
+    "0",
+    "--tag",
+    ""
+  ],
+  "start": 1794392145.047782,
+  "end": 1794392145.17873,
+  "rc": 0,
+  "timeout": 600
+}

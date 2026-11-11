@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "/Users/Zhuanz/Documents/ChatGPT/RSH\u8fc1\u79fbNPU\u5b9e\u9a8c/\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/t4-rshref-20261111/code/run_order.py",
+    "reddit",
+    "0",
+    "8",
+    "0",
+    "--tag",
+    ""
+  ],
+  "start": 1794391192.655413,
+  "end": 1794391654.149346,
+  "rc": 0,
+  "timeout": 3600
+}

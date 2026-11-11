@@ -1,0 +1,92 @@
+{
+  "status": "COMPLETED_NO_BRANCH",
+  "rows": 360,
+  "scores": [
+    {
+      "params": "alpha=0,k=8,iso=tail",
+      "A0": 0.6471225382887954,
+      "A1": 0.632018744818403
+    },
+    {
+      "params": "alpha=0.125,k=16,iso=tail",
+      "A0": 0.6453782188991198,
+      "A1": 0.6310153184300873
+    },
+    {
+      "params": "alpha=0.125,k=4,iso=tail",
+      "A0": 0.6458764780294395,
+      "A1": 0.6284293551562856
+    },
+    {
+      "params": "alpha=0.125,k=8,iso=near",
+      "A0": 0.6437228463912803,
+      "A1": 0.6276697437181579
+    },
+    {
+      "params": "alpha=0.125,k=8,iso=tail",
+      "A0": 0.6452871461705293,
+      "A1": 0.627291523563337
+    },
+    {
+      "params": "alpha=0.25,k=8,iso=tail",
+      "A0": 0.6422300927703819,
+      "A1": 0.6267060523360325
+    },
+    {
+      "params": "alpha=0.5,k=8,iso=tail",
+      "A0": 0.6528038129605228,
+      "A1": 0.6329454224449881
+    },
+    {
+      "params": "alpha=0.75,k=8,iso=tail",
+      "A0": 0.6627841632644322,
+      "A1": 0.6425665092051093
+    },
+    {
+      "params": "alpha=1,k=8,iso=tail",
+      "A0": 0.6721993892317394,
+      "A1": 0.6549882927833034
+    }
+  ],
+  "early_stop_ratio": 0.9924396922855588,
+  "calibration": {
+    "C4-U-calibration": {
+      "matrices": [
+        "cora",
+        "wiki-RfA",
+        "olafu",
+        "dawson5",
+        "human_gene1",
+        "pattern1",
+        "ogbn-arxiv",
+        "reddit"
+      ],
+      "current_sec": 12.802524089813232,
+      "T23_sec": 11.96360182762146,
+      "ratio": 1.0701228839173564,
+      "within_0_8_to_1_25": true
+    },
+    "B-RSH-ref": {
+      "matrices": [
+        "cora",
+        "ogbn-arxiv",
+        "reddit"
+      ],
+      "current_sec": 468.8769779205322,
+      "T23_sec": 385.9951600995846,
+      "ratio": 1.2147224276065134,
+      "within_0_8_to_1_25": true
+    }
+  },
+  "hypotheses": {
+    "H1a": "\u4e0d\u6210\u7acb\uff08\u9884\u767b\u8bb0\u8c03\u53c2\u65e9\u505c\uff1b\u9a8c\u8bc1\u96c6\u672a\u6d4b\uff09",
+    "H1b": "SKIPPED",
+    "H2": "SKIPPED",
+    "H3": "SKIPPED",
+    "H4": true,
+    "H5_k_contribution_less_than_alpha": true,
+    "alpha_best_improvement": 0.007560307714441161,
+    "k_best_improvement": 0.0,
+    "H5_interpretation": "both contributions below the practical 2% gain threshold"
+  }
+}

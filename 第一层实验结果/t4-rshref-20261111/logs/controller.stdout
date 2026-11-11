@@ -1,0 +1,34 @@
+ORDER OK cora alpha=0,k=8,iso=tail 0.031
+GATE OK {'matrix': 'cora', 'reference': '/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__rsh-alpha0__W16__tauNone__own__60d4a3f802ea.json', 'reference_sha256': '1c1889794c291f9afb95cb32263f13bc59969c9d2e77e3446296069b63e82a72', 'identical': True, 'difference_positions': 0, 'all_grid_sumU_T_identical': True}
+ORDER OK ogbn-arxiv alpha=0,k=8,iso=tail 7.547
+GATE OK {'matrix': 'ogbn-arxiv', 'reference': '/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__rsh-alpha0__W16__tauNone__own__a6340c0d6c29.json', 'reference_sha256': 'faff0625413a5d724bcbeceb937e9e504077a72b7fe109287ff143fe4e04aa82', 'identical': True, 'difference_positions': 0, 'all_grid_sumU_T_identical': True}
+ORDER OK reddit alpha=0,k=8,iso=tail 461.299
+GATE OK {'matrix': 'reddit', 'reference': '/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-generated/reddit__B1__W16__seed0.order.json', 'reference_sha256': 'c6d9e9e2348fde87329958ed6f79705c208b34dceaa53584d888582a5e1a368d', 'identical': True, 'difference_positions': 0}
+ORDER OK ogbn-products alpha=0,k=8,iso=tail 454.672
+GATE OK {'matrix': 'ogbn-products', 'reference': '/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/remote-evidence/hostB-windows16gb-wsl2/t23-hostb-orders/work/stage3-generated/ogbn-products__B1__W16__seed0.order.json', 'reference_sha256': '60b889c2506be67a272e3e75656d36d0ac09ae60d467a4f14336c7f6f65d05f7', 'identical': True, 'difference_positions': 0}
+ORDER OK cora alpha=0.125,k=8,iso=tail 0.02
+ORDER OK ogbn-arxiv alpha=0.125,k=8,iso=tail 8.296
+ORDER OK cora alpha=0.25,k=8,iso=tail 0.019
+ORDER OK ogbn-arxiv alpha=0.25,k=8,iso=tail 8.072
+ORDER OK cora alpha=0.5,k=8,iso=tail 0.019
+ORDER OK ogbn-arxiv alpha=0.5,k=8,iso=tail 7.933
+ORDER OK cora alpha=0.75,k=8,iso=tail 0.018
+ORDER OK ogbn-arxiv alpha=0.75,k=8,iso=tail 7.98
+ORDER OK cora alpha=1,k=8,iso=tail 0.018
+ORDER OK ogbn-arxiv alpha=1,k=8,iso=tail 7.919
+ORDER OK cora alpha=0.125,k=4,iso=tail 0.019
+ORDER OK ogbn-arxiv alpha=0.125,k=4,iso=tail 7.448
+ORDER OK cora alpha=0.125,k=16,iso=tail 0.023
+ORDER OK ogbn-arxiv alpha=0.125,k=16,iso=tail 9.452
+EARLY STOP NO 0.9971637641873524
+ORDER OK cora alpha=0.125,k=8,iso=near 0.019
+ORDER OK ogbn-arxiv alpha=0.125,k=8,iso=near 8.696
+ORDER OK cora alpha=0.125,k=8,iso=tail 0.018
+ORDER OK cora alpha=0,k=8,iso=tail 0.011
+ORDER OK wiki-RfA alpha=0,k=8,iso=tail 0.047
+ORDER OK olafu alpha=0,k=8,iso=tail 0.072
+ORDER OK dawson5 alpha=0,k=8,iso=tail 0.098
+ORDER OK human_gene1 alpha=0,k=8,iso=tail 1.533
+ORDER OK pattern1 alpha=0,k=8,iso=tail 0.632
+ORDER OK ogbn-arxiv alpha=0,k=8,iso=tail 0.473
+ORDER OK reddit alpha=0,k=8,iso=tail 9.936
