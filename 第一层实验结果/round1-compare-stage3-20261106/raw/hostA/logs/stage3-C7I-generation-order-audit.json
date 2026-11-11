@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "scope": "generation only: original terminal command, full permutation, byte SHA; not an evaluation or whole-case PASS",
+  "matrix": "reddit",
+  "member": "C7-I",
+  "n": 232965,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/reddit__C7-I__W16__seed0.order.json",
+  "order_sha256": "f066f1cc8d9b43a41e87ba56ac8266d9a6df612a3bc829c7b46699802a022994",
+  "order_bytes": 1519647,
+  "record_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/reddit__C7-I__W16__seed0.record.json",
+  "record_sha256": "284f48d22037bf09b99e48ba1260e1c2c7053f19b00000005fb7a300028a9b4d",
+  "command_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/stage3-order-stage3-reddit__C7-I__W16__seed0.command.json",
+  "command_sha256": "93b06240fcc2bb8a80ca9a4eceb5b7dfc12dfe75ee52358a642c6ad04f17f124",
+  "actual_method_seconds": 5.2084641456604,
+  "queue_seconds": 7200.729233980179,
+  "record_seconds": 5.065726041793823,
+  "generation_started_utc": "2026-11-08 11:14:58 UTC",
+  "generation_ended_utc": "2026-11-08 11:15:03 UTC",
+  "permutation_verified": true,
+  "evaluation_complete": false
+}

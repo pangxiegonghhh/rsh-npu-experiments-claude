@@ -1,0 +1,16 @@
+{
+  "pid": 489,
+  "slot": 0,
+  "command": [
+    "scripts/post_e_job.py",
+    "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-post-catalog/stage3-ogbn-products__C7-I__W16__seed0__tau2.json"
+  ],
+  "queued_at": 1794234372.3055804,
+  "acquired_at": 1794234372.307719,
+  "queue_seconds": 0.002138853073120117,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/cpu-slots",
+  "large_graph_serialized": true,
+  "memory_limit_bytes": 8589934592,
+  "memory_guard_path": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/logs/memory-guards/489-1794234372305606882.json"
+}

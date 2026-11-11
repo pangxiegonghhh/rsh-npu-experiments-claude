@@ -1,0 +1,116 @@
+[
+  {
+    "path": "work/stage3-generated/ogbn-products__B0__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "00f9b231b32b4827ca0c834d0349217480acfeb479ba6d28975683a1086d526d",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__B0__W16__seed0/record.json"
+  },
+  {
+    "path": "work/stage3-generated/ogbn-products__B1__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "60b889c2506be67a272e3e75656d36d0ac09ae60d467a4f14336c7f6f65d05f7",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__B1__W16__seed0/record.json"
+  },
+  {
+    "path": "work/stage3-generated/ogbn-products__B-RCM-ref__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "7473f47136c2fd39305441d5ed5c4719d1ee718477822d9af153ed93aa2b8f7a",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__B-RCM-ref__W16__seed0/record.json"
+  },
+  {
+    "path": "work/stage3-generated/ogbn-products__rabbit-pilot__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "1c351b103703ccc32c80b7d031267f9b96b6368011f1cd1c5c783ac184b65148",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__rabbit-pilot__W16__seed0/record.json"
+  },
+  {
+    "path": "work/stage3-generated/ogbn-products__neutron-pilot__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "0d92b4226e99b219689c9ed92a92f5c1bf5858733b4d802468614b669f4a4db8",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__neutron-pilot__W16__seed0/record.json"
+  },
+  {
+    "path": "work/stage3-generated/ogbn-products__C9-Gorder__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "f945d9175399a0b058b94a5672b40d0ad59d6e3ebc80e94650f13d2e2a27ca9c",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__C9-Gorder__W16__seed0/record.json"
+  },
+  {
+    "path": "work/stage3-generated/ogbn-products__C9-S__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "b5754ea14dc1e244bf602f1d8ae6b8733f2cfee294e1fb44eb892a3d8611214f",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__C9-S__W16__seed0/record.json"
+  },
+  {
+    "path": "work/stage3-generated/ogbn-products__C10-BP__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "5dbbf29ce65085e845078774beadef5e85f67877bb9f97adbf5f39bf419a6f32",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__C10-BP__W16__seed0/record.json"
+  },
+  {
+    "path": "work/generated/ogbn-products__C2-LSH__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "84a6641bfb22248b4f77ddf2a07c7e9a834805143796e5cb25ab899f0ab929a9",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__C2-LSH__W16__seed0/record.json"
+  },
+  {
+    "path": "work/generated/ogbn-products__C3-W1__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "079e526ccaa0ad6eb46f24e620ac34705d5ba6ea3ba070697a1793ea559b801f",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__C3-W1__W16__seed0/record.json"
+  },
+  {
+    "path": "work/generated/ogbn-products__C3-W4__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "0087895f48b0fad05ffae1470e6d526379a56187783a680d63fe3d74736821ae",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__C3-W4__W16__seed0/record.json"
+  },
+  {
+    "path": "work/generated/ogbn-products__C4-U__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "a2909bd5b9bc86ac085adee16e60e7368af091a1912222175ac275071ec5ff7c",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__C4-U__W16__seed0/record.json"
+  },
+  {
+    "path": "work/generated/ogbn-products__C4-T__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "e4867458896064bc0320c765285b413ab92220c1799412a0d91472c06a429cd3",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__C4-T__W16__seed0/record.json"
+  },
+  {
+    "path": "work/generated/ogbn-products__C7-I__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "612ee2f10b9fcba6a3f6312a15cb418f6bf008ae91c9e81776188eef5d012d04",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__C7-I__W16__seed0/record.json"
+  },
+  {
+    "path": "work/stage3-generated/ogbn-products__C3-W4-noP__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "7ae6c0b3eb85c562ce69f2eee5de49aa7a366a1f806128e21a8b1b53a8258bee",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__C3-W4-noP__W16__seed0/record.json"
+  },
+  {
+    "path": "work/stage3-generated/ogbn-products__C3-W4-R__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "61481359cd7916bca5295a5a80121ac580b9363c7b404c856cab168e1ee115fb",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__C3-W4-R__W16__seed0/record.json"
+  },
+  {
+    "path": "work/stage3-generated/ogbn-products__C3-A-R__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "5e9674d98286c6e40e234b0f9d14dae882b8605269c547b0de4a9d8042ebb7db",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__C3-A-R__W16__seed0/record.json"
+  },
+  {
+    "path": "work/stage3-generated/ogbn-products__C4-U-R__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "60ea68585bdbf1f38eb3004e6c30d1bea4cbc9950c0dd4fc8a241928977ed167",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__C4-U-R__W16__seed0/record.json"
+  },
+  {
+    "path": "work/stage3-generated/ogbn-products__C4-T-R__W16__seed0.order.json",
+    "size": 18481124,
+    "sha256": "7fb41bafb63eb167d3d568f0646e525e819797c2a72923f7644924575786b010",
+    "source_record": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-cases/stage3-ogbn-products__C4-T-R__W16__seed0/record.json"
+  }
+]

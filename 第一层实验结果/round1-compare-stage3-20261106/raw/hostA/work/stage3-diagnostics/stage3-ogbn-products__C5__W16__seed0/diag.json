@@ -1,0 +1,33 @@
+{
+  "matrix": "ogbn-products",
+  "member": "C5",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 4418018,
+  "T_full_phase": 4515262.266666667,
+  "align_premium": 97244.2666666666,
+  "T_inplace": 4408350,
+  "T_keep": 4441285,
+  "U_inplace": 69409694,
+  "U_keep": 70059181,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 101.98161387443542,
+  "status": "OK"
+}

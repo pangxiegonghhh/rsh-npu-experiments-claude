@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "synthetic_400_vs_401": true,
+  "checks": [
+    {
+      "matrix": "cora",
+      "tau": 2,
+      "count": 0
+    },
+    {
+      "matrix": "cora",
+      "tau": 3,
+      "count": 0
+    },
+    {
+      "matrix": "reddit",
+      "tau": 53,
+      "count": 12,
+      "identical_to_successful_native_chain": true
+    }
+  ],
+  "source_sha256": "e158ab6ec3a6631416ca1ca6654d0c59ef4039761e63a48a59102ce8bbf22932",
+  "binary_sha256": "337257660382aefce5f1acffd1ee60fc00f72645246a332aa8a592af22f699a8"
+}

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "scope": "terminal metadata/checkpoint permutation/hash/history only; independent UG not yet recomputed; not a scientific PASS",
+  "case_id": "stage3-reddit__C3-W4__W16__seed0__tau53",
+  "status": "INCOMPLETE",
+  "original_exitcode": 124,
+  "original_reason": "actual method timeout, queue excluded",
+  "actual_method_seconds": 7200.6829669475555,
+  "queue_seconds": 6185.301137924194,
+  "complete_sweeps": 9,
+  "last_sweep": {
+    "sweep": 8,
+    "accepted": 3935,
+    "sumU": 45171937,
+    "sumGamma": 16921709,
+    "elapsed": 6861.756183862686
+  },
+  "checkpoint_sha256": "027f2fcb84c98aa1f09f39fd232158f391d69b3324e05a1a5ad371b3c2553384",
+  "checkpoint_bytes": 1520696,
+  "permutation_verified": true,
+  "original_order_saved": false,
+  "original_post_rows": 0,
+  "requires_independent_checkpoint_UG_verification": true,
+  "recovery_planned_by_existing_finisher": true,
+  "method_restarted": false
+}

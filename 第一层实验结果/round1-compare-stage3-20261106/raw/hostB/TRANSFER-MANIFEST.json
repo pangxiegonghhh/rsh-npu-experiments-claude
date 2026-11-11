@@ -1,0 +1,12 @@
+{
+  "split_id": "T23-split-20261109",
+  "source_commit": "3ecc8f4ae0f6a7dff556fe1ad4e888a500f3162b",
+  "source_tree": "54dd7a113c4ecad145e07b47d8745f9de7d56756",
+  "verified_original_repository_files": 263,
+  "remote_cases": 20,
+  "formal_conditions": 488,
+  "Windows_WSL_gates_executed_on_this_host": false,
+  "Mac_libraries_included": false,
+  "metadata": "Mac reference PASS files are inactive evidence only; prepare_wsl and run_fresh_gates must execute on target before formal jobs",
+  "created_at": 1794203851.821584
+}

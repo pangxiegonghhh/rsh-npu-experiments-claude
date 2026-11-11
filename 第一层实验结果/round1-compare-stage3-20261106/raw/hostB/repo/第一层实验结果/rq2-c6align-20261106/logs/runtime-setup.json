@@ -1,0 +1,29 @@
+{
+  "output": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/delivery/第一层实验结果/rq2-c6align-20261106",
+  "source_c6_sha256": "c643598bb425c7967e685ff357919512f6a66b2eba7bb7cebfef000d2db92764",
+  "unchanged_campaign_sha256": "3362199e76a42c5029c70a7b396de4cc71132dd3b7c4cbbbc5df45f5664c9314",
+  "SDK_sha256": "b8f5fff175a8984baffaa04bcbc2f54726df8e5ca7a27148c927260381bd14b7",
+  "configuration_sha256": "64ebd58a4f98b95bf87ae3de5341b2be00b09e122a0526ef65a799e39bb63dd8",
+  "runtime_rule": "All T21 runner files copied byte-identically except c6.py. New wrapper redirects OUT to new directory at runtime without editing campaign.py. SDK and native libraries copied from original working runtime, never repository binaries/.",
+  "native_library_sha256": {
+    "libcbm.dylib": "a2871b2cc51fef0bddb34eaa268061af70e57c2b45b1a87d940a0abe00d22124",
+    "libdstage.dylib": "536a8db6bf906e3865a2e96468fa42ec4092f90e87909fa1c60632d4b9bb7139",
+    "librq2.dylib": "7841416b64fa2cc14c89c3425a31f446db17f5b365a26d70b115f1e43653c447",
+    "libslashburn.dylib": "ff239674b7018dccdc5d86c98229c0ea77414339babb7034089e9e513776d643",
+    "librq2-v5-candidate.dylib": "1335feb0e9de2c9935db5751e683f42c38116c84de7134d1748db29db36ae8a2",
+    "librq2-v8.dylib": "cfdb8c9209ef92c9ea77460b636643a366e322032f7431fdbfc6f9bb7b14cb1d",
+    "librq2-v2-candidate.dylib": "38eaccaf9f485edf2cc41bd700f69db0dd88d4b7157d695022c7beb693ed4d79",
+    "librq2-v3-candidate.dylib": "bba829f6f5a13d3056d4766c08c99f315988ddfbbeefe51bc6c1e2f43c33f206",
+    "libdstage-v2-candidate.dylib": "3fe3402469bd62dcbd3a31d2f288ee0085f70cd19c56708fe88e095c96bc861b",
+    "librq2-v4-candidate.dylib": "322537ba326453d5594b452c276cb30ed65a062f02cae08e13326442ed1df5ea",
+    "librq2-v3.dylib": "bba829f6f5a13d3056d4766c08c99f315988ddfbbeefe51bc6c1e2f43c33f206",
+    "libmetrics.dylib": "5e32229486459d0260afeb88736416c2ed19822062097e00342e18455e5128c5",
+    "librq2-v5.dylib": "1335feb0e9de2c9935db5751e683f42c38116c84de7134d1748db29db36ae8a2",
+    "librq2-v6-candidate.dylib": "855982dfe043a3ae77bfa7c5161e86b8546584bf1e1f35492aa3e2a2b1a69390",
+    "librq2-v2.dylib": "38eaccaf9f485edf2cc41bd700f69db0dd88d4b7157d695022c7beb693ed4d79",
+    "librq2-v8-candidate.dylib": "cfdb8c9209ef92c9ea77460b636643a366e322032f7431fdbfc6f9bb7b14cb1d",
+    "librq2-v7-candidate.dylib": "6d7d87eb3b90f37a6a1f9a68f4dee18e47578886fb86f2dd5558038d289a9a42",
+    "librq2-v4.dylib": "322537ba326453d5594b452c276cb30ed65a062f02cae08e13326442ed1df5ea",
+    "libdstage-v2.dylib": "3fe3402469bd62dcbd3a31d2f288ee0085f70cd19c56708fe88e095c96bc861b"
+  }
+}

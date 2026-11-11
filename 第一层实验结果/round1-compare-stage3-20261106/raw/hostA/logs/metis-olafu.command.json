@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/external_metis.py",
+    "--matrix",
+    "olafu"
+  ],
+  "start": 1793969183.209661,
+  "end": 1793969184.5736861,
+  "exitcode": 0
+}

@@ -1,0 +1,148 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "lam": 0,
+      "identical_to_T21_sha256": "2413c057980e3cfda5c61479dfab2c814d42bb909251b18e3f4e24dbabe7e6b8",
+      "diag": {
+        "history": [
+          {
+            "sweep": 0,
+            "accepted": 222,
+            "sumU": 4125,
+            "sumGamma": 1457,
+            "elapsed": 0.007449150085449219
+          },
+          {
+            "sweep": 1,
+            "accepted": 47,
+            "sumU": 4075,
+            "sumGamma": 1428,
+            "elapsed": 0.016499042510986328
+          },
+          {
+            "sweep": 2,
+            "accepted": 12,
+            "sumU": 4061,
+            "sumGamma": 1423,
+            "elapsed": 0.026504039764404297
+          },
+          {
+            "sweep": 3,
+            "accepted": 3,
+            "sumU": 4058,
+            "sumGamma": 1423,
+            "elapsed": 0.03506898880004883
+          },
+          {
+            "sweep": 4,
+            "accepted": 2,
+            "sumU": 4056,
+            "sumGamma": 1419,
+            "elapsed": 0.04327797889709473
+          },
+          {
+            "sweep": 5,
+            "accepted": 4,
+            "sumU": 4052,
+            "sumGamma": 1415,
+            "elapsed": 0.05126810073852539
+          },
+          {
+            "sweep": 6,
+            "accepted": 1,
+            "sumU": 4051,
+            "sumGamma": 1415,
+            "elapsed": 0.058808088302612305
+          },
+          {
+            "sweep": 7,
+            "accepted": 0,
+            "sumU": 4051,
+            "sumGamma": 1415,
+            "elapsed": 0.06550097465515137
+          }
+        ],
+        "sweeps_done": 8,
+        "accepted_swaps": 291,
+        "tracked_sumU": 4051,
+        "tracked_sumGamma": 1415,
+        "independent_full_recompute": {
+          "k_windows": 68,
+          "sumU": 4051,
+          "T": 283,
+          "sumGamma": 1415,
+          "sumR": 2010,
+          "R_p50": 28,
+          "R_p90": 42,
+          "R_max": 105,
+          "write_runs_aic": 68,
+          "meanR": 29.558824
+        },
+        "incremental_invariant_passed": true,
+        "workspace_preflight_bytes": 694992
+      }
+    },
+    {
+      "lam": 1,
+      "identical_to_T21_sha256": "071a8a708ecade8199a99ec304ee3aea33ce0a126a0aec39c1744691c3d822b2",
+      "diag": {
+        "history": [
+          {
+            "sweep": 0,
+            "accepted": 264,
+            "sumU": 4214,
+            "sumGamma": 1233,
+            "elapsed": 0.014905929565429688
+          },
+          {
+            "sweep": 1,
+            "accepted": 61,
+            "sumU": 4161,
+            "sumGamma": 1200,
+            "elapsed": 0.030794858932495117
+          },
+          {
+            "sweep": 2,
+            "accepted": 15,
+            "sumU": 4135,
+            "sumGamma": 1202,
+            "elapsed": 0.04646706581115723
+          },
+          {
+            "sweep": 3,
+            "accepted": 4,
+            "sumU": 4133,
+            "sumGamma": 1199,
+            "elapsed": 0.06129884719848633
+          },
+          {
+            "sweep": 4,
+            "accepted": 0,
+            "sumU": 4133,
+            "sumGamma": 1199,
+            "elapsed": 0.07734274864196777
+          }
+        ],
+        "sweeps_done": 5,
+        "accepted_swaps": 344,
+        "tracked_sumU": 4133,
+        "tracked_sumGamma": 1199,
+        "independent_full_recompute": {
+          "k_windows": 68,
+          "sumU": 4133,
+          "T": 289,
+          "sumGamma": 1199,
+          "sumR": 1924,
+          "R_p50": 26,
+          "R_p90": 43,
+          "R_max": 106,
+          "write_runs_aic": 68,
+          "meanR": 28.294118
+        },
+        "incremental_invariant_passed": true,
+        "workspace_preflight_bytes": 694992
+      }
+    }
+  ]
+}

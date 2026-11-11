@@ -1,0 +1,13 @@
+{
+  "pid": 86900,
+  "slot": 1,
+  "command": [
+    "scripts/gate_c1_native.py"
+  ],
+  "queued_at": 1793980005.885396,
+  "acquired_at": 1793980024.545859,
+  "queue_seconds": 18.660463094711304,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false
+}

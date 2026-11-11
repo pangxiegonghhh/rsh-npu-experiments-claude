@@ -1,0 +1,45 @@
+{
+  "n": 2449029,
+  "stored_entries": 61859140,
+  "diagonal_entries": 128,
+  "nnz_A0": 123718024,
+  "explicit_zero_entries": 0,
+  "source_type": "unweighted edge CSV",
+  "matrix": "ogbn-products",
+  "status": "OK",
+  "nnz_A1": 126167053,
+  "source_url": "https://snap.stanford.edu/ogb/data/nodeproppred/products.zip",
+  "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/second/products-edge.csv.gz",
+  "input_mtx_sha256": null,
+  "input_sha256": "a012950cc853f8262d5bbc9d93ca393e978e1e8f34bcf639125585dc3b515341",
+  "source_archive_member": "products/raw/edge.csv.gz",
+  "structure": "all stored entries, including explicit zeros; symmetric expansion, diagonal removed for A0",
+  "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/ogbn-products",
+  "csr_sha256": {
+    "indptr": "e0ae33cbd5684708e81d47c5f673f56a9e4b975f3101c4a6bb7e1a2326bc01ef",
+    "indices": "a46395085b796bc1c9149ab13ba62a2c0f5dd04396c0deaacf0cff3dc53ba3e5",
+    "degrees": "ee009b1b0fbf6abec86d19efac7db6d9f8b0e0e955328a3ae0344f53cb434014"
+  },
+  "degree_mean": 50.51717394934891,
+  "degree_median": 26.0,
+  "degree_max": 17481,
+  "taus": [
+    {
+      "tau": 2,
+      "tau_rule": "fixed",
+      "resid_count": 236776,
+      "resid_frac": 0.0966815827824007,
+      "resid_nnz_frac": 0.002212442384304489
+    },
+    {
+      "tau": 3,
+      "tau_rule": "fixed",
+      "resid_count": 312413,
+      "resid_frac": 0.12756606802124434,
+      "resid_nnz_frac": 0.00404654054287191
+    }
+  ],
+  "adjacency_order": "sorted unique original column IDs; raw integer edge/COO input fully preserved as input archive member",
+  "prepared_sec": 3.1182432174682617,
+  "table_discrepancy": "raw edges 61,859,140 include 128 stored diagonal entries; after symmetric expansion and diagonal removal/dedup, actual nnz_A0 is authoritative; no edits to match paper table"
+}

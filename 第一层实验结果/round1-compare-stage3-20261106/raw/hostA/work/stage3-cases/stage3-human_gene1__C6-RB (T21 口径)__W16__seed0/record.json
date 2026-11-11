@@ -1,0 +1,46 @@
+{
+  "matrix": "human_gene1",
+  "method": "C6-RB (T21 口径)",
+  "member": "C6-RB (T21 口径)",
+  "W": 16,
+  "seed": 0,
+  "scope": "P1/P2",
+  "case_id": "stage3-human_gene1__C6-RB (T21 口径)__W16__seed0",
+  "reuse": {
+    "task": "T23",
+    "use": "base-order",
+    "matrix": "human_gene1",
+    "t23_member": "C6-RB (T21 口径)",
+    "t21_member": "C6",
+    "W": "16",
+    "params": "mnc=0",
+    "source": "T21 完整归档",
+    "path": "orders/human_gene1__C6__W16__tauNone__own__596e7c3dc0dd.json",
+    "sha256": "478a82a623246f61d512060a3689adf3a75361ae97774746de3806ef10f87fdb",
+    "note": "",
+    "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__C6__W16__tauNone__own__596e7c3dc0dd.json",
+    "verified_sha256": "478a82a623246f61d512060a3689adf3a75361ae97774746de3806ef10f87fdb",
+    "origin": "T21 archive"
+  },
+  "status": "OK",
+  "start": 1793985984.948597,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__C6__W16__tauNone__own__596e7c3dc0dd.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/human_gene1__C6__W16__tauNone__own__596e7c3dc0dd.json",
+  "sha256": "478a82a623246f61d512060a3689adf3a75361ae97774746de3806ef10f87fdb",
+  "size": 122819,
+  "seconds": "",
+  "diagnostics": {},
+  "reused": true,
+  "evaluation_root": "stage3-evaluations",
+  "diagnostic_root": "stage3-diagnostics",
+  "evaluation_status": {
+    "status": "OK",
+    "rows": 20,
+    "seconds": 16.350063800811768
+  },
+  "diagnostic_status": {
+    "status": "OK",
+    "seconds": 2.4393537044525146
+  },
+  "controller_end": 1793986004.746853
+}

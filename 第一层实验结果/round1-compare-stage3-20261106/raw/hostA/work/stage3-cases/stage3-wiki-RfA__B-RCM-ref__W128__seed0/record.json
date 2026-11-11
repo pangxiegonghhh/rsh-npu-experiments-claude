@@ -1,0 +1,46 @@
+{
+  "matrix": "wiki-RfA",
+  "method": "B-RCM-ref",
+  "member": "B-RCM-ref",
+  "W": 128,
+  "seed": 0,
+  "scope": "W sensitivity",
+  "case_id": "stage3-wiki-RfA__B-RCM-ref__W128__seed0",
+  "main_tau_only": true,
+  "reuse": {
+    "task": "T23",
+    "use": "base-order",
+    "matrix": "wiki-RfA",
+    "t23_member": "B-RCM-ref",
+    "t21_member": "B-RCM-ref",
+    "W": "16",
+    "params": "",
+    "source": "T21 完整归档",
+    "path": "orders/wiki-RfA__B-RCM-ref__W16__tauNone__own__afd32022b778.json",
+    "sha256": "07da0608ed2ec789915953efc272e6bcf10fc0361d7838b3f2f41660c92552a1",
+    "note": "",
+    "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__B-RCM-ref__W16__tauNone__own__afd32022b778.json",
+    "verified_sha256": "07da0608ed2ec789915953efc272e6bcf10fc0361d7838b3f2f41660c92552a1",
+    "origin": "T21 archive"
+  },
+  "status": "OK",
+  "start": 1793987473.079568,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__B-RCM-ref__W16__tauNone__own__afd32022b778.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__B-RCM-ref__W16__tauNone__own__afd32022b778.json",
+  "sha256": "07da0608ed2ec789915953efc272e6bcf10fc0361d7838b3f2f41660c92552a1",
+  "size": 57310,
+  "seconds": "",
+  "diagnostics": {},
+  "reused": true,
+  "evaluation_root": "stage3-evaluations",
+  "diagnostic_root": "stage3-diagnostics",
+  "eval_taus": [
+    3
+  ],
+  "evaluation_status": {
+    "status": "OK",
+    "rows": 12,
+    "seconds": 1.2034409046173096
+  },
+  "controller_end": 1793987474.612283
+}

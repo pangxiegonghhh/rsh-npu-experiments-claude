@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 9324, 'sumU': 186175, 'sumGamma': 59849, 'elapsed': 0.550678014755249}
+LS {'sweep': 1, 'accepted': 3834, 'sumU': 167664, 'sumGamma': 51456, 'elapsed': 1.031893014907837}
+LS {'sweep': 2, 'accepted': 1830, 'sumU': 158019, 'sumGamma': 46670, 'elapsed': 1.4413220882415771}
+LS {'sweep': 3, 'accepted': 867, 'sumU': 153527, 'sumGamma': 44254, 'elapsed': 1.8574552536010742}
+LS {'sweep': 4, 'accepted': 418, 'sumU': 151285, 'sumGamma': 43026, 'elapsed': 2.2745232582092285}
+LS {'sweep': 5, 'accepted': 223, 'sumU': 150060, 'sumGamma': 42417, 'elapsed': 2.694758176803589}
+LS {'sweep': 6, 'accepted': 91, 'sumU': 149606, 'sumGamma': 42193, 'elapsed': 3.1164910793304443}
+LS {'sweep': 7, 'accepted': 54, 'sumU': 149364, 'sumGamma': 42064, 'elapsed': 3.481638193130493}
+LS {'sweep': 8, 'accepted': 22, 'sumU': 149269, 'sumGamma': 42023, 'elapsed': 3.904423236846924}
+LS {'sweep': 9, 'accepted': 28, 'sumU': 149183, 'sumGamma': 41993, 'elapsed': 4.274464130401611}
+{"matrix": "dawson5", "method": "C3-W1", "W": 16, "seed": 0, "start": 1793977187.570247, "status": "OK", "command": ["/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py", "--matrix", "dawson5", "--method", "C3-W1", "--seed", "0"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/dawson5__C3-W1__W16__seed0.order.json", "sha256": "139dba68b20c679149106db968fdb16ba75c83e6bf810d0e326e22bda86cc3b8", "size": 299405, "end": 1793977197.2495391, "seconds": 9.67929220199585, "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/dawson5__C3-W1__W16__seed0.order.json", "member": "C3-W1", "tau": 17, "reuse": false, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/dawson5__C3-W1__tau17/order.json", "peak_mem_mb": 320.703125}

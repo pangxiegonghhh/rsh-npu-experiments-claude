@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "scope": "terminal metadata/permutation/hash/CP/recorded independent recompute/budget/memory/timing/source checked; LS complete, all four layouts INCOMPLETE; no scientific rerun",
+  "case_id": "stage3-reddit__C1-H__W16__seed0__tau153",
+  "status": "INCOMPLETE",
+  "original_exitcode": 0,
+  "actual_method_seconds": 4510.201544046402,
+  "queue_seconds": 28.08200192451477,
+  "sweeps_done": 10,
+  "accepted_swaps": 98083,
+  "ls_lam": 0,
+  "ls_seed": 0,
+  "order_sha256": "7f49592baf1df88365f03bf28d8c00320c4fe40a82112c8b429ebebd39f1c98b",
+  "order_size": 1521031,
+  "checkpoint_sha256": "c160c6680c967a9e9c25f14ebdce544a99fd6468816cd064c951dd61c138e1a9",
+  "runtime_independent_full_recompute": {
+    "k_windows": 8728,
+    "sumU": 37657709,
+    "T": 2357681,
+    "sumGamma": 13314083,
+    "sumR": 21543723,
+    "R_p50": 2082,
+    "R_p90": 4377,
+    "R_max": 27727,
+    "write_runs_aic": 8728,
+    "meanR": 2468.345898
+  },
+  "original_process_peak_mem_mb": 4368.15625,
+  "new_memory_export_rows": 4,
+  "post_sec": 4306.322942972183,
+  "post_layout_statuses": {
+    "INCOMPLETE": 4
+  },
+  "post_layout_reason": "co pair map exceeds 8GiB workspace safety budget estimate; INCOMPLETE",
+  "failed_layout_numeric_fields_absent": true,
+  "metric_scope": "fresh numbers verify completed LS state before D; not filled into failed final-layout rows",
+  "guard_note": "four saved errors do not establish four physical scans; source-known cache provenance classified by final guard recovery",
+  "actual_layout_backend": {
+    "python_implementation_revision": "v7-flat-co-default-and-backend-provenance; unchanged v6 chain/failure cache",
+    "pid": 69957,
+    "argv": [
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-post-catalog/stage3-reddit__C1-H__W16__seed0__tau153.json"
+    ],
+    "matrix": "reddit",
+    "n": 232965,
+    "first_context_W": 16,
+    "first_context_windows": 8728,
+    "binary_loaded_at": 1794177512.8151731,
+    "first_context_at": 1794181826.352235,
+    "library_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib",
+    "library_sha256": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+    "library_override_at_import": null,
+    "scope": "actual DLL selected and hashed at module import; applies to this process only, not prior/queued imports"
+  },
+  "scientific_source_sha256": {
+    "scripts/post_e_job.py": "53f68b4087d536fa90aef408abf6bf534f5177d22b45c377fa2d9eae76254368",
+    "scripts/ls_runtime.py": "4074067ec787cb9be78b87f7d479d4f369cff8b7353daf90fddd755a5508757a",
+    "scripts/native.py": "3b7830ca38f2950d938f37de6539bd37fd8893dbfbbc8bca073ce9e019754c98",
+    "scripts/layouts_flatco.cpp": "5dcea0fff0c13830fe55ceb059e520580acb05b59f3286b653562239fafa7fcf"
+  },
+  "no_scientific_rerun": true,
+  "original_generation_order_unchanged": true
+}

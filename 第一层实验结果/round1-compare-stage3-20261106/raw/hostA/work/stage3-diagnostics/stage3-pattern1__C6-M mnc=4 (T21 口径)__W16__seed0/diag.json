@@ -1,0 +1,33 @@
+{
+  "matrix": "pattern1",
+  "member": "C6-M mnc=4 (T21 \u53e3\u5f84)",
+  "W": 16,
+  "diag": "A0",
+  "tau": 757,
+  "T_full": 44486,
+  "T_full_phase": 51230.0,
+  "align_premium": 6744.0,
+  "T_inplace": 40660,
+  "T_keep": 32924,
+  "U_inplace": 644128,
+  "U_keep": 520703,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.6660828590393066,
+  "status": "OK"
+}

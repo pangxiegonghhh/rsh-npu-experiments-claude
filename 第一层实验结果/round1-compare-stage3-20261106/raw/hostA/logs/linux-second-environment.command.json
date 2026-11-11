@@ -1,0 +1,18 @@
+{
+  "command": [
+    "ssh",
+    "-p",
+    "22221",
+    "-i",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/.private/linux_ed25519",
+    "-o",
+    "UserKnownHostsFile=/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/.private/known_hosts_second",
+    "-o",
+    "StrictHostKeyChecking=yes",
+    "root@127.0.0.1",
+    "python3 -c 'from pathlib import Path;import hashlib,json,platform; mounts=Path('\"'\"'/proc/mounts'\"'\"').read_text();assert '\"'\"'/dev/vda /scratch ext4 '\"'\"' in mounts;p=Path('\"'\"'/root/rabbit/demo/reorder'\"'\"');h=hashlib.sha256(p.read_bytes()).hexdigest();assert h=='\"'\"'f91bdc5d266497a3833ddc5eb1b6ac17ce521552eb2cf529211703faa074f73b'\"'\"';print(json.dumps(dict(binary_sha256=h,uname=platform.uname()._asdict(),scratch_mount=[l for l in mounts.splitlines() if '\"'\"' /scratch '\"'\"' in l],guest_script_sha256=hashlib.sha256(Path('\"'\"'/root/run_rabbit_second_guest.py'\"'\"').read_bytes()).hexdigest())))'"
+  ],
+  "start": 1793986382.9608982,
+  "end": 1793986383.1811478,
+  "exitcode": 0
+}

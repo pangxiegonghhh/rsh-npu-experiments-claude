@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "member": "original",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "rsh",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "rabbit",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "neutron",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "rcm",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "slashburn",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "bp",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "gorder",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "gorder-S",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "original",
+      "tau": 3,
+      "table1_identical": true
+    },
+    {
+      "member": "rsh",
+      "tau": 3,
+      "table1_identical": true
+    },
+    {
+      "member": "rabbit",
+      "tau": 3,
+      "table1_identical": true
+    },
+    {
+      "member": "neutron",
+      "tau": 3,
+      "table1_identical": true
+    },
+    {
+      "member": "rcm",
+      "tau": 3,
+      "table1_identical": true
+    },
+    {
+      "member": "slashburn",
+      "tau": 3,
+      "table1_identical": true
+    },
+    {
+      "member": "bp",
+      "tau": 3,
+      "table1_identical": true
+    },
+    {
+      "member": "gorder",
+      "tau": 3,
+      "table1_identical": true
+    },
+    {
+      "member": "gorder-S",
+      "tau": 3,
+      "table1_identical": true
+    }
+  ],
+  "table2_sigma_and_metrics_gate": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/layout-port-gate.json",
+  "input_note": "fresh reference load_cora adjacency for historical Table 1/2 gate; formal baseline row orders remain individually verified T21 index files, including frozen SlashBurn provenance"
+}

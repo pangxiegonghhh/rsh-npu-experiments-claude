@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "case": "reddit C9-S tau53 partial",
+  "sweeps_done": 8,
+  "ls_stop_condition_complete": false,
+  "original_seconds": 7200.788278102875,
+  "recovery_seconds": 433.50695395469666,
+  "sha256": "171c5125d4515c23bd79b0a1d0e2944480af6f926b1c7c1f38d3d3c83c703634",
+  "independent_UG": {
+    "k_windows": 11633,
+    "sumU": 38880686,
+    "T": 2435520,
+    "sumGamma": 11531521,
+    "sumR": 20330629,
+    "R_p50": 1328,
+    "R_p90": 3238,
+    "R_max": 26037,
+    "write_runs_aic": 11633
+  },
+  "no_LS_retry": true
+}

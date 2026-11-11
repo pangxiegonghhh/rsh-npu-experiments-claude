@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "scope": "Saved diagnosis metadata/15 actual phases/T_full versus original own A0 full rows/source and actual process backend/unchanged original Pi. No CSR metrics regenerated; no physical guard-rescan claim.",
+  "case_id": "stage3-reddit__C8-METIS__W16__seed0",
+  "status": "OK",
+  "actual_method_seconds": 40.151641845703125,
+  "queue_seconds": 6621.060764074326,
+  "diagnostic_status_seconds": 40.04700183868408,
+  "T_full": 4466045,
+  "T_full_phase": 4985968.666666667,
+  "align_premium": 519923.666666667,
+  "backend_evidence": {
+    "logs/layout-context-backends/38738-1794202461715008000.json": "e0494fb197bcfeafd718d41bceda6338f7d387fdb275ee2d74292d3ba26d3bb7"
+  },
+  "files": {
+    "work/stage3-diagnostics/stage3-reddit__C8-METIS__W16__seed0/status.json": "829ccc08fe6218eff5651a253ce1985d79323413aea5d3bc7016045e3197ffcb",
+    "work/stage3-diagnostics/stage3-reddit__C8-METIS__W16__seed0/diag.json": "a76817558aee9b9153bfc2e6ec50f30243adc773235f9c216593cf4c80cdf9d1",
+    "work/stage3-diagnostics/stage3-reddit__C8-METIS__W16__seed0/phases.json": "a970da42bca129cc53eb1661d891bd9ce69073b1ab89367fa1311e67c84d9a52",
+    "work/stage3-diagnostics/stage3-reddit__C8-METIS__W16__seed0/groups.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "work/stage3-diagnostics/stage3-reddit__C8-METIS__W16__seed0/candidate-diagnostics.json": "ed7ef8b92686f6016056975ec92c3c3754d4023b3732293678a743d6261ca3da",
+    "logs/stage3-diag-stage3-reddit__C8-METIS__W16__seed0.command.json": "3e504ab2d2ea766a5dab4cd476b5ee397bf2168dd474ab8fedefdc0e25caabc5",
+    "work/stage3-eval-catalog/stage3-reddit__C8-METIS__W16__seed0.json": "d4bbe23497a251e9c50fc25edd9de118fcc4e8a8c5baa2ce20105784ced6f944",
+    "work/stage3-evaluations/stage3-reddit__C8-METIS__W16__seed0/rows.json": "683442d6d764f17b5301985f6eeb2a699caf92b1f41c90e71a407cdbc6c9ab83"
+  },
+  "no_scientific_rerun": true,
+  "whole_case_complete": false,
+  "posts_still_required": [
+    53,
+    153
+  ]
+}

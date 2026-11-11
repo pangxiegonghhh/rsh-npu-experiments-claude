@@ -1,0 +1,23 @@
+{
+  "pid": 111,
+  "slot": 0,
+  "command": [
+    "scripts/generate_pure.py",
+    "--matrix",
+    "cora",
+    "--method",
+    "C4-U",
+    "--W",
+    "16",
+    "--seed",
+    "0"
+  ],
+  "queued_at": 1794208356.6428158,
+  "acquired_at": 1794208356.64475,
+  "queue_seconds": 0.0019345283508300781,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/cpu-slots",
+  "large_graph_serialized": false,
+  "memory_limit_bytes": 8589934592,
+  "memory_guard_path": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/logs/memory-guards/111-1794208356642853581.json"
+}

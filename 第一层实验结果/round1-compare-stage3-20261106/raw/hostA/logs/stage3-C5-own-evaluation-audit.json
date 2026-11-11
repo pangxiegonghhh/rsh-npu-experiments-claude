@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "case_id": "stage3-reddit__C5__W16__seed0",
+  "scope": "own evaluation terminal/exact20unique prescribed conditions/metric invariants/unchanged order and actual source+backend; no scientific rerun and not a whole-case PASS",
+  "original_exitcode": 0,
+  "actual_method_seconds": 938.047061920166,
+  "queue_seconds": 29.316998958587646,
+  "rows": 20,
+  "OK": 20,
+  "INCOMPLETE": 0,
+  "fixed_membership_UT_groups": 6,
+  "rows_sha256": "e06c7788410b399b2365647bca02d73108e36f17db27bdc1c19abce9f820f19f",
+  "actual_layout_backend": {
+    "python_implementation_revision": "v7-flat-co-default-and-backend-provenance; unchanged v6 chain/failure cache",
+    "pid": 27347,
+    "argv": [
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-eval-catalog/stage3-reddit__C5__W16__seed0.json"
+    ],
+    "matrix": "reddit",
+    "n": 232965,
+    "first_context_W": 16,
+    "first_context_windows": 14561,
+    "binary_loaded_at": 1794170568.469305,
+    "first_context_at": 1794170597.770134,
+    "library_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib",
+    "library_sha256": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+    "library_override_at_import": null,
+    "scope": "actual DLL selected and hashed at module import; applies to this process only, not prior/queued imports"
+  },
+  "original_process_peak_through_last_condition_mb": 3824.53125,
+  "guard_counts_not_recomputed": true,
+  "guard_count_note": "saved condition counts, not independent fresh physical scans",
+  "seed_is_requested_replica_label": true,
+  "actual_Rabbit_seed": null,
+  "whole_case_complete": false
+}

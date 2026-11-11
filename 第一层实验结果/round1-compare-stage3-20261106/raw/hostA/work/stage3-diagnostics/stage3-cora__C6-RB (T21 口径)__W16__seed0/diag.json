@@ -1,0 +1,33 @@
+{
+  "matrix": "cora",
+  "member": "C6-RB (T21 \u53e3\u5f84)",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 406,
+  "T_full_phase": 475.6666666666667,
+  "align_premium": 69.66666666666669,
+  "T_inplace": 340,
+  "T_keep": 305,
+  "U_inplace": 4358,
+  "U_keep": 4400,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.027240753173828125,
+  "status": "OK"
+}

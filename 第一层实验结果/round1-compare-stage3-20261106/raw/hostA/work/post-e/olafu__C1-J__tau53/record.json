@@ -1,0 +1,99 @@
+{
+  "matrix": "olafu",
+  "method": "C1-J",
+  "W": 16,
+  "seed": 0,
+  "start": 1793975523.521769,
+  "status": "OK",
+  "command": [
+    "scripts/external_c1.py",
+    "--matrix",
+    "olafu",
+    "--variant",
+    "J",
+    "--seed",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/olafu__C1-J__W16__seed0.order.json",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/olafu__C1-J__W16__seed0.order.json",
+  "sha256": "fbe8494ddbff45842536a3971a386d756d78711bbec784cda1cd1893ebfc809c",
+  "size": 86763,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 509,
+        "sumU": 95044,
+        "sumGamma": 9766,
+        "elapsed": 0.2500779628753662
+      },
+      {
+        "sweep": 1,
+        "accepted": 63,
+        "sumU": 94688,
+        "sumGamma": 9734,
+        "elapsed": 0.4981040954589844
+      },
+      {
+        "sweep": 2,
+        "accepted": 9,
+        "sumU": 94525,
+        "sumGamma": 9710,
+        "elapsed": 0.7441761493682861
+      },
+      {
+        "sweep": 3,
+        "accepted": 1,
+        "sumU": 94507,
+        "sumGamma": 9708,
+        "elapsed": 0.9910178184509277
+      },
+      {
+        "sweep": 4,
+        "accepted": 2,
+        "sumU": 94471,
+        "sumGamma": 9703,
+        "elapsed": 1.2392921447753906
+      },
+      {
+        "sweep": 5,
+        "accepted": 2,
+        "sumU": 94435,
+        "sumGamma": 9698,
+        "elapsed": 1.488224983215332
+      },
+      {
+        "sweep": 6,
+        "accepted": 0,
+        "sumU": 94435,
+        "sumGamma": 9698,
+        "elapsed": 1.73561692237854
+      }
+    ],
+    "sweeps_done": 7,
+    "accepted_swaps": 586,
+    "tracked_sumU": 94435,
+    "tracked_sumGamma": 9698,
+    "independent_full_recompute": {
+      "k_windows": 623,
+      "sumU": 94435,
+      "T": 6204,
+      "sumGamma": 9698,
+      "sumR": 7893,
+      "R_p50": 12,
+      "R_p90": 20,
+      "R_max": 27,
+      "write_runs_aic": 623,
+      "meanR": 12.669342
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 53824076
+  },
+  "end": 1793975525.4814348,
+  "seconds": 1.9596657752990723,
+  "peak_mem_mb": 84.96875,
+  "member": "C1-J",
+  "tau": 53,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/olafu__C1-J__tau53/order.json"
+}

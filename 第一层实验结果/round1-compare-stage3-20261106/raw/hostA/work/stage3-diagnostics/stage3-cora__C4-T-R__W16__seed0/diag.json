@@ -1,0 +1,33 @@
+{
+  "matrix": "cora",
+  "member": "C4-T-R",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 506,
+  "T_full_phase": 546.2,
+  "align_premium": 40.200000000000045,
+  "T_inplace": 411,
+  "T_keep": 352,
+  "U_inplace": 5445,
+  "U_keep": 5159,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.02720475196838379,
+  "status": "OK"
+}

@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 5222, 'sumU': 3894592, 'sumGamma': 645117, 'elapsed': 24.720902919769287}
+LS {'sweep': 1, 'accepted': 3441, 'sumU': 3807951, 'sumGamma': 615048, 'elapsed': 47.42438888549805}
+LS {'sweep': 2, 'accepted': 2207, 'sumU': 3760723, 'sumGamma': 599602, 'elapsed': 69.22398686408997}
+LS {'sweep': 3, 'accepted': 1381, 'sumU': 3733705, 'sumGamma': 590330, 'elapsed': 90.33649492263794}
+LS {'sweep': 4, 'accepted': 863, 'sumU': 3717431, 'sumGamma': 584744, 'elapsed': 112.04776811599731}
+LS {'sweep': 5, 'accepted': 590, 'sumU': 3706699, 'sumGamma': 580855, 'elapsed': 134.0244140625}
+LS {'sweep': 6, 'accepted': 369, 'sumU': 3700137, 'sumGamma': 578477, 'elapsed': 154.76806807518005}
+LS {'sweep': 7, 'accepted': 265, 'sumU': 3695075, 'sumGamma': 576618, 'elapsed': 176.2418601512909}
+LS {'sweep': 8, 'accepted': 219, 'sumU': 3691785, 'sumGamma': 575552, 'elapsed': 196.80411291122437}
+LS {'sweep': 9, 'accepted': 177, 'sumU': 3689013, 'sumGamma': 574413, 'elapsed': 217.43815994262695}
+{"matrix": "human_gene1", "method": "C2-LSH", "W": 16, "seed": 0, "start": 1793977301.32804, "status": "OK", "command": ["/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py", "--matrix", "human_gene1", "--method", "C2-LSH", "--seed", "0"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/human_gene1__C2-LSH__W16__seed0.order.json", "sha256": "9aa4bdf819080b5ddadc082283863ef68d6323ddf130f848f3d5c77c42cda070", "size": 123924, "end": 1793977538.311552, "seconds": 236.98351216316223, "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/human_gene1__C2-LSH__W16__seed0.order.json", "member": "C2-LSH", "tau": 82, "reuse": false, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/human_gene1__C2-LSH__tau82/order.json", "peak_mem_mb": 703.671875}

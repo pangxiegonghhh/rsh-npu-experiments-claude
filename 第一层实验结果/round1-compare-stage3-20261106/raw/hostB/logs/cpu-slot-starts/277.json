@@ -1,0 +1,16 @@
+{
+  "pid": 277,
+  "slot": 0,
+  "command": [
+    "scripts/evaluate_t23.py",
+    "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-eval-catalog/stage3-ogbn-products__B-RCM-ref__W16__seed0.json"
+  ],
+  "queued_at": 1794211410.1008794,
+  "acquired_at": 1794211437.4812608,
+  "queue_seconds": 27.38038158416748,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/cpu-slots",
+  "large_graph_serialized": true,
+  "memory_limit_bytes": 8589934592,
+  "memory_guard_path": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/logs/memory-guards/277-1794211410100906792.json"
+}

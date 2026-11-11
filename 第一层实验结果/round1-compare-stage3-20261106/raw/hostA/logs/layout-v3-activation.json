@@ -1,0 +1,27 @@
+{
+  "activated_at": 1793989263.9481118,
+  "applies_to": "future Python imports only; current Reddit B0 evaluation keeps loaded v2 unchanged",
+  "algorithm": "same exact positive candidate edges and descending (co,a,ea,b,eb) ties; uint16 triangular scores and uint32 packed sorted edge buckets; old exact v2 fallback for dual-singleton/gap and dimensions/workspace outside dense feasibility",
+  "workspace": "preflight six bytes per endpoint pair plus actual context capacities and512MiB reserve <=8GiB; independent process peakRSS8GiB guard unchanged",
+  "native_before_sha256": "0927bfe6bd1f8d95855f4823ceb5ad657bc1f5e84233bf2ce3b0a4cdcf165794",
+  "native_after_sha256": "fa8403fd257043ba059c5d204666fa42459632c8a88aad2ae47e8ea85508c5af",
+  "source_sha256": "f6e73dae72f0f252689067e1d3527f109b73154b92c854fbc11c7e8c78d0ffdf",
+  "binary_sha256": "841206972e2a23f9237075f0138ec568564009c6d4c17df3a1216f5fa0ed91ae",
+  "compile_command": [
+    "c++",
+    "-std=c++17",
+    "-O3",
+    "-ffp-contract=off",
+    "-dynamiclib",
+    "scripts/layouts_dense.cpp",
+    "-o",
+    "work/liblayouts-v3.dylib"
+  ],
+  "gates": [
+    "layout-v3-port-gate.json",
+    "layout-W-sensitivity-v3-gate.json",
+    "rq3-native-table-v3-gate.json",
+    "layout-v3-random-gate.json"
+  ],
+  "no_scientific_job_restarted": true
+}

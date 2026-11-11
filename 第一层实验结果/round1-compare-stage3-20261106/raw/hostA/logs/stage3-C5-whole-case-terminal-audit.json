@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "scope": "one original scientific case terminal: exact28 unique prescribed conditions ALL28OK; current full-table arithmetic/UT invariants only, not campaign completion or an independent remeasurement of every order",
+  "case_id": "stage3-reddit__C5__W16__seed0",
+  "formal_status": "OK",
+  "formal_conditions": 28,
+  "condition_status_counts": {
+    "OK": 28
+  },
+  "own_conditions_OK": 20,
+  "post_conditions_OK": 8,
+  "ls_complete_both_taus": true,
+  "raw_file_sha256": {
+    "work/stage3-cases/stage3-reddit__C5__W16__seed0/record.json": "20aec373aba4ad7cf59d9bd223800241ccf291a36dd5f33ef5c692f4914bfc65",
+    "work/stage3-evaluations/stage3-reddit__C5__W16__seed0/rows.json": "e06c7788410b399b2365647bca02d73108e36f17db27bdc1c19abce9f820f19f",
+    "work/post-e/stage3-reddit__C5__W16__seed0__tau53/rows.json": "0e4b55ed08de97dd1735bea0be51d8fcb6b572a71f65f8a4e8c903361f855275",
+    "work/post-e/stage3-reddit__C5__W16__seed0__tau153/rows.json": "55d9883cc0268641cef59090e00e095ddb82e81a23cebcdff95fa61f26b5838c"
+  },
+  "collected_coverage": {
+    "planned_cases": 409,
+    "attempted": 368,
+    "OK": 315,
+    "INCOMPLETE": 53,
+    "SKIPPED": 41,
+    "optional_reference_skip_cells": 6,
+    "result_rows": 6276,
+    "post_records": 28,
+    "all_attempted": false
+  },
+  "final_original_cases": 368,
+  "final_original_case_counts": {
+    "OK": 315,
+    "INCOMPLETE": 12,
+    "SKIPPED": 41
+  },
+  "pending_cases": 41,
+  "current_full_table_invariant_audit": {
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-collected/results.csv",
+    "rows": 6276,
+    "successful_rows_checked": 4907,
+    "fixed_membership_UT_groups": 1577,
+    "passed": true
+  },
+  "original_generation_order_unchanged": true,
+  "no_scientific_rerun": true,
+  "full_campaign_complete": false
+}

@@ -1,0 +1,134 @@
+[
+ {
+  "matrix": "wiki-RfA",
+  "member": "C7-I",
+  "W": 32,
+  "tau": "none",
+  "diag": 0,
+  "source": "own",
+  "placement": "none",
+  "d_rule": "own",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "wiki-RfA",
+  "member": "C7-I",
+  "W": 32,
+  "tau": "none",
+  "diag": 0,
+  "source": "own",
+  "placement": "none",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "wiki-RfA",
+  "member": "C7-I",
+  "W": 32,
+  "tau": 3,
+  "diag": 0,
+  "source": "own",
+  "placement": "tail-co",
+  "d_rule": "own",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "wiki-RfA",
+  "member": "C7-I",
+  "W": 32,
+  "tau": 3,
+  "diag": 0,
+  "source": "own",
+  "placement": "tail-co",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "wiki-RfA",
+  "member": "C7-I",
+  "W": 32,
+  "tau": 3,
+  "diag": 0,
+  "source": "own",
+  "placement": "tail",
+  "d_rule": "own",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "wiki-RfA",
+  "member": "C7-I",
+  "W": 32,
+  "tau": 3,
+  "diag": 0,
+  "source": "own",
+  "placement": "tail",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "wiki-RfA",
+  "member": "C7-I",
+  "W": 32,
+  "tau": "none",
+  "diag": 1,
+  "source": "own",
+  "placement": "none",
+  "d_rule": "own",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "wiki-RfA",
+  "member": "C7-I",
+  "W": 32,
+  "tau": "none",
+  "diag": 1,
+  "source": "own",
+  "placement": "none",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "wiki-RfA",
+  "member": "C7-I",
+  "W": 32,
+  "tau": 3,
+  "diag": 1,
+  "source": "own",
+  "placement": "tail-co",
+  "d_rule": "own",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "wiki-RfA",
+  "member": "C7-I",
+  "W": 32,
+  "tau": 3,
+  "diag": 1,
+  "source": "own",
+  "placement": "tail-co",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "wiki-RfA",
+  "member": "C7-I",
+  "W": 32,
+  "tau": 3,
+  "diag": 1,
+  "source": "own",
+  "placement": "tail",
+  "d_rule": "own",
+  "co_chain_guard_windows_skipped": 0
+ },
+ {
+  "matrix": "wiki-RfA",
+  "member": "C7-I",
+  "W": 32,
+  "tau": 3,
+  "diag": 1,
+  "source": "own",
+  "placement": "tail",
+  "d_rule": "D-greedy",
+  "co_chain_guard_windows_skipped": 0
+ }
+]

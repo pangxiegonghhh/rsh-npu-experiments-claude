@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "scope": "saved C5-U tau153 terminal post record and whole case; hashes, full permutation, original 10-sweep checkpoint, saved fresh A0 UG and 28 successful condition statuses; no numerical rerun",
+  "actual_method_seconds": 5466.323900938034,
+  "queue_seconds": 0.19952392578125,
+  "post_record_seconds": 5466.043807029724,
+  "peak_mem_mb": 4320.640625,
+  "order_sha256": "bb53dbad674f965c48eefe8a18b731fb354fd052593170f6f8c6c48decdad786",
+  "checkpoint_sha256": "820ed9196dd283c2f3aa27a1e3cde523c6c7de08d82ac90e76ba6b29620fb7d4",
+  "accepted_swaps": 125391,
+  "own_rows_ok": 20,
+  "post_rows_ok": 8,
+  "diagnostic_status": "OK",
+  "backend_sha256": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+  "co_guard_counts": [
+    2196,
+    2196,
+    2196,
+    2196
+  ],
+  "guard_note": "reported condition counts; not a claim of independent physical scans",
+  "whole_case_complete": true,
+  "no_scientific_rerun": true,
+  "audit_corrections": [
+    "Initial audit treated the order JSON object as a list; corrected to its row_perm field.",
+    "Initial audit incorrectly compared A1 U/T to A0 full recomputation; restricted that check to A0. No science was rerun."
+  ]
+}

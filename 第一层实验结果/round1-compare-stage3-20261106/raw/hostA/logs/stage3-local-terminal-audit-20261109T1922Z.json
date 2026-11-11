@@ -1,0 +1,361 @@
+{
+  "at_utc": "2026-11-09T19:22:12.284Z",
+  "scope": "metadata-only local 21 terminal record audit; not global completion or all PASS",
+  "local_cases": [
+    {
+      "case_id": "stage3-reddit__C5-U__W16__seed0",
+      "record_sha256": "8b94160168c1b1057a57a5e0b5794ffb383c8bd8be36935181cf649c246e14c1",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 20
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 28.178624868392944
+      },
+      "posts": [
+        {
+          "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C5-U__W16__seed0__tau53/record.json",
+          "status": "OK",
+          "error": null
+        },
+        {
+          "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C5-U__W16__seed0__tau153/record.json",
+          "status": "OK",
+          "error": null
+        }
+      ]
+    },
+    {
+      "case_id": "stage3-reddit__C8-METIS__W16__seed0",
+      "record_sha256": "bea393d033b6d1e081580d3aa34777ff0f1f31c9adac8858ce245a8e6bc580b3",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 16,
+        "INCOMPLETE": 4
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 40.04700183868408
+      },
+      "posts": [
+        {
+          "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C8-METIS__W16__seed0__tau53/record.json",
+          "status": "MISSING",
+          "error": null
+        },
+        {
+          "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C8-METIS__W16__seed0__tau153/record.json",
+          "status": "MISSING",
+          "error": null
+        }
+      ]
+    },
+    {
+      "case_id": "stage3-reddit__C3-A__W16__seed0",
+      "record_sha256": "04f988c624d2a83f1bae178c3d7043b75ec63d3494dbd4b03f812d598b8370b6",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 16,
+        "INCOMPLETE": 4
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 41.56242918968201
+      },
+      "posts": []
+    },
+    {
+      "case_id": "stage3-reddit__C3-W4-noP__W16__seed0",
+      "record_sha256": "af5e3d0e26ae77d602bf2a31ff996927abf420132b7f514bd6732af3266f91d5",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 16,
+        "INCOMPLETE": 4
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 36.742002964019775
+      },
+      "posts": []
+    },
+    {
+      "case_id": "stage3-reddit__C3-W4-R__W16__seed0",
+      "record_sha256": "4921187aa08968360015cde541388f5a01fd9d596d7448bb589b6ae0cfaf7597",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 20
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 33.78584694862366
+      },
+      "posts": []
+    },
+    {
+      "case_id": "stage3-reddit__C3-A-R__W16__seed0",
+      "record_sha256": "aa4b7bf5df1f4854735158d125f4aa1b0f85896f7c0d05927b3c6531e09f62cf",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 20
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 31.008810997009277
+      },
+      "posts": []
+    },
+    {
+      "case_id": "stage3-reddit__C4-U-R__W16__seed0",
+      "record_sha256": "b1c96f039c19f6143806ff5680954ddf37fb51667895411b6c8b048acca56169",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 16,
+        "INCOMPLETE": 4
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 31.74314594268799
+      },
+      "posts": []
+    },
+    {
+      "case_id": "stage3-reddit__C4-T-R__W16__seed0",
+      "record_sha256": "810240302c3b4161e7f1303442ba2c244e9584e0fea23917644317a0f7274f37",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 16,
+        "INCOMPLETE": 4
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 32.64472723007202
+      },
+      "posts": []
+    },
+    {
+      "case_id": "stage3-reddit__C7-I-R__W16__seed0",
+      "record_sha256": "d7dd2d7b11c5619e7d2eb0e71f09450ff5c62f035a7d1c75a833adc527eb4255",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 16,
+        "INCOMPLETE": 4
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 34.30438590049744
+      },
+      "posts": []
+    },
+    {
+      "case_id": "stage3-reddit__C5-CN__W16__seed0",
+      "record_sha256": "74cdd932acf90348a61681af30fb23dd3de7cd22e973523bed11421568f88c0e",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 20
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 28.204538822174072
+      },
+      "posts": []
+    },
+    {
+      "case_id": "stage3-reddit__C5-U-CN__W16__seed0",
+      "record_sha256": "ccd69549069bc46a8854500fab36189ca2f1d0a134548e3531520f086f8e53d5",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 20
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 29.212144136428833
+      },
+      "posts": []
+    },
+    {
+      "case_id": "stage3-reddit__C6-HP__W16__seed0",
+      "record_sha256": "ad784393e9c7e2d723c13ea9d09553b3aa02c371a53a41fffacae05cf8eb0092",
+      "generation_status": "INCOMPLETE",
+      "diagnostic_status": null,
+      "posts": []
+    },
+    {
+      "case_id": "stage3-ogbn-products__C1-J__W16__seed0",
+      "record_sha256": "390402d752ab062651dd5055a32094e0f610782c58e0aadc9030a415e6f25b99",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 10,
+        "INCOMPLETE": 10
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 129.41113591194153
+      },
+      "posts": [
+        {
+          "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-ogbn-products__C1-J__W16__seed0__tau2/record.json",
+          "status": "INCOMPLETE",
+          "error": "LS exact workspace preflight estimate 180695009260 bytes exceeds frozen 8GiB safety budget"
+        },
+        {
+          "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-ogbn-products__C1-J__W16__seed0__tau3/record.json",
+          "status": "INCOMPLETE",
+          "error": "LS exact workspace preflight estimate 174717828430 bytes exceeds frozen 8GiB safety budget"
+        }
+      ]
+    },
+    {
+      "case_id": "stage3-ogbn-products__C1-H__W16__seed0",
+      "record_sha256": "aff7ba1aa6243d1247daef6560639c7a3b547da7530ae9f78691a9f7317848b8",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 10,
+        "INCOMPLETE": 10
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 161.2632520198822
+      },
+      "posts": [
+        {
+          "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-ogbn-products__C1-H__W16__seed0__tau2/record.json",
+          "status": "INCOMPLETE",
+          "error": "LS exact workspace preflight estimate 180695009260 bytes exceeds frozen 8GiB safety budget"
+        },
+        {
+          "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-ogbn-products__C1-H__W16__seed0__tau3/record.json",
+          "status": "INCOMPLETE",
+          "error": "LS exact workspace preflight estimate 174717828430 bytes exceeds frozen 8GiB safety budget"
+        }
+      ]
+    },
+    {
+      "case_id": "stage3-ogbn-products__C5__W16__seed0",
+      "record_sha256": "5714b9b5ebc89242df3467c2a1d0bc6c607b17bece7ea1b661c053ffa6954c0a",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 10,
+        "INCOMPLETE": 10
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 101.982421875
+      },
+      "posts": [
+        {
+          "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-ogbn-products__C5__W16__seed0__tau2/record.json",
+          "status": "INCOMPLETE",
+          "error": "LS exact workspace preflight estimate 180695009260 bytes exceeds frozen 8GiB safety budget"
+        },
+        {
+          "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-ogbn-products__C5__W16__seed0__tau3/record.json",
+          "status": "INCOMPLETE",
+          "error": "LS exact workspace preflight estimate 174717828430 bytes exceeds frozen 8GiB safety budget"
+        }
+      ]
+    },
+    {
+      "case_id": "stage3-ogbn-products__C5-U__W16__seed0",
+      "record_sha256": "c8d84c955257f630c18b1855d7b86470fc4e443143799efa4b9052ab7bc75d6f",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 16,
+        "INCOMPLETE": 4
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 98.78357291221619
+      },
+      "posts": [
+        {
+          "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-ogbn-products__C5-U__W16__seed0__tau2/record.json",
+          "status": "INCOMPLETE",
+          "error": "LS exact workspace preflight estimate 180695009260 bytes exceeds frozen 8GiB safety budget"
+        },
+        {
+          "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-ogbn-products__C5-U__W16__seed0__tau3/record.json",
+          "status": "INCOMPLETE",
+          "error": "LS exact workspace preflight estimate 174717828430 bytes exceeds frozen 8GiB safety budget"
+        }
+      ]
+    },
+    {
+      "case_id": "stage3-ogbn-products__C8-METIS__W16__seed0",
+      "record_sha256": "eebc5f9058303dfb0cc4e4ac1821a87a0f10ae579004b3b8d7b55faac87a2946",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 10,
+        "INCOMPLETE": 10
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 139.12770676612854
+      },
+      "posts": [
+        {
+          "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-ogbn-products__C8-METIS__W16__seed0__tau2/record.json",
+          "status": "INCOMPLETE",
+          "error": "LS exact workspace preflight estimate 180695009260 bytes exceeds frozen 8GiB safety budget"
+        },
+        {
+          "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-ogbn-products__C8-METIS__W16__seed0__tau3/record.json",
+          "status": "INCOMPLETE",
+          "error": "LS exact workspace preflight estimate 174717828430 bytes exceeds frozen 8GiB safety budget"
+        }
+      ]
+    },
+    {
+      "case_id": "stage3-ogbn-products__C7-I-R__W16__seed0",
+      "record_sha256": "ac91f696b5021861a5c6675cc5d610f775c08e47475c6c8b73adc6f6196bc6cf",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 10,
+        "INCOMPLETE": 10
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 122.63679003715515
+      },
+      "posts": []
+    },
+    {
+      "case_id": "stage3-ogbn-products__C5-CN__W16__seed0",
+      "record_sha256": "8ac84583ab5f37e51c1944164970694ebbe8873129cdec51e5f998570900a1db",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 10,
+        "INCOMPLETE": 10
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 102.10380697250366
+      },
+      "posts": []
+    },
+    {
+      "case_id": "stage3-ogbn-products__C5-U-CN__W16__seed0",
+      "record_sha256": "5ee641ae3263db5bfae4ad660567af93f4a35072f6f41e40548b6cbb81fe7173",
+      "generation_status": "OK",
+      "own_row_status_counts": {
+        "OK": 10,
+        "INCOMPLETE": 10
+      },
+      "diagnostic_status": {
+        "status": "OK",
+        "seconds": 99.29071879386902
+      },
+      "posts": []
+    },
+    {
+      "case_id": "stage3-ogbn-products__C6-HP__W16__seed0",
+      "record_sha256": "8ad961dcab5e6ad602499301fc87364f9259e2db0f6381b56be33da42ce73142",
+      "generation_status": "INCOMPLETE",
+      "diagnostic_status": null,
+      "posts": []
+    }
+  ],
+  "remote_import_verified": false,
+  "local_completion_marker": true,
+  "products_C6_HP_failure": "generation exit -9 after 19.211477994918823 actual seconds; no final order record; no memory guard receipt found; cause unconfirmed; no retry"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/rabbit-coarse/ogbn-products-B-repeat0.mapping",
+    "bytes": 38073354,
+    "sha256": "df7112520cdb189a6076d7ae6857a9ddd3f201bd70a41af6dd8d2c504277d827",
+    "storage": "local-only intermediate vertex permutation, not a new independent row order"
+  },
+  {
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/rabbit-coarse/ogbn-products-U-repeat0.mapping",
+    "bytes": 18481122,
+    "sha256": "d0d99768265570499aff41949cdd592c313b28c6f029fca91033cb1894215697",
+    "storage": "local-only intermediate vertex permutation, not a new independent row order"
+  },
+  {
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/rabbit-coarse/reddit-B-repeat0.mapping",
+    "bytes": 3150400,
+    "sha256": "75baa3d2881d5ce02d3b311b478a386a07bd9aeeee3a6abddb10357033263b8a",
+    "storage": "local-only intermediate vertex permutation, not a new independent row order"
+  },
+  {
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/rabbit-coarse/reddit-U-repeat0.mapping",
+    "bytes": 1519645,
+    "sha256": "36da651a2676657cd22a8d355a272cf2a556125a5b242fcae00e962c0e034c34",
+    "storage": "local-only intermediate vertex permutation, not a new independent row order"
+  }
+]

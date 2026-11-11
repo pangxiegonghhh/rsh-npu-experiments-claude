@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/gate_rq3_tables_v7.py"
+  ],
+  "environment_override": {
+    "RQ3_LAYOUT_LIB": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib"
+  },
+  "source_sha256": "5f83ee47d739996614f2ef499b959706915f7339dd65188018f2bf97b99ec394",
+  "start": 1794070755.956627,
+  "end": 1794070756.685919,
+  "exitcode": 0,
+  "output": "rq3-native-table-v7-gate.json"
+}

@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "scope": "generation only: original command/full Pi/source/options/pre-repair labels/label-renaming and saved move-trace replay/exact target capacities/order-vs-labels binding; existing first own A0 full U independently matches final repair objective; no METIS/repair/metric rerun, whole case remains pending",
+  "matrix": "reddit",
+  "member": "C8-METIS",
+  "order_sha256": "92d13079c5e096bd2b861ad745e1b55d7a3e7da0201e0c1f4b2fd7aa05c79ee7",
+  "order_size": 1519647,
+  "actual_method_seconds": 352.84209299087524,
+  "queue_seconds": 1068.5622141361237,
+  "record_seconds": 352.54859805107117,
+  "peak_mem_mb": 3967.0625,
+  "n": 232965,
+  "parts": 14561,
+  "W": 16,
+  "seed": 0,
+  "pymetis_version": "2025.2.2",
+  "options": {
+    "seed": 0,
+    "ufactor": 30,
+    "recursive": false
+  },
+  "edge_cuts": 56781014,
+  "pre_repair_labels_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/reddit__C8-METIS__W16__seed0.pre-repair-labels.npy",
+  "pre_repair_labels_sha256": "81cbe74228c6c5486d787355f75b337c7ed6f9fb5a221a825ef8c348d40e3556",
+  "pre_repair_labels_bytes": 931988,
+  "pre_objective_sumU": 71364579,
+  "post_objective_sumU": 71347415,
+  "moves": 101,
+  "repair_seconds": 22.49132800102234,
+  "saved_move_trace_replayed_without_adjacency_recomputation": true,
+  "trace_objective_note": "record field recomputed_post_objective is the producer tracked objective (stats[3]); metadata equality is not an independent per-move marginal check. Saved main Layout A0 full count below supplies the independent final objective comparison.",
+  "saved_main_full_A0_sumU": 71347415,
+  "empty_group_tie_note": "initial nonempty groups have distinct minimum rows; relative empty-group renaming cannot alter initial labels or this trace replay",
+  "phase_sha256": "cb1c6e93c8856e3446b4a05a065b9806a23c8cb2df368f4304dd6e2db636fd13",
+  "record_sha256": "0b4b504249caa550d80d2af19520c85b638302e649663f6356ab63a70a339131",
+  "command_sha256": "6a00badca6c31f491d4eff17f884d10831c0b43474136816e1b59d8c01dda328",
+  "source_sha256": {
+    "scripts/external_metis.py": "447e2ce3de47c96dec109b744de43ccdb99d0f1b9772604fcf064fe8bc48b774",
+    "scripts/capacity.py": "9931c0fcb69e25787e53b71810864f9dbb6d71999dd6b926efd060ddfa5c7fbb",
+    "scripts/repair.cpp": "b8f89b5229dd20e86bbdb5be4fcef5c7bc2533bc94550a0d0086d7916f0c43cd"
+  },
+  "current_repair_library_sha256": "e95572f181f12c5d247c559b88a81e633a8db1ed40ac1b1c71bea9f5e2bf1b43",
+  "library_hash_scope": "current fixed path selected by SHA-bound source, not a separate import-time capture",
+  "generation_checkpoint_packaging": {
+    "builder_sha256": "780c53c281289e1b740310c50bdeb6faf950dc63a6dd419c2f8735913a54b546",
+    "source_includes_phase_and_pre_repair_npy": true,
+    "final_materialization_pending": true
+  },
+  "no_scientific_rerun": true,
+  "whole_case_complete": false
+}

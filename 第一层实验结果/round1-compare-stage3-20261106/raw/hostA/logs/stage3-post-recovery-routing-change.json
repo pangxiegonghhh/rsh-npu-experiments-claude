@@ -1,0 +1,14 @@
+{
+  "at_utc": "2026-11-07 13:44:35 UTC",
+  "scope": "future automatic finisher launches recover_partial_post.py from disk; predicate dispatches completed LS+original saved order to recover_completed_ls import before outer resource acquire; identical PID and wrapper budget, no new LS or D evaluation",
+  "gate": "stage3-post-recovery-routing-gate.json",
+  "gate_passed": true,
+  "existing_scientific_processes_restarted": false,
+  "existing_completed_evidence_modified": false,
+  "source_sha256": {
+    "recover_partial_post.py": "4aa7b191452c2bd159b7c34d785a791fe2f9b1193b2667d6c96b27c4d962fc3a",
+    "post_recovery_route.py": "bd0a4a93670897964df0f78e0d3c7046e634b4355d9d9f7cbc9dc51619cc60e2",
+    "recover_completed_ls.py": "ad0f02a308c81403725253a60fbc3538dfeeba81e94519d917f5403f95a28aef",
+    "build_stage3.py": "8a0e50f59121e07b2246e300d6c6602ee6ec8ebfe66e90db8616066dc38baa14"
+  }
+}

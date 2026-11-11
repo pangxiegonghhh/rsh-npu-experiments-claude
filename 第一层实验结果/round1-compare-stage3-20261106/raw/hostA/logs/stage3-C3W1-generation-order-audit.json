@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "scope": "generation only; all primary metrics/diagnostics/post-E still pending",
+  "case_id": "stage3-reddit__C3-W1__W16__seed0",
+  "status": "OK",
+  "order_sha256": "9af471bf3966bd12012ef2afce657e9442efbae3856cf70fb95d1dda13b9b079",
+  "order_bytes": 1519647,
+  "n": 232965,
+  "original_generation_seconds": 127.57781672477722,
+  "original_generation_exitcode": 0,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/reddit__C3-W1__W16__seed0.order.json",
+  "permutation_verified": true,
+  "evaluation_pending": true
+}

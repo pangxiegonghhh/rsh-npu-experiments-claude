@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/gate_width_sensitivity_v7.py"
+  ],
+  "environment_override": {
+    "RQ3_LAYOUT_LIB": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib"
+  },
+  "source_sha256": "fc5c889240f223a02b9e746f47ebbe4b1dbd345ad267ee709bbc8ca8f8f56ea6",
+  "start": 1794070748.8453681,
+  "end": 1794070755.955467,
+  "exitcode": 0,
+  "output": "layout-W-sensitivity-v7-gate.json"
+}

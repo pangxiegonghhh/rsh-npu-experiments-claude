@@ -1,0 +1,16 @@
+{
+  "pid": 279,
+  "slot": 0,
+  "command": [
+    "scripts/evaluate_t23.py",
+    "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-eval-catalog/stage3-ogbn-products__rabbit-pilot__W16__seed0.json"
+  ],
+  "queued_at": 1794211438.38867,
+  "acquired_at": 1794212758.9513266,
+  "queue_seconds": 1320.5626571178436,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/cpu-slots",
+  "large_graph_serialized": true,
+  "memory_limit_bytes": 8589934592,
+  "memory_guard_path": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/logs/memory-guards/279-1794211438388699245.json"
+}

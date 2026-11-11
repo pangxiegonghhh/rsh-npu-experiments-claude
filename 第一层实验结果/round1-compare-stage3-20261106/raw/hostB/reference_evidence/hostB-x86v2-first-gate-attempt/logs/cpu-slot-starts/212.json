@@ -1,0 +1,15 @@
+{
+  "pid": 212,
+  "slot": 0,
+  "command": [
+    "scripts/gate_ls_full.py"
+  ],
+  "queued_at": 1794208189.8778107,
+  "acquired_at": 1794208189.8783956,
+  "queue_seconds": 0.0005850791931152344,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/cpu-slots",
+  "large_graph_serialized": false,
+  "memory_limit_bytes": 8589934592,
+  "memory_guard_path": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/logs/memory-guards/212-1794208189877837184.json"
+}

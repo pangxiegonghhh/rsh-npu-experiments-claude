@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/scripts/run_align_pipeline.py", line 53, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-c6align-20261106-pkg15/scripts/run_align_pipeline.py", line 46, in main
+    assert all(r['returncode']==0 for r in records),'Gate 2 execution failed; no main cases started'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Gate 2 execution failed; no main cases started

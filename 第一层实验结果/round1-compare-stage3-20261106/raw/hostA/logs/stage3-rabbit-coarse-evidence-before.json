@@ -1,0 +1,34 @@
+{
+  "at_utc": "2026-11-08 20:50:39 UTC",
+  "scope": "unsealed packaging only: four full Rabbit coarse renumbering vectors total61224521B must stay local under bulk-order policy; no scientific changes or reruns",
+  "saved": [
+    {
+      "path": "scripts/build_stage3.py",
+      "sha256": "acfef09094ffed085a7205b76785918e115a4e9993080c5e0555285209e80a0f",
+      "backup": "logs/source-snapshots/by-sha/acfef09094ffed085a7205b76785918e115a4e9993080c5e0555285209e80a0f/build_stage3.py"
+    },
+    {
+      "path": "logs/stage3-guard-provenance-gate.json",
+      "sha256": "7b81f9c1b8e52eba407b5ea5e41d1cd1bdb1a00edf48c423f30b776b6c1149a9",
+      "backup": "logs/source-snapshots/by-sha/7b81f9c1b8e52eba407b5ea5e41d1cd1bdb1a00edf48c423f30b776b6c1149a9/stage3-guard-provenance-gate.json"
+    },
+    {
+      "path": "logs/stage3-checkpoint-evidence-gate.json",
+      "sha256": "6335ca0ae51022193a44d523368d45b151002aa22a21d9ae39a2fb4259fd2cbb",
+      "backup": "logs/source-snapshots/by-sha/6335ca0ae51022193a44d523368d45b151002aa22a21d9ae39a2fb4259fd2cbb/stage3-checkpoint-evidence-gate.json"
+    },
+    {
+      "path": "logs/stage3-delivery-metadata-readiness.json",
+      "sha256": "ad13759e72552d628121b974aaa79113ed8075504f94a8b4a1c6bc6e2820079b",
+      "backup": "logs/source-snapshots/by-sha/ad13759e72552d628121b974aaa79113ed8075504f94a8b4a1c6bc6e2820079b/stage3-delivery-metadata-readiness.json"
+    }
+  ],
+  "scientific_sources_before": {
+    "scripts/native.py": "3b7830ca38f2950d938f37de6539bd37fd8893dbfbbc8bca073ce9e019754c98",
+    "scripts/layouts_flatco.cpp": "5dcea0fff0c13830fe55ceb059e520580acb05b59f3286b653562239fafa7fcf",
+    "work/liblayouts-v7.dylib": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+    "scripts/post_e_job.py": "53f68b4087d536fa90aef408abf6bf534f5177d22b45c377fa2d9eae76254368",
+    "scripts/evaluate_t23.py": "33fad739a71e6a20847280c08f0b20af589a84d33f46d394053845bd785cf419",
+    "scripts/ls_runtime.py": "4074067ec787cb9be78b87f7d479d4f369cff8b7353daf90fddd755a5508757a"
+  }
+}

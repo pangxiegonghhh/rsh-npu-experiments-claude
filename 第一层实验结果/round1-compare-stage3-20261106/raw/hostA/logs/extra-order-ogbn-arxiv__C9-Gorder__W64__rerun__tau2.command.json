@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-extra-catalog/ogbn-arxiv__C9-Gorder__W64__rerun__tau2.json",
+    "--output-dir",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/extra-order-jobs"
+  ],
+  "start": 1793972144.767025,
+  "end": 1793972391.8217978,
+  "exitcode": 0
+}

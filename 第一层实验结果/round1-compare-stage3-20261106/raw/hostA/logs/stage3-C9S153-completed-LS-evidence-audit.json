@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "original_order_sha256": "0766d533d5e2cdb97d756322f13f03c5bca5766e3c22eafd05d03de0d914262f",
+  "sweeps": 10,
+  "LS_completed": true,
+  "layout_completed_conditions": 0,
+  "layout_INCOMPLETE": 4,
+  "no_LS_or_D_retry": true,
+  "independent_recompute": {
+    "k_windows": 8728,
+    "sumU": 36627602,
+    "T": 2293334,
+    "sumGamma": 10217546,
+    "sumR": 18292785,
+    "R_p50": 1748,
+    "R_p90": 3792,
+    "R_max": 25748,
+    "write_runs_aic": 8728
+  },
+  "original_seconds": 7200.588562011719,
+  "verification_seconds": 4.685030937194824
+}

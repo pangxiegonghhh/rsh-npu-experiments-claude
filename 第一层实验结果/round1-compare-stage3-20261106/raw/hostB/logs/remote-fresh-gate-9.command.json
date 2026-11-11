@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/root/t23-remote-runtime/.venv/bin/python",
+    "-B",
+    "scripts/gate_independent_sorted.py"
+  ],
+  "cwd": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime",
+  "NPY_DISABLE_CPU_FEATURES": "X86_V3",
+  "started_at": 1794208381.5430386,
+  "ended_at": 1794208382.409759,
+  "returncode": 0,
+  "source_sha256": "222e3edab8f1b2eac623e243799771f4dee1a47f831bb25e10e30285c06e32d0",
+  "RQ3_LAYOUT_LIB": null,
+  "scope": "fresh remote Cora/unit gate, not a formal products case"
+}

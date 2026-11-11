@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 7401, 'sumU': 138543, 'sumGamma': 20388, 'elapsed': 0.24268603324890137}
+LS {'sweep': 1, 'accepted': 2114, 'sumU': 125672, 'sumGamma': 17796, 'elapsed': 0.4990108013153076}
+LS {'sweep': 2, 'accepted': 487, 'sumU': 123173, 'sumGamma': 17224, 'elapsed': 0.7554528713226318}
+LS {'sweep': 3, 'accepted': 157, 'sumU': 122235, 'sumGamma': 16985, 'elapsed': 1.0163769721984863}
+LS {'sweep': 4, 'accepted': 62, 'sumU': 121907, 'sumGamma': 16920, 'elapsed': 1.2905149459838867}
+LS {'sweep': 5, 'accepted': 12, 'sumU': 121828, 'sumGamma': 16901, 'elapsed': 1.5524628162384033}
+LS {'sweep': 6, 'accepted': 20, 'sumU': 121632, 'sumGamma': 16857, 'elapsed': 1.8122129440307617}
+LS {'sweep': 7, 'accepted': 3, 'sumU': 121623, 'sumGamma': 16854, 'elapsed': 2.0689637660980225}
+LS {'sweep': 8, 'accepted': 3, 'sumU': 121555, 'sumGamma': 16834, 'elapsed': 2.327194929122925}
+LS {'sweep': 9, 'accepted': 0, 'sumU': 121555, 'sumGamma': 16834, 'elapsed': 2.5822951793670654}
+{"matrix": "olafu", "method": "C8-METIS", "W": 16, "seed": 0, "start": 1793975837.1345322, "status": "OK", "params": "edgecut; ufactor=30; seed=0; direct k-way; exact capacity repair", "command": ["scripts/external_metis.py", "--matrix", "olafu"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/olafu__C8-METIS__W16__seed0.order.json", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/olafu__C8-METIS__W16__seed0.order.json", "sha256": "5ad72fb1e547b14b837525b82728273920c76414246d677e89157c5bf9e54f70", "size": 87058, "end": 1793975840.0477362, "seconds": 2.9132039546966553, "peak_mem_mb": 92.09375, "member": "C8-METIS", "tau": 53, "reuse": false, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/olafu__C8-METIS__tau53/order.json"}

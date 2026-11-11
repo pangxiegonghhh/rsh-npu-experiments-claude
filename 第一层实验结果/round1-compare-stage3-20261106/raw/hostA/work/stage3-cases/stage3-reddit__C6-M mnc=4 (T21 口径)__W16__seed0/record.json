@@ -1,0 +1,14 @@
+{
+  "matrix": "reddit",
+  "method": "C6-M mnc=4 (T21 口径)",
+  "member": "C6-M mnc=4 (T21 口径)",
+  "W": 16,
+  "seed": 0,
+  "scope": "second batch",
+  "case_id": "stage3-reddit__C6-M mnc=4 (T21 口径)__W16__seed0",
+  "data_missing": false,
+  "status": "SKIPPED",
+  "start": 1793989842.235214,
+  "error": "dispatch requires frozen T21 C6-RB/M orders, unavailable for second-batch matrices; no rerun under T21 label",
+  "controller_end": 1793989842.235216
+}

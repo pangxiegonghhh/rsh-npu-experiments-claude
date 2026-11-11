@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "-c",
+    "import sys,time;sys.path.insert(0,'scripts');from memory_guard import ensure_limit;p=ensure_limit(50*2**20);print(p,flush=True);x=bytearray(100*2**20);time.sleep(2)"
+  ],
+  "exitcode": 137,
+  "guard_record": {
+    "status": "INCOMPLETE",
+    "reason": "process resident-memory guard exceeded frozen limit; no truncated output accepted",
+    "pid": 23519,
+    "limit_bytes": 52428800,
+    "peak_rss_bytes": 114737152,
+    "started_at": 1793981890.459942,
+    "triggered_at": 1793981890.714309,
+    "exitcode": 137
+  },
+  "guard_record_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/memory-guards/23519-1793981890050629000.json",
+  "seconds": 0.707603931427002,
+  "test_limit_bytes": 52428800,
+  "production_limit_bytes": 8589934592
+}

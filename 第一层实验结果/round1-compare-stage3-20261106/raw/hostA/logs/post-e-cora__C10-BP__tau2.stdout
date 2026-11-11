@@ -1,0 +1,7 @@
+LS {'sweep': 0, 'accepted': 562, 'sumU': 4930, 'sumGamma': 1969, 'elapsed': 0.011080741882324219}
+LS {'sweep': 1, 'accepted': 117, 'sumU': 4790, 'sumGamma': 1875, 'elapsed': 0.02394270896911621}
+LS {'sweep': 2, 'accepted': 22, 'sumU': 4766, 'sumGamma': 1841, 'elapsed': 0.03512382507324219}
+LS {'sweep': 3, 'accepted': 7, 'sumU': 4759, 'sumGamma': 1829, 'elapsed': 0.043849945068359375}
+LS {'sweep': 4, 'accepted': 3, 'sumU': 4756, 'sumGamma': 1826, 'elapsed': 0.05417275428771973}
+LS {'sweep': 5, 'accepted': 0, 'sumU': 4756, 'sumGamma': 1826, 'elapsed': 0.0667266845703125}
+{"task": "T23", "use": "base-order", "matrix": "cora", "t23_member": "C10-BP", "t21_member": "C10-BP", "W": 16, "params": "", "source": "T21 \u5b8c\u6574\u5f52\u6863", "path": "orders/cora__C10-BP__W16__tauNone__own__633780c3b8aa.json", "sha256": "fa31efc07ee7f1c1202626ad4f7e4e79ad4ee1a6ac8acde200bb5ba38b28d9f5", "note": "", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__C10-BP__W16__tauNone__own__633780c3b8aa.json", "verified_sha256": "f7ff2e41c5ccf4d2158d4a192b18823dd547e57599152648a85f9bfef9b2a270", "origin": "T21 archive", "member": "C10-BP", "tau": 2, "reuse": false, "status": "OK", "start": 1793969501.839328, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/cora__C10-BP__tau2/order.json", "size": 13345, "end": 1793969501.937887, "seconds": 0.09855890274047852, "peak_mem_mb": 33.265625}

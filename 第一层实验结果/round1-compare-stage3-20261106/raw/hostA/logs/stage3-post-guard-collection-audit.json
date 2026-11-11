@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "matrix": "reddit",
+  "member": "B1",
+  "raw_guard_rows": 8,
+  "exactly_matches_saved_raw_rows": true,
+  "scope": "post-E guard counters copied without new layout computation; failed rows without counters remain unknown"
+}

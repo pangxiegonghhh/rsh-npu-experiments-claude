@@ -1,0 +1,113 @@
+{
+  "matrix": "cora",
+  "method": "C3-W4",
+  "W": 16,
+  "seed": 0,
+  "start": 1793977028.1969469,
+  "status": "OK",
+  "command": [
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+    "--matrix",
+    "cora",
+    "--method",
+    "C3-W4",
+    "--seed",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/cora__C3-W4__W16__seed0.order.json",
+  "sha256": "8abac2736995eace36130de998df4b7a0b27116d10c1e0d0847375906ce298fe",
+  "size": 13597,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 1075,
+        "sumU": 5658,
+        "sumGamma": 3059,
+        "elapsed": 0.009080648422241211
+      },
+      {
+        "sweep": 1,
+        "accepted": 383,
+        "sumU": 5197,
+        "sumGamma": 2525,
+        "elapsed": 0.019942760467529297
+      },
+      {
+        "sweep": 2,
+        "accepted": 88,
+        "sumU": 5102,
+        "sumGamma": 2423,
+        "elapsed": 0.03025674819946289
+      },
+      {
+        "sweep": 3,
+        "accepted": 28,
+        "sumU": 5074,
+        "sumGamma": 2386,
+        "elapsed": 0.04071378707885742
+      },
+      {
+        "sweep": 4,
+        "accepted": 12,
+        "sumU": 5062,
+        "sumGamma": 2372,
+        "elapsed": 0.0501859188079834
+      },
+      {
+        "sweep": 5,
+        "accepted": 5,
+        "sumU": 5056,
+        "sumGamma": 2365,
+        "elapsed": 0.05989193916320801
+      },
+      {
+        "sweep": 6,
+        "accepted": 3,
+        "sumU": 5053,
+        "sumGamma": 2362,
+        "elapsed": 0.06998682022094727
+      },
+      {
+        "sweep": 7,
+        "accepted": 2,
+        "sumU": 5051,
+        "sumGamma": 2362,
+        "elapsed": 0.08153486251831055
+      },
+      {
+        "sweep": 8,
+        "accepted": 0,
+        "sumU": 5051,
+        "sumGamma": 2362,
+        "elapsed": 0.1004495620727539
+      }
+    ],
+    "sweeps_done": 9,
+    "accepted_swaps": 1596,
+    "tracked_sumU": 5051,
+    "tracked_sumGamma": 2362,
+    "independent_full_recompute": {
+      "k_windows": 103,
+      "sumU": 5051,
+      "T": 369,
+      "sumGamma": 2362,
+      "sumR": 3722,
+      "R_p50": 33,
+      "R_p90": 48,
+      "R_max": 132,
+      "write_runs_aic": 103,
+      "meanR": 36.135922
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 766812
+  },
+  "end": 1793977028.3387752,
+  "seconds": 0.14182829856872559,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/cora__C3-W4__W16__seed0.order.json",
+  "member": "C3-W4",
+  "tau": 2,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/cora__C3-W4__tau2/order.json",
+  "peak_mem_mb": 29.25
+}

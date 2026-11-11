@@ -1,0 +1,7 @@
+{"matrix": "ogbn-products", "method": "C8-METIS", "W": 16, "seed": 0, "start": 1794245243.124188, "status": "OK", "params": "edgecut; ufactor=30; seed=0; direct k-way; exact capacity repair", "command": ["scripts/external_metis.py", "--matrix", "ogbn-products", "--W", "16"], "pre_repair_labels_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/ogbn-products__C8-METIS__W16__seed0.pre-repair-labels.npy", "pre_repair_labels_sha256": "ad6b63cc4d85e29e8147a9cb0b4ab4ece651d871f6f53cf634c5a090a7d11b62", "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/ogbn-products__C8-METIS__W16__seed0.order.json", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/ogbn-products__C8-METIS__W16__seed0.order.json", "sha256": "c857f25ed385b193a9cbfeccf18ea69a8cb305f778e1b957262dd5b8798b4963", "size": 18481124, "end": 1794245874.274304, "seconds": 631.1501159667969, "peak_mem_mb": 5011.640625}
+	***Cannot bisect a graph with 0 vertices!
+	***You are trying to partition a graph into too many parts!
+	***Cannot bisect a graph with 0 vertices!
+	***You are trying to partition a graph into too many parts!
+	***Cannot bisect a graph with 0 vertices!
+	***You are trying to partition a graph into too many parts!

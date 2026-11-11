@@ -1,0 +1,74 @@
+{
+ "C2-LSH": {
+  "groups_full_before": 19,
+  "short_before": 1543,
+  "P_merges": 1390,
+  "P_new_full": 118,
+  "short_after": 35,
+  "groups_cut_by_windows": 30,
+  "candidate_pairs_lsh": 2892,
+  "candidate_pairs_kept": 2735,
+  "merges": 1146,
+  "rejected_capacity": 747,
+  "buckets": 79835
+ },
+ "C3-W1": {
+  "groups_full_before": 16,
+  "short_before": 1041,
+  "P_merges": 883,
+  "P_new_full": 109,
+  "short_after": 49,
+  "groups_cut_by_windows": 43,
+  "b": 1,
+  "groups": 1057,
+  "comparisons": 904406
+ },
+ "C3-W4": {
+  "groups_full_before": 43,
+  "short_before": 570,
+  "P_merges": 439,
+  "P_new_full": 85,
+  "short_after": 46,
+  "groups_cut_by_windows": 40,
+  "b": 4,
+  "groups": 613,
+  "comparisons": 441894
+ },
+ "C3-A": {
+  "groups_full_before": 43,
+  "short_before": 570,
+  "P_merges": 439,
+  "P_new_full": 85,
+  "short_after": 46,
+  "groups_cut_by_windows": 40,
+  "b": 4,
+  "groups": 613,
+  "comparisons": 441894
+ },
+ "C3-W4-noP": {
+  "groups_full_before": 43,
+  "short_before": 570,
+  "P": "off",
+  "b": 4,
+  "groups": 613,
+  "comparisons": 441894
+ },
+ "C4-U": {
+  "groups": 170,
+  "short_groups": 1,
+  "score_evaluations": 297906,
+  "L": 128
+ },
+ "C4-T": {
+  "groups": 170,
+  "short_groups": 1,
+  "score_evaluations": 297906,
+  "L": 128
+ },
+ "C7-I": {
+  "groups": 170,
+  "short_groups": 1,
+  "score_evaluations": 297906,
+  "L": 128
+ }
+}

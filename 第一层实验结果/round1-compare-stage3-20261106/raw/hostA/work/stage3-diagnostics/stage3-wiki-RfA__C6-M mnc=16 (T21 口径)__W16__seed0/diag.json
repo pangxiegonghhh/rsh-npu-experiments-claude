@@ -1,0 +1,33 @@
+{
+  "matrix": "wiki-RfA",
+  "member": "C6-M mnc=16 (T21 \u53e3\u5f84)",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 11467,
+  "T_full_phase": 12221.933333333332,
+  "align_premium": 754.9333333333325,
+  "T_inplace": 11112,
+  "T_keep": 11580,
+  "U_inplace": 173472,
+  "U_keep": 182287,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.193681001663208,
+  "status": "OK"
+}

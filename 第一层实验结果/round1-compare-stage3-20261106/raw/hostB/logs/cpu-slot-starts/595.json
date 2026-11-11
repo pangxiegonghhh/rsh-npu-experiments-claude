@@ -1,0 +1,16 @@
+{
+  "pid": 595,
+  "slot": 0,
+  "command": [
+    "scripts/independent_stage3.py",
+    "ogbn-products"
+  ],
+  "queued_at": 1794249484.8356166,
+  "acquired_at": 1794249484.8372607,
+  "queue_seconds": 0.0016443729400634766,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/cpu-slots",
+  "large_graph_serialized": true,
+  "memory_limit_bytes": 8589934592,
+  "memory_guard_path": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/logs/memory-guards/595-1794249484835646300.json"
+}

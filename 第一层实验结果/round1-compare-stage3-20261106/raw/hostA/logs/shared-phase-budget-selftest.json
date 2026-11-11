@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "fixture": "actual timed sleeping process, no scientific method rerun",
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "-c",
+    "import sys,time;sys.path.insert(0,'scripts');from shared_phase_budget import start_budget;t=start_budget(.12,time.time(),'work/gates/shared-budget-selftest/fixture',limit=.2);time.sleep(2)"
+  ],
+  "exitcode": 124,
+  "event": {
+    "method_limit_seconds": 0.2,
+    "coarse_computation_seconds": 0.12,
+    "local_started_at": 1793983386.601014,
+    "local_seconds_remaining_at_activation": 0.07999403953552248,
+    "definition": "inherited Rabbit coarse computation plus entire new local/renumber/candidate phase; queue excluded",
+    "activated_at": 1793983386.6010208,
+    "status": "INCOMPLETE",
+    "reason": "combined Rabbit coarse and new phase exceeded method time limit; no truncated candidate accepted",
+    "triggered_at": 1793983386.684781,
+    "local_elapsed_seconds": 0.08376932144165039,
+    "total_computation_seconds": 0.20377016067504883,
+    "exitcode": 124
+  },
+  "production_limit_seconds": 7200
+}

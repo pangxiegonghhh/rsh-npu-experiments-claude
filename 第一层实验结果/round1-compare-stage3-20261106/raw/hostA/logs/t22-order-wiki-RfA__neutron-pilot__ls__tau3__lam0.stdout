@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 1578, 'sumU': 175991, 'sumGamma': 54345, 'elapsed': 0.7187330722808838}
+LS {'sweep': 1, 'accepted': 996, 'sumU': 169459, 'sumGamma': 52409, 'elapsed': 1.431394100189209}
+LS {'sweep': 2, 'accepted': 542, 'sumU': 166293, 'sumGamma': 51452, 'elapsed': 2.1362640857696533}
+LS {'sweep': 3, 'accepted': 297, 'sumU': 165054, 'sumGamma': 51080, 'elapsed': 2.8543200492858887}
+LS {'sweep': 4, 'accepted': 165, 'sumU': 164347, 'sumGamma': 50665, 'elapsed': 3.5461819171905518}
+LS {'sweep': 5, 'accepted': 91, 'sumU': 163992, 'sumGamma': 50555, 'elapsed': 4.234434127807617}
+LS {'sweep': 6, 'accepted': 59, 'sumU': 163758, 'sumGamma': 50437, 'elapsed': 4.939779996871948}
+LS {'sweep': 7, 'accepted': 42, 'sumU': 163641, 'sumGamma': 50408, 'elapsed': 5.627888917922974}
+LS {'sweep': 8, 'accepted': 27, 'sumU': 163541, 'sumGamma': 50322, 'elapsed': 6.32468581199646}
+LS {'sweep': 9, 'accepted': 11, 'sumU': 163508, 'sumGamma': 50306, 'elapsed': 7.025593996047974}
+{"task": "T22", "use": "base-order", "matrix": "wiki-RfA", "member": "neutron-pilot", "start": 1793975045.311327, "lam": "", "tau": 3, "seed": 0, "t21_path": "orders/wiki-RfA__neutron-pilot__W16__tauNone__own__8390c2f67d90.json", "sha256": "830794fe3a7fb4f9657ae2cafa72785ba4f62e5015aca3a5b4b56801808665da", "note": "", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__neutron-pilot__W16__tauNone__own__8390c2f67d90.json", "verified_sha256": "87bb7fe87e04ef2df1fa201027a8139ed2f0c72d6259533f73c2999c357086e5", "origin": "T21 archive", "kind": "ls", "W": 16, "lambda": 0, "status": "OK", "command": ["scripts/order_job.py", "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/wiki-RfA__neutron-pilot__ls__tau3__lam0.json"], "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/wiki-RfA__neutron-pilot__ls__tau3__lam0.checkpoint.json", "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/wiki-RfA__neutron-pilot__ls__tau3__lam0.order.json", "size": 58480, "end": 1793975052.497152, "seconds": 7.1858251094818115}

@@ -1,0 +1,124 @@
+{
+  "snapshot_utc": "2026-11-09T09:24:48.551841+00:00",
+  "reason": "User intends to restart Mac due to swap pressure; snapshot prior to reboot.",
+  "main_session": 73950,
+  "main_pid": 74153,
+  "finalizer_session": 56126,
+  "running_case": "stage3-reddit__C8-METIS__W16__seed0__tau153",
+  "running_pid": 10750,
+  "acquired_at_utc": "2026-11-09T09:22:04.923580+00:00",
+  "running_checkpoint_present": false,
+  "completed_sweeps_at_snapshot": 0,
+  "running_terminal_record_present": false,
+  "previous_tau53": "INCOMPLETE exit124 after actual timeout; 2 full checkpoints retained, no automatic retry",
+  "critical_resume_warning": "Do not launch assigned controller directly after reboot: run_stage3.run retries tau53 when no post record exists. First preserve post-reboot terminal evidence, handle interrupted tau153 honestly, and implement/test durable timeout-aware restart routing before resuming. Never fabricate successful post record or retry completed LS/D.",
+  "existing_finalizer": "Will terminate on machine reboot; restore only after safe controller recovery and verified remote import.",
+  "remote_owned": "20 cases on other computer, not locally dispatched",
+  "files": [
+    {
+      "path": "logs/stage3-post-stage3-reddit__C8-METIS__W16__seed0__tau53.command.json",
+      "present": true,
+      "bytes": 17120,
+      "sha256": "a54faa32d35d86fb73e48425caae205ce96a3f6b3a7dd0d5f5302a7a54818246",
+      "source_unchanged_after_read": true
+    },
+    {
+      "path": "logs/stage3-post-stage3-reddit__C8-METIS__W16__seed0__tau153.command.json",
+      "present": true,
+      "bytes": 16233,
+      "sha256": "49ef4e9e3a7067c760e5015f008ba8e6902c5239459cef1b23516846788c3839",
+      "source_unchanged_after_read": true
+    },
+    {
+      "path": "logs/stage3-post-stage3-reddit__C8-METIS__W16__seed0__tau53.stdout",
+      "present": true,
+      "bytes": 211,
+      "sha256": "b7a578a1b9c53026645da5f0fdf43c27527fe304d651221c6b4fa268efdbbb6c",
+      "source_unchanged_after_read": true
+    },
+    {
+      "path": "logs/stage3-post-stage3-reddit__C8-METIS__W16__seed0__tau53.stderr",
+      "present": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_unchanged_after_read": true
+    },
+    {
+      "path": "logs/stage3-post-stage3-reddit__C8-METIS__W16__seed0__tau153.stdout",
+      "present": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_unchanged_after_read": true
+    },
+    {
+      "path": "logs/stage3-post-stage3-reddit__C8-METIS__W16__seed0__tau153.stderr",
+      "present": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_unchanged_after_read": true
+    },
+    {
+      "path": "logs/cpu-slot-starts/10750.json",
+      "present": true,
+      "bytes": 785,
+      "sha256": "c761103edaebc7e7fa95ce5c04888587c07f52a7ad76e8470797a8521ced336f",
+      "source_unchanged_after_read": true
+    },
+    {
+      "path": "logs/stage3-local-split-controller.json",
+      "present": true,
+      "bytes": 581,
+      "sha256": "61180379d73230adfb6ed4152f47803931c7da3861ec45efa0139c1d4cb2a0f6",
+      "source_unchanged_after_read": true
+    },
+    {
+      "path": "logs/stage3-local-split-driver.stdout",
+      "present": true,
+      "bytes": 42,
+      "sha256": "6b8b5b7645f125da898c7a33534ac694bea356376169d97818f8c804c03018a0",
+      "source_unchanged_after_read": true
+    },
+    {
+      "path": "logs/stage3-local-split-driver.stderr",
+      "present": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_unchanged_after_read": true
+    },
+    {
+      "path": "work/stage3-post-catalog/stage3-reddit__C8-METIS__W16__seed0__tau53.json",
+      "present": true,
+      "bytes": 5856403,
+      "sha256": "9f33c7824606d849d813466737c5b47266bc654993e369c2a095f281412a79a0",
+      "source_unchanged_after_read": true
+    },
+    {
+      "path": "work/stage3-post-catalog/stage3-reddit__C8-METIS__W16__seed0__tau153.json",
+      "present": true,
+      "bytes": 5856581,
+      "sha256": "8230a32d895ebf66fbb5a2af313ed4172a568405fe70feaa1cfc63fb68cace99",
+      "source_unchanged_after_read": true
+    },
+    {
+      "path": "work/post-e/stage3-reddit__C8-METIS__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+      "present": true,
+      "bytes": 1520050,
+      "sha256": "1628fe227011dab80dfb59ad5e0d766d29e89072cd04ad96ba46d5d7542580b7",
+      "source_unchanged_after_read": true
+    },
+    {
+      "path": "handoff/T23-split-20261109/assignment.json",
+      "present": true,
+      "bytes": 12144,
+      "sha256": "59a5c1e4c9990614bb31f9a9a657151a9a27fa9ea446cd5a55d73ac644968714",
+      "source_unchanged_after_read": true
+    },
+    {
+      "path": "handoff/T23-split-20261109/LOCAL_MERGE_PENDING.md",
+      "present": true,
+      "bytes": 4733,
+      "sha256": "0be0788a304e9dfeddea13d105bc2ded5a2f7ff51dc8eb81aaa80106effe0658",
+      "source_unchanged_after_read": true
+    }
+  ]
+}

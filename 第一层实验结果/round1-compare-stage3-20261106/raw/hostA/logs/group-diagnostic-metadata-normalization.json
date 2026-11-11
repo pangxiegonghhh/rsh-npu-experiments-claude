@@ -1,0 +1,10 @@
+{
+  "changed_fields": "group diagnostics only; no row permutations, U/T/R or algorithm parameters changed",
+  "noP_old_export": "C3-W4-noP groups_full_before/short_before/short_after/cuts were unfilled zeros in original raw native stats",
+  "correct_source": "saved actual generation group sizes",
+  "verification": "Cora reference full43, short570; derivedcuts124; Poff merges0; independent orderSHA gate unaffected",
+  "first_delivery_preserved": true,
+  "first_delivery_supplement": "first-delivery-group-diagnostics.csv with70 primary first-batch grouping entries; blank C4/C7/other applicable grouping fields filled from saved groups or specified aligned-part geometry",
+  "normalization_gate": "logs/group-diagnostics-metadata-gate.json",
+  "raw_original_records_preserved": true
+}

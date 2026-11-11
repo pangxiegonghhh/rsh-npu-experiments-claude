@@ -1,0 +1,22 @@
+[
+  {
+    "matrix": "pattern1",
+    "member": "C3-W4-R",
+    "W": 16,
+    "boundary": "candidate groups",
+    "k_windows": 1231,
+    "sumU": 690889,
+    "T": 43949,
+    "diagnostic_only": true
+  },
+  {
+    "matrix": "pattern1",
+    "member": "C3-W4-R",
+    "W": 16,
+    "boundary": "W16 evaluation windows",
+    "k_windows": 1203,
+    "sumU": 692199,
+    "T": 44008,
+    "diagnostic_only": true
+  }
+]

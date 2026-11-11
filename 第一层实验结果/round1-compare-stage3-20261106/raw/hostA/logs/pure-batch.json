@@ -1,0 +1,738 @@
+[
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "cora",
+      "--method",
+      "C2-LSH",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968368.339349,
+    "end": 1793968368.5431721,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "cora",
+      "--method",
+      "C3-W1",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968368.3394282,
+    "end": 1793968368.543372,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "cora",
+      "--method",
+      "C3-W4",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968368.543809,
+    "end": 1793968368.684785,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "cora",
+      "--method",
+      "C4-U",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968368.543936,
+    "end": 1793968368.672652,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "cora",
+      "--method",
+      "C4-T",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968368.673056,
+    "end": 1793968368.8154519,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "cora",
+      "--method",
+      "C7-I",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968368.685216,
+    "end": 1793968368.826457,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "ogbn-arxiv",
+      "--method",
+      "C2-LSH",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968368.8158798,
+    "end": 1793968372.678154,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "ogbn-arxiv",
+      "--method",
+      "C3-W1",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968368.826817,
+    "end": 1793968377.876298,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "ogbn-arxiv",
+      "--method",
+      "C3-W4",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968372.678771,
+    "end": 1793968382.909735,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "ogbn-arxiv",
+      "--method",
+      "C4-U",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968377.876729,
+    "end": 1793968378.3679202,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "ogbn-arxiv",
+      "--method",
+      "C4-T",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968378.3683572,
+    "end": 1793968378.993272,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "ogbn-arxiv",
+      "--method",
+      "C7-I",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968378.994085,
+    "end": 1793968379.367969,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "wiki-RfA",
+      "--method",
+      "C2-LSH",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968379.3683698,
+    "end": 1793968379.618156,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "wiki-RfA",
+      "--method",
+      "C3-W1",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968379.6186628,
+    "end": 1793968379.9846568,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "wiki-RfA",
+      "--method",
+      "C3-W4",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968379.985116,
+    "end": 1793968380.361323,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "wiki-RfA",
+      "--method",
+      "C4-U",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968380.3617668,
+    "end": 1793968380.503347,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "wiki-RfA",
+      "--method",
+      "C4-T",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968380.503757,
+    "end": 1793968380.6529868,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "wiki-RfA",
+      "--method",
+      "C7-I",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968380.653409,
+    "end": 1793968380.794646,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "dawson5",
+      "--method",
+      "C2-LSH",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968380.7950468,
+    "end": 1793968381.676275,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "dawson5",
+      "--method",
+      "C3-W1",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968381.6769412,
+    "end": 1793968381.87628,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "dawson5",
+      "--method",
+      "C3-W4",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968381.876674,
+    "end": 1793968382.019625,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "dawson5",
+      "--method",
+      "C4-U",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968382.020023,
+    "end": 1793968382.217908,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "dawson5",
+      "--method",
+      "C4-T",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968382.218495,
+    "end": 1793968382.4130108,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "dawson5",
+      "--method",
+      "C7-I",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968382.41348,
+    "end": 1793968382.61823,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "olafu",
+      "--method",
+      "C2-LSH",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968382.6186318,
+    "end": 1793968383.053799,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "olafu",
+      "--method",
+      "C3-W1",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968382.910246,
+    "end": 1793968383.0374389,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "olafu",
+      "--method",
+      "C3-W4",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968383.0378702,
+    "end": 1793968383.184565,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "olafu",
+      "--method",
+      "C4-U",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968383.05441,
+    "end": 1793968383.2512262,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "olafu",
+      "--method",
+      "C4-T",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968383.185038,
+    "end": 1793968383.38452,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "olafu",
+      "--method",
+      "C7-I",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968383.2515898,
+    "end": 1793968383.3929799,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "pattern1",
+      "--method",
+      "C2-LSH",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968383.384844,
+    "end": 1793968400.976117,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "pattern1",
+      "--method",
+      "C3-W1",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968383.393379,
+    "end": 1793968383.9929862,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "pattern1",
+      "--method",
+      "C3-W4",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968383.993421,
+    "end": 1793968385.164803,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "pattern1",
+      "--method",
+      "C4-U",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968385.1653461,
+    "end": 1793968385.878016,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "pattern1",
+      "--method",
+      "C4-T",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968385.878481,
+    "end": 1793968386.584744,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "pattern1",
+      "--method",
+      "C7-I",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968386.585269,
+    "end": 1793968387.251195,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "human_gene1",
+      "--method",
+      "C2-LSH",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968387.251626,
+    "end": 1793968501.1451662,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "human_gene1",
+      "--method",
+      "C3-W1",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968400.976824,
+    "end": 1793968407.5632231,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "human_gene1",
+      "--method",
+      "C3-W4",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968407.563751,
+    "end": 1793968416.359166,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "human_gene1",
+      "--method",
+      "C4-U",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968416.359649,
+    "end": 1793968417.8274739,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "human_gene1",
+      "--method",
+      "C4-T",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968417.827874,
+    "end": 1793968419.2538161,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "human_gene1",
+      "--method",
+      "C7-I",
+      "--seed",
+      "0"
+    ],
+    "start": 1793968419.2542741,
+    "end": 1793968420.161103,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "cora",
+      "--method",
+      "C2-LSH",
+      "--seed",
+      "1"
+    ],
+    "start": 1793968420.161561,
+    "end": 1793968420.300734,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "cora",
+      "--method",
+      "C2-LSH",
+      "--seed",
+      "2"
+    ],
+    "start": 1793968420.3011541,
+    "end": 1793968420.442379,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "ogbn-arxiv",
+      "--method",
+      "C2-LSH",
+      "--seed",
+      "1"
+    ],
+    "start": 1793968420.442764,
+    "end": 1793968424.094496,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "ogbn-arxiv",
+      "--method",
+      "C2-LSH",
+      "--seed",
+      "2"
+    ],
+    "start": 1793968424.094926,
+    "end": 1793968427.652364,
+    "exitcode": 0
+  }
+]

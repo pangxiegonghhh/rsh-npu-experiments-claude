@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "matrix": "cora",
+      "order_checks": 3,
+      "sigma_checks": 9,
+      "placements": [
+        "tail",
+        "tail-co",
+        "gap"
+      ],
+      "identical": true,
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-I",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/\u7b2c\u4e00\u5c42\u5de5\u4f5c\u533a/T17-\u7a7a\u767d\u4e8c\u8bd5\u7b97\u811a\u672c/verify/indep_check_rq3.py",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/cora.mtx",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/independent/cora-layouts.json"
+      ],
+      "exitcode": 0,
+      "seconds": 2.7106001377105713
+    },
+    {
+      "matrix": "wiki-RfA",
+      "order_checks": 3,
+      "sigma_checks": 9,
+      "placements": [
+        "tail",
+        "tail-co",
+        "gap"
+      ],
+      "identical": true,
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-I",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/\u7b2c\u4e00\u5c42\u5de5\u4f5c\u533a/T17-\u7a7a\u767d\u4e8c\u8bd5\u7b97\u811a\u672c/verify/indep_check_rq3.py",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/wiki-RfA.mtx",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/independent/wiki-RfA-layouts.json"
+      ],
+      "exitcode": 0,
+      "seconds": 16.665982961654663
+    }
+  ]
+}

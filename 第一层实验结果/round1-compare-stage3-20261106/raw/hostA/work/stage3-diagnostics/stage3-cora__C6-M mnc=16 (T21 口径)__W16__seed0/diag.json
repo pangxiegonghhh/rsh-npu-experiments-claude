@@ -1,0 +1,33 @@
+{
+  "matrix": "cora",
+  "member": "C6-M mnc=16 (T21 \u53e3\u5f84)",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 503,
+  "T_full_phase": 544.2,
+  "align_premium": 41.200000000000045,
+  "T_inplace": 389,
+  "T_keep": 355,
+  "U_inplace": 5106,
+  "U_keep": 5189,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.029877901077270508,
+  "status": "OK"
+}

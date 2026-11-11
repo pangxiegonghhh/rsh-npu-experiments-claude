@@ -1,0 +1,76 @@
+[
+  {
+    "key": "reddit-B-repeat0",
+    "input_filename": "reddit-B.edges.gz",
+    "start": 1793986389.8155897,
+    "threads": 1,
+    "author_ref": "f93776e9c1e1d4a8962ee56bc7ff0091e6fe12dd",
+    "requested_seed": null,
+    "seed_api": "author demo exposes no RNG seed; deterministic serial execution",
+    "status": "OK",
+    "input_storage": "new ext4 scratch virtualdisk; compressed and decoded inputs not stored in RAM-backed root",
+    "command": [
+      "/root/rabbit/demo/reorder",
+      "/scratch/rabbit-runs/reddit-B-repeat0.edges"
+    ],
+    "input_gz_sha256": "f450f148bde4b0b1c78f5eac65a686cf008804bfc34147461b1fbb6da8d9ec21",
+    "input_prepare_seconds": 9.686581134796143,
+    "decoded_input_bytes": 1548756518,
+    "exitcode": 0,
+    "coarse_seconds": 65.744863986969,
+    "mapping_sha256": "75baa3d2881d5ce02d3b311b478a386a07bd9aeeee3a6abddb10357033263b8a",
+    "mapping_bytes": 3150400,
+    "peak_mem_mb": 5903.7421875,
+    "end": 1793986465.4763067,
+    "requested_replica_label": 0,
+    "actual_seed": null,
+    "host_input_record": {
+      "matrix": "reddit",
+      "mode": "B",
+      "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/reddit-B.edges.gz",
+      "sha256": "f450f148bde4b0b1c78f5eac65a686cf008804bfc34147461b1fbb6da8d9ec21",
+      "size": 453128567,
+      "seconds": 18.716672897338867,
+      "entries": 114615892,
+      "rule": "A0 bipartite graph; original row vertex and n+column vertex"
+    },
+    "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/rabbit-coarse/reddit-B-repeat0.mapping"
+  },
+  {
+    "key": "reddit-U-repeat0",
+    "input_filename": "reddit-U.edges.gz",
+    "start": 1793986465.7978337,
+    "threads": 1,
+    "author_ref": "f93776e9c1e1d4a8962ee56bc7ff0091e6fe12dd",
+    "requested_seed": null,
+    "seed_api": "author demo exposes no RNG seed; deterministic serial execution",
+    "status": "OK",
+    "input_storage": "new ext4 scratch virtualdisk; compressed and decoded inputs not stored in RAM-backed root",
+    "command": [
+      "/root/rabbit/demo/reorder",
+      "/scratch/rabbit-runs/reddit-U-repeat0.edges"
+    ],
+    "input_gz_sha256": "6f02af91d8bc3c0d915591e32be8ec36cf796331888c57d804ca80dc3be2e194",
+    "input_prepare_seconds": 5.305373668670654,
+    "decoded_input_bytes": 746445274,
+    "exitcode": 0,
+    "coarse_seconds": 24.526269674301147,
+    "mapping_sha256": "36da651a2676657cd22a8d355a272cf2a556125a5b242fcae00e962c0e034c34",
+    "mapping_bytes": 1519645,
+    "peak_mem_mb": 2954.7109375,
+    "end": 1793986495.7102673,
+    "requested_replica_label": 0,
+    "actual_seed": null,
+    "host_input_record": {
+      "matrix": "reddit",
+      "mode": "U",
+      "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/reddit-U.edges.gz",
+      "sha256": "6f02af91d8bc3c0d915591e32be8ec36cf796331888c57d804ca80dc3be2e194",
+      "size": 229134723,
+      "seconds": 8.860185146331787,
+      "entries": 57307946,
+      "rule": "A0 undirected edges r<c, author demo symmetrizes"
+    },
+    "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/rabbit-coarse/reddit-U-repeat0.mapping"
+  }
+]

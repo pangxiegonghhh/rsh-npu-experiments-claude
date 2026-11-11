@@ -1,0 +1,156 @@
+[
+  {
+    "matrix": "cora",
+    "mode": "B",
+    "n_original": 2708,
+    "entries": 10556,
+    "sha256": "1536b022a7f258a070b9e9dfdda5778fb9b41bd1f3c04469025d7e5fcf734a48",
+    "size": 41026,
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/cora-B.edges.gz",
+    "seconds": 0.003240823745727539,
+    "rule": "each stored A0 coordinate once on original row/column bipartite vertices"
+  },
+  {
+    "matrix": "cora",
+    "mode": "U",
+    "n_original": 2708,
+    "entries": 5278,
+    "sha256": "3bc01a26a082f121811d387158ff0192bb095ea3ce6b6d9aa4c6036aa6306a17",
+    "size": 20266,
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/cora-U.edges.gz",
+    "seconds": 0.0016622543334960938,
+    "rule": "each undirected A0 edge once (r<c); demo symmetrizes"
+  },
+  {
+    "matrix": "ogbn-arxiv",
+    "mode": "B",
+    "n_original": 169343,
+    "entries": 2315598,
+    "sha256": "e9d25bb7dcd1514dbbfad9528217db41bc672010b56cd37d90d067d3230d4944",
+    "size": 11626905,
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/ogbn-arxiv-B.edges.gz",
+    "seconds": 1.425920009613037,
+    "rule": "each stored A0 coordinate once on original row/column bipartite vertices"
+  },
+  {
+    "matrix": "ogbn-arxiv",
+    "mode": "U",
+    "n_original": 169343,
+    "entries": 1157799,
+    "sha256": "9463112e3ec2ff0b622b5bb9a63945fe092f27692af0209e03c671dbaae30b15",
+    "size": 5674444,
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/ogbn-arxiv-U.edges.gz",
+    "seconds": 0.5854558944702148,
+    "rule": "each undirected A0 edge once (r<c); demo symmetrizes"
+  },
+  {
+    "matrix": "wiki-RfA",
+    "mode": "B",
+    "n_original": 11380,
+    "entries": 361960,
+    "sha256": "8067194a806ad7574a0ec6d8162dd28ee095582b8ccf4ef9264102248a8e297d",
+    "size": 1417174,
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/wiki-RfA-B.edges.gz",
+    "seconds": 0.27807092666625977,
+    "rule": "each stored A0 coordinate once on original row/column bipartite vertices"
+  },
+  {
+    "matrix": "wiki-RfA",
+    "mode": "U",
+    "n_original": 11380,
+    "entries": 180980,
+    "sha256": "51ec685db8682ebc5ce3e33f4888c731e03dd71a036a02a2cc912600499aa43b",
+    "size": 676116,
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/wiki-RfA-U.edges.gz",
+    "seconds": 0.06415605545043945,
+    "rule": "each undirected A0 edge once (r<c); demo symmetrizes"
+  },
+  {
+    "matrix": "dawson5",
+    "mode": "B",
+    "n_original": 51537,
+    "entries": 959240,
+    "sha256": "86aadbf55442fbc6c57a414b22e08f6ba3b2ec43420de637cd3cb4e122a25e21",
+    "size": 2952624,
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/dawson5-B.edges.gz",
+    "seconds": 0.644212007522583,
+    "rule": "each stored A0 coordinate once on original row/column bipartite vertices"
+  },
+  {
+    "matrix": "dawson5",
+    "mode": "U",
+    "n_original": 51537,
+    "entries": 479620,
+    "sha256": "8bfd74c93c144df08994bd1ad4d27024b33cff0c799aaa4a564e39e3751b215e",
+    "size": 1477379,
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/dawson5-U.edges.gz",
+    "seconds": 0.4717440605163574,
+    "rule": "each undirected A0 edge once (r<c); demo symmetrizes"
+  },
+  {
+    "matrix": "olafu",
+    "mode": "B",
+    "n_original": 16146,
+    "entries": 999010,
+    "sha256": "bc55e39bf2c26cee346e6213cf3652cb1ab94cb71a6be1c97d0d1e01cfbb341f",
+    "size": 2674301,
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/olafu-B.edges.gz",
+    "seconds": 0.4440603256225586,
+    "rule": "each stored A0 coordinate once on original row/column bipartite vertices"
+  },
+  {
+    "matrix": "olafu",
+    "mode": "U",
+    "n_original": 16146,
+    "entries": 499505,
+    "sha256": "1ed029f3fbbc797224aeaaa571f09f3f699c45b15d73e2c9348b39568875df77",
+    "size": 1292654,
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/olafu-U.edges.gz",
+    "seconds": 0.35399794578552246,
+    "rule": "each undirected A0 edge once (r<c); demo symmetrizes"
+  },
+  {
+    "matrix": "pattern1",
+    "mode": "B",
+    "n_original": 19242,
+    "entries": 9304190,
+    "sha256": "5a2ceade3dc2e527f06bfb053778f2fae274d99dccae1728b04fe4e803e05d02",
+    "size": 32183584,
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/pattern1-B.edges.gz",
+    "seconds": 4.433380126953125,
+    "rule": "each stored A0 coordinate once on original row/column bipartite vertices"
+  },
+  {
+    "matrix": "pattern1",
+    "mode": "U",
+    "n_original": 19242,
+    "entries": 4652095,
+    "sha256": "e369223ea6cc30fc44f2acfb3ffe8c575f7f9769bc08d7fbc52d1344683936e5",
+    "size": 15197790,
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/pattern1-U.edges.gz",
+    "seconds": 2.76485013961792,
+    "rule": "each undirected A0 edge once (r<c); demo symmetrizes"
+  },
+  {
+    "matrix": "human_gene1",
+    "mode": "B",
+    "n_original": 22283,
+    "entries": 24647360,
+    "sha256": "9d2f0e9a36e9db8893ebcedbf23b5344ffca36d455032042ddda53096e80a929",
+    "size": 79019647,
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/human_gene1-B.edges.gz",
+    "seconds": 15.740407705307007,
+    "rule": "each stored A0 coordinate once on original row/column bipartite vertices"
+  },
+  {
+    "matrix": "human_gene1",
+    "mode": "U",
+    "n_original": 22283,
+    "entries": 12323680,
+    "sha256": "d08f7a92169401701e75257ff89a3a9bc5de132231fa07d4ed5eabe001e25d9d",
+    "size": 39171137,
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/human_gene1-U.edges.gz",
+    "seconds": 6.840690851211548,
+    "rule": "each undirected A0 edge once (r<c); demo symmetrizes"
+  }
+]

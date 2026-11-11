@@ -1,0 +1,281 @@
+[
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C1-H__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C1-H__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "sha256": "95746ac356d4bf2979803c3e59cc6ed1bae8281047cbf5d34dd011f8be6331ec",
+    "size": 1520789,
+    "metadata_path": "checkpoint-metadata/000-stage3-reddit__C1-H__W16__seed0__tau53.json",
+    "metadata_sha256": "986d2cbe27db62b9b06ea3a4b468eed10efa27e514acb0ed45e29cfeaf346c73"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C9-Gorder__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C9-Gorder__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "sha256": "47a40f2a505f255ac09e91c827268c94007cdb4061142f9a53b0e3c88c64d009",
+    "size": 1520787,
+    "metadata_path": "checkpoint-metadata/001-stage3-reddit__C9-Gorder__W16__seed0__tau153.json",
+    "metadata_sha256": "7247dc07d1be4e38eb897c0acfc914dff54c5a540d678eca558379c55c09b01d"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C7-I__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C7-I__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "sha256": "f8ed7c996bc907b4872a209ce2285f0bc7bd62870b1965daffa214778bbad414",
+    "size": 1520514,
+    "metadata_path": "checkpoint-metadata/002-stage3-reddit__C7-I__W16__seed0__tau53.json",
+    "metadata_sha256": "a5ddc72903179f101cfa7f930a0c87536ed5dfffa5dc94879116575b6c8c715b"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C8-METIS__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C8-METIS__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "sha256": "1628fe227011dab80dfb59ad5e0d766d29e89072cd04ad96ba46d5d7542580b7",
+    "size": 1520050,
+    "metadata_path": "checkpoint-metadata/003-stage3-reddit__C8-METIS__W16__seed0__tau53.json",
+    "metadata_sha256": "8f507aa878580db6ad45f873ef71a4966177066e757b7201a4cad80a5efde77c"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C10-BP__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C10-BP__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "sha256": "7dd3f8875787af5836316c089ad04e7248a4acbe7bf1901ec9ba2c1a389ea4e6",
+    "size": 1520781,
+    "metadata_path": "checkpoint-metadata/004-stage3-reddit__C10-BP__W16__seed0__tau53.json",
+    "metadata_sha256": "60c316083bb6f9780d6f3313386ab2ae3fa2d2685f284b0c49e30c7cfdc9a9bc"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C5__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C5__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "sha256": "0698b924fac56adb9629498d665798caaf29cd0b77f242e298d0fd4a419f7be8",
+    "size": 1520792,
+    "metadata_path": "checkpoint-metadata/005-stage3-reddit__C5__W16__seed0__tau153.json",
+    "metadata_sha256": "a46338b81a2f56c32a6af851c2b7378f4c41912843d6100ee32e101b2aa1fb3d"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C10-BP__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C10-BP__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "sha256": "f432954dca82374a6b5f970d2d447370d3748ddab40f1fa1a6b0cfca38d2b1c6",
+    "size": 1520776,
+    "metadata_path": "checkpoint-metadata/006-stage3-reddit__C10-BP__W16__seed0__tau153.json",
+    "metadata_sha256": "edeea0b68992055478a46a6589b87d5343647bf9e158762c222b4f9cbeea4e7d"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C2-LSH__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C2-LSH__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "sha256": "0df8f83adb3d7d7f8ddc9d132d1c2d8c40e110033b6a0c74482918d223bc758f",
+    "size": 1520788,
+    "metadata_path": "checkpoint-metadata/007-stage3-reddit__C2-LSH__W16__seed0__tau153.json",
+    "metadata_sha256": "dcb998fea77a9846863e032cc48ebb33a4f828e6b86741f3ab7ec1f7fffdc601"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__B0__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__B0__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "sha256": "0da9a91aad91e80fae6db8aa13d36a2126033df606b53822868296734c5590e8",
+    "size": 1519958,
+    "metadata_path": "checkpoint-metadata/008-stage3-reddit__B0__W16__seed0__tau153.json",
+    "metadata_sha256": "dece5b3a22d0f26bb7ae06a40e68bc252f5b1a0e86c5c04626346db38af89149"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__B1__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__B1__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "sha256": "542ca1d614e04d53a74ea46ad70a12d53aeb6718f2d9a8ac4b29e1db59d354db",
+    "size": 1520776,
+    "metadata_path": "checkpoint-metadata/009-stage3-reddit__B1__W16__seed0__tau153.json",
+    "metadata_sha256": "8b3e9442d2baf22922f4179a3c178f8da6b211dca6e5fe322a7610a4d4f2c47b"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C3-W4__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C3-W4__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "sha256": "0c403718498f7055be069643cd6a8f145ae8bb1af904755657b76b4d91016817",
+    "size": 1520790,
+    "metadata_path": "checkpoint-metadata/010-stage3-reddit__C3-W4__W16__seed0__tau153.json",
+    "metadata_sha256": "0208172684b77a5a539b1a70b9ef0a9b322be290de8e7813c890697a240f3469"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C9-S__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C9-S__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "sha256": "d512f04d60f0b5272c47af5878830a7a24b49cd8983b08e0ad56711fe2968aec",
+    "size": 1520603,
+    "metadata_path": "checkpoint-metadata/011-stage3-reddit__C9-S__W16__seed0__tau53.json",
+    "metadata_sha256": "a0f9f5d6581e610ed963b36232a67381944c6d5a4a5f83ec278eeecc8c7e7872"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C4-U__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C4-U__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "sha256": "216fe62072bd89e7bd65386eef1f0d868f392398d3567c569f54d92115a6966a",
+    "size": 1520696,
+    "metadata_path": "checkpoint-metadata/012-stage3-reddit__C4-U__W16__seed0__tau153.json",
+    "metadata_sha256": "c2b47ea58b8db278e83dd4f7a12b9487ff581ca15e5f1cbcc4d2824224136db7"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C5__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C5__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "sha256": "f1bbbd1fc22c7aecb6f9c96e60b78a4307325182c2822d227b2f1504d4a6b52c",
+    "size": 1520792,
+    "metadata_path": "checkpoint-metadata/013-stage3-reddit__C5__W16__seed0__tau53.json",
+    "metadata_sha256": "3c94eee6316922c6286f0ae03f552f3180e5159aea8fdf2c6abd453a9b2def24"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C4-T__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C4-T__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "sha256": "83aafc4f9bb183a5970a2af713b6f2a35cc8a27ae68b11f9ca4af62851810415",
+    "size": 1520789,
+    "metadata_path": "checkpoint-metadata/014-stage3-reddit__C4-T__W16__seed0__tau153.json",
+    "metadata_sha256": "a7c98cd027d283b6ef68667e38492cf2414da6435d31682233a29eedce078690"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C9-Gorder__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C9-Gorder__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "sha256": "6c6c249df25a9e988c8514580a1a8390a04d313164f335b9702caff2e6c764e1",
+    "size": 1520783,
+    "metadata_path": "checkpoint-metadata/015-stage3-reddit__C9-Gorder__W16__seed0__tau53.json",
+    "metadata_sha256": "c85181a3ff77a0ed03796be3a4f6418c32d33666570c4e4043e34e6a51db0bed"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C4-T__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C4-T__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "sha256": "448236e5ec84c489454226d3451cd8de2eafc1505f1c8bcd3cd6ecf2acf331de",
+    "size": 1520605,
+    "metadata_path": "checkpoint-metadata/016-stage3-reddit__C4-T__W16__seed0__tau53.json",
+    "metadata_sha256": "dabe1d8bbff8656c55f7db42bc570c87ac224544478f5adb6b69e9cb27ce6863"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C3-W1__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C3-W1__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "sha256": "224cb5233903b3ace15b77db85d75ab37b973f8e8921ade2cac84912e75171d6",
+    "size": 1520791,
+    "metadata_path": "checkpoint-metadata/017-stage3-reddit__C3-W1__W16__seed0__tau153.json",
+    "metadata_sha256": "3847b23e6911f9cedfa0d5faa542e11476047960c7cd776221139be7133cf4da"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C9-S__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C9-S__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "sha256": "61b5d2070141c913bbc0ef73f10865ee9f218e29beb8d1ffcd26c7285fa6479d",
+    "size": 1520789,
+    "metadata_path": "checkpoint-metadata/018-stage3-reddit__C9-S__W16__seed0__tau153.json",
+    "metadata_sha256": "9d6f96698bc5410f1d4823855fc209202eb7dcf5613f2b51d4760c2e93a15fcf"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C3-W4__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C3-W4__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "sha256": "027f2fcb84c98aa1f09f39fd232158f391d69b3324e05a1a5ad371b3c2553384",
+    "size": 1520696,
+    "metadata_path": "checkpoint-metadata/019-stage3-reddit__C3-W4__W16__seed0__tau53.json",
+    "metadata_sha256": "36424a77f45cb630c0df1a5a36f13092ec6dca2130a0da8f88454e68f4725877"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C4-U__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C4-U__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "sha256": "3957966c240eeeaeda996cf7f9f00835955c4456996231656089e6e8f574d7b0",
+    "size": 1520513,
+    "metadata_path": "checkpoint-metadata/020-stage3-reddit__C4-U__W16__seed0__tau53.json",
+    "metadata_sha256": "572406376c7cd11717cd01680a0f24b2f20fdfadf6fb8cc0c6a889d409cc6d57"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C2-LSH__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C2-LSH__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "sha256": "d328991cc95118132ccd046532c43d418b4923df8f883215cbf399e4ce38ae9e",
+    "size": 1520605,
+    "metadata_path": "checkpoint-metadata/021-stage3-reddit__C2-LSH__W16__seed0__tau53.json",
+    "metadata_sha256": "9a0223cb761363fe7600f61921a3584579cdf59155c84c40ab8ccf6eabf5e9e2"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-selftest-only-cora-cached-checkpoint/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-selftest-only-cora-cached-checkpoint/last-completed-sweep.checkpoint.json",
+    "sha256": "5546e38020a8955adb1758b6a8d45166c3a1c747819ca27be2ff4335f498bd27",
+    "size": 13231,
+    "metadata_path": "checkpoint-metadata/022-stage3-selftest-only-cora-cached-checkpoint.json",
+    "metadata_sha256": "5ae99fb09247227c8655f1199c88e056a9865aece048257aa93e3f0a7f60aac0"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C7-I__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C7-I__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "sha256": "50d7db0d01db910d4cbe21879f2711d9e2693902aca3788fde9b177563410966",
+    "size": 1520697,
+    "metadata_path": "checkpoint-metadata/023-stage3-reddit__C7-I__W16__seed0__tau153.json",
+    "metadata_sha256": "bf4b19683c1e0552cc783b7d80855eaf38534c046b5fb0c1ae5ebe29dca5de44"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__B1__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__B1__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "sha256": "e07f04fb4b51599e81098732058eed5c14f5784ba136332fa1138e53c01b9898",
+    "size": 1520786,
+    "metadata_path": "checkpoint-metadata/024-stage3-reddit__B1__W16__seed0__tau53.json",
+    "metadata_sha256": "416f950034874657eaa6080e76285aa5e8215d0f87c73bc509298dae52e7eefb"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C1-J__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C1-J__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "sha256": "9737adc01e5d6a7c87f0b235593b3ad48a6853787fbfea217f19eca5dff4ecdf",
+    "size": 1520777,
+    "metadata_path": "checkpoint-metadata/025-stage3-reddit__C1-J__W16__seed0__tau153.json",
+    "metadata_sha256": "bb05c2d874ab49f523eeb28b114627730cd5fb4a58acef96265c7a7f9f5b1938"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C5-U__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C5-U__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "sha256": "b5e3cb3e15c800eafb2b632540d6eea7d924fa53677d8235f3258e561af6e9e5",
+    "size": 1520789,
+    "metadata_path": "checkpoint-metadata/026-stage3-reddit__C5-U__W16__seed0__tau53.json",
+    "metadata_sha256": "783ee018f3948f7aa18b453129cf51ba9a55f488e17440fb66af76c425c682c6"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C1-J__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C1-J__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "sha256": "4d722abab588bb8600a84dea4fd7ee0498e00634c7dac977728e8a1e39b69411",
+    "size": 1520786,
+    "metadata_path": "checkpoint-metadata/027-stage3-reddit__C1-J__W16__seed0__tau53.json",
+    "metadata_sha256": "beed575df87df2980f82b8b2b20a56b0dabb8d45ce566de5addfd9710bc3630d"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C1-H__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C1-H__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "sha256": "c160c6680c967a9e9c25f14ebdce544a99fd6468816cd064c951dd61c138e1a9",
+    "size": 1520795,
+    "metadata_path": "checkpoint-metadata/028-stage3-reddit__C1-H__W16__seed0__tau153.json",
+    "metadata_sha256": "37b61ae718bd5f6e9b3fda0fbcb55c37e1b76770e41657b29d12faee5f6d7fce"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C3-W1__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C3-W1__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+    "sha256": "fbcfcb263c02499a5f7e3b90f4711f5c39c159518ad7b2f21f22e052fc073eca",
+    "size": 1520697,
+    "metadata_path": "checkpoint-metadata/029-stage3-reddit__C3-W1__W16__seed0__tau53.json",
+    "metadata_sha256": "4ddd0881506145a5335421f7f857fa0c9582ac6ee5b6ac4b2ecf0ead73b7a477"
+  },
+  {
+    "host": "hostA-macos-arm64",
+    "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C5-U__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "package_path": "checkpoints/hostA-macos-arm64/stage3-reddit__C5-U__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+    "sha256": "820ed9196dd283c2f3aa27a1e3cde523c6c7de08d82ac90e76ba6b29620fb7d4",
+    "size": 1520791,
+    "metadata_path": "checkpoint-metadata/030-stage3-reddit__C5-U__W16__seed0__tau153.json",
+    "metadata_sha256": "dc5162e7fbc771d7a4dd047dd612e6f79b829ede8afe712c37df161bb95c3f8e"
+  }
+]

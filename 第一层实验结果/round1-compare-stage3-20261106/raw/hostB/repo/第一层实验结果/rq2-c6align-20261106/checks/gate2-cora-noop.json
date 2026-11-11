@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "c6__cora__C6__W16__0",
+      "passed": true,
+      "calls_equal": 169,
+      "calls_repaired": 0,
+      "metric_conditions_equal": 16,
+      "fields_compared": [
+        "sumU",
+        "T",
+        "sumGamma",
+        "sumR",
+        "R_p50",
+        "R_p90",
+        "R_max"
+      ],
+      "order_vectors_equal": 6
+    },
+    {
+      "case": "c6__cora__C6-M__W16__4",
+      "passed": true,
+      "calls_equal": 169,
+      "calls_repaired": 0,
+      "metric_conditions_equal": 16,
+      "fields_compared": [
+        "sumU",
+        "T",
+        "sumGamma",
+        "sumR",
+        "R_p50",
+        "R_p90",
+        "R_max"
+      ],
+      "order_vectors_equal": 6
+    }
+  ]
+}

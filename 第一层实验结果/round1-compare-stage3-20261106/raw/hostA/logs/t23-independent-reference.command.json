@@ -1,0 +1,20 @@
+{
+  "name": "t23-independent-reference",
+  "argv": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/第一层工作区/T23参考实现/verify/indep_t23.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/第一层实验结果/cora-pilot-20261104/neutron-matrices/cora.mtx",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/gates/t23-reference/out/orders_t23.json"
+  ],
+  "cwd": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/gates/t23-independent-reference",
+  "initial_directory_entries": [],
+  "started_utc": "2026-11-06T12:09:14.095049+00:00",
+  "source_sha256": "9e3281a4a3791c88d669025ee3003a9b8a15c3a16dd030a33dd06e93127ef98b",
+  "pid": 62082,
+  "returncode": 0,
+  "ended_utc": "2026-11-06T12:09:16.492908+00:00",
+  "elapsed_sec": 2.39771291683428,
+  "first_line": "C2-LSH IDENTICAL 259051172e51757f",
+  "passed": true
+}

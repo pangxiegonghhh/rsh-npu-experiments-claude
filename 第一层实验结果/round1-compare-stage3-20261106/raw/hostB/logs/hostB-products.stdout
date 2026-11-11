@@ -1,0 +1,27 @@
+{"assignment_sha256": "59a5c1e4c9990614bb31f9a9a657151a9a27fa9ea446cd5a55d73ac644968714", "readiness_sha256": "fa02013ae2f5afd3de63662d6be7f60333e6dd833a8185cdea246a10aae62f73", "numpy": "2.4.4", "scipy": "1.17.1", "numpy_cpu_features_disabled": "X86_V3", "cases": 20, "formal_conditions": 488, "workspace_limit_bytes": 8589934592}
+HOSTB_ASSIGNED_START 2026-11-09T15:13:15+08:00
+stage3-ogbn-products__B0__W16__seed0 OK 3006.3
+stage3-ogbn-products__B1__W16__seed0 OK 3006.5
+stage3-ogbn-products__B-RCM-ref__W16__seed0 OK 2775.7
+stage3-ogbn-products__rabbit-pilot__W16__seed0 OK 2961.4
+stage3-ogbn-products__neutron-pilot__W16__seed0 OK 4003.4
+stage3-ogbn-products__C9-Gorder__W16__seed0 OK 5114.9
+stage3-ogbn-products__C9-S__W16__seed0 OK 7118.6
+stage3-ogbn-products__C10-BP__W16__seed0 OK 5932.6
+stage3-ogbn-products__C2-LSH__W16__seed0 OK 3039.0
+stage3-ogbn-products__C3-W1__W16__seed0 OK 3482.7
+stage3-ogbn-products__C3-W4__W16__seed0 OK 3322.1
+stage3-ogbn-products__C4-U__W16__seed0 OK 2802.9
+stage3-ogbn-products__C4-T__W16__seed0 OK 2712.3
+stage3-ogbn-products__C3-A__W16__seed0 INCOMPLETE 7200.9
+stage3-ogbn-products__C7-I__W16__seed0 OK 9879.2
+stage3-ogbn-products__C3-W4-noP__W16__seed0 OK 3320.0
+stage3-ogbn-products__C3-W4-R__W16__seed0 OK 3481.7
+stage3-ogbn-products__C3-A-R__W16__seed0 OK 3032.5
+stage3-ogbn-products__C4-U-R__W16__seed0 OK 3047.9
+stage3-ogbn-products__C4-T-R__W16__seed0 OK 1558.2
+ASSIGNED_CASES_TERMINAL remote 20
+HOSTB_INDEPENDENT_AND_COLLECT_START 2026-11-10T02:38:04+08:00
+{"planned_cases": 20, "attempted": 20, "OK": 0, "INCOMPLETE": 20, "SKIPPED": 0, "optional_reference_skip_cells": 6, "result_rows": 488, "post_records": 22, "all_attempted": true}
+REMOTE_20_CASES_RETURN_READY; preserve all failures and orders.
+HOSTB_ASSIGNED_AND_VERIFIED 2026-11-10T02:42:55+08:00

@@ -1,0 +1,19 @@
+{
+  "activated_at": 1794044270.766728,
+  "native_before_sha256": "5ff24398f44ae2651d18e0ac42edce19977a7a5998d985ae0b742ba93b13fc19",
+  "native_after_sha256": "487e6b40033379f36865325f7e44acc3d3df0b93bc76b6fca6e3c66fe49eace4",
+  "binary_unchanged": "work/liblayouts-v4.dylib",
+  "binary_sha256": "10020ab112dbf80e28229a7d15fb00d8f162386e6171e0b792937abe55fd2d9f",
+  "gates": [
+    "layout-v5-port-gate.json",
+    "layout-W-sensitivity-v5-gate.json",
+    "rq3-native-table-v5-gate.json",
+    "layout-v5-random-gate.json",
+    "layout-v5-boundary-gate.json"
+  ],
+  "applies_to": "future imports only; active and already-imported queued processes retain their recorded native version",
+  "proof": "K/D disjoint: A1 adds K-column self entries to K rows, leaving D-column incidence, co weights, chain tie ordering and guard counts unchanged. Matrix identity, binary path, W, full ordered windows and ordered D form cache key. Overlapping K/D bypasses sharing.",
+  "timing": "d_sec records actual request wall; reused chain costs are cache hits, no retroactive timing replacement. Matrix change clears cache; one current matrix retained. Independent direct-v4 comparison and400/401 guard boundary gates passed.",
+  "no_parameters_or_ties_changed": true,
+  "no_scientific_method_restarted": true
+}

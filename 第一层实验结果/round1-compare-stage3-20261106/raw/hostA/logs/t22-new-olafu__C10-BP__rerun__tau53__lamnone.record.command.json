@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/measure_t22_new.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-new-eval-catalog/olafu__C10-BP__rerun__tau53__lamnone.record.json"
+  ],
+  "start": 1793979832.62847,
+  "end": 1793979837.1778822,
+  "exitcode": 0
+}

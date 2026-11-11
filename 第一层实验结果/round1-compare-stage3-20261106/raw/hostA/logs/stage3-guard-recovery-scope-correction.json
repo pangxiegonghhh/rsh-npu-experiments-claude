@@ -1,0 +1,25 @@
+{
+  "at": 1794046952.1241212,
+  "excluded_fixture": "stage3-selftest-only-cora-cached-checkpoint",
+  "scope": "diagnostic aggregation only; original experiment results and statuses unchanged",
+  "before_source_sha256": "2a00b1e0c51651d7dc78c3179ff5c5c5a7af2cdba634e4b66335621432665cef",
+  "preserved_before_filter": [
+    {
+      "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/stage3-guard-recovery-before-formal-scope-filter.json",
+      "sha256": "450f4371b856bb66e70e370b2e4538b58767b9a183fd6a166d681ec78512fcef"
+    },
+    {
+      "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/stage3-guard-recovery-before-formal-scope-filter.stdout",
+      "sha256": "aa6aa6887334919c0851fc1f089dfac682e04a888b28e939ac673763b0cf330e"
+    },
+    {
+      "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/stage3-guard-recovery-before-formal-scope-filter.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/stage3-guard-recovery-before-formal-scope-filter.summary.json",
+      "sha256": "f774a4c32f207c88a70896023d0de7d7c68bce9951194c182fe7e93d6f9b615a"
+    }
+  ],
+  "formal_case_filter": "parent case_id must be in409 planned cases"
+}

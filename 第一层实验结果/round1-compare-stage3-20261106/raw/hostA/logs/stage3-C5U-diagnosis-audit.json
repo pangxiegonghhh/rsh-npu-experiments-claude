@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "scope": "original diagnosis only: 15 saved actual phases/identity/T_full vs own A0 full rows/source/unchanged original Pi; no metric regeneration; both posts still pending",
+  "case_id": "stage3-reddit__C5-U__W16__seed0",
+  "status": "OK",
+  "actual_method_seconds": 28.68541193008423,
+  "queue_seconds": 352.1512792110443,
+  "diagnostic_status_seconds": 28.178624868392944,
+  "T_full": 2846146,
+  "T_full_phase": 2936839.8,
+  "align_premium": 90693.79999999981,
+  "files": {
+    "work/stage3-diagnostics/stage3-reddit__C5-U__W16__seed0/status.json": "c28c336d3efa5eb95d840b9cc1e727906d7b3c8ca124c6fb85d1efe350e5d4bf",
+    "work/stage3-diagnostics/stage3-reddit__C5-U__W16__seed0/diag.json": "86c38b640f9f20074487d0f271b28da8c53a132cf9e7e17331bb373cab7ad929",
+    "work/stage3-diagnostics/stage3-reddit__C5-U__W16__seed0/phases.json": "3687477431f370720a9736bf2b82dbe3fb3ec5f7a09a8aeb91fbfb6a0879c7ee",
+    "work/stage3-diagnostics/stage3-reddit__C5-U__W16__seed0/candidate-diagnostics.json": "8f3aed305092e9f1641de1973617f8645e0dda6bda5f6d8b112b36577d824bc8",
+    "logs/stage3-diag-stage3-reddit__C5-U__W16__seed0.command.json": "543c8cba44459bf455555b1cf4027473224494621f67d0b3c71a54049a704347"
+  },
+  "no_scientific_rerun": true,
+  "whole_case_complete": false
+}

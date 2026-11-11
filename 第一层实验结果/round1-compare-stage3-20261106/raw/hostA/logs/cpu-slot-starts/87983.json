@@ -1,0 +1,23 @@
+{
+  "pid": 87983,
+  "slot": 1,
+  "command": [
+    "scripts/stage3_p1.py",
+    "--matrix",
+    "pattern1",
+    "--W",
+    "16",
+    "--method",
+    "C3-W4-R",
+    "--seed",
+    "0"
+  ],
+  "queued_at": 1793985752.976438,
+  "acquired_at": 1793985753.995272,
+  "queue_seconds": 1.018833875656128,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false,
+  "memory_limit_bytes": 8589934592,
+  "memory_guard_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/memory-guards/87983-1793985752976459000.json"
+}

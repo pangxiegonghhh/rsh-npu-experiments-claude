@@ -1,0 +1,172 @@
+{
+  "url": "https://dgl-data.s3-accelerate.amazonaws.com/dataset/reddit.zip",
+  "member_needle": "reddit_graph.npz",
+  "start": 1793969774.673302,
+  "status": "OK",
+  "requests": [
+    {
+      "method": "HEAD",
+      "url": "https://dgl-data.s3-accelerate.amazonaws.com/dataset/reddit.zip",
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "1397962821",
+        "Connection": "close",
+        "x-amz-id-2": "ZDt3UNs4tm2N4rhZWN6qipMBlAxyAtp5KVs/QWD+DSASMvPv6KZL/SMV982EyoJlLVvHM/m2XL0=",
+        "x-amz-request-id": "232QYKWTHDRWR1H5",
+        "Server": "AmazonS3",
+        "Date": "Fri, 06 Nov 2026 12:56:16 GMT",
+        "Last-Modified": "Tue, 07 Jan 2020 04:01:50 GMT",
+        "ETag": "\"00d951fba49a68014c3d5b19f170a9a3-167\"",
+        "x-amz-version-id": "null",
+        "Accept-Ranges": "bytes",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 38cc2c49b1f39546c075213022cc89f8.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "NRT57-P5",
+        "X-Amz-Cf-Id": "8dq6kgtDmDghMowpys0ggS8kyeBjPEFFlItA9tMZiGkj9B-wcvQtfA=="
+      }
+    },
+    {
+      "start": 1397962799,
+      "end": 1397962820,
+      "status": 206,
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "22",
+        "Connection": "close",
+        "x-amz-id-2": "yLAxASS0zm3H5hM2rePOrn4990FU6BowaSBCroQom/pUNxohxS047OdyuMhzoH1YgUBjTNupYfGQ6OUDYglWeGF/w9QaIYA2",
+        "x-amz-request-id": "ERY9THW1RRXJEJNQ",
+        "Server": "AmazonS3",
+        "Date": "Fri, 06 Nov 2026 12:56:17 GMT",
+        "Last-Modified": "Tue, 07 Jan 2020 04:01:50 GMT",
+        "ETag": "\"00d951fba49a68014c3d5b19f170a9a3-167\"",
+        "x-amz-version-id": "null",
+        "Accept-Ranges": "bytes",
+        "Content-Range": "bytes 1397962799-1397962820/1397962821",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 f7f41f3542c362acc3b1f7da6beff12c.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "NRT57-P5",
+        "X-Amz-Cf-Id": "p4O68ptn-Tx2y3-f_LfDmqp4zzo-C4RdQVAGmNgiAaUXSpn_TpSINw=="
+      }
+    },
+    {
+      "start": 1397962779,
+      "end": 1397962798,
+      "status": 206,
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "20",
+        "Connection": "close",
+        "x-amz-id-2": "Gv4HM+vk6ChIb8XrURitHeqlPwz4heRaaS0glM9pUzUGcZ8qMbx+Aw4qyGd0w7U8c3Oj5DF5CsE=",
+        "x-amz-request-id": "9NAY995W107TWZK8",
+        "Server": "AmazonS3",
+        "Date": "Fri, 06 Nov 2026 12:56:18 GMT",
+        "Last-Modified": "Tue, 07 Jan 2020 04:01:50 GMT",
+        "ETag": "\"00d951fba49a68014c3d5b19f170a9a3-167\"",
+        "x-amz-version-id": "null",
+        "Accept-Ranges": "bytes",
+        "Content-Range": "bytes 1397962779-1397962798/1397962821",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 a60d732e1ff728740920906a7e9d8f42.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "NRT57-P5",
+        "X-Amz-Cf-Id": "KchTeOGWkRRIssfia_YOTQ7HZJ6TzGwP1zotkN61krthvr8HWSWxDg=="
+      }
+    },
+    {
+      "start": 1397962628,
+      "end": 1397962798,
+      "status": 206,
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "171",
+        "Connection": "close",
+        "x-amz-id-2": "Qts9afS/Og+JwmXicH42oNbpmNtZc6mbxvMH1/vAJBqQWL9z35PO/+T+1W7uM6GI4bHLwAczRe26m7vhWhYuAN4uHTKtsNxJ",
+        "x-amz-request-id": "4GT3KMECZD8Q7F3K",
+        "Server": "AmazonS3",
+        "Date": "Fri, 06 Nov 2026 12:56:19 GMT",
+        "Last-Modified": "Tue, 07 Jan 2020 04:01:50 GMT",
+        "ETag": "\"00d951fba49a68014c3d5b19f170a9a3-167\"",
+        "x-amz-version-id": "null",
+        "Accept-Ranges": "bytes",
+        "Content-Range": "bytes 1397962628-1397962798/1397962821",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 4e5e87588e63aa347834ac2ff5e7f262.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "NRT57-P5",
+        "X-Amz-Cf-Id": "Ko7tRSoJVs3kUGEkgw6ZSqDmuAYotvYoULoyHvYFl50-lxZExOXHQg=="
+      }
+    },
+    {
+      "start": 0,
+      "end": 29,
+      "status": 206,
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "30",
+        "Connection": "close",
+        "x-amz-id-2": "2I0FDY6E4HIHy/K7EtUnCl0p4ZIAVYPdj4h4++e5edNhWGXXiAz/2j+z85FO2AZF6+JmpUKL50dPn0O/efip0e4gdBumpCYR",
+        "x-amz-request-id": "4GT25YM6V73J0EJ5",
+        "Server": "AmazonS3",
+        "Date": "Fri, 06 Nov 2026 12:56:19 GMT",
+        "Last-Modified": "Tue, 07 Jan 2020 04:01:50 GMT",
+        "ETag": "\"00d951fba49a68014c3d5b19f170a9a3-167\"",
+        "x-amz-version-id": "null",
+        "Accept-Ranges": "bytes",
+        "Content-Range": "bytes 0-29/1397962821",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 b37dbbe8d3b5fd859db3dda5e93f1dd6.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "NRT57-P5",
+        "X-Amz-Cf-Id": "Kryupv1IXMsesHcIb7tXYad8G9MIiGDa9NP-iBDOeOCK4-Dnvr_-Jg=="
+      }
+    },
+    {
+      "start": 74,
+      "end": 320071566,
+      "status": 206,
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "320071493",
+        "Connection": "close",
+        "x-amz-id-2": "iU93l1Xh7ho8Eq2zFpJa2yKO8SyXkW5YC6EegXCfyuutPUh1eaDpRd6nD4dd20UkkpzZpntwNrq2/do3YhSkBMyRMey+FGdi",
+        "x-amz-request-id": "TKAJ18D7A3M7KK2N",
+        "Server": "AmazonS3",
+        "Date": "Fri, 06 Nov 2026 12:56:21 GMT",
+        "Last-Modified": "Tue, 07 Jan 2020 04:01:50 GMT",
+        "ETag": "\"00d951fba49a68014c3d5b19f170a9a3-167\"",
+        "x-amz-version-id": "null",
+        "Accept-Ranges": "bytes",
+        "Content-Range": "bytes 74-320071566/1397962821",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 4e5e87588e63aa347834ac2ff5e7f262.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "NRT57-P5",
+        "X-Amz-Cf-Id": "x6W4uVMIkP_M-jAPSbB3-1YO3BuknlwMNLsOEGGwsyPtdrzyhfh29A=="
+      }
+    }
+  ],
+  "members": [
+    {
+      "name": "reddit_graph.npz",
+      "size": 322325278,
+      "compressed": 320071493,
+      "CRC": 3030279521,
+      "offset": 0,
+      "method": 8
+    },
+    {
+      "name": "reddit_data.npz",
+      "size": 1078024862,
+      "compressed": 1077890988,
+      "CRC": 3499117253,
+      "offset": 320071567,
+      "method": 8
+    }
+  ],
+  "selected_member": "reddit_graph.npz",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/second/reddit_graph.npz",
+  "sha256": "42b4a8d9bbbaa61e74611c125673865712fb9498da99c1571ebc1fb180bfc2e0",
+  "size": 322325278,
+  "member_CRC_verified": true,
+  "archive_size": 1397962821,
+  "archive_sha256": null,
+  "archive_note": "official archive fetched by exact byte ranges; selected structure member fully downloaded, CRC and sha256 recorded; feature/label members not downloaded",
+  "end": 1793969819.123304
+}

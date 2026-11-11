@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="560" viewBox="0 0 1080 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="540.0" y="32" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">W16 window continuous-column runs</text>
+<text x="20" y="250.0" transform="rotate(-90 20 250.0)" text-anchor="middle" font-family="Arial" font-size="13">runs per window</text>
+<line x1="80" y1="430.0" x2="1050" y2="430.0" stroke="#e5e7eb"/>
+<text x="72" y="434.0" text-anchor="end" font-family="Arial" font-size="11">0.00</text>
+<line x1="80" y1="358.0" x2="1050" y2="358.0" stroke="#e5e7eb"/>
+<text x="72" y="362.0" text-anchor="end" font-family="Arial" font-size="11">10.08</text>
+<line x1="80" y1="286.0" x2="1050" y2="286.0" stroke="#e5e7eb"/>
+<text x="72" y="290.0" text-anchor="end" font-family="Arial" font-size="11">20.15</text>
+<line x1="80" y1="214.0" x2="1050" y2="214.0" stroke="#e5e7eb"/>
+<text x="72" y="218.0" text-anchor="end" font-family="Arial" font-size="11">30.23</text>
+<line x1="80" y1="142.0" x2="1050" y2="142.0" stroke="#e5e7eb"/>
+<text x="72" y="146.0" text-anchor="end" font-family="Arial" font-size="11">40.31</text>
+<line x1="80" y1="70.0" x2="1050" y2="70.0" stroke="#e5e7eb"/>
+<text x="72" y="74.0" text-anchor="end" font-family="Arial" font-size="11">50.38</text>
+<line x1="80" y1="70" x2="80" y2="430" stroke="#374151"/>
+<line x1="80" y1="430" x2="1050" y2="430" stroke="#374151"/>
+<rect x="101.2" y="70.0" width="45.5" height="360.0" fill="#1f77b4"/>
+<text x="140.6" y="450" text-anchor="middle" font-family="Arial" font-size="10" transform="rotate(35 140.6 450)">original
+row_only</text>
+<rect x="222.5" y="70.0" width="45.5" height="360.0" fill="#1f77b4"/>
+<text x="261.9" y="450" text-anchor="middle" font-family="Arial" font-size="10" transform="rotate(35 261.9 450)">original
+native</text>
+<rect x="343.7" y="208.2" width="45.5" height="221.8" fill="#1f77b4"/>
+<text x="383.1" y="450" text-anchor="middle" font-family="Arial" font-size="10" transform="rotate(35 383.1 450)">rsh
+row_only</text>
+<rect x="465.0" y="208.2" width="45.5" height="221.8" fill="#1f77b4"/>
+<text x="504.4" y="450" text-anchor="middle" font-family="Arial" font-size="10" transform="rotate(35 504.4 450)">rsh
+native</text>
+<rect x="586.2" y="146.4" width="45.5" height="283.6" fill="#1f77b4"/>
+<text x="625.6" y="450" text-anchor="middle" font-family="Arial" font-size="10" transform="rotate(35 625.6 450)">rabbit
+row_only</text>
+<rect x="707.5" y="270.8" width="45.5" height="159.2" fill="#1f77b4"/>
+<text x="746.9" y="450" text-anchor="middle" font-family="Arial" font-size="10" transform="rotate(35 746.9 450)">rabbit
+native</text>
+<rect x="828.7" y="148.7" width="45.5" height="281.3" fill="#1f77b4"/>
+<text x="868.1" y="450" text-anchor="middle" font-family="Arial" font-size="10" transform="rotate(35 868.1 450)">neutron
+row_only</text>
+<rect x="950.0" y="267.3" width="45.5" height="162.7" fill="#1f77b4"/>
+<text x="989.4" y="450" text-anchor="middle" font-family="Arial" font-size="10" transform="rotate(35 989.4 450)">neutron
+native</text>
+<rect x="80" y="525" width="12" height="12" fill="#1f77b4"/>
+<text x="98" y="535" font-family="Arial" font-size="12">mean run count</text>
+</svg>

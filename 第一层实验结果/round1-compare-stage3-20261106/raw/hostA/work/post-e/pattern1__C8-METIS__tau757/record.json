@@ -1,0 +1,96 @@
+{
+  "matrix": "pattern1",
+  "method": "C8-METIS",
+  "W": 16,
+  "seed": 0,
+  "start": 1793977000.672666,
+  "status": "OK",
+  "params": "edgecut; ufactor=30; seed=0; direct k-way; exact capacity repair",
+  "command": [
+    "scripts/external_metis.py",
+    "--matrix",
+    "pattern1"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/pattern1__C8-METIS__W16__seed0.order.json",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/pattern1__C8-METIS__W16__seed0.order.json",
+  "sha256": "fdc59901bd4dcfeeb02855da8e5f085f31cf5e219b26b25e2ea1489c8a9cf293",
+  "size": 105397,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 3383,
+        "sumU": 1107811,
+        "sumGamma": 194316,
+        "elapsed": 1.8749067783355713
+      },
+      {
+        "sweep": 1,
+        "accepted": 257,
+        "sumU": 1079667,
+        "sumGamma": 188237,
+        "elapsed": 3.448434829711914
+      },
+      {
+        "sweep": 2,
+        "accepted": 47,
+        "sumU": 1074353,
+        "sumGamma": 187251,
+        "elapsed": 4.916234016418457
+      },
+      {
+        "sweep": 3,
+        "accepted": 15,
+        "sumU": 1072081,
+        "sumGamma": 186745,
+        "elapsed": 6.7186198234558105
+      },
+      {
+        "sweep": 4,
+        "accepted": 3,
+        "sumU": 1071328,
+        "sumGamma": 186575,
+        "elapsed": 9.131222009658813
+      },
+      {
+        "sweep": 5,
+        "accepted": 2,
+        "sumU": 1071324,
+        "sumGamma": 186569,
+        "elapsed": 10.719174861907959
+      },
+      {
+        "sweep": 6,
+        "accepted": 0,
+        "sumU": 1071324,
+        "sumGamma": 186569,
+        "elapsed": 12.283077955245972
+      }
+    ],
+    "sweeps_done": 7,
+    "accepted_swaps": 3707,
+    "tracked_sumU": 1071324,
+    "tracked_sumGamma": 186569,
+    "independent_full_recompute": {
+      "k_windows": 521,
+      "sumU": 1071324,
+      "T": 67177,
+      "sumGamma": 186569,
+      "sumR": 360035,
+      "R_p50": 659,
+      "R_p90": 922,
+      "R_max": 1238,
+      "write_runs_aic": 521,
+      "meanR": 691.046065
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 452455942
+  },
+  "end": 1793977023.8019772,
+  "seconds": 23.129311084747314,
+  "peak_mem_mb": 319.109375,
+  "member": "C8-METIS",
+  "tau": 757,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/pattern1__C8-METIS__tau757/order.json"
+}

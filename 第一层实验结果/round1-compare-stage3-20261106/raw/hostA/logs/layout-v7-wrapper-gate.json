@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "official_condition_rows": 40,
+  "grid": [
+    {
+      "member": "B0",
+      "rows": 20,
+      "identical": true
+    },
+    {
+      "member": "C4-U",
+      "rows": 20,
+      "identical": true
+    }
+  ],
+  "default_binary_confirmed": true,
+  "actual_backend_record": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/layout-context-backends/37401-1794071216009138000.json",
+  "actual_backend_record_sha256": "60216d3a979b3ea6a0d692fb8a2ce52a209189c5e95e96ecc9edb9ac38e7e771",
+  "candidate_python_sha256": "3b7830ca38f2950d938f37de6539bd37fd8893dbfbbc8bca073ce9e019754c98",
+  "candidate_binary_sha256": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+  "new_logging_only": true
+}

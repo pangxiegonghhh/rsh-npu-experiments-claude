@@ -1,0 +1,6 @@
+{
+  "actual_toy_stdout": "T23 toy tests: OK\n",
+  "actual_toy_returncode": 0,
+  "final_toy_gate_passed": true,
+  "note": "Supervisor provisional print used a generic passed substring not present in toy stdout; definitive gate uses exit code0 and the actual T23 toy tests: OK output. No expected values or test results changed."
+}

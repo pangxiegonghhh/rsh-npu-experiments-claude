@@ -1,0 +1,8 @@
+{
+  "scope": "metadata audit correction only; no scientific rerun or input/output edits",
+  "initial_audit_failure": "KeyError: evaluation_group_sizes",
+  "reason": "C8 repair stores target_sizes; group_stats source explicitly falls back to this field. Corrected audit to use producer schema.",
+  "subsequent_command": "python3 -B scripts/audit_c8_diagnosis_saved.py",
+  "subsequent_exitcode": 0,
+  "passed_receipt": "logs/stage3-C8METIS-diagnosis-audit.json"
+}

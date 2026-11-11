@@ -1,0 +1,22 @@
+Fri Nov  6 23:47:04 2026 Building RP forest with 7 trees
+Fri Nov  6 23:47:07 2026 metric NN descent for 11 iterations
+	 1  /  11
+	 2  /  11
+	 3  /  11
+	 4  /  11
+	 5  /  11
+	 6  /  11
+	 7  /  11
+	 8  /  11
+	Stopping threshold met -- exiting after 8 iterations
+C1-J NATIVE_IDENTICAL
+Fri Nov  6 23:47:15 2026 Building RP forest with 7 trees
+Fri Nov  6 23:47:15 2026 metric NN descent for 11 iterations
+	 1  /  11
+	 2  /  11
+	 3  /  11
+	 4  /  11
+	 5  /  11
+	 6  /  11
+	Stopping threshold met -- exiting after 6 iterations
+C1-H NATIVE_IDENTICAL

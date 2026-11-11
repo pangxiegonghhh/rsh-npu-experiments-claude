@@ -1,0 +1,14 @@
+{
+  "matrix": "mycielskian15",
+  "method": "C6-M mnc=1 (T21 口径)",
+  "member": "C6-M mnc=1 (T21 口径)",
+  "W": 16,
+  "seed": 0,
+  "scope": "second batch",
+  "case_id": "stage3-mycielskian15__C6-M mnc=1 (T21 口径)__W16__seed0",
+  "data_missing": true,
+  "status": "SKIPPED",
+  "start": 1793989842.244544,
+  "error": "official TAMU403; files-server TLS timeout; UF official fallback404; see secondbatch input logs",
+  "controller_end": 1793989842.244544
+}

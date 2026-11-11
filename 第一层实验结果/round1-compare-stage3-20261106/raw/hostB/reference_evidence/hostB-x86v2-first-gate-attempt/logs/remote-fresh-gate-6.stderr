@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/scripts/gate_rq3_tables_v7.py", line 25, in <module>
+    assert json.loads((BASE/'logs/layout-port-gate.json').read_text())['passed'];(BASE/'logs/rq3-native-table-v7-gate.json').write_text(json.dumps(dict(passed=True,checks=checks,table2_sigma_and_metrics_gate=str(BASE/'logs/layout-port-gate.json'),input_note='fresh reference load_cora adjacency for historical Table 1/2 gate; formal baseline row orders remain individually verified T21 index files, including frozen SlashBurn provenance'),indent=2))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1029, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/root/t23-hostb-x86v2-20261109/t23-remote-runtime/logs/layout-port-gate.json'

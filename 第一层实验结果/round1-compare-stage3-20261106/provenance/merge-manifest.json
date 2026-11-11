@@ -1,0 +1,87 @@
+{
+  "scope": "T22 sealed archive + T23 sealed stages1-2 archive + host-aware stage3 evidence merge; no scientific rerun",
+  "source_repository": {
+    "commit": "3ecc8f4ae0f6a7dff556fe1ad4e888a500f3162b",
+    "tree": "54dd7a113c4ecad145e07b47d8745f9de7d56756",
+    "branch": "codex/t22-t23-20261106",
+    "status": "",
+    "verified_original_files": 263,
+    "all_original_sha256_unchanged": true,
+    "before_manifest": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/repository-before.json",
+    "before_manifest_sha256": "b653ff515043a210a59a9b989af22cbe917e5b0563efb8f9cb2fa3e6bd88945e"
+  },
+  "coverage": {
+    "planned_cases": 409,
+    "attempted": 409,
+    "OK": 320,
+    "INCOMPLETE": 48,
+    "SKIPPED": 41,
+    "optional_reference_skip_cells": 6,
+    "result_rows": 6276,
+    "post_records": 64,
+    "all_attempted": true
+  },
+  "result_row_counts": {
+    "OK": 5396,
+    "INCOMPLETE": 588,
+    "SKIPPED": 292
+  },
+  "remote_rows": 488,
+  "remote_row_counts": {
+    "OK": 200,
+    "INCOMPLETE": 288
+  },
+  "all_remote_original_table_fields_preserved": true,
+  "annotated_tables": {
+    "groups.csv": {
+      "rows": 82,
+      "original_fields_preserved": true
+    },
+    "status.csv": {
+      "rows": 415,
+      "original_fields_preserved": true
+    },
+    "guard-counts.csv": {
+      "rows": 5400,
+      "original_fields_preserved": true
+    },
+    "diag.csv": {
+      "rows": 153,
+      "original_fields_preserved": true
+    },
+    "post-E.csv": {
+      "rows": 64,
+      "original_fields_preserved": true
+    },
+    "results.csv": {
+      "rows": 6276,
+      "original_fields_preserved": true
+    }
+  },
+  "hosts": {
+    "hostA-macos-arm64": {
+      "platform": "macOS15.2 arm64",
+      "cpu": "Apple M1 Pro",
+      "memory_GiB": 16,
+      "python": "3.12.10",
+      "timing": "actual original records; external Rabbit Linux ARM guest separate"
+    },
+    "hostB-windows16gb-wsl2": {
+      "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+      "machine": "x86_64",
+      "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+      "numpy": "2.4.4",
+      "scipy": "1.17.1"
+    }
+  },
+  "raw_hostB_root": "raw/hostB",
+  "raw_hostA_root": "raw/hostA",
+  "orders_bulk": "T23-orders-merged-20261110.tar.gz",
+  "no_failed_status_promoted": true,
+  "checkpoints_recomputed": false,
+  "LS_or_D_rerun": false,
+  "formal_stage3_seal": "not performed by this evidence merge; original formal builder guard/checkpoint recovery closure is distinct",
+  "git_commit_or_push": false,
+  "automation": "t22-t23 deleted",
+  "waiters": "two idle local waiters retired; no scientific process interrupted"
+}

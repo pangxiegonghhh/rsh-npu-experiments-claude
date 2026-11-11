@@ -1,0 +1,9 @@
+{
+  "at_utc": "2026-11-07 16:50:24 UTC",
+  "status": "CANDIDATE_NOT_ACTIVATED",
+  "parent_cpp_sha256": "d146347f03fb09f9ae8d4e63f794954103fe38655388a1455cb4a48e836837ae",
+  "candidate_cpp_sha256": "5dcea0fff0c13830fe55ceb059e520580acb05b59f3286b653562239fafa7fcf",
+  "scope": "guarded co chain counting representation only; exact integer counts/full tuple sort/400 guard/100M unique cap unchanged; memory-unfit falls back to original map; false-guard inter path unchanged",
+  "candidate_python_wrapper": "unchanged native_chain_v6 with child-only RQ3_LAYOUT_LIB override",
+  "running_jobs_restarted": false
+}

@@ -1,0 +1,10 @@
+{
+  "time": 1793976815.6879349,
+  "type": "local QEMU ARM Linux CPU VM",
+  "reason": "all first-batch author Rabbit coarse mappings and binaries recovered and verified; local CPU postprocessing continues",
+  "command": "SSH to verified localhost:22221 poweroff",
+  "evidence": "logs/linux-console.raw and exec completion; not a cloud-instance OFF claim",
+  "verified_exit_code": 0,
+  "verified_console_last_event": "reboot: Power down",
+  "verification": "exec session25380 completed with exit0 after QEMU powerdown"
+}

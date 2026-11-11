@@ -1,0 +1,33 @@
+{
+  "matrix": "olafu",
+  "member": "C5-U-CN",
+  "W": 16,
+  "diag": "A0",
+  "tau": 56,
+  "T_full": 14958,
+  "T_full_phase": 16815.333333333332,
+  "align_premium": 1857.3333333333321,
+  "T_inplace": 12181,
+  "T_keep": 13191,
+  "U_inplace": 190097,
+  "U_keep": 206742,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.21470379829406738,
+  "status": "OK"
+}

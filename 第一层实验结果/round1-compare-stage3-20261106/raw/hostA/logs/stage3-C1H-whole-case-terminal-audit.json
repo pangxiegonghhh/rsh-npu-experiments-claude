@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "scope": "one original scientific case terminal despite raw generation/controller status OK: exact28 unique prescribed conditions, 24OK/4post-layoutINC; current full-table invariants only, not campaign completion",
+  "case_id": "stage3-reddit__C1-H__W16__seed0",
+  "formal_status": "INCOMPLETE",
+  "formal_conditions": 28,
+  "condition_status_counts": {
+    "OK": 24,
+    "INCOMPLETE": 4
+  },
+  "own_conditions_OK": 20,
+  "tau53_post_conditions_OK": 4,
+  "tau153_post_conditions_INCOMPLETE": 4,
+  "ls_complete_both_taus": true,
+  "original_generation_status": "OK",
+  "reason": "tau153 final co layouts exceed frozen workspace estimate; LS and independent pre-D UG completed",
+  "raw_file_sha256": {
+    "work/stage3-cases/stage3-reddit__C1-H__W16__seed0/record.json": "b7d20835fcd69a4b89d23a9defc38040a7e1d9f8ac5fab75d462e781d94ce3d3",
+    "work/stage3-evaluations/stage3-reddit__C1-H__W16__seed0/rows.json": "62c101514d67819646cae92a3501afed3044531ef05d14e4c24cda84d5037c3b",
+    "work/post-e/stage3-reddit__C1-H__W16__seed0__tau53/rows.json": "e615993282ec4adbe1ac08695c5d49068b646b6273b1e8ac08b26ac5c816708d",
+    "work/post-e/stage3-reddit__C1-H__W16__seed0__tau153/rows.json": "f8a9355aecb64ce1130f5b1f0e79e3f42c85ab22c0d07d36d1778bc5ffb9bd1d"
+  },
+  "failed_layout_numeric_fields_absent": true,
+  "collected_coverage": {
+    "planned_cases": 409,
+    "attempted": 367,
+    "OK": 314,
+    "INCOMPLETE": 54,
+    "SKIPPED": 41,
+    "optional_reference_skip_cells": 6,
+    "result_rows": 6276,
+    "post_records": 26,
+    "all_attempted": false
+  },
+  "final_original_cases": 367,
+  "final_original_case_counts": {
+    "OK": 314,
+    "INCOMPLETE": 12,
+    "SKIPPED": 41
+  },
+  "pending_cases": 42,
+  "current_full_table_invariant_audit": {
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-collected/results.csv",
+    "rows": 6276,
+    "successful_rows_checked": 4898,
+    "fixed_membership_UT_groups": 1572,
+    "passed": true
+  },
+  "original_generation_order_unchanged": true,
+  "no_scientific_rerun": true,
+  "full_campaign_complete": false
+}

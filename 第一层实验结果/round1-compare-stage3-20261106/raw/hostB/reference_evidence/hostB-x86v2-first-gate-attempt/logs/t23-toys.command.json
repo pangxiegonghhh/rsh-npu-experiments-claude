@@ -1,0 +1,18 @@
+{
+  "name": "t23-toys",
+  "argv": [
+    "/root/t23-remote-runtime/.venv/bin/python",
+    "-B",
+    "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/repo/第一层工作区/T23参考实现/toy_tests.py"
+  ],
+  "cwd": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/gates/t23-toys",
+  "initial_directory_entries": [],
+  "started_utc": "2026-11-09T07:09:43.940385+00:00",
+  "source_sha256": "45c62fd8eecdfd7143d93cba2b6d76a1f5644117daae36125192128b2c276fbc",
+  "pid": 206,
+  "returncode": 0,
+  "ended_utc": "2026-11-09T07:09:43.972725+00:00",
+  "elapsed_sec": 0.032300915000007535,
+  "first_line": "T23 toy tests: OK",
+  "passed": true
+}

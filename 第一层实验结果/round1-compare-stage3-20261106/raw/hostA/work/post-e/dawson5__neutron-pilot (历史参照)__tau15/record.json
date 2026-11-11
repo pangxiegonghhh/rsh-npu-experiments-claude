@@ -1,0 +1,22 @@
+{
+  "task": "T23",
+  "use": "base-order",
+  "matrix": "dawson5",
+  "t23_member": "neutron-pilot (\u5386\u53f2\u53c2\u7167)",
+  "t21_member": "neutron-pilot",
+  "W": 16,
+  "params": "",
+  "source": "T21 \u5b8c\u6574\u5f52\u6863",
+  "path": "orders/dawson5__neutron-pilot__W16__tauNone__own__af5b0f59d660.json",
+  "sha256": "1fc4003b27aff9b7976dec5981c3dd80c4246985ba494d419d874894740d3358",
+  "note": "historical/reference order; post-E not required by T23 P0 scope",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__neutron-pilot__W16__tauNone__own__af5b0f59d660.json",
+  "verified_sha256": "1fc4003b27aff9b7976dec5981c3dd80c4246985ba494d419d874894740d3358",
+  "origin": "T21 archive",
+  "member": "neutron-pilot",
+  "tau": 15,
+  "reuse": false,
+  "status": "SKIPPED",
+  "start": 1793971648.964768,
+  "end": 1793971648.9647732
+}

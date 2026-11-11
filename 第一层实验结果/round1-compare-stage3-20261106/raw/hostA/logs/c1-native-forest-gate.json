@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "variant": "J",
+      "identical_order_sha256": "d9f72194f16e7ebc8ffc665b1a2e7457786b1a2ed574ab1def2075030dd0d78e",
+      "identical_diag": true
+    },
+    {
+      "variant": "H",
+      "identical_order_sha256": "743625dd83fb360b9f702f5267f4804cd5b3177ffd1b08361c22bd0cd7fc4dc9",
+      "identical_diag": true
+    }
+  ],
+  "unchanged_PyNNDescent": true,
+  "n_jobs": 1
+}

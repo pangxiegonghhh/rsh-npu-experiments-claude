@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 83336, 'sumU': 1464291, 'sumGamma': 880119, 'elapsed': 100.46605205535889}
+LS {'sweep': 1, 'accepted': 45753, 'sumU': 1354518, 'sumGamma': 765979, 'elapsed': 215.51391696929932}
+LS {'sweep': 2, 'accepted': 23104, 'sumU': 1307911, 'sumGamma': 716227, 'elapsed': 343.51142597198486}
+LS {'sweep': 3, 'accepted': 11433, 'sumU': 1287250, 'sumGamma': 694184, 'elapsed': 423.43927097320557}
+LS {'sweep': 4, 'accepted': 5917, 'sumU': 1276926, 'sumGamma': 683053, 'elapsed': 489.8107109069824}
+LS {'sweep': 5, 'accepted': 3055, 'sumU': 1271748, 'sumGamma': 677588, 'elapsed': 554.0941858291626}
+LS {'sweep': 6, 'accepted': 1631, 'sumU': 1268815, 'sumGamma': 674724, 'elapsed': 604.9054608345032}
+LS {'sweep': 7, 'accepted': 1041, 'sumU': 1267056, 'sumGamma': 672711, 'elapsed': 665.4717938899994}
+LS {'sweep': 8, 'accepted': 579, 'sumU': 1266066, 'sumGamma': 671567, 'elapsed': 719.6655931472778}
+LS {'sweep': 9, 'accepted': 374, 'sumU': 1265392, 'sumGamma': 670845, 'elapsed': 785.9046750068665}
+{"task": "T23", "use": "base-order", "matrix": "ogbn-arxiv", "t23_member": "rabbit-pilot (\u5386\u53f2\u53c2\u7167)", "t21_member": "rabbit-pilot", "W": 16, "params": "", "source": "T21 \u5b8c\u6574\u5f52\u6863", "path": "orders/ogbn-arxiv__rabbit-pilot__W16__tauNone__own__06ad245b849c.json", "sha256": "9c66f21da2991338a7ba469ea052bf3ebdb22a639b31eea40a8406852945bfb8", "note": "", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__rabbit-pilot__W16__tauNone__own__06ad245b849c.json", "verified_sha256": "a6c3d102c017dd82041ac4aedfc281518cb3a254d34973f88bc49d27c0f0a134", "origin": "T21 archive", "member": "rabbit-pilot (\u5386\u53f2\u53c2\u7167)", "tau": 2, "reuse": false, "status": "OK", "start": 1793970349.943129, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/ogbn-arxiv__rabbit-pilot (\u5386\u53f2\u53c2\u7167)__tau2/order.json", "size": 1075665, "end": 1793971169.5308, "seconds": 819.5876710414886, "peak_mem_mb": 823.4375}

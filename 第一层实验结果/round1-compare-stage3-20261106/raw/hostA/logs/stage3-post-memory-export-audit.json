@@ -1,0 +1,122 @@
+{
+  "passed": true,
+  "actual_post_rows_recovered": 16,
+  "checks": [
+    {
+      "case": "stage3-reddit__B1__W16__seed0__tau53",
+      "diag": "A0",
+      "d_rule": "own",
+      "peak_mem_mb": 5463.09375,
+      "source_record_sha256": "57687ca9b0eb179e999a50a929183e5be04afc82d227a9e1810ff4f8a8c35bf9"
+    },
+    {
+      "case": "stage3-reddit__B1__W16__seed0__tau53",
+      "diag": "A0",
+      "d_rule": "D-greedy",
+      "peak_mem_mb": 5463.09375,
+      "source_record_sha256": "57687ca9b0eb179e999a50a929183e5be04afc82d227a9e1810ff4f8a8c35bf9"
+    },
+    {
+      "case": "stage3-reddit__B1__W16__seed0__tau53",
+      "diag": "A1",
+      "d_rule": "own",
+      "peak_mem_mb": 5463.09375,
+      "source_record_sha256": "57687ca9b0eb179e999a50a929183e5be04afc82d227a9e1810ff4f8a8c35bf9"
+    },
+    {
+      "case": "stage3-reddit__B1__W16__seed0__tau53",
+      "diag": "A1",
+      "d_rule": "D-greedy",
+      "peak_mem_mb": 5463.09375,
+      "source_record_sha256": "57687ca9b0eb179e999a50a929183e5be04afc82d227a9e1810ff4f8a8c35bf9"
+    },
+    {
+      "case": "stage3-reddit__B1__W16__seed0__tau153",
+      "diag": "A0",
+      "d_rule": "own",
+      "peak_mem_mb": 4568.890625,
+      "source_record_sha256": "33fe158e1071aad4631152b5a0b996e3026ac30807cffc77ce76a8181dcd8f7a"
+    },
+    {
+      "case": "stage3-reddit__B1__W16__seed0__tau153",
+      "diag": "A0",
+      "d_rule": "D-greedy",
+      "peak_mem_mb": 4568.890625,
+      "source_record_sha256": "33fe158e1071aad4631152b5a0b996e3026ac30807cffc77ce76a8181dcd8f7a"
+    },
+    {
+      "case": "stage3-reddit__B1__W16__seed0__tau153",
+      "diag": "A1",
+      "d_rule": "own",
+      "peak_mem_mb": 4568.890625,
+      "source_record_sha256": "33fe158e1071aad4631152b5a0b996e3026ac30807cffc77ce76a8181dcd8f7a"
+    },
+    {
+      "case": "stage3-reddit__B1__W16__seed0__tau153",
+      "diag": "A1",
+      "d_rule": "D-greedy",
+      "peak_mem_mb": 4568.890625,
+      "source_record_sha256": "33fe158e1071aad4631152b5a0b996e3026ac30807cffc77ce76a8181dcd8f7a"
+    },
+    {
+      "case": "stage3-reddit__C9-Gorder__W16__seed0__tau53",
+      "diag": "A0",
+      "d_rule": "own",
+      "peak_mem_mb": 3880.3125,
+      "source_record_sha256": "b623467916006c37d3fb325ce203eccfd5b0a4dc0187f6ad96118fd488f27548"
+    },
+    {
+      "case": "stage3-reddit__C9-Gorder__W16__seed0__tau53",
+      "diag": "A0",
+      "d_rule": "D-greedy",
+      "peak_mem_mb": 3880.3125,
+      "source_record_sha256": "b623467916006c37d3fb325ce203eccfd5b0a4dc0187f6ad96118fd488f27548"
+    },
+    {
+      "case": "stage3-reddit__C9-Gorder__W16__seed0__tau53",
+      "diag": "A1",
+      "d_rule": "own",
+      "peak_mem_mb": 3880.3125,
+      "source_record_sha256": "b623467916006c37d3fb325ce203eccfd5b0a4dc0187f6ad96118fd488f27548"
+    },
+    {
+      "case": "stage3-reddit__C9-Gorder__W16__seed0__tau53",
+      "diag": "A1",
+      "d_rule": "D-greedy",
+      "peak_mem_mb": 3880.3125,
+      "source_record_sha256": "b623467916006c37d3fb325ce203eccfd5b0a4dc0187f6ad96118fd488f27548"
+    },
+    {
+      "case": "stage3-reddit__C9-Gorder__W16__seed0__tau153",
+      "diag": "A0",
+      "d_rule": "own",
+      "peak_mem_mb": 3791.9375,
+      "source_record_sha256": "c0f40b7bc7317dcc78a1a9b8679eef8f8e50db72952174805f12970e6b18dc67"
+    },
+    {
+      "case": "stage3-reddit__C9-Gorder__W16__seed0__tau153",
+      "diag": "A0",
+      "d_rule": "D-greedy",
+      "peak_mem_mb": 3791.9375,
+      "source_record_sha256": "c0f40b7bc7317dcc78a1a9b8679eef8f8e50db72952174805f12970e6b18dc67"
+    },
+    {
+      "case": "stage3-reddit__C9-Gorder__W16__seed0__tau153",
+      "diag": "A1",
+      "d_rule": "own",
+      "peak_mem_mb": 3791.9375,
+      "source_record_sha256": "c0f40b7bc7317dcc78a1a9b8679eef8f8e50db72952174805f12970e6b18dc67"
+    },
+    {
+      "case": "stage3-reddit__C9-Gorder__W16__seed0__tau153",
+      "diag": "A1",
+      "d_rule": "D-greedy",
+      "peak_mem_mb": 3791.9375,
+      "source_record_sha256": "c0f40b7bc7317dcc78a1a9b8679eef8f8e50db72952174805f12970e6b18dc67"
+    }
+  ],
+  "timeout_without_original_peak_left_unavailable": 8,
+  "all_result_rows": 6276,
+  "first_supplement_rows": 896,
+  "notes": "no original source numerical fields modified; peak scopes explicitly labelled; no recovery-process peak substitution"
+}

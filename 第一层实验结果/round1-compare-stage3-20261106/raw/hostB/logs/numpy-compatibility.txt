@@ -1,0 +1,19 @@
+MKL_NUM_THREADS=1
+NPY_DISABLE_CPU_FEATURES=X86_V3
+NUMBA_NUM_THREADS=1
+OMP_NUM_THREADS=1
+OPENBLAS_NUM_THREADS=1
+PYTHONDONTWRITEBYTECODE=1
+2.4.4 1.17.1
+WARNING: `threadpoolctl` not found in system! Install it by `pip install threadpoolctl`. Once installed, try `np.show_runtime` again for more detailed build information
+[{'numpy_version': '2.4.4',
+  'python': '3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]',
+  'uname': uname_result(system='Linux', node='Crab-Laptop', release='6.18.54.1-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Tue Oct  6 19:13:07 UTC 2026', machine='x86_64')},
+ {'simd_extensions': {'baseline': ['X86_V2'],
+                      'found': [],
+                      'not_found': ['X86_V3',
+                                    'X86_V4',
+                                    'AVX512_ICL',
+                                    'AVX512_SPR']}},
+ {'ignore_floating_point_errors_in_matmul': False}]
+[1 4 0 3 2]

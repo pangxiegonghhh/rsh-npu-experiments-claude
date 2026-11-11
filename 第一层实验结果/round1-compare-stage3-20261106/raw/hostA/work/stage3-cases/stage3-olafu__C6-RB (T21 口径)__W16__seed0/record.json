@@ -1,0 +1,46 @@
+{
+  "matrix": "olafu",
+  "method": "C6-RB (T21 口径)",
+  "member": "C6-RB (T21 口径)",
+  "W": 16,
+  "seed": 0,
+  "scope": "P1/P2",
+  "case_id": "stage3-olafu__C6-RB (T21 口径)__W16__seed0",
+  "reuse": {
+    "task": "T23",
+    "use": "base-order",
+    "matrix": "olafu",
+    "t23_member": "C6-RB (T21 口径)",
+    "t21_member": "C6",
+    "W": "16",
+    "params": "mnc=0",
+    "source": "T21 完整归档",
+    "path": "orders/olafu__C6__W16__tauNone__own__828dc71a3c30.json",
+    "sha256": "b11b0590079561c115d7a89c119c8ffe070ed27d65d520d998084b281b6d7d76",
+    "note": "",
+    "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__C6__W16__tauNone__own__828dc71a3c30.json",
+    "verified_sha256": "b11b0590079561c115d7a89c119c8ffe070ed27d65d520d998084b281b6d7d76",
+    "origin": "T21 archive"
+  },
+  "status": "OK",
+  "start": 1793985715.7959292,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__C6__W16__tauNone__own__828dc71a3c30.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/olafu__C6__W16__tauNone__own__828dc71a3c30.json",
+  "sha256": "b11b0590079561c115d7a89c119c8ffe070ed27d65d520d998084b281b6d7d76",
+  "size": 85991,
+  "seconds": "",
+  "diagnostics": {},
+  "reused": true,
+  "evaluation_root": "stage3-evaluations",
+  "diagnostic_root": "stage3-diagnostics",
+  "evaluation_status": {
+    "status": "OK",
+    "rows": 20,
+    "seconds": 0.6805257797241211
+  },
+  "diagnostic_status": {
+    "status": "OK",
+    "seconds": 0.16533136367797852
+  },
+  "controller_end": 1793985742.740465
+}

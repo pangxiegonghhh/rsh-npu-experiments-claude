@@ -1,0 +1,14 @@
+{
+  "time": 1793982530.14739,
+  "workspace": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106",
+  "disk_total_bytes": 494384795648,
+  "disk_used_bytes": 373554880512,
+  "disk_free_bytes": 120829915136,
+  "scratch_logical_bytes": 12884901888,
+  "scratch_allocated_bytes": 0,
+  "host_memory_bytes": 17179869184,
+  "host_cores": 8,
+  "global_CPU_slots": 2,
+  "large_graph_serialized": true,
+  "host_new_children_peak_RSS_limit_bytes": 8589934592
+}

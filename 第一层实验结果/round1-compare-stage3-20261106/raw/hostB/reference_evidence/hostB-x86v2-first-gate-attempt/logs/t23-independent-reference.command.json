@@ -1,0 +1,20 @@
+{
+  "name": "t23-independent-reference",
+  "argv": [
+    "/root/t23-remote-runtime/.venv/bin/python",
+    "-B",
+    "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/repo/第一层工作区/T23参考实现/verify/indep_t23.py",
+    "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/repo/第一层实验结果/cora-pilot-20261104/neutron-matrices/cora.mtx",
+    "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/gates/t23-reference/out/orders_t23.json"
+  ],
+  "cwd": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/gates/t23-independent-reference",
+  "initial_directory_entries": [],
+  "started_utc": "2026-11-09T07:09:43.973853+00:00",
+  "source_sha256": "9e3281a4a3791c88d669025ee3003a9b8a15c3a16dd030a33dd06e93127ef98b",
+  "pid": 207,
+  "returncode": 0,
+  "ended_utc": "2026-11-09T07:09:46.544805+00:00",
+  "elapsed_sec": 2.570907448000014,
+  "first_line": "C2-LSH IDENTICAL 259051172e51757f",
+  "passed": true
+}

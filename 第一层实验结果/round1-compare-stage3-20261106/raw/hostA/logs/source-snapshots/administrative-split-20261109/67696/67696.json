@@ -1,0 +1,11 @@
+{
+  "pid": 67696,
+  "parent_pid": 85310,
+  "argv": [
+    "scripts/post_e_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-post-catalog/stage3-reddit__C8-METIS__W16__seed0__tau53.json"
+  ],
+  "paused_at": 1794202502.043078,
+  "stage": "administrative hold BEFORE CPU queue/acquire; no numerical work started",
+  "marker": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/split-control/hold-new-admissions.json"
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/root/t23-remote-runtime/.venv/bin/python",
+    "-B",
+    "tools/check_linux_memory.py"
+  ],
+  "cwd": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime",
+  "NPY_DISABLE_CPU_FEATURES": "X86_V3",
+  "started_at": 1794208382.4103467,
+  "ended_at": 1794208382.775586,
+  "returncode": 0,
+  "source_sha256": "60d2fdb2a3677d885fb053f787758c98fab6db8894a3888ccce6b76c3ecbf540",
+  "RQ3_LAYOUT_LIB": null,
+  "scope": "fresh remote Cora/unit gate, not a formal products case"
+}

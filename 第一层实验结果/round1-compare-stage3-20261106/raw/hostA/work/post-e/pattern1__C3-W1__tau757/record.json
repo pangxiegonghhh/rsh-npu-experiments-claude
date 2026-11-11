@@ -1,0 +1,85 @@
+{
+  "matrix": "pattern1",
+  "method": "C3-W1",
+  "W": 16,
+  "seed": 0,
+  "start": 1793979765.78063,
+  "status": "OK",
+  "command": [
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+    "--matrix",
+    "pattern1",
+    "--method",
+    "C3-W1",
+    "--seed",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/pattern1__C3-W1__W16__seed0.order.json",
+  "sha256": "1509b58478f3e39b779ba2bea7d944a81ed9a8136f9f927283f20f8745430e42",
+  "size": 105212,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 1575,
+        "sumU": 909457,
+        "sumGamma": 110677,
+        "elapsed": 1.3160560131072998
+      },
+      {
+        "sweep": 1,
+        "accepted": 95,
+        "sumU": 896555,
+        "sumGamma": 109192,
+        "elapsed": 2.4448230266571045
+      },
+      {
+        "sweep": 2,
+        "accepted": 15,
+        "sumU": 895777,
+        "sumGamma": 109142,
+        "elapsed": 3.5645880699157715
+      },
+      {
+        "sweep": 3,
+        "accepted": 1,
+        "sumU": 895775,
+        "sumGamma": 109142,
+        "elapsed": 4.680639028549194
+      },
+      {
+        "sweep": 4,
+        "accepted": 0,
+        "sumU": 895775,
+        "sumGamma": 109142,
+        "elapsed": 5.796680927276611
+      }
+    ],
+    "sweeps_done": 5,
+    "accepted_swaps": 1686,
+    "tracked_sumU": 895775,
+    "tracked_sumGamma": 109142,
+    "independent_full_recompute": {
+      "k_windows": 521,
+      "sumU": 895775,
+      "T": 56173,
+      "sumGamma": 109142,
+      "sumR": 100166,
+      "R_p50": 179,
+      "R_p90": 261,
+      "R_max": 1075,
+      "write_runs_aic": 521,
+      "meanR": 192.257198
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 452455942
+  },
+  "end": 1793979778.423775,
+  "seconds": 12.643144845962524,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/pattern1__C3-W1__W16__seed0.order.json",
+  "member": "C3-W1",
+  "tau": 757,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/pattern1__C3-W1__tau757/order.json",
+  "peak_mem_mb": 419.703125
+}

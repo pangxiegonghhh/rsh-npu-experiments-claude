@@ -1,0 +1,14 @@
+{
+  "pid": 81883,
+  "slot": 0,
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/olafu__neutron-pilot__ls__tau53__lam0.json"
+  ],
+  "queued_at": 1793979754.496404,
+  "acquired_at": 1793979756.019177,
+  "queue_seconds": 1.522773027420044,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false
+}

@@ -1,0 +1,46 @@
+{
+  "matrix": "pattern1",
+  "method": "C6-M mnc=16 (T21 口径)",
+  "member": "C6-M mnc=16 (T21 口径)",
+  "W": 16,
+  "seed": 0,
+  "scope": "P1/P2",
+  "case_id": "stage3-pattern1__C6-M mnc=16 (T21 口径)__W16__seed0",
+  "reuse": {
+    "task": "T23",
+    "use": "base-order",
+    "matrix": "pattern1",
+    "t23_member": "C6-M mnc=16 (T21 口径)",
+    "t21_member": "C6-M",
+    "W": "16",
+    "params": "mnc=16",
+    "source": "仓库 第一层实验结果/rq2-c6align-20261106/",
+    "path": "orders/pattern1__C6-M__W16__tauNone__own__f1ddcfe8fc59.json",
+    "sha256": "df276dba1ad308b261a78a11a6d5b6a6d2b2837a830728df96975ec78ec729df",
+    "note": "对齐修补后补跑",
+    "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/第一层实验结果/rq2-c6align-20261106/orders/pattern1__C6-M__W16__tauNone__own__f1ddcfe8fc59.json",
+    "verified_sha256": "df276dba1ad308b261a78a11a6d5b6a6d2b2837a830728df96975ec78ec729df",
+    "origin": "repository alignment supplement"
+  },
+  "status": "OK",
+  "start": 1793985850.654559,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/第一层实验结果/rq2-c6align-20261106/orders/pattern1__C6-M__W16__tauNone__own__f1ddcfe8fc59.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/第一层实验结果/rq2-c6align-20261106/orders/pattern1__C6-M__W16__tauNone__own__f1ddcfe8fc59.json",
+  "sha256": "df276dba1ad308b261a78a11a6d5b6a6d2b2837a830728df96975ec78ec729df",
+  "size": 104573,
+  "seconds": "",
+  "diagnostics": {},
+  "reused": true,
+  "evaluation_root": "stage3-evaluations",
+  "diagnostic_root": "stage3-diagnostics",
+  "evaluation_status": {
+    "status": "OK",
+    "rows": 20,
+    "seconds": 6.806195974349976
+  },
+  "diagnostic_status": {
+    "status": "OK",
+    "seconds": 0.6696579456329346
+  },
+  "controller_end": 1793985858.7906659
+}

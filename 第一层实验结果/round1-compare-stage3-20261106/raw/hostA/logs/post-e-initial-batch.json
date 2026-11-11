@@ -1,0 +1,1256 @@
+[
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/ogbn-arxiv__C10-BP__tau2.json"
+    ],
+    "start": 1793972145.9755032,
+    "end": 1793972542.019538,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/ogbn-arxiv__C10-BP__tau3.json"
+    ],
+    "start": 1793972145.975803,
+    "end": 1793972683.965885,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/wiki-RfA__B0__tau2.json"
+    ],
+    "start": 1793972542.021019,
+    "end": 1793972904.479445,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/wiki-RfA__B0__tau3.json"
+    ],
+    "start": 1793972683.966802,
+    "end": 1793972919.43427,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/wiki-RfA__B1__tau2.json"
+    ],
+    "start": 1793972904.480732,
+    "end": 1793973112.173755,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/wiki-RfA__B1__tau3.json"
+    ],
+    "start": 1793972919.4347641,
+    "end": 1793973150.842227,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/wiki-RfA__C9-Gorder__tau2.json"
+    ],
+    "start": 1793973112.17552,
+    "end": 1793973589.4282482,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/wiki-RfA__C9-Gorder__tau3.json"
+    ],
+    "start": 1793973150.843183,
+    "end": 1793973602.971651,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/wiki-RfA__C9-S__tau2.json"
+    ],
+    "start": 1793973589.429536,
+    "end": 1793973783.449322,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/wiki-RfA__C9-S__tau3.json"
+    ],
+    "start": 1793973602.972567,
+    "end": 1793973998.628142,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/wiki-RfA__C10-BP__tau2.json"
+    ],
+    "start": 1793973783.450621,
+    "end": 1793974213.614388,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/wiki-RfA__C10-BP__tau3.json"
+    ],
+    "start": 1793973998.629365,
+    "end": 1793974233.0746188,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__B0__tau15.json"
+    ],
+    "start": 1793974213.615587,
+    "end": 1793974417.358471,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__B0__tau17.json"
+    ],
+    "start": 1793974233.075346,
+    "end": 1793974445.040152,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__B1__tau15.json"
+    ],
+    "start": 1793974417.35945,
+    "end": 1793974637.809634,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__B1__tau17.json"
+    ],
+    "start": 1793974445.041169,
+    "end": 1793974639.5929291,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C9-Gorder__tau15.json"
+    ],
+    "start": 1793974637.810823,
+    "end": 1793974810.752196,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C9-Gorder__tau17.json"
+    ],
+    "start": 1793974639.593604,
+    "end": 1793974815.2407942,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C9-S__tau15.json"
+    ],
+    "start": 1793974810.753283,
+    "end": 1793974850.6606212,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C9-S__tau17.json"
+    ],
+    "start": 1793974815.241429,
+    "end": 1793974855.4664671,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C10-BP__tau15.json"
+    ],
+    "start": 1793974850.6612859,
+    "end": 1793974899.059201,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C10-BP__tau17.json"
+    ],
+    "start": 1793974855.46691,
+    "end": 1793974906.271202,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__B0__tau53.json"
+    ],
+    "start": 1793974899.060121,
+    "end": 1793974919.6813009,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__B0__tau56.json"
+    ],
+    "start": 1793974906.271761,
+    "end": 1793974920.991168,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__B1__tau53.json"
+    ],
+    "start": 1793974919.681887,
+    "end": 1793974958.920317,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__B1__tau56.json"
+    ],
+    "start": 1793974920.991585,
+    "end": 1793974961.453789,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__C9-Gorder__tau53.json"
+    ],
+    "start": 1793974958.921317,
+    "end": 1793974982.299755,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__C9-Gorder__tau56.json"
+    ],
+    "start": 1793974961.454365,
+    "end": 1793974983.2910988,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__C9-S__tau53.json"
+    ],
+    "start": 1793974982.3004851,
+    "end": 1793975007.259166,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__C9-S__tau56.json"
+    ],
+    "start": 1793974983.2915342,
+    "end": 1793975007.982901,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__C10-BP__tau53.json"
+    ],
+    "start": 1793975007.26014,
+    "end": 1793975021.61635,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__C10-BP__tau56.json"
+    ],
+    "start": 1793975007.983335,
+    "end": 1793975023.318354,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__B0__tau8.json"
+    ],
+    "start": 1793975021.617087,
+    "end": 1793975100.944736,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__B0__tau757.json"
+    ],
+    "start": 1793975023.318814,
+    "end": 1793975123.659161,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__B1__tau8.json"
+    ],
+    "start": 1793975100.945985,
+    "end": 1793975153.883007,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__B1__tau757.json"
+    ],
+    "start": 1793975123.6596868,
+    "end": 1793975161.441628,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__C9-Gorder__tau8.json"
+    ],
+    "start": 1793975153.8844259,
+    "end": 1793975203.810663,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__C9-Gorder__tau757.json"
+    ],
+    "start": 1793975161.442251,
+    "end": 1793975237.687625,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__C9-S__tau8.json"
+    ],
+    "start": 1793975203.8122041,
+    "end": 1793975309.518443,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__C9-S__tau757.json"
+    ],
+    "start": 1793975237.6887639,
+    "end": 1793975352.737694,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__C10-BP__tau8.json"
+    ],
+    "start": 1793975309.519786,
+    "end": 1793975335.224305,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__C10-BP__tau757.json"
+    ],
+    "start": 1793975335.224927,
+    "end": 1793975365.3546891,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__B0__tau82.json"
+    ],
+    "start": 1793975352.738723,
+    "end": 1793975598.7635798,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__B0__tau342.json"
+    ],
+    "start": 1793975365.355337,
+    "end": 1793975735.443059,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__B1__tau82.json"
+    ],
+    "start": 1793975598.764949,
+    "end": 1793975822.210907,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__B1__tau342.json"
+    ],
+    "start": 1793975735.444573,
+    "end": 1793976030.072327,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C9-Gorder__tau82.json"
+    ],
+    "start": 1793975822.212598,
+    "end": 1793976259.240502,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C9-Gorder__tau342.json"
+    ],
+    "start": 1793976030.074365,
+    "end": 1793976395.223573,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C9-S__tau82.json"
+    ],
+    "start": 1793976259.242259,
+    "end": 1793976525.8107781,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C9-S__tau342.json"
+    ],
+    "start": 1793976395.224861,
+    "end": 1793976743.2771862,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C10-BP__tau82.json"
+    ],
+    "start": 1793976525.812473,
+    "end": 1793976751.4582741,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C10-BP__tau342.json"
+    ],
+    "start": 1793976743.278625,
+    "end": 1793976950.655371,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/cora__C2-LSH__tau2.json"
+    ],
+    "start": 1793976751.458688,
+    "end": 1793976769.990149,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/cora__C2-LSH__tau3.json"
+    ],
+    "start": 1793976769.9909241,
+    "end": 1793976959.9947782,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/cora__C3-W1__tau2.json"
+    ],
+    "start": 1793976950.6575592,
+    "end": 1793976998.8328269,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/cora__C3-W1__tau3.json"
+    ],
+    "start": 1793976959.9955552,
+    "end": 1793976999.667573,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/cora__C3-W4__tau2.json"
+    ],
+    "start": 1793976998.833965,
+    "end": 1793977028.439529,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/cora__C3-W4__tau3.json"
+    ],
+    "start": 1793976999.667986,
+    "end": 1793977029.232259,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/cora__C4-T__tau2.json"
+    ],
+    "start": 1793977028.4530199,
+    "end": 1793977050.961748,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/cora__C4-T__tau3.json"
+    ],
+    "start": 1793977029.235381,
+    "end": 1793977067.2742898,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/cora__C4-U__tau2.json"
+    ],
+    "start": 1793977050.96293,
+    "end": 1793977084.9947789,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/cora__C4-U__tau3.json"
+    ],
+    "start": 1793977067.2753248,
+    "end": 1793977094.219181,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/cora__C7-I__tau2.json"
+    ],
+    "start": 1793977084.9960241,
+    "end": 1793977105.9371772,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/cora__C7-I__tau3.json"
+    ],
+    "start": 1793977094.220275,
+    "end": 1793977109.603363,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C2-LSH__tau15.json"
+    ],
+    "start": 1793977105.9387898,
+    "end": 1793977132.799776,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C2-LSH__tau17.json"
+    ],
+    "start": 1793977109.608897,
+    "end": 1793977152.618634,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C3-W1__tau15.json"
+    ],
+    "start": 1793977132.801067,
+    "end": 1793977186.7443042,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C3-W1__tau17.json"
+    ],
+    "start": 1793977152.6205142,
+    "end": 1793977197.2885911,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C3-W4__tau15.json"
+    ],
+    "start": 1793977186.745784,
+    "end": 1793977222.906585,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C3-W4__tau17.json"
+    ],
+    "start": 1793977197.289942,
+    "end": 1793977230.887386,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C4-T__tau15.json"
+    ],
+    "start": 1793977222.908441,
+    "end": 1793977250.4114099,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C4-T__tau17.json"
+    ],
+    "start": 1793977230.8885279,
+    "end": 1793977257.9105961,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C4-U__tau15.json"
+    ],
+    "start": 1793977250.412837,
+    "end": 1793977270.5698528,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C4-U__tau17.json"
+    ],
+    "start": 1793977257.912006,
+    "end": 1793977274.7896209,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C7-I__tau15.json"
+    ],
+    "start": 1793977270.571296,
+    "end": 1793977288.606621,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/dawson5__C7-I__tau17.json"
+    ],
+    "start": 1793977274.7903738,
+    "end": 1793977299.7521632,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C2-LSH__tau82.json"
+    ],
+    "start": 1793977288.607677,
+    "end": 1793977538.3669918,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C2-LSH__tau342.json"
+    ],
+    "start": 1793977299.753088,
+    "end": 1793977541.88189,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C3-W1__tau82.json"
+    ],
+    "start": 1793977538.38248,
+    "end": 1793977758.423274,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C3-W1__tau342.json"
+    ],
+    "start": 1793977541.8829288,
+    "end": 1793977755.9395468,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C3-W4__tau82.json"
+    ],
+    "start": 1793977755.941231,
+    "end": 1793977999.088375,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C3-W4__tau342.json"
+    ],
+    "start": 1793977758.4239638,
+    "end": 1793977990.7557461,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C4-T__tau82.json"
+    ],
+    "start": 1793977990.757417,
+    "end": 1793978226.488327,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C4-T__tau342.json"
+    ],
+    "start": 1793977999.0892212,
+    "end": 1793978219.923019,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C4-U__tau82.json"
+    ],
+    "start": 1793978219.924872,
+    "end": 1793978451.398256,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C4-U__tau342.json"
+    ],
+    "start": 1793978226.489554,
+    "end": 1793978479.2438421,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C7-I__tau82.json"
+    ],
+    "start": 1793978451.401303,
+    "end": 1793978711.8854022,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/human_gene1__C7-I__tau342.json"
+    ],
+    "start": 1793978479.244898,
+    "end": 1793978735.964576,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/ogbn-arxiv__C2-LSH__tau2.json"
+    ],
+    "start": 1793978711.887121,
+    "end": 1793978903.454318,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/ogbn-arxiv__C2-LSH__tau3.json"
+    ],
+    "start": 1793978735.965866,
+    "end": 1793978903.178931,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/ogbn-arxiv__C3-W1__tau2.json"
+    ],
+    "start": 1793978903.181565,
+    "end": 1793979074.5908082,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/ogbn-arxiv__C3-W1__tau3.json"
+    ],
+    "start": 1793978903.455019,
+    "end": 1793979071.956651,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/ogbn-arxiv__C3-W4__tau2.json"
+    ],
+    "start": 1793979071.959579,
+    "end": 1793979245.669278,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/ogbn-arxiv__C3-W4__tau3.json"
+    ],
+    "start": 1793979074.591583,
+    "end": 1793979240.032593,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/ogbn-arxiv__C4-T__tau2.json"
+    ],
+    "start": 1793979240.033951,
+    "end": 1793979402.829176,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/ogbn-arxiv__C4-T__tau3.json"
+    ],
+    "start": 1793979245.670101,
+    "end": 1793979408.2528021,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/ogbn-arxiv__C4-U__tau2.json"
+    ],
+    "start": 1793979402.8309681,
+    "end": 1793979574.811693,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/ogbn-arxiv__C4-U__tau3.json"
+    ],
+    "start": 1793979408.2532768,
+    "end": 1793979593.4238038,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/ogbn-arxiv__C7-I__tau2.json"
+    ],
+    "start": 1793979574.813477,
+    "end": 1793979747.095446,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/ogbn-arxiv__C7-I__tau3.json"
+    ],
+    "start": 1793979593.425044,
+    "end": 1793979754.053977,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__C2-LSH__tau53.json"
+    ],
+    "start": 1793979747.096951,
+    "end": 1793979752.798621,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__C2-LSH__tau56.json"
+    ],
+    "start": 1793979752.799514,
+    "end": 1793979755.855246,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__C3-W1__tau53.json"
+    ],
+    "start": 1793979754.054878,
+    "end": 1793979756.8954182,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__C3-W1__tau56.json"
+    ],
+    "start": 1793979755.856069,
+    "end": 1793979761.1017332,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__C4-T__tau56.json"
+    ],
+    "start": 1793979756.8965912,
+    "end": 1793979760.1600819,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__C4-U__tau53.json"
+    ],
+    "start": 1793979760.160702,
+    "end": 1793979763.284215,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/olafu__C4-U__tau56.json"
+    ],
+    "start": 1793979761.1028988,
+    "end": 1793979763.677089,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__C3-W1__tau8.json"
+    ],
+    "start": 1793979763.284656,
+    "end": 1793979777.384279,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__C3-W1__tau757.json"
+    ],
+    "start": 1793979763.677522,
+    "end": 1793979778.44149,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__C3-W4__tau757.json"
+    ],
+    "start": 1793979777.384939,
+    "end": 1793979800.8257222,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__C4-T__tau8.json"
+    ],
+    "start": 1793979778.442133,
+    "end": 1793979803.1625202,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__C4-T__tau757.json"
+    ],
+    "start": 1793979800.8267798,
+    "end": 1793979819.20667,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__C7-I__tau8.json"
+    ],
+    "start": 1793979803.1629481,
+    "end": 1793979825.848129,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/pattern1__C7-I__tau757.json"
+    ],
+    "start": 1793979819.2075148,
+    "end": 1793979844.1569972,
+    "exitcode": 0
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "matrix": "wiki-RfA",
+  "method": "C9-Gorder",
+  "member": "C9-Gorder",
+  "W": 128,
+  "seed": 0,
+  "scope": "W sensitivity",
+  "case_id": "stage3-wiki-RfA__C9-Gorder__W128__seed0",
+  "main_tau_only": true,
+  "reuse": {
+    "task": "T23",
+    "use": "W-sensitivity",
+    "matrix": "wiki-RfA",
+    "t23_member": "C9-Gorder",
+    "t21_member": "C9-Gorder",
+    "W": "128",
+    "params": "w=W-1",
+    "source": "T21 完整归档",
+    "path": "orders/wiki-RfA__C9-Gorder__W128__tauNone__own__2ed1f31e77e2.json",
+    "sha256": "6e7ce613049865f82424adc3124c729df3a890287c55be21c170a5b5ebcc9b18",
+    "note": "按该 W 重算的行序",
+    "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__C9-Gorder__W128__tauNone__own__2ed1f31e77e2.json",
+    "verified_sha256": "6e7ce613049865f82424adc3124c729df3a890287c55be21c170a5b5ebcc9b18",
+    "origin": "T21 archive"
+  },
+  "status": "OK",
+  "start": 1793987474.6127932,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__C9-Gorder__W128__tauNone__own__2ed1f31e77e2.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__C9-Gorder__W128__tauNone__own__2ed1f31e77e2.json",
+  "sha256": "6e7ce613049865f82424adc3124c729df3a890287c55be21c170a5b5ebcc9b18",
+  "size": 57311,
+  "seconds": "",
+  "diagnostics": {},
+  "reused": true,
+  "evaluation_root": "stage3-evaluations",
+  "diagnostic_root": "stage3-diagnostics",
+  "eval_taus": [
+    3
+  ],
+  "evaluation_status": {
+    "status": "OK",
+    "rows": 12,
+    "seconds": 0.9283640384674072
+  },
+  "controller_end": 1793987476.138771
+}

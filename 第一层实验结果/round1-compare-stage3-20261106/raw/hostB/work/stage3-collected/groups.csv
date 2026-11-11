@@ -1,0 +1,13 @@
+matrix,member,W,boundary,k_windows,sumU,T,diagnostic_only
+ogbn-products,C2-LSH,16,candidate groups,153337,71115121,4515162,True
+ogbn-products,C2-LSH,16,W16 evaluation windows,153065,71463688,4536857,True
+ogbn-products,C3-W1,16,candidate groups,154628,63474590,4038126,True
+ogbn-products,C3-W1,16,W16 evaluation windows,153065,64519408,4102752,True
+ogbn-products,C3-W4,16,candidate groups,155309,63493525,4039697,True
+ogbn-products,C3-W4,16,W16 evaluation windows,153065,64536637,4103919,True
+ogbn-products,C3-W4-noP,16,candidate groups,764833,63514524,4353845,True
+ogbn-products,C3-W4-noP,16,W16 evaluation windows,153065,70825231,4496909,True
+ogbn-products,C3-W4-R,16,candidate groups,157335,57975607,3695832,True
+ogbn-products,C3-W4-R,16,W16 evaluation windows,153065,58519485,3727837,True
+ogbn-products,C3-A-R,16,candidate groups,154333,64751490,4117943,True
+ogbn-products,C3-A-R,16,W16 evaluation windows,153065,65011074,4133656,True

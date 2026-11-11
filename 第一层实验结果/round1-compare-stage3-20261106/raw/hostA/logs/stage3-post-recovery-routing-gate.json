@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-11-07 13:43:58 UTC",
+  "checks": [
+    {
+      "case": "stage3-reddit__C9-S__W16__seed0__tau153",
+      "actual_terminal_input": true,
+      "verification_only": true,
+      "sha256": {
+        "last-completed-sweep.checkpoint.json": "61b5d2070141c913bbc0ef73f10865ee9f218e29beb8d1ffcd26c7285fa6479d",
+        "order.json": "0766d533d5e2cdb97d756322f13f03c5bca5766e3c22eafd05d03de0d914262f"
+      }
+    },
+    {
+      "case": "stage3-reddit__C9-S__W16__seed0__tau53",
+      "actual_terminal_input": true,
+      "verification_only": false,
+      "sha256": {
+        "last-completed-sweep.checkpoint.json": "d512f04d60f0b5272c47af5878830a7a24b49cd8983b08e0ad56711fe2968aec"
+      }
+    },
+    {
+      "case": "stage3-reddit__B0__W16__seed0__tau153",
+      "actual_terminal_input": true,
+      "verification_only": false,
+      "sha256": {
+        "last-completed-sweep.checkpoint.json": "0da9a91aad91e80fae6db8aa13d36a2126033df606b53822868296734c5590e8"
+      }
+    },
+    {
+      "case": "stage3-reddit__B1__W16__seed0__tau53",
+      "actual_terminal_input": true,
+      "verification_only": false,
+      "sha256": {
+        "record.json": "57687ca9b0eb179e999a50a929183e5be04afc82d227a9e1810ff4f8a8c35bf9",
+        "last-completed-sweep.checkpoint.json": "e07f04fb4b51599e81098732058eed5c14f5784ba136332fa1138e53c01b9898",
+        "order.json": "b2ba3aed3c80ce8e97f29d18ac3f9ab0aa401e985cd49d56a9463ba1131b80e6"
+      }
+    },
+    {
+      "case": "zero-accepted early stop",
+      "synthetic_routing_fixture": true,
+      "verification_only": true
+    },
+    {
+      "case": "ten sweeps no order saved",
+      "synthetic_routing_fixture": true,
+      "verification_only": false
+    },
+    {
+      "case": "unfinished with order file",
+      "synthetic_routing_fixture": true,
+      "verification_only": false
+    },
+    {
+      "case": "finished raw record exists",
+      "synthetic_routing_fixture": true,
+      "verification_only": false
+    }
+  ],
+  "scientific_computation_executed": false,
+  "scope": "same PID, same bounded wrapper, dispatch before resource acquire; completed LS uses original saved order independent UG verification with no LS or D retry",
+  "active_scientific_processes_restarted": false
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "matrix": "wiki-RfA",
+    "member": "C3-W4-R",
+    "W": 16,
+    "boundary": "candidate groups",
+    "k_windows": 726,
+    "sumU": 194884,
+    "T": 12523,
+    "diagnostic_only": true
+  },
+  {
+    "matrix": "wiki-RfA",
+    "member": "C3-W4-R",
+    "W": 16,
+    "boundary": "W16 evaluation windows",
+    "k_windows": 712,
+    "sumU": 195893,
+    "T": 12577,
+    "diagnostic_only": true
+  }
+]

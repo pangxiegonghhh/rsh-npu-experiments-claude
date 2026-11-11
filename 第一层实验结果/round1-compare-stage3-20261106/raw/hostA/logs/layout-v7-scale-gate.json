@@ -1,0 +1,155 @@
+{
+  "passed": true,
+  "cases": 12,
+  "checks": [
+    {
+      "fixture": "large original IDs and sparse inactive residuals",
+      "n": 50000,
+      "windows": 4,
+      "diag": 0,
+      "d": false,
+      "identical": true,
+      "guard": {
+        "co_chain_guard_windows_skipped": 0
+      },
+      "sigma_sha256": "0ff82537d1f7700be742cde0832017c5ba9169779d7d445aff0dd357105186ed"
+    },
+    {
+      "fixture": "large original IDs and sparse inactive residuals",
+      "n": 50000,
+      "windows": 4,
+      "diag": 0,
+      "d": true,
+      "identical": true,
+      "guard": {
+        "co_chain_guard_windows_skipped": 0
+      },
+      "sigma_sha256": "0ff82537d1f7700be742cde0832017c5ba9169779d7d445aff0dd357105186ed"
+    },
+    {
+      "fixture": "large original IDs and sparse inactive residuals",
+      "n": 50000,
+      "windows": 4,
+      "diag": 1,
+      "d": false,
+      "identical": true,
+      "guard": {
+        "co_chain_guard_windows_skipped": 0
+      },
+      "sigma_sha256": "0ff82537d1f7700be742cde0832017c5ba9169779d7d445aff0dd357105186ed"
+    },
+    {
+      "fixture": "large original IDs and sparse inactive residuals",
+      "n": 50000,
+      "windows": 4,
+      "diag": 1,
+      "d": true,
+      "identical": true,
+      "guard": {
+        "co_chain_guard_windows_skipped": 0
+      },
+      "sigma_sha256": "5cdd4a2363ab99329c7e3f6aad02e8b679545b2406bf248a5e574dbd1d823b4b"
+    },
+    {
+      "fixture": "large original IDs and sparse inactive residuals",
+      "n": 50000,
+      "windows": 4,
+      "diag": 0,
+      "d": false,
+      "identical": true,
+      "guard": {
+        "co_chain_guard_windows_skipped": 0
+      },
+      "sigma_sha256": "227e177501719c146b62bcd9c764d171c6496437073c09900c9c48b0503efb9a"
+    },
+    {
+      "fixture": "large original IDs and sparse inactive residuals",
+      "n": 50000,
+      "windows": 4,
+      "diag": 0,
+      "d": true,
+      "identical": true,
+      "guard": {
+        "co_chain_guard_windows_skipped": 0
+      },
+      "sigma_sha256": "227e177501719c146b62bcd9c764d171c6496437073c09900c9c48b0503efb9a"
+    },
+    {
+      "fixture": "large original IDs and sparse inactive residuals",
+      "n": 50000,
+      "windows": 4,
+      "diag": 1,
+      "d": false,
+      "identical": true,
+      "guard": {
+        "co_chain_guard_windows_skipped": 0
+      },
+      "sigma_sha256": "227e177501719c146b62bcd9c764d171c6496437073c09900c9c48b0503efb9a"
+    },
+    {
+      "fixture": "large original IDs and sparse inactive residuals",
+      "n": 50000,
+      "windows": 4,
+      "diag": 1,
+      "d": true,
+      "identical": true,
+      "guard": {
+        "co_chain_guard_windows_skipped": 0
+      },
+      "sigma_sha256": "5d3c9a10ccbff850b7bf2a79bff7e005629618a4230bbd7e68ad40e66e4d3d48"
+    },
+    {
+      "fixture": "70000 vs65000 co scores; uint16 overflow would reorder the three-point chain",
+      "n": 70003,
+      "windows": 70000,
+      "diag": 0,
+      "d": false,
+      "identical": true,
+      "guard": {
+        "co_chain_guard_windows_skipped": 0
+      },
+      "sigma_sha256": "11da7d8e51fd7d128ec29608e2d2d11704afb3f96514e7c4f45db513a37dc2c9"
+    },
+    {
+      "fixture": "70000 vs65000 co scores; uint16 overflow would reorder the three-point chain",
+      "n": 70003,
+      "windows": 70000,
+      "diag": 1,
+      "d": false,
+      "identical": true,
+      "guard": {
+        "co_chain_guard_windows_skipped": 0
+      },
+      "sigma_sha256": "11da7d8e51fd7d128ec29608e2d2d11704afb3f96514e7c4f45db513a37dc2c9"
+    },
+    {
+      "fixture": "70000 vs65000 co scores; uint16 overflow would reorder the three-point chain",
+      "n": 70003,
+      "windows": 70000,
+      "diag": 0,
+      "d": false,
+      "identical": true,
+      "guard": {
+        "co_chain_guard_windows_skipped": 0
+      },
+      "sigma_sha256": "10be2992f58345a51019d24cb5b2235a55965df698a754cff3a1a6b152ffd148"
+    },
+    {
+      "fixture": "70000 vs65000 co scores; uint16 overflow would reorder the three-point chain",
+      "n": 70003,
+      "windows": 70000,
+      "diag": 1,
+      "d": false,
+      "identical": true,
+      "guard": {
+        "co_chain_guard_windows_skipped": 0
+      },
+      "sigma_sha256": "10be2992f58345a51019d24cb5b2235a55965df698a754cff3a1a6b152ffd148"
+    }
+  ],
+  "fixture_only": true,
+  "scientific_matrix_cases_executed": false,
+  "candidate_cpp_sha256": "5dcea0fff0c13830fe55ceb059e520580acb05b59f3286b653562239fafa7fcf",
+  "candidate_binary_sha256": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+  "reference_binary_sha256": "10020ab112dbf80e28229a7d15fb00d8f162386e6171e0b792937abe55fd2d9f"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "scripts/gate_layouts_v7.py"
+  ],
+  "environment_override": {
+    "RQ3_LAYOUT_LIB": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib"
+  },
+  "start": 1794070467.844586,
+  "end": 1794070481.2986639,
+  "exitcode": 0
+}

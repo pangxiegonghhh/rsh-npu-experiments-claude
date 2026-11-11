@@ -1,0 +1,38 @@
+{
+  "at_utc": "2026-11-08 20:54:23 UTC",
+  "passed": true,
+  "scope": "metadata-only packaging gates; final campaign guard recovery/checkpoint and Rabbit-map installation still pending",
+  "gates": {
+    "stage3-guard-provenance-gate.json": {
+      "sha256": "0ca36a64deac17c5fe628b525d627af1b3fed16b3b7da7643593fefd34d2c97e",
+      "implementation_sources": {
+        "scripts/guard_provenance.py": "f0b03d7963d61dff8c900e36aff6f3a4b19d8bbbffa410cbfae1bf1b0bb4b0a8",
+        "scripts/guard_recovery.py": "29162ca942af310fe836aecb1512d417aba91a85849d4cac84ecab4f133174fc",
+        "scripts/collect_stage3.py": "1f5da75ed3c99fa3770987c52981ddf8ceb732ffaee47192281a6112b66a8b2f",
+        "scripts/build_stage3.py": "780c53c281289e1b740310c50bdeb6faf950dc63a6dd419c2f8735913a54b546",
+        "scripts/gate_guard_provenance.py": "0524d6f0fcb22f0df3d8e036f1a6fd6d45781b48eda2b50dd01781ae90e17828"
+      }
+    },
+    "stage3-checkpoint-evidence-gate.json": {
+      "sha256": "ecf7e5cfed6383f7f8f2d2aa61db7ac82986b833bd4aa89f6770cefef09bbc0c",
+      "implementation_sources": {
+        "scripts/checkpoint_evidence.py": "c811afe89cc5ed62e2e1b68f73ee43b0440f199913f74daaedaacea0b8538ab9",
+        "scripts/build_stage3.py": "780c53c281289e1b740310c50bdeb6faf950dc63a6dd419c2f8735913a54b546",
+        "scripts/gate_checkpoint_evidence.py": "83ea212d78b9b02f084b477410743023dc323e8bb4715208b139b6f947f6f516"
+      }
+    },
+    "stage3-rabbit-coarse-evidence-gate.json": {
+      "sha256": "c33c9b933c5e65dee6bec9d55a0ae25af6c4b1cfcfc89ca950edf9144df0f975",
+      "implementation_sources": {
+        "scripts/rabbit_coarse_evidence.py": "499bd08de4d3db3ce358d5686079c1d7a240595b47328b1b2df20548099ab786",
+        "scripts/gate_rabbit_coarse_evidence.py": "037608bdbee6f0d4554fe1e72e6011af62c0e19ab66c0183ca1f91a219f0a8e9",
+        "scripts/build_stage3.py": "780c53c281289e1b740310c50bdeb6faf950dc63a6dd419c2f8735913a54b546"
+      }
+    }
+  },
+  "scientific_reruns": false,
+  "scientific_sources_unchanged": true,
+  "guard_full_integration_pending": true,
+  "checkpoint_full_install_pending": true,
+  "rabbit_coarse_full_install_pending": true
+}

@@ -1,0 +1,68 @@
+{
+  "matrix": "cora",
+  "status": "OK",
+  "n": 2708,
+  "stored_entries": 5278,
+  "explicit_zero_entries": 0,
+  "diagonal_entries": 0,
+  "nnz_A0": 10556,
+  "nnz_A1": 13264,
+  "degree_median": 3.0,
+  "degree_mean": 3.8980797636632203,
+  "degree_max": 168,
+  "input_mtx_sha256": "f54431cb38cf0e4b832093889736bf1e3397019b90a186a1c13405038a573856",
+  "source_url": "https://github.com/pangxiegonghhh/rsh-npu-experiments-claude/blob/87594cc9e80e800c77a65988c09f7067b63957be/第一层实验结果/cora-pilot-20261104/neutron-matrices/cora.mtx",
+  "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/cora.mtx",
+  "source_variant": "original",
+  "reference_only": "",
+  "archive_sha256": "",
+  "archive_member": "derived MTX",
+  "structure": "stored pattern including explicit zeros",
+  "residual_sets": {
+    "2": {
+      "count": 1068,
+      "sha256": "92a42ad8e1d1595a5e7087f7d4e213f3b88ddf2c0d67dd3d93f0e485fbd5c9e7",
+      "fixed_for_both_diag_modes": true
+    },
+    "3": {
+      "count": 1621,
+      "sha256": "8d2bcdd3e777618f204adf520b9b7520546fee747ae8c687ede93f408c5d8eb1",
+      "fixed_for_both_diag_modes": true
+    }
+  },
+  "parent_runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106/repo/第一层实验结果/cora-pilot-20261104/neutron-matrices/cora.mtx",
+  "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/cora",
+  "adjacency_order": "original T21 pickle set iteration, independently identical to raw MTX pattern",
+  "csr_sha256": {
+    "indptr": "0bcfb45e9e788d52c6b5242efd902a376618e15426bc595a743b389551744ddd",
+    "indices": "fd234c1a16a9a59e0c022127ab01847b58ea170f72d82919c81c336ad2d9bc15",
+    "degrees": "162e73d5fe3c494f4ed2bae13833fc956361ddc11bfb43704c9b09f53f73286e"
+  },
+  "taus": [
+    {
+      "tau": 2,
+      "tau_rule": "fixed",
+      "resid_count": 1068,
+      "resid_frac": 0.39438700147710487,
+      "resid_nnz_frac": 0.1564039408866995
+    },
+    {
+      "tau": 3,
+      "tau_rule": "fixed",
+      "resid_count": 1621,
+      "resid_frac": 0.5985967503692762,
+      "resid_nnz_frac": 0.31356574460022735
+    }
+  ],
+  "fixed_tau_diagnostics": {
+    "2": {
+      "resid_frac": 0.39438700147710487,
+      "resid_nnz_frac": 0.1564039408866995
+    },
+    "3": {
+      "resid_frac": 0.5985967503692762,
+      "resid_nnz_frac": 0.31356574460022735
+    }
+  },
+  "prepared_sec": 0.035874250112101436
+}

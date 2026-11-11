@@ -1,0 +1,421 @@
+{
+  "passed": true,
+  "split_id": "T23-split-20261109",
+  "host_id": "hostB-windows16gb-wsl2",
+  "case_ids": [
+    "stage3-ogbn-products__B-RCM-ref__W16__seed0",
+    "stage3-ogbn-products__B0__W16__seed0",
+    "stage3-ogbn-products__B1__W16__seed0",
+    "stage3-ogbn-products__C10-BP__W16__seed0",
+    "stage3-ogbn-products__C2-LSH__W16__seed0",
+    "stage3-ogbn-products__C3-A-R__W16__seed0",
+    "stage3-ogbn-products__C3-A__W16__seed0",
+    "stage3-ogbn-products__C3-W1__W16__seed0",
+    "stage3-ogbn-products__C3-W4-R__W16__seed0",
+    "stage3-ogbn-products__C3-W4-noP__W16__seed0",
+    "stage3-ogbn-products__C3-W4__W16__seed0",
+    "stage3-ogbn-products__C4-T-R__W16__seed0",
+    "stage3-ogbn-products__C4-T__W16__seed0",
+    "stage3-ogbn-products__C4-U-R__W16__seed0",
+    "stage3-ogbn-products__C4-U__W16__seed0",
+    "stage3-ogbn-products__C7-I__W16__seed0",
+    "stage3-ogbn-products__C9-Gorder__W16__seed0",
+    "stage3-ogbn-products__C9-S__W16__seed0",
+    "stage3-ogbn-products__neutron-pilot__W16__seed0",
+    "stage3-ogbn-products__rabbit-pilot__W16__seed0"
+  ],
+  "coverage": {
+    "planned_cases": 20,
+    "attempted": 20,
+    "OK": 0,
+    "INCOMPLETE": 20,
+    "SKIPPED": 0,
+    "optional_reference_skip_cells": 6,
+    "result_rows": 488,
+    "post_records": 22,
+    "all_attempted": true
+  },
+  "arithmetic_invariants": {
+    "path": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-collected/results.csv",
+    "rows": 488,
+    "successful_rows_checked": 200,
+    "fixed_membership_UT_groups": 114,
+    "passed": true
+  },
+  "independent": {
+    "matrix": "ogbn-products",
+    "status": "OK",
+    "start": 1794249484.8375087,
+    "independent_orders": 3,
+    "checks": [
+      {
+        "member": "B-RCM-ref",
+        "order_sha256": "7473f47136c2fd39305441d5ed5c4719d1ee718477822d9af153ed93aa2b8f7a",
+        "tau": null,
+        "diag": 0,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 153065,
+          "sumU": 83223809,
+          "T": 5271889,
+          "sumGamma": 48114555,
+          "sumR": 63491092,
+          "R_p50": 275,
+          "R_p90": 922,
+          "R_max": 11691,
+          "write_runs_aic": 153065
+        },
+        "identical": true
+      },
+      {
+        "member": "B-RCM-ref",
+        "order_sha256": "7473f47136c2fd39305441d5ed5c4719d1ee718477822d9af153ed93aa2b8f7a",
+        "tau": null,
+        "diag": 1,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 153065,
+          "sumU": 84864228,
+          "T": 5374562,
+          "sumGamma": 48149947,
+          "sumR": 63303909,
+          "R_p50": 274,
+          "R_p90": 920,
+          "R_max": 11689,
+          "write_runs_aic": 153065
+        },
+        "identical": true
+      },
+      {
+        "member": "B-RCM-ref",
+        "order_sha256": "7473f47136c2fd39305441d5ed5c4719d1ee718477822d9af153ed93aa2b8f7a",
+        "tau": 2,
+        "diag": 0,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 138266,
+          "sumU": 83065945,
+          "T": 5256461,
+          "sumGamma": 48034645,
+          "sumR": 63410072,
+          "R_p50": 319,
+          "R_p90": 968,
+          "R_max": 11441,
+          "write_runs_aic": 138266
+        },
+        "identical": true
+      },
+      {
+        "member": "B-RCM-ref",
+        "order_sha256": "7473f47136c2fd39305441d5ed5c4719d1ee718477822d9af153ed93aa2b8f7a",
+        "tau": 2,
+        "diag": 1,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 138266,
+          "sumU": 84486685,
+          "T": 5345101,
+          "sumGamma": 48061364,
+          "sumR": 63215642,
+          "R_p50": 318,
+          "R_p90": 967,
+          "R_max": 11438,
+          "write_runs_aic": 138266
+        },
+        "identical": true
+      },
+      {
+        "member": "B-RCM-ref",
+        "order_sha256": "7473f47136c2fd39305441d5ed5c4719d1ee718477822d9af153ed93aa2b8f7a",
+        "tau": 3,
+        "diag": 0,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 133539,
+          "sumU": 82880863,
+          "T": 5242543,
+          "sumGamma": 47891150,
+          "sumR": 63257943,
+          "R_p50": 335,
+          "R_p90": 986,
+          "R_max": 12682,
+          "write_runs_aic": 133539
+        },
+        "identical": true
+      },
+      {
+        "member": "B-RCM-ref",
+        "order_sha256": "7473f47136c2fd39305441d5ed5c4719d1ee718477822d9af153ed93aa2b8f7a",
+        "tau": 3,
+        "diag": 1,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 133539,
+          "sumU": 84238690,
+          "T": 5327441,
+          "sumGamma": 47916239,
+          "sumR": 63065125,
+          "R_p50": 333,
+          "R_p90": 984,
+          "R_max": 12681,
+          "write_runs_aic": 133539
+        },
+        "identical": true
+      },
+      {
+        "member": "B0",
+        "order_sha256": "00f9b231b32b4827ca0c834d0349217480acfeb479ba6d28975683a1086d526d",
+        "tau": null,
+        "diag": 0,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 153065,
+          "sumU": 123581327,
+          "T": 7795787,
+          "sumGamma": 122723824,
+          "sumR": 123465378,
+          "R_p50": 608,
+          "R_p90": 1377,
+          "R_max": 18751,
+          "write_runs_aic": 153065
+        },
+        "identical": true
+      },
+      {
+        "member": "B0",
+        "order_sha256": "00f9b231b32b4827ca0c834d0349217480acfeb479ba6d28975683a1086d526d",
+        "tau": null,
+        "diag": 1,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 153065,
+          "sumU": 126029073,
+          "T": 7948769,
+          "sumGamma": 122876251,
+          "sumR": 123617097,
+          "R_p50": 609,
+          "R_p90": 1378,
+          "R_max": 18751,
+          "write_runs_aic": 153065
+        },
+        "identical": true
+      },
+      {
+        "member": "B0",
+        "order_sha256": "00f9b231b32b4827ca0c834d0349217480acfeb479ba6d28975683a1086d526d",
+        "tau": 2,
+        "diag": 0,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 138266,
+          "sumU": 123299976,
+          "T": 7771120,
+          "sumGamma": 122384909,
+          "sumR": 123176162,
+          "R_p50": 682,
+          "R_p90": 1592,
+          "R_max": 18742,
+          "write_runs_aic": 138266
+        },
+        "identical": true
+      },
+      {
+        "member": "B0",
+        "order_sha256": "00f9b231b32b4827ca0c834d0349217480acfeb479ba6d28975683a1086d526d",
+        "tau": 2,
+        "diag": 1,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 138266,
+          "sumU": 125510872,
+          "T": 7909299,
+          "sumGamma": 122522505,
+          "sumR": 123313024,
+          "R_p50": 683,
+          "R_p90": 1593,
+          "R_max": 18742,
+          "write_runs_aic": 138266
+        },
+        "identical": true
+      },
+      {
+        "member": "B0",
+        "order_sha256": "00f9b231b32b4827ca0c834d0349217480acfeb479ba6d28975683a1086d526d",
+        "tau": 3,
+        "diag": 0,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 133539,
+          "sumU": 123071269,
+          "T": 7754744,
+          "sumGamma": 122133811,
+          "sumR": 122944442,
+          "R_p50": 709,
+          "R_p90": 1662,
+          "R_max": 19103,
+          "write_runs_aic": 133539
+        },
+        "identical": true
+      },
+      {
+        "member": "B0",
+        "order_sha256": "00f9b231b32b4827ca0c834d0349217480acfeb479ba6d28975683a1086d526d",
+        "tau": 3,
+        "diag": 1,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 133539,
+          "sumU": 125206562,
+          "T": 7888199,
+          "sumGamma": 122266693,
+          "sumR": 123076595,
+          "R_p50": 710,
+          "R_p90": 1663,
+          "R_max": 19103,
+          "write_runs_aic": 133539
+        },
+        "identical": true
+      },
+      {
+        "member": "C4-U",
+        "order_sha256": "a2909bd5b9bc86ac085adee16e60e7368af091a1912222175ac275071ec5ff7c",
+        "tau": null,
+        "diag": 0,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 153065,
+          "sumU": 71301808,
+          "T": 4526749,
+          "sumGamma": 39018602,
+          "sumR": 47749949,
+          "R_p50": 231,
+          "R_p90": 644,
+          "R_max": 10090,
+          "write_runs_aic": 153065
+        },
+        "identical": true
+      },
+      {
+        "member": "C4-U",
+        "order_sha256": "a2909bd5b9bc86ac085adee16e60e7368af091a1912222175ac275071ec5ff7c",
+        "tau": null,
+        "diag": 1,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 153065,
+          "sumU": 72686477,
+          "T": 4613195,
+          "sumGamma": 39043325,
+          "sumR": 47649034,
+          "R_p50": 230,
+          "R_p90": 643,
+          "R_max": 10090,
+          "write_runs_aic": 153065
+        },
+        "identical": true
+      },
+      {
+        "member": "C4-U",
+        "order_sha256": "a2909bd5b9bc86ac085adee16e60e7368af091a1912222175ac275071ec5ff7c",
+        "tau": 2,
+        "diag": 0,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 138266,
+          "sumU": 74172320,
+          "T": 4700547,
+          "sumGamma": 42084439,
+          "sumR": 49610814,
+          "R_p50": 278,
+          "R_p90": 692,
+          "R_max": 9983,
+          "write_runs_aic": 138266
+        },
+        "identical": true
+      },
+      {
+        "member": "C4-U",
+        "order_sha256": "a2909bd5b9bc86ac085adee16e60e7368af091a1912222175ac275071ec5ff7c",
+        "tau": 2,
+        "diag": 1,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 138266,
+          "sumU": 75371017,
+          "T": 4775489,
+          "sumGamma": 42098775,
+          "sumR": 49470982,
+          "R_p50": 277,
+          "R_p90": 691,
+          "R_max": 9981,
+          "write_runs_aic": 138266
+        },
+        "identical": true
+      },
+      {
+        "member": "C4-U",
+        "order_sha256": "a2909bd5b9bc86ac085adee16e60e7368af091a1912222175ac275071ec5ff7c",
+        "tau": 3,
+        "diag": 0,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 133539,
+          "sumU": 73939416,
+          "T": 4683853,
+          "sumGamma": 41909548,
+          "sumR": 49453457,
+          "R_p50": 289,
+          "R_p90": 702,
+          "R_max": 9498,
+          "write_runs_aic": 133539
+        },
+        "identical": true
+      },
+      {
+        "member": "C4-U",
+        "order_sha256": "a2909bd5b9bc86ac085adee16e60e7368af091a1912222175ac275071ec5ff7c",
+        "tau": 3,
+        "diag": 1,
+        "placement": "tail",
+        "d": false,
+        "metrics": {
+          "k_windows": 133539,
+          "sumU": 75070952,
+          "T": 4754725,
+          "sumGamma": 41922115,
+          "sumR": 49313497,
+          "R_p50": 288,
+          "R_p90": 701,
+          "R_max": 9498,
+          "write_runs_aic": 133539
+        },
+        "identical": true
+      }
+    ],
+    "checker": "independent sorted-position implementation; three original orders, full and both residual masks, A0/A1; no candidate counters imported",
+    "placement_scope": "tail-own only; full Cora162-condition gate separately covers legal placement and D combinations",
+    "Cora_port_gate_sha256": "1413aed25a4b23412dcfb63ec0aa0c0507b80716baf0768859e4332564b4e51c",
+    "end": 1794249774.3822725,
+    "seconds": 289.5447642803192
+  },
+  "completed_at": 1794249775.9554749,
+  "scope": "20 owned cases and 488 conditions only; numeric INCOMPLETE/SKIPPED statuses are preserved; no global completion claim",
+  "return_instructions": "Copy raw directories/logs/source/ELFs, retain absolute WSL paths in original records, checksum every file. If total order bytes exceed50MiB, formal result archive carries ledger only and transfer actual orders separately as a directory."
+}

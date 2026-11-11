@@ -1,0 +1,23 @@
+{
+  "pid": 275,
+  "slot": 0,
+  "command": [
+    "scripts/new_full_order.py",
+    "--matrix",
+    "ogbn-products",
+    "--W",
+    "16",
+    "--method",
+    "rabbit-pilot",
+    "--seed",
+    "0"
+  ],
+  "queued_at": 1794211401.8515797,
+  "acquired_at": 1794211409.6462216,
+  "queue_seconds": 7.794642210006714,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/cpu-slots",
+  "large_graph_serialized": true,
+  "memory_limit_bytes": 8589934592,
+  "memory_guard_path": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/logs/memory-guards/275-1794211401851627959.json"
+}

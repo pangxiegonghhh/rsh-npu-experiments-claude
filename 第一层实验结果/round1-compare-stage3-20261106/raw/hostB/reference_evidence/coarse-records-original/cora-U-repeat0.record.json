@@ -1,0 +1,23 @@
+{
+  "key": "cora-U-repeat0",
+  "input_filename": "cora-U.edges.gz",
+  "start": 1793970504.980677,
+  "threads": 1,
+  "author_ref": "f93776e9c1e1d4a8962ee56bc7ff0091e6fe12dd",
+  "requested_seed": null,
+  "seed_api": "author demo exposes no RNG seed; serial execution fixed",
+  "status": "OK",
+  "command": [
+    "/root/rabbit/demo/reorder",
+    "/root/rabbit-runs/cora-U-repeat0.edges"
+  ],
+  "input_gz_sha256": "3bc01a26a082f121811d387158ff0192bb095ea3ce6b6d9aa4c6036aa6306a17",
+  "input_prepare_seconds": 0.1676490306854248,
+  "exitcode": 0,
+  "coarse_seconds": 0.0630342960357666,
+  "mapping_sha256": "4df9dc260594d7907787ffaa13be4b5c37153ade6c86fe721ea668fb48141ce1",
+  "peak_mem_mb": 20.29296875,
+  "end": 1793970505.2122345,
+  "requested_replica_label": 0,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/rabbit-coarse/cora-U-repeat0.mapping"
+}

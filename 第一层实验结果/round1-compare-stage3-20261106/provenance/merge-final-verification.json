@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "original_return_archives_unchanged": true,
+  "local_21_original_case_records_unchanged": true,
+  "returned_file_checksums_rechecked": 1444,
+  "whole_output_archive_sha256_rechecked": 2,
+  "automation_deleted": true,
+  "waiter_exitcodes": [
+    143,
+    143
+  ]
+}

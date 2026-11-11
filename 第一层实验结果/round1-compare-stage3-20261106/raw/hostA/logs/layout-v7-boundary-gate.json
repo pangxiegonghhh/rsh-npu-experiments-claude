@@ -1,0 +1,143 @@
+{
+  "passed": true,
+  "cases": 16,
+  "checks": [
+    {
+      "dataset": 0,
+      "diag": 0,
+      "d": false,
+      "reversed_residual": false,
+      "guard": 1,
+      "identical": true
+    },
+    {
+      "dataset": 0,
+      "diag": 0,
+      "d": true,
+      "reversed_residual": false,
+      "guard": 1,
+      "identical": true
+    },
+    {
+      "dataset": 0,
+      "diag": 1,
+      "d": false,
+      "reversed_residual": false,
+      "guard": 1,
+      "identical": true
+    },
+    {
+      "dataset": 0,
+      "diag": 1,
+      "d": true,
+      "reversed_residual": false,
+      "guard": 1,
+      "identical": true
+    },
+    {
+      "dataset": 0,
+      "diag": 0,
+      "d": false,
+      "reversed_residual": true,
+      "guard": 1,
+      "identical": true
+    },
+    {
+      "dataset": 0,
+      "diag": 0,
+      "d": true,
+      "reversed_residual": true,
+      "guard": 1,
+      "identical": true
+    },
+    {
+      "dataset": 0,
+      "diag": 1,
+      "d": false,
+      "reversed_residual": true,
+      "guard": 1,
+      "identical": true
+    },
+    {
+      "dataset": 0,
+      "diag": 1,
+      "d": true,
+      "reversed_residual": true,
+      "guard": 1,
+      "identical": true
+    },
+    {
+      "dataset": 1,
+      "diag": 0,
+      "d": false,
+      "reversed_residual": false,
+      "guard": 0,
+      "identical": true
+    },
+    {
+      "dataset": 1,
+      "diag": 0,
+      "d": true,
+      "reversed_residual": false,
+      "guard": 0,
+      "identical": true
+    },
+    {
+      "dataset": 1,
+      "diag": 1,
+      "d": false,
+      "reversed_residual": false,
+      "guard": 0,
+      "identical": true
+    },
+    {
+      "dataset": 1,
+      "diag": 1,
+      "d": true,
+      "reversed_residual": false,
+      "guard": 0,
+      "identical": true
+    },
+    {
+      "dataset": 1,
+      "diag": 0,
+      "d": false,
+      "reversed_residual": true,
+      "guard": 0,
+      "identical": true
+    },
+    {
+      "dataset": 1,
+      "diag": 0,
+      "d": true,
+      "reversed_residual": true,
+      "guard": 0,
+      "identical": true
+    },
+    {
+      "dataset": 1,
+      "diag": 1,
+      "d": false,
+      "reversed_residual": true,
+      "guard": 0,
+      "identical": true
+    },
+    {
+      "dataset": 1,
+      "diag": 1,
+      "d": true,
+      "reversed_residual": true,
+      "guard": 0,
+      "identical": true
+    }
+  ],
+  "cache_hits": 12,
+  "scope": "400/401 residual coverage, identical row IDs across different matrices, reversed residual iteration, A0/A1 and own/D-greedy",
+  "candidate_source_sha256": "7363e80fb095c6297d1e35113e9bf11e6a6ac05e354f5810ef65748b5f23b1e8",
+  "direct_reference_source_sha256": "487e6b40033379f36865325f7e44acc3d3df0b93bc76b6fca6e3c66fe49eace4",
+  "candidate_cpp_sha256": "5dcea0fff0c13830fe55ceb059e520580acb05b59f3286b653562239fafa7fcf",
+  "candidate_binary_sha256": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+  "candidate_python_wrapper": "unchanged native_chain_v6; child-specific RQ3_LAYOUT_LIB=v7",
+  "reference_cpp_sha256": "d146347f03fb09f9ae8d4e63f794954103fe38655388a1455cb4a48e836837ae",
+  "reference_binary_sha256": "10020ab112dbf80e28229a7d15fb00d8f162386e6171e0b792937abe55fd2d9f"
+}

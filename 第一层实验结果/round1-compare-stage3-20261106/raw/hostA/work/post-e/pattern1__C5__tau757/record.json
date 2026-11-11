@@ -1,0 +1,73 @@
+{
+  "matrix": "pattern1",
+  "method": "C5",
+  "W": 16,
+  "seed": 0,
+  "start": 1793975008.276439,
+  "status": "OK",
+  "command": [
+    "scripts/rabbit_family.py",
+    "--matrix",
+    "pattern1",
+    "--mode",
+    "B",
+    "--rep",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/pattern1__C5__W16__seed0.order.json",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/pattern1__C5__W16__seed0.order.json",
+  "sha256": "445b825dc6bd8c63489f42df9140431872d224f57deaca50b90201f1003df347",
+  "size": 105020,
+  "local_seconds": 11.235661029815674,
+  "coarse_seconds": 16.701615571975708,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 54,
+        "sumU": 459007,
+        "sumGamma": 44823,
+        "elapsed": 1.4463849067687988
+      },
+      {
+        "sweep": 1,
+        "accepted": 9,
+        "sumU": 456748,
+        "sumGamma": 44494,
+        "elapsed": 3.450571060180664
+      },
+      {
+        "sweep": 2,
+        "accepted": 0,
+        "sumU": 456748,
+        "sumGamma": 44494,
+        "elapsed": 5.500712871551514
+      }
+    ],
+    "sweeps_done": 3,
+    "accepted_swaps": 63,
+    "tracked_sumU": 456748,
+    "tracked_sumGamma": 44494,
+    "independent_full_recompute": {
+      "k_windows": 521,
+      "sumU": 456748,
+      "T": 28932,
+      "sumGamma": 44494,
+      "sumR": 21122,
+      "R_p50": 40,
+      "R_p90": 44,
+      "R_max": 53,
+      "write_runs_aic": 521,
+      "meanR": 40.541267
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 452455942
+  },
+  "end": 1793975019.924552,
+  "seconds": 11.648113012313843,
+  "member": "C5",
+  "tau": 757,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/pattern1__C5__tau757/order.json",
+  "peak_mem_mb": 411.734375
+}

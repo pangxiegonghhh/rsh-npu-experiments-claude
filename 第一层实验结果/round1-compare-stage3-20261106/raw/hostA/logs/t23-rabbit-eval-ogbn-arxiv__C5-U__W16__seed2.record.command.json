@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/evaluate_t23.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-rabbit-catalog/rabbit-ogbn-arxiv__C5-U__W16__seed2.record.json"
+  ],
+  "start": 1793971112.378766,
+  "end": 1793971207.392668,
+  "exitcode": 0
+}

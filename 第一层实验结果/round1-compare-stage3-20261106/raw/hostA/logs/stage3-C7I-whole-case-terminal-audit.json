@@ -1,0 +1,250 @@
+{
+  "passed": true,
+  "scope": "original parent terminal coverage only, before independent checkpoint recoveries; original INCOMPLETE status preserved",
+  "observed_at_utc": "2026-11-08 18:06:12 UTC",
+  "case_id": "stage3-reddit__C7-I__W16__seed0",
+  "whole_status": "INCOMPLETE",
+  "formal_rows": 28,
+  "formal_row_statuses": {
+    "OK": 16,
+    "INCOMPLETE": 12
+  },
+  "own_rows": 20,
+  "post_E_placeholder_rows": 8,
+  "original_post_E_exitcodes": {
+    "53": 124,
+    "153": 124
+  },
+  "completed_LS_rounds": {
+    "53": 7,
+    "153": 9
+  },
+  "conditions": [
+    {
+      "diag": "A0",
+      "tau": "none",
+      "source": "own",
+      "placement": "none",
+      "d_rule": "own",
+      "status": "OK"
+    },
+    {
+      "diag": "A0",
+      "tau": "none",
+      "source": "own",
+      "placement": "none",
+      "d_rule": "D-greedy",
+      "status": "OK"
+    },
+    {
+      "diag": "A0",
+      "tau": "53",
+      "source": "own",
+      "placement": "tail-co",
+      "d_rule": "own",
+      "status": "OK"
+    },
+    {
+      "diag": "A0",
+      "tau": "53",
+      "source": "own",
+      "placement": "tail-co",
+      "d_rule": "D-greedy",
+      "status": "OK"
+    },
+    {
+      "diag": "A0",
+      "tau": "53",
+      "source": "own",
+      "placement": "tail",
+      "d_rule": "own",
+      "status": "OK"
+    },
+    {
+      "diag": "A0",
+      "tau": "53",
+      "source": "own",
+      "placement": "tail",
+      "d_rule": "D-greedy",
+      "status": "OK"
+    },
+    {
+      "diag": "A0",
+      "tau": "153",
+      "source": "own",
+      "placement": "tail-co",
+      "d_rule": "own",
+      "status": "INCOMPLETE"
+    },
+    {
+      "diag": "A0",
+      "tau": "153",
+      "source": "own",
+      "placement": "tail-co",
+      "d_rule": "D-greedy",
+      "status": "INCOMPLETE"
+    },
+    {
+      "diag": "A0",
+      "tau": "153",
+      "source": "own",
+      "placement": "tail",
+      "d_rule": "own",
+      "status": "OK"
+    },
+    {
+      "diag": "A0",
+      "tau": "153",
+      "source": "own",
+      "placement": "tail",
+      "d_rule": "D-greedy",
+      "status": "OK"
+    },
+    {
+      "diag": "A1",
+      "tau": "none",
+      "source": "own",
+      "placement": "none",
+      "d_rule": "own",
+      "status": "OK"
+    },
+    {
+      "diag": "A1",
+      "tau": "none",
+      "source": "own",
+      "placement": "none",
+      "d_rule": "D-greedy",
+      "status": "OK"
+    },
+    {
+      "diag": "A1",
+      "tau": "53",
+      "source": "own",
+      "placement": "tail-co",
+      "d_rule": "own",
+      "status": "OK"
+    },
+    {
+      "diag": "A1",
+      "tau": "53",
+      "source": "own",
+      "placement": "tail-co",
+      "d_rule": "D-greedy",
+      "status": "OK"
+    },
+    {
+      "diag": "A1",
+      "tau": "53",
+      "source": "own",
+      "placement": "tail",
+      "d_rule": "own",
+      "status": "OK"
+    },
+    {
+      "diag": "A1",
+      "tau": "53",
+      "source": "own",
+      "placement": "tail",
+      "d_rule": "D-greedy",
+      "status": "OK"
+    },
+    {
+      "diag": "A1",
+      "tau": "153",
+      "source": "own",
+      "placement": "tail-co",
+      "d_rule": "own",
+      "status": "INCOMPLETE"
+    },
+    {
+      "diag": "A1",
+      "tau": "153",
+      "source": "own",
+      "placement": "tail-co",
+      "d_rule": "D-greedy",
+      "status": "INCOMPLETE"
+    },
+    {
+      "diag": "A1",
+      "tau": "153",
+      "source": "own",
+      "placement": "tail",
+      "d_rule": "own",
+      "status": "OK"
+    },
+    {
+      "diag": "A1",
+      "tau": "153",
+      "source": "own",
+      "placement": "tail",
+      "d_rule": "D-greedy",
+      "status": "OK"
+    },
+    {
+      "diag": "A0",
+      "tau": "53",
+      "source": "post-E",
+      "placement": "tail-co",
+      "d_rule": "own",
+      "status": "INCOMPLETE"
+    },
+    {
+      "diag": "A0",
+      "tau": "53",
+      "source": "post-E",
+      "placement": "tail-co",
+      "d_rule": "D-greedy",
+      "status": "INCOMPLETE"
+    },
+    {
+      "diag": "A1",
+      "tau": "53",
+      "source": "post-E",
+      "placement": "tail-co",
+      "d_rule": "own",
+      "status": "INCOMPLETE"
+    },
+    {
+      "diag": "A1",
+      "tau": "53",
+      "source": "post-E",
+      "placement": "tail-co",
+      "d_rule": "D-greedy",
+      "status": "INCOMPLETE"
+    },
+    {
+      "diag": "A0",
+      "tau": "153",
+      "source": "post-E",
+      "placement": "tail-co",
+      "d_rule": "own",
+      "status": "INCOMPLETE"
+    },
+    {
+      "diag": "A0",
+      "tau": "153",
+      "source": "post-E",
+      "placement": "tail-co",
+      "d_rule": "D-greedy",
+      "status": "INCOMPLETE"
+    },
+    {
+      "diag": "A1",
+      "tau": "153",
+      "source": "post-E",
+      "placement": "tail-co",
+      "d_rule": "own",
+      "status": "INCOMPLETE"
+    },
+    {
+      "diag": "A1",
+      "tau": "153",
+      "source": "post-E",
+      "placement": "tail-co",
+      "d_rule": "D-greedy",
+      "status": "INCOMPLETE"
+    }
+  ],
+  "independent_checkpoint_UG_pending": true,
+  "method_restarted": false
+}

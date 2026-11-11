@@ -1,0 +1,130 @@
+{
+  "time": 1793986690.9821289,
+  "case": "stage3-dawson5__C3-A__W16__seed0",
+  "reason": "hardcoded alias list incorrectly treated dawson5n51537 asn<50000; requiredb32 byfixedadaptive rule",
+  "old_invalid_alias": {
+    "matrix": "dawson5",
+    "method": "C3-W4",
+    "W": 16,
+    "seed": 0,
+    "start": 1793968381.950388,
+    "status": "OK",
+    "command": [
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+      "--matrix",
+      "dawson5",
+      "--method",
+      "C3-W4",
+      "--seed",
+      "0"
+    ],
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/dawson5__C3-W4__W16__seed0.order.json",
+    "sha256": "89de2f7293362a19e5be7d3617acd9c1252a8e45b2b2e64793c5430eae600a61",
+    "size": 298114,
+    "diagnostics": {
+      "groups_full_before": 2412,
+      "short_before": 1361,
+      "P_merges": 499,
+      "P_new_full": 499,
+      "short_after": 363,
+      "groups_cut_by_windows": 278,
+      "groups": 3773,
+      "accelerated_comparisons_or_pairs": 124378,
+      "short_or_qualified": 0,
+      "merged": 0,
+      "rejected_capacity": 0
+    },
+    "end": 1793968381.99766,
+    "seconds": 0.0472719669342041,
+    "alias_of": "C3-W4",
+    "alias_nonindependent": true,
+    "reuse_record": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/dawson5__C3-W4__W16__seed0.record.json"
+  },
+  "original_diagnostic_failure": "diagnostic reconstruction changed order",
+  "preserved_outputs": [
+    {
+      "original": "work/stage3-cases/stage3-dawson5__C3-A__W16__seed0",
+      "preserved": "work/quarantine-dawson-C3A-alias/1793986690969277000/case",
+      "file_sha256": {
+        "record.json": "c0aa86f88d0b089141c827ed4271f2ad5e924563e50e28f99c4d89f6efe84593"
+      }
+    },
+    {
+      "original": "work/stage3-evaluations/stage3-dawson5__C3-A__W16__seed0",
+      "preserved": "work/quarantine-dawson-C3A-alias/1793986690969277000/evaluation",
+      "file_sha256": {
+        "guards.json": "e07c1f3719a13f39d79e15ac15d1d999516a19f2dd30502ef68c84b437086562",
+        "rows.json": "1309049484e3511d3e735b134995ad8812171226766d3c644b761d767fab8d22",
+        "status.json": "f3efed33cc5e85cb8bef0d428169029143bfb93c4ba6ea491ccf2a157996e584"
+      }
+    },
+    {
+      "original": "work/stage3-diagnostics/stage3-dawson5__C3-A__W16__seed0",
+      "preserved": "work/quarantine-dawson-C3A-alias/1793986690969277000/diagnostics",
+      "file_sha256": {
+        "status.json": "ffdd4d438582fd2b09d0e0e5c006dc20cf0c9668fe4e670585d571826cffacef"
+      }
+    },
+    {
+      "original": "work/stage3-eval-catalog/stage3-dawson5__C3-A__W16__seed0.json",
+      "preserved": "work/quarantine-dawson-C3A-alias/1793986690969277000/evaluation-input.json",
+      "file_sha256": {
+        ".": "b6f23bfe78036b73c9827b5cbb3b8ecd86a1a50c3651ded34f48fda41f110474"
+      }
+    },
+    {
+      "original": "work/stage3-catalog/stage3-dawson5__C3-A__W16__seed0.json",
+      "preserved": "work/quarantine-dawson-C3A-alias/1793986690969277000/old-planned-input.json",
+      "file_sha256": {
+        ".": "19554ba5dfdba1471b271c7174ae71b138320a5aaa2211b57fe50743f348b096"
+      }
+    }
+  ],
+  "correct_fixed_parameter_b": 32,
+  "science_order_generation_previously_executed": false,
+  "unaffected_cases_recomputed": false,
+  "first_and_T22_archives_modified": false,
+  "original_CPU_slot_records": [
+    {
+      "path": "logs/cpu-slot-starts/82705.json",
+      "sha256": "fc05e3b402f79a2936f3304111997251384b78f8710006ffa2350953af34b73a",
+      "record": {
+        "pid": 82705,
+        "slot": 1,
+        "command": [
+          "scripts/diagnose_t23.py",
+          "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-eval-catalog/stage3-dawson5__C3-A__W16__seed0.json"
+        ],
+        "queued_at": 1793985510.18538,
+        "acquired_at": 1793985510.186087,
+        "queue_seconds": 0.0007069110870361328,
+        "discipline": "FIFO heartbeat",
+        "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+        "large_graph_serialized": false,
+        "memory_limit_bytes": 8589934592,
+        "memory_guard_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/memory-guards/82705-1793985510185396000.json"
+      }
+    },
+    {
+      "path": "logs/cpu-slot-starts/81888.json",
+      "sha256": "a90646168beb093bf167f8d7dd64434159f5f5ae8cdccbae9266e779487793ea",
+      "record": {
+        "pid": 81888,
+        "slot": 1,
+        "command": [
+          "scripts/evaluate_t23.py",
+          "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-eval-catalog/stage3-dawson5__C3-A__W16__seed0.json"
+        ],
+        "queued_at": 1793985471.535197,
+        "acquired_at": 1793985501.5646029,
+        "queue_seconds": 30.02940583229065,
+        "discipline": "FIFO heartbeat",
+        "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+        "large_graph_serialized": false,
+        "memory_limit_bytes": 8589934592,
+        "memory_guard_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/memory-guards/81888-1793985471535213000.json"
+      }
+    }
+  ],
+  "wrapper_log_note": "Correction reused per-case wrapper stdout/stderr/command filenames. Original failed diagnostic status.json with full traceback and original evaluation rows were byte-preserved in quarantine, together with original CPU-slot command/start records; the old per-launch wrapper end receipt was not separately retained. No reconstruction of unavailable timestamps or receipt bytes is claimed."
+}

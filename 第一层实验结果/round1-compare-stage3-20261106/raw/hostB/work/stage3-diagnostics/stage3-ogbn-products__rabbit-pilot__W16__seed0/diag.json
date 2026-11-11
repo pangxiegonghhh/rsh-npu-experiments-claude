@@ -1,0 +1,33 @@
+{
+  "matrix": "ogbn-products",
+  "member": "rabbit-pilot",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 5259299,
+  "T_full_phase": 5260622.2,
+  "align_premium": 1323.2000000001863,
+  "T_inplace": 5239929,
+  "T_keep": 5231881,
+  "U_inplace": 82723411,
+  "U_keep": 82709358,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 185.9177951812744,
+  "status": "OK"
+}

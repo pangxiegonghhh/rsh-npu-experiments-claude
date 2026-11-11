@@ -1,0 +1,16 @@
+{
+  "pid": 80293,
+  "slot": 1,
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/human_gene1__SlashBurn__rerun__tauNone__lamnone.json"
+  ],
+  "queued_at": 1793985397.368603,
+  "acquired_at": 1793985406.5185962,
+  "queue_seconds": 9.149993181228638,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false,
+  "memory_limit_bytes": 8589934592,
+  "memory_guard_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/memory-guards/80293-1793985397368622000.json"
+}

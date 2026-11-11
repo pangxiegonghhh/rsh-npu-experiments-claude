@@ -1,0 +1,5 @@
+diag,tau,full_vs_keep,keep_vs_rerun,full_vs_keep_no_original
+A0,2,0.704,0.914,0.618
+A0,3,0.778,0.722,0.714
+A1,2,0.873,0.889,0.837
+A1,3,0.817,0.761,0.764

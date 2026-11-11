@@ -1,0 +1,7 @@
+{
+  "start": 1793979910.136327,
+  "first_delivery_receipt": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/delivery/round1-compare-20261106.receipt.json",
+  "expected_cases": 409,
+  "method_limit_seconds": 7200,
+  "queue_excluded": true
+}

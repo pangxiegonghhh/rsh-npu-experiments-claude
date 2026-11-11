@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "cases": 9,
+  "checks": [
+    {
+      "matrix": 0,
+      "diag": 0,
+      "d": false,
+      "identical_failure": true
+    },
+    {
+      "matrix": 0,
+      "diag": 0,
+      "d": true,
+      "identical_failure": true
+    },
+    {
+      "matrix": 0,
+      "diag": 1,
+      "d": false,
+      "identical_failure": true
+    },
+    {
+      "matrix": 0,
+      "diag": 1,
+      "d": true,
+      "identical_failure": true
+    },
+    {
+      "matrix": 1,
+      "diag": 0,
+      "d": false,
+      "identical_failure": true
+    },
+    {
+      "matrix": 1,
+      "diag": 0,
+      "d": true,
+      "identical_failure": true
+    },
+    {
+      "matrix": 1,
+      "diag": 1,
+      "d": false,
+      "identical_failure": true
+    },
+    {
+      "matrix": 1,
+      "diag": 1,
+      "d": true,
+      "identical_failure": true
+    },
+    {
+      "K_failure_precedes_cached_chain_failure": true
+    }
+  ],
+  "counts": {
+    "reference_co": 8,
+    "candidate_co": 2,
+    "reference_K": 4,
+    "candidate_K": 4
+  },
+  "synthetic_limit_injection": true,
+  "scope": "wrapper failure memoization only: native limit is synthetically raised, not a scientific matrix run. Successful numerical layouts independently covered by Cora/reference/random/boundary gates. D-greedy still executes its K ordering before replaying the known chain failure.",
+  "observed_actual_failure_snapshot": "layout-v6-observed-failure-rows.json",
+  "observed_actual_failure_snapshot_sha256": "f143086f16565bd200e88ee2cca8af63afc61a5b5793bc9db3dd55c8c38297bf",
+  "candidate_source_sha256": "7363e80fb095c6297d1e35113e9bf11e6a6ac05e354f5810ef65748b5f23b1e8"
+}

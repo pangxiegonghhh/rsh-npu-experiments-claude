@@ -1,0 +1,11 @@
+{
+  "directory": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer",
+  "files": [
+    {
+      "name": "rabbit-author-source.tar.gz",
+      "size": 17026,
+      "sha256": "6fefe7e5e4473841b257d2b7c7a8d2c3637ef6f9f04f74d8edcbad94240e3c62"
+    }
+  ],
+  "purpose": "isolated local Linux Rabbit build; source and explicitly generated public graph inputs only"
+}

@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "time": 1793986886.087918,
+  "checks": [
+    {
+      "matrix": "reddit",
+      "mode": "B",
+      "vertices": 465930,
+      "mapping_sha256": "75baa3d2881d5ce02d3b311b478a386a07bd9aeeee3a6abddb10357033263b8a",
+      "coarse_seconds": 65.744863986969,
+      "peak_mem_mb": 5903.7421875,
+      "permutation_verified": true
+    },
+    {
+      "matrix": "reddit",
+      "mode": "U",
+      "vertices": 232965,
+      "mapping_sha256": "36da651a2676657cd22a8d355a272cf2a556125a5b242fcae00e962c0e034c34",
+      "coarse_seconds": 24.526269674301147,
+      "peak_mem_mb": 2954.7109375,
+      "permutation_verified": true
+    },
+    {
+      "matrix": "ogbn-products",
+      "mode": "B",
+      "vertices": 4898058,
+      "mapping_sha256": "df7112520cdb189a6076d7ae6857a9ddd3f201bd70a41af6dd8d2c504277d827",
+      "coarse_seconds": 104.32751035690308,
+      "peak_mem_mb": 6453.53515625,
+      "permutation_verified": true
+    },
+    {
+      "matrix": "ogbn-products",
+      "mode": "U",
+      "vertices": 2449029,
+      "mapping_sha256": "d0d99768265570499aff41949cdd592c313b28c6f029fca91033cb1894215697",
+      "coarse_seconds": 39.58582592010498,
+      "peak_mem_mb": 3230.265625,
+      "permutation_verified": true
+    }
+  ]
+}

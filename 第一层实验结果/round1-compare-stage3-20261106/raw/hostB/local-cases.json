@@ -1,0 +1,212 @@
+[
+  {
+    "matrix": "reddit",
+    "method": "C5-U",
+    "member": "C5-U",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-reddit__C5-U__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "reddit",
+    "method": "C8-METIS",
+    "member": "C8-METIS",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-reddit__C8-METIS__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "reddit",
+    "method": "C3-A",
+    "member": "C3-A",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-reddit__C3-A__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "reddit",
+    "method": "C3-W4-noP",
+    "member": "C3-W4-noP",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-reddit__C3-W4-noP__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "reddit",
+    "method": "C3-W4-R",
+    "member": "C3-W4-R",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-reddit__C3-W4-R__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "reddit",
+    "method": "C3-A-R",
+    "member": "C3-A-R",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-reddit__C3-A-R__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "reddit",
+    "method": "C4-U-R",
+    "member": "C4-U-R",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-reddit__C4-U-R__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "reddit",
+    "method": "C4-T-R",
+    "member": "C4-T-R",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-reddit__C4-T-R__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "reddit",
+    "method": "C7-I-R",
+    "member": "C7-I-R",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-reddit__C7-I-R__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "reddit",
+    "method": "C5-CN",
+    "member": "C5-CN",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-reddit__C5-CN__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "reddit",
+    "method": "C5-U-CN",
+    "member": "C5-U-CN",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-reddit__C5-U-CN__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "reddit",
+    "method": "C6-HP",
+    "member": "C6-HP",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-reddit__C6-HP__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C1-J",
+    "member": "C1-J",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C1-J__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C1-H",
+    "member": "C1-H",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C1-H__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C5",
+    "member": "C5",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C5__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C5-U",
+    "member": "C5-U",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C5-U__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C8-METIS",
+    "member": "C8-METIS",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C8-METIS__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C7-I-R",
+    "member": "C7-I-R",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C7-I-R__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C5-CN",
+    "member": "C5-CN",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C5-CN__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C5-U-CN",
+    "member": "C5-U-CN",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C5-U-CN__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C6-HP",
+    "member": "C6-HP",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C6-HP__W16__seed0",
+    "data_missing": false
+  }
+]

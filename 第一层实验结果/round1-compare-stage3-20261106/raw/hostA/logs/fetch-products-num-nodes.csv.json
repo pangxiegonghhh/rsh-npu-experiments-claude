@@ -1,0 +1,258 @@
+{
+  "url": "https://snap.stanford.edu/ogb/data/nodeproppred/products.zip",
+  "member_needle": "raw/num-node-list.csv.gz",
+  "start": 1793969819.1276102,
+  "status": "OK",
+  "requests": [
+    {
+      "method": "HEAD",
+      "url": "https://snap.stanford.edu/ogb/data/nodeproppred/products.zip",
+      "status": 200,
+      "headers": {
+        "Date": "Fri, 06 Nov 2026 12:57:00 GMT",
+        "Server": "Apache",
+        "Last-Modified": "Mon, 04 May 2020 22:29:27 GMT",
+        "ETag": "\"2c805c4-58462bfa-5a4da104f7d87\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "1480993786",
+        "Connection": "close",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "start": 1480993764,
+      "end": 1480993785,
+      "status": 206,
+      "headers": {
+        "Date": "Fri, 06 Nov 2026 12:57:01 GMT",
+        "Server": "Apache",
+        "Last-Modified": "Mon, 04 May 2020 22:29:27 GMT",
+        "ETag": "\"2c805c4-58462bfa-5a4da104f7d87\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "22",
+        "Content-Range": "bytes 1480993764-1480993785/1480993786",
+        "Connection": "close",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "start": 1480993744,
+      "end": 1480993763,
+      "status": 206,
+      "headers": {
+        "Date": "Fri, 06 Nov 2026 12:57:02 GMT",
+        "Server": "Apache",
+        "Last-Modified": "Mon, 04 May 2020 22:29:27 GMT",
+        "ETag": "\"2c805c4-58462bfa-5a4da104f7d87\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "20",
+        "Content-Range": "bytes 1480993744-1480993763/1480993786",
+        "Connection": "close",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "start": 1480991998,
+      "end": 1480993763,
+      "status": 206,
+      "headers": {
+        "Date": "Fri, 06 Nov 2026 12:57:03 GMT",
+        "Server": "Apache",
+        "Last-Modified": "Mon, 04 May 2020 22:29:27 GMT",
+        "ETag": "\"2c805c4-58462bfa-5a4da104f7d87\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "1766",
+        "Content-Range": "bytes 1480991998-1480993763/1480993786",
+        "Connection": "close",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "start": 1666211,
+      "end": 1666240,
+      "status": 206,
+      "headers": {
+        "Date": "Fri, 06 Nov 2026 12:57:04 GMT",
+        "Server": "Apache",
+        "Last-Modified": "Mon, 04 May 2020 22:29:27 GMT",
+        "ETag": "\"2c805c4-58462bfa-5a4da104f7d87\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "30",
+        "Content-Range": "bytes 1666211-1666240/1480993786",
+        "Connection": "close",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "start": 1666302,
+      "end": 1666353,
+      "status": 206,
+      "headers": {
+        "Date": "Fri, 06 Nov 2026 12:57:06 GMT",
+        "Server": "Apache",
+        "Last-Modified": "Mon, 04 May 2020 22:29:27 GMT",
+        "ETag": "\"2c805c4-58462bfa-5a4da104f7d87\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "52",
+        "Content-Range": "bytes 1666302-1666353/1480993786",
+        "Connection": "close",
+        "Content-Type": "application/zip"
+      }
+    }
+  ],
+  "members": [
+    {
+      "name": "products/",
+      "size": 0,
+      "compressed": 0,
+      "CRC": 0,
+      "offset": 0,
+      "method": 0
+    },
+    {
+      "name": "products/split/",
+      "size": 0,
+      "compressed": 0,
+      "CRC": 0,
+      "offset": 67,
+      "method": 0
+    },
+    {
+      "name": "products/split/sales_ranking/",
+      "size": 0,
+      "compressed": 0,
+      "CRC": 0,
+      "offset": 140,
+      "method": 0
+    },
+    {
+      "name": "products/split/sales_ranking/test.csv.gz",
+      "size": 4675150,
+      "compressed": 71630,
+      "CRC": 2859969250,
+      "offset": 227,
+      "method": 8
+    },
+    {
+      "name": "products/split/sales_ranking/train.csv.gz",
+      "size": 417928,
+      "compressed": 13217,
+      "CRC": 1810243605,
+      "offset": 71955,
+      "method": 8
+    },
+    {
+      "name": "products/split/sales_ranking/valid.csv.gz",
+      "size": 82619,
+      "compressed": 1760,
+      "CRC": 3769332692,
+      "offset": 85271,
+      "method": 8
+    },
+    {
+      "name": "products/processed/",
+      "size": 0,
+      "compressed": 0,
+      "CRC": 0,
+      "offset": 87130,
+      "method": 0
+    },
+    {
+      "name": "products/raw/",
+      "size": 0,
+      "compressed": 0,
+      "CRC": 0,
+      "offset": 87207,
+      "method": 0
+    },
+    {
+      "name": "products/raw/node-label.csv.gz",
+      "size": 1578600,
+      "compressed": 1578845,
+      "CRC": 2163754835,
+      "offset": 87278,
+      "method": 8
+    },
+    {
+      "name": "products/raw/num-node-list.csv.gz",
+      "size": 52,
+      "compressed": 52,
+      "CRC": 3079958550,
+      "offset": 1666211,
+      "method": 0
+    },
+    {
+      "name": "products/raw/num-edge-list.csv.gz",
+      "size": 53,
+      "compressed": 53,
+      "CRC": 2456139351,
+      "offset": 1666354,
+      "method": 0
+    },
+    {
+      "name": "products/raw/node-feat.csv.gz",
+      "size": 1158090752,
+      "compressed": 1158278486,
+      "CRC": 1328273070,
+      "offset": 1666498,
+      "method": 8
+    },
+    {
+      "name": "products/raw/edge.csv.gz",
+      "size": 301171605,
+      "compressed": 301220346,
+      "CRC": 3644942122,
+      "offset": 1159945071,
+      "method": 8
+    },
+    {
+      "name": "products/mapping/",
+      "size": 0,
+      "compressed": 0,
+      "CRC": 0,
+      "offset": 1461165499,
+      "method": 0
+    },
+    {
+      "name": "products/mapping/README.md",
+      "size": 250,
+      "compressed": 161,
+      "CRC": 1524584732,
+      "offset": 1461165574,
+      "method": 8
+    },
+    {
+      "name": "products/mapping/labelidx2productcategory.csv.gz",
+      "size": 628,
+      "compressed": 628,
+      "CRC": 1698826903,
+      "offset": 1461165819,
+      "method": 0
+    },
+    {
+      "name": "products/mapping/nodeidx2asin.csv.gz",
+      "size": 20106145,
+      "compressed": 19825199,
+      "CRC": 1516808549,
+      "offset": 1461166553,
+      "method": 8
+    },
+    {
+      "name": "products/RELEASE_v1.txt",
+      "size": 74,
+      "compressed": 71,
+      "CRC": 1630086945,
+      "offset": 1480991846,
+      "method": 8
+    }
+  ],
+  "selected_member": "products/raw/num-node-list.csv.gz",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/second/products-num-nodes.csv.gz",
+  "sha256": "59a706d20daab9a2612b81fb6a99902a086e4d4c861776df69abea69ffeea2e1",
+  "size": 52,
+  "member_CRC_verified": true,
+  "archive_size": 1480993786,
+  "archive_sha256": null,
+  "archive_note": "official archive fetched by exact byte ranges; selected structure member fully downloaded, CRC and sha256 recorded; feature/label members not downloaded",
+  "end": 1793969826.307018
+}

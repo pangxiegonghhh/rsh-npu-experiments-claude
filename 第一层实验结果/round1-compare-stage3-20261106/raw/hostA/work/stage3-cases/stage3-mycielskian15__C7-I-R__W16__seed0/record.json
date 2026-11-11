@@ -1,0 +1,14 @@
+{
+  "matrix": "mycielskian15",
+  "method": "C7-I-R",
+  "member": "C7-I-R",
+  "W": 16,
+  "seed": 0,
+  "scope": "second batch",
+  "case_id": "stage3-mycielskian15__C7-I-R__W16__seed0",
+  "data_missing": true,
+  "status": "SKIPPED",
+  "start": 1793989842.243603,
+  "error": "official TAMU403; files-server TLS timeout; UF official fallback404; see secondbatch input logs",
+  "controller_end": 1793989842.243604
+}

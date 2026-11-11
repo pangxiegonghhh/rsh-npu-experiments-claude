@@ -1,0 +1,46 @@
+{
+  "matrix": "wiki-RfA",
+  "method": "C6-M mnc=1 (T21 口径)",
+  "member": "C6-M mnc=1 (T21 口径)",
+  "W": 16,
+  "seed": 0,
+  "scope": "P1/P2",
+  "case_id": "stage3-wiki-RfA__C6-M mnc=1 (T21 口径)__W16__seed0",
+  "reuse": {
+    "task": "T23",
+    "use": "base-order",
+    "matrix": "wiki-RfA",
+    "t23_member": "C6-M mnc=1 (T21 口径)",
+    "t21_member": "C6-M",
+    "W": "16",
+    "params": "mnc=1",
+    "source": "T21 完整归档",
+    "path": "orders/wiki-RfA__C6-M__W16__tauNone__own__1590a5cd81b1.json",
+    "sha256": "ae32b6adf8c875b6fcd50feb3ba1e2523a5191577a3f36d0d1327dbbf93975eb",
+    "note": "",
+    "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__C6-M__W16__tauNone__own__1590a5cd81b1.json",
+    "verified_sha256": "ae32b6adf8c875b6fcd50feb3ba1e2523a5191577a3f36d0d1327dbbf93975eb",
+    "origin": "T21 archive"
+  },
+  "status": "OK",
+  "start": 1793985398.329461,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__C6-M__W16__tauNone__own__1590a5cd81b1.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__C6-M__W16__tauNone__own__1590a5cd81b1.json",
+  "sha256": "ae32b6adf8c875b6fcd50feb3ba1e2523a5191577a3f36d0d1327dbbf93975eb",
+  "size": 57400,
+  "seconds": "",
+  "diagnostics": {},
+  "reused": true,
+  "evaluation_root": "stage3-evaluations",
+  "diagnostic_root": "stage3-diagnostics",
+  "evaluation_status": {
+    "status": "OK",
+    "rows": 20,
+    "seconds": 0.7466888427734375
+  },
+  "diagnostic_status": {
+    "status": "OK",
+    "seconds": 0.18239283561706543
+  },
+  "controller_end": 1793985471.0190709
+}

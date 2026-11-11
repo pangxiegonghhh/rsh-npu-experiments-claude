@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 5479, 'sumU': 239742, 'sumGamma': 104859, 'elapsed': 0.7930469512939453}
+LS {'sweep': 1, 'accepted': 3181, 'sumU': 218143, 'sumGamma': 92885, 'elapsed': 1.6212518215179443}
+LS {'sweep': 2, 'accepted': 1874, 'sumU': 208397, 'sumGamma': 86720, 'elapsed': 2.4007318019866943}
+LS {'sweep': 3, 'accepted': 1401, 'sumU': 201858, 'sumGamma': 82150, 'elapsed': 3.1617038249969482}
+LS {'sweep': 4, 'accepted': 977, 'sumU': 197223, 'sumGamma': 79222, 'elapsed': 3.906358003616333}
+LS {'sweep': 5, 'accepted': 763, 'sumU': 193786, 'sumGamma': 76694, 'elapsed': 4.642866849899292}
+LS {'sweep': 6, 'accepted': 634, 'sumU': 191025, 'sumGamma': 75175, 'elapsed': 5.372448921203613}
+LS {'sweep': 7, 'accepted': 506, 'sumU': 188878, 'sumGamma': 73693, 'elapsed': 6.123955965042114}
+LS {'sweep': 8, 'accepted': 355, 'sumU': 187529, 'sumGamma': 72591, 'elapsed': 6.849485635757446}
+LS {'sweep': 9, 'accepted': 257, 'sumU': 186647, 'sumGamma': 71962, 'elapsed': 7.5752129554748535}
+{"task": "T22", "use": "base-order", "matrix": "wiki-RfA", "member": "B0", "start": 1793974858.875638, "lam": "", "tau": 3, "seed": 0, "t21_path": "orders/wiki-RfA__B0__W16__tauNone__own__817118d2f455.json", "sha256": "81fb046b0c899745fe13d735ef434e60ad4b1400bab1caef0e585e9ec955a587", "note": "", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/wiki-RfA__B0__W16__tauNone__own__817118d2f455.json", "verified_sha256": "aadf6fca7e6a5e9562d2666a3a45cf8e37425e4aad9430f23273ce03a943231a", "origin": "T21 archive", "kind": "ls", "W": 16, "lambda": 0, "status": "OK", "command": ["scripts/order_job.py", "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/wiki-RfA__B0__ls__tau3__lam0.json"], "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/wiki-RfA__B0__ls__tau3__lam0.checkpoint.json", "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/wiki-RfA__B0__ls__tau3__lam0.order.json", "size": 58483, "end": 1793974866.6872058, "seconds": 7.811567783355713}

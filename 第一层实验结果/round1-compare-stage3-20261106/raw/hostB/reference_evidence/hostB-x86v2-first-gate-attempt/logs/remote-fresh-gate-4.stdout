@@ -1,0 +1,31 @@
+LS {'sweep': 0, 'accepted': 456, 'sumU': 5580, 'sumGamma': 2105, 'elapsed': 0.009738683700561523}
+LS {'sweep': 1, 'accepted': 55, 'sumU': 5522, 'sumGamma': 2069, 'elapsed': 0.01950669288635254}
+LS {'sweep': 2, 'accepted': 9, 'sumU': 5511, 'sumGamma': 2061, 'elapsed': 0.028675079345703125}
+LS {'sweep': 3, 'accepted': 0, 'sumU': 5511, 'sumGamma': 2061, 'elapsed': 0.037674903869628906}
+LS_FULL_CORA C9-Gorder IDENTICAL
+LS {'sweep': 0, 'accepted': 357, 'sumU': 5592, 'sumGamma': 2115, 'elapsed': 0.008581161499023438}
+LS {'sweep': 1, 'accepted': 67, 'sumU': 5524, 'sumGamma': 2056, 'elapsed': 0.01710200309753418}
+LS {'sweep': 2, 'accepted': 9, 'sumU': 5515, 'sumGamma': 2054, 'elapsed': 0.025802135467529297}
+LS {'sweep': 3, 'accepted': 2, 'sumU': 5513, 'sumGamma': 2052, 'elapsed': 0.03432917594909668}
+LS {'sweep': 4, 'accepted': 0, 'sumU': 5513, 'sumGamma': 2052, 'elapsed': 0.04308938980102539}
+LS_FULL_CORA rsh-α0 IDENTICAL
+LS {'sweep': 0, 'accepted': 15, 'sumU': 115, 'sumGamma': 36, 'elapsed': 0.000110626220703125}
+LS {'sweep': 1, 'accepted': 1, 'sumU': 113, 'sumGamma': 34, 'elapsed': 0.000232696533203125}
+LS {'sweep': 2, 'accepted': 1, 'sumU': 110, 'sumGamma': 30, 'elapsed': 0.0003342628479003906}
+LS {'sweep': 3, 'accepted': 0, 'sumU': 110, 'sumGamma': 30, 'elapsed': 0.00041866302490234375}
+LS_FULL_EMPTY_FIXTURE 0 0 IDENTICAL
+LS {'sweep': 0, 'accepted': 23, 'sumU': 112, 'sumGamma': 31, 'elapsed': 0.00018525123596191406}
+LS {'sweep': 1, 'accepted': 9, 'sumU': 104, 'sumGamma': 24, 'elapsed': 0.0004086494445800781}
+LS {'sweep': 2, 'accepted': 2, 'sumU': 102, 'sumGamma': 22, 'elapsed': 0.0006129741668701172}
+LS {'sweep': 3, 'accepted': 0, 'sumU': 102, 'sumGamma': 22, 'elapsed': 0.0008075237274169922}
+LS_FULL_EMPTY_FIXTURE 0 1 IDENTICAL
+LS {'sweep': 0, 'accepted': 22, 'sumU': 93, 'sumGamma': 31, 'elapsed': 9.369850158691406e-05}
+LS {'sweep': 1, 'accepted': 2, 'sumU': 91, 'sumGamma': 23, 'elapsed': 0.00020122528076171875}
+LS {'sweep': 2, 'accepted': 1, 'sumU': 90, 'sumGamma': 25, 'elapsed': 0.0002980232238769531}
+LS {'sweep': 3, 'accepted': 0, 'sumU': 90, 'sumGamma': 25, 'elapsed': 0.0003752708435058594}
+LS_FULL_EMPTY_FIXTURE 1 0 IDENTICAL
+LS {'sweep': 0, 'accepted': 18, 'sumU': 96, 'sumGamma': 29, 'elapsed': 0.0003082752227783203}
+LS {'sweep': 1, 'accepted': 8, 'sumU': 93, 'sumGamma': 24, 'elapsed': 0.00057220458984375}
+LS {'sweep': 2, 'accepted': 0, 'sumU': 93, 'sumGamma': 24, 'elapsed': 0.0007686614990234375}
+LS_FULL_EMPTY_FIXTURE 1 1 IDENTICAL
+LS_FULL_PORT_GATE_OK

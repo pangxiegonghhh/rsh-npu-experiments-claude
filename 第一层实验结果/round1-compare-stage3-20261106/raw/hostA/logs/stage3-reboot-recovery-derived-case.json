@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "record_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-cases/stage3-reddit__C8-METIS__W16__seed0/record.json",
+  "record_sha256": "bea393d033b6d1e081580d3aa34777ff0f1f31c9adac8858ce245a8e6bc580b3",
+  "raw_post_records_written": false,
+  "science_rerun": false,
+  "queued_c3_evaluation_logs_saved": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/reboot-recovery-20261109T0952Z/c3-queued-before-relaunch",
+  "post_attempts": {
+    "53": {
+      "command_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/stage3-post-stage3-reddit__C8-METIS__W16__seed0__tau53.command.json",
+      "command_sha256": "a54faa32d35d86fb73e48425caae205ce96a3f6b3a7dd0d5f5302a7a54818246",
+      "actual_command_status": "INCOMPLETE",
+      "exitcode": 124
+    },
+    "153": {
+      "command_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/stage3-post-stage3-reddit__C8-METIS__W16__seed0__tau153.command.json",
+      "command_sha256": "49ef4e9e3a7067c760e5015f008ba8e6902c5239459cef1b23516846788c3839",
+      "actual_command_status": "RUNNING",
+      "exitcode": null
+    }
+  }
+}

@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 8579, 'sumU': 3641473, 'sumGamma': 456474, 'elapsed': 17.36913800239563}
+LS {'sweep': 1, 'accepted': 6145, 'sumU': 3472126, 'sumGamma': 428182, 'elapsed': 35.159356117248535}
+LS {'sweep': 2, 'accepted': 3628, 'sumU': 3395823, 'sumGamma': 415382, 'elapsed': 53.42466402053833}
+LS {'sweep': 3, 'accepted': 2064, 'sumU': 3357516, 'sumGamma': 409000, 'elapsed': 71.2599630355835}
+LS {'sweep': 4, 'accepted': 1184, 'sumU': 3337114, 'sumGamma': 405833, 'elapsed': 88.72275710105896}
+LS {'sweep': 5, 'accepted': 813, 'sumU': 3323725, 'sumGamma': 404109, 'elapsed': 106.72900176048279}
+LS {'sweep': 6, 'accepted': 584, 'sumU': 3312696, 'sumGamma': 402275, 'elapsed': 123.97272992134094}
+LS {'sweep': 7, 'accepted': 424, 'sumU': 3305940, 'sumGamma': 401353, 'elapsed': 141.43721103668213}
+LS {'sweep': 8, 'accepted': 249, 'sumU': 3301328, 'sumGamma': 400598, 'elapsed': 158.85283493995667}
+LS {'sweep': 9, 'accepted': 175, 'sumU': 3298904, 'sumGamma': 400217, 'elapsed': 176.76637601852417}
+{"matrix": "human_gene1", "method": "C4-U", "W": 16, "seed": 0, "start": 1793978274.3322592, "status": "OK", "command": ["/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py", "--matrix", "human_gene1", "--method", "C4-U", "--seed", "0"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/human_gene1__C4-U__W16__seed0.order.json", "sha256": "b1967e74887e1e6faae2f91ae3956ee47d0d11b1e0d7a364c1a99cc4072c81be", "size": 123924, "end": 1793978479.1768398, "seconds": 204.8445806503296, "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/human_gene1__C4-U__W16__seed0.order.json", "member": "C4-U", "tau": 342, "reuse": false, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/human_gene1__C4-U__tau342/order.json", "peak_mem_mb": 763.46875}

@@ -1,0 +1,33 @@
+{
+  "matrix": "dawson5",
+  "member": "C6-M mnc=4 (T21 \u53e3\u5f84)",
+  "W": 16,
+  "diag": "A0",
+  "tau": 17,
+  "T_full": 13770,
+  "T_full_phase": 17211.6,
+  "align_premium": 3441.5999999999985,
+  "T_inplace": 11695,
+  "T_keep": 9545,
+  "U_inplace": 168351,
+  "U_keep": 144311,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.4143409729003906,
+  "status": "OK"
+}

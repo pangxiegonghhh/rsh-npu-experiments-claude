@@ -1,0 +1,76 @@
+{
+  "kind": "derived metadata only; original complete vector retained locally",
+  "source_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C9-S__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+  "source_sha256": "d512f04d60f0b5272c47af5878830a7a24b49cd8983b08e0ad56711fe2968aec",
+  "source_size": 1520603,
+  "permutation_length": 232965,
+  "checkpoint_metadata": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 29275,
+        "sumU": 40463437,
+        "sumGamma": 12393267,
+        "elapsed": 1346.6243522167206
+      },
+      {
+        "sweep": 1,
+        "accepted": 16368,
+        "sumU": 39802286,
+        "sumGamma": 12032968,
+        "elapsed": 2373.7311561107635
+      },
+      {
+        "sweep": 2,
+        "accepted": 10226,
+        "sumU": 39456493,
+        "sumGamma": 11839717,
+        "elapsed": 3253.6974279880524
+      },
+      {
+        "sweep": 3,
+        "accepted": 6656,
+        "sumU": 39234353,
+        "sumGamma": 11719693,
+        "elapsed": 4103.686582803726
+      },
+      {
+        "sweep": 4,
+        "accepted": 4565,
+        "sumU": 39087896,
+        "sumGamma": 11640669,
+        "elapsed": 4875.5304479599
+      },
+      {
+        "sweep": 5,
+        "accepted": 3206,
+        "sumU": 38993126,
+        "sumGamma": 11592214,
+        "elapsed": 5554.554399013519
+      },
+      {
+        "sweep": 6,
+        "accepted": 2239,
+        "sumU": 38927055,
+        "sumGamma": 11557114,
+        "elapsed": 6247.673934936523
+      },
+      {
+        "sweep": 7,
+        "accepted": 1577,
+        "sumU": 38880686,
+        "sumGamma": 11531521,
+        "elapsed": 6902.695885896683
+      }
+    ],
+    "tau": 53,
+    "W": 16,
+    "seed": 0,
+    "lam": 0,
+    "tracked_sumU": 38880686,
+    "tracked_sumGamma": 11531521,
+    "status": "INCOMPLETE",
+    "note": "last completed sweep checkpoint; final full recomputation not yet performed"
+  },
+  "original_status_not_promoted": true
+}

@@ -1,0 +1,18 @@
+{
+  "name": "t21-reference",
+  "argv": [
+    "/root/t23-remote-runtime/.venv/bin/python",
+    "-B",
+    "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/repo/第一层工作区/T17-空白一试算脚本/reproduce_cora.py"
+  ],
+  "cwd": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/gates/t21-reference",
+  "initial_directory_entries": [],
+  "started_utc": "2026-11-09T07:11:25.543087+00:00",
+  "source_sha256": "386e318331c7fc3c00015c24e3ca0e2c3d2b9170d86cc69e47f0ef37726aa280",
+  "pid": 30,
+  "returncode": 0,
+  "ended_utc": "2026-11-09T07:12:33.949421+00:00",
+  "elapsed_sec": 68.40626636699994,
+  "first_line": "Table A self-check: OK",
+  "passed": true
+}

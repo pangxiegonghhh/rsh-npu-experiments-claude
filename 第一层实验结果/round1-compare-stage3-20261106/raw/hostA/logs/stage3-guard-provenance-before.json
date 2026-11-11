@@ -1,0 +1,31 @@
+{
+  "at_utc": "2026-11-08 04:41:58 UTC",
+  "scope": "metadata-only correction; scientific sources/binaries/raw rows/sealed archives untouched",
+  "saved": [
+    {
+      "path": "scripts/guard_recovery.py",
+      "sha256": "299597b382309fddaffa91f55ff35ed36a8545f5e13212689a61391fc69d9587",
+      "backup": "logs/source-snapshots/by-sha/299597b382309fddaffa91f55ff35ed36a8545f5e13212689a61391fc69d9587/guard_recovery.py"
+    },
+    {
+      "path": "scripts/collect_stage3.py",
+      "sha256": "a61408f2307af40d4dfb9a586c2bce8b8ea5c13cbbdec5e293a265b730482f67",
+      "backup": "logs/source-snapshots/by-sha/a61408f2307af40d4dfb9a586c2bce8b8ea5c13cbbdec5e293a265b730482f67/collect_stage3.py"
+    },
+    {
+      "path": "scripts/build_stage3.py",
+      "sha256": "8639b94e73796a089a1dae95150b90457ca655aa217514861dd334b375498e3d",
+      "backup": "logs/source-snapshots/by-sha/8639b94e73796a089a1dae95150b90457ca655aa217514861dd334b375498e3d/build_stage3.py"
+    },
+    {
+      "path": "work/stage3-guard-recovery.json",
+      "sha256": "74a9b01a0fac5b8f73635ac15f6acbac20bd0cde1372740393893a0e963e12ba",
+      "backup": "logs/source-snapshots/by-sha/74a9b01a0fac5b8f73635ac15f6acbac20bd0cde1372740393893a0e963e12ba/stage3-guard-recovery.json"
+    },
+    {
+      "path": "logs/stage3-guard-recovery-audit.json",
+      "sha256": "089114e8f880d86dbefab0cd2de018c0c75fcbf45a16ee221d2da7b655e90364",
+      "backup": "logs/source-snapshots/by-sha/089114e8f880d86dbefab0cd2de018c0c75fcbf45a16ee221d2da7b655e90364/stage3-guard-recovery-audit.json"
+    }
+  ]
+}

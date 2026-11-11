@@ -1,0 +1,11 @@
+FRESH_GATE_OK scripts/run_reference_gates.py
+FRESH_GATE_OK scripts/generate_pure.py
+FRESH_GATE_OK scripts/gate_candidates.py
+FRESH_GATE_OK scripts/gate_rect.py
+FRESH_GATE_OK scripts/gate_ls_full.py
+FRESH_GATE_OK scripts/gate_layouts_v7.py
+Traceback (most recent call last):
+  File "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/tools/run_fresh_gates.py", line 35, in <module>
+    assert completed.returncode==0 and p.exists(),args
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ['scripts/gate_rq3_tables_v7.py']

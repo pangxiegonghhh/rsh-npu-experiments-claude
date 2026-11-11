@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "member": "original",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "rsh",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "rabbit",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "neutron",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "rcm",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "slashburn",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "bp",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "gorder",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "gorder-S",
+      "tau": 2,
+      "table1_identical": true
+    },
+    {
+      "member": "original",
+      "tau": 3,
+      "table1_identical": true
+    },
+    {
+      "member": "rsh",
+      "tau": 3,
+      "table1_identical": true
+    },
+    {
+      "member": "rabbit",
+      "tau": 3,
+      "table1_identical": true
+    },
+    {
+      "member": "neutron",
+      "tau": 3,
+      "table1_identical": true
+    },
+    {
+      "member": "rcm",
+      "tau": 3,
+      "table1_identical": true
+    },
+    {
+      "member": "slashburn",
+      "tau": 3,
+      "table1_identical": true
+    },
+    {
+      "member": "bp",
+      "tau": 3,
+      "table1_identical": true
+    },
+    {
+      "member": "gorder",
+      "tau": 3,
+      "table1_identical": true
+    },
+    {
+      "member": "gorder-S",
+      "tau": 3,
+      "table1_identical": true
+    }
+  ],
+  "table2_sigma_and_metrics_gate": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/logs/layout-port-gate.json",
+  "input_note": "fresh reference load_cora adjacency for historical Table 1/2 gate; formal baseline row orders remain individually verified T21 index files, including frozen SlashBurn provenance",
+  "candidate_cpp_sha256": "5dcea0fff0c13830fe55ceb059e520580acb05b59f3286b653562239fafa7fcf",
+  "candidate_binary_sha256": "16edac6db1831b2f6308a16fb0e52f990f1b01e7c22b369a699d40003158f7d4",
+  "candidate_python_wrapper": "unchanged native_chain_v6; child-specific RQ3_LAYOUT_LIB=v7",
+  "reference_cpp_sha256": "d146347f03fb09f9ae8d4e63f794954103fe38655388a1455cb4a48e836837ae",
+  "reference_binary_sha256": "5f9659c9036f21813faf3f4b6c86be889c7b3f494cf3bc3db04a2683754a6a82"
+}

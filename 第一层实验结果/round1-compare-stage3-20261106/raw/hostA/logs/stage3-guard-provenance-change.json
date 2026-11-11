@@ -1,0 +1,28 @@
+{
+  "at_utc": "2026-11-08 04:49:50 UTC",
+  "scope": "metadata-only repair of physical scan overclaims for memoized own/tail-co errors; no scientific method reruns",
+  "before": "logs/stage3-guard-provenance-before.json",
+  "gate": "logs/stage3-guard-provenance-gate.json",
+  "gate_sha256": "dd441f82f0f1c95a54bc468792c306377af0973256fe2e67403d094a7aed2943",
+  "implementation": {
+    "scripts/guard_provenance.py": "f0b03d7963d61dff8c900e36aff6f3a4b19d8bbbffa410cbfae1bf1b0bb4b0a8",
+    "scripts/guard_recovery.py": "29162ca942af310fe836aecb1512d417aba91a85849d4cac84ecab4f133174fc",
+    "scripts/collect_stage3.py": "1f5da75ed3c99fa3770987c52981ddf8ceb732ffaee47192281a6112b66a8b2f",
+    "scripts/build_stage3.py": "96b433fbba6c0af0900ddae31358b1e5c891f9b18e68ca6bd54845fe69f8599a",
+    "scripts/gate_guard_provenance.py": "0524d6f0fcb22f0df3d8e036f1a6fd6d45781b48eda2b50dd01781ae90e17828"
+  },
+  "real_saved_jobs": 3,
+  "reporting_fixtures": 13,
+  "wrapper_versions": 6,
+  "producer_versions": 5,
+  "full_guard_recovery_integration": "required at campaign end by builder before sealing",
+  "scientific_sources_verified_unchanged": {
+    "scripts/native.py": "3b7830ca38f2950d938f37de6539bd37fd8893dbfbbc8bca073ce9e019754c98",
+    "scripts/layouts_flatco.cpp": "5dcea0fff0c13830fe55ceb059e520580acb05b59f3286b653562239fafa7fcf",
+    "work/liblayouts-v7.dylib": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+    "scripts/post_e_job.py": "53f68b4087d536fa90aef408abf6bf534f5177d22b45c377fa2d9eae76254368",
+    "scripts/evaluate_t23.py": "33fad739a71e6a20847280c08f0b20af589a84d33f46d394053845bd785cf419",
+    "scripts/ls_runtime.py": "4074067ec787cb9be78b87f7d479d4f369cff8b7353daf90fddd755a5508757a"
+  },
+  "archive_changes": false
+}

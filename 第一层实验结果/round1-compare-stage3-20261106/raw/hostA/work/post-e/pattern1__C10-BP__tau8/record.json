@@ -1,0 +1,90 @@
+{
+  "task": "T23",
+  "use": "base-order",
+  "matrix": "pattern1",
+  "t23_member": "C10-BP",
+  "t21_member": "C10-BP",
+  "W": 16,
+  "params": "",
+  "source": "T21 \u5b8c\u6574\u5f52\u6863",
+  "path": "orders/pattern1__C10-BP__W16__tauNone__own__8f222137b9eb.json",
+  "sha256": "594f6b6ab299ce368e1fe139d6d54a891b6a4bdd9271abe3194d11b6e63126d4",
+  "note": "",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__C10-BP__W16__tauNone__own__8f222137b9eb.json",
+  "verified_sha256": "1d8b0c62ba652636903424a758dc70e25896077a5ab7a5d906c25c1feb9a1509",
+  "origin": "T21 archive",
+  "member": "C10-BP",
+  "tau": 8,
+  "reuse": false,
+  "status": "OK",
+  "start": 1793975322.341043,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/pattern1__C10-BP__tau8/order.json",
+  "size": 105284,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 2058,
+        "sumU": 693777,
+        "sumGamma": 85399,
+        "elapsed": 1.8732490539550781
+      },
+      {
+        "sweep": 1,
+        "accepted": 391,
+        "sumU": 688064,
+        "sumGamma": 80622,
+        "elapsed": 3.7556958198547363
+      },
+      {
+        "sweep": 2,
+        "accepted": 67,
+        "sumU": 687679,
+        "sumGamma": 80015,
+        "elapsed": 5.633785009384155
+      },
+      {
+        "sweep": 3,
+        "accepted": 19,
+        "sumU": 687587,
+        "sumGamma": 79883,
+        "elapsed": 7.50382399559021
+      },
+      {
+        "sweep": 4,
+        "accepted": 2,
+        "sumU": 687584,
+        "sumGamma": 79882,
+        "elapsed": 9.375471115112305
+      },
+      {
+        "sweep": 5,
+        "accepted": 0,
+        "sumU": 687584,
+        "sumGamma": 79882,
+        "elapsed": 11.24755311012268
+      }
+    ],
+    "sweeps_done": 6,
+    "accepted_swaps": 2537,
+    "tracked_sumU": 687584,
+    "tracked_sumGamma": 79882,
+    "independent_full_recompute": {
+      "k_windows": 943,
+      "sumU": 687584,
+      "T": 43531,
+      "sumGamma": 79882,
+      "sumR": 57398,
+      "R_p50": 50,
+      "R_p90": 113,
+      "R_max": 170,
+      "write_runs_aic": 943,
+      "meanR": 60.867444
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 456974858
+  },
+  "end": 1793975335.186332,
+  "seconds": 12.8452889919281,
+  "peak_mem_mb": 297.140625
+}

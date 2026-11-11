@@ -1,0 +1,1 @@
+{"url": "https://data.dgl.ai/dataset/reddit.zip", "member_needle": "reddit_graph.npz", "start": 1793969453.6666932, "status": "INCOMPLETE", "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>", "end": 1793969464.075084}

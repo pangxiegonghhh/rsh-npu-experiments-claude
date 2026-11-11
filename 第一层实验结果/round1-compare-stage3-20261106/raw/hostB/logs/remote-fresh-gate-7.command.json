@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/root/t23-remote-runtime/.venv/bin/python",
+    "-B",
+    "scripts/gate_layouts_v7.py"
+  ],
+  "cwd": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime",
+  "NPY_DISABLE_CPU_FEATURES": "X86_V3",
+  "started_at": 1794208374.3932908,
+  "ended_at": 1794208381.176641,
+  "returncode": 0,
+  "source_sha256": "11c7dcac4d7012c37f1c7ef57f22de10d0ff096fbaef952ad0bd3ec69f848e44",
+  "RQ3_LAYOUT_LIB": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/liblayouts-v7.dylib",
+  "scope": "fresh remote Cora/unit gate, not a formal products case"
+}

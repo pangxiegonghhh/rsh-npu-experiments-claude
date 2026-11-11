@@ -1,0 +1,15 @@
+{
+  "matrix": "ogbn-products",
+  "method": "B1",
+  "W": 16,
+  "seed": 0,
+  "start": 1794208395.950849,
+  "status": "OK",
+  "path": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-generated/ogbn-products__B1__W16__seed0.order.json",
+  "runtime_path": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-generated/ogbn-products__B1__W16__seed0.order.json",
+  "sha256": "60b889c2506be67a272e3e75656d36d0ac09ae60d467a4f14336c7f6f65d05f7",
+  "size": 18481124,
+  "empty_rule": "new T23 computation searches nonempty A0 vertices only, appends empty original IDs ascending (T20 common convention); frozen T21 indexed reuse remains unchanged",
+  "end": 1794209008.4147182,
+  "seconds": 612.4638690948486
+}

@@ -1,0 +1,106 @@
+{
+  "user_authorization": "Split about half remaining tasks to another computer while continuing current group; current numerical group already completed before this administrative transition.",
+  "status": "PREWORK_ADMINISTRATIVE_CANCELLATION",
+  "not_scientific_failure": true,
+  "no_numerical_work_in_cancelled_children": true,
+  "current_group_completed": true,
+  "old_controller_pid": 85310,
+  "prework_child_pids": [
+    66872,
+    67696
+  ],
+  "before_ps": "66872 85310 S    /Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -B scripts/post_e_job.py /Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-post-catalog/stage3-reddit__C5-U__W16__seed0__tau153.json\n67696 85310 S    /Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -B scripts/post_e_job.py /Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-post-catalog/stage3-reddit__C8-METIS__W16__seed0__tau53.json\n85310 71359 Ss   /Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -B scripts/run_stage3.py\n",
+  "paused_notes": [
+    {
+      "pid": 66872,
+      "parent_pid": 85310,
+      "argv": [
+        "scripts/post_e_job.py",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-post-catalog/stage3-reddit__C5-U__W16__seed0__tau153.json"
+      ],
+      "paused_at": 1794202462.190919,
+      "stage": "administrative hold BEFORE CPU queue/acquire; no numerical work started",
+      "marker": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/split-control/hold-new-admissions.json"
+    },
+    {
+      "pid": 67696,
+      "parent_pid": 85310,
+      "argv": [
+        "scripts/post_e_job.py",
+        "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-post-catalog/stage3-reddit__C8-METIS__W16__seed0__tau53.json"
+      ],
+      "paused_at": 1794202502.043078,
+      "stage": "administrative hold BEFORE CPU queue/acquire; no numerical work started",
+      "marker": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/split-control/hold-new-admissions.json"
+    }
+  ],
+  "preserved_files": [
+    {
+      "original_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/stage3-post-stage3-reddit__C5-U__W16__seed0__tau153.command.json",
+      "preserved_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/source-snapshots/administrative-split-20261109/66872/stage3-post-stage3-reddit__C5-U__W16__seed0__tau153.command.json",
+      "sha256": "aa29beb86ecd1ae4074fe9a14b4bf7e40e86ed058754a2777e3b96b239c7bdf3",
+      "bytes": 15799
+    },
+    {
+      "original_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/stage3-post-stage3-reddit__C5-U__W16__seed0__tau153.stdout",
+      "preserved_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/source-snapshots/administrative-split-20261109/66872/stage3-post-stage3-reddit__C5-U__W16__seed0__tau153.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "original_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/stage3-post-stage3-reddit__C5-U__W16__seed0__tau153.stderr",
+      "preserved_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/source-snapshots/administrative-split-20261109/66872/stage3-post-stage3-reddit__C5-U__W16__seed0__tau153.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "original_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-post-catalog/stage3-reddit__C5-U__W16__seed0__tau153.json",
+      "preserved_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/source-snapshots/administrative-split-20261109/66872/stage3-reddit__C5-U__W16__seed0__tau153.json",
+      "sha256": "8eaeadc22b3f2a49d7a7e46274b11d82391e4c991d53767b695ca7831a220366",
+      "bytes": 19092
+    },
+    {
+      "original_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/administrative-handoff-pauses/66872.json",
+      "preserved_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/source-snapshots/administrative-split-20261109/66872/66872.json",
+      "sha256": "b3ec424256f819f0c8ebfe046932c315e883b132f0f4c234eeba3d746411282d",
+      "bytes": 544
+    },
+    {
+      "original_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/stage3-post-stage3-reddit__C8-METIS__W16__seed0__tau53.command.json",
+      "preserved_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/source-snapshots/administrative-split-20261109/67696/stage3-post-stage3-reddit__C8-METIS__W16__seed0__tau53.command.json",
+      "sha256": "7245133c71319942199412edfac08444770fbe63dfcd1655cadd1ce7f7f0821f",
+      "bytes": 15802
+    },
+    {
+      "original_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/stage3-post-stage3-reddit__C8-METIS__W16__seed0__tau53.stdout",
+      "preserved_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/source-snapshots/administrative-split-20261109/67696/stage3-post-stage3-reddit__C8-METIS__W16__seed0__tau53.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "original_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/stage3-post-stage3-reddit__C8-METIS__W16__seed0__tau53.stderr",
+      "preserved_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/source-snapshots/administrative-split-20261109/67696/stage3-post-stage3-reddit__C8-METIS__W16__seed0__tau53.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "original_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-post-catalog/stage3-reddit__C8-METIS__W16__seed0__tau53.json",
+      "preserved_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/source-snapshots/administrative-split-20261109/67696/stage3-reddit__C8-METIS__W16__seed0__tau53.json",
+      "sha256": "c99af43119ee40fb64324917df9fd0ed1eb856aa19a66c0c464f2a262a709d7b",
+      "bytes": 5873310
+    },
+    {
+      "original_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/administrative-handoff-pauses/67696.json",
+      "preserved_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/source-snapshots/administrative-split-20261109/67696/67696.json",
+      "sha256": "61452384468bb308a2f36b079b7ff416bcfcd5c459f49d4952bb85b3988c41ae",
+      "bytes": 547
+    }
+  ],
+  "started_at": 1794202769.3346949,
+  "after_ps": "",
+  "controller_and_prework_children_terminal": true,
+  "original_admission_source_restored": true,
+  "restored_source_sha256": "4fb6e8cce3a3a51a22119fc396d9adee9b13cb63f8d1c3b24eb9f5e1b836d0af",
+  "hold_released_at": 1794202769.599488,
+  "no_scientific_retries": true
+}

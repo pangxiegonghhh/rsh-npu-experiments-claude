@@ -1,0 +1,13 @@
+{
+  "pid": 48235,
+  "slot": 1,
+  "command": [
+    "scripts/independent_matrix_job.py",
+    "dawson5"
+  ],
+  "queued_at": 1793973154.965929,
+  "acquired_at": 1793973603.2620249,
+  "queue_seconds": 448.2960958480835,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots"
+}

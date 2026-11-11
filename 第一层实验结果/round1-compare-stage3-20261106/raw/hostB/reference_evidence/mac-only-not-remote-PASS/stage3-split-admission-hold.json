@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "administrative_only": true,
+  "user_authorization": "2026-11-09: continue monitoring current group; split about half remaining tasks to another agent/computer and prepare handoff; Windows16GB confirmed",
+  "original_source_sha256": "4fb6e8cce3a3a51a22119fc396d9adee9b13cb63f8d1c3b24eb9f5e1b836d0af",
+  "temporary_source_sha256": "0ca30bf552dc47b7f355423a4e69fc669d81d269ad3ee380485785971831fac0",
+  "unchanged_acquire_body_AST": true,
+  "current_scientific_process_unmodified": true,
+  "already_imported_C8_diagnostic_unmodified": true,
+  "marker": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/split-control/hold-new-admissions.json",
+  "restore_original_before_new_local_scientific_controller": true,
+  "created_at": 1794202102.928234
+}

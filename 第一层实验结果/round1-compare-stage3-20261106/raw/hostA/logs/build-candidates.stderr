@@ -1,0 +1,25 @@
+scripts/candidates.cpp:19:89: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+   19 |  for(auto&g:groups){sort(g.begin(),g.end());(g.size()==size_t(W)?full:shorts).push_back(move(g));}
+      |                                                                                         ^
+      |                                                                                         std::
+scripts/candidates.cpp:31:69: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+   31 |   sort(g.begin(),g.end());(g.size()==size_t(W)?added:rem).push_back(move(g));
+      |                                                                     ^
+      |                                                                     std::
+scripts/candidates.cpp:59:21: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+   59 |   }groups.push_back(move(grp));
+      |                     ^
+      |                     std::
+scripts/candidates.cpp:76:293: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+   76 |  vector<int> roots;for(int r:g.ne)if(!members[r].empty()&&!complete[r])roots.push_back(r);sort(roots.begin(),roots.end(),[&](int a,int b){return *min_element(members[a].begin(),members[a].end())<*min_element(members[b].begin(),members[b].end());});Rows groups;for(int r:done)groups.push_back(move(members[r]));for(int r:roots)groups.push_back(move(members[r]));st[6]=groups.size();st[8]=edges.size();st[9]=merged;st[10]=reject;return groups;
+      |                                                                                                                                                                                                                                                                                                     ^
+      |                                                                                                                                                                                                                                                                                                     std::
+scripts/candidates.cpp:76:344: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+   76 |  vector<int> roots;for(int r:g.ne)if(!members[r].empty()&&!complete[r])roots.push_back(r);sort(roots.begin(),roots.end(),[&](int a,int b){return *min_element(members[a].begin(),members[a].end())<*min_element(members[b].begin(),members[b].end());});Rows groups;for(int r:done)groups.push_back(move(members[r]));for(int r:roots)groups.push_back(move(members[r]));st[6]=groups.size();st[8]=edges.size();st[9]=merged;st[10]=reject;return groups;
+      |                                                                                                                                                                                                                                                                                                                                                        ^
+      |                                                                                                                                                                                                                                                                                                                                                        std::
+scripts/candidates.cpp:82:36: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+   82 |    if(method<=1&&useP)groups=postP(move(groups),W,st);else if(method==1)for(auto&x:groups)sort(x.begin(),x.end());
+      |                                    ^
+      |                                    std::
+6 warnings generated.

@@ -1,0 +1,28 @@
+{
+  "command": [
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/qemu-launch",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/utm-mount/UTM.app/Contents/Frameworks/qemu-aarch64-softmmu.framework/Versions/A/qemu-aarch64-softmmu",
+    "-machine",
+    "virt",
+    "-accel",
+    "hvf",
+    "-cpu",
+    "host",
+    "-m",
+    "4096",
+    "-smp",
+    "2",
+    "-nographic",
+    "-kernel",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/deps/alpine/vmlinuz-virt",
+    "-initrd",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/deps/alpine/initramfs-virt",
+    "-append",
+    "console=ttyAMA0 alpine_repo=https://dl-cdn.alpinelinux.org/alpine/v3.22/main modloop=https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/aarch64/netboot/modloop-virt modules=loop,squashfs,sd-mod,virtio_net ip=dhcp",
+    "-netdev",
+    "user,id=net0,hostfwd=tcp:127.0.0.1:22221-:22",
+    "-device",
+    "virtio-net-device,netdev=net0"
+  ],
+  "start": 1793968695.980921
+}

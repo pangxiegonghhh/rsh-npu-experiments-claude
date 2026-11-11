@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "at_utc": "2026-11-08 20:53:27 UTC",
+  "scope": "packaging validation using two real terminal original checkpoints; no local search/layout/UG recomputation",
+  "implementation_sources": {
+    "scripts/checkpoint_evidence.py": "c811afe89cc5ed62e2e1b68f73ee43b0440f199913f74daaedaacea0b8538ab9",
+    "scripts/build_stage3.py": "780c53c281289e1b740310c50bdeb6faf950dc63a6dd419c2f8735913a54b546",
+    "scripts/gate_checkpoint_evidence.py": "83ea212d78b9b02f084b477410743023dc323e8bb4715208b139b6f947f6f516"
+  },
+  "real_checkpoint_checks": [
+    {
+      "case_key": "stage3-reddit__C3-W4__W16__seed0__tau153",
+      "source_sha256": "0c403718498f7055be069643cd6a8f145ae8bb1af904755657b76b4d91016817",
+      "copied_bytes": 1520790,
+      "complete_sweeps": 10,
+      "terminal_exitcode": 0,
+      "derived_metadata_has_no_permutation": true
+    },
+    {
+      "case_key": "stage3-reddit__C4-U__W16__seed0__tau153",
+      "source_sha256": "216fe62072bd89e7bd65386eef1f0d868f392398d3567c569f54d92115a6966a",
+      "copied_bytes": 1520696,
+      "complete_sweeps": 9,
+      "terminal_exitcode": 124,
+      "derived_metadata_has_no_permutation": true
+    }
+  ],
+  "complete_expected_post_grid": 64,
+  "out_of_scope_probe_excluded": true,
+  "tamper_rejected": true,
+  "ledger_overwrite_rejected": true,
+  "raw_vectors_inside_archive_rejected": true,
+  "active_command_rejected": true,
+  "original_bytes_unchanged": true,
+  "full_checkpoint_campaign_install_pending": true
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/gate_layouts_flatco_random.py"
+  ],
+  "environment_override": {
+    "RQ3_LAYOUT_LIB": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib"
+  },
+  "source_sha256": "19874c2625e531fd5ff7b0a25e8ab71f3e54813a29e6db13e39a1bd38385f97e",
+  "start": 1794070756.686347,
+  "end": 1794070757.65737,
+  "exitcode": 0,
+  "output": "layout-v7-random-gate.json"
+}

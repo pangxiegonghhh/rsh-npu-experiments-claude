@@ -1,0 +1,46 @@
+{
+  "matrix": "cora",
+  "method": "C9-Gorder",
+  "member": "C9-Gorder",
+  "W": 32,
+  "seed": 0,
+  "scope": "W sensitivity",
+  "case_id": "stage3-cora__C9-Gorder__W32__seed0",
+  "main_tau_only": true,
+  "reuse": {
+    "task": "T23",
+    "use": "W-sensitivity",
+    "matrix": "cora",
+    "t23_member": "C9-Gorder",
+    "t21_member": "C9-Gorder",
+    "W": "32",
+    "params": "w=W-1",
+    "source": "T21 完整归档",
+    "path": "orders/cora__C9-Gorder__W32__tauNone__own__a9b64271f2f0.json",
+    "sha256": "eca1c199b544234216014d4c6e8f853aec3061528f383ab6b66cadd00fac5145",
+    "note": "按该 W 重算的行序",
+    "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__C9-Gorder__W32__tauNone__own__a9b64271f2f0.json",
+    "verified_sha256": "eca1c199b544234216014d4c6e8f853aec3061528f383ab6b66cadd00fac5145",
+    "origin": "T21 archive"
+  },
+  "status": "OK",
+  "start": 1793986160.086626,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__C9-Gorder__W32__tauNone__own__a9b64271f2f0.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__C9-Gorder__W32__tauNone__own__a9b64271f2f0.json",
+  "sha256": "eca1c199b544234216014d4c6e8f853aec3061528f383ab6b66cadd00fac5145",
+  "size": 12566,
+  "seconds": "",
+  "diagnostics": {},
+  "reused": true,
+  "evaluation_root": "stage3-evaluations",
+  "diagnostic_root": "stage3-diagnostics",
+  "eval_taus": [
+    3
+  ],
+  "evaluation_status": {
+    "status": "OK",
+    "rows": 12,
+    "seconds": 0.0574798583984375
+  },
+  "controller_end": 1793986160.6013389
+}

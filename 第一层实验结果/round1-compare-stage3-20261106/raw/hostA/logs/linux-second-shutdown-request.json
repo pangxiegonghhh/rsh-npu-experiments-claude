@@ -1,0 +1,22 @@
+{
+  "time": 1793986890.169844,
+  "command": [
+    "ssh",
+    "-p",
+    "22221",
+    "-i",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/.private/linux_ed25519",
+    "-o",
+    "UserKnownHostsFile=/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/.private/known_hosts_second",
+    "-o",
+    "StrictHostKeyChecking=yes",
+    "root@127.0.0.1",
+    "poweroff"
+  ],
+  "exitcode": 0,
+  "reason": "all4actualcoarsecasesOK, mappings/SHA andrawrecordsrecovered; localVMCPUonly",
+  "verified_power_off": true,
+  "verified_QEMU_exitcode": 0,
+  "verification": "QEMUexec3440terminalexit0 andfinalconsolePowerdown; localVMnotcloudinstance",
+  "verified_at": 1793987089.673617
+}

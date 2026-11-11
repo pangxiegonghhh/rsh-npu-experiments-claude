@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/root/t23-remote-runtime/.venv/bin/python",
+    "-B",
+    "scripts/gate_rect.py"
+  ],
+  "started_at": 1794208189.5333877,
+  "ended_at": 1794208189.7981484,
+  "returncode": 0,
+  "source_sha256": "44246d8e4cf591c58162dbbcf1fc313c5e5e7fc9f0ea22db61137531011a0d3b",
+  "RQ3_LAYOUT_LIB": null,
+  "scope": "fresh remote Cora/unit gate, not a formal products case"
+}

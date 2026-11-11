@@ -1,0 +1,33 @@
+{
+  "matrix": "reddit",
+  "member": "C9-Gorder",
+  "W": 16,
+  "diag": "A0",
+  "tau": 153,
+  "T_full": 2660703,
+  "T_full_phase": 2661314.8,
+  "align_premium": 611.7999999998137,
+  "T_inplace": 2547321,
+  "T_keep": 2465600,
+  "U_inplace": 40666300,
+  "U_keep": 39384327,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 28.16556715965271,
+  "status": "OK"
+}

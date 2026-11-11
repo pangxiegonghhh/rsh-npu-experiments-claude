@@ -1,0 +1,33 @@
+{
+  "matrix": "ogbn-arxiv",
+  "member": "C6-M mnc=16 (T21 \u53e3\u5f84)",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 103799,
+  "T_full_phase": 112119.13333333333,
+  "align_premium": 8320.133333333331,
+  "T_inplace": 99621,
+  "T_keep": 104443,
+  "U_inplace": 1515851,
+  "U_keep": 1616947,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 3.5643739700317383,
+  "status": "OK"
+}

@@ -1,0 +1,100 @@
+use,matrix,member,start,lam,tau,seed,t21_path,sha256,note
+base-order,cora,B0,,,none,,orders/cora__B0__W16__tauNone__own__bb3cb228f4bc.json,9739dc1c2fd074489eb436924460371788f38016e0a49c3eb2580e3db6c2af8a,
+base-order,cora,rsh-α0,,,none,,orders/cora__rsh-alpha0__W16__tauNone__own__60d4a3f802ea.json,1c1889794c291f9afb95cb32263f13bc59969c9d2e77e3446296069b63e82a72,
+base-order,cora,rabbit-pilot,,,none,,orders/cora__rabbit-pilot__W16__tauNone__own__f25f5d9ab240.json,5a162cc12e28301952afa1b97d19f9a9edc733c5bb41cfa89710ddecab7f3177,
+base-order,cora,neutron-pilot,,,none,,orders/cora__neutron-pilot__W16__tauNone__own__d7aa58d7e541.json,47387db160a883a7941a1a60d1e8f2623d4248b1aa2e2e2d14112d9bb24e09ca,
+base-order,cora,C9-Gorder,,,none,,orders/cora__C9-Gorder__W16__tauNone__own__b717b789b237.json,fbb3cab1de0f31227b065bc28d6e576d0425b50d0001c66af7f8488c1e064b4f,
+base-order,cora,C9-S,,,none,,orders/cora__C9-S__W16__tauNone__own__13615f81231f.json,3f8c35c7a882379b372032e25f5b851fa4ad5d63f7d70b6b28634ad6bf759778,
+base-order,cora,C10-BP,,,none,,orders/cora__C10-BP__W16__tauNone__own__633780c3b8aa.json,f7ff2e41c5ccf4d2158d4a192b18823dd547e57599152648a85f9bfef9b2a270,
+base-order,cora,B-RCM-ref,,,none,,orders/cora__B-RCM-ref__W16__tauNone__own__c620cb3427ba.json,bf7600d38fdd3be6688e9ce0bde3281dede6bdaeed55ee30dee04a865037f3ad,
+base-order,cora,SlashBurn,,,none,,orders/cora__SlashBurn__W16__tauNone__own__4e5441adfee7.json,a1d640e463d1bbbe981cb4508f332e75833457bad0decad1a719d77dbc935657,
+base-order,ogbn-arxiv,B0,,,none,,orders/ogbn-arxiv__B0__W16__tauNone__own__4b33dcbc93b8.json,48a0ca8f77b752dcc34d48bf48b60ef0cb722cfcf70996c8375df3f44b6cc73a,
+base-order,ogbn-arxiv,rsh-α0,,,none,,orders/ogbn-arxiv__rsh-alpha0__W16__tauNone__own__a6340c0d6c29.json,faff0625413a5d724bcbeceb937e9e504077a72b7fe109287ff143fe4e04aa82,
+base-order,ogbn-arxiv,rabbit-pilot,,,none,,orders/ogbn-arxiv__rabbit-pilot__W16__tauNone__own__06ad245b849c.json,a6c3d102c017dd82041ac4aedfc281518cb3a254d34973f88bc49d27c0f0a134,
+base-order,ogbn-arxiv,neutron-pilot,,,none,,orders/ogbn-arxiv__neutron-pilot__W16__tauNone__own__52bc8c1b72ee.json,6f745a7883e7154329040e7c5ef585f4c17a6a4f774dffd1216d83db63c0edeb,
+base-order,ogbn-arxiv,C9-Gorder,,,none,,orders/ogbn-arxiv__C9-Gorder__W16__tauNone__own__47d89f24b6ed.json,771b8c78add9b481f9ef4422606b52ca932ba031eb22140d003882c8bf06e595,
+base-order,ogbn-arxiv,C9-S,,,none,,orders/ogbn-arxiv__C9-S__W16__tauNone__own__98cafee0416d.json,03032c8aa913d491e1ce58f7be75551b76fd47034d6f10a55ef87a4c53514c4d,
+base-order,ogbn-arxiv,C10-BP,,,none,,orders/ogbn-arxiv__C10-BP__W16__tauNone__own__7a6ba73893a1.json,cb6166e35b79d6454f6a88e53b7b2439e5f96c81a1ee8c2f0c8ed36f45320134,
+base-order,ogbn-arxiv,B-RCM-ref,,,none,,orders/ogbn-arxiv__B-RCM-ref__W16__tauNone__own__7e8aebbe4091.json,8e9821780bc6b304651e24bf5bf1e6d9a58a778c056c849b2fde58adaf829c83,
+base-order,ogbn-arxiv,SlashBurn,,,none,,orders/ogbn-arxiv__SlashBurn__W16__tauNone__own__778618046fa2.json,89a60a19f68035d5e06a5f244635a25a010b98dc0f7b8efa6573af55504899f4,
+base-order,wiki-RfA,B0,,,none,,orders/wiki-RfA__B0__W16__tauNone__own__817118d2f455.json,aadf6fca7e6a5e9562d2666a3a45cf8e37425e4aad9430f23273ce03a943231a,
+base-order,wiki-RfA,rsh-α0,,,none,,orders/wiki-RfA__rsh-alpha0__W16__tauNone__own__abbf7494a451.json,a794ae7ca18f92a4c86d59911d8a8d297b68e4cfeecd18015e1e78f631897a04,
+base-order,wiki-RfA,rabbit-pilot,,,none,,orders/wiki-RfA__rabbit-pilot__W16__tauNone__own__232d5db7480d.json,588aa5f55c21a1cf72c894d300b3e129ba62dff9eb081a74ceb1415568c99da0,
+base-order,wiki-RfA,neutron-pilot,,,none,,orders/wiki-RfA__neutron-pilot__W16__tauNone__own__8390c2f67d90.json,87bb7fe87e04ef2df1fa201027a8139ed2f0c72d6259533f73c2999c357086e5,
+base-order,wiki-RfA,C9-Gorder,,,none,,orders/wiki-RfA__C9-Gorder__W16__tauNone__own__81b8b67a36b5.json,06a21748b6bfa8485634b92138c405ac5bc744acdc97e7cd3d6d17cd8a80363a,
+base-order,wiki-RfA,C9-S,,,none,,orders/wiki-RfA__C9-S__W16__tauNone__own__95e6f9fe8ee8.json,0a7373ad4e848a37f15389f728b6d54e308de922c66ae9a53b8dc85536968ca9,
+base-order,wiki-RfA,C10-BP,,,none,,orders/wiki-RfA__C10-BP__W16__tauNone__own__3f8b5f9379bd.json,88dd9ec20fce2f76e0bf9b397c6eb2d94abdeedf68b0126b5e3363a0fa426711,
+base-order,wiki-RfA,B-RCM-ref,,,none,,orders/wiki-RfA__B-RCM-ref__W16__tauNone__own__afd32022b778.json,07da0608ed2ec789915953efc272e6bcf10fc0361d7838b3f2f41660c92552a1,
+base-order,wiki-RfA,SlashBurn,,,none,,orders/wiki-RfA__SlashBurn__W16__tauNone__own__e00639fe3673.json,61a887670d70368a8087b2ccbe566aa785f7c55a051ef623ed72e5feaf7dd21a,
+base-order,dawson5,B0,,,none,,orders/dawson5__B0__W16__tauNone__own__91a652a2e6a9.json,8ff846f7199accc37cf216ce48ebc59c8c1f26b905f2c8fe70a089c5062f3dda,
+base-order,dawson5,rsh-α0,,,none,,orders/dawson5__rsh-alpha0__W16__tauNone__own__4f1f28cb1ae2.json,76296832789ae8aa9e7296e62277a46d784122920648b4d0211777ff49d62380,
+base-order,dawson5,rabbit-pilot,,,none,,orders/dawson5__rabbit-pilot__W16__tauNone__own__dd2fb30668dd.json,f95c0a9ea8e1e0780530afb63121a319f235c13a92122539dfe7205b905c0688,
+base-order,dawson5,neutron-pilot,,,none,,orders/dawson5__neutron-pilot__W16__tauNone__own__af5b0f59d660.json,1fc4003b27aff9b7976dec5981c3dd80c4246985ba494d419d874894740d3358,
+base-order,dawson5,C9-Gorder,,,none,,orders/dawson5__C9-Gorder__W16__tauNone__own__cea9f6addf71.json,652cd64f082f0551a420422d731822f9204adb48815837b9ad228576ca2b0e4f,
+base-order,dawson5,C9-S,,,none,,orders/dawson5__C9-S__W16__tauNone__own__9f77feb26bbe.json,54410fe369332f8839842b0e8f2fb87c70cb5999709c20455d881d094df15aad,
+base-order,dawson5,C10-BP,,,none,,orders/dawson5__C10-BP__W16__tauNone__own__0e5bcf7f0480.json,40a01ee9129204a187f6ebb7603ce61b432d4f21464fc406f51f55a45e546497,
+base-order,dawson5,B-RCM-ref,,,none,,orders/dawson5__B-RCM-ref__W16__tauNone__own__4e5314214aed.json,e6822c8dc97c00a16e90c7c5f38d126aad46c879453b95f57299e56929bc8345,
+base-order,dawson5,SlashBurn,,,none,,orders/dawson5__SlashBurn__W16__tauNone__own__3a5846d7de70.json,69246a13118260d5fee5890be89ccfe2558f5fcdef2f7de415885183a9281ff2,
+base-order,olafu,B0,,,none,,orders/olafu__B0__W16__tauNone__own__1d9535b3516c.json,3075d10648babce299c70b3c66fba3dd8ae2a7b6817d2da63cee87bf6e03817c,
+base-order,olafu,rsh-α0,,,none,,orders/olafu__rsh-alpha0__W16__tauNone__own__fa92edee20f4.json,05dcd0649feab853e2469b406398a777606d6f8f30d6a2e8a4ced549013e67d7,
+base-order,olafu,rabbit-pilot,,,none,,orders/olafu__rabbit-pilot__W16__tauNone__own__47bc0151f033.json,5bba5bbb5253b4a87af959cf1b2b3c13642c9de048b8d915276d1e3d34b4386e,
+base-order,olafu,neutron-pilot,,,none,,orders/olafu__neutron-pilot__W16__tauNone__own__1664355cdaa7.json,e34bace6e655e31662ca68f7d3f3d50b55b9305f127a86303cd881e837c1ec01,
+base-order,olafu,C9-Gorder,,,none,,orders/olafu__C9-Gorder__W16__tauNone__own__ca58985925c0.json,ec0bb10ed05a5bf4e05a8d05e35e513f42f109e12feecdbdedb1cfda0b8789a9,
+base-order,olafu,C9-S,,,none,,orders/olafu__C9-S__W16__tauNone__own__5da9c4019ec4.json,49cb724ff8e5579578adebd07394af68a722e86581762feaa1ce4aaf5f2bef09,
+base-order,olafu,C10-BP,,,none,,orders/olafu__C10-BP__W16__tauNone__own__5f83fbefe087.json,835b84eb62c0056f4ba89547edd7758575754397289941f38a278d8c1da4a773,
+base-order,olafu,B-RCM-ref,,,none,,orders/olafu__B-RCM-ref__W16__tauNone__own__b5673ec69b51.json,fbba7e0b89d6f81a476b74b719ad480e24182440720c66ee06a7929cef7a31a8,
+base-order,olafu,SlashBurn,,,none,,orders/olafu__SlashBurn__W16__tauNone__own__8dbe7b9a5150.json,68f2cf599dbff9156257afac39f92bc1f15047fbaf58bb14aea3c668f8dcfe19,
+base-order,pattern1,B0,,,none,,orders/pattern1__B0__W16__tauNone__own__51fd886f8de6.json,43a6f6750611b8a6f772a630668e145d6354b423da3b55922d80743e9501bf18,
+base-order,pattern1,rsh-α0,,,none,,orders/pattern1__rsh-alpha0__W16__tauNone__own__06b994e10c18.json,d7def42c8bd4068e2ccdd155d10afc1b37f0835eb0ce4d2de630be87622d3dd3,
+base-order,pattern1,rabbit-pilot,,,none,,orders/pattern1__rabbit-pilot__W16__tauNone__own__f6228d937bf8.json,86f31e2968dc9745e4420fd2cfc515a951cf59647f21c1a8f6a6deb19b86f007,
+base-order,pattern1,neutron-pilot,,,none,,orders/pattern1__neutron-pilot__W16__tauNone__own__dfe8f24ebdec.json,8053433eaa7bf3d0f77ab73996a834988c8c0fc01957542e3cc78d8c7d001fb6,
+base-order,pattern1,C9-Gorder,,,none,,orders/pattern1__C9-Gorder__W16__tauNone__own__f65a44c64e70.json,28719515e3fecae5cc3f98b8f425b4f6cb4cb06081680de48e83d413723b663c,
+base-order,pattern1,C9-S,,,none,,orders/pattern1__C9-S__W16__tauNone__own__35b4ed0bc6b8.json,4ea3bceff4c09594a6abbab119399d6de324d815a2565a176dac590e42506a21,
+base-order,pattern1,C10-BP,,,none,,orders/pattern1__C10-BP__W16__tauNone__own__8f222137b9eb.json,1d8b0c62ba652636903424a758dc70e25896077a5ab7a5d906c25c1feb9a1509,
+base-order,pattern1,B-RCM-ref,,,none,,orders/pattern1__B-RCM-ref__W16__tauNone__own__90562d88dcff.json,005b47f53938b8f688a5800e13ec80ddc0e622128d13bb68d140b3f35788de55,
+base-order,pattern1,SlashBurn,,,none,,orders/pattern1__SlashBurn__W16__tauNone__own__11a4cd16cf65.json,43dcae04c488d8f44f26109a064d99844efbd70ff605e0fbbcb828fb88f33303,
+base-order,human_gene1,B0,,,none,,orders/human_gene1__B0__W16__tauNone__own__79af31260e8f.json,08617eb1e4b122fc3ab2f679caf4bc725139a140526705ef276d21566f8f67a4,
+base-order,human_gene1,rsh-α0,,,none,,orders/human_gene1__rsh-alpha0__W16__tauNone__own__9991e2895fee.json,d1327fd800a11b4b04397c0c5c88c34ab90c162479dacb7aae8c8171a8467e9e,
+base-order,human_gene1,rabbit-pilot,,,none,,orders/human_gene1__rabbit-pilot__W16__tauNone__own__936764cedab2.json,7c875eef0b8fa6b2bdcd879289a49a2b176100fc583a6a5222ba609932e9412d,
+base-order,human_gene1,neutron-pilot,,,none,,orders/human_gene1__neutron-pilot__W16__tauNone__own__0dcb814a40f6.json,b5465b0e6ec9b1058c5f6c23af1faf74fee1dc04d479981451907b738cf1e0ff,
+base-order,human_gene1,C9-Gorder,,,none,,orders/human_gene1__C9-Gorder__W16__tauNone__own__afe0999e10f6.json,e26276f5aec8209f6f42b952eb97b5a57bdb35530ef2c88862e80660e75247fb,
+base-order,human_gene1,C9-S,,,none,,orders/human_gene1__C9-S__W16__tauNone__own__fefd37cb62f9.json,5c59dfd0748ad6b3f798f3985db88df3839604dd0bee4ad8b913ed26ed0dea56,
+base-order,human_gene1,C10-BP,,,none,,orders/human_gene1__C10-BP__W16__tauNone__own__3039bcab6091.json,a938b3d24df9866c55ad43543958aff6ecd913c57bad42e6d4cbd8e7d3208644,
+base-order,human_gene1,B-RCM-ref,,,none,,orders/human_gene1__B-RCM-ref__W16__tauNone__own__291210d9ea07.json,db2b04abac1390863e757bd005be5a40b50ab211ae55f76dabdbb3cd325ca66a,
+base-order,human_gene1,SlashBurn,,,none,,orders/human_gene1__SlashBurn__W16__tauNone__own__808008ffae40.json,f684cb2773ad9cd936b95f8b38dcf3eeb82344a105545fb80622f7f27e6e2958,
+LS-full,cora,LS-full(C9-Gorder),C9-Gorder,0,none,0,orders/cora__P-LS-full-control__W16__tauNone__own__389492761be1.json,d665ce77ae0cc7c4648f1d12e66d7740346e26ccf4d3efcaa56f95e33fef88b8,"T21 P-LS-full-control, lambda=0, seed 0"
+LS-full,cora,LS-full(rsh-α0),rsh-α0,0,none,0,orders/cora__P-LS-full-control__W16__tauNone__own__163ee7ae1483.json,40ae51e9603120060c81198af8a906b65b610d6bf8161f7d9decb6300fef2a70,"T21 P-LS-full-control, lambda=0, seed 0"
+LS-full,ogbn-arxiv,LS-full(C9-Gorder),C9-Gorder,0,none,0,orders/ogbn-arxiv__P-LS-full-control__W16__tauNone__own__ca2408b792c9.json,0e00a5889856487a35fae5dc24c3c5643375bf5049a94ffff9087702c0913bc1,"T21 P-LS-full-control, lambda=0, seed 0"
+LS-full,ogbn-arxiv,LS-full(rsh-α0),rsh-α0,0,none,0,orders/ogbn-arxiv__P-LS-full-control__W16__tauNone__own__e3c58a9f8c41.json,b28863d4282aa9104e7bcf8f71a25e94d822992f8f617ab1cc26202fa326280f,"T21 P-LS-full-control, lambda=0, seed 0"
+LS-full,wiki-RfA,LS-full(C9-Gorder),C9-Gorder,0,none,0,,,"not in T21: compute (methods.MemberLS, lambda=0, <=10 sweeps, seed 0)"
+LS-full,wiki-RfA,LS-full(rsh-α0),rsh-α0,0,none,0,,,"not in T21: compute (methods.MemberLS, lambda=0, <=10 sweeps, seed 0)"
+M6-reuse,cora,P-LS,C9-Gorder,0,2,0,orders/cora__P-LS__W16__tau2__own__fe55f0165da6.json,63a61f371f9f1c172db5d2ffe0a753601197ea8b3efae3daacb552b3f2cfc14f,T21 J1 output before D stage (own)
+M6-reuse,cora,P-LS,C9-Gorder,0,3,0,orders/cora__P-LS__W16__tau3__own__13c0e68fe6ff.json,2413c057980e3cfda5c61479dfab2c814d42bb909251b18e3f4e24dbabe7e6b8,T21 J1 output before D stage (own)
+M6-reuse,cora,P-LS,C9-Gorder,1,2,0,orders/cora__P-LS__W16__tau2__own__771ce85ab57d.json,f4b726217b0107d6f13f974dae01dc151e05475980e9c5166dd616750a937e99,T21 J1 output before D stage (own)
+M6-reuse,cora,P-LS,C9-Gorder,1,3,0,orders/cora__P-LS__W16__tau3__own__3ea2668dd3d2.json,071a8a708ecade8199a99ec304ee3aea33ce0a126a0aec39c1744691c3d822b2,T21 J1 output before D stage (own)
+M6-reuse,cora,P-LS,rsh-α0,0,2,0,orders/cora__P-LS__W16__tau2__own__6020f66d25d7.json,8115ffd3179a603de9535029a401d233f271e65409c2183beec2c618578c8f5d,T21 J1 output before D stage (own)
+M6-reuse,cora,P-LS,rsh-α0,0,3,0,orders/cora__P-LS__W16__tau3__own__63b920cccef4.json,06fa602d9171b0a9831c6d9ef573d48fca713f585ceacce138260fbd075e6983,T21 J1 output before D stage (own)
+M6-reuse,cora,P-LS,rsh-α0,1,2,0,orders/cora__P-LS__W16__tau2__own__33b7faadad06.json,1a8e3ea1ffc77a288d36fc996db9d121471cc80417938f39439b6242ee097ae0,T21 J1 output before D stage (own)
+M6-reuse,cora,P-LS,rsh-α0,1,3,0,orders/cora__P-LS__W16__tau3__own__522bd427b6d8.json,3793c59489e0ea05fa5d416181e953fff9c09247e5d42633b53f21264835154e,T21 J1 output before D stage (own)
+M6-reuse,cora,P-LS,rabbit-pilot,0,2,0,orders/cora__P-LS__W16__tau2__own__b26f2cff6cb4.json,396f794d0a381a80f8679ce5e28a7873e5931c199db11466c1ceb78a0c50f21c,T21 J1 output before D stage (own)
+M6-reuse,cora,P-LS,rabbit-pilot,0,3,0,orders/cora__P-LS__W16__tau3__own__133850dd1b73.json,36be3db54ae223a12a899d21c6e14a96bb4640238d750a59b7d14abab115e25d,T21 J1 output before D stage (own)
+M6-reuse,ogbn-arxiv,P-LS,C9-Gorder,0,2,0,orders/ogbn-arxiv__P-LS__W16__tau2__own__f762ffe0067c.json,c35b4c3be00aa1cab9b5101465e2dcc4186ff85da7399966cf0e0b8c6b27b8b3,T21 J1 output before D stage (own)
+M6-reuse,ogbn-arxiv,P-LS,C9-Gorder,0,3,0,orders/ogbn-arxiv__P-LS__W16__tau3__own__497904383ac4.json,2ad4ca4663e7f423b846cbdea92c94b7cee8bca9d17942938e178e7e9c8a9662,T21 J1 output before D stage (own)
+M6-reuse,ogbn-arxiv,P-LS,C9-Gorder,1,2,0,orders/ogbn-arxiv__P-LS__W16__tau2__own__0b22cc8d64b2.json,ac2ef0314a999b08b46418d366aa1ed0f7774ba531094a38e041df7f0e89d08a,T21 J1 output before D stage (own)
+M6-reuse,ogbn-arxiv,P-LS,C9-Gorder,1,3,0,orders/ogbn-arxiv__P-LS__W16__tau3__own__a0305d0e9272.json,16dfad8e26e0bd34f1cda4f207a42c3774d405d752b7fe51c27dc2273252858d,T21 J1 output before D stage (own)
+M6-reuse,ogbn-arxiv,P-LS,rsh-α0,0,2,0,orders/ogbn-arxiv__P-LS__W16__tau2__own__be280720321c.json,deda12d2505c26b1006ba1ebfda38a876fef6bbbf9b9e9aba0071b700f8223b9,T21 J1 output before D stage (own)
+M6-reuse,ogbn-arxiv,P-LS,rsh-α0,0,3,0,orders/ogbn-arxiv__P-LS__W16__tau3__own__0cd2c9f7377b.json,db2ddf5c655a533caac5685af78eb440cbb358db4fdc8363b37323591020800e,T21 J1 output before D stage (own)
+M6-reuse,ogbn-arxiv,P-LS,rsh-α0,1,2,0,orders/ogbn-arxiv__P-LS__W16__tau2__own__4637811091aa.json,69c71b8e44f26b769b8704abc7927b277e144dfc86f0ddda879f76f3eacb1ab1,T21 J1 output before D stage (own)
+M6-reuse,ogbn-arxiv,P-LS,rsh-α0,1,3,0,orders/ogbn-arxiv__P-LS__W16__tau3__own__217f85bef482.json,20866c53817c2a8cb24c028bb93d22c403ff6b7038306e59391c85411a292e02,T21 J1 output before D stage (own)
+M6-reuse,ogbn-arxiv,P-LS,rabbit-pilot,0,2,0,orders/ogbn-arxiv__P-LS__W16__tau2__own__e37c17b97c70.json,49188686383937cf1bcbb27b49f7b34a3c4f29c04039f33d034eedd00ce78173,T21 J1 output before D stage (own)
+M6-reuse,ogbn-arxiv,P-LS,rabbit-pilot,0,3,0,orders/ogbn-arxiv__P-LS__W16__tau3__own__06be4bbe3f6f.json,f06d416cec44524ebaf242ccf4c91a30d1ae61ad8bd950ddf17e03ff3551656e,T21 J1 output before D stage (own)
+M6-reuse,wiki-RfA,P-LS,C9-Gorder,0,2,0,orders/wiki-RfA__P-LS__W16__tau2__own__1069b7192861.json,42a8225da9f9a84b61024d619681ae0294d92152bbc8ed2890eb3041495871c8,T21 J1 output before D stage (own)
+M6-reuse,wiki-RfA,P-LS,C9-Gorder,0,3,0,orders/wiki-RfA__P-LS__W16__tau3__own__36977e3e7fe4.json,3dc08d815e2d5854beefb06434252b3b659d0e0d82d4dd76c905114715ad29c6,T21 J1 output before D stage (own)
+M6-reuse,wiki-RfA,P-LS,C9-Gorder,1,2,0,orders/wiki-RfA__P-LS__W16__tau2__own__bdd0754112e3.json,23b68b613988e8c982e60c12ec937203a2cd62ac8ec72125e45120fe9e6e7031,T21 J1 output before D stage (own)
+M6-reuse,wiki-RfA,P-LS,C9-Gorder,1,3,0,orders/wiki-RfA__P-LS__W16__tau3__own__7d97f1bc4877.json,7fcb68b92bb7d82066a2911080453aefe0ca541f4912ae82d2a30b9d3015b65e,T21 J1 output before D stage (own)
+M6-reuse,wiki-RfA,P-LS,rsh-α0,0,2,0,orders/wiki-RfA__P-LS__W16__tau2__own__3420496d8f4d.json,d15cc7226762d96822d72c5f54fbd0dc883ac277b5faa7e2a2f8d97cf1613dd1,T21 J1 output before D stage (own)
+M6-reuse,wiki-RfA,P-LS,rsh-α0,0,3,0,orders/wiki-RfA__P-LS__W16__tau3__own__31b804be77c6.json,e012374171102686d8dbd2ba68f2740db6bfdfb602ee28be68dd6c4c0387d916,T21 J1 output before D stage (own)
+M6-reuse,wiki-RfA,P-LS,rsh-α0,1,2,0,orders/wiki-RfA__P-LS__W16__tau2__own__d19077f8e157.json,e5a1fcde35967b9897ab2961831be2281818845dcffbf9204057c2401dea24bc,T21 J1 output before D stage (own)
+M6-reuse,wiki-RfA,P-LS,rsh-α0,1,3,0,orders/wiki-RfA__P-LS__W16__tau3__own__1ab4dbaf05b1.json,a2cb2886fb8cec51a8be4fdcd904428edb534c3bbd5b8cbc8f15aa9bde91c0dd,T21 J1 output before D stage (own)
+M6-reuse,wiki-RfA,P-LS,rabbit-pilot,0,2,0,orders/wiki-RfA__P-LS__W16__tau2__own__8cca5cfec88d.json,1321451524e1e053cc1f45cbae5f7099d2d9adc694600ec061cfbf2aba56cb33,T21 J1 output before D stage (own)
+M6-reuse,wiki-RfA,P-LS,rabbit-pilot,0,3,0,orders/wiki-RfA__P-LS__W16__tau3__own__20d6a4dad8b2.json,b4b00222d8a87a774e38ce8dd0a132c903faed5d1e59e625e72805770216b528,T21 J1 output before D stage (own)

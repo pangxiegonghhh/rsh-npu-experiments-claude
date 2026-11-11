@@ -1,0 +1,202 @@
+[
+  {
+    "matrix": "ogbn-products",
+    "method": "B0",
+    "member": "B0",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__B0__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "B1",
+    "member": "B1",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__B1__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "B-RCM-ref",
+    "member": "B-RCM-ref",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__B-RCM-ref__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "rabbit-pilot",
+    "member": "rabbit-pilot",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__rabbit-pilot__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "neutron-pilot",
+    "member": "neutron-pilot",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__neutron-pilot__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C9-Gorder",
+    "member": "C9-Gorder",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C9-Gorder__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C9-S",
+    "member": "C9-S",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C9-S__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C10-BP",
+    "member": "C10-BP",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C10-BP__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C2-LSH",
+    "member": "C2-LSH",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C2-LSH__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C3-W1",
+    "member": "C3-W1",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C3-W1__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C3-W4",
+    "member": "C3-W4",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C3-W4__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C4-U",
+    "member": "C4-U",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C4-U__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C4-T",
+    "member": "C4-T",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C4-T__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C7-I",
+    "member": "C7-I",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C7-I__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C3-A",
+    "member": "C3-A",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C3-A__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C3-W4-noP",
+    "member": "C3-W4-noP",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C3-W4-noP__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C3-W4-R",
+    "member": "C3-W4-R",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C3-W4-R__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C3-A-R",
+    "member": "C3-A-R",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C3-A-R__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C4-U-R",
+    "member": "C4-U-R",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C4-U-R__W16__seed0",
+    "data_missing": false
+  },
+  {
+    "matrix": "ogbn-products",
+    "method": "C4-T-R",
+    "member": "C4-T-R",
+    "W": 16,
+    "seed": 0,
+    "scope": "second batch",
+    "case_id": "stage3-ogbn-products__C4-T-R__W16__seed0",
+    "data_missing": false
+  }
+]

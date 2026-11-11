@@ -1,0 +1,92 @@
+{
+  "matrix": "pattern1",
+  "method": "C3-W1",
+  "W": 16,
+  "seed": 0,
+  "start": 1793979764.879499,
+  "status": "OK",
+  "command": [
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+    "--matrix",
+    "pattern1",
+    "--method",
+    "C3-W1",
+    "--seed",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/pattern1__C3-W1__W16__seed0.order.json",
+  "sha256": "d915dc3e0001ead8c93b535c93eb5cdc01845525a559fc33a172c805868a370d",
+  "size": 105282,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 1659,
+        "sumU": 665092,
+        "sumGamma": 60001,
+        "elapsed": 1.752161979675293
+      },
+      {
+        "sweep": 1,
+        "accepted": 300,
+        "sumU": 662053,
+        "sumGamma": 59145,
+        "elapsed": 3.6658201217651367
+      },
+      {
+        "sweep": 2,
+        "accepted": 49,
+        "sumU": 661712,
+        "sumGamma": 58795,
+        "elapsed": 5.62331223487854
+      },
+      {
+        "sweep": 3,
+        "accepted": 7,
+        "sumU": 661669,
+        "sumGamma": 58746,
+        "elapsed": 7.513520240783691
+      },
+      {
+        "sweep": 4,
+        "accepted": 2,
+        "sumU": 661087,
+        "sumGamma": 58492,
+        "elapsed": 9.184061288833618
+      },
+      {
+        "sweep": 5,
+        "accepted": 0,
+        "sumU": 661087,
+        "sumGamma": 58492,
+        "elapsed": 10.856222867965698
+      }
+    ],
+    "sweeps_done": 6,
+    "accepted_swaps": 2017,
+    "tracked_sumU": 661087,
+    "tracked_sumGamma": 58492,
+    "independent_full_recompute": {
+      "k_windows": 943,
+      "sumU": 661087,
+      "T": 41895,
+      "sumGamma": 58492,
+      "sumR": 75516,
+      "R_p50": 79,
+      "R_p90": 90,
+      "R_max": 1532,
+      "write_runs_aic": 943,
+      "meanR": 80.080594
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 456974858
+  },
+  "end": 1793979777.354045,
+  "seconds": 12.474545955657959,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/pattern1__C3-W1__W16__seed0.order.json",
+  "member": "C3-W1",
+  "tau": 8,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/pattern1__C3-W1__tau8/order.json",
+  "peak_mem_mb": 297.203125
+}

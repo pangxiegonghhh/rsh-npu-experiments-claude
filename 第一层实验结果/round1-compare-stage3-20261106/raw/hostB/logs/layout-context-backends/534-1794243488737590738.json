@@ -1,0 +1,18 @@
+{
+  "python_implementation_revision": "v7-flat-co-default-and-backend-provenance; unchanged v6 chain/failure cache",
+  "pid": 534,
+  "argv": [
+    "scripts/evaluate_t23.py",
+    "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-eval-catalog/stage3-ogbn-products__C3-W4-R__W16__seed0.json"
+  ],
+  "matrix": "ogbn-products",
+  "n": 2449029,
+  "first_context_W": 16,
+  "first_context_windows": 153065,
+  "binary_loaded_at": 1794242310.0472906,
+  "first_context_at": 1794243488.737602,
+  "library_path": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/liblayouts-v7.dylib",
+  "library_sha256": "16edac6db1831b2f6308a16fb0e52f990f1b01e7c22b369a699d40003158f7d4",
+  "library_override_at_import": null,
+  "scope": "actual DLL selected and hashed at module import; applies to this process only, not prior/queued imports"
+}

@@ -1,0 +1,29 @@
+{
+  "activated_at": 1793989503.6441338,
+  "applies_to": "future imports only; current Reddit B0 remains loaded v2",
+  "base": "v3 exact dense candidate representation",
+  "change": "within immutable Context, cache inter result keyed by full ordered groups; cache residual chain keyed by full ordered residual vector and retain exact per-call skipped-window count; unchanged algorithms/parameters/ties",
+  "gates": [
+    "layout-v4-port-gate.json",
+    "layout-W-sensitivity-v4-gate.json",
+    "rq3-native-table-v4-gate.json",
+    "layout-v4-random-gate.json"
+  ],
+  "compile_command": [
+    "c++",
+    "-std=c++17",
+    "-O3",
+    "-ffp-contract=off",
+    "-dynamiclib",
+    "scripts/layouts_cached.cpp",
+    "-o",
+    "work/liblayouts-v4.dylib"
+  ],
+  "compiler_exitcode": 0,
+  "compiler_rebuild_byte_identical": true,
+  "source_sha256": "d146347f03fb09f9ae8d4e63f794954103fe38655388a1455cb4a48e836837ae",
+  "binary_sha256": "10020ab112dbf80e28229a7d15fb00d8f162386e6171e0b792937abe55fd2d9f",
+  "native_before_sha256": "fa8403fd257043ba059c5d204666fa42459632c8a88aad2ae47e8ea85508c5af",
+  "native_after_sha256": "5ff24398f44ae2651d18e0ac42edce19977a7a5998d985ae0b742ba93b13fc19",
+  "no_scientific_job_restarted": true
+}

@@ -1,0 +1,71 @@
+{
+  "matrix": "olafu",
+  "method": "C4-U",
+  "W": 16,
+  "seed": 0,
+  "start": 1793979762.279008,
+  "status": "OK",
+  "command": [
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+    "--matrix",
+    "olafu",
+    "--method",
+    "C4-U",
+    "--seed",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/olafu__C4-U__W16__seed0.order.json",
+  "sha256": "23a5e613ebfbe27b04fde92cfafe61a5cd89e0244afb8caf2258fd1fe2dab615",
+  "size": 86433,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 227,
+        "sumU": 92022,
+        "sumGamma": 9129,
+        "elapsed": 0.23555707931518555
+      },
+      {
+        "sweep": 1,
+        "accepted": 4,
+        "sumU": 92016,
+        "sumGamma": 9129,
+        "elapsed": 0.47095799446105957
+      },
+      {
+        "sweep": 2,
+        "accepted": 0,
+        "sumU": 92016,
+        "sumGamma": 9129,
+        "elapsed": 0.7071678638458252
+      }
+    ],
+    "sweeps_done": 3,
+    "accepted_swaps": 231,
+    "tracked_sumU": 92016,
+    "tracked_sumGamma": 9129,
+    "independent_full_recompute": {
+      "k_windows": 623,
+      "sumU": 92016,
+      "T": 6060,
+      "sumGamma": 9129,
+      "sumR": 5766,
+      "R_p50": 8,
+      "R_p90": 16,
+      "R_max": 28,
+      "write_runs_aic": 623,
+      "meanR": 9.255217
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 53824076
+  },
+  "end": 1793979763.219002,
+  "seconds": 0.9399940967559814,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/olafu__C4-U__W16__seed0.order.json",
+  "member": "C4-U",
+  "tau": 53,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/olafu__C4-U__tau53/order.json",
+  "peak_mem_mb": 93.90625
+}

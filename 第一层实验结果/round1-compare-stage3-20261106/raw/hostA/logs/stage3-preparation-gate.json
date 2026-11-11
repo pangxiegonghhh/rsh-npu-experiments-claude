@@ -1,0 +1,207 @@
+{
+  "passed": true,
+  "synthetic_only": true,
+  "checks": [
+    {
+      "fixture_seed": 0,
+      "method": "C9-Gorder",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 0,
+      "method": "C9-S",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 0,
+      "method": "C10-BP",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 0,
+      "method": "rsh-\u03b10",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 0,
+      "method": "B-RCM-ref",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 0,
+      "method": "C3-W4-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 0,
+      "method": "C3-A-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 0,
+      "method": "C4-U-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 0,
+      "method": "C4-T-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 0,
+      "method": "C7-I-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 1,
+      "method": "C9-Gorder",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 1,
+      "method": "C9-S",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 1,
+      "method": "C10-BP",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 1,
+      "method": "rsh-\u03b10",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 1,
+      "method": "B-RCM-ref",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 1,
+      "method": "C3-W4-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 1,
+      "method": "C3-A-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 1,
+      "method": "C4-U-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 1,
+      "method": "C4-T-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 1,
+      "method": "C7-I-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 2,
+      "method": "C9-Gorder",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 2,
+      "method": "C9-S",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 2,
+      "method": "C10-BP",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 2,
+      "method": "rsh-\u03b10",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 2,
+      "method": "B-RCM-ref",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 2,
+      "method": "C3-W4-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 2,
+      "method": "C3-A-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 2,
+      "method": "C4-U-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 2,
+      "method": "C4-T-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 2,
+      "method": "C7-I-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 3,
+      "method": "C9-Gorder",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 3,
+      "method": "C9-S",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 3,
+      "method": "C10-BP",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 3,
+      "method": "rsh-\u03b10",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 3,
+      "method": "B-RCM-ref",
+      "nonempty_reference_identical": true
+    },
+    {
+      "fixture_seed": 3,
+      "method": "C3-W4-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 3,
+      "method": "C3-A-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 3,
+      "method": "C4-U-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 3,
+      "method": "C4-T-R",
+      "symmetric_renumbering_identical": true
+    },
+    {
+      "fixture_seed": 3,
+      "method": "C7-I-R",
+      "symmetric_renumbering_identical": true
+    }
+  ],
+  "formal_stage3_started": false
+}

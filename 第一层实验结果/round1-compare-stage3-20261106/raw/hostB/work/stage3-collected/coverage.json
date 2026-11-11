@@ -1,0 +1,11 @@
+{
+  "planned_cases": 20,
+  "attempted": 20,
+  "OK": 0,
+  "INCOMPLETE": 20,
+  "SKIPPED": 0,
+  "optional_reference_skip_cells": 6,
+  "result_rows": 488,
+  "post_records": 22,
+  "all_attempted": true
+}

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/post_e_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/wiki-RfA__B0__tau3.json"
+  ],
+  "start": 1793972683.966802,
+  "end": 1793972919.43427,
+  "exitcode": 0
+}

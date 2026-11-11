@@ -1,0 +1,46 @@
+{
+  "matrix": "cora",
+  "method": "B0",
+  "member": "B0",
+  "W": 32,
+  "seed": 0,
+  "scope": "W sensitivity",
+  "case_id": "stage3-cora__B0__W32__seed0",
+  "main_tau_only": true,
+  "reuse": {
+    "task": "T23",
+    "use": "W-sensitivity",
+    "matrix": "cora",
+    "t23_member": "B0",
+    "t21_member": "B0",
+    "W": "32",
+    "params": "",
+    "source": "T21 完整归档",
+    "path": "orders/cora__B0__W32__tauNone__own__bb3cb228f4bc.json",
+    "sha256": "3d646f765ad40275e802736f0b8b36f10ed2861a673ce4ea2e822c623f2e42c3",
+    "note": "B0、B1 与 W 无关，与 W16 文件内容相同",
+    "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__B0__W32__tauNone__own__bb3cb228f4bc.json",
+    "verified_sha256": "3d646f765ad40275e802736f0b8b36f10ed2861a673ce4ea2e822c623f2e42c3",
+    "origin": "T21 archive"
+  },
+  "status": "OK",
+  "start": 1793986158.51881,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__B0__W32__tauNone__own__bb3cb228f4bc.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__B0__W32__tauNone__own__bb3cb228f4bc.json",
+  "sha256": "3d646f765ad40275e802736f0b8b36f10ed2861a673ce4ea2e822c623f2e42c3",
+  "size": 12559,
+  "seconds": "",
+  "diagnostics": {},
+  "reused": true,
+  "evaluation_root": "stage3-evaluations",
+  "diagnostic_root": "stage3-diagnostics",
+  "eval_taus": [
+    3
+  ],
+  "evaluation_status": {
+    "status": "OK",
+    "rows": 12,
+    "seconds": 0.07677102088928223
+  },
+  "controller_end": 1793986159.052407
+}

@@ -1,0 +1,99 @@
+{
+  "matrix": "cora",
+  "method": "C1-H",
+  "W": 16,
+  "seed": 0,
+  "start": 1793970161.604044,
+  "status": "OK",
+  "command": [
+    "scripts/external_c1.py",
+    "--matrix",
+    "cora",
+    "--variant",
+    "H",
+    "--seed",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/cora__C1-H__W16__seed0.order.json",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/cora__C1-H__W16__seed0.order.json",
+  "sha256": "0facf0d52a839bdad368f63b95cc6158a72e5fd3d0856a40b4487a9993ff82c5",
+  "size": 13423,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 1040,
+        "sumU": 5534,
+        "sumGamma": 2887,
+        "elapsed": 0.02262282371520996
+      },
+      {
+        "sweep": 1,
+        "accepted": 299,
+        "sumU": 5184,
+        "sumGamma": 2538,
+        "elapsed": 0.041905879974365234
+      },
+      {
+        "sweep": 2,
+        "accepted": 96,
+        "sumU": 5071,
+        "sumGamma": 2423,
+        "elapsed": 0.09261178970336914
+      },
+      {
+        "sweep": 3,
+        "accepted": 19,
+        "sumU": 5051,
+        "sumGamma": 2401,
+        "elapsed": 0.10322880744934082
+      },
+      {
+        "sweep": 4,
+        "accepted": 5,
+        "sumU": 5046,
+        "sumGamma": 2393,
+        "elapsed": 0.1338517665863037
+      },
+      {
+        "sweep": 5,
+        "accepted": 4,
+        "sumU": 5042,
+        "sumGamma": 2391,
+        "elapsed": 0.15253567695617676
+      },
+      {
+        "sweep": 6,
+        "accepted": 0,
+        "sumU": 5042,
+        "sumGamma": 2391,
+        "elapsed": 0.17223596572875977
+      }
+    ],
+    "sweeps_done": 7,
+    "accepted_swaps": 1463,
+    "tracked_sumU": 5042,
+    "tracked_sumGamma": 2391,
+    "independent_full_recompute": {
+      "k_windows": 103,
+      "sumU": 5042,
+      "T": 364,
+      "sumGamma": 2391,
+      "sumR": 3502,
+      "R_p50": 33,
+      "R_p90": 48,
+      "R_max": 97,
+      "write_runs_aic": 103,
+      "meanR": 34.0
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 766812
+  },
+  "end": 1793970161.806646,
+  "seconds": 0.20260214805603027,
+  "peak_mem_mb": 33.0625,
+  "member": "C1-H",
+  "tau": 2,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/cora__C1-H__tau2/order.json"
+}

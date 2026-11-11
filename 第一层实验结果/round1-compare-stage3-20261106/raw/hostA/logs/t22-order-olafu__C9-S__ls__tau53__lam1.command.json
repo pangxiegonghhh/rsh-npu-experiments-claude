@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/olafu__C9-S__ls__tau53__lam1.json"
+  ],
+  "start": 1793979803.4695559,
+  "end": 1793979820.453435,
+  "exitcode": 0
+}

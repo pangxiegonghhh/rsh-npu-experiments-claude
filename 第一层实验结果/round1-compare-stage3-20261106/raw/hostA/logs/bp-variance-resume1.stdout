@@ -1,0 +1,8 @@
+bp-variance-order-cora__C10-BP__W16__seed1 0 535.3
+bp-variance-eval-cora__C10-BP__W16__seed1 0 234.8
+bp-variance-order-cora__C10-BP__W16__seed2 0 231.7
+bp-variance-eval-cora__C10-BP__W16__seed2 0 452.0
+bp-variance-order-ogbn-arxiv__C10-BP__W16__seed1 0 410.2
+bp-variance-eval-ogbn-arxiv__C10-BP__W16__seed1 0 260.1
+bp-variance-order-ogbn-arxiv__C10-BP__W16__seed2 0 186.5
+bp-variance-eval-ogbn-arxiv__C10-BP__W16__seed2 0 220.2

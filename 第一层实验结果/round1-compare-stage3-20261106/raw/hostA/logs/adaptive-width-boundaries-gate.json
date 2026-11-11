@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "n": 49999,
+      "b": 4,
+      "identical": true
+    },
+    {
+      "n": 50000,
+      "b": 32,
+      "identical": true
+    },
+    {
+      "n": 99999,
+      "b": 32,
+      "identical": true
+    },
+    {
+      "n": 100000,
+      "b": 128,
+      "identical": true
+    }
+  ],
+  "synthetic_only": true
+}

@@ -1,0 +1,182 @@
+cora__B0__tau3 0 0.5
+cora__B0__tau2 0 0.5
+cora__B1 (rsh-α0)__tau2 0 0.3
+cora__B1 (rsh-α0)__tau3 0 0.3
+cora__rabbit-pilot (历史参照)__tau2 0 0.3
+cora__rabbit-pilot (历史参照)__tau3 0 0.3
+cora__neutron-pilot (历史参照)__tau2 0 0.3
+cora__neutron-pilot (历史参照)__tau3 0 0.3
+cora__C9-Gorder__tau2 0 0.2
+cora__C9-Gorder__tau3 0 0.2
+cora__C9-S__tau2 0 0.3
+cora__C9-S__tau3 0 0.3
+cora__C10-BP__tau2 0 0.3
+cora__C10-BP__tau3 0 0.3
+ogbn-arxiv__B0__tau3 0 370.7
+ogbn-arxiv__B0__tau2 0 435.0
+ogbn-arxiv__B1 (rsh-α0)__tau2 0 476.9
+ogbn-arxiv__B1 (rsh-α0)__tau3 0 464.0
+ogbn-arxiv__rabbit-pilot (历史参照)__tau3 0 700.4
+ogbn-arxiv__neutron-pilot (历史参照)__tau2 0 0.2
+ogbn-arxiv__neutron-pilot (历史参照)__tau3 0 0.2
+ogbn-arxiv__C9-Gorder__tau2 0 37.3
+ogbn-arxiv__C9-Gorder__tau3 0 30.1
+ogbn-arxiv__rabbit-pilot (历史参照)__tau2 0 820.1
+ogbn-arxiv__C9-S__tau3 0 473.7
+ogbn-arxiv__C10-BP__tau2 1 0.3
+ogbn-arxiv__C10-BP__tau3 1 0.3
+wiki-RfA__B0__tau2 1 0.3
+wiki-RfA__B0__tau3 1 0.3
+wiki-RfA__B1 (rsh-α0)__tau2 1 0.2
+wiki-RfA__B1 (rsh-α0)__tau3 1 0.2
+wiki-RfA__rabbit-pilot (历史参照)__tau2 0 0.4
+wiki-RfA__rabbit-pilot (历史参照)__tau3 0 0.2
+wiki-RfA__neutron-pilot (历史参照)__tau2 0 0.2
+wiki-RfA__neutron-pilot (历史参照)__tau3 0 0.4
+wiki-RfA__C9-Gorder__tau2 1 0.3
+wiki-RfA__C9-Gorder__tau3 1 0.2
+wiki-RfA__C9-S__tau2 1 0.3
+wiki-RfA__C9-S__tau3 1 0.3
+wiki-RfA__C10-BP__tau2 1 0.1
+wiki-RfA__C10-BP__tau3 1 0.2
+dawson5__B0__tau15 1 0.2
+dawson5__B0__tau17 1 0.3
+dawson5__B1 (rsh-α0)__tau15 1 0.3
+dawson5__B1 (rsh-α0)__tau17 1 0.2
+dawson5__rabbit-pilot (历史参照)__tau15 0 0.1
+dawson5__rabbit-pilot (历史参照)__tau17 0 0.2
+dawson5__neutron-pilot (历史参照)__tau15 0 0.2
+dawson5__neutron-pilot (历史参照)__tau17 0 0.2
+dawson5__C9-Gorder__tau15 1 0.2
+dawson5__C9-Gorder__tau17 1 0.2
+dawson5__C9-S__tau15 1 0.2
+dawson5__C9-S__tau17 1 0.2
+dawson5__C10-BP__tau15 1 0.2
+dawson5__C10-BP__tau17 1 0.2
+olafu__B0__tau53 1 0.2
+olafu__B0__tau56 1 0.2
+olafu__B1 (rsh-α0)__tau53 1 0.4
+olafu__B1 (rsh-α0)__tau56 1 0.3
+olafu__rabbit-pilot (历史参照)__tau53 0 0.2
+olafu__rabbit-pilot (历史参照)__tau56 0 0.3
+olafu__neutron-pilot (历史参照)__tau53 0 0.2
+olafu__neutron-pilot (历史参照)__tau56 0 0.2
+olafu__C9-Gorder__tau53 1 0.3
+olafu__C9-Gorder__tau56 1 0.2
+olafu__C9-S__tau53 1 0.3
+olafu__C9-S__tau56 1 0.2
+olafu__C10-BP__tau53 1 0.2
+olafu__C10-BP__tau56 1 0.2
+pattern1__B0__tau8 1 0.2
+pattern1__B0__tau757 1 0.2
+pattern1__B1 (rsh-α0)__tau8 1 0.2
+pattern1__B1 (rsh-α0)__tau757 1 0.1
+pattern1__rabbit-pilot (历史参照)__tau8 0 0.2
+pattern1__rabbit-pilot (历史参照)__tau757 0 0.3
+pattern1__neutron-pilot (历史参照)__tau8 0 0.2
+pattern1__neutron-pilot (历史参照)__tau757 0 0.2
+pattern1__C9-Gorder__tau8 1 0.2
+pattern1__C9-Gorder__tau757 1 0.3
+pattern1__C9-S__tau8 1 0.3
+pattern1__C9-S__tau757 1 0.2
+pattern1__C10-BP__tau8 1 0.2
+pattern1__C10-BP__tau757 1 0.2
+human_gene1__B0__tau82 1 0.2
+human_gene1__B0__tau342 1 0.3
+human_gene1__B1 (rsh-α0)__tau82 1 0.2
+human_gene1__B1 (rsh-α0)__tau342 1 0.3
+human_gene1__rabbit-pilot (历史参照)__tau82 0 0.2
+human_gene1__rabbit-pilot (历史参照)__tau342 0 0.3
+human_gene1__neutron-pilot (历史参照)__tau82 0 0.2
+human_gene1__neutron-pilot (历史参照)__tau342 0 0.2
+human_gene1__C9-Gorder__tau82 1 0.4
+human_gene1__C9-Gorder__tau342 1 0.2
+human_gene1__C9-S__tau82 1 0.2
+human_gene1__C9-S__tau342 1 0.3
+human_gene1__C10-BP__tau82 1 0.3
+human_gene1__C10-BP__tau342 1 0.4
+cora__C2-LSH__tau2 1 0.3
+cora__C2-LSH__tau3 1 0.2
+cora__C3-W1__tau2 1 0.2
+cora__C3-W1__tau3 1 0.2
+cora__C3-W4__tau2 1 0.1
+cora__C3-W4__tau3 1 0.2
+cora__C4-T__tau2 1 0.2
+cora__C4-T__tau3 1 0.3
+cora__C4-U__tau2 1 0.2
+cora__C4-U__tau3 1 0.3
+cora__C7-I__tau2 1 0.2
+cora__C7-I__tau3 1 0.4
+dawson5__C2-LSH__tau15 1 0.3
+dawson5__C2-LSH__tau17 1 0.3
+dawson5__C3-W1__tau15 1 0.3
+dawson5__C3-W1__tau17 1 0.2
+dawson5__C3-W4__tau15 1 0.2
+dawson5__C3-W4__tau17 1 0.4
+dawson5__C4-T__tau15 1 0.2
+dawson5__C4-T__tau17 1 0.2
+dawson5__C4-U__tau15 1 0.1
+dawson5__C4-U__tau17 1 0.2
+dawson5__C7-I__tau15 1 0.2
+dawson5__C7-I__tau17 1 0.4
+human_gene1__C2-LSH__tau82 1 0.2
+human_gene1__C2-LSH__tau342 1 0.2
+human_gene1__C3-W1__tau82 1 0.2
+human_gene1__C3-W1__tau342 1 0.1
+human_gene1__C3-W4__tau82 1 0.2
+human_gene1__C3-W4__tau342 1 0.2
+human_gene1__C4-T__tau82 1 0.3
+human_gene1__C4-T__tau342 1 0.2
+human_gene1__C4-U__tau82 1 0.3
+human_gene1__C4-U__tau342 1 0.3
+human_gene1__C7-I__tau82 1 0.2
+human_gene1__C7-I__tau342 1 0.2
+ogbn-arxiv__C2-LSH__tau2 1 0.2
+ogbn-arxiv__C2-LSH__tau3 1 0.2
+ogbn-arxiv__C3-W1__tau2 1 0.1
+ogbn-arxiv__C3-W1__tau3 1 0.2
+ogbn-arxiv__C3-W4__tau2 1 0.2
+ogbn-arxiv__C3-W4__tau3 1 0.3
+ogbn-arxiv__C4-T__tau2 1 0.2
+ogbn-arxiv__C4-T__tau3 1 0.2
+ogbn-arxiv__C4-U__tau2 1 0.2
+ogbn-arxiv__C4-U__tau3 1 0.1
+ogbn-arxiv__C7-I__tau2 1 0.1
+ogbn-arxiv__C7-I__tau3 1 0.2
+olafu__C2-LSH__tau53 1 0.3
+olafu__C2-LSH__tau56 1 0.1
+olafu__C3-W1__tau53 1 0.2
+olafu__C3-W1__tau56 1 0.2
+ogbn-arxiv__C9-S__tau2 0 503.2
+olafu__C3-W4__tau53 0 2.4
+olafu__C3-W4__tau56 0 3.6
+olafu__C4-T__tau56 1 0.1
+olafu__C4-U__tau53 1 0.1
+olafu__C4-U__tau56 1 0.1
+olafu__C4-T__tau53 0 2.6
+olafu__C7-I__tau53 0 2.5
+olafu__C7-I__tau56 0 2.2
+pattern1__C2-LSH__tau757 0 18.5
+pattern1__C3-W1__tau8 1 0.2
+pattern1__C3-W1__tau757 1 0.1
+pattern1__C2-LSH__tau8 0 25.8
+pattern1__C3-W4__tau757 1 0.1
+pattern1__C4-T__tau8 1 0.1
+pattern1__C4-T__tau757 1 0.1
+pattern1__C4-U__tau8 0 20.3
+pattern1__C3-W4__tau8 0 38.7
+pattern1__C7-I__tau8 1 0.1
+pattern1__C7-I__tau757 1 0.1
+pattern1__C4-U__tau757 0 18.3
+wiki-RfA__C2-LSH__tau2 0 15.8
+wiki-RfA__C2-LSH__tau3 0 17.7
+wiki-RfA__C3-W1__tau2 0 17.6
+wiki-RfA__C3-W1__tau3 0 17.4
+wiki-RfA__C3-W4__tau2 0 17.0
+wiki-RfA__C3-W4__tau3 0 16.7
+wiki-RfA__C4-T__tau2 0 17.0
+wiki-RfA__C4-T__tau3 0 17.1
+wiki-RfA__C4-U__tau2 0 16.8
+wiki-RfA__C4-U__tau3 0 16.4
+wiki-RfA__C7-I__tau2 0 15.9
+wiki-RfA__C7-I__tau3 0 15.9

@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "commands": [
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-B",
+        "scripts/gate_width_sensitivity_v7.py"
+      ],
+      "environment_override": {
+        "RQ3_LAYOUT_LIB": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib"
+      },
+      "source_sha256": "fc5c889240f223a02b9e746f47ebbe4b1dbd345ad267ee709bbc8ca8f8f56ea6",
+      "start": 1794070748.8453681,
+      "end": 1794070755.955467,
+      "exitcode": 0,
+      "output": "layout-W-sensitivity-v7-gate.json"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-B",
+        "scripts/gate_rq3_tables_v7.py"
+      ],
+      "environment_override": {
+        "RQ3_LAYOUT_LIB": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib"
+      },
+      "source_sha256": "5f83ee47d739996614f2ef499b959706915f7339dd65188018f2bf97b99ec394",
+      "start": 1794070755.956627,
+      "end": 1794070756.685919,
+      "exitcode": 0,
+      "output": "rq3-native-table-v7-gate.json"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-B",
+        "scripts/gate_layouts_flatco_random.py"
+      ],
+      "environment_override": {
+        "RQ3_LAYOUT_LIB": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib"
+      },
+      "source_sha256": "19874c2625e531fd5ff7b0a25e8ab71f3e54813a29e6db13e39a1bd38385f97e",
+      "start": 1794070756.686347,
+      "end": 1794070757.65737,
+      "exitcode": 0,
+      "output": "layout-v7-random-gate.json"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-B",
+        "scripts/gate_chain_v7_boundaries.py"
+      ],
+      "environment_override": {
+        "RQ3_LAYOUT_LIB": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib"
+      },
+      "source_sha256": "78600229776cbdf25975ab0642d920cde1e9b73f2a3c551915c4b96bbef03ec4",
+      "start": 1794070757.6639302,
+      "end": 1794070757.998304,
+      "exitcode": 0,
+      "output": "layout-v7-boundary-gate.json"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-B",
+        "scripts/gate_flatco_scale.py"
+      ],
+      "environment_override": {
+        "RQ3_LAYOUT_LIB": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib"
+      },
+      "source_sha256": "d23bc00315001233ecfff48765b3c9c14f8cf6adf3f0412efd86d8eda2e4e1c6",
+      "start": 1794070757.9992929,
+      "end": 1794070759.5907378,
+      "exitcode": 0,
+      "output": "layout-v7-scale-gate.json"
+    }
+  ],
+  "activated": false
+}

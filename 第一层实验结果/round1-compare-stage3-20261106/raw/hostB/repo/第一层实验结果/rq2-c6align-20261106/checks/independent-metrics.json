@@ -1,0 +1,925 @@
+{
+  "passed": true,
+  "independent_raw_input": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/pattern1.mtx",
+  "input_sha256": "62e04b81ff10bca38216a8f31235085673f018e6fa055c672b6fdae6ddd92ae1",
+  "n": 19242,
+  "nnz_A0": 9304190,
+  "permutations_checked": 24,
+  "metric_conditions_checked": 64,
+  "metric_samples": [
+    {
+      "member": "C6",
+      "mnc": 0,
+      "condition": [
+        "A0",
+        "none",
+        "none",
+        "own"
+      ],
+      "order": "orders/pattern1__C6__W16__tauNone__own__7d9fa9559d29.json",
+      "passed": true
+    },
+    {
+      "member": "C6",
+      "mnc": 0,
+      "condition": [
+        "A1",
+        "none",
+        "none",
+        "own"
+      ],
+      "order": "orders/pattern1__C6__W16__tauNone__own__7d9fa9559d29.json",
+      "passed": true
+    },
+    {
+      "member": "C6",
+      "mnc": 0,
+      "condition": [
+        "A0",
+        "none",
+        "none",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6__W16__tauNone__D-greedy__4c38be32be02.json",
+      "passed": true
+    },
+    {
+      "member": "C6",
+      "mnc": 0,
+      "condition": [
+        "A1",
+        "none",
+        "none",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6__W16__tauNone__D-greedy__4c38be32be02.json",
+      "passed": true
+    },
+    {
+      "member": "C6",
+      "mnc": 0,
+      "condition": [
+        "A0",
+        2,
+        "inplace",
+        "own"
+      ],
+      "order": "orders/pattern1__C6__W16__tau2__own__7d9fa9559d29.json",
+      "passed": true
+    },
+    {
+      "member": "C6",
+      "mnc": 0,
+      "condition": [
+        "A1",
+        2,
+        "inplace",
+        "own"
+      ],
+      "order": "orders/pattern1__C6__W16__tau2__own__7d9fa9559d29.json",
+      "passed": true
+    },
+    {
+      "member": "C6",
+      "mnc": 0,
+      "condition": [
+        "A0",
+        2,
+        "tail",
+        "own"
+      ],
+      "order": "orders/pattern1__C6__W16__tau2__own__7d9fa9559d29.json",
+      "passed": true
+    },
+    {
+      "member": "C6",
+      "mnc": 0,
+      "condition": [
+        "A1",
+        2,
+        "tail",
+        "own"
+      ],
+      "order": "orders/pattern1__C6__W16__tau2__own__7d9fa9559d29.json",
+      "passed": true
+    },
+    {
+      "member": "C6",
+      "mnc": 0,
+      "condition": [
+        "A0",
+        2,
+        "tail",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6__W16__tau2__D-greedy__4c38be32be02.json",
+      "passed": true
+    },
+    {
+      "member": "C6",
+      "mnc": 0,
+      "condition": [
+        "A1",
+        2,
+        "tail",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6__W16__tau2__D-greedy__4c38be32be02.json",
+      "passed": true
+    },
+    {
+      "member": "C6",
+      "mnc": 0,
+      "condition": [
+        "A0",
+        3,
+        "inplace",
+        "own"
+      ],
+      "order": "orders/pattern1__C6__W16__tau3__own__7d9fa9559d29.json",
+      "passed": true
+    },
+    {
+      "member": "C6",
+      "mnc": 0,
+      "condition": [
+        "A1",
+        3,
+        "inplace",
+        "own"
+      ],
+      "order": "orders/pattern1__C6__W16__tau3__own__7d9fa9559d29.json",
+      "passed": true
+    },
+    {
+      "member": "C6",
+      "mnc": 0,
+      "condition": [
+        "A0",
+        3,
+        "tail",
+        "own"
+      ],
+      "order": "orders/pattern1__C6__W16__tau3__own__7d9fa9559d29.json",
+      "passed": true
+    },
+    {
+      "member": "C6",
+      "mnc": 0,
+      "condition": [
+        "A1",
+        3,
+        "tail",
+        "own"
+      ],
+      "order": "orders/pattern1__C6__W16__tau3__own__7d9fa9559d29.json",
+      "passed": true
+    },
+    {
+      "member": "C6",
+      "mnc": 0,
+      "condition": [
+        "A0",
+        3,
+        "tail",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6__W16__tau3__D-greedy__4c38be32be02.json",
+      "passed": true
+    },
+    {
+      "member": "C6",
+      "mnc": 0,
+      "condition": [
+        "A1",
+        3,
+        "tail",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6__W16__tau3__D-greedy__4c38be32be02.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 1,
+      "condition": [
+        "A0",
+        "none",
+        "none",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tauNone__own__2621a57b6da0.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 1,
+      "condition": [
+        "A1",
+        "none",
+        "none",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tauNone__own__2621a57b6da0.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 1,
+      "condition": [
+        "A0",
+        "none",
+        "none",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tauNone__D-greedy__2c10c1df863d.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 1,
+      "condition": [
+        "A1",
+        "none",
+        "none",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tauNone__D-greedy__2c10c1df863d.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 1,
+      "condition": [
+        "A0",
+        2,
+        "inplace",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__own__2621a57b6da0.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 1,
+      "condition": [
+        "A1",
+        2,
+        "inplace",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__own__2621a57b6da0.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 1,
+      "condition": [
+        "A0",
+        2,
+        "tail",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__own__2621a57b6da0.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 1,
+      "condition": [
+        "A1",
+        2,
+        "tail",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__own__2621a57b6da0.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 1,
+      "condition": [
+        "A0",
+        2,
+        "tail",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__D-greedy__2c10c1df863d.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 1,
+      "condition": [
+        "A1",
+        2,
+        "tail",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__D-greedy__2c10c1df863d.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 1,
+      "condition": [
+        "A0",
+        3,
+        "inplace",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__own__2621a57b6da0.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 1,
+      "condition": [
+        "A1",
+        3,
+        "inplace",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__own__2621a57b6da0.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 1,
+      "condition": [
+        "A0",
+        3,
+        "tail",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__own__2621a57b6da0.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 1,
+      "condition": [
+        "A1",
+        3,
+        "tail",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__own__2621a57b6da0.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 1,
+      "condition": [
+        "A0",
+        3,
+        "tail",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__D-greedy__2c10c1df863d.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 1,
+      "condition": [
+        "A1",
+        3,
+        "tail",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__D-greedy__2c10c1df863d.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 4,
+      "condition": [
+        "A0",
+        "none",
+        "none",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tauNone__own__0adbfa95276b.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 4,
+      "condition": [
+        "A1",
+        "none",
+        "none",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tauNone__own__0adbfa95276b.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 4,
+      "condition": [
+        "A0",
+        "none",
+        "none",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tauNone__D-greedy__da52363f8597.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 4,
+      "condition": [
+        "A1",
+        "none",
+        "none",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tauNone__D-greedy__da52363f8597.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 4,
+      "condition": [
+        "A0",
+        2,
+        "inplace",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__own__0adbfa95276b.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 4,
+      "condition": [
+        "A1",
+        2,
+        "inplace",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__own__0adbfa95276b.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 4,
+      "condition": [
+        "A0",
+        2,
+        "tail",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__own__0adbfa95276b.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 4,
+      "condition": [
+        "A1",
+        2,
+        "tail",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__own__0adbfa95276b.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 4,
+      "condition": [
+        "A0",
+        2,
+        "tail",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__D-greedy__da52363f8597.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 4,
+      "condition": [
+        "A1",
+        2,
+        "tail",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__D-greedy__da52363f8597.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 4,
+      "condition": [
+        "A0",
+        3,
+        "inplace",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__own__0adbfa95276b.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 4,
+      "condition": [
+        "A1",
+        3,
+        "inplace",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__own__0adbfa95276b.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 4,
+      "condition": [
+        "A0",
+        3,
+        "tail",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__own__0adbfa95276b.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 4,
+      "condition": [
+        "A1",
+        3,
+        "tail",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__own__0adbfa95276b.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 4,
+      "condition": [
+        "A0",
+        3,
+        "tail",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__D-greedy__da52363f8597.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 4,
+      "condition": [
+        "A1",
+        3,
+        "tail",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__D-greedy__da52363f8597.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 16,
+      "condition": [
+        "A0",
+        "none",
+        "none",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tauNone__own__f1ddcfe8fc59.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 16,
+      "condition": [
+        "A1",
+        "none",
+        "none",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tauNone__own__f1ddcfe8fc59.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 16,
+      "condition": [
+        "A0",
+        "none",
+        "none",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tauNone__D-greedy__15cfc021c476.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 16,
+      "condition": [
+        "A1",
+        "none",
+        "none",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tauNone__D-greedy__15cfc021c476.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 16,
+      "condition": [
+        "A0",
+        2,
+        "inplace",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__own__f1ddcfe8fc59.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 16,
+      "condition": [
+        "A1",
+        2,
+        "inplace",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__own__f1ddcfe8fc59.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 16,
+      "condition": [
+        "A0",
+        2,
+        "tail",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__own__f1ddcfe8fc59.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 16,
+      "condition": [
+        "A1",
+        2,
+        "tail",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__own__f1ddcfe8fc59.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 16,
+      "condition": [
+        "A0",
+        2,
+        "tail",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__D-greedy__15cfc021c476.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 16,
+      "condition": [
+        "A1",
+        2,
+        "tail",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau2__D-greedy__15cfc021c476.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 16,
+      "condition": [
+        "A0",
+        3,
+        "inplace",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__own__f1ddcfe8fc59.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 16,
+      "condition": [
+        "A1",
+        3,
+        "inplace",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__own__f1ddcfe8fc59.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 16,
+      "condition": [
+        "A0",
+        3,
+        "tail",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__own__f1ddcfe8fc59.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 16,
+      "condition": [
+        "A1",
+        3,
+        "tail",
+        "own"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__own__f1ddcfe8fc59.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 16,
+      "condition": [
+        "A0",
+        3,
+        "tail",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__D-greedy__15cfc021c476.json",
+      "passed": true
+    },
+    {
+      "member": "C6-M",
+      "mnc": 16,
+      "condition": [
+        "A1",
+        3,
+        "tail",
+        "D-greedy"
+      ],
+      "order": "orders/pattern1__C6-M__W16__tau3__D-greedy__15cfc021c476.json",
+      "passed": true
+    }
+  ],
+  "D_checks": [
+    {
+      "mnc": 0,
+      "diag": "A0",
+      "tau": "none",
+      "passed": true
+    },
+    {
+      "mnc": 0,
+      "diag": "A1",
+      "tau": "none",
+      "passed": true
+    },
+    {
+      "mnc": 0,
+      "diag": "A0",
+      "tau": 2,
+      "passed": true
+    },
+    {
+      "mnc": 0,
+      "diag": "A1",
+      "tau": 2,
+      "passed": true
+    },
+    {
+      "mnc": 0,
+      "diag": "A0",
+      "tau": 3,
+      "passed": true
+    },
+    {
+      "mnc": 0,
+      "diag": "A1",
+      "tau": 3,
+      "passed": true
+    },
+    {
+      "mnc": 1,
+      "diag": "A0",
+      "tau": "none",
+      "passed": true
+    },
+    {
+      "mnc": 1,
+      "diag": "A1",
+      "tau": "none",
+      "passed": true
+    },
+    {
+      "mnc": 1,
+      "diag": "A0",
+      "tau": 2,
+      "passed": true
+    },
+    {
+      "mnc": 1,
+      "diag": "A1",
+      "tau": 2,
+      "passed": true
+    },
+    {
+      "mnc": 1,
+      "diag": "A0",
+      "tau": 3,
+      "passed": true
+    },
+    {
+      "mnc": 1,
+      "diag": "A1",
+      "tau": 3,
+      "passed": true
+    },
+    {
+      "mnc": 4,
+      "diag": "A0",
+      "tau": "none",
+      "passed": true
+    },
+    {
+      "mnc": 4,
+      "diag": "A1",
+      "tau": "none",
+      "passed": true
+    },
+    {
+      "mnc": 4,
+      "diag": "A0",
+      "tau": 2,
+      "passed": true
+    },
+    {
+      "mnc": 4,
+      "diag": "A1",
+      "tau": 2,
+      "passed": true
+    },
+    {
+      "mnc": 4,
+      "diag": "A0",
+      "tau": 3,
+      "passed": true
+    },
+    {
+      "mnc": 4,
+      "diag": "A1",
+      "tau": 3,
+      "passed": true
+    },
+    {
+      "mnc": 16,
+      "diag": "A0",
+      "tau": "none",
+      "passed": true
+    },
+    {
+      "mnc": 16,
+      "diag": "A1",
+      "tau": "none",
+      "passed": true
+    },
+    {
+      "mnc": 16,
+      "diag": "A0",
+      "tau": 2,
+      "passed": true
+    },
+    {
+      "mnc": 16,
+      "diag": "A1",
+      "tau": 2,
+      "passed": true
+    },
+    {
+      "mnc": 16,
+      "diag": "A0",
+      "tau": 3,
+      "passed": true
+    },
+    {
+      "mnc": 16,
+      "diag": "A1",
+      "tau": 3,
+      "passed": true
+    }
+  ]
+}

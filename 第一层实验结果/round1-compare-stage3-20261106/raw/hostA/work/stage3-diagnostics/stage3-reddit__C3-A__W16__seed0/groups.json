@@ -1,0 +1,22 @@
+[
+  {
+    "matrix": "reddit",
+    "member": "C3-A",
+    "W": 16,
+    "boundary": "candidate groups",
+    "k_windows": 14808,
+    "sumU": 71730709,
+    "T": 4490138,
+    "diagnostic_only": true
+  },
+  {
+    "matrix": "reddit",
+    "member": "C3-A",
+    "W": 16,
+    "boundary": "W16 evaluation windows",
+    "k_windows": 14561,
+    "sumU": 71910572,
+    "T": 4501283,
+    "diagnostic_only": true
+  }
+]

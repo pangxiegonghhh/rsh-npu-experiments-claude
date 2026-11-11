@@ -1,0 +1,17 @@
+{
+  "exitcode": 0,
+  "command": [
+    "clang++",
+    "-std=c++17",
+    "-O3",
+    "-ffp-contract=off",
+    "-dynamiclib",
+    "scripts/layouts_flatco.cpp",
+    "-o",
+    "work/liblayouts-v7.dylib"
+  ],
+  "compiler_version": "Apple clang version 16.0.0 (clang-1600.0.26.6)\nTarget: arm64-apple-darwin24.2.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "source_sha256": "5dcea0fff0c13830fe55ceb059e520580acb05b59f3286b653562239fafa7fcf",
+  "binary_sha256": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+  "status": "candidate only, not activated"
+}

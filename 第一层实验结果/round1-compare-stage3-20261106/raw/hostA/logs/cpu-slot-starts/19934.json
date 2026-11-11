@@ -1,0 +1,14 @@
+{
+  "pid": 19934,
+  "slot": 1,
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/human_gene1__rabbit-pilot__rerun__tau342__lamnone.json"
+  ],
+  "queued_at": 1793981713.9558148,
+  "acquired_at": 1793981767.284008,
+  "queue_seconds": 53.32819318771362,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false
+}

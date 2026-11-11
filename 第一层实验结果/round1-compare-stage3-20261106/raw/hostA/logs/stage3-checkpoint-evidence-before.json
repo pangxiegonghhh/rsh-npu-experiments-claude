@@ -1,0 +1,21 @@
+{
+  "at_utc": "2026-11-08 09:24:05 UTC",
+  "scope": "checkpoint evidence packaging only; no scientific source/method reruns",
+  "saved": [
+    {
+      "path": "scripts/build_stage3.py",
+      "sha256": "3e49f244024891d44f32bc3ea26147de98ab5d751cf4b22b49bff404347a9006",
+      "backup": "logs/source-snapshots/by-sha/3e49f244024891d44f32bc3ea26147de98ab5d751cf4b22b49bff404347a9006/build_stage3.py"
+    },
+    {
+      "path": "logs/stage3-guard-provenance-gate.json",
+      "sha256": "ae8fcb336a3cc2bb422f94684f2be49d4bdd433c465b973ed9576a002e03dbc0",
+      "backup": "logs/source-snapshots/by-sha/ae8fcb336a3cc2bb422f94684f2be49d4bdd433c465b973ed9576a002e03dbc0/stage3-guard-provenance-gate.json"
+    },
+    {
+      "path": "logs/stage3-guard-provenance-final-readiness.json",
+      "sha256": "418e07a55cb6614d31b27d905c871a56656afdfb6d281747f9a664c2593a7e04",
+      "backup": "logs/source-snapshots/by-sha/418e07a55cb6614d31b27d905c871a56656afdfb6d281747f9a664c2593a7e04/stage3-guard-provenance-final-readiness.json"
+    }
+  ]
+}

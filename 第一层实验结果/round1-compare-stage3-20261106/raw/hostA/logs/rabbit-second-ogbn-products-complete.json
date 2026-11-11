@@ -1,0 +1,76 @@
+[
+  {
+    "key": "ogbn-products-B-repeat0",
+    "input_filename": "ogbn-products-B.edges.gz",
+    "start": 1793986507.1488113,
+    "threads": 1,
+    "author_ref": "f93776e9c1e1d4a8962ee56bc7ff0091e6fe12dd",
+    "requested_seed": null,
+    "seed_api": "author demo exposes no RNG seed; deterministic serial execution",
+    "status": "OK",
+    "input_storage": "new ext4 scratch virtualdisk; compressed and decoded inputs not stored in RAM-backed root",
+    "command": [
+      "/root/rabbit/demo/reorder",
+      "/scratch/rabbit-runs/ogbn-products-B-repeat0.edges"
+    ],
+    "input_gz_sha256": "0066e30ae497193dffdcb4095c8f0ae0233a2a31e41206f2259edad632f32600",
+    "input_prepare_seconds": 14.051678657531738,
+    "decoded_input_bytes": 1893288716,
+    "exitcode": 0,
+    "coarse_seconds": 104.32751035690308,
+    "mapping_sha256": "df7112520cdb189a6076d7ae6857a9ddd3f201bd70a41af6dd8d2c504277d827",
+    "mapping_bytes": 38073354,
+    "peak_mem_mb": 6453.53515625,
+    "end": 1793986625.8425252,
+    "requested_replica_label": 0,
+    "actual_seed": null,
+    "host_input_record": {
+      "matrix": "ogbn-products",
+      "mode": "B",
+      "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/ogbn-products-B.edges.gz",
+      "sha256": "0066e30ae497193dffdcb4095c8f0ae0233a2a31e41206f2259edad632f32600",
+      "size": 640768050,
+      "seconds": 23.829313039779663,
+      "entries": 123718024,
+      "rule": "A0 bipartite graph; original row vertex and n+column vertex"
+    },
+    "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/rabbit-coarse/ogbn-products-B-repeat0.mapping"
+  },
+  {
+    "key": "ogbn-products-U-repeat0",
+    "input_filename": "ogbn-products-U.edges.gz",
+    "start": 1793986626.664055,
+    "threads": 1,
+    "author_ref": "f93776e9c1e1d4a8962ee56bc7ff0091e6fe12dd",
+    "requested_seed": null,
+    "seed_api": "author demo exposes no RNG seed; deterministic serial execution",
+    "status": "OK",
+    "input_storage": "new ext4 scratch virtualdisk; compressed and decoded inputs not stored in RAM-backed root",
+    "command": [
+      "/root/rabbit/demo/reorder",
+      "/scratch/rabbit-runs/ogbn-products-U-repeat0.edges"
+    ],
+    "input_gz_sha256": "4fdebf3ba6d4480dfb46dfef8a502e8f839e3e4c0e87706a2ef98d13b85bfa87",
+    "input_prepare_seconds": 8.236063718795776,
+    "decoded_input_bytes": 903544524,
+    "exitcode": 0,
+    "coarse_seconds": 39.58582592010498,
+    "mapping_sha256": "d0d99768265570499aff41949cdd592c313b28c6f029fca91033cb1894215697",
+    "mapping_bytes": 18481122,
+    "peak_mem_mb": 3230.265625,
+    "end": 1793986674.6342561,
+    "requested_replica_label": 0,
+    "actual_seed": null,
+    "host_input_record": {
+      "matrix": "ogbn-products",
+      "mode": "U",
+      "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/linux-transfer/ogbn-products-U.edges.gz",
+      "sha256": "4fdebf3ba6d4480dfb46dfef8a502e8f839e3e4c0e87706a2ef98d13b85bfa87",
+      "size": 320404888,
+      "seconds": 12.490998983383179,
+      "entries": 61859012,
+      "rule": "A0 undirected edges r<c, author demo symmetrizes"
+    },
+    "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/rabbit-coarse/ogbn-products-U-repeat0.mapping"
+  }
+]

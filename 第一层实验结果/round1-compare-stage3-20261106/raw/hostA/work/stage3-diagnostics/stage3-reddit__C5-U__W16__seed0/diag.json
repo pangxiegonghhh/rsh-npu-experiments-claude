@@ -1,0 +1,33 @@
+{
+  "matrix": "reddit",
+  "member": "C5-U",
+  "W": 16,
+  "diag": "A0",
+  "tau": 153,
+  "T_full": 2846146,
+  "T_full_phase": 2936839.8,
+  "align_premium": 90693.79999999981,
+  "T_inplace": 2705841,
+  "T_keep": 2615818,
+  "U_inplace": 43200220,
+  "U_keep": 41787811,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 28.17771863937378,
+  "status": "OK"
+}

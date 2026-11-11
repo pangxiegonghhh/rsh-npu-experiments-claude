@@ -1,0 +1,110 @@
+{
+ "passed": true,
+ "c6_py_sha256": "c643598bb425c7967e685ff357919512f6a66b2eba7bb7cebfef000d2db92764",
+ "cases": [
+  {
+   "case": "c6__pattern1__C6-M__W16__1-bisections",
+   "match": true,
+   "got": {
+    "part_id": 289,
+    "targets": [
+     48,
+     32
+    ],
+    "raw_sizes": [
+     47,
+     33
+    ],
+    "raw_labels_sha256_matches_trace": true,
+    "weighted_cut_before": 806,
+    "weighted_cut_before_matches_trace": true,
+    "moved_local_vertices": [
+     16
+    ],
+    "moved_global_vertices": [
+     11425
+    ],
+    "weighted_cut_after": 804,
+    "final_labels_sha256": "52061e5edd9693d7b459bfd62b767a4beddf9e9a737085a4503f5b39edb80fef"
+   }
+  },
+  {
+   "case": "c6__pattern1__C6-M__W16__16-bisections",
+   "match": true,
+   "got": {
+    "part_id": 272,
+    "targets": [
+     48,
+     32
+    ],
+    "raw_sizes": [
+     49,
+     31
+    ],
+    "raw_labels_sha256_matches_trace": true,
+    "weighted_cut_before": 1750,
+    "weighted_cut_before_matches_trace": true,
+    "moved_local_vertices": [
+     10
+    ],
+    "moved_global_vertices": [
+     11194
+    ],
+    "weighted_cut_after": 1718,
+    "final_labels_sha256": "07ea3405c2f34f5843f5e193f35a29e5bafc189bfe5cf687daddabfb65b68470"
+   }
+  },
+  {
+   "case": "c6__pattern1__C6-M__W16__4-bisections",
+   "match": true,
+   "got": {
+    "part_id": 271,
+    "targets": [
+     48,
+     32
+    ],
+    "raw_sizes": [
+     47,
+     33
+    ],
+    "raw_labels_sha256_matches_trace": true,
+    "weighted_cut_before": 980,
+    "weighted_cut_before_matches_trace": true,
+    "moved_local_vertices": [
+     13
+    ],
+    "moved_global_vertices": [
+     546
+    ],
+    "weighted_cut_after": 972,
+    "final_labels_sha256": "dff25dd4b2696ba07854c61b786058bd57325ebac87c84e7983d7d0c77e29d4a"
+   }
+  },
+  {
+   "case": "c6__pattern1__C6__W16__0-bisections",
+   "match": true,
+   "got": {
+    "part_id": 106,
+    "targets": [
+     144,
+     144
+    ],
+    "raw_sizes": [
+     145,
+     143
+    ],
+    "raw_labels_sha256_matches_trace": true,
+    "weighted_cut_before": 758,
+    "weighted_cut_before_matches_trace": true,
+    "moved_local_vertices": [
+     286
+    ],
+    "moved_global_vertices": [
+     19204
+    ],
+    "weighted_cut_after": 756,
+    "final_labels_sha256": "38cddefc63b30e05cdf2c9d2b61b3cb9d5ae2bea4af70732a53970763fdaeaf2"
+   }
+  }
+ ]
+}

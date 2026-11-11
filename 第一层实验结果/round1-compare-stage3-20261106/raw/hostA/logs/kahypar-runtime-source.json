@@ -1,0 +1,18 @@
+{
+  "source": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/deps",
+  "files": {
+    "deps/kahypar-runtime/kahypar.cpython-312-darwin.so": "b8f5fff175a8984baffaa04bcbc2f54726df8e5ca7a27148c927260381bd14b7",
+    "deps/kahypar-runtime/libmini_boost.dylib": "722fa29f7a603d6e34b1ad1dd6c97a0fe501e20897e0f23b58c76c48ca3ddd59",
+    "deps/kahypar-runtime/kahypar-1.3.7.dist-info/RECORD": "cbaf546e7a21d2b358846fa4b1fc43c63d2190c4abf5e17085ae7760e5e0ee34",
+    "deps/kahypar-runtime/kahypar-1.3.7.dist-info/direct_url.json": "f2be12a259eb401cdb1df8fbe0a19571f14de274145e94dc7b4906aa85d5761a",
+    "deps/kahypar-runtime/kahypar-1.3.7.dist-info/WHEEL": "42add528a4cf98107b74707ece35534ead705bfa4c4dc4f374e97696858702e5",
+    "deps/kahypar-runtime/kahypar-1.3.7.dist-info/top_level.txt": "6adbb5db6ce9a8f3c3d55b1365f2ec3fb92e9c73320292ab744d4b75213e996a",
+    "deps/kahypar-runtime/kahypar-1.3.7.dist-info/REQUESTED": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "deps/kahypar-runtime/kahypar-1.3.7.dist-info/INSTALLER": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+    "deps/kahypar-runtime/kahypar-1.3.7.dist-info/METADATA": "a36564804da0b075c432f1117b57bc62cf3ad75af252de5e8e7aa1189f344bcb",
+    "deps/kahypar-runtime/kahypar.dylibs/libmini_boost.dylib": "26350d2eef5eea7e36185954706575d553dd642910ba9886d8d0e5e60c69ab92",
+    "deps/kahypar-runtime/kahypar-1.3.7.dist-info/licenses/AUTHORS": "f186834dc2069733cf58b1695b14f3731ae77fb1ce0257ce4a2873ac325812c5",
+    "deps/kahypar-runtime/kahypar-1.3.7.dist-info/licenses/COPYING": "c53a65c2fd561c87eaabf1072ef5dcab8653042bc15308465f52413585eb6271",
+    "deps/kahypar-runtime/kahypar-1.3.7.dist-info/licenses/LICENSE.txt": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b"
+  }
+}

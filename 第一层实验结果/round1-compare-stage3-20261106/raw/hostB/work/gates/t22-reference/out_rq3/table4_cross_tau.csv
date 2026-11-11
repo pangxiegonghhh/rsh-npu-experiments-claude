@@ -1,0 +1,9 @@
+member,assumed_tau,actual_tau,T_keep_pi,T_sig_assumed,T_rerun_actual
+gorder,3,2,376,403,373
+gorder,2,3,311,312,307
+rsh,3,2,384,412,377
+rsh,2,3,317,319,317
+bp,3,2,402,410,377
+bp,2,3,330,331,312
+slashburn,3,2,456,475,453
+slashburn,2,3,395,387,374

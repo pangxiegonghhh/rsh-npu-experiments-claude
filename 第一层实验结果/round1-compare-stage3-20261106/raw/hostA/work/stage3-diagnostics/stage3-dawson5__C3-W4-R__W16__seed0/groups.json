@@ -1,0 +1,22 @@
+[
+  {
+    "matrix": "dawson5",
+    "member": "C3-W4-R",
+    "W": 16,
+    "boundary": "candidate groups",
+    "k_windows": 3290,
+    "sumU": 301457,
+    "T": 20326,
+    "diagnostic_only": true
+  },
+  {
+    "matrix": "dawson5",
+    "member": "C3-W4-R",
+    "W": 16,
+    "boundary": "W16 evaluation windows",
+    "k_windows": 3222,
+    "sumU": 310507,
+    "T": 20865,
+    "diagnostic_only": true
+  }
+]

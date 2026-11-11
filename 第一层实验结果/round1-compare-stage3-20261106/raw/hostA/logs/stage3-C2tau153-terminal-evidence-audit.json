@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "scope": "terminal metadata, permutation/hash/checkpoint/recorded independent recompute/row invariants/budget/memory checked; LS complete, all layouts INCOMPLETE; no scientific rerun",
+  "case_id": "stage3-reddit__C2-LSH__W16__seed0__tau153",
+  "actual_method_seconds": 5491.233515024185,
+  "queue_seconds": 127.42426085472107,
+  "original_exitcode": 0,
+  "sweeps_done": 10,
+  "accepted_swaps": 95740,
+  "order_sha256": "e0ae451b43b7d52f0df6449dcb5f0fcd5fd84085e77cd28bda9904f68877683e",
+  "order_size": 1521026,
+  "checkpoint_sha256": "0df8f83adb3d7d7f8ddc9d132d1c2d8c40e110033b6a0c74482918d223bc758f",
+  "runtime_independent_full_recompute": {
+    "k_windows": 8728,
+    "sumU": 42174692,
+    "T": 2639960,
+    "sumGamma": 15588683,
+    "sumR": 25872134,
+    "R_p50": 2382,
+    "R_p90": 5701,
+    "R_max": 28378,
+    "write_runs_aic": 8728,
+    "meanR": 2964.268332
+  },
+  "original_process_peak_mem_mb": 4409.390625,
+  "new_memory_export_rows": 4,
+  "post_layout_status": "INCOMPLETE",
+  "post_layout_reason": "co pair map exceeds 8GiB workspace safety budget estimate; INCOMPLETE",
+  "whole_C2_formal_status": "INCOMPLETE",
+  "source_sha256": "53f68b4087d536fa90aef408abf6bf534f5177d22b45c377fa2d9eae76254368",
+  "actual_layout_backend": {
+    "python_implementation_revision": "v7-flat-co-default-and-backend-provenance; unchanged v6 chain/failure cache",
+    "pid": 30432,
+    "argv": [
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-post-catalog/stage3-reddit__C2-LSH__W16__seed0__tau153.json"
+    ],
+    "matrix": "reddit",
+    "n": 232965,
+    "first_context_W": 16,
+    "first_context_windows": 8728,
+    "binary_loaded_at": 1794076687.072096,
+    "first_context_at": 1794082055.852934,
+    "library_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib",
+    "library_sha256": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+    "library_override_at_import": null,
+    "scope": "actual DLL selected and hashed at module import; applies to this process only, not prior/queued imports"
+  },
+  "no_scientific_rerun": true
+}

@@ -1,0 +1,16 @@
+{
+  "pid": 98896,
+  "slot": 1,
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-extra-catalog/pattern1__C10-BP__rerun-start-LS__tau757__lam1.json",
+    "--output-dir",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/extra-order-jobs"
+  ],
+  "queued_at": 1793980598.717691,
+  "acquired_at": 1793980658.615263,
+  "queue_seconds": 59.89757299423218,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false
+}

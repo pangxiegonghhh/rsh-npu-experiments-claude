@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "fresh_remote_gates": true,
+  "host_id": "hostB-windows16gb-wsl2",
+  "split_id": "T23-split-20261109",
+  "created_at": 1794208382.7761981,
+  "gate_receipts": [
+    {
+      "category": "reference_tables",
+      "path": "logs/reference-gates.json",
+      "sha256": "35cd942ce140c8a609b8bbeae648cc370235d816909059250a6ebc14b7cd50cc"
+    },
+    {
+      "category": "candidate_equivalence",
+      "path": "logs/candidate-port-gate.json",
+      "sha256": "9b2fe8ac998758d6725185e4ec97ce48e7b53c83ad26016f459674b81c32a3aa"
+    },
+    {
+      "category": "candidate_equivalence",
+      "path": "logs/rect-port-gate.json",
+      "sha256": "41c2d25ad09ef2ecfa931e910f3f6f5b8a67270a949aa18bd1edf8dd568f7554"
+    },
+    {
+      "category": "LS_full",
+      "path": "logs/ls-full-port-gate.json",
+      "sha256": "87a99f2b1ef3095b6ca022f9ad26e1c7bd104f5de7dc304754b451bc9c1be35f"
+    },
+    {
+      "category": "layout_v7",
+      "path": "logs/layout-v4-port-gate.json",
+      "sha256": "07e6c964bd65d194f7416cdae72e5a74e7e0363c2608cffea369ea0b61fb3145"
+    },
+    {
+      "category": "layout_v7",
+      "path": "logs/layout-port-gate.json",
+      "sha256": "07e6c964bd65d194f7416cdae72e5a74e7e0363c2608cffea369ea0b61fb3145"
+    },
+    {
+      "category": "layout_v7",
+      "path": "logs/layout-v7-port-gate.json",
+      "sha256": "1016abd651f88c9152076f6471ecc91cc5d9ac010005af2ceb9dd50b71f23abe"
+    },
+    {
+      "category": "layout_v7",
+      "path": "logs/rq3-native-table-v7-gate.json",
+      "sha256": "05200ca2061c8912625780c83301aba0ead718fa5efe151dee5c16a05731a5c7"
+    },
+    {
+      "category": "independent_sorted",
+      "path": "logs/independent-sorted-port-gate.json",
+      "sha256": "1413aed25a4b23412dcfb63ec0aa0c0507b80716baf0768859e4332564b4e51c"
+    },
+    {
+      "category": "memory_guard_units",
+      "path": "logs/remote-memory-unit-gate.json",
+      "sha256": "86b1dcbd38a5f722a7fb2cd07325089e4d60726d945880e9320ac2882fe33a23"
+    },
+    {
+      "category": "official40",
+      "path": "logs/t23-conditions-reference.command.json",
+      "sha256": "c054007689d13a0636281d5f177818b5c010071fd365f8b58e8c5042f1b4f529"
+    }
+  ],
+  "preparation_receipt_sha256": "ea458a1e5c17da7893ccc141672eac7dbf7618c5acf7860a06b67b0c8f7537fa",
+  "note": "All gates executed on this host; no copied macOS PASS accepted. Additional source repairs require a fresh run and evidence."
+}

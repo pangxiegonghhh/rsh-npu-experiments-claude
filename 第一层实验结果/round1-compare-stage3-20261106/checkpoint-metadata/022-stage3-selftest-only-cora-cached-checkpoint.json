@@ -1,0 +1,69 @@
+{
+  "kind": "derived metadata only; original complete vector retained locally",
+  "source_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-selftest-only-cora-cached-checkpoint/last-completed-sweep.checkpoint.json",
+  "source_sha256": "5546e38020a8955adb1758b6a8d45166c3a1c747819ca27be2ff4335f498bd27",
+  "source_size": 13231,
+  "permutation_length": 2708,
+  "checkpoint_metadata": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 567,
+        "sumU": 4614,
+        "sumGamma": 2235,
+        "elapsed": 0.006660938262939453
+      },
+      {
+        "sweep": 1,
+        "accepted": 231,
+        "sumU": 4310,
+        "sumGamma": 2020,
+        "elapsed": 0.014339208602905273
+      },
+      {
+        "sweep": 2,
+        "accepted": 48,
+        "sumU": 4258,
+        "sumGamma": 1951,
+        "elapsed": 0.021929025650024414
+      },
+      {
+        "sweep": 3,
+        "accepted": 18,
+        "sumU": 4239,
+        "sumGamma": 1929,
+        "elapsed": 0.029262065887451172
+      },
+      {
+        "sweep": 4,
+        "accepted": 5,
+        "sumU": 4234,
+        "sumGamma": 1930,
+        "elapsed": 0.037249088287353516
+      },
+      {
+        "sweep": 5,
+        "accepted": 3,
+        "sumU": 4230,
+        "sumGamma": 1924,
+        "elapsed": 0.04442596435546875
+      },
+      {
+        "sweep": 6,
+        "accepted": 0,
+        "sumU": 4230,
+        "sumGamma": 1924,
+        "elapsed": 0.05189204216003418
+      }
+    ],
+    "tau": 3,
+    "W": 16,
+    "seed": 0,
+    "lam": 0,
+    "tracked_sumU": 4230,
+    "tracked_sumGamma": 1924,
+    "status": "INCOMPLETE",
+    "note": "last completed sweep checkpoint; final full recomputation not yet performed"
+  },
+  "original_status_not_promoted": true
+}

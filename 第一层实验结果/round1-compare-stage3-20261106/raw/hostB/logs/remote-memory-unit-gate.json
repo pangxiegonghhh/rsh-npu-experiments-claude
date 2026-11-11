@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "host_platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "linux_raw_ru_maxrss_KiB": 16696,
+  "proc_VmHWM_KiB": 16380,
+  "reported_MiB": 16.3046875,
+  "formal_default_limit_bytes": 8589934592,
+  "synthetic_fixture_limit_bytes": 67108864,
+  "synthetic_child_exitcode": 137,
+  "guard_record": "logs/memory-guards/136-1794208382462529926.json",
+  "guard_record_sha256": "0cdb3bfb97b10315b10398050db5960648a5836970f002c3a7bea437b2a5461f",
+  "note": "Synthetic guard fixture only; no formal matrix run and no formal limit reduced."
+}

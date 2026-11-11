@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "scope": "metadata-only actual controller early-return routing check; neither C8 post attempt re-executed",
+  "at_utc": "2026-11-09T10:24:24.257569+00:00",
+  "derived_case_sha256": "bea393d033b6d1e081580d3aa34777ff0f1f31c9adac8858ce245a8e6bc580b3",
+  "tau53": "original timeout exit124; 2-round checkpoint retained",
+  "tau153": "reboot-interrupted; no exit code invented; no checkpoint",
+  "case_generation_status": "OK",
+  "whole_case": "INCOMPLETE; evaluation and post evidence decide outcome",
+  "scientific_job_calls_during_gate": 0,
+  "old_c3_queued_logs_preserved": true,
+  "new_local_session": 87871,
+  "new_finalizer_session": 41212,
+  "new_controller_pid": 91864,
+  "new_c3_eval_pid": 91868
+}

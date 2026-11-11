@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 81054, 'sumU': 1451959, 'sumGamma': 868255, 'elapsed': 62.38389563560486}
+LS {'sweep': 1, 'accepted': 43574, 'sumU': 1347980, 'sumGamma': 759763, 'elapsed': 176.3343608379364}
+LS {'sweep': 2, 'accepted': 21753, 'sumU': 1303426, 'sumGamma': 713104, 'elapsed': 287.3435597419739}
+LS {'sweep': 3, 'accepted': 10776, 'sumU': 1283541, 'sumGamma': 691501, 'elapsed': 403.06847381591797}
+LS {'sweep': 4, 'accepted': 5471, 'sumU': 1274033, 'sumGamma': 681403, 'elapsed': 474.4327359199524}
+LS {'sweep': 5, 'accepted': 2877, 'sumU': 1269179, 'sumGamma': 675836, 'elapsed': 535.3586366176605}
+LS {'sweep': 6, 'accepted': 1610, 'sumU': 1266579, 'sumGamma': 673192, 'elapsed': 597.2421848773956}
+LS {'sweep': 7, 'accepted': 920, 'sumU': 1265068, 'sumGamma': 671489, 'elapsed': 648.1594247817993}
+LS {'sweep': 8, 'accepted': 521, 'sumU': 1264206, 'sumGamma': 670636, 'elapsed': 709.0528426170349}
+LS {'sweep': 9, 'accepted': 328, 'sumU': 1263633, 'sumGamma': 669991, 'elapsed': 761.1586577892303}
+{"task": "T22", "use": "base-order", "matrix": "ogbn-arxiv", "member": "neutron-pilot", "start": 1793970316.901015, "lam": "", "tau": 2, "seed": 0, "t21_path": "orders/ogbn-arxiv__neutron-pilot__W16__tauNone__own__52bc8c1b72ee.json", "sha256": "1d4826e97fc5e4283a6454426863c031db87d2e0352d6e35dbb08597cbd87d36", "note": "", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__neutron-pilot__W16__tauNone__own__52bc8c1b72ee.json", "verified_sha256": "6f745a7883e7154329040e7c5ef585f4c17a6a4f774dffd1216d83db63c0edeb", "origin": "T21 archive", "kind": "ls", "W": 16, "lambda": 0, "status": "OK", "command": ["scripts/order_job.py", "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/ogbn-arxiv__neutron-pilot__ls__tau2__lam0.json"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/ogbn-arxiv__neutron-pilot__ls__tau2__lam0.order.json", "size": 1075647, "end": 1793971082.9262369, "seconds": 766.025221824646}

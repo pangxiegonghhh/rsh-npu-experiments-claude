@@ -1,0 +1,92 @@
+{
+  "matrix": "cora",
+  "method": "C1-H",
+  "W": 16,
+  "seed": 0,
+  "start": 1793970161.950599,
+  "status": "OK",
+  "command": [
+    "scripts/external_c1.py",
+    "--matrix",
+    "cora",
+    "--variant",
+    "H",
+    "--seed",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/cora__C1-H__W16__seed0.order.json",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/cora__C1-H__W16__seed0.order.json",
+  "sha256": "7788e7fde9decfed998d7b799836d83fdc4568f51dc004cc03036ed6e479d401",
+  "size": 13346,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 731,
+        "sumU": 4723,
+        "sumGamma": 2423,
+        "elapsed": 0.007364749908447266
+      },
+      {
+        "sweep": 1,
+        "accepted": 289,
+        "sumU": 4336,
+        "sumGamma": 2090,
+        "elapsed": 0.01729893684387207
+      },
+      {
+        "sweep": 2,
+        "accepted": 72,
+        "sumU": 4250,
+        "sumGamma": 1979,
+        "elapsed": 0.024200916290283203
+      },
+      {
+        "sweep": 3,
+        "accepted": 15,
+        "sumU": 4235,
+        "sumGamma": 1964,
+        "elapsed": 0.03408193588256836
+      },
+      {
+        "sweep": 4,
+        "accepted": 3,
+        "sumU": 4232,
+        "sumGamma": 1962,
+        "elapsed": 0.041152000427246094
+      },
+      {
+        "sweep": 5,
+        "accepted": 0,
+        "sumU": 4232,
+        "sumGamma": 1962,
+        "elapsed": 0.048569679260253906
+      }
+    ],
+    "sweeps_done": 6,
+    "accepted_swaps": 1110,
+    "tracked_sumU": 4232,
+    "tracked_sumGamma": 1962,
+    "independent_full_recompute": {
+      "k_windows": 68,
+      "sumU": 4232,
+      "T": 294,
+      "sumGamma": 1962,
+      "sumR": 2781,
+      "R_p50": 40,
+      "R_p90": 52,
+      "R_max": 79,
+      "write_runs_aic": 68,
+      "meanR": 40.897059
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 694992
+  },
+  "end": 1793970162.043811,
+  "seconds": 0.09321212768554688,
+  "peak_mem_mb": 36.296875,
+  "member": "C1-H",
+  "tau": 3,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/cora__C1-H__tau3/order.json"
+}

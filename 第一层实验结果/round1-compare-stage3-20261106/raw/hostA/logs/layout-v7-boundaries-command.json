@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/gate_chain_v7_boundaries.py"
+  ],
+  "environment_override": {
+    "RQ3_LAYOUT_LIB": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib"
+  },
+  "source_sha256": "78600229776cbdf25975ab0642d920cde1e9b73f2a3c551915c4b96bbef03ec4",
+  "start": 1794070757.6639302,
+  "end": 1794070757.998304,
+  "exitcode": 0,
+  "output": "layout-v7-boundary-gate.json"
+}

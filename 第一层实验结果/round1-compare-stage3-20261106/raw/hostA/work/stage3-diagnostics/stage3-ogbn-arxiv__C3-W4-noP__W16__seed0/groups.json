@@ -1,0 +1,22 @@
+[
+  {
+    "matrix": "ogbn-arxiv",
+    "member": "C3-W4-noP",
+    "W": 16,
+    "boundary": "candidate groups",
+    "k_windows": 66432,
+    "sumU": 1784779,
+    "T": 144800,
+    "diagnostic_only": true
+  },
+  {
+    "matrix": "ogbn-arxiv",
+    "member": "C3-W4-noP",
+    "W": 16,
+    "boundary": "W16 evaluation windows",
+    "k_windows": 10584,
+    "sumU": 1822887,
+    "T": 118851,
+    "diagnostic_only": true
+  }
+]

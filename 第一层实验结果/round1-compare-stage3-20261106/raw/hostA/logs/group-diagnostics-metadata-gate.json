@@ -1,0 +1,131 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "candidate": "C2-LSH",
+      "actual": {
+        "groups_after": 172,
+        "short_after": 35,
+        "groups_cut_by_windows": 30,
+        "P": "on",
+        "group_boundary_source": "saved actual generation/repair group sizes",
+        "groups_full_before": 19,
+        "short_before": 1543,
+        "P_merges": 1390,
+        "P_new_full": 118
+      },
+      "reference": {
+        "groups_full_before": 19,
+        "short_before": 1543,
+        "P_merges": 1390,
+        "P_new_full": 118,
+        "short_after": 35,
+        "groups_cut_by_windows": 30,
+        "candidate_pairs_lsh": 2892,
+        "candidate_pairs_kept": 2735,
+        "merges": 1146,
+        "rejected_capacity": 747,
+        "buckets": 79835
+      }
+    },
+    {
+      "candidate": "C3-W1",
+      "actual": {
+        "groups_after": 174,
+        "short_after": 49,
+        "groups_cut_by_windows": 43,
+        "P": "on",
+        "group_boundary_source": "saved actual generation/repair group sizes",
+        "groups_full_before": 16,
+        "short_before": 1041,
+        "P_merges": 883,
+        "P_new_full": 109
+      },
+      "reference": {
+        "groups_full_before": 16,
+        "short_before": 1041,
+        "P_merges": 883,
+        "P_new_full": 109,
+        "short_after": 49,
+        "groups_cut_by_windows": 43,
+        "b": 1,
+        "groups": 1057,
+        "comparisons": 904406
+      }
+    },
+    {
+      "candidate": "C3-W4",
+      "actual": {
+        "groups_after": 174,
+        "short_after": 46,
+        "groups_cut_by_windows": 40,
+        "P": "on",
+        "group_boundary_source": "saved actual generation/repair group sizes",
+        "groups_full_before": 43,
+        "short_before": 570,
+        "P_merges": 439,
+        "P_new_full": 85
+      },
+      "reference": {
+        "groups_full_before": 43,
+        "short_before": 570,
+        "P_merges": 439,
+        "P_new_full": 85,
+        "short_after": 46,
+        "groups_cut_by_windows": 40,
+        "b": 4,
+        "groups": 613,
+        "comparisons": 441894
+      }
+    },
+    {
+      "candidate": "C3-A",
+      "actual": {
+        "groups_after": 174,
+        "short_after": 46,
+        "groups_cut_by_windows": 40,
+        "P": "on",
+        "group_boundary_source": "saved actual generation/repair group sizes",
+        "groups_full_before": 43,
+        "short_before": 570,
+        "P_merges": 439,
+        "P_new_full": 85
+      },
+      "reference": {
+        "groups_full_before": 43,
+        "short_before": 570,
+        "P_merges": 439,
+        "P_new_full": 85,
+        "short_after": 46,
+        "groups_cut_by_windows": 40,
+        "b": 4,
+        "groups": 613,
+        "comparisons": 441894
+      }
+    },
+    {
+      "candidate": "C3-W4-noP",
+      "actual": {
+        "groups_after": 613,
+        "short_after": 570,
+        "groups_cut_by_windows": 124,
+        "P": "off",
+        "group_boundary_source": "saved actual generation/repair group sizes",
+        "groups_full_before": 43,
+        "short_before": 570,
+        "P_merges": 0,
+        "P_new_full": 0
+      },
+      "reference": {
+        "groups_full_before": 43,
+        "short_before": 570,
+        "P": "off",
+        "b": 4,
+        "groups": 613,
+        "comparisons": 441894
+      }
+    }
+  ],
+  "order_recomputed": false,
+  "fix": "derive missing noP grouping counts from saved actual generation group sizes; preserve reference pre-P stats for P-on"
+}

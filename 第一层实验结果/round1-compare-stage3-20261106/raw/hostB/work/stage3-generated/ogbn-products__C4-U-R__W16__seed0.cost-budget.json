@@ -1,0 +1,8 @@
+{
+  "method_limit_seconds": 7200,
+  "coarse_computation_seconds": 39.58582592010498,
+  "local_started_at": 1794245382.6876044,
+  "local_seconds_remaining_at_activation": 7160.405579805374,
+  "definition": "inherited Rabbit coarse computation plus entire new local/renumber/candidate phase; queue excluded",
+  "activated_at": 1794245382.6962018
+}

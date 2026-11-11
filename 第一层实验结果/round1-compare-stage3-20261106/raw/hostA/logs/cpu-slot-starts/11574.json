@@ -1,0 +1,24 @@
+{
+  "pid": 11574,
+  "slot": 0,
+  "command": [
+    "scripts/rabbit_family.py",
+    "--matrix",
+    "ogbn-products",
+    "--W",
+    "16",
+    "--mode",
+    "U",
+    "--rep",
+    "0",
+    "--cn"
+  ],
+  "queued_at": 1794248766.072858,
+  "acquired_at": 1794248801.79472,
+  "queue_seconds": 35.721861839294434,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": true,
+  "memory_limit_bytes": 8589934592,
+  "memory_guard_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/memory-guards/11574-1794248766072874000.json"
+}

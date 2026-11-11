@@ -1,0 +1,21 @@
+stage3-reddit__C3-A__W16__seed0 OK 1389.2
+stage3-reddit__C3-W4-noP__W16__seed0 OK 2627.6
+stage3-reddit__C3-W4-R__W16__seed0 OK 2589.2
+stage3-reddit__C3-A-R__W16__seed0 OK 2830.7
+stage3-reddit__C4-U-R__W16__seed0 OK 2614.7
+stage3-reddit__C4-T-R__W16__seed0 OK 2266.3
+stage3-reddit__C7-I-R__W16__seed0 OK 2147.0
+stage3-reddit__C5-CN__W16__seed0 OK 2045.5
+stage3-reddit__C6-HP__W16__seed0 INCOMPLETE 8212.6
+stage3-reddit__C5-U-CN__W16__seed0 OK 9272.4
+stage3-ogbn-products__C1-J__W16__seed0 OK 5577.4
+stage3-ogbn-products__C1-H__W16__seed0 OK 5583.5
+stage3-ogbn-products__C5__W16__seed0 OK 1754.5
+stage3-ogbn-products__C5-U__W16__seed0 OK 3976.3
+stage3-ogbn-products__C8-METIS__W16__seed0 OK 3499.4
+stage3-ogbn-products__C7-I-R__W16__seed0 OK 1364.1
+stage3-ogbn-products__C5-CN__W16__seed0 OK 2065.2
+stage3-ogbn-products__C5-U-CN__W16__seed0 OK 2041.9
+stage3-ogbn-products__C6-HP__W16__seed0 INCOMPLETE 118.0
+ASSIGNED_CASES_TERMINAL local 21
+WAITING_FOR_VERIFIED_REMOTE_IMPORT

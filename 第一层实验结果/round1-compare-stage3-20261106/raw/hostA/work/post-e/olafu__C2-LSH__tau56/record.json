@@ -1,0 +1,71 @@
+{
+  "matrix": "olafu",
+  "method": "C2-LSH",
+  "W": 16,
+  "seed": 0,
+  "start": 1793979754.909981,
+  "status": "OK",
+  "command": [
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+    "--matrix",
+    "olafu",
+    "--method",
+    "C2-LSH",
+    "--seed",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/olafu__C2-LSH__W16__seed0.order.json",
+  "sha256": "f9134820d611c20942cb16747b5d7d86e4f1366b812aeea68abefa5fbb5be17f",
+  "size": 86437,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 227,
+        "sumU": 93030,
+        "sumGamma": 9805,
+        "elapsed": 0.22007298469543457
+      },
+      {
+        "sweep": 1,
+        "accepted": 4,
+        "sumU": 93022,
+        "sumGamma": 9805,
+        "elapsed": 0.44585585594177246
+      },
+      {
+        "sweep": 2,
+        "accepted": 0,
+        "sumU": 93022,
+        "sumGamma": 9805,
+        "elapsed": 0.6729578971862793
+      }
+    ],
+    "sweeps_done": 3,
+    "accepted_swaps": 231,
+    "tracked_sumU": 93022,
+    "tracked_sumGamma": 9805,
+    "independent_full_recompute": {
+      "k_windows": 598,
+      "sumU": 93022,
+      "T": 6115,
+      "sumGamma": 9805,
+      "sumR": 7218,
+      "R_p50": 11,
+      "R_p90": 20,
+      "R_max": 45,
+      "write_runs_aic": 598,
+      "meanR": 12.070234
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 53646776
+  },
+  "end": 1793979755.8263009,
+  "seconds": 0.9163198471069336,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/olafu__C2-LSH__W16__seed0.order.json",
+  "member": "C2-LSH",
+  "tau": 56,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/olafu__C2-LSH__tau56/order.json",
+  "peak_mem_mb": 99.375
+}

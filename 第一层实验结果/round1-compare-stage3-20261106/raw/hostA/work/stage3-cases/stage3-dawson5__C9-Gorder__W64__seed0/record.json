@@ -1,0 +1,46 @@
+{
+  "matrix": "dawson5",
+  "method": "C9-Gorder",
+  "member": "C9-Gorder",
+  "W": 64,
+  "seed": 0,
+  "scope": "W sensitivity",
+  "case_id": "stage3-dawson5__C9-Gorder__W64__seed0",
+  "main_tau_only": true,
+  "reuse": {
+    "task": "T23",
+    "use": "W-sensitivity",
+    "matrix": "dawson5",
+    "t23_member": "C9-Gorder",
+    "t21_member": "C9-Gorder",
+    "W": "64",
+    "params": "w=W-1",
+    "source": "T21 完整归档",
+    "path": "orders/dawson5__C9-Gorder__W64__tauNone__own__6a2f22f46f5b.json",
+    "sha256": "c6a2ee2d67ae1e3c83c68d0b928dbe2b37305931b9107f87d5884d650ca46dfc",
+    "note": "按该 W 重算的行序",
+    "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__C9-Gorder__W64__tauNone__own__6a2f22f46f5b.json",
+    "verified_sha256": "c6a2ee2d67ae1e3c83c68d0b928dbe2b37305931b9107f87d5884d650ca46dfc",
+    "origin": "T21 archive"
+  },
+  "status": "OK",
+  "start": 1793987728.453269,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__C9-Gorder__W64__tauNone__own__6a2f22f46f5b.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__C9-Gorder__W64__tauNone__own__6a2f22f46f5b.json",
+  "sha256": "c6a2ee2d67ae1e3c83c68d0b928dbe2b37305931b9107f87d5884d650ca46dfc",
+  "size": 298251,
+  "seconds": "",
+  "diagnostics": {},
+  "reused": true,
+  "evaluation_root": "stage3-evaluations",
+  "diagnostic_root": "stage3-diagnostics",
+  "eval_taus": [
+    17
+  ],
+  "evaluation_status": {
+    "status": "OK",
+    "rows": 12,
+    "seconds": 6.499544858932495
+  },
+  "controller_end": 1793987735.5711098
+}

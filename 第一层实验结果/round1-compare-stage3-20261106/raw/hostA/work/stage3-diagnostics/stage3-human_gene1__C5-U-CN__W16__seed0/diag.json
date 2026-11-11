@@ -1,0 +1,33 @@
+{
+  "matrix": "human_gene1",
+  "member": "C5-U-CN",
+  "W": 16,
+  "diag": "A0",
+  "tau": 342,
+  "T_full": 286003,
+  "T_full_phase": 300993.26666666666,
+  "align_premium": 14990.266666666663,
+  "T_inplace": 255886,
+  "T_keep": 254157,
+  "U_inplace": 4086780,
+  "U_keep": 4060226,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 2.7316439151763916,
+  "status": "OK"
+}

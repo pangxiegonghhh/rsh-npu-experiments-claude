@@ -1,0 +1,14 @@
+{
+  "matrix": "mycielskian15",
+  "method": "C9-Gorder",
+  "member": "C9-Gorder",
+  "W": 16,
+  "seed": 0,
+  "scope": "second batch",
+  "case_id": "stage3-mycielskian15__C9-Gorder__W16__seed0",
+  "data_missing": true,
+  "status": "SKIPPED",
+  "start": 1793989842.238542,
+  "error": "official TAMU403; files-server TLS timeout; UF official fallback404; see secondbatch input logs",
+  "controller_end": 1793989842.238542
+}

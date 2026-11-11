@@ -1,0 +1,33 @@
+{
+  "matrix": "olafu",
+  "member": "C6-RB (T21 \u53e3\u5f84)",
+  "W": 16,
+  "diag": "A0",
+  "tau": 56,
+  "T_full": 7694,
+  "T_full_phase": 9515.6,
+  "align_premium": 1821.6000000000004,
+  "T_inplace": 5797,
+  "T_keep": 6458,
+  "U_inplace": 86447,
+  "U_keep": 98831,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 0.1645522117614746,
+  "status": "OK"
+}

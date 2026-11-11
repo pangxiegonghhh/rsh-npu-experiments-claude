@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/gate_flatco_wrapper.py"
+  ],
+  "start": 1794071215.540818,
+  "end": 1794071216.1929128,
+  "exitcode": 0
+}

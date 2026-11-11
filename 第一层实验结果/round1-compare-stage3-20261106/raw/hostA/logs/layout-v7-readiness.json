@@ -1,0 +1,30 @@
+{
+  "validated": true,
+  "activated": false,
+  "old_sources": {
+    "native.py": {
+      "sha256": "7363e80fb095c6297d1e35113e9bf11e6a6ac05e354f5810ef65748b5f23b1e8",
+      "snapshot": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/source-snapshots/by-sha/7363e80fb095c6297d1e35113e9bf11e6a6ac05e354f5810ef65748b5f23b1e8"
+    },
+    "build_stage3.py": {
+      "sha256": "8a0e50f59121e07b2246e300d6c6602ee6ec8ebfe66e90db8616066dc38baa14",
+      "snapshot": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/source-snapshots/by-sha/8a0e50f59121e07b2246e300d6c6602ee6ec8ebfe66e90db8616066dc38baa14"
+    }
+  },
+  "candidate_cpp_sha256": "5dcea0fff0c13830fe55ceb059e520580acb05b59f3286b653562239fafa7fcf",
+  "candidate_python_sha256": "3b7830ca38f2950d938f37de6539bd37fd8893dbfbbc8bca073ce9e019754c98",
+  "binary_sha256": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+  "validation_gate_sha256": {
+    "layout-v7-port-gate.json": "c74bbae81c4ab8ab654bcc6e5d3fa357338d64fa02c673f5abe10bc4f7720c3f",
+    "layout-W-sensitivity-v7-gate.json": "71f47a7563d6bbdcf4095a6e2c87bce80c7a73febc105b2161e3d5b016b8fb3c",
+    "rq3-native-table-v7-gate.json": "b25f50391c5a9c963ca3a9f563e09a89474c618415eed7e3e91a2b3e4a2c3611",
+    "layout-v7-random-gate.json": "2b1f271323cc76aadf9027cf8172e33131dd6cffb7e0eabd17adf8527a3c1d54",
+    "layout-v7-boundary-gate.json": "de4fa608fe5d5af7b13956c94087dc34bfb385377a415305a1228f5fa3887ebd",
+    "layout-v7-scale-gate.json": "2ad8f865380f4c5ed6b04b38c64732675a9300e01ce8e4435c159f9342baadc1",
+    "layout-v7-wrapper-gate.json": "78c6b8f3be2dca58cfd227cf56b61ea4769445928cd8191a1651c2d5380e5d8d",
+    "layout-v7-gates-controller.json": "16a72ea88566eb74b031b5a6d1d4b37c2b58c2ee6310eea92b17a722104a8df9",
+    "layout-v7-component-run.json": "8cf5b17530416e4b8802bf0a6995d6d663033cf1958e77225e3c1ed55c110b5d"
+  },
+  "constructor_numeric_tail_AST_unchanged": true,
+  "numeric_layout_and_cache_methods_AST_unchanged": true
+}

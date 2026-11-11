@@ -1,0 +1,5 @@
+{
+  "raw_native_equals_T21": true,
+  "cause": "full induced set reconstruction changes Python set neighbor iteration; preserve original CSR at K=all instead of reconstructing equivalent sets",
+  "partial_input": "explicit induced A[K,K] as reference; raw A0 for K=all"
+}

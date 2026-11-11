@@ -1,0 +1,15 @@
+work/matrices/cora/indptr.npy: OK
+work/matrices/cora/indices.npy: OK
+work/matrices/cora/degrees.npy: OK
+work/matrices/cora/metadata.json: OK
+work/matrices/ogbn-products/indptr.npy: OK
+work/matrices/ogbn-products/indices.npy: OK
+work/matrices/ogbn-products/degrees.npy: OK
+work/matrices/ogbn-products/metadata.json: OK
+work/matrices/ogbn-products/edge-parser.json: OK
+inputs/second/products-edge.csv.gz: OK
+inputs/second/products-num-nodes.csv.gz: OK
+work/rabbit-coarse/cora-U-repeat0.mapping: OK
+work/rabbit-coarse/cora-U-repeat0.record.json: OK
+work/rabbit-coarse/ogbn-products-U-repeat0.mapping: OK
+work/rabbit-coarse/ogbn-products-U-repeat0.record.json: OK

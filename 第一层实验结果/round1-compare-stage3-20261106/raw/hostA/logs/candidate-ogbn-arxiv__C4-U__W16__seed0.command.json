@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py",
+    "--matrix",
+    "ogbn-arxiv",
+    "--method",
+    "C4-U",
+    "--seed",
+    "0"
+  ],
+  "start": 1793968377.876729,
+  "end": 1793968378.3679202,
+  "exitcode": 0
+}

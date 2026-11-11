@@ -1,0 +1,10 @@
+original all placements/metrics IDENTICAL
+rsh all placements/metrics IDENTICAL
+rabbit all placements/metrics IDENTICAL
+neutron all placements/metrics IDENTICAL
+rcm all placements/metrics IDENTICAL
+slashburn all placements/metrics IDENTICAL
+bp all placements/metrics IDENTICAL
+gorder all placements/metrics IDENTICAL
+gorder-S all placements/metrics IDENTICAL
+ALL_LAYOUT_GATES_OK

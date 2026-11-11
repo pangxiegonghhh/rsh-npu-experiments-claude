@@ -1,0 +1,33 @@
+{
+  "matrix": "reddit",
+  "member": "neutron-pilot",
+  "W": 16,
+  "diag": "A0",
+  "tau": 153,
+  "T_full": 3773850,
+  "T_full_phase": 3940802.7333333334,
+  "align_premium": 166952.7333333334,
+  "T_inplace": 3554983,
+  "T_keep": 3630907,
+  "U_inplace": 56796232,
+  "U_keep": 58028826,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 35.05584001541138,
+  "status": "OK"
+}

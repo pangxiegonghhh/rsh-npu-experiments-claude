@@ -1,0 +1,10 @@
+{
+  "time": 1793983876.36212,
+  "limit_seconds": 7200,
+  "scope": "new C5-family and -R generation processes; inherited Rabbit coarse cost plus full new phase, queue excluded",
+  "selftest": "logs/shared-phase-budget-selftest.json",
+  "order_algorithms_or_seeds_changed": false,
+  "already_completed_cases_rerun": false,
+  "timeout_evidence": "per-case cost-budget-trigger.json and command exitcode124",
+  "solver_checkpoint_addition": "future HP/METIS generation saves pre-repair partition labels and phase metadata; algorithm unchanged"
+}

@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "at_utc": "2026-11-08 20:52:52 UTC",
+  "scope": "metadata-only packaging gate on two real original mappings; no Rabbit/NN/LS/layout/UG recomputation",
+  "implementation_sources": {
+    "scripts/rabbit_coarse_evidence.py": "499bd08de4d3db3ce358d5686079c1d7a240595b47328b1b2df20548099ab786",
+    "scripts/gate_rabbit_coarse_evidence.py": "037608bdbee6f0d4554fe1e72e6011af62c0e19ab66c0183ca1f91a219f0a8e9",
+    "scripts/build_stage3.py": "780c53c281289e1b740310c50bdeb6faf950dc63a6dd419c2f8735913a54b546"
+  },
+  "global_original_files": 4,
+  "global_original_bytes": 61224521,
+  "real_mapping_checks": [
+    {
+      "key": "reddit-B-repeat0",
+      "graph_vertices": 465930,
+      "row_vertices": 232965,
+      "size": 3150400,
+      "sha256": "75baa3d2881d5ce02d3b311b478a386a07bd9aeeee3a6abddb10357033263b8a"
+    },
+    {
+      "key": "ogbn-products-U-repeat0",
+      "graph_vertices": 2449029,
+      "row_vertices": 2449029,
+      "size": 18481122,
+      "sha256": "d0d99768265570499aff41949cdd592c313b28c6f029fca91033cb1894215697"
+    }
+  ],
+  "tampered_mapping_rejected": true,
+  "tampered_record_rejected": true,
+  "ledger_overwrite_rejected": true,
+  "raw_vectors_inside_archive_rejected": true,
+  "archive_leak_rejected": true,
+  "invalid_permutation_fixtures_rejected": 3,
+  "original_mapping_bytes_unchanged": true,
+  "scientific_sources_unchanged": true,
+  "full_campaign_install_pending": true
+}

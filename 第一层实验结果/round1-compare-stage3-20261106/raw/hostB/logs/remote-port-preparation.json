@@ -1,0 +1,211 @@
+{
+  "preparation_completed": true,
+  "scientific_readiness": false,
+  "host_id": "hostB-windows16gb-wsl2",
+  "split_id": "T23-split-20261109",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "memory_info": "MemTotal:       12249448 kB\nMemFree:        10365008 kB\nMemAvailable:   11547640 kB\nBuffers:           44844 kB\nCached:          1280000 kB\nSwapCached:            0 kB\nActive:          1008228 kB\nInactive:         362360 kB\nActive(anon):       3224 kB\nInactive(anon):    46260 kB\nActive(file):    1005004 kB\nInactive(file):   316100 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:       2097152 kB\nSwapFree:        2097152 kB\nDirty:             18832 kB\nWriteback:             0 kB\nAnonPages:         45948 kB\nMapped:            99280 kB\nShmem:              3656 kB\nKReclaimable:      41412 kB\nSlab:              96100 kB\nSReclaimable:      41412 kB\nSUnreclaim:        54688 kB\nKernelStack:        4000 kB\nPageTables:         2688 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:     8221876 kB\nCommitted_AS:     549520 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       30432 kB\nVmallocChunk:          0 kB\nPercpu:             4288 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nBalloon:               0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:       31744 kB\nDirectMap2M:     5210112 kB\nDirectMap1G:    16777216 kB\n",
+  "cpu_info": "processor\t: 0\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 7 5800H with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.915\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 14\ncore id\t\t: 0\ncpu cores\t: 7\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 6387.83\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 7 5800H with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.915\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 14\ncore id\t\t: 0\ncpu cores\t: 7\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 6387.83\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 2\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 7 5800H with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.915\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 14\ncore id\t\t: 1\ncpu cores\t: 7\napicid\t\t: 2\ninitial apicid\t: 2\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 6387.83\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 3\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 7 5800H with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.915\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 14\ncore id\t\t: 1\ncpu cores\t: 7\napicid\t\t: 3\ninitial apicid\t: 3\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 6387.83\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 4\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 7 5800H with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.915\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 14\ncore id\t\t: 2\ncpu cores\t: 7\napicid\t\t: 4\ninitial apicid\t: 4\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 6387.83\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 5\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 7 5800H with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.915\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 14\ncore id\t\t: 2\ncpu cores\t: 7\napicid\t\t: 5\ninitial apicid\t: 5\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 6387.83\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 6\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 7 5800H with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.915\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 14\ncore id\t\t: 3\ncpu cores\t: 7\napicid\t\t: 6\ninitial apicid\t: 6\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 6387.83\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 7\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 7 5800H with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.915\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 14\ncore id\t\t: 3\ncpu cores\t: 7\napicid\t\t: 7\ninitial apicid\t: 7\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 6387.83\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 8\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 7 5800H with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.915\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 14\ncore id\t\t: 4\ncpu cores\t: 7\napicid\t\t: 8\ninitial apicid\t: 8\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 6387.83\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 9\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 7 5800H with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.915\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 14\ncore id\t\t: 4\ncpu cores\t: 7\napicid\t\t: 9\ninitial apicid\t: 9\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 6387.83\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 10\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 7 5800H with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.915\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 14\ncore id\t\t: 5\ncpu cores\t: 7\napicid\t\t: 10\ninitial apicid\t: 10\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 6387.83\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 11\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 7 5800H with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.915\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 14\ncore id\t\t: 5\ncpu cores\t: 7\napicid\t\t: 11\ninitial apicid\t: 11\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 6387.83\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 12\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 7 5800H with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.915\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 14\ncore id\t\t: 6\ncpu cores\t: 7\napicid\t\t: 12\ninitial apicid\t: 12\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 6387.83\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 13\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 7 5800H with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.915\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 14\ncore id\t\t: 6\ncpu cores\t: 7\napicid\t\t: 13\ninitial apicid\t: 13\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 6387.83\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\n",
+  "metadata_only_python_changes": [
+    {
+      "path": "scripts/evaluate_t23.py",
+      "before_sha256": "33fad739a71e6a20847280c08f0b20af589a84d33f46d394053845bd785cf419",
+      "after_sha256": "a4d181e429f166afb5df2c11dea96186039b19202a1f6e8744774f0c15801f02",
+      "change": "Linux KiB to MiB reporting only; default 8GiB native guard unchanged"
+    },
+    {
+      "path": "scripts/external_c1.py",
+      "before_sha256": "aaa3c4ca2aa3d35dd1ed5050e22f4f047751f2bd28fd4cc0fbb2c5922cea6890",
+      "after_sha256": "20682eb2d776da822edb2b2495cfc8ef817fbb36e0a1d52c778b26731885c73f",
+      "change": "Linux KiB to MiB reporting only; default 8GiB native guard unchanged"
+    },
+    {
+      "path": "scripts/external_hp.py",
+      "before_sha256": "44178747c6b6eb2f76fcc550032cd30e54865409f713e3e9c83e86be59415d51",
+      "after_sha256": "e2b0362790d40c85844479f61ed4451abbbfe7a40f310f5e7c09b33f06e9af2c",
+      "change": "Linux KiB to MiB reporting only; default 8GiB native guard unchanged"
+    },
+    {
+      "path": "scripts/external_metis.py",
+      "before_sha256": "447e2ce3de47c96dec109b744de43ccdb99d0f1b9772604fcf064fe8bc48b774",
+      "after_sha256": "43ca3f8821e56f8ea60d5640ee43922f50d2981bdc69ec15f4222ad2e1f3ca04",
+      "change": "Linux KiB to MiB reporting only; default 8GiB native guard unchanged"
+    },
+    {
+      "path": "scripts/post_e_job.py",
+      "before_sha256": "53f68b4087d536fa90aef408abf6bf534f5177d22b45c377fa2d9eae76254368",
+      "after_sha256": "ae43d6ad1b527457ef15e604ae7604ba30f986dd756f0b53209139a868f864f0",
+      "change": "Linux KiB to MiB reporting only; default 8GiB native guard unchanged"
+    }
+  ],
+  "builds": [
+    {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-ffp-contract=off",
+        "-shared",
+        "-fPIC",
+        "scripts/layouts_flatco.cpp",
+        "-o",
+        "work/liblayouts-v7.dylib"
+      ],
+      "returncode": 0,
+      "source_sha256": "5dcea0fff0c13830fe55ceb059e520580acb05b59f3286b653562239fafa7fcf",
+      "binary_sha256": "16edac6db1831b2f6308a16fb0e52f990f1b01e7c22b369a699d40003158f7d4"
+    },
+    {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-ffp-contract=off",
+        "-shared",
+        "-fPIC",
+        "scripts/layouts_cached.cpp",
+        "-o",
+        "work/liblayouts-v4.dylib"
+      ],
+      "returncode": 0,
+      "source_sha256": "d146347f03fb09f9ae8d4e63f794954103fe38655388a1455cb4a48e836837ae",
+      "binary_sha256": "5f9659c9036f21813faf3f4b6c86be889c7b3f494cf3bc3db04a2683754a6a82"
+    },
+    {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-ffp-contract=off",
+        "-shared",
+        "-fPIC",
+        "scripts/candidates.cpp",
+        "-o",
+        "work/libcandidates-v2.dylib"
+      ],
+      "returncode": 0,
+      "source_sha256": "278a7115c5ba6da911ea1307fe41a4bfe986c8174fdb9f2538293803b4171c55",
+      "binary_sha256": "415da62f04f1a49a57ce01064c3152ec5b481fe6a4ebade1366915bd2d36a19d"
+    },
+    {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-ffp-contract=off",
+        "-shared",
+        "-fPIC",
+        "scripts/rect.cpp",
+        "-o",
+        "work/librect.dylib"
+      ],
+      "returncode": 0,
+      "source_sha256": "634d0d2cd0453422021419ab5ae4c2b7289868a1012ecc3ca34ee7aaaa2e5c43",
+      "binary_sha256": "a82c7e2a06865a16d8cd54f2a87538fcfab61bb55dd20245340efda353e1ab14"
+    },
+    {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-ffp-contract=off",
+        "-shared",
+        "-fPIC",
+        "scripts/large_rcm.cpp",
+        "-o",
+        "work/liblarge-rcm.dylib"
+      ],
+      "returncode": 0,
+      "source_sha256": "884ccc61ceca4db69a4d498e77b9214c734b2eb4733d36f9d7042bcc6181d497",
+      "binary_sha256": "9833d0f1cccafe20ce3fcc5369a7bea37ff2eb1c0ec28721ca8c5f614ad732cf"
+    },
+    {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-ffp-contract=off",
+        "-shared",
+        "-fPIC",
+        "scripts/rabbit_local.cpp",
+        "-o",
+        "work/librabbit-local.dylib"
+      ],
+      "returncode": 0,
+      "source_sha256": "510a560b275fd18d7db422e1359e296eb44ed7f4be2999d0c2ad3ea266b2d193",
+      "binary_sha256": "24090189cfc87f0c8737573f0db44266b871aa9c9bfd4c14cafc9fb7fb036a1a"
+    },
+    {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-ffp-contract=off",
+        "-shared",
+        "-fPIC",
+        "scripts/independent_sorted.cpp",
+        "-o",
+        "work/libindependent-sorted.dylib"
+      ],
+      "returncode": 0,
+      "source_sha256": "a1babb0e9cdaf549acf1799a928b533b2ce848d5395681618303e979ac36fedc",
+      "binary_sha256": "d72399d5931b91944297e350ca35774fff7fcd47e8a2edb30c91e80d3093ce1f"
+    },
+    {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-ffp-contract=off",
+        "-shared",
+        "-fPIC",
+        "native_sources/accelerate-v8.cpp",
+        "-o",
+        "work/t21/librq2-v8.dylib"
+      ],
+      "returncode": 0,
+      "source_sha256": "28680c055cd9bc197ee9ec52b34422404f7650516b79845833bcd17d4768f3a0",
+      "binary_sha256": "56bfcd8ac6d97ef1a7f4926f6c54482efb0b2656976be565d6db4c0f72b08976"
+    },
+    {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-ffp-contract=off",
+        "-shared",
+        "-fPIC",
+        "scripts/t21/slashburn.cpp",
+        "-o",
+        "work/libslashburn.dylib"
+      ],
+      "returncode": 0,
+      "source_sha256": "be2eaec02ae8b60430cc99e3850431a3b119893a410f71549a031f8d27a9f2f6",
+      "binary_sha256": "a383d1aa5fd8cb321663e93a1f010029634fb5f035312b5931cf752e937ffc32"
+    },
+    {
+      "command": [
+        "gcc",
+        "-std=c11",
+        "-D_POSIX_C_SOURCE=200809L",
+        "-O2",
+        "-shared",
+        "-fPIC",
+        "-pthread",
+        "scripts/memory_guard.c",
+        "-o",
+        "work/libmemory-guard.dylib"
+      ],
+      "returncode": 0,
+      "source_sha256": "214e5f655c0e14ec85ea6ecf5c8ef208f83b334aa545a85c4d07fcdbfb8c2514",
+      "binary_sha256": "28a2e2fb16e7f0593d259f39416d823c5a0ab3d3aca98a06e55be863f00cf5dc"
+    }
+  ],
+  "completed_at": 1794208117.1884012,
+  "next_action": "Run all fresh Cora and memory-unit gates in HANDOFF.md; do not create PASS before they execute."
+}

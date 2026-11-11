@@ -1,0 +1,33 @@
+{
+  "matrix": "reddit",
+  "member": "rabbit-pilot",
+  "W": 16,
+  "diag": "A0",
+  "tau": 153,
+  "T_full": 4696731,
+  "T_full_phase": 4696252.6,
+  "align_premium": -478.40000000037253,
+  "T_inplace": 4453313,
+  "T_keep": 4446557,
+  "U_inplace": 71177342,
+  "U_keep": 71079798,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 37.38590216636658,
+  "status": "OK"
+}

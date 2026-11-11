@@ -1,0 +1,11 @@
+{
+  "pid": 17060,
+  "slot": 0,
+  "command": [
+    "scripts/diagnose_t23.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-057.json"
+  ],
+  "queued_at": 1793971384.062757,
+  "acquired_at": 1793971384.06301,
+  "queue_seconds": 0.0002529621124267578
+}

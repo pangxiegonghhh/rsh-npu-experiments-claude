@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "case_id": "stage3-reddit__C10-BP__W16__seed0__tau53",
+  "original_command_exitcode": 0,
+  "actual_method_seconds": 6133.674114942551,
+  "queue_seconds": 1533.582899093628,
+  "post_record_seconds": 6133.625013113022,
+  "post_LS_seconds": 5747.715353965759,
+  "sweeps_done": 10,
+  "accepted_swaps": 75609,
+  "completed_layout_conditions": 4,
+  "all_layout_status_OK": true,
+  "order_sha256": "75c6875cfb74db9f3d649dd0db5ebe793903021b7390cbb9e3801b2ca41253da",
+  "order_size": 1521020,
+  "original_process_peak_mem_mb": 2949.359375,
+  "original_post_source_sha256": "5a57b975d55b39f84fb41cd3bc21f48e5b66a775140e8efafb61ac2b5061c299",
+  "checkpoint_sha256": "7dd3f8875787af5836316c089ad04e7248a4acbe7bf1901ec9ba2c1a389ea4e6",
+  "runtime_independent_full_recompute": {
+    "k_windows": 11633,
+    "sumU": 35825881,
+    "T": 2244591,
+    "sumGamma": 9955618,
+    "sumR": 18247795,
+    "R_p50": 1094,
+    "R_p90": 2950,
+    "R_max": 26419,
+    "write_runs_aic": 11633,
+    "meanR": 1568.623313
+  },
+  "no_scientific_rerun": true,
+  "scope": "permutation/hash/checkpoint/counters/recorded fresh recompute/invariants/terminal budget audited; no new metric computation performed"
+}

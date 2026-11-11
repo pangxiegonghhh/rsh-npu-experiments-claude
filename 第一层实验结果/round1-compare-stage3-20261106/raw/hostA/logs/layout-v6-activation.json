@@ -1,0 +1,20 @@
+{
+  "activated_at": 1794045391.421542,
+  "native_before_sha256": "487e6b40033379f36865325f7e44acc3d3df0b93bc76b6fca6e3c66fe49eace4",
+  "native_after_sha256": "7363e80fb095c6297d1e35113e9bf11e6a6ac05e354f5810ef65748b5f23b1e8",
+  "binary_unchanged": "work/liblayouts-v4.dylib",
+  "binary_sha256": "10020ab112dbf80e28229a7d15fb00d8f162386e6171e0b792937abe55fd2d9f",
+  "gates": [
+    "layout-v6-port-gate.json",
+    "layout-W-sensitivity-v6-gate.json",
+    "rq3-native-table-v6-gate.json",
+    "layout-v6-random-gate.json",
+    "layout-v6-boundary-gate.json",
+    "layout-v6-failure-cache-gate.json"
+  ],
+  "applies_to": "future imports only; current and already-imported queued processes keep their recorded old implementation",
+  "change": "memoize only the exact deterministic co-pair-map100M limit error observed from own/tail-co. Same fixed matrix/binary/W/windows/orderedD key asv5. D-greedy always executes K ordering first, and its failure takes precedence. All replayed failures remain INCOMPLETE with the same error; no values invented. Other errors are not memoized.",
+  "proof": "same K/D-disjoint residual incidence and co weights across A0/A1; pair-map distinct support limit is deterministic. Successful layouts/gates unchanged; wrapper error fixture uses explicitly synthetic limit injection, plus preserved actual failure sample.",
+  "timing": "cached failure calls may be faster; actual d_sec retained and never replaced with cold-run cost",
+  "no_scientific_method_restarted": true
+}

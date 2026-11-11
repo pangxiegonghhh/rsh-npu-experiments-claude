@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "member": "C9-Gorder",
+      "tau": null,
+      "identical": true
+    },
+    {
+      "member": "C9-S",
+      "tau": null,
+      "identical": true
+    },
+    {
+      "member": "rsh-\u03b10",
+      "tau": null,
+      "identical": true
+    },
+    {
+      "member": "rabbit-pilot",
+      "tau": null,
+      "identical": true
+    },
+    {
+      "member": "neutron-pilot",
+      "tau": null,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": null,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 2,
+      "identical": true
+    },
+    {
+      "member": "C9-S",
+      "tau": 2,
+      "identical": true
+    },
+    {
+      "member": "rsh-\u03b10",
+      "tau": 2,
+      "identical": true
+    },
+    {
+      "member": "rabbit-pilot",
+      "tau": 2,
+      "identical": true
+    },
+    {
+      "member": "neutron-pilot",
+      "tau": 2,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 2,
+      "identical": true
+    },
+    {
+      "member": "C9-Gorder",
+      "tau": 3,
+      "identical": true
+    },
+    {
+      "member": "C9-S",
+      "tau": 3,
+      "identical": true
+    },
+    {
+      "member": "rsh-\u03b10",
+      "tau": 3,
+      "identical": true
+    },
+    {
+      "member": "rabbit-pilot",
+      "tau": 3,
+      "identical": true
+    },
+    {
+      "member": "neutron-pilot",
+      "tau": 3,
+      "identical": true
+    },
+    {
+      "member": "C10-BP",
+      "tau": 3,
+      "identical": true
+    }
+  ]
+}

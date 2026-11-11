@@ -1,0 +1,27 @@
+{
+  "changed_at": "2026-11-07 13:31:46 UTC",
+  "source_files": [
+    {
+      "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/post_e_job.py",
+      "sha256": "53f68b4087d536fa90aef408abf6bf534f5177d22b45c377fa2d9eae76254368"
+    },
+    {
+      "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/collect_stage3.py",
+      "sha256": "a61408f2307af40d4dfb9a586c2bce8b8ea5c13cbbdec5e293a265b730482f67"
+    },
+    {
+      "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/build_stage3.py",
+      "sha256": "0d4ed260aad8c1bb3c2ffebcef78528a0aeed7ad08126a95ad8807760f83f287"
+    },
+    {
+      "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/supplement_post_memory.py",
+      "sha256": "a0dac51c061ed1f0c346374e3d2334a1593ec61b0c594050059f629b39f5e37b"
+    }
+  ],
+  "scientific_algorithm_changed": false,
+  "active_processes_restarted": false,
+  "scope": "only export already recorded memory and capture per-condition lifetime peak in future post processes; keep original missing/timeout peaks unavailable",
+  "first_delivery_unchanged": true,
+  "first_memory_supplement": "round1-compare-20261106.post-memory-supplement.csv",
+  "evidence": "stage3-post-memory-export-audit.json"
+}

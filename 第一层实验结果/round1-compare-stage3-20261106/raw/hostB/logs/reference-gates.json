@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "gates": [
+    {
+      "name": "t21-reference",
+      "argv": [
+        "/root/t23-remote-runtime/.venv/bin/python",
+        "-B",
+        "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/repo/第一层工作区/T17-空白一试算脚本/reproduce_cora.py"
+      ],
+      "cwd": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/gates/t21-reference",
+      "initial_directory_entries": [],
+      "started_utc": "2026-11-09T07:11:25.543087+00:00",
+      "source_sha256": "386e318331c7fc3c00015c24e3ca0e2c3d2b9170d86cc69e47f0ef37726aa280",
+      "pid": 30,
+      "returncode": 0,
+      "ended_utc": "2026-11-09T07:12:33.949421+00:00",
+      "elapsed_sec": 68.40626636699994,
+      "first_line": "Table A self-check: OK",
+      "passed": true
+    },
+    {
+      "name": "t22-reference",
+      "argv": [
+        "/root/t23-remote-runtime/.venv/bin/python",
+        "-B",
+        "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/repo/第一层工作区/T17-空白二试算脚本/reproduce_cora_rq3.py"
+      ],
+      "cwd": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/gates/t22-reference",
+      "initial_directory_entries": [],
+      "started_utc": "2026-11-09T07:11:25.543552+00:00",
+      "source_sha256": "511b9e4f0f3216346415d0da24463e06d30a517dee861287a43e4bcf35167911",
+      "pid": 31,
+      "returncode": 0,
+      "ended_utc": "2026-11-09T07:11:36.237665+00:00",
+      "elapsed_sec": 10.694060014000002,
+      "first_line": "2 original T full/inplace/keep/rerun 681 588 550 550 | R tail/tail-co/gap +D 59.81 52.6 52.06",
+      "passed": true
+    },
+    {
+      "name": "t23-reference",
+      "argv": [
+        "/root/t23-remote-runtime/.venv/bin/python",
+        "-B",
+        "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/repo/第一层工作区/T23参考实现/reproduce_cora_t23.py"
+      ],
+      "cwd": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/gates/t23-reference",
+      "initial_directory_entries": [],
+      "started_utc": "2026-11-09T07:11:36.238604+00:00",
+      "source_sha256": "f11bc828ed94eeb4db81e8a31d1262711399acae53235d38996faf77142ed48d",
+      "pid": 45,
+      "returncode": 0,
+      "ended_utc": "2026-11-09T07:11:41.315959+00:00",
+      "elapsed_sec": 5.077312709000012,
+      "first_line": "T23 Cora self-check: OK",
+      "passed": true
+    },
+    {
+      "name": "t23-conditions-reference",
+      "argv": [
+        "/root/t23-remote-runtime/.venv/bin/python",
+        "-B",
+        "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/repo/第一层工作区/T23派发/conditions_ref.py",
+        "--cora-selfcheck"
+      ],
+      "cwd": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/gates/t23-conditions-reference",
+      "initial_directory_entries": [],
+      "started_utc": "2026-11-09T07:11:41.316866+00:00",
+      "source_sha256": "df0f3e390c4149399b1981f2ea2f509a3ad6003b328e58247666c0598dd556f0",
+      "pid": 52,
+      "returncode": 0,
+      "ended_utc": "2026-11-09T07:11:43.035835+00:00",
+      "elapsed_sec": 1.7189105900000072,
+      "first_line": "T23 conditions self-check: OK",
+      "passed": true
+    },
+    {
+      "name": "t23-toys",
+      "argv": [
+        "/root/t23-remote-runtime/.venv/bin/python",
+        "-B",
+        "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/repo/第一层工作区/T23参考实现/toy_tests.py"
+      ],
+      "cwd": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/gates/t23-toys",
+      "initial_directory_entries": [],
+      "started_utc": "2026-11-09T07:12:33.950885+00:00",
+      "source_sha256": "45c62fd8eecdfd7143d93cba2b6d76a1f5644117daae36125192128b2c276fbc",
+      "pid": 109,
+      "returncode": 0,
+      "ended_utc": "2026-11-09T07:12:33.983465+00:00",
+      "elapsed_sec": 0.03255555099997309,
+      "first_line": "T23 toy tests: OK",
+      "passed": true
+    },
+    {
+      "name": "t23-independent-reference",
+      "argv": [
+        "/root/t23-remote-runtime/.venv/bin/python",
+        "-B",
+        "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/repo/第一层工作区/T23参考实现/verify/indep_t23.py",
+        "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/repo/第一层实验结果/cora-pilot-20261104/neutron-matrices/cora.mtx",
+        "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/gates/t23-reference/out/orders_t23.json"
+      ],
+      "cwd": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/gates/t23-independent-reference",
+      "initial_directory_entries": [],
+      "started_utc": "2026-11-09T07:12:33.984682+00:00",
+      "source_sha256": "9e3281a4a3791c88d669025ee3003a9b8a15c3a16dd030a33dd06e93127ef98b",
+      "pid": 110,
+      "returncode": 0,
+      "ended_utc": "2026-11-09T07:12:36.505474+00:00",
+      "elapsed_sec": 2.5207261049999943,
+      "first_line": "C2-LSH IDENTICAL 259051172e51757f",
+      "passed": true
+    }
+  ]
+}

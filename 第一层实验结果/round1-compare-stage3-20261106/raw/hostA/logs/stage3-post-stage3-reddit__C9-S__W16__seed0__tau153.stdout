@@ -1,0 +1,10 @@
+LS {'sweep': 0, 'accepted': 26150, 'sumU': 38164228, 'sumGamma': 10973492, 'elapsed': 662.2642250061035}
+LS {'sweep': 1, 'accepted': 14730, 'sumU': 37535072, 'sumGamma': 10651407, 'elapsed': 1434.6362371444702}
+LS {'sweep': 2, 'accepted': 9266, 'sumU': 37196779, 'sumGamma': 10490184, 'elapsed': 2260.2069959640503}
+LS {'sweep': 3, 'accepted': 6065, 'sumU': 36990134, 'sumGamma': 10391274, 'elapsed': 2918.341887950897}
+LS {'sweep': 4, 'accepted': 4148, 'sumU': 36859818, 'sumGamma': 10329365, 'elapsed': 3402.2090339660645}
+LS {'sweep': 5, 'accepted': 2792, 'sumU': 36777849, 'sumGamma': 10291644, 'elapsed': 4037.0373780727386}
+LS {'sweep': 6, 'accepted': 1990, 'sumU': 36716541, 'sumGamma': 10261754, 'elapsed': 4600.1974132061005}
+LS {'sweep': 7, 'accepted': 1363, 'sumU': 36675369, 'sumGamma': 10241730, 'elapsed': 5191.678963899612}
+LS {'sweep': 8, 'accepted': 991, 'sumU': 36646912, 'sumGamma': 10227643, 'elapsed': 5734.028172969818}
+LS {'sweep': 9, 'accepted': 649, 'sumU': 36627602, 'sumGamma': 10217546, 'elapsed': 6276.377244234085}

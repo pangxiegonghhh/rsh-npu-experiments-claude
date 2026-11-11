@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "split_id": "T23-split-20261109",
+  "created_at_utc": "2026-11-09 05:33:00 UTC",
+  "user_request": "Continue monitoring current group; split about half remaining tasks to another agent on another computer; Windows16GB confirmed",
+  "frozen_repository": {
+    "commit": "3ecc8f4ae0f6a7dff556fe1ad4e888a500f3162b",
+    "tree": "54dd7a113c4ecad145e07b47d8745f9de7d56756"
+  },
+  "planned_catalog_sha256": "996787090a1eb64c2994258dd04faf0028d1dc8c93f2391df04929c34d89e5cd",
+  "already_final_cases": 368,
+  "remaining_cases": 41,
+  "local_host_id": "hostA-macos-arm64",
+  "remote_host_id": "hostB-windows16gb-wsl2",
+  "local_case_count": 21,
+  "remote_case_count": 20,
+  "partition_unit": "whole matrix×method×W×seed case, own evaluation/diagnostic/all prescribed post-E phases stay with same owner; case-count split, not a prediction of equal wall time",
+  "remote_unstarted_verified": true,
+  "remote_cases": [
+    {
+      "matrix": "ogbn-products",
+      "method": "B0",
+      "member": "B0",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__B0__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "B1",
+      "member": "B1",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__B1__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "B-RCM-ref",
+      "member": "B-RCM-ref",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__B-RCM-ref__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "rabbit-pilot",
+      "member": "rabbit-pilot",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__rabbit-pilot__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "neutron-pilot",
+      "member": "neutron-pilot",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__neutron-pilot__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C9-Gorder",
+      "member": "C9-Gorder",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C9-Gorder__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C9-S",
+      "member": "C9-S",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C9-S__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C10-BP",
+      "member": "C10-BP",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C10-BP__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C2-LSH",
+      "member": "C2-LSH",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C2-LSH__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C3-W1",
+      "member": "C3-W1",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C3-W1__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C3-W4",
+      "member": "C3-W4",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C3-W4__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C4-U",
+      "member": "C4-U",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C4-U__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C4-T",
+      "member": "C4-T",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C4-T__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C7-I",
+      "member": "C7-I",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C7-I__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C3-A",
+      "member": "C3-A",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C3-A__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C3-W4-noP",
+      "member": "C3-W4-noP",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C3-W4-noP__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C3-W4-R",
+      "member": "C3-W4-R",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C3-W4-R__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C3-A-R",
+      "member": "C3-A-R",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C3-A-R__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C4-U-R",
+      "member": "C4-U-R",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C4-U-R__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C4-T-R",
+      "member": "C4-T-R",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C4-T-R__W16__seed0",
+      "data_missing": false
+    }
+  ],
+  "local_cases": [
+    {
+      "matrix": "reddit",
+      "method": "C5-U",
+      "member": "C5-U",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-reddit__C5-U__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "reddit",
+      "method": "C8-METIS",
+      "member": "C8-METIS",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-reddit__C8-METIS__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "reddit",
+      "method": "C3-A",
+      "member": "C3-A",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-reddit__C3-A__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "reddit",
+      "method": "C3-W4-noP",
+      "member": "C3-W4-noP",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-reddit__C3-W4-noP__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "reddit",
+      "method": "C3-W4-R",
+      "member": "C3-W4-R",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-reddit__C3-W4-R__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "reddit",
+      "method": "C3-A-R",
+      "member": "C3-A-R",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-reddit__C3-A-R__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "reddit",
+      "method": "C4-U-R",
+      "member": "C4-U-R",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-reddit__C4-U-R__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "reddit",
+      "method": "C4-T-R",
+      "member": "C4-T-R",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-reddit__C4-T-R__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "reddit",
+      "method": "C7-I-R",
+      "member": "C7-I-R",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-reddit__C7-I-R__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "reddit",
+      "method": "C5-CN",
+      "member": "C5-CN",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-reddit__C5-CN__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "reddit",
+      "method": "C5-U-CN",
+      "member": "C5-U-CN",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-reddit__C5-U-CN__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "reddit",
+      "method": "C6-HP",
+      "member": "C6-HP",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-reddit__C6-HP__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C1-J",
+      "member": "C1-J",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C1-J__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C1-H",
+      "member": "C1-H",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C1-H__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C5",
+      "member": "C5",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C5__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C5-U",
+      "member": "C5-U",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C5-U__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C8-METIS",
+      "member": "C8-METIS",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C8-METIS__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C7-I-R",
+      "member": "C7-I-R",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C7-I-R__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C5-CN",
+      "member": "C5-CN",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C5-CN__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C5-U-CN",
+      "member": "C5-U-CN",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C5-U-CN__W16__seed0",
+      "data_missing": false
+    },
+    {
+      "matrix": "ogbn-products",
+      "method": "C6-HP",
+      "member": "C6-HP",
+      "W": 16,
+      "seed": 0,
+      "scope": "second batch",
+      "case_id": "stage3-ogbn-products__C6-HP__W16__seed0",
+      "data_missing": false
+    }
+  ],
+  "parameters": {
+    "W": 16,
+    "seed": 0,
+    "A_modes": [
+      "A0",
+      "A1"
+    ],
+    "products_taus": [
+      2,
+      3
+    ],
+    "own_rows_per_case": 20,
+    "post_rows_per_P0_case": 8,
+    "post_required_methods": [
+      "C9-Gorder",
+      "C9-S",
+      "C10-BP",
+      "C2-LSH",
+      "C3-W1",
+      "C3-W4",
+      "C4-U",
+      "C4-T",
+      "C7-I",
+      "C1-J",
+      "C1-H",
+      "C5",
+      "C5-U",
+      "C8-METIS",
+      "B0",
+      "B1"
+    ],
+    "method_time_limit_seconds": 7200,
+    "queue_excluded": true,
+    "workspace_limit_bytes": 8589934592,
+    "co_guard": 400,
+    "LS_sweeps_max": 10,
+    "LS_lambda": 0
+  },
+  "host_comparison": "Record host/environment per case; do not pool elapsed times as if measured on one machine; numerical definitions unchanged",
+  "remote_formal_conditions": 488,
+  "local_full_case_formal_conditions": 476,
+  "global_completion": "Old full-catalog completion marker must not be emitted until all genuine local and imported remote records are terminal; no delegated/synthetic SKIPPED placeholders",
+  "no_commit_push": true,
+  "CPU_only": true
+}

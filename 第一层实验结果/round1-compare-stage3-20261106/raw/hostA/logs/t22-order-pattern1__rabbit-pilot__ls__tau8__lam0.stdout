@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 2813, 'sumU': 1626739, 'sumGamma': 188829, 'elapsed': 2.9494528770446777}
+LS {'sweep': 1, 'accepted': 554, 'sumU': 1525364, 'sumGamma': 181932, 'elapsed': 5.1143882274627686}
+LS {'sweep': 2, 'accepted': 238, 'sumU': 1489151, 'sumGamma': 179217, 'elapsed': 7.152337074279785}
+LS {'sweep': 3, 'accepted': 75, 'sumU': 1481517, 'sumGamma': 178487, 'elapsed': 9.1546950340271}
+LS {'sweep': 4, 'accepted': 38, 'sumU': 1478452, 'sumGamma': 178249, 'elapsed': 11.18026614189148}
+LS {'sweep': 5, 'accepted': 15, 'sumU': 1476935, 'sumGamma': 178193, 'elapsed': 13.187913179397583}
+LS {'sweep': 6, 'accepted': 4, 'sumU': 1476928, 'sumGamma': 178190, 'elapsed': 15.191957950592041}
+LS {'sweep': 7, 'accepted': 3, 'sumU': 1476922, 'sumGamma': 178185, 'elapsed': 17.69243311882019}
+LS {'sweep': 8, 'accepted': 3, 'sumU': 1476917, 'sumGamma': 178183, 'elapsed': 19.695064067840576}
+LS {'sweep': 9, 'accepted': 0, 'sumU': 1476917, 'sumGamma': 178183, 'elapsed': 21.742000102996826}
+{"task": "T22", "use": "base-order", "matrix": "pattern1", "member": "rabbit-pilot", "start": 1793979963.850484, "lam": "", "tau": 8, "seed": 0, "t21_path": "orders/pattern1__rabbit-pilot__W16__tauNone__own__f6228d937bf8.json", "sha256": "b04b0c9351f58c71f1f0ed0613eb830c82dabc5d91bf2b728ee749d72953c2e8", "note": "", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/pattern1__rabbit-pilot__W16__tauNone__own__f6228d937bf8.json", "verified_sha256": "86f31e2968dc9745e4420fd2cfc515a951cf59647f21c1a8f6a6deb19b86f007", "origin": "T21 archive", "kind": "ls", "W": 16, "lambda": 0, "status": "OK", "command": ["scripts/order_job.py", "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/pattern1__rabbit-pilot__ls__tau8__lam0.json"], "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/pattern1__rabbit-pilot__ls__tau8__lam0.checkpoint.json", "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/pattern1__rabbit-pilot__ls__tau8__lam0.order.json", "size": 105673, "end": 1793979988.4434419, "seconds": 24.592957973480225}

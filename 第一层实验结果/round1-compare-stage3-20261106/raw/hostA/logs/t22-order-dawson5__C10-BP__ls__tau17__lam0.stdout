@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 4676, 'sumU': 152071, 'sumGamma': 37448, 'elapsed': 0.3908100128173828}
+LS {'sweep': 1, 'accepted': 1154, 'sumU': 147638, 'sumGamma': 36184, 'elapsed': 0.7996680736541748}
+LS {'sweep': 2, 'accepted': 490, 'sumU': 145614, 'sumGamma': 35377, 'elapsed': 1.1342580318450928}
+LS {'sweep': 3, 'accepted': 237, 'sumU': 144488, 'sumGamma': 34956, 'elapsed': 1.4668219089508057}
+LS {'sweep': 4, 'accepted': 106, 'sumU': 143936, 'sumGamma': 34683, 'elapsed': 1.8019800186157227}
+LS {'sweep': 5, 'accepted': 55, 'sumU': 143613, 'sumGamma': 34552, 'elapsed': 2.1307311058044434}
+LS {'sweep': 6, 'accepted': 18, 'sumU': 143491, 'sumGamma': 34497, 'elapsed': 2.46162486076355}
+LS {'sweep': 7, 'accepted': 4, 'sumU': 143473, 'sumGamma': 34486, 'elapsed': 2.8004648685455322}
+LS {'sweep': 8, 'accepted': 2, 'sumU': 143468, 'sumGamma': 34489, 'elapsed': 3.1345739364624023}
+LS {'sweep': 9, 'accepted': 0, 'sumU': 143468, 'sumGamma': 34489, 'elapsed': 3.4911980628967285}
+{"task": "T22", "use": "base-order", "matrix": "dawson5", "member": "C10-BP", "start": 1793978456.8125591, "lam": "", "tau": 17, "seed": 0, "t21_path": "orders/dawson5__C10-BP__W16__tauNone__own__0e5bcf7f0480.json", "sha256": "4ea8527d2216ae563ad69c32ebfb1bfc91fcc6ecef405d96a0c846a0ee473ccf", "note": "", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__C10-BP__W16__tauNone__own__0e5bcf7f0480.json", "verified_sha256": "40a01ee9129204a187f6ebb7603ce61b432d4f21464fc406f51f55a45e546497", "origin": "T21 archive", "kind": "ls", "W": 16, "lambda": 0, "status": "OK", "command": ["scripts/order_job.py", "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/dawson5__C10-BP__ls__tau17__lam0.json"], "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/dawson5__C10-BP__ls__tau17__lam0.checkpoint.json", "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/dawson5__C10-BP__ls__tau17__lam0.order.json", "size": 299416, "end": 1793978460.499274, "seconds": 3.6867148876190186}

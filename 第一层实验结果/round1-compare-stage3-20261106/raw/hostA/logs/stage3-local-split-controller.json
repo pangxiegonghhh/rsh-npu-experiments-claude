@@ -1,0 +1,16 @@
+{
+  "host_id": "hostA-macos-arm64",
+  "platform": "macOS-15.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "python": "3.12.10 (v3.12.10:0cc81280367, Apr  8 2025, 08:46:59) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "pid": 91864,
+  "started_at": 1794219829.583712,
+  "owner": "local",
+  "split_id": "T23-split-20261109",
+  "assignment_sha256": "59a5c1e4c9990614bb31f9a9a657151a9a27fa9ea446cd5a55d73ac644968714",
+  "scientific_dispatch": "unmodified run_stage3.run",
+  "workers": 2,
+  "large_graph_serialized": true,
+  "method_limit_seconds": 7200,
+  "workspace_limit_bytes": 8589934592
+}

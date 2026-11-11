@@ -1,0 +1,18 @@
+{
+  "python_implementation_revision": "v7-flat-co-default-and-backend-provenance; unchanged v6 chain/failure cache",
+  "pid": 21625,
+  "argv": [
+    "scripts/diagnose_t23.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-eval-catalog/stage3-reddit__C7-I__W16__seed0.json"
+  ],
+  "matrix": "reddit",
+  "n": 232965,
+  "first_context_W": 16,
+  "first_context_windows": 14562,
+  "binary_loaded_at": 1794144442.26415,
+  "first_context_at": 1794145405.571816,
+  "library_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib",
+  "library_sha256": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+  "library_override_at_import": null,
+  "scope": "actual DLL selected and hashed at module import; applies to this process only, not prior/queued imports"
+}

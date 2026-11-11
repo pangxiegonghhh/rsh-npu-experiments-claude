@@ -1,0 +1,13 @@
+{
+  "pid": 76555,
+  "slot": 0,
+  "command": [
+    "scripts/measure_t22_new.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-new-eval-catalog/ogbn-arxiv__SlashBurn__rerun__tau2__lamnone.record.json"
+  ],
+  "queued_at": 1793974592.568521,
+  "acquired_at": 1793974644.421744,
+  "queue_seconds": 51.85322308540344,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots"
+}

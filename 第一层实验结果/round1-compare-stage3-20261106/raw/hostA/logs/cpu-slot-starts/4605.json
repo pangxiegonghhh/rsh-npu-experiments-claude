@@ -1,0 +1,14 @@
+{
+  "pid": 4605,
+  "slot": 0,
+  "command": [
+    "scripts/order_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/human_gene1__rsh-\u03b10__rerun__tau82__lamnone.json"
+  ],
+  "queued_at": 1793980883.382049,
+  "acquired_at": 1793980926.044245,
+  "queue_seconds": 42.662195920944214,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false
+}

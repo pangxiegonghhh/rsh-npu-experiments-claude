@@ -1,0 +1,354 @@
+[
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "cora",
+      "--mode",
+      "B",
+      "--rep",
+      "0"
+    ],
+    "start": 1793970750.882782,
+    "end": 1793970751.2702348,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "cora",
+      "--mode",
+      "U",
+      "--rep",
+      "0"
+    ],
+    "start": 1793970751.2713118,
+    "end": 1793970751.8799949,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "ogbn-arxiv",
+      "--mode",
+      "B",
+      "--rep",
+      "0"
+    ],
+    "start": 1793970751.88133,
+    "end": 1793970755.9740312,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "ogbn-arxiv",
+      "--mode",
+      "U",
+      "--rep",
+      "0"
+    ],
+    "start": 1793970755.975122,
+    "end": 1793970758.9176042,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "wiki-RfA",
+      "--mode",
+      "B",
+      "--rep",
+      "0"
+    ],
+    "start": 1793970758.918708,
+    "end": 1793970759.4371998,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "wiki-RfA",
+      "--mode",
+      "U",
+      "--rep",
+      "0"
+    ],
+    "start": 1793970759.438189,
+    "end": 1793970759.910292,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "dawson5",
+      "--mode",
+      "B",
+      "--rep",
+      "0"
+    ],
+    "start": 1793970759.911595,
+    "end": 1793970760.966482,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "dawson5",
+      "--mode",
+      "U",
+      "--rep",
+      "0"
+    ],
+    "start": 1793970760.9680152,
+    "end": 1793970761.945316,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "olafu",
+      "--mode",
+      "B",
+      "--rep",
+      "0"
+    ],
+    "start": 1793970761.946221,
+    "end": 1793970762.622623,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "olafu",
+      "--mode",
+      "U",
+      "--rep",
+      "0"
+    ],
+    "start": 1793970762.623461,
+    "end": 1793970763.336295,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "pattern1",
+      "--mode",
+      "B",
+      "--rep",
+      "0"
+    ],
+    "start": 1793970763.3381948,
+    "end": 1793970774.835777,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "pattern1",
+      "--mode",
+      "U",
+      "--rep",
+      "0"
+    ],
+    "start": 1793970774.837344,
+    "end": 1793970785.26969,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "human_gene1",
+      "--mode",
+      "B",
+      "--rep",
+      "0"
+    ],
+    "start": 1793970785.275266,
+    "end": 1793970807.841506,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "human_gene1",
+      "--mode",
+      "U",
+      "--rep",
+      "0"
+    ],
+    "start": 1793970807.844508,
+    "end": 1793970825.116607,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "cora",
+      "--mode",
+      "B",
+      "--rep",
+      "1"
+    ],
+    "start": 1793970825.118242,
+    "end": 1793970825.393997,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "cora",
+      "--mode",
+      "B",
+      "--rep",
+      "2"
+    ],
+    "start": 1793970825.394947,
+    "end": 1793970825.63841,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "cora",
+      "--mode",
+      "U",
+      "--rep",
+      "1"
+    ],
+    "start": 1793970825.638987,
+    "end": 1793970825.8426418,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "cora",
+      "--mode",
+      "U",
+      "--rep",
+      "2"
+    ],
+    "start": 1793970825.843536,
+    "end": 1793970826.0802271,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "ogbn-arxiv",
+      "--mode",
+      "B",
+      "--rep",
+      "1"
+    ],
+    "start": 1793970826.082319,
+    "end": 1793970829.8504739,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "ogbn-arxiv",
+      "--mode",
+      "B",
+      "--rep",
+      "2"
+    ],
+    "start": 1793970829.852395,
+    "end": 1793970833.1912801,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "ogbn-arxiv",
+      "--mode",
+      "U",
+      "--rep",
+      "1"
+    ],
+    "start": 1793970833.199432,
+    "end": 1793970836.884495,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/rabbit_family.py",
+      "--matrix",
+      "ogbn-arxiv",
+      "--mode",
+      "U",
+      "--rep",
+      "2"
+    ],
+    "start": 1793970836.886888,
+    "end": 1793970840.711394,
+    "exitcode": 0
+  }
+]

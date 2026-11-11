@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "matrix": "cora",
+      "member": "C9-Gorder",
+      "identical_to_T21_sha256": "d665ce77ae0cc7c4648f1d12e66d7740346e26ccf4d3efcaa56f95e33fef88b8"
+    },
+    {
+      "matrix": "cora",
+      "member": "rsh-\u03b10",
+      "identical_to_T21_sha256": "40ae51e9603120060c81198af8a906b65b610d6bf8161f7d9decb6300fef2a70"
+    },
+    {
+      "fixture_seed": 0,
+      "empty_count": 11,
+      "lam": 0,
+      "identical_reference_order_and_UG": true
+    },
+    {
+      "fixture_seed": 0,
+      "empty_count": 11,
+      "lam": 1,
+      "identical_reference_order_and_UG": true
+    },
+    {
+      "fixture_seed": 1,
+      "empty_count": 11,
+      "lam": 0,
+      "identical_reference_order_and_UG": true
+    },
+    {
+      "fixture_seed": 1,
+      "empty_count": 11,
+      "lam": 1,
+      "identical_reference_order_and_UG": true
+    }
+  ]
+}

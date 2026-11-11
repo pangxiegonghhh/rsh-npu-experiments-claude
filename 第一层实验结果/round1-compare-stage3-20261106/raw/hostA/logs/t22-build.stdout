@@ -1,0 +1,2 @@
+{"expected_cases": 170, "actual_cases": 170, "OK": 170, "INCOMPLETE": 0, "result_rows": 4012, "expected_result_rows": 4012, "pls_records": 182, "expected_pls_records": 182, "derived_present": true}
+{"path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/delivery/rq3-validate-20261106.tar.gz", "sha256": "9b77737f0e074666e78b915bc34b6b51b66fe005889de783df7f35d13d8cbca3", "size": 2869384, "archive_members_independently_checked": 7408}

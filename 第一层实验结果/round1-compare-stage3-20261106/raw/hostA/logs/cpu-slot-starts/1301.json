@@ -1,0 +1,13 @@
+{
+  "pid": 1301,
+  "slot": 0,
+  "command": [
+    "-c"
+  ],
+  "queued_at": 1793975756.090781,
+  "acquired_at": 1793975756.091129,
+  "queue_seconds": 0.00034809112548828125,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "work/bounded-selftest-slots",
+  "large_graph_serialized": false
+}

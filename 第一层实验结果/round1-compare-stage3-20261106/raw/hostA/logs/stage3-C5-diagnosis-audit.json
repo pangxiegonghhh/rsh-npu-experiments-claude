@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "scope": "original diagnosis only: 15 actual saved phases/identity/T_full vs own A0 full rows/source/unchanged original Pi; no metric regeneration; both posts still pending",
+  "case_id": "stage3-reddit__C5__W16__seed0",
+  "status": "OK",
+  "actual_method_seconds": 28.36431074142456,
+  "queue_seconds": 5976.742881059647,
+  "diagnostic_status_seconds": 28.178263187408447,
+  "T_full": 2856710,
+  "T_full_phase": 2948324.3333333335,
+  "align_premium": 91614.33333333349,
+  "files": {
+    "work/stage3-diagnostics/stage3-reddit__C5__W16__seed0/status.json": "b1494fda8401904f96b3de9838b53a57b00b8505f07094b60007fd2d58fee86c",
+    "work/stage3-diagnostics/stage3-reddit__C5__W16__seed0/diag.json": "88873ad467d5b2f0ce468a2e4bbd12b41423c78cd94f4b1cf316e5e10616a833",
+    "work/stage3-diagnostics/stage3-reddit__C5__W16__seed0/phases.json": "bb6f7cbb444c7d9c3b784c746d6764c24eca4bdca57ebb715b027b09f4a823ee",
+    "work/stage3-diagnostics/stage3-reddit__C5__W16__seed0/candidate-diagnostics.json": "920bffaec098c2523ec410053d0db634fdb33b8cc6a29706b9e59f6a03efff3b",
+    "logs/stage3-diag-stage3-reddit__C5__W16__seed0.command.json": "8134f3abb41ea90827c8ec576e7a366ba7f923f6a10b4cf5c3dae8152d93e9c9"
+  },
+  "no_scientific_rerun": true,
+  "whole_case_complete": false,
+  "audit_attempt_correction": "Initial metadata-only filter used Python None rather than actual raw tau string none and stopped before writing an audit. Inspected raw schema and corrected filter; no source/data/metric computation modified."
+}

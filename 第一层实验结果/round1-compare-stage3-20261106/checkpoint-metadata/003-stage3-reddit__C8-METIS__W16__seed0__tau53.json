@@ -1,0 +1,34 @@
+{
+  "kind": "derived metadata only; original complete vector retained locally",
+  "source_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C8-METIS__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+  "source_sha256": "1628fe227011dab80dfb59ad5e0d766d29e89072cd04ad96ba46d5d7542580b7",
+  "source_size": 1520050,
+  "permutation_length": 232965,
+  "checkpoint_metadata": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 123831,
+        "sumU": 65316537,
+        "sumGamma": 30844909,
+        "elapsed": 3702.555906057358
+      },
+      {
+        "sweep": 1,
+        "accepted": 67994,
+        "sumU": 60784816,
+        "sumGamma": 27452190,
+        "elapsed": 5756.629229068756
+      }
+    ],
+    "tau": 53,
+    "W": 16,
+    "seed": 0,
+    "lam": 0,
+    "tracked_sumU": 60784816,
+    "tracked_sumGamma": 27452190,
+    "status": "INCOMPLETE",
+    "note": "last completed sweep checkpoint; final full recomputation not yet performed"
+  },
+  "original_status_not_promoted": true
+}

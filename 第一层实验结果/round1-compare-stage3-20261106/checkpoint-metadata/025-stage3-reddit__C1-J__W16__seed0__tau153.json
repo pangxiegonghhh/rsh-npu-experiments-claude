@@ -1,0 +1,90 @@
+{
+  "kind": "derived metadata only; original complete vector retained locally",
+  "source_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C1-J__W16__seed0__tau153/last-completed-sweep.checkpoint.json",
+  "source_sha256": "9737adc01e5d6a7c87f0b235593b3ad48a6853787fbfea217f19eca5dff4ecdf",
+  "source_size": 1520777,
+  "permutation_length": 232965,
+  "checkpoint_metadata": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 21333,
+        "sumU": 34364223,
+        "sumGamma": 9745001,
+        "elapsed": 367.44378876686096
+      },
+      {
+        "sweep": 1,
+        "accepted": 10483,
+        "sumU": 34073005,
+        "sumGamma": 9597340,
+        "elapsed": 712.3598921298981
+      },
+      {
+        "sweep": 2,
+        "accepted": 6063,
+        "sumU": 33926813,
+        "sumGamma": 9525007,
+        "elapsed": 1041.5435328483582
+      },
+      {
+        "sweep": 3,
+        "accepted": 3809,
+        "sumU": 33843034,
+        "sumGamma": 9479760,
+        "elapsed": 1358.9083888530731
+      },
+      {
+        "sweep": 4,
+        "accepted": 2569,
+        "sumU": 33789971,
+        "sumGamma": 9456944,
+        "elapsed": 1666.188593864441
+      },
+      {
+        "sweep": 5,
+        "accepted": 1721,
+        "sumU": 33754234,
+        "sumGamma": 9439888,
+        "elapsed": 1969.6393389701843
+      },
+      {
+        "sweep": 6,
+        "accepted": 1189,
+        "sumU": 33729573,
+        "sumGamma": 9428232,
+        "elapsed": 2260.990303039551
+      },
+      {
+        "sweep": 7,
+        "accepted": 764,
+        "sumU": 33713155,
+        "sumGamma": 9419657,
+        "elapsed": 2547.256577014923
+      },
+      {
+        "sweep": 8,
+        "accepted": 522,
+        "sumU": 33702544,
+        "sumGamma": 9414260,
+        "elapsed": 2830.5767769813538
+      },
+      {
+        "sweep": 9,
+        "accepted": 367,
+        "sumU": 33695165,
+        "sumGamma": 9410362,
+        "elapsed": 3113.171361923218
+      }
+    ],
+    "tau": 153,
+    "W": 16,
+    "seed": 0,
+    "lam": 0,
+    "tracked_sumU": 33695165,
+    "tracked_sumGamma": 9410362,
+    "status": "INCOMPLETE",
+    "note": "last completed sweep checkpoint; final full recomputation not yet performed"
+  },
+  "original_status_not_promoted": true
+}

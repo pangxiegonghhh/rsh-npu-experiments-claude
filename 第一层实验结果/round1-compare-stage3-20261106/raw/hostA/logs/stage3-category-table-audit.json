@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "expected_categories": {
+    "cora": "GNN 图",
+    "ogbn-arxiv": "GNN 图",
+    "reddit": "GNN 图",
+    "ogbn-products": "GNN 图",
+    "wiki-RfA": "真实网络",
+    "mycielskian15": "合成幂律",
+    "dawson5": "有限元带状",
+    "olafu": "有限元带状",
+    "pattern1": "长行",
+    "human_gene1": "长行"
+  },
+  "rows": 6276,
+  "myc_skipped_rows": 132,
+  "scope": "category labels only, per plan section2; no numerical/status changes or sealed-directory writes"
+}

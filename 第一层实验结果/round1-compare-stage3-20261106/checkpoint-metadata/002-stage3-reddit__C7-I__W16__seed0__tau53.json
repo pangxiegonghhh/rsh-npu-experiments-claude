@@ -1,0 +1,69 @@
+{
+  "kind": "derived metadata only; original complete vector retained locally",
+  "source_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/stage3-reddit__C7-I__W16__seed0__tau53/last-completed-sweep.checkpoint.json",
+  "source_sha256": "f8ed7c996bc907b4872a209ce2285f0bc7bd62870b1965daffa214778bbad414",
+  "source_size": 1520514,
+  "permutation_length": 232965,
+  "checkpoint_metadata": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 71728,
+        "sumU": 47356059,
+        "sumGamma": 16526047,
+        "elapsed": 2120.6541271209717
+      },
+      {
+        "sweep": 1,
+        "accepted": 34288,
+        "sumU": 45648679,
+        "sumGamma": 15750022,
+        "elapsed": 3291.9081480503082
+      },
+      {
+        "sweep": 2,
+        "accepted": 21379,
+        "sumU": 44742042,
+        "sumGamma": 15319677,
+        "elapsed": 4182.068638086319
+      },
+      {
+        "sweep": 3,
+        "accepted": 14835,
+        "sumU": 44148661,
+        "sumGamma": 15016384,
+        "elapsed": 4973.349030017853
+      },
+      {
+        "sweep": 4,
+        "accepted": 10513,
+        "sumU": 43751529,
+        "sumGamma": 14826179,
+        "elapsed": 5557.869981050491
+      },
+      {
+        "sweep": 5,
+        "accepted": 7518,
+        "sumU": 43467882,
+        "sumGamma": 14682579,
+        "elapsed": 6096.498053073883
+      },
+      {
+        "sweep": 6,
+        "accepted": 5699,
+        "sumU": 43250332,
+        "sumGamma": 14579946,
+        "elapsed": 6615.580054998398
+      }
+    ],
+    "tau": 53,
+    "W": 16,
+    "seed": 0,
+    "lam": 0,
+    "tracked_sumU": 43250332,
+    "tracked_sumGamma": 14579946,
+    "status": "INCOMPLETE",
+    "note": "last completed sweep checkpoint; final full recomputation not yet performed"
+  },
+  "original_status_not_promoted": true
+}

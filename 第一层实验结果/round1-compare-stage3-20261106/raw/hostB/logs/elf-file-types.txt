@@ -1,0 +1,10 @@
+work/libcandidates-v2.dylib:      ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=d2ad4a180f3583bef605cdb679ef9fe0c2160483, not stripped
+work/libindependent-sorted.dylib: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=eea959c6925bfb3695504dcaa33b72bf3f5e32c2, not stripped
+work/liblarge-rcm.dylib:          ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=942340073f7e73e523108c9a976b7307b1975d4e, not stripped
+work/liblayouts-v4.dylib:         ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=ac035a152ed36959d29e991b3173f9ea063e615a, not stripped
+work/liblayouts-v7.dylib:         ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=510e611388a90eebd876da2f9d24e3be106be8ba, not stripped
+work/libmemory-guard.dylib:       ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=fe385e96d21edffe1270382df421a8f2eed9095f, not stripped
+work/librabbit-local.dylib:       ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=7b82906e1126bf64b28fc8aafeccc8781d9efd36, not stripped
+work/librect.dylib:               ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=bd9bdbeea5b7ab4c9e952e9ce67f850facfe0ca5, not stripped
+work/libslashburn.dylib:          ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=b07962ec9f014d6fbb4ca04dbb957dfd2026d340, not stripped
+work/t21/librq2-v8.dylib:         ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=a6a8deaa45548d7baaa5b1ab36772ebac1fa7c58, not stripped

@@ -1,0 +1,12 @@
+Fri Nov  6 20:45:08 2026 Building RP forest with 9 trees
+Fri Nov  6 20:45:09 2026 metric NN descent for 16 iterations
+	 1  /  16
+	 2  /  16
+	 3  /  16
+	 4  /  16
+	 5  /  16
+	 6  /  16
+	 7  /  16
+	 8  /  16
+	Stopping threshold met -- exiting after 8 iterations
+{"matrix": "dawson5", "method": "C1-H", "W": 16, "seed": 0, "start": 1793969108.630134, "status": "OK", "command": ["scripts/external_c1.py", "--matrix", "dawson5", "--variant", "H", "--seed", "0"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/dawson5__C1-H__W16__seed0.order.json", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/dawson5__C1-H__W16__seed0.order.json", "sha256": "d62a95c79b4606aa0a1f44e102a08174838a84308d382782afa4ef5c18b651a9", "size": 298114, "diagnostics": {"graph_components": 1, "graph_edges": 804574, "zero_distance_edges": 2, "recall_sample_original_rows": [140, 273, 423, 845, 1130, 1448, 1717, 2094, 2486, 2665, 3000, 3734, 3846, 4062, 4113, 4303, 4567, 4650, 6358, 6915, 7699, 8961, 8985, 10172, 11633, 11817, 12261, 13036, 13166, 13516, 13792, 14184, 15332, 15738, 15882, 16210, 16481, 16806, 17219, 17304, 18319, 19218, 19317, 19423, 19633, 19906, 20055, 20159, 20532, 20630, 20730, 21625, 21652, 23073, 23587, 24611, 24872, 25752, 25830, 26131, 26893, 26894, 27204, 27699, 27800, 28352, 28634, 29212, 29264, 29389, 29632, 29741, 30432, 31020, 31489, 31917, 31936, 32333, 32563, 33116, 33205, 33291, 34339, 34341, 34420, 34479, 35147, 35306, 36123, 36230, 36667, 36890, 36933, 37022, 37394, 37412, 39043, 39188, 39214, 39391, 40407, 40645, 40891, 41286, 41673, 41815, 42738, 43098, 43370, 43394, 43575, 43943, 44153, 44245, 44885, 44989, 45629, 45683, 45945, 46761, 47910, 47912, 48595, 48716, 49729, 50313, 51149, 51189], "recall_at16": 0.24365234375, "graph_type": "nonempty row exact-distance undirected union of approximate neighbors; Kruskal MSF", "pynndescent_version": "0.7.0", "n_jobs": 1, "metric_units": "symmetric difference count"}, "end": 1793969135.8783748, "seconds": 27.24824070930481, "peak_mem_mb": 461.703125}

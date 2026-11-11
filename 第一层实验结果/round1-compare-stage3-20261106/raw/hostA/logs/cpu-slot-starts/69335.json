@@ -1,0 +1,13 @@
+{
+  "pid": 69335,
+  "slot": 0,
+  "command": [
+    "scripts/diagnose_t23.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-dawson5__C4-U.json"
+  ],
+  "queued_at": 1793974226.147842,
+  "acquired_at": 1793974438.831483,
+  "queue_seconds": 212.68364095687866,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots"
+}

@@ -1,0 +1,23 @@
+{
+  "classification": "verified wait",
+  "observer_cell": "g3:1297",
+  "observer_terminal": true,
+  "main_session": 73950,
+  "observations": 8,
+  "first_observed_utc": "2026-11-09T06:09:30.085394+00:00",
+  "last_observed_utc": "2026-11-09T06:14:46.411779+00:00",
+  "all_direct_session_polls_live": true,
+  "scientific_case": "stage3-reddit__C5-U__W16__seed0__tau153",
+  "completed_sweeps": 2,
+  "last_full_sweep": {
+    "sweep": 1,
+    "accepted": 25826,
+    "sumU": 37683818,
+    "sumGamma": 10582800,
+    "elapsed": 1624.4646208286285
+  },
+  "post_final_record": false,
+  "scientific_reruns": false,
+  "controller_restarted": false,
+  "next_action": "Continue observing the same live session73950; inspect next complete checkpoint or terminal command, retain 7200-second actual method limit. Do not poll retired session14206 as live."
+}

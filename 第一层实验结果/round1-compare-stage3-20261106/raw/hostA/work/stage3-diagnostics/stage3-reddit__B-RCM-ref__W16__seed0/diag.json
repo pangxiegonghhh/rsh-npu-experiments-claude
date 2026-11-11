@@ -1,0 +1,33 @@
+{
+  "matrix": "reddit",
+  "member": "B-RCM-ref",
+  "W": 16,
+  "diag": "A0",
+  "tau": 153,
+  "T_full": 3992043,
+  "T_full_phase": 3988968.533333333,
+  "align_premium": -3074.466666666791,
+  "T_inplace": 3782632,
+  "T_keep": 3756504,
+  "U_inplace": 60438829,
+  "U_keep": 60038486,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 34.679710149765015,
+  "status": "OK"
+}

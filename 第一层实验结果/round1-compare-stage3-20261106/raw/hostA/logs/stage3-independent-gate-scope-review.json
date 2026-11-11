@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "scope": "metadata/source coverage review only, not a new numeric run or campaign-completion claim",
+  "at_utc": "2026-11-08 19:15:42 UTC",
+  "requirement": "T23 plan8.4 / dispatch7.5 require at least3orders for each available matrix; no quota for new candidates specified",
+  "requirements_sources": {
+    "repo/\u7b2c\u4e00\u5c42\u5de5\u4f5c\u533a/\u9996\u8f6e\u5019\u9009\u6bd4\u8f83\u5b9e\u9a8c\u65b9\u6848.md": "402712edf397d4391ebe253646a122c891f77a90f5458182c92b2f6f9f58bbc8",
+    "repo/\u7b2c\u4e00\u5c42\u5de5\u4f5c\u533a/T23\u6d3e\u53d1/\u8bf4\u660e.md": "961dc4aa7c3fe8733b199c22de52b6706b93010d07c7a18f080d38b030efb0db"
+  },
+  "reddit": {
+    "status_sha256": "59046a26832b45f799d3ba51f4e154c83a8308767c5e55208a32d8a7d5e257e4",
+    "orders": [
+      "B-RCM-ref",
+      "B0",
+      "B1"
+    ],
+    "independent_orders": 3,
+    "actual_checks": 18,
+    "actual_scope": "tail-own only; full Cora162-condition gate separately covers legal placement and D combinations"
+  },
+  "Cora_port_gate": {
+    "sha256": "1413aed25a4b23412dcfb63ec0aa0c0507b80716baf0768859e4332564b4e51c",
+    "cases": 162,
+    "members": [
+      "B0",
+      "C10-BP",
+      "C9-Gorder"
+    ],
+    "taus": [
+      "full",
+      2,
+      3
+    ],
+    "diagonals": [
+      "A0",
+      "A1"
+    ],
+    "legal_placement_D_combinations_per_tuple": 9
+  },
+  "products_gate_pending": true,
+  "all_campaign_independent_requirements_completed": false,
+  "no_scientific_rerun": true
+}

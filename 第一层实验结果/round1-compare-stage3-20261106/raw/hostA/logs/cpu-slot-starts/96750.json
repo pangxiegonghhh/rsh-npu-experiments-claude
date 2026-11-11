@@ -1,0 +1,16 @@
+{
+  "pid": 96750,
+  "slot": 0,
+  "command": [
+    "scripts/evaluate_t23.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-eval-catalog/stage3-cora__C1-H__W32__seed0.json"
+  ],
+  "queued_at": 1793986168.976032,
+  "acquired_at": 1793986168.976682,
+  "queue_seconds": 0.0006499290466308594,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots",
+  "large_graph_serialized": false,
+  "memory_limit_bytes": 8589934592,
+  "memory_guard_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/memory-guards/96750-1793986168976048000.json"
+}

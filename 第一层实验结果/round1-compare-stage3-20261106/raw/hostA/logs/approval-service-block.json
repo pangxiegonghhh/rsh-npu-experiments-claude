@@ -1,0 +1,13 @@
+{
+  "observed_utc": "2026-11-06T15:27:00Z",
+  "action": "write_stdin to local QEMU VM, scratch disk format/mount and verified Rabbit ELF download",
+  "executed": false,
+  "reason": "automatic approval review unable to complete because usage limit; not a safety determination",
+  "retry_after_beijing": "2026-11-07 01:29",
+  "unaffected": "local T22/T23 host CPU jobs and filesystem artifact packaging continue; do not bypass review",
+  "resolved_at": 1793986440.322387,
+  "resolved": true,
+  "resolution": "automatic review restored after advertised01:29 Beijing retry time; original VM actions retried through same review path, no bypass",
+  "scratch_setup": "first mount failed because ext4 module not loaded; modprobeext4 and explicitmount succeeded, full console evidence retained",
+  "verified_environment_log": "logs/linux-second-environment.stdout"
+}

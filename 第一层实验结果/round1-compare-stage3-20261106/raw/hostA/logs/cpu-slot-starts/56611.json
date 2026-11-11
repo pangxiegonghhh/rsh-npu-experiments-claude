@@ -1,0 +1,13 @@
+{
+  "pid": 56611,
+  "slot": 1,
+  "command": [
+    "scripts/post_e_job.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e-catalog/wiki-RfA__C9-S__tau2.json"
+  ],
+  "queued_at": 1793973589.508435,
+  "acquired_at": 1793973775.311372,
+  "queue_seconds": 185.80293703079224,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots"
+}

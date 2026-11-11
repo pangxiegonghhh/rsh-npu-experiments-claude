@@ -1,0 +1,17 @@
+{
+  "python_implementation_revision": "v7-flat-co-default-and-backend-provenance; unchanged v6 chain/failure cache",
+  "pid": 117,
+  "argv": [
+    "scripts/gate_layouts_v4.py"
+  ],
+  "matrix": "cora",
+  "n": 2708,
+  "first_context_W": 16,
+  "first_context_windows": 103,
+  "binary_loaded_at": 1794208361.656147,
+  "first_context_at": 1794208361.683937,
+  "library_path": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/liblayouts-v4.dylib",
+  "library_sha256": "5f9659c9036f21813faf3f4b6c86be889c7b3f494cf3bc3db04a2683754a6a82",
+  "library_override_at_import": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/liblayouts-v4.dylib",
+  "scope": "actual DLL selected and hashed at module import; applies to this process only, not prior/queued imports"
+}

@@ -1,0 +1,15 @@
+{
+  "matrix": "ogbn-products",
+  "method": "B-RCM-ref",
+  "W": 16,
+  "seed": 0,
+  "start": 1794211401.5817626,
+  "status": "OK",
+  "path": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-generated/ogbn-products__B-RCM-ref__W16__seed0.order.json",
+  "runtime_path": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime/work/stage3-generated/ogbn-products__B-RCM-ref__W16__seed0.order.json",
+  "sha256": "7473f47136c2fd39305441d5ed5c4719d1ee718477822d9af153ed93aa2b8f7a",
+  "size": 18481124,
+  "empty_rule": "deterministic degree/ID RCM on nonempty vertices; empty vertices appended ascending",
+  "end": 1794211409.6212301,
+  "seconds": 8.039467573165894
+}

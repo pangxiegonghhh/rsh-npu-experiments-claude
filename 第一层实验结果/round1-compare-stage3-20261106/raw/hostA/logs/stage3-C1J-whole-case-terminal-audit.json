@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "scope": "C1-J original whole terminal case and current collected-table invariants; no scientific rerun",
+  "whole_status": "OK",
+  "formal_rows": 28,
+  "own_rows_OK": 20,
+  "post_rows_OK": 8,
+  "unique_conditions": 28,
+  "post_audits": [
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/stage3-C1Jtau53-terminal-evidence-audit.json",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/stage3-C1Jtau153-terminal-evidence-audit.json"
+  ],
+  "table_invariant_audit": {
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-collected/results.csv",
+    "rows": 6276,
+    "successful_rows_checked": 4855,
+    "fixed_membership_UT_groups": 1559,
+    "passed": true
+  },
+  "current_final_cases": {
+    "OK": 314,
+    "INCOMPLETE": 11,
+    "SKIPPED": 41
+  },
+  "pending_cases": 43
+}

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "case_id": "stage3-reddit__C10-BP__W16__seed0__tau153",
+  "actual_method_seconds": 6083.765865087509,
+  "queue_seconds": 34.82831788063049,
+  "original_exitcode": 0,
+  "sweeps_done": 10,
+  "accepted_swaps": 57665,
+  "order_sha256": "805fe6566f180b36ab8365d607d9879d2dfc426b5f7e79c506b67c21ca850ca0",
+  "order_size": 1521013,
+  "checkpoint_sha256": "f432954dca82374a6b5f970d2d447370d3748ddab40f1fa1a6b0cfca38d2b1c6",
+  "runtime_independent_full_recompute": {
+    "k_windows": 8728,
+    "sumU": 33556063,
+    "T": 2101348,
+    "sumGamma": 8820387,
+    "sumR": 16343266,
+    "R_p50": 1436,
+    "R_p90": 3464,
+    "R_max": 26274,
+    "write_runs_aic": 8728,
+    "meanR": 1872.509853
+  },
+  "original_process_peak_mem_mb": 3258.6875,
+  "new_memory_export_rows": 4,
+  "whole_BP_formal_rows": 28,
+  "whole_BP_status": "OK",
+  "source_sha256": "53f68b4087d536fa90aef408abf6bf534f5177d22b45c377fa2d9eae76254368",
+  "no_scientific_rerun": true,
+  "scope": "permutation/hash/CP/recorded independent recompute/row invariants/budget/memory export checked; no new metric calculation"
+}

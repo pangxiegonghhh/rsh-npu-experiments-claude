@@ -1,0 +1,7 @@
+LS {'sweep': 0, 'accepted': 472, 'sumU': 4848, 'sumGamma': 1726, 'elapsed': 0.07082295417785645}
+LS {'sweep': 1, 'accepted': 80, 'sumU': 4751, 'sumGamma': 1649, 'elapsed': 0.12555599212646484}
+LS {'sweep': 2, 'accepted': 17, 'sumU': 4733, 'sumGamma': 1630, 'elapsed': 0.13917803764343262}
+LS {'sweep': 3, 'accepted': 5, 'sumU': 4728, 'sumGamma': 1622, 'elapsed': 0.1835489273071289}
+LS {'sweep': 4, 'accepted': 1, 'sumU': 4727, 'sumGamma': 1621, 'elapsed': 0.20741701126098633}
+LS {'sweep': 5, 'accepted': 0, 'sumU': 4727, 'sumGamma': 1621, 'elapsed': 0.2224440574645996}
+{"matrix": "cora", "method": "C5-U", "W": 16, "seed": 0, "start": 1793970954.292016, "status": "OK", "command": ["scripts/rabbit_family.py", "--matrix", "cora", "--mode", "U", "--rep", "0"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/cora__C5-U__W16__seed0.order.json", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/cora__C5-U__W16__seed0.order.json", "sha256": "5525602bf950870d13e60ef4c06e9e63b430019c232b038ec6b956ec0876423c", "size": 13339, "local_seconds": 0.009252071380615234, "coarse_seconds": 0.0630342960357666, "end": 1793970954.631116, "seconds": 0.3390998840332031, "member": "C5-U", "tau": 2, "reuse": false, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/cora__C5-U__tau2/order.json", "peak_mem_mb": 31.78125}

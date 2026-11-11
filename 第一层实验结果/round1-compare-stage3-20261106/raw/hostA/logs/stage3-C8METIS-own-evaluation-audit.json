@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "case_id": "stage3-reddit__C8-METIS__W16__seed0",
+  "scope": "own evaluation terminal/exact20 unique prescribed conditions/successful metric invariants/unchanged order/actual source+backend/failure fields; no scientific rerun and not a whole-case PASS",
+  "original_exitcode": 0,
+  "evaluation_status": "INCOMPLETE",
+  "actual_method_seconds": 1083.929090976715,
+  "queue_seconds": 27.86887812614441,
+  "rows": 20,
+  "OK": 16,
+  "INCOMPLETE": 4,
+  "incomplete_conditions": [
+    [
+      "A0",
+      "153",
+      "tail-co",
+      "own"
+    ],
+    [
+      "A0",
+      "153",
+      "tail-co",
+      "D-greedy"
+    ],
+    [
+      "A1",
+      "153",
+      "tail-co",
+      "own"
+    ],
+    [
+      "A1",
+      "153",
+      "tail-co",
+      "D-greedy"
+    ]
+  ],
+  "failure_reason": "co pair map exceeds 8GiB workspace safety budget estimate; INCOMPLETE",
+  "failed_layout_numeric_fields_absent": true,
+  "fixed_membership_UT_groups": 6,
+  "rows_sha256": "683442d6d764f17b5301985f6eeb2a699caf92b1f41c90e71a407cdbc6c9ab83",
+  "actual_layout_backend": {
+    "python_implementation_revision": "v7-flat-co-default-and-backend-provenance; unchanged v6 chain/failure cache",
+    "pid": 13992,
+    "argv": [
+      "scripts/evaluate_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-eval-catalog/stage3-reddit__C8-METIS__W16__seed0.json"
+    ],
+    "matrix": "reddit",
+    "n": 232965,
+    "first_context_W": 16,
+    "first_context_windows": 14561,
+    "binary_loaded_at": 1794194728.92923,
+    "first_context_at": 1794194756.733525,
+    "library_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib",
+    "library_sha256": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+    "library_override_at_import": null,
+    "scope": "actual DLL selected and hashed at module import; applies to this process only, not prior/queued imports"
+  },
+  "original_process_peak_through_last_condition_mb": 3720.578125,
+  "peak_memory_scope": "original evaluator process lifetime through each saved condition, derived from SHA-bound resource.getrusage(RUSAGE_SELF).ru_maxrss; not an 8GiB actual-RSS claim",
+  "guard_counts_not_recomputed": true,
+  "guard_count_note": "saved successful condition counts and four saved errors do not imply independent fresh physical scans; v7 cached failure provenance classified by final guard recovery",
+  "actual_METIS_seed": 0,
+  "full_A0_U_matches_capacity_repair_final_objective": true,
+  "capacity_post_objective_sumU": 71347415,
+  "whole_case_complete": false
+}

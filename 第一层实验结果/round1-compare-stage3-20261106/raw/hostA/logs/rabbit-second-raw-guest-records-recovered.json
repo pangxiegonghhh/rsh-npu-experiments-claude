@@ -1,0 +1,25 @@
+{
+  "time": 1793986890.109867,
+  "records": [
+    {
+      "path": "logs/rabbit-second-guest-records/reddit-B-repeat0.record.json",
+      "sha256": "0ad43944c4377a915d6730e73052b44388979a1f6ba16d36ba71cd82bbad20b3",
+      "mapping_sha256": "75baa3d2881d5ce02d3b311b478a386a07bd9aeeee3a6abddb10357033263b8a"
+    },
+    {
+      "path": "logs/rabbit-second-guest-records/reddit-U-repeat0.record.json",
+      "sha256": "30f46d2a785e7306ba7f524fda49cad8ca1f7ac7ffc00dc9a457797e33976809",
+      "mapping_sha256": "36da651a2676657cd22a8d355a272cf2a556125a5b242fcae00e962c0e034c34"
+    },
+    {
+      "path": "logs/rabbit-second-guest-records/ogbn-products-B-repeat0.record.json",
+      "sha256": "9691dea08ddeb520aed7d82fad215bf81e9c3abbb86974204d243bacf6bcce35",
+      "mapping_sha256": "df7112520cdb189a6076d7ae6857a9ddd3f201bd70a41af6dd8d2c504277d827"
+    },
+    {
+      "path": "logs/rabbit-second-guest-records/ogbn-products-U-repeat0.record.json",
+      "sha256": "749b9a503b04be7e8e3fc3504f77738c419b7a27473fc1281a9baf37fd0656ba",
+      "mapping_sha256": "d0d99768265570499aff41949cdd592c313b28c6f029fca91033cb1894215697"
+    }
+  ]
+}

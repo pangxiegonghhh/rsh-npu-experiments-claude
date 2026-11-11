@@ -1,0 +1,13 @@
+{
+  "pid": 92811,
+  "slot": 0,
+  "command": [
+    "scripts/measure_t22_new.py",
+    "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-new-eval-catalog/wiki-RfA__C9-S__ls__tau3__lam0.record.json"
+  ],
+  "queued_at": 1793975363.9881291,
+  "acquired_at": 1793975525.586313,
+  "queue_seconds": 161.59818387031555,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots"
+}

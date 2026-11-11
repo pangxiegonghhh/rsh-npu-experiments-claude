@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "scope": "one original post-E terminal record: full permutation/hash/checkpoint/history/recorded fresh UG/4successful layout invariants/memory/timing/actual source+backend; no scientific rerun",
+  "case_id": "stage3-reddit__C1-J__W16__seed0__tau153",
+  "original_exitcode": 0,
+  "actual_method_seconds": 3335.487910747528,
+  "queue_seconds": 1003.7790489196777,
+  "status": "OK",
+  "sweeps_done": 10,
+  "accepted_swaps": 48820,
+  "order_sha256": "19cfba838a8e6b9dc4941155ad7139c0883a2e6b6933879d21aabe35c64c1037",
+  "order_size": 1521012,
+  "checkpoint_sha256": "9737adc01e5d6a7c87f0b235593b3ad48a6853787fbfea217f19eca5dff4ecdf",
+  "runtime_independent_full_recompute": {
+    "k_windows": 8728,
+    "sumU": 33695165,
+    "T": 2110055,
+    "sumGamma": 9410362,
+    "sumR": 15717020,
+    "R_p50": 1458,
+    "R_p90": 3224,
+    "R_max": 22176,
+    "write_runs_aic": 8728,
+    "meanR": 1800.758478
+  },
+  "post_layout_rows": 4,
+  "post_layout_statuses": {
+    "OK": 4
+  },
+  "co_guard_reported_per_condition": [
+    2222,
+    2222,
+    2222,
+    2222
+  ],
+  "guard_note": "saved condition counts, not four independent physical scan claims; full guard recovery pending",
+  "original_process_peak_mem_mb": 4179.953125,
+  "post_sec": 3150.293519973755,
+  "actual_layout_backend": {
+    "python_implementation_revision": "v7-flat-co-default-and-backend-provenance; unchanged v6 chain/failure cache",
+    "pid": 6567,
+    "argv": [
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-post-catalog/stage3-reddit__C1-J__W16__seed0__tau153.json"
+    ],
+    "matrix": "reddit",
+    "n": 232965,
+    "first_context_W": 16,
+    "first_context_windows": 8728,
+    "binary_loaded_at": 1794165029.985152,
+    "first_context_at": 1794169167.949929,
+    "library_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib",
+    "library_sha256": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+    "library_override_at_import": null,
+    "scope": "actual DLL selected and hashed at module import; applies to this process only, not prior/queued imports"
+  },
+  "original_generation_order_unchanged": true,
+  "no_scientific_rerun": true
+}

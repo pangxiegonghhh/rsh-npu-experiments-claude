@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/root/t23-remote-runtime/.venv/bin/python",
+    "-B",
+    "scripts/generate_pure.py",
+    "--matrix",
+    "cora",
+    "--method",
+    "C4-U",
+    "--W",
+    "16",
+    "--seed",
+    "0"
+  ],
+  "cwd": "/root/t23-hostb-x86v2-20261109/t23-remote-runtime",
+  "NPY_DISABLE_CPU_FEATURES": "X86_V3",
+  "started_at": 1794208356.5562232,
+  "ended_at": 1794208356.6707218,
+  "returncode": 0,
+  "source_sha256": "b3d9003c4606765ca718c4612ceaea0f21a1d3f97728ac4ffa71cce5ad4d0aa4",
+  "RQ3_LAYOUT_LIB": null,
+  "scope": "fresh remote Cora/unit gate, not a formal products case"
+}

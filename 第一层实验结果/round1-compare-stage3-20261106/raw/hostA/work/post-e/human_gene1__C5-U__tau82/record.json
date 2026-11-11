@@ -1,0 +1,122 @@
+{
+  "matrix": "human_gene1",
+  "method": "C5-U",
+  "W": 16,
+  "seed": 0,
+  "start": 1793971073.1757681,
+  "status": "OK",
+  "command": [
+    "scripts/rabbit_family.py",
+    "--matrix",
+    "human_gene1",
+    "--mode",
+    "U",
+    "--rep",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/human_gene1__C5-U__W16__seed0.order.json",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/human_gene1__C5-U__W16__seed0.order.json",
+  "sha256": "a4b1f4c67e0ee20238c6eb9d8d68ad8183c3460eb4aa721a345419033200aa86",
+  "size": 123924,
+  "local_seconds": 17.018664836883545,
+  "coarse_seconds": 22.975218534469604,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 10544,
+        "sumU": 4168995,
+        "sumGamma": 637251,
+        "elapsed": 106.90983605384827
+      },
+      {
+        "sweep": 1,
+        "accepted": 8657,
+        "sumU": 3911780,
+        "sumGamma": 576122,
+        "elapsed": 218.06043004989624
+      },
+      {
+        "sweep": 2,
+        "accepted": 5675,
+        "sumU": 3788624,
+        "sumGamma": 543647,
+        "elapsed": 264.55027627944946
+      },
+      {
+        "sweep": 3,
+        "accepted": 3443,
+        "sumU": 3726044,
+        "sumGamma": 527426,
+        "elapsed": 321.388845205307
+      },
+      {
+        "sweep": 4,
+        "accepted": 1983,
+        "sumU": 3694617,
+        "sumGamma": 518463,
+        "elapsed": 365.6843452453613
+      },
+      {
+        "sweep": 5,
+        "accepted": 1205,
+        "sumU": 3676664,
+        "sumGamma": 512821,
+        "elapsed": 434.5706162452698
+      },
+      {
+        "sweep": 6,
+        "accepted": 770,
+        "sumU": 3665126,
+        "sumGamma": 509433,
+        "elapsed": 496.3659121990204
+      },
+      {
+        "sweep": 7,
+        "accepted": 458,
+        "sumU": 3658387,
+        "sumGamma": 507006,
+        "elapsed": 536.8059809207916
+      },
+      {
+        "sweep": 8,
+        "accepted": 351,
+        "sumU": 3652757,
+        "sumGamma": 505268,
+        "elapsed": 562.6131451129913
+      },
+      {
+        "sweep": 9,
+        "accepted": 232,
+        "sumU": 3649326,
+        "sumGamma": 504085,
+        "elapsed": 585.6142241954803
+      }
+    ],
+    "sweeps_done": 10,
+    "accepted_swaps": 33318,
+    "tracked_sumU": 3649326,
+    "tracked_sumGamma": 504085,
+    "independent_full_recompute": {
+      "k_windows": 1114,
+      "sumU": 3649326,
+      "T": 228614,
+      "sumGamma": 504085,
+      "sumR": 966433,
+      "R_p50": 830,
+      "R_p90": 1208,
+      "R_max": 1752,
+      "write_runs_aic": 1114,
+      "meanR": 867.534111
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 1197148132
+  },
+  "end": 1793971732.144207,
+  "seconds": 658.9684388637543,
+  "member": "C5-U",
+  "tau": 82,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/human_gene1__C5-U__tau82/order.json",
+  "peak_mem_mb": 787.796875
+}

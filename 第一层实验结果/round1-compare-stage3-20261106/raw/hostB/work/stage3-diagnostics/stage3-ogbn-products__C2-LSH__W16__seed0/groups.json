@@ -1,0 +1,22 @@
+[
+  {
+    "matrix": "ogbn-products",
+    "member": "C2-LSH",
+    "W": 16,
+    "boundary": "candidate groups",
+    "k_windows": 153337,
+    "sumU": 71115121,
+    "T": 4515162,
+    "diagnostic_only": true
+  },
+  {
+    "matrix": "ogbn-products",
+    "member": "C2-LSH",
+    "W": 16,
+    "boundary": "W16 evaluation windows",
+    "k_windows": 153065,
+    "sumU": 71463688,
+    "T": 4536857,
+    "diagnostic_only": true
+  }
+]

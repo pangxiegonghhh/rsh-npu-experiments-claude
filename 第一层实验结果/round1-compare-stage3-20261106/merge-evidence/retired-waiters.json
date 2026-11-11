@@ -1,0 +1,12 @@
+[
+  {
+    "pid": 91679,
+    "command": "/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -B scripts/finish_stage3_when_ready.py",
+    "reason": "administrative retirement of idle waiters before host-aware merge; no scientific child interrupted"
+  },
+  {
+    "pid": 91864,
+    "command": "/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -B scripts/run_stage3_assigned.py --owner local --assignment handoff/T23-split-20261109/assignment.json",
+    "reason": "administrative retirement of idle waiters before host-aware merge; no scientific child interrupted"
+  }
+]

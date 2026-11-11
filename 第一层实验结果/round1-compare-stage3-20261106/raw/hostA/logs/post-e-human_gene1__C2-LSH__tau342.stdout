@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 5199, 'sumU': 3833428, 'sumGamma': 611554, 'elapsed': 23.73032021522522}
+LS {'sweep': 1, 'accepted': 3897, 'sumU': 3686156, 'sumGamma': 578682, 'elapsed': 44.28378891944885}
+LS {'sweep': 2, 'accepted': 2571, 'sumU': 3599287, 'sumGamma': 558777, 'elapsed': 63.570590019226074}
+LS {'sweep': 3, 'accepted': 1735, 'sumU': 3549712, 'sumGamma': 545734, 'elapsed': 82.15128111839294}
+LS {'sweep': 4, 'accepted': 1124, 'sumU': 3523108, 'sumGamma': 538682, 'elapsed': 101.59668803215027}
+LS {'sweep': 5, 'accepted': 807, 'sumU': 3502895, 'sumGamma': 533845, 'elapsed': 120.72181296348572}
+LS {'sweep': 6, 'accepted': 554, 'sumU': 3490789, 'sumGamma': 530191, 'elapsed': 138.73949313163757}
+LS {'sweep': 7, 'accepted': 383, 'sumU': 3481441, 'sumGamma': 528383, 'elapsed': 157.70354199409485}
+LS {'sweep': 8, 'accepted': 244, 'sumU': 3477324, 'sumGamma': 527274, 'elapsed': 175.5893909931183}
+LS {'sweep': 9, 'accepted': 182, 'sumU': 3473386, 'sumGamma': 526540, 'elapsed': 193.21649503707886}
+{"matrix": "human_gene1", "method": "C2-LSH", "W": 16, "seed": 0, "start": 1793977314.976613, "status": "OK", "command": ["/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/scripts/generate_pure.py", "--matrix", "human_gene1", "--method", "C2-LSH", "--seed", "0"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/human_gene1__C2-LSH__W16__seed0.order.json", "sha256": "1b96686b4ed4e256ee8543a9f498da05712fafb8f10e2bbefab8268a19b8459b", "size": 123929, "end": 1793977541.837421, "seconds": 226.8608078956604, "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/human_gene1__C2-LSH__W16__seed0.order.json", "member": "C2-LSH", "tau": 342, "reuse": false, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/human_gene1__C2-LSH__tau342/order.json", "peak_mem_mb": 771.65625}

@@ -1,0 +1,38 @@
+[
+ {
+  "matrix": "reddit",
+  "member": "B0",
+  "diag": "A0",
+  "W": 16,
+  "tau": 153,
+  "placement": "tail-co",
+  "d_rule": "own",
+  "source": "post-E",
+  "seed": 0,
+  "status": "INCOMPLETE",
+  "post_sec": 7201.081514835358,
+  "order_sec": 0.038023948669433594,
+  "sweeps_done": 1,
+  "accepted_swaps": 104775,
+  "note": "partial P-LS at last completed sweep; original method did not finish; independent U/G exact; partial layout evaluation: co pair map exceeds 8GiB workspace safety budget estimate; INCOMPLETE",
+  "d_sec": 898.63405585289
+ },
+ {
+  "matrix": "reddit",
+  "member": "B0",
+  "diag": "A0",
+  "W": 16,
+  "tau": 153,
+  "placement": "tail-co",
+  "d_rule": "D-greedy",
+  "source": "post-E",
+  "seed": 0,
+  "status": "INCOMPLETE",
+  "post_sec": 7201.081514835358,
+  "order_sec": 0.038023948669433594,
+  "sweeps_done": 1,
+  "accepted_swaps": 104775,
+  "note": "partial P-LS at last completed sweep; original method did not finish; independent U/G exact; partial layout evaluation: co pair map exceeds 8GiB workspace safety budget estimate; INCOMPLETE",
+  "d_sec": 1018.86310338974
+ }
+]

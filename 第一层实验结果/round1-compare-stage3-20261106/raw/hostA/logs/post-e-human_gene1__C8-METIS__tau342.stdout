@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 13197, 'sumU': 5606548, 'sumGamma': 813770, 'elapsed': 21.650527238845825}
+LS {'sweep': 1, 'accepted': 11865, 'sumU': 4745885, 'sumGamma': 711069, 'elapsed': 42.58129906654358}
+LS {'sweep': 2, 'accepted': 9864, 'sumU': 4246151, 'sumGamma': 634335, 'elapsed': 61.54056215286255}
+LS {'sweep': 3, 'accepted': 7204, 'sumU': 3964005, 'sumGamma': 587240, 'elapsed': 79.30220317840576}
+LS {'sweep': 4, 'accepted': 5019, 'sumU': 3796626, 'sumGamma': 555734, 'elapsed': 96.53017997741699}
+LS {'sweep': 5, 'accepted': 3647, 'sumU': 3693397, 'sumGamma': 536298, 'elapsed': 113.4157919883728}
+LS {'sweep': 6, 'accepted': 2667, 'sumU': 3623647, 'sumGamma': 523343, 'elapsed': 129.41147899627686}
+LS {'sweep': 7, 'accepted': 1952, 'sumU': 3578987, 'sumGamma': 515445, 'elapsed': 145.1889090538025}
+LS {'sweep': 8, 'accepted': 1532, 'sumU': 3546983, 'sumGamma': 509802, 'elapsed': 160.9317901134491}
+LS {'sweep': 9, 'accepted': 1142, 'sumU': 3523858, 'sumGamma': 505874, 'elapsed': 176.70737719535828}
+{"matrix": "human_gene1", "method": "C8-METIS", "W": 16, "seed": 0, "start": 1793973772.022374, "status": "OK", "params": "edgecut; ufactor=30; seed=0; direct k-way; exact capacity repair", "command": ["scripts/external_metis.py", "--matrix", "human_gene1"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/human_gene1__C8-METIS__W16__seed0.order.json", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/human_gene1__C8-METIS__W16__seed0.order.json", "sha256": "ebcfaf858cdc248db3c9f9583546b575bed70c1c582faad3802c039a84d8956c", "size": 123935, "end": 1793973990.195234, "seconds": 218.17286014556885, "peak_mem_mb": 1073.140625, "member": "C8-METIS", "tau": 342, "reuse": false, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/human_gene1__C8-METIS__tau342/order.json"}

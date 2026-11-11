@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "scope": "one original post-E terminal record: full permutation/hash/checkpoint/history/recorded fresh UG/4 successful layout invariants/memory/timing/actual source+backend; no scientific rerun; whole C1-H still requires tau153",
+  "case_id": "stage3-reddit__C1-H__W16__seed0__tau53",
+  "original_exitcode": 0,
+  "actual_method_seconds": 5977.171672105789,
+  "queue_seconds": 937.5296080112457,
+  "status": "OK",
+  "sweeps_done": 10,
+  "accepted_swaps": 129513,
+  "ls_lam": 0,
+  "ls_seed": 0,
+  "order_sha256": "1b4f29a2a1b3fe4785341f996ded031284c7b5b8f8b5c6519ca457382780739d",
+  "order_size": 1521028,
+  "checkpoint_sha256": "95746ac356d4bf2979803c3e59cc6ed1bae8281047cbf5d34dd011f8be6331ec",
+  "runtime_independent_full_recompute": {
+    "k_windows": 11633,
+    "sumU": 40151945,
+    "T": 2514955,
+    "sumGamma": 14799708,
+    "sumR": 23822572,
+    "R_p50": 1655,
+    "R_p90": 3691,
+    "R_max": 28224,
+    "write_runs_aic": 11633,
+    "meanR": 2047.844236
+  },
+  "post_layout_rows": 4,
+  "post_layout_statuses": {
+    "OK": 4
+  },
+  "co_guard_reported_per_condition": [
+    136,
+    136,
+    136,
+    136
+  ],
+  "guard_note": "saved condition counts, not four independent physical scan claims; full guard recovery remains pending",
+  "original_process_peak_mem_mb": 3730.671875,
+  "post_sec": 5615.532436132431,
+  "actual_layout_backend": {
+    "python_implementation_revision": "v7-flat-co-default-and-backend-provenance; unchanged v6 chain/failure cache",
+    "pid": 27998,
+    "argv": [
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-post-catalog/stage3-reddit__C1-H__W16__seed0__tau53.json"
+    ],
+    "matrix": "reddit",
+    "n": 232965,
+    "first_context_W": 16,
+    "first_context_windows": 11633,
+    "binary_loaded_at": 1794170597.993566,
+    "first_context_at": 1794177126.684727,
+    "library_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib",
+    "library_sha256": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+    "library_override_at_import": null,
+    "scope": "actual DLL selected and hashed at module import; applies to this process only, not prior/queued imports"
+  },
+  "original_generation_order_unchanged": true,
+  "no_scientific_rerun": true,
+  "whole_case_complete": false,
+  "timing_timestamp_delta_seconds": 9.5367431640625e-07,
+  "audit_attempt_corrections": [
+    "Initial metadata-only check used 1e-8s tolerance and stopped before writing audit. bounded_case.py takes separate time.time() readings, causing 0.954 microsecond difference; source-reviewed 1ms reporting tolerance passes.",
+    "Second metadata-only check incorrectly assumed lambda=1 and stopped before writing audit. Actual immutable post_e_job.py invokes local_search(...,0,0), and original checkpoint lambda=0/seed=0 matches. Corrected audit checks lambda0 objective sumU. No experimental data/code/parameters or computation altered."
+  ],
+  "bounded_case_source_sha256": "bd8e0f6b9557684722904f9934e2d153b01681b7918dc4926190bd13a0e3b9e0"
+}

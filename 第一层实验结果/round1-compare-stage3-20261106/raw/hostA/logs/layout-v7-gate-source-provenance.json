@@ -1,0 +1,42 @@
+[
+  {
+    "source": "gate_layouts_v6.py",
+    "source_sha256": "39021db9144c9add67586f7f6caae94c8d256a7da94b9ee150bfe411b8846d55",
+    "candidate": "gate_layouts_v7.py",
+    "candidate_sha256": "11c7dcac4d7012c37f1c7ef57f22de10d0ff096fbaef952ad0bd3ec69f848e44",
+    "output": "layout-v7-port-gate.json",
+    "reference_cpp": "unchanged pure Python reference and separate counters"
+  },
+  {
+    "source": "gate_width_sensitivity_v6.py",
+    "source_sha256": "91bcac8759aebea4b7ecd419b08b28d262526dce65810476f20350844772cf32",
+    "candidate": "gate_width_sensitivity_v7.py",
+    "candidate_sha256": "fc5c889240f223a02b9e746f47ebbe4b1dbd345ad267ee709bbc8ca8f8f56ea6",
+    "output": "layout-W-sensitivity-v7-gate.json",
+    "reference_cpp": "unchanged pure Python reference and separate counters"
+  },
+  {
+    "source": "gate_rq3_tables_v6.py",
+    "source_sha256": "ce0612cb32656a23468eed2a72d38217b7742669b6a912c76a2a27d6abb2023e",
+    "candidate": "gate_rq3_tables_v7.py",
+    "candidate_sha256": "5f83ee47d739996614f2ef499b959706915f7339dd65188018f2bf97b99ec394",
+    "output": "rq3-native-table-v7-gate.json",
+    "reference_cpp": "unchanged pure Python reference and separate counters"
+  },
+  {
+    "source": "gate_layouts_chain_v6_random.py",
+    "source_sha256": "83c63751ef177dbdc4e8ab952f96af75f02d8462c2dc5b77786bd0a6b82c3a86",
+    "candidate": "gate_layouts_flatco_random.py",
+    "candidate_sha256": "19874c2625e531fd5ff7b0a25e8ab71f3e54813a29e6db13e39a1bd38385f97e",
+    "output": "layout-v7-random-gate.json",
+    "reference_cpp": "unchanged v4; snapshot imports explicitly pinned without candidate environment"
+  },
+  {
+    "source": "gate_chain_v6_boundaries.py",
+    "source_sha256": "0380153599a15f17c749af27224ffe92bba45142aeb6eb5cc0a5bdc5513cb113",
+    "candidate": "gate_chain_v7_boundaries.py",
+    "candidate_sha256": "78600229776cbdf25975ab0642d920cde1e9b73f2a3c551915c4b96bbef03ec4",
+    "output": "layout-v7-boundary-gate.json",
+    "reference_cpp": "unchanged v4; snapshot imports explicitly pinned without candidate environment"
+  }
+]

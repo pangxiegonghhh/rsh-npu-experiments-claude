@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "scope": "dispatch coverage only; pending/INCOMPLETE/SKIPPED placeholders remain visible; does not prove scientific completion",
+  "independent_enumeration": true,
+  "dispatch_sources": [
+    {
+      "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/第一层工作区/T23派发/说明.md",
+      "sha256": "961dc4aa7c3fe8733b199c22de52b6706b93010d07c7a18f080d38b030efb0db"
+    },
+    {
+      "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/repo/第一层工作区/首轮候选比较实验方案.md",
+      "sha256": "402712edf397d4391ebe253646a122c891f77a90f5458182c92b2f6f9f58bbc8"
+    }
+  ],
+  "measured_tau_source": {
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/logs/matrices-and-taus.json",
+    "sha256": "3e22f56f3a0f11e4eafa4409e71662f680974bfcedcb83d8e3964bd69638b70e"
+  },
+  "planned_catalog_sha256": "996787090a1eb64c2994258dd04faf0028d1dc8c93f2391df04929c34d89e5cd",
+  "first_own_cases": 157,
+  "stage3_cases": 409,
+  "stage3_W_sensitivity_cases": 204,
+  "first": {
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/delivery/第一层实验结果/round1-compare-20261106/results.csv",
+    "sha256": "b62892b421e54a40beb24907021358e3f62e0068aed0a0f35466b44b364a7382",
+    "conditions": 4036,
+    "grid_exact": true,
+    "status_counts": {
+      "OK": 4036,
+      "INCOMPLETE": 0,
+      "SKIPPED": 0
+    }
+  },
+  "stage3": {
+    "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-collected/results.csv",
+    "sha256": "9287e431495a2ad9bc4d440ab1dcea044bed7590999718697c9198767c859312",
+    "conditions": 6276,
+    "grid_exact": true,
+    "status_counts": {
+      "OK": 4747,
+      "INCOMPLETE": 1237,
+      "SKIPPED": 292
+    }
+  },
+  "missing_matrix_policy": "mycielskian15: 33 candidates x 4 full-row SKIPPED cells; no fabricated tau/post-E conditions"
+}

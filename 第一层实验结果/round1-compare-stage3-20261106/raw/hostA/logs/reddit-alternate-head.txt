@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Content-Type: application/zip
+Content-Length: 1397962821
+Connection: keep-alive
+x-amz-id-2: gi1yJRGWM2RHkTIqSmv0O6HyT+I6vrJUHmGtuhKjTnwMWocl+tL5Hn/oFS+DcJuZV2/sW297e/C8a/5GhueLRlHtCImNIacq
+x-amz-request-id: BEHP63PWSK0589SA
+Server: AmazonS3
+Date: Fri, 06 Nov 2026 12:53:33 GMT
+Last-Modified: Tue, 07 Jan 2020 04:01:50 GMT
+ETag: "00d951fba49a68014c3d5b19f170a9a3-167"
+x-amz-version-id: null
+Accept-Ranges: bytes
+X-Cache: Miss from cloudfront
+Via: 1.1 017bcea4623003e4eb8b5df81f6048dc.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: NRT57-P5
+X-Amz-Cf-Id: EOo_k0m831k95q8jgb6XGWFPlQgSBjGR9asMVgBiLLNQ_G9y0BwcgQ==
+

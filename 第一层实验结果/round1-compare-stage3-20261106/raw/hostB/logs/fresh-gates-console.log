@@ -1,0 +1,12 @@
+FRESH_GATE_OK scripts/run_reference_gates.py
+FRESH_GATE_OK scripts/generate_pure.py
+FRESH_GATE_OK scripts/gate_candidates.py
+FRESH_GATE_OK scripts/gate_rect.py
+FRESH_GATE_OK scripts/gate_ls_full.py
+FRESH_GATE_OK scripts/gate_layouts_v4.py
+FRESH_GATE_OK scripts/gate_layouts.py
+FRESH_GATE_OK scripts/gate_layouts_v7.py
+FRESH_GATE_OK scripts/gate_rq3_tables_v7.py
+FRESH_GATE_OK scripts/gate_independent_sorted.py
+FRESH_GATE_OK tools/check_linux_memory.py
+REMOTE_READINESS_OK; only the 20 assigned products cases may now run.

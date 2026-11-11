@@ -1,0 +1,566 @@
+[
+  {
+    "matrix": "cora",
+    "status": "OK",
+    "n": 2708,
+    "stored_entries": 5278,
+    "explicit_zero_entries": 0,
+    "diagonal_entries": 0,
+    "nnz_A0": 10556,
+    "nnz_A1": 13264,
+    "degree_median": 3.0,
+    "degree_mean": 3.8980797636632203,
+    "degree_max": 168,
+    "input_mtx_sha256": "f54431cb38cf0e4b832093889736bf1e3397019b90a186a1c13405038a573856",
+    "source_url": "https://github.com/pangxiegonghhh/rsh-npu-experiments-claude/blob/87594cc9e80e800c77a65988c09f7067b63957be/\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/cora-pilot-20261104/neutron-matrices/cora.mtx",
+    "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/cora.mtx",
+    "source_variant": "original",
+    "reference_only": "",
+    "archive_sha256": "",
+    "archive_member": "derived MTX",
+    "structure": "stored pattern including explicit zeros",
+    "residual_sets": {
+      "2": {
+        "count": 1068,
+        "sha256": "92a42ad8e1d1595a5e7087f7d4e213f3b88ddf2c0d67dd3d93f0e485fbd5c9e7",
+        "fixed_for_both_diag_modes": true
+      },
+      "3": {
+        "count": 1621,
+        "sha256": "8d2bcdd3e777618f204adf520b9b7520546fee747ae8c687ede93f408c5d8eb1",
+        "fixed_for_both_diag_modes": true
+      }
+    },
+    "parent_runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106/repo/\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/cora-pilot-20261104/neutron-matrices/cora.mtx",
+    "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/cora",
+    "adjacency_order": "original T21 pickle set iteration, independently identical to raw MTX pattern",
+    "csr_sha256": {
+      "indptr": "0bcfb45e9e788d52c6b5242efd902a376618e15426bc595a743b389551744ddd",
+      "indices": "fd234c1a16a9a59e0c022127ab01847b58ea170f72d82919c81c336ad2d9bc15",
+      "degrees": "162e73d5fe3c494f4ed2bae13833fc956361ddc11bfb43704c9b09f53f73286e"
+    },
+    "taus": [
+      {
+        "tau": 2,
+        "tau_rule": "fixed",
+        "resid_count": 1068,
+        "resid_frac": 0.39438700147710487,
+        "resid_nnz_frac": 0.1564039408866995
+      },
+      {
+        "tau": 3,
+        "tau_rule": "fixed",
+        "resid_count": 1621,
+        "resid_frac": 0.5985967503692762,
+        "resid_nnz_frac": 0.31356574460022735
+      }
+    ],
+    "fixed_tau_diagnostics": {
+      "2": {
+        "resid_frac": 0.39438700147710487,
+        "resid_nnz_frac": 0.1564039408866995
+      },
+      "3": {
+        "resid_frac": 0.5985967503692762,
+        "resid_nnz_frac": 0.31356574460022735
+      }
+    },
+    "prepared_sec": 0.035874250112101436
+  },
+  {
+    "matrix": "wiki-RfA",
+    "status": "OK",
+    "n": 11380,
+    "stored_entries": 188077,
+    "explicit_zero_entries": 11493,
+    "diagonal_entries": 93,
+    "nnz_A0": 361960,
+    "nnz_A1": 373340,
+    "degree_median": 4.0,
+    "degree_mean": 31.806678383128297,
+    "degree_max": 1270,
+    "input_mtx_sha256": "de2a93800a08edb5d3e6289b57b56aa8afd43c37b709306efbceecf137adf005",
+    "source_url": "https://snap.stanford.edu/data/wiki-RfA.txt.gz",
+    "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/wiki-RfA.mtx",
+    "source_variant": "SNAP reconstruction (sorted usernames)",
+    "reference_only": "B0 and P11 sumR/sumU, no comparison with other wiki-RfA numbering",
+    "archive_sha256": "9f522535bda636ed44922ad3f193c70a8a8ee1d4a61f976e96794a60c1adf656",
+    "archive_member": "wiki-RfA/wiki-RfA.mtx",
+    "structure": "stored pattern including explicit zeros",
+    "residual_sets": {
+      "2": {
+        "count": 4736,
+        "sha256": "ea874ed77a2086591899388358b3c3148488e1f34d8358ce923851a6ea5fb12d",
+        "fixed_for_both_diag_modes": true
+      },
+      "3": {
+        "count": 5366,
+        "sha256": "471775158b0117bd30ff521096a684029f1ccd99fc4ab9c51e7febabb0f23642",
+        "fixed_for_both_diag_modes": true
+      }
+    },
+    "parent_runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/wiki-RfA-reconstructed.mtx",
+    "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/wiki-RfA",
+    "adjacency_order": "original T21 pickle set iteration, independently identical to raw MTX pattern",
+    "csr_sha256": {
+      "indptr": "1a646bcede9e5f6efc55434e8754f9ea2ee1210ddf3be624178ad298c9d84318",
+      "indices": "ce96618d981a2fea54dc97eb0989d8a4eb43116267a96a7b4de857f13f0afc22",
+      "degrees": "8ceb46ebee6963169e09d19b3eefb31650921a302b99821f513e07bc05f72165"
+    },
+    "taus": [
+      {
+        "tau": 2,
+        "tau_rule": "fixed",
+        "resid_count": 4736,
+        "resid_frac": 0.4161687170474517,
+        "resid_nnz_frac": 0.016054260139241903
+      },
+      {
+        "tau": 3,
+        "tau_rule": "fixed",
+        "resid_count": 5366,
+        "resid_frac": 0.47152899824253075,
+        "resid_nnz_frac": 0.0212758315836004
+      }
+    ],
+    "fixed_tau_diagnostics": {
+      "2": {
+        "resid_frac": 0.4161687170474517,
+        "resid_nnz_frac": 0.016054260139241903
+      },
+      "3": {
+        "resid_frac": 0.47152899824253075,
+        "resid_nnz_frac": 0.0212758315836004
+      }
+    },
+    "prepared_sec": 0.09952366701327264
+  },
+  {
+    "matrix": "olafu",
+    "status": "OK",
+    "n": 16146,
+    "stored_entries": 515651,
+    "explicit_zero_entries": 0,
+    "diagonal_entries": 16146,
+    "nnz_A0": 999010,
+    "nnz_A1": 1015156,
+    "degree_median": 66.0,
+    "degree_mean": 61.87352904744209,
+    "degree_max": 88,
+    "input_mtx_sha256": "8ff0691051957f7e4c6fb302c3ad026ee526691958d4f1c2c0a5520c8e89a4d5",
+    "source_url": "https://www.cise.ufl.edu/research/sparse/MM/Simon/olafu.tar.gz",
+    "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/olafu.mtx",
+    "source_variant": "original",
+    "reference_only": "",
+    "archive_sha256": "09d31e88be43e3c7f6287cbb3103f133ea06ab0b6dc285dec01df45247cf476c",
+    "archive_member": "olafu/olafu.mtx",
+    "structure": "stored pattern including explicit zeros",
+    "residual_sets": {
+      "2": {
+        "count": 0,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fixed_for_both_diag_modes": true
+      },
+      "3": {
+        "count": 0,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fixed_for_both_diag_modes": true
+      }
+    },
+    "parent_runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/olafu.mtx",
+    "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/olafu",
+    "adjacency_order": "original T21 pickle set iteration, independently identical to raw MTX pattern",
+    "csr_sha256": {
+      "indptr": "9a3b7351d6cecfe20f880fcd4093466dc551c40c508616c7e5b5e20c4118ff1f",
+      "indices": "c76f38a528b6ce9b47bcb2beedd242795966b5ee37a0f7c7bc18d3bf693fa25f",
+      "degrees": "37f36eb91f37a04b5cf7e57c5d425fef6b79bb578154fdaabbeb0db648c141e9"
+    },
+    "taus": [
+      {
+        "tau": 53,
+        "tau_rule": "q20",
+        "resid_count": 6186,
+        "resid_frac": 0.38312894834633965,
+        "resid_nnz_frac": 0.29949349856357793
+      },
+      {
+        "tau": 56,
+        "tau_rule": "q40",
+        "resid_count": 6584,
+        "resid_frac": 0.40777901647466863,
+        "resid_nnz_frac": 0.3215993833895557
+      }
+    ],
+    "fixed_tau_diagnostics": {
+      "2": {
+        "resid_frac": 0.0,
+        "resid_nnz_frac": 0.0
+      },
+      "3": {
+        "resid_frac": 0.0,
+        "resid_nnz_frac": 0.0
+      }
+    },
+    "prepared_sec": 0.21635741600766778
+  },
+  {
+    "matrix": "dawson5",
+    "status": "OK",
+    "n": 51537,
+    "stored_entries": 531157,
+    "explicit_zero_entries": 0,
+    "diagonal_entries": 51537,
+    "nnz_A0": 959240,
+    "nnz_A1": 1010777,
+    "degree_median": 17,
+    "degree_mean": 18.61264722432427,
+    "degree_max": 32,
+    "input_mtx_sha256": "549f0f6076676c622a32a4d622fd5d2dc8d0a0651c22307ca4435c569d94a0d6",
+    "source_url": "https://www.cise.ufl.edu/research/sparse/MM/GHS_indef/dawson5.tar.gz",
+    "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/dawson5.mtx",
+    "source_variant": "original",
+    "reference_only": "",
+    "archive_sha256": "e143f2dd27f38fc19297438579078422e73883edf6b7f01ce27b0b5bf9a53583",
+    "archive_member": "dawson5/dawson5.mtx",
+    "structure": "stored pattern including explicit zeros",
+    "residual_sets": {
+      "2": {
+        "count": 288,
+        "sha256": "d73bb65d60c33aa189edbc406551bef22492625cf53718ac15512b342d401f54",
+        "fixed_for_both_diag_modes": true
+      },
+      "3": {
+        "count": 292,
+        "sha256": "edeab67a71f87609cf2d6b66454bf5d3a46fa081c73588e8009ef6245e06cf52",
+        "fixed_for_both_diag_modes": true
+      }
+    },
+    "parent_runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/dawson5.mtx",
+    "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/dawson5",
+    "adjacency_order": "original T21 pickle set iteration, independently identical to raw MTX pattern",
+    "csr_sha256": {
+      "indptr": "38d558f524f74074cce03626b94624f548d833607026382aa329cd64f1361b6b",
+      "indices": "9734e3458d9c454534d73f23184ed7ab6d45943e914d3850ffb33b560d2107b1",
+      "degrees": "e6f51998c8a6d64f9e72d0f452afbe48d02ec99eae0561b201399b4aac61af95"
+    },
+    "taus": [
+      {
+        "tau": 15,
+        "tau_rule": "q20",
+        "resid_count": 10528,
+        "resid_frac": 0.20428041989250442,
+        "resid_nnz_frac": 0.1253012801801426
+      },
+      {
+        "tau": 17,
+        "tau_rule": "q40",
+        "resid_count": 33263,
+        "resid_frac": 0.6454197954867377,
+        "resid_nnz_frac": 0.5282098327842876
+      }
+    ],
+    "fixed_tau_diagnostics": {
+      "2": {
+        "resid_frac": 0.005588218173351185,
+        "resid_nnz_frac": 0.0
+      },
+      "3": {
+        "resid_frac": 0.005665832314647729,
+        "resid_nnz_frac": 1.2509903673741712e-05
+      }
+    },
+    "prepared_sec": 0.23310012510046363
+  },
+  {
+    "matrix": "human_gene1",
+    "status": "OK",
+    "n": 22283,
+    "stored_entries": 12345963,
+    "explicit_zero_entries": 0,
+    "diagonal_entries": 22283,
+    "nnz_A0": 24647360,
+    "nnz_A1": 24669643,
+    "degree_median": 536,
+    "degree_mean": 1106.1060000897546,
+    "degree_max": 7938,
+    "input_mtx_sha256": "5c035d8398baf2045367e3d77b12bc367a6f3e4ef9e8e202849de480b0ce120f",
+    "source_url": "https://www.cise.ufl.edu/research/sparse/MM/Belcastro/human_gene1.tar.gz",
+    "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/human_gene1.mtx",
+    "source_variant": "original",
+    "reference_only": "",
+    "archive_sha256": "218b9a683247486d065459e48c8127a162d443bab720d17fb287e5fa12abb121",
+    "archive_member": "human_gene1/human_gene1.mtx",
+    "structure": "stored pattern including explicit zeros",
+    "residual_sets": {
+      "2": {
+        "count": 955,
+        "sha256": "9dc3488a1081d6b4b5718940b8761257189ca8d42a601cf527c365f231578a77",
+        "fixed_for_both_diag_modes": true
+      },
+      "3": {
+        "count": 1094,
+        "sha256": "436fcf357551f75372270b97ccaa7f61253fa0347ff2435aae218e8a81d1cf95",
+        "fixed_for_both_diag_modes": true
+      }
+    },
+    "parent_runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/human_gene1.mtx",
+    "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/human_gene1",
+    "adjacency_order": "original T21 pickle set iteration, independently identical to raw MTX pattern",
+    "csr_sha256": {
+      "indptr": "d3913e67d1bc203638617b4f21a754781a0b33ceb8c1f4c5ef1b92b80dab743d",
+      "indices": "8c52fb76357407311cc6cff110fb8bd1c95ed3d3bdfe4ad59d4e0076299bd99b",
+      "degrees": "ff03ea45aadc1412d2583c456a61d3d8840c460b58facb5d5d2e0971e09a284d"
+    },
+    "taus": [
+      {
+        "tau": 82,
+        "tau_rule": "q20",
+        "resid_count": 4466,
+        "resid_frac": 0.20042184625050488,
+        "resid_nnz_frac": 0.004529612907832725
+      },
+      {
+        "tau": 342,
+        "tau_rule": "q40",
+        "resid_count": 8917,
+        "resid_frac": 0.40017053359062965,
+        "resid_nnz_frac": 0.04008936454046194
+      }
+    ],
+    "fixed_tau_diagnostics": {
+      "2": {
+        "resid_frac": 0.04285778396086703,
+        "resid_nnz_frac": 3.266069875232074e-05
+      },
+      "3": {
+        "resid_frac": 0.04909572319705605,
+        "resid_nnz_frac": 4.957934642898874e-05
+      }
+    },
+    "prepared_sec": 9.523889499949291
+  },
+  {
+    "matrix": "pattern1",
+    "status": "OK",
+    "n": 19242,
+    "stored_entries": 4671337,
+    "explicit_zero_entries": 0,
+    "diagonal_entries": 19242,
+    "nnz_A0": 9304190,
+    "nnz_A1": 9323432,
+    "degree_median": 757.0,
+    "degree_mean": 483.5354952707619,
+    "degree_max": 6027,
+    "input_mtx_sha256": "62e04b81ff10bca38216a8f31235085673f018e6fa055c672b6fdae6ddd92ae1",
+    "source_url": "https://www.cise.ufl.edu/research/sparse/MM/Andrianov/pattern1.tar.gz",
+    "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/pattern1.mtx",
+    "source_variant": "original",
+    "reference_only": "",
+    "archive_sha256": "4abbac94dd6e820b9256dec9c45422df31a7c79e0e1886a8f09f80811ed3936d",
+    "archive_member": "pattern1/pattern1.mtx",
+    "structure": "stored pattern including explicit zeros",
+    "residual_sets": {
+      "2": {
+        "count": 0,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fixed_for_both_diag_modes": true
+      },
+      "3": {
+        "count": 0,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fixed_for_both_diag_modes": true
+      }
+    },
+    "parent_runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/pattern1.mtx",
+    "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/pattern1",
+    "adjacency_order": "original T21 pickle set iteration, independently identical to raw MTX pattern",
+    "csr_sha256": {
+      "indptr": "fe05deb9852001abfa4242387131d11ce1e043ed0518f98a958c001afdbb87b2",
+      "indices": "88068a0961d429c1638bee48d1724b08e73f899371d029ddb9d10c54e7350413",
+      "degrees": "490aca3382dd88cddfa243e237bdd7b42ddec7f431930aba4c479631bd33f850"
+    },
+    "taus": [
+      {
+        "tau": 8,
+        "tau_rule": "q20",
+        "resid_count": 4155,
+        "resid_frac": 0.21593389460555035,
+        "resid_nnz_frac": 0.0035725839648588433
+      },
+      {
+        "tau": 757,
+        "tau_rule": "q40",
+        "resid_count": 10918,
+        "resid_frac": 0.5674046356927555,
+        "resid_nnz_frac": 0.31575720186281664
+      }
+    ],
+    "fixed_tau_diagnostics": {
+      "2": {
+        "resid_frac": 0.0,
+        "resid_nnz_frac": 0.0
+      },
+      "3": {
+        "resid_frac": 0.0,
+        "resid_nnz_frac": 0.0
+      }
+    },
+    "prepared_sec": 2.0432431660592556
+  },
+  {
+    "matrix": "ogbn-arxiv",
+    "status": "OK",
+    "n": 169343,
+    "stored_entries": 1166243,
+    "explicit_zero_entries": 0,
+    "diagonal_entries": 0,
+    "nnz_A0": 2315598,
+    "nnz_A1": 2484941,
+    "degree_median": 6,
+    "degree_mean": 13.674010735607613,
+    "degree_max": 13161,
+    "input_mtx_sha256": "c80df13aa49c918bc4daf8634d0458910ad0be0bfd8be634038bf03b566de108",
+    "source_url": "https://snap.stanford.edu/ogb/data/nodeproppred/arxiv.zip",
+    "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/inputs/ogbn-arxiv.mtx",
+    "source_variant": "original",
+    "reference_only": "",
+    "archive_sha256": "",
+    "archive_member": "derived MTX",
+    "structure": "stored pattern including explicit zeros",
+    "residual_sets": {
+      "2": {
+        "count": 39126,
+        "sha256": "a98b57f28e1bdfdfb1df0550595a9b321d6dafed82c452c3d615bac8b89875da",
+        "fixed_for_both_diag_modes": true
+      },
+      "3": {
+        "count": 54353,
+        "sha256": "37cdbd248705c3b58a31f5db8795b9ec5f6ffa49a9bd7d4053173b8659aa7942",
+        "fixed_for_both_diag_modes": true
+      }
+    },
+    "parent_runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t21-rq2-20261106-pkg9/inputs/ogbn-arxiv.mtx",
+    "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/ogbn-arxiv",
+    "adjacency_order": "original T21 pickle set iteration, independently identical to raw MTX pattern",
+    "csr_sha256": {
+      "indptr": "80b420ed6a444f6e96cc0371993c35845ecba17c47dab13ad6aa32a969f3ecdf",
+      "indices": "61df4ad24ed23ef0841c2cf830fcb84cdce3d5b5066483dfc4f937d0c094984e",
+      "degrees": "0b01835d1ca2a40e4c80b4ef34ffaafceec3bebfc92501b60da08bf8eb65f72a"
+    },
+    "taus": [
+      {
+        "tau": 2,
+        "tau_rule": "fixed",
+        "resid_count": 39126,
+        "resid_frac": 0.23104586549193057,
+        "resid_nnz_frac": 0.024895512951729964
+      },
+      {
+        "tau": 3,
+        "tau_rule": "fixed",
+        "resid_count": 54353,
+        "resid_frac": 0.32096396071877786,
+        "resid_nnz_frac": 0.044623030422379015
+      }
+    ],
+    "fixed_tau_diagnostics": {
+      "2": {
+        "resid_frac": 0.23104586549193057,
+        "resid_nnz_frac": 0.024895512951729964
+      },
+      "3": {
+        "resid_frac": 0.32096396071877786,
+        "resid_nnz_frac": 0.044623030422379015
+      }
+    },
+    "prepared_sec": 0.596966709010303
+  },
+  {
+    "n": 2449029,
+    "stored_entries": 61859140,
+    "diagonal_entries": 128,
+    "nnz_A0": 123718024,
+    "explicit_zero_entries": 0,
+    "source_type": "unweighted edge CSV",
+    "matrix": "ogbn-products",
+    "status": "OK",
+    "nnz_A1": 126167053,
+    "source_url": "https://snap.stanford.edu/ogb/data/nodeproppred/products.zip",
+    "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/second/products-edge.csv.gz",
+    "input_mtx_sha256": null,
+    "input_sha256": "a012950cc853f8262d5bbc9d93ca393e978e1e8f34bcf639125585dc3b515341",
+    "source_archive_member": "products/raw/edge.csv.gz",
+    "structure": "all stored entries, including explicit zeros; symmetric expansion, diagonal removed for A0",
+    "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/ogbn-products",
+    "csr_sha256": {
+      "indptr": "e0ae33cbd5684708e81d47c5f673f56a9e4b975f3101c4a6bb7e1a2326bc01ef",
+      "indices": "a46395085b796bc1c9149ab13ba62a2c0f5dd04396c0deaacf0cff3dc53ba3e5",
+      "degrees": "ee009b1b0fbf6abec86d19efac7db6d9f8b0e0e955328a3ae0344f53cb434014"
+    },
+    "degree_mean": 50.51717394934891,
+    "degree_median": 26.0,
+    "degree_max": 17481,
+    "taus": [
+      {
+        "tau": 2,
+        "tau_rule": "fixed",
+        "resid_count": 236776,
+        "resid_frac": 0.0966815827824007,
+        "resid_nnz_frac": 0.002212442384304489
+      },
+      {
+        "tau": 3,
+        "tau_rule": "fixed",
+        "resid_count": 312413,
+        "resid_frac": 0.12756606802124434,
+        "resid_nnz_frac": 0.00404654054287191
+      }
+    ],
+    "adjacency_order": "sorted unique original column IDs; raw integer edge/COO input fully preserved as input archive member",
+    "prepared_sec": 3.1182432174682617,
+    "table_discrepancy": "raw edges 61,859,140 include 128 stored diagonal entries; after symmetric expansion and diagonal removal/dedup, actual nnz_A0 is authoritative; no edits to match paper table"
+  },
+  {
+    "n": 232965,
+    "stored_entries": 114615892,
+    "diagonal_entries": 0,
+    "explicit_zero_entries": 0,
+    "nnz_A0": 114615892,
+    "matrix": "reddit",
+    "status": "OK",
+    "nnz_A1": 114848857,
+    "source_url": "https://dgl-data.s3-accelerate.amazonaws.com/dataset/reddit.zip",
+    "input_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/second/reddit_graph.npz",
+    "input_mtx_sha256": null,
+    "input_sha256": "42b4a8d9bbbaa61e74611c125673865712fb9498da99c1571ebc1fb180bfc2e0",
+    "source_archive_member": "reddit_graph.npz",
+    "structure": "all stored entries, including explicit zeros; symmetric expansion, diagonal removed for A0",
+    "csr_dir": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/matrices/reddit",
+    "csr_sha256": {
+      "indptr": "5a983eedff76f2067ee3d8fa1378ef6186ab8dddefea1709a6e3de7844ec6e15",
+      "indices": "aaf205c856d2ac120206698d22ef95d29c1710f95b64433f17db360eb2e6f730",
+      "degrees": "08fd497895795f74b30594f73279b9e2f0be8451fa02542c213202b65a36656b"
+    },
+    "degree_mean": 491.9876032880476,
+    "degree_median": 230.0,
+    "degree_max": 21657,
+    "taus": [
+      {
+        "tau": 53,
+        "tau_rule": "q20",
+        "resid_count": 46840,
+        "resid_frac": 0.20106024510119547,
+        "resid_nnz_frac": 0.009144133345836544
+      },
+      {
+        "tau": 153,
+        "tau_rule": "q40",
+        "resid_count": 93329,
+        "resid_frac": 0.40061382611121843,
+        "resid_nnz_frac": 0.04948514469529234
+      }
+    ],
+    "adjacency_order": "sorted unique original column IDs; raw integer edge/COO input fully preserved as input archive member",
+    "prepared_sec": 40.32765984535217
+  }
+]

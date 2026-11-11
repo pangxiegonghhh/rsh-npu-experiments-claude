@@ -1,0 +1,87 @@
+{
+  "matrix": "cora",
+  "method": "C5",
+  "W": 16,
+  "seed": 0,
+  "start": 1793970955.9162822,
+  "status": "OK",
+  "command": [
+    "scripts/rabbit_family.py",
+    "--matrix",
+    "cora",
+    "--mode",
+    "B",
+    "--rep",
+    "0"
+  ],
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/cora__C5__W16__seed0.order.json",
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/cora__C5__W16__seed0.order.json",
+  "sha256": "7da558a1281d2d51165226037349de3582f40b7e73bab0ddc3205490b03e4900",
+  "size": 13255,
+  "local_seconds": 0.002964019775390625,
+  "coarse_seconds": 0.1244819164276123,
+  "diagnostics": {
+    "history": [
+      {
+        "sweep": 0,
+        "accepted": 338,
+        "sumU": 4202,
+        "sumGamma": 1465,
+        "elapsed": 0.06400632858276367
+      },
+      {
+        "sweep": 1,
+        "accepted": 102,
+        "sumU": 4080,
+        "sumGamma": 1404,
+        "elapsed": 0.07764005661010742
+      },
+      {
+        "sweep": 2,
+        "accepted": 18,
+        "sumU": 4058,
+        "sumGamma": 1379,
+        "elapsed": 0.09214425086975098
+      },
+      {
+        "sweep": 3,
+        "accepted": 1,
+        "sumU": 4057,
+        "sumGamma": 1380,
+        "elapsed": 0.14810824394226074
+      },
+      {
+        "sweep": 4,
+        "accepted": 0,
+        "sumU": 4057,
+        "sumGamma": 1380,
+        "elapsed": 0.16617703437805176
+      }
+    ],
+    "sweeps_done": 5,
+    "accepted_swaps": 459,
+    "tracked_sumU": 4057,
+    "tracked_sumGamma": 1380,
+    "independent_full_recompute": {
+      "k_windows": 68,
+      "sumU": 4057,
+      "T": 288,
+      "sumGamma": 1380,
+      "sumR": 2166,
+      "R_p50": 29,
+      "R_p90": 54,
+      "R_max": 85,
+      "write_runs_aic": 68,
+      "meanR": 31.852941
+    },
+    "incremental_invariant_passed": true,
+    "workspace_preflight_bytes": 694992
+  },
+  "end": 1793970956.194601,
+  "seconds": 0.2783188819885254,
+  "member": "C5",
+  "tau": 3,
+  "reuse": false,
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/cora__C5__tau3/order.json",
+  "peak_mem_mb": 34.578125
+}

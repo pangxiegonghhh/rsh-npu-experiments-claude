@@ -1,0 +1,114 @@
+{
+  "at_utc": "2026-11-08 20:55:04 UTC",
+  "scope": "packaging-only: second-batch full intermediate Rabbit graph permutations local-only; no method/data/metric changes",
+  "original_second_batch_mapping_files": 4,
+  "original_second_batch_mapping_bytes": 61224521,
+  "threshold_bytes": 52428800,
+  "original_builder_would_copy_full_mappings": true,
+  "new_helper": "scripts/rabbit_coarse_evidence.py",
+  "new_gate": "logs/stage3-rabbit-coarse-evidence-gate.json",
+  "new_builder_sha256": "780c53c281289e1b740310c50bdeb6faf950dc63a6dd419c2f8735913a54b546",
+  "raw_originals_unchanged": true,
+  "scientific_sources_unchanged": true,
+  "final_full_install_pending": true,
+  "gate_scope": "two real mappings covering B/U and both matrices; exact original byte hashes, original record copies, full graph permutation checks, tampering/overwrite/archive leaks/invalid permutations rejected",
+  "new_manifest": "rabbit-coarse-manifest.json",
+  "new_archived_records": "rabbit-coarse-records/",
+  "final_A_row_order_count_not_inflated": true,
+  "first_delivery_unchanged": {
+    "archive_sha256": "2493fceb5c7ed4b2747fa1c38d912f7321b5aa9bd29949f85cc1c835177fe196",
+    "intermediate_map_files": 22,
+    "intermediate_map_bytes": 12179707,
+    "note": "first-delivery intermediate mapping evidence is below50MiB; immutable archive left byte-identical. Intermediate graph renumberings are separate from new final A-row orders.",
+    "members": [
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/cora-B-repeat0.mapping",
+        "size": 25970
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/cora-B-repeat1.mapping",
+        "size": 25970
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/cora-B-repeat2.mapping",
+        "size": 25970
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/cora-U-repeat0.mapping",
+        "size": 12430
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/cora-U-repeat1.mapping",
+        "size": 12430
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/cora-U-repeat2.mapping",
+        "size": 12430
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/dawson5-B-repeat0.mapping",
+        "size": 610408
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/dawson5-U-repeat0.mapping",
+        "size": 298112
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/human_gene1-B-repeat0.mapping",
+        "size": 256286
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/human_gene1-U-repeat0.mapping",
+        "size": 122588
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/ogbn-arxiv-B-repeat0.mapping",
+        "size": 2259692
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/ogbn-arxiv-B-repeat1.mapping",
+        "size": 2259692
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/ogbn-arxiv-B-repeat2.mapping",
+        "size": 2259692
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/ogbn-arxiv-U-repeat0.mapping",
+        "size": 1074291
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/ogbn-arxiv-U-repeat1.mapping",
+        "size": 1074291
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/ogbn-arxiv-U-repeat2.mapping",
+        "size": 1074291
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/olafu-B-repeat0.mapping",
+        "size": 182642
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/olafu-U-repeat0.mapping",
+        "size": 85766
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/pattern1-B-repeat0.mapping",
+        "size": 219794
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/pattern1-U-repeat0.mapping",
+        "size": 104342
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/wiki-RfA-B-repeat0.mapping",
+        "size": 125450
+      },
+      {
+        "path": "\u7b2c\u4e00\u5c42\u5b9e\u9a8c\u7ed3\u679c/round1-compare-20261106/logs/rabbit-coarse/wiki-RfA-U-repeat0.mapping",
+        "size": 57170
+      }
+    ]
+  }
+}

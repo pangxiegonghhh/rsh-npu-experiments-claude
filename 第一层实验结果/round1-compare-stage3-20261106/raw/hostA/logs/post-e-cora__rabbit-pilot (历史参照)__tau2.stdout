@@ -1,0 +1,8 @@
+LS {'sweep': 0, 'accepted': 854, 'sumU': 5319, 'sumGamma': 2481, 'elapsed': 0.016126155853271484}
+LS {'sweep': 1, 'accepted': 237, 'sumU': 5036, 'sumGamma': 2175, 'elapsed': 0.02921319007873535}
+LS {'sweep': 2, 'accepted': 58, 'sumU': 4970, 'sumGamma': 2102, 'elapsed': 0.044901132583618164}
+LS {'sweep': 3, 'accepted': 12, 'sumU': 4958, 'sumGamma': 2089, 'elapsed': 0.05736207962036133}
+LS {'sweep': 4, 'accepted': 10, 'sumU': 4946, 'sumGamma': 2081, 'elapsed': 0.07217025756835938}
+LS {'sweep': 5, 'accepted': 2, 'sumU': 4944, 'sumGamma': 2079, 'elapsed': 0.08379602432250977}
+LS {'sweep': 6, 'accepted': 0, 'sumU': 4944, 'sumGamma': 2079, 'elapsed': 0.09273004531860352}
+{"task": "T23", "use": "base-order", "matrix": "cora", "t23_member": "rabbit-pilot (\u5386\u53f2\u53c2\u7167)", "t21_member": "rabbit-pilot", "W": 16, "params": "", "source": "T21 \u5b8c\u6574\u5f52\u6863", "path": "orders/cora__rabbit-pilot__W16__tauNone__own__f25f5d9ab240.json", "sha256": "033e8ac4f3691fae99fa8fd1de1cdcdc8598f29f5257a3af36277b3273362543", "note": "", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__rabbit-pilot__W16__tauNone__own__f25f5d9ab240.json", "verified_sha256": "5a162cc12e28301952afa1b97d19f9a9edc733c5bb41cfa89710ddecab7f3177", "origin": "T21 archive", "member": "rabbit-pilot (\u5386\u53f2\u53c2\u7167)", "tau": 2, "reuse": false, "status": "OK", "start": 1793969500.8054972, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/cora__rabbit-pilot (\u5386\u53f2\u53c2\u7167)__tau2/order.json", "size": 13464, "end": 1793969500.94135, "seconds": 0.13585281372070312, "peak_mem_mb": 32.96875}

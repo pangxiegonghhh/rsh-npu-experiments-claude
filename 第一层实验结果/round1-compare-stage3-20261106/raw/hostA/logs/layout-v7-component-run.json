@@ -1,0 +1,12 @@
+{
+  "command": "work/flat-co-component-check",
+  "tool_result": {
+    "chunk_id": "f1fa14",
+    "wall_time_seconds": 1.216966625,
+    "exit_code": 0,
+    "original_token_count": 48,
+    "output": "{\"passed\":true,\"checks\":9,\"random_seed\":73915,\"random_additions\":90795,\"collision_keys\":32,\"high_count\":70000,\"limit_fixture\":15,\"production_limit\":100000000,\"scientific_computation\":false}\n"
+  },
+  "component_only": true,
+  "ASan_UBSan_enabled": true
+}

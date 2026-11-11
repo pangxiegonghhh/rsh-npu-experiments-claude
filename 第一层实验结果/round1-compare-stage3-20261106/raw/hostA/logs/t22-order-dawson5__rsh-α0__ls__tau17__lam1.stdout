@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 2025, 'sumU': 146791, 'sumGamma': 22682, 'elapsed': 0.5964281558990479}
+LS {'sweep': 1, 'accepted': 1200, 'sumU': 141010, 'sumGamma': 21991, 'elapsed': 1.1856720447540283}
+LS {'sweep': 2, 'accepted': 558, 'sumU': 138456, 'sumGamma': 21700, 'elapsed': 1.8284029960632324}
+LS {'sweep': 3, 'accepted': 347, 'sumU': 136952, 'sumGamma': 21566, 'elapsed': 2.683190107345581}
+LS {'sweep': 4, 'accepted': 157, 'sumU': 136331, 'sumGamma': 21440, 'elapsed': 3.604659080505371}
+LS {'sweep': 5, 'accepted': 92, 'sumU': 135947, 'sumGamma': 21374, 'elapsed': 4.350451946258545}
+LS {'sweep': 6, 'accepted': 38, 'sumU': 135784, 'sumGamma': 21359, 'elapsed': 5.203323841094971}
+LS {'sweep': 7, 'accepted': 15, 'sumU': 135743, 'sumGamma': 21351, 'elapsed': 6.148440837860107}
+LS {'sweep': 8, 'accepted': 14, 'sumU': 135674, 'sumGamma': 21347, 'elapsed': 6.861643075942993}
+LS {'sweep': 9, 'accepted': 9, 'sumU': 135630, 'sumGamma': 21353, 'elapsed': 7.490008115768433}
+{"task": "T22", "use": "base-order", "matrix": "dawson5", "member": "rsh-\u03b10", "start": 1793977086.183063, "lam": "", "tau": 17, "seed": 0, "t21_path": "orders/dawson5__rsh-alpha0__W16__tauNone__own__4f1f28cb1ae2.json", "sha256": "8e35cce1d07433ae816b370bca27c1a8676ea7a8410d62864dade26ce0fb40e5", "note": "", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/dawson5__rsh-alpha0__W16__tauNone__own__4f1f28cb1ae2.json", "verified_sha256": "76296832789ae8aa9e7296e62277a46d784122920648b4d0211777ff49d62380", "origin": "T21 archive", "kind": "ls", "W": 16, "lambda": 1, "status": "OK", "command": ["scripts/order_job.py", "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/dawson5__rsh-\u03b10__ls__tau17__lam1.json"], "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/dawson5__rsh-\u03b10__ls__tau17__lam1.checkpoint.json", "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/dawson5__rsh-\u03b10__ls__tau17__lam1.order.json", "size": 299416, "end": 1793977093.849355, "seconds": 7.666291952133179}

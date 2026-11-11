@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "observed_utc": "2026-11-06T12:15:01.270008+00:00",
+  "archive": "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/第一层工作区/RQ2实验数据/t21-rq2-87594cc-20261106.tar.gz",
+  "archive_sha256": "2b824ec698df32a9a2027fc3b896c5e68fb3e5982cd696c7ea6c9a1cae6b719a",
+  "archive_bytes": 697813699,
+  "archive_files_extracted": 180,
+  "T22_verified_reuse": 97,
+  "T23_verified_reuse": 144,
+  "T22_new_LSfull_required": 2,
+  "elapsed_sec": 4.860691291978583
+}

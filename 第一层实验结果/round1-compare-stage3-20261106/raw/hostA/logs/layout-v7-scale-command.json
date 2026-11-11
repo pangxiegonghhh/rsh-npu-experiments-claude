@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/gate_flatco_scale.py"
+  ],
+  "environment_override": {
+    "RQ3_LAYOUT_LIB": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib"
+  },
+  "source_sha256": "d23bc00315001233ecfff48765b3c9c14f8cf6adf3f0412efd86d8eda2e4e1c6",
+  "start": 1794070757.9992929,
+  "end": 1794070759.5907378,
+  "exitcode": 0,
+  "output": "layout-v7-scale-gate.json"
+}

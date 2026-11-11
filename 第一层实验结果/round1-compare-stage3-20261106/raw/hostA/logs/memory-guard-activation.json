@@ -1,0 +1,25 @@
+{
+  "activated_at": 1793981971.686154,
+  "production_peak_rss_limit_bytes": 8589934592,
+  "scope": "all newly launched host CPU children via resource_slots.acquire; current already-running/queued imports retain their recorded code version",
+  "poll_seconds": 0.25,
+  "independent_of_Python_GIL": true,
+  "reason": "enforce registered8GiB resource policy for forthcoming large graphs; terminate rather than truncate original algorithm",
+  "algorithm_parameters_changed": false,
+  "method_retry": false,
+  "source_sha256": "214e5f655c0e14ec85ea6ecf5c8ef208f83b334aa545a85c4d07fcdbfb8c2514",
+  "binary_sha256": "7b0f6e09c9997027ad5a6da7272dd78456fd785bdb948e6e512ef098c5730e2c",
+  "compile_command": [
+    "cc",
+    "-std=c11",
+    "-O2",
+    "-pthread",
+    "-dynamiclib",
+    "scripts/memory_guard.c",
+    "-o",
+    "work/libmemory-guard.dylib"
+  ],
+  "compile_exitcode": 0,
+  "selftest": "logs/memory-guard-selftest.json",
+  "private_or_external_resources_used": false
+}

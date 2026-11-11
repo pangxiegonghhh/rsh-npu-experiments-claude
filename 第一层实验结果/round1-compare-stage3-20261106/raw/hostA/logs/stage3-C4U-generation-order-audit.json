@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "scope": "generation only; permutation/hash/original time bound, no scientific rerun",
+  "case_id": "stage3-reddit__C4-U__W16__seed0",
+  "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/generated/reddit__C4-U__W16__seed0.order.json",
+  "sha256": "52fdfc7cd565fa17c6f9cd8f7d1d1a1a949109a15cd99f7fa9e9a5f33f8a683f",
+  "size": 1519647,
+  "original_exitcode": 0,
+  "actual_method_seconds": 9.578690767288208,
+  "record_seconds": 9.46242880821228,
+  "whole_case_complete": false
+}

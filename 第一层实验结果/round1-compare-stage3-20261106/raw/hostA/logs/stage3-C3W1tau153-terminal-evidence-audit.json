@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "scope": "terminal metadata/permutation/hash/CP/recorded independent recompute/row invariants/budget/memory checked; LS complete, all layouts INCOMPLETE; no scientific rerun",
+  "case_id": "stage3-reddit__C3-W1__W16__seed0__tau153",
+  "actual_method_seconds": 6185.458649158478,
+  "queue_seconds": 37.53820085525513,
+  "original_exitcode": 0,
+  "sweeps_done": 10,
+  "accepted_swaps": 155956,
+  "order_sha256": "51626599544db6e160c718e0131ad3807f4d3acc36d570b793b62ef188c40883",
+  "order_size": 1521029,
+  "checkpoint_sha256": "224cb5233903b3ace15b77db85d75ab37b973f8e8921ade2cac84912e75171d6",
+  "runtime_independent_full_recompute": {
+    "k_windows": 8728,
+    "sumU": 42817186,
+    "T": 2680181,
+    "sumGamma": 15376061,
+    "sumR": 26609108,
+    "R_p50": 2607,
+    "R_p90": 5225,
+    "R_max": 30465,
+    "write_runs_aic": 8728,
+    "meanR": 3048.706233
+  },
+  "original_process_peak_mem_mb": 4420.0,
+  "new_memory_export_rows": 4,
+  "post_layout_status": "INCOMPLETE",
+  "post_layout_reason": "co pair map exceeds 8GiB workspace safety budget estimate; INCOMPLETE",
+  "whole_C3W1_formal_status": "INCOMPLETE",
+  "whole_C3W1_formal_rows": 28,
+  "whole_C3W1_rows_OK": 16,
+  "whole_C3W1_rows_INCOMPLETE": 12,
+  "source_sha256": "53f68b4087d536fa90aef408abf6bf534f5177d22b45c377fa2d9eae76254368",
+  "actual_layout_backend": {
+    "python_implementation_revision": "v7-flat-co-default-and-backend-provenance; unchanged v6 chain/failure cache",
+    "pid": 29309,
+    "argv": [
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-post-catalog/stage3-reddit__C3-W1__W16__seed0__tau153.json"
+    ],
+    "matrix": "reddit",
+    "n": 232965,
+    "first_context_W": 16,
+    "first_context_windows": 8728,
+    "binary_loaded_at": 1794092027.005729,
+    "first_context_at": 1794098001.856103,
+    "library_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib",
+    "library_sha256": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+    "library_override_at_import": null,
+    "scope": "actual DLL selected and hashed at module import; applies to this process only, not prior/queued imports"
+  },
+  "no_scientific_rerun": true
+}

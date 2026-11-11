@@ -1,0 +1,11 @@
+LS {'sweep': 0, 'accepted': 31179, 'sumU': 1202406, 'sumGamma': 580163, 'elapsed': 14.433119297027588}
+LS {'sweep': 1, 'accepted': 11241, 'sumU': 1180571, 'sumGamma': 563960, 'elapsed': 29.56579828262329}
+LS {'sweep': 2, 'accepted': 4517, 'sumU': 1172641, 'sumGamma': 557430, 'elapsed': 44.92705821990967}
+LS {'sweep': 3, 'accepted': 1829, 'sumU': 1169709, 'sumGamma': 555007, 'elapsed': 60.39992117881775}
+LS {'sweep': 4, 'accepted': 827, 'sumU': 1168335, 'sumGamma': 553924, 'elapsed': 75.82205414772034}
+LS {'sweep': 5, 'accepted': 379, 'sumU': 1167748, 'sumGamma': 553505, 'elapsed': 91.18237805366516}
+LS {'sweep': 6, 'accepted': 193, 'sumU': 1167444, 'sumGamma': 553297, 'elapsed': 106.93855619430542}
+LS {'sweep': 7, 'accepted': 79, 'sumU': 1167336, 'sumGamma': 553286, 'elapsed': 122.751784324646}
+LS {'sweep': 8, 'accepted': 45, 'sumU': 1167240, 'sumGamma': 553180, 'elapsed': 138.11856317520142}
+LS {'sweep': 9, 'accepted': 25, 'sumU': 1167202, 'sumGamma': 553153, 'elapsed': 153.54502606391907}
+{"task": "T22", "use": "base-order", "matrix": "ogbn-arxiv", "member": "C9-S", "start": 1793972184.626689, "lam": "", "tau": 3, "seed": 0, "t21_path": "orders/ogbn-arxiv__C9-S__W16__tauNone__own__98cafee0416d.json", "sha256": "c749b4847a0530b5669a30e3661e0e1285c123a052f2270f3074ae7c994cd7b1", "note": "", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/ogbn-arxiv__C9-S__W16__tauNone__own__98cafee0416d.json", "verified_sha256": "03032c8aa913d491e1ce58f7be75551b76fd47034d6f10a55ef87a4c53514c4d", "origin": "T21 archive", "kind": "ls", "W": 16, "lambda": 0, "status": "OK", "command": ["scripts/order_job.py", "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t22-order-catalog/ogbn-arxiv__C9-S__ls__tau3__lam0.json"], "checkpoint_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/ogbn-arxiv__C9-S__ls__tau3__lam0.checkpoint.json", "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/order-jobs/ogbn-arxiv__C9-S__ls__tau3__lam0.order.json", "size": 1075631, "end": 1793972339.6736782, "seconds": 155.0469892024994}

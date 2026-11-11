@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-B",
+    "scripts/independent_matrix_job.py",
+    "ogbn-arxiv"
+  ],
+  "start": 1793972862.863657,
+  "end": 1793972957.4869828,
+  "exitcode": 0
+}

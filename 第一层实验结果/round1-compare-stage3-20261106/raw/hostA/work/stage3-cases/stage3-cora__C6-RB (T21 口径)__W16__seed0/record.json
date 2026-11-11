@@ -1,0 +1,46 @@
+{
+  "matrix": "cora",
+  "method": "C6-RB (T21 口径)",
+  "member": "C6-RB (T21 口径)",
+  "W": 16,
+  "seed": 0,
+  "scope": "P1/P2",
+  "case_id": "stage3-cora__C6-RB (T21 口径)__W16__seed0",
+  "reuse": {
+    "task": "T23",
+    "use": "base-order",
+    "matrix": "cora",
+    "t23_member": "C6-RB (T21 口径)",
+    "t21_member": "C6",
+    "W": "16",
+    "params": "mnc=0",
+    "source": "T21 完整归档",
+    "path": "orders/cora__C6__W16__tauNone__own__fd8fee0d2f86.json",
+    "sha256": "6d2108a266b3ac2abd2207925e6997e5118f7b315fef40321c8c2182a62c000c",
+    "note": "",
+    "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__C6__W16__tauNone__own__fd8fee0d2f86.json",
+    "verified_sha256": "6d2108a266b3ac2abd2207925e6997e5118f7b315fef40321c8c2182a62c000c",
+    "origin": "T21 archive"
+  },
+  "status": "OK",
+  "start": 1793980173.4221828,
+  "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__C6__W16__tauNone__own__fd8fee0d2f86.json",
+  "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/inputs/t21/orders/cora__C6__W16__tauNone__own__fd8fee0d2f86.json",
+  "sha256": "6d2108a266b3ac2abd2207925e6997e5118f7b315fef40321c8c2182a62c000c",
+  "size": 12654,
+  "seconds": "",
+  "diagnostics": {},
+  "reused": true,
+  "evaluation_root": "stage3-evaluations",
+  "diagnostic_root": "stage3-diagnostics",
+  "evaluation_status": {
+    "status": "OK",
+    "rows": 20,
+    "seconds": 0.06761288642883301
+  },
+  "diagnostic_status": {
+    "status": "OK",
+    "seconds": 0.02791571617126465
+  },
+  "controller_end": 1793980254.5865579
+}

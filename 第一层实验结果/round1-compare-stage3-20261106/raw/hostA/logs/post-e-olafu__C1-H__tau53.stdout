@@ -1,0 +1,8 @@
+LS {'sweep': 0, 'accepted': 620, 'sumU': 99238, 'sumGamma': 11023, 'elapsed': 0.24836301803588867}
+LS {'sweep': 1, 'accepted': 108, 'sumU': 98474, 'sumGamma': 10887, 'elapsed': 0.5032200813293457}
+LS {'sweep': 2, 'accepted': 34, 'sumU': 98279, 'sumGamma': 10844, 'elapsed': 0.7542760372161865}
+LS {'sweep': 3, 'accepted': 20, 'sumU': 98199, 'sumGamma': 10817, 'elapsed': 1.0034661293029785}
+LS {'sweep': 4, 'accepted': 7, 'sumU': 98154, 'sumGamma': 10807, 'elapsed': 1.2538630962371826}
+LS {'sweep': 5, 'accepted': 3, 'sumU': 98134, 'sumGamma': 10803, 'elapsed': 1.5023550987243652}
+LS {'sweep': 6, 'accepted': 0, 'sumU': 98134, 'sumGamma': 10803, 'elapsed': 1.7521979808807373}
+{"matrix": "olafu", "method": "C1-H", "W": 16, "seed": 0, "start": 1793975335.5568252, "status": "OK", "command": ["scripts/external_c1.py", "--matrix", "olafu", "--variant", "H", "--seed", "0"], "path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/olafu__C1-H__W16__seed0.order.json", "runtime_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/external/olafu__C1-H__W16__seed0.order.json", "sha256": "18531273e770a70df2f0d5bae2ce29a9e9f5cb491ca1bb5423b08fd2bf956820", "size": 86779, "end": 1793975337.562969, "seconds": 2.006143808364868, "peak_mem_mb": 92.171875, "member": "C1-H", "tau": 53, "reuse": false, "order_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/post-e/olafu__C1-H__tau53/order.json"}

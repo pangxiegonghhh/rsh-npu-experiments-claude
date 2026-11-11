@@ -1,0 +1,12 @@
+{
+  "pid": 92955,
+  "slot": 1,
+  "command": [
+    "scripts/gate_stage3_preparation.py"
+  ],
+  "queued_at": 1793975369.473427,
+  "acquired_at": 1793975599.1750882,
+  "queue_seconds": 229.70166110992432,
+  "discipline": "FIFO heartbeat",
+  "queue_root": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/cpu-slots"
+}

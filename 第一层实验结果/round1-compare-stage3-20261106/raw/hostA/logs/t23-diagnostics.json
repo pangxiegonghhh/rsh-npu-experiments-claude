@@ -1,0 +1,717 @@
+[
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-cora__C4-U.json"
+    ],
+    "start": 1793972148.615063,
+    "end": 1793972684.423871,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-cora__C7-I.json"
+    ],
+    "start": 1793972684.424893,
+    "end": 1793972919.142841,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-dawson5__C2-LSH.json"
+    ],
+    "start": 1793972919.1439822,
+    "end": 1793973150.042908,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-dawson5__C3-W1.json"
+    ],
+    "start": 1793973150.044087,
+    "end": 1793973602.538364,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-dawson5__C3-W4.json"
+    ],
+    "start": 1793973602.539881,
+    "end": 1793973990.96665,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-dawson5__C4-T.json"
+    ],
+    "start": 1793973990.968342,
+    "end": 1793974226.066677,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-dawson5__C4-U.json"
+    ],
+    "start": 1793974226.068374,
+    "end": 1793974439.323468,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-dawson5__C7-I.json"
+    ],
+    "start": 1793974439.3247092,
+    "end": 1793974633.512141,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-human_gene1__C2-LSH.json"
+    ],
+    "start": 1793974633.513303,
+    "end": 1793974801.5739279,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-human_gene1__C3-W1.json"
+    ],
+    "start": 1793974801.5753531,
+    "end": 1793974841.411482,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-human_gene1__C3-W4.json"
+    ],
+    "start": 1793974841.41241,
+    "end": 1793974889.021405,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-human_gene1__C4-T.json"
+    ],
+    "start": 1793974889.022154,
+    "end": 1793974918.961371,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-human_gene1__C4-U.json"
+    ],
+    "start": 1793974918.9621592,
+    "end": 1793974956.4932559,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-human_gene1__C7-I.json"
+    ],
+    "start": 1793974956.493896,
+    "end": 1793974980.996414,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-ogbn-arxiv__C2-LSH.json"
+    ],
+    "start": 1793974980.997239,
+    "end": 1793975012.0192142,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-ogbn-arxiv__C3-W1.json"
+    ],
+    "start": 1793975012.020137,
+    "end": 1793975037.142089,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-ogbn-arxiv__C3-W4.json"
+    ],
+    "start": 1793975037.143133,
+    "end": 1793975138.175183,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-ogbn-arxiv__C4-T.json"
+    ],
+    "start": 1793975138.176756,
+    "end": 1793975159.9290419,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-ogbn-arxiv__C4-U.json"
+    ],
+    "start": 1793975159.929811,
+    "end": 1793975207.450651,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-ogbn-arxiv__C7-I.json"
+    ],
+    "start": 1793975207.452362,
+    "end": 1793975312.875631,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-olafu__C2-LSH.json"
+    ],
+    "start": 1793975312.8772118,
+    "end": 1793975353.5559528,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-olafu__C3-W1.json"
+    ],
+    "start": 1793975353.5566878,
+    "end": 1793975380.3270872,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-olafu__C3-W4.json"
+    ],
+    "start": 1793975380.3280158,
+    "end": 1793975600.8004322,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-olafu__C4-T.json"
+    ],
+    "start": 1793975600.8018382,
+    "end": 1793975742.8560371,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-olafu__C4-U.json"
+    ],
+    "start": 1793975742.85741,
+    "end": 1793976037.326599,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-olafu__C7-I.json"
+    ],
+    "start": 1793976037.3280509,
+    "end": 1793976260.289664,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-pattern1__C2-LSH.json"
+    ],
+    "start": 1793976260.2911859,
+    "end": 1793976414.542294,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-pattern1__C3-W1.json"
+    ],
+    "start": 1793976414.544242,
+    "end": 1793976554.193003,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-pattern1__C3-W4.json"
+    ],
+    "start": 1793976554.194112,
+    "end": 1793976762.8844512,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-pattern1__C4-T.json"
+    ],
+    "start": 1793976762.885932,
+    "end": 1793976782.502971,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-pattern1__C7-I.json"
+    ],
+    "start": 1793976782.503954,
+    "end": 1793976994.170007,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-wiki-RfA__C3-W1.json"
+    ],
+    "start": 1793976994.1716568,
+    "end": 1793977025.539403,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-wiki-RfA__C3-W4.json"
+    ],
+    "start": 1793977025.542816,
+    "end": 1793977048.8819368,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-wiki-RfA__C4-U.json"
+    ],
+    "start": 1793977048.883206,
+    "end": 1793977084.545057,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-wiki-RfA__C7-I.json"
+    ],
+    "start": 1793977084.546058,
+    "end": 1793977105.720793,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-cora__C1-H.json"
+    ],
+    "start": 1793977105.721823,
+    "end": 1793977121.048657,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-cora__C1-J.json"
+    ],
+    "start": 1793977121.049844,
+    "end": 1793977168.117228,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-cora__C5-U.json"
+    ],
+    "start": 1793977168.118227,
+    "end": 1793977208.637412,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-cora__C5.json"
+    ],
+    "start": 1793977208.638386,
+    "end": 1793977239.557368,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-cora__C8-METIS.json"
+    ],
+    "start": 1793977239.5582132,
+    "end": 1793977258.877694,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-dawson5__C1-H.json"
+    ],
+    "start": 1793977258.87934,
+    "end": 1793977271.788241,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-dawson5__C1-J.json"
+    ],
+    "start": 1793977271.789502,
+    "end": 1793977290.0121799,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-dawson5__C5-U.json"
+    ],
+    "start": 1793977290.013066,
+    "end": 1793977302.2613661,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-dawson5__C5.json"
+    ],
+    "start": 1793977302.262393,
+    "end": 1793977539.6564999,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-dawson5__C8-METIS.json"
+    ],
+    "start": 1793977539.657876,
+    "end": 1793977544.374706,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-human_gene1__C1-H.json"
+    ],
+    "start": 1793977544.376093,
+    "end": 1793977772.643767,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-human_gene1__C1-J.json"
+    ],
+    "start": 1793977772.6451762,
+    "end": 1793977995.0713532,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-human_gene1__C5-U.json"
+    ],
+    "start": 1793977995.072542,
+    "end": 1793978014.381621,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-human_gene1__C5.json"
+    ],
+    "start": 1793978014.382773,
+    "end": 1793978229.298342,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-human_gene1__C8-METIS.json"
+    ],
+    "start": 1793978229.300124,
+    "end": 1793978456.414769,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-ogbn-arxiv__C1-H.json"
+    ],
+    "start": 1793978456.4163468,
+    "end": 1793978529.154216,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-ogbn-arxiv__C1-J.json"
+    ],
+    "start": 1793978529.155468,
+    "end": 1793978730.627157,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-ogbn-arxiv__C5-U.json"
+    ],
+    "start": 1793978730.628577,
+    "end": 1793978742.189595,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-ogbn-arxiv__C5.json"
+    ],
+    "start": 1793978742.190637,
+    "end": 1793978906.920732,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-ogbn-arxiv__C8-METIS.json"
+    ],
+    "start": 1793978906.9221241,
+    "end": 1793979078.749797,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-olafu__C1-H.json"
+    ],
+    "start": 1793979078.75113,
+    "end": 1793979240.6829078,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-olafu__C5-U.json"
+    ],
+    "start": 1793979240.6842408,
+    "end": 1793979246.627156,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-olafu__C5.json"
+    ],
+    "start": 1793979246.628166,
+    "end": 1793979404.411662,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-olafu__C8-METIS.json"
+    ],
+    "start": 1793979404.412798,
+    "end": 1793979414.912318,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-pattern1__C1-H.json"
+    ],
+    "start": 1793979414.913495,
+    "end": 1793979580.842313,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-pattern1__C5.json"
+    ],
+    "start": 1793979580.8436391,
+    "end": 1793979595.381846,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-pattern1__C8-METIS.json"
+    ],
+    "start": 1793979595.382692,
+    "end": 1793979749.446076,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-wiki-RfA__C1-H.json"
+    ],
+    "start": 1793979749.447737,
+    "end": 1793979753.8453078,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-wiki-RfA__C5-U.json"
+    ],
+    "start": 1793979753.845953,
+    "end": 1793979755.6555572,
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "scripts/diagnose_t23.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/t23-diag-catalog/diag-wiki-RfA__C5.json"
+    ],
+    "start": 1793979755.656168,
+    "end": 1793979758.0065129,
+    "exitcode": 0
+  }
+]

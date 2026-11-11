@@ -1,0 +1,33 @@
+{
+  "matrix": "ogbn-products",
+  "member": "neutron-pilot",
+  "W": 16,
+  "diag": "A0",
+  "tau": 3,
+  "T_full": 5021072,
+  "T_full_phase": 5094853.133333334,
+  "align_premium": 73781.13333333377,
+  "T_inplace": 5002132,
+  "T_keep": 5059960,
+  "U_inplace": 78913721,
+  "U_keep": 79957485,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 191.2798535823822,
+  "status": "OK"
+}

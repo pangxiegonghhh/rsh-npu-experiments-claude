@@ -1,0 +1,33 @@
+{
+  "matrix": "human_gene1",
+  "member": "C6-M mnc=16 (T21 \u53e3\u5f84)",
+  "W": 16,
+  "diag": "A0",
+  "tau": 342,
+  "T_full": 237821,
+  "T_full_phase": 256047.33333333334,
+  "align_premium": 18226.333333333343,
+  "T_inplace": 220882,
+  "T_keep": 219262,
+  "U_inplace": 3525785,
+  "U_keep": 3502083,
+  "offsets_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "diagnostic_seconds": 2.447350025177002,
+  "status": "OK"
+}

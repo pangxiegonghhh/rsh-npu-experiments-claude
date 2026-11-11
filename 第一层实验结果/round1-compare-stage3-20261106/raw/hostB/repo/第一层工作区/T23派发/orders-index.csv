@@ -1,0 +1,145 @@
+use,matrix,t23_member,t21_member,W,params,source,path,sha256,note
+base-order,cora,B0,B0,16,,T21 完整归档,orders/cora__B0__W16__tauNone__own__bb3cb228f4bc.json,9739dc1c2fd074489eb436924460371788f38016e0a49c3eb2580e3db6c2af8a,
+base-order,cora,B1 (rsh-α0),rsh-α0,16,,T21 完整归档,orders/cora__rsh-alpha0__W16__tauNone__own__60d4a3f802ea.json,1c1889794c291f9afb95cb32263f13bc59969c9d2e77e3446296069b63e82a72,
+base-order,cora,rabbit-pilot (历史参照),rabbit-pilot,16,,T21 完整归档,orders/cora__rabbit-pilot__W16__tauNone__own__f25f5d9ab240.json,5a162cc12e28301952afa1b97d19f9a9edc733c5bb41cfa89710ddecab7f3177,
+base-order,cora,neutron-pilot (历史参照),neutron-pilot,16,,T21 完整归档,orders/cora__neutron-pilot__W16__tauNone__own__d7aa58d7e541.json,47387db160a883a7941a1a60d1e8f2623d4248b1aa2e2e2d14112d9bb24e09ca,
+base-order,cora,C9-Gorder,C9-Gorder,16,,T21 完整归档,orders/cora__C9-Gorder__W16__tauNone__own__b717b789b237.json,fbb3cab1de0f31227b065bc28d6e576d0425b50d0001c66af7f8488c1e064b4f,
+base-order,cora,C9-S,C9-S,16,,T21 完整归档,orders/cora__C9-S__W16__tauNone__own__13615f81231f.json,3f8c35c7a882379b372032e25f5b851fa4ad5d63f7d70b6b28634ad6bf759778,
+base-order,cora,C10-BP,C10-BP,16,,T21 完整归档,orders/cora__C10-BP__W16__tauNone__own__633780c3b8aa.json,f7ff2e41c5ccf4d2158d4a192b18823dd547e57599152648a85f9bfef9b2a270,
+base-order,cora,B-RCM-ref,B-RCM-ref,16,,T21 完整归档,orders/cora__B-RCM-ref__W16__tauNone__own__c620cb3427ba.json,bf7600d38fdd3be6688e9ce0bde3281dede6bdaeed55ee30dee04a865037f3ad,
+base-order,cora,C6-RB (T21 口径),C6,16,mnc=0,T21 完整归档,orders/cora__C6__W16__tauNone__own__fd8fee0d2f86.json,6d2108a266b3ac2abd2207925e6997e5118f7b315fef40321c8c2182a62c000c,
+base-order,cora,C6-M mnc=1 (T21 口径),C6-M,16,mnc=1,T21 完整归档,orders/cora__C6-M__W16__tauNone__own__994232be2de8.json,4e7e2e423b5c0d5207f4e46b809d221d6261759b6672cfa2b85459d0522acd63,
+base-order,cora,C6-M mnc=4 (T21 口径),C6-M,16,mnc=4,T21 完整归档,orders/cora__C6-M__W16__tauNone__own__f33d50e8ac5f.json,9f81eaa7d53c257460d4d5493c3a4ea52f75040b184a7a3420b84a8cb06a0cf9,
+base-order,cora,C6-M mnc=16 (T21 口径),C6-M,16,mnc=16,T21 完整归档,orders/cora__C6-M__W16__tauNone__own__093a71556425.json,88ffb11ae651d08e75d034b3cc9586828ed1a44a8acae8fc81502c4c012ee0cc,
+base-order,ogbn-arxiv,B0,B0,16,,T21 完整归档,orders/ogbn-arxiv__B0__W16__tauNone__own__4b33dcbc93b8.json,48a0ca8f77b752dcc34d48bf48b60ef0cb722cfcf70996c8375df3f44b6cc73a,
+base-order,ogbn-arxiv,B1 (rsh-α0),rsh-α0,16,,T21 完整归档,orders/ogbn-arxiv__rsh-alpha0__W16__tauNone__own__a6340c0d6c29.json,faff0625413a5d724bcbeceb937e9e504077a72b7fe109287ff143fe4e04aa82,
+base-order,ogbn-arxiv,rabbit-pilot (历史参照),rabbit-pilot,16,,T21 完整归档,orders/ogbn-arxiv__rabbit-pilot__W16__tauNone__own__06ad245b849c.json,a6c3d102c017dd82041ac4aedfc281518cb3a254d34973f88bc49d27c0f0a134,
+base-order,ogbn-arxiv,neutron-pilot (历史参照),neutron-pilot,16,,T21 完整归档,orders/ogbn-arxiv__neutron-pilot__W16__tauNone__own__52bc8c1b72ee.json,6f745a7883e7154329040e7c5ef585f4c17a6a4f774dffd1216d83db63c0edeb,
+base-order,ogbn-arxiv,C9-Gorder,C9-Gorder,16,,T21 完整归档,orders/ogbn-arxiv__C9-Gorder__W16__tauNone__own__47d89f24b6ed.json,771b8c78add9b481f9ef4422606b52ca932ba031eb22140d003882c8bf06e595,
+base-order,ogbn-arxiv,C9-S,C9-S,16,,T21 完整归档,orders/ogbn-arxiv__C9-S__W16__tauNone__own__98cafee0416d.json,03032c8aa913d491e1ce58f7be75551b76fd47034d6f10a55ef87a4c53514c4d,
+base-order,ogbn-arxiv,C10-BP,C10-BP,16,,T21 完整归档,orders/ogbn-arxiv__C10-BP__W16__tauNone__own__7a6ba73893a1.json,cb6166e35b79d6454f6a88e53b7b2439e5f96c81a1ee8c2f0c8ed36f45320134,
+base-order,ogbn-arxiv,B-RCM-ref,B-RCM-ref,16,,T21 完整归档,orders/ogbn-arxiv__B-RCM-ref__W16__tauNone__own__7e8aebbe4091.json,8e9821780bc6b304651e24bf5bf1e6d9a58a778c056c849b2fde58adaf829c83,
+base-order,ogbn-arxiv,C6-RB (T21 口径),C6,16,mnc=0,T21 完整归档,orders/ogbn-arxiv__C6__W16__tauNone__own__9980c96eee6b.json,90db9b02713f32c7e3b05bc1c1b639b3836b533a8a6a3755b08461b25bf27ff8,
+base-order,ogbn-arxiv,C6-M mnc=1 (T21 口径),C6-M,16,mnc=1,T21 完整归档,orders/ogbn-arxiv__C6-M__W16__tauNone__own__c40b1452d9b5.json,7fbcb3983523920e489cd97ba9276ac3f222518257642399af7d3427c416456d,
+base-order,ogbn-arxiv,C6-M mnc=4 (T21 口径),C6-M,16,mnc=4,T21 完整归档,orders/ogbn-arxiv__C6-M__W16__tauNone__own__635300bfc886.json,3c22c1f5d2d5b09511a4f42c06cdae66cb9e66b7b705ed9cf1cc9af7b1c87c21,
+base-order,ogbn-arxiv,C6-M mnc=16 (T21 口径),C6-M,16,mnc=16,T21 完整归档,orders/ogbn-arxiv__C6-M__W16__tauNone__own__e6b53703463b.json,6d4575483f360ff4e6877ea9a74b543a70a3264182ce7189a8a4e098adc62fd8,
+base-order,wiki-RfA,B0,B0,16,,T21 完整归档,orders/wiki-RfA__B0__W16__tauNone__own__817118d2f455.json,aadf6fca7e6a5e9562d2666a3a45cf8e37425e4aad9430f23273ce03a943231a,
+base-order,wiki-RfA,B1 (rsh-α0),rsh-α0,16,,T21 完整归档,orders/wiki-RfA__rsh-alpha0__W16__tauNone__own__abbf7494a451.json,a794ae7ca18f92a4c86d59911d8a8d297b68e4cfeecd18015e1e78f631897a04,
+base-order,wiki-RfA,rabbit-pilot (历史参照),rabbit-pilot,16,,T21 完整归档,orders/wiki-RfA__rabbit-pilot__W16__tauNone__own__232d5db7480d.json,588aa5f55c21a1cf72c894d300b3e129ba62dff9eb081a74ceb1415568c99da0,
+base-order,wiki-RfA,neutron-pilot (历史参照),neutron-pilot,16,,T21 完整归档,orders/wiki-RfA__neutron-pilot__W16__tauNone__own__8390c2f67d90.json,87bb7fe87e04ef2df1fa201027a8139ed2f0c72d6259533f73c2999c357086e5,
+base-order,wiki-RfA,C9-Gorder,C9-Gorder,16,,T21 完整归档,orders/wiki-RfA__C9-Gorder__W16__tauNone__own__81b8b67a36b5.json,06a21748b6bfa8485634b92138c405ac5bc744acdc97e7cd3d6d17cd8a80363a,
+base-order,wiki-RfA,C9-S,C9-S,16,,T21 完整归档,orders/wiki-RfA__C9-S__W16__tauNone__own__95e6f9fe8ee8.json,0a7373ad4e848a37f15389f728b6d54e308de922c66ae9a53b8dc85536968ca9,
+base-order,wiki-RfA,C10-BP,C10-BP,16,,T21 完整归档,orders/wiki-RfA__C10-BP__W16__tauNone__own__3f8b5f9379bd.json,88dd9ec20fce2f76e0bf9b397c6eb2d94abdeedf68b0126b5e3363a0fa426711,
+base-order,wiki-RfA,B-RCM-ref,B-RCM-ref,16,,T21 完整归档,orders/wiki-RfA__B-RCM-ref__W16__tauNone__own__afd32022b778.json,07da0608ed2ec789915953efc272e6bcf10fc0361d7838b3f2f41660c92552a1,
+base-order,wiki-RfA,C6-RB (T21 口径),C6,16,mnc=0,T21 完整归档,orders/wiki-RfA__C6__W16__tauNone__own__d8a5cdd06093.json,d0b11d6cfea29175e57a36a75dbfb7c929d012706d57c3387b571a445cf1738b,
+base-order,wiki-RfA,C6-M mnc=1 (T21 口径),C6-M,16,mnc=1,T21 完整归档,orders/wiki-RfA__C6-M__W16__tauNone__own__1590a5cd81b1.json,ae32b6adf8c875b6fcd50feb3ba1e2523a5191577a3f36d0d1327dbbf93975eb,
+base-order,wiki-RfA,C6-M mnc=4 (T21 口径),C6-M,16,mnc=4,T21 完整归档,orders/wiki-RfA__C6-M__W16__tauNone__own__46502a32fa5a.json,2f29728b3e39974db0b3e2bff463cbc4f4c4c36b6686369555e5af615f8f482e,
+base-order,wiki-RfA,C6-M mnc=16 (T21 口径),C6-M,16,mnc=16,T21 完整归档,orders/wiki-RfA__C6-M__W16__tauNone__own__44e8443b8103.json,91a69e33cddd62898d9d27b3685a9b779264caa89d3c279089f9f1431e40634b,
+base-order,dawson5,B0,B0,16,,T21 完整归档,orders/dawson5__B0__W16__tauNone__own__91a652a2e6a9.json,8ff846f7199accc37cf216ce48ebc59c8c1f26b905f2c8fe70a089c5062f3dda,
+base-order,dawson5,B1 (rsh-α0),rsh-α0,16,,T21 完整归档,orders/dawson5__rsh-alpha0__W16__tauNone__own__4f1f28cb1ae2.json,76296832789ae8aa9e7296e62277a46d784122920648b4d0211777ff49d62380,
+base-order,dawson5,rabbit-pilot (历史参照),rabbit-pilot,16,,T21 完整归档,orders/dawson5__rabbit-pilot__W16__tauNone__own__dd2fb30668dd.json,f95c0a9ea8e1e0780530afb63121a319f235c13a92122539dfe7205b905c0688,
+base-order,dawson5,neutron-pilot (历史参照),neutron-pilot,16,,T21 完整归档,orders/dawson5__neutron-pilot__W16__tauNone__own__af5b0f59d660.json,1fc4003b27aff9b7976dec5981c3dd80c4246985ba494d419d874894740d3358,
+base-order,dawson5,C9-Gorder,C9-Gorder,16,,T21 完整归档,orders/dawson5__C9-Gorder__W16__tauNone__own__cea9f6addf71.json,652cd64f082f0551a420422d731822f9204adb48815837b9ad228576ca2b0e4f,
+base-order,dawson5,C9-S,C9-S,16,,T21 完整归档,orders/dawson5__C9-S__W16__tauNone__own__9f77feb26bbe.json,54410fe369332f8839842b0e8f2fb87c70cb5999709c20455d881d094df15aad,
+base-order,dawson5,C10-BP,C10-BP,16,,T21 完整归档,orders/dawson5__C10-BP__W16__tauNone__own__0e5bcf7f0480.json,40a01ee9129204a187f6ebb7603ce61b432d4f21464fc406f51f55a45e546497,
+base-order,dawson5,B-RCM-ref,B-RCM-ref,16,,T21 完整归档,orders/dawson5__B-RCM-ref__W16__tauNone__own__4e5314214aed.json,e6822c8dc97c00a16e90c7c5f38d126aad46c879453b95f57299e56929bc8345,
+base-order,dawson5,C6-RB (T21 口径),C6,16,mnc=0,T21 完整归档,orders/dawson5__C6__W16__tauNone__own__308b6c0f133d.json,2b7af8f4eae20baea3cf2d08e2d8256da1ea3a5e687c48d590038e8035025b6e,
+base-order,dawson5,C6-M mnc=1 (T21 口径),C6-M,16,mnc=1,T21 完整归档,orders/dawson5__C6-M__W16__tauNone__own__74947dcdabf3.json,3b5315251963d11da226453cbc478ec8bd7352e0f5a53784046329d2a941a6e2,
+base-order,dawson5,C6-M mnc=4 (T21 口径),C6-M,16,mnc=4,T21 完整归档,orders/dawson5__C6-M__W16__tauNone__own__7e6a02da9dab.json,532298159704410f37ebc182012913404b7259f6d3a64fc60200e0a8925e64c8,
+base-order,dawson5,C6-M mnc=16 (T21 口径),C6-M,16,mnc=16,T21 完整归档,orders/dawson5__C6-M__W16__tauNone__own__2bd108d65d5b.json,84329e7699a236238eedd69e579673c6991f361137fd2a92a267976e74717d4d,
+base-order,olafu,B0,B0,16,,T21 完整归档,orders/olafu__B0__W16__tauNone__own__1d9535b3516c.json,3075d10648babce299c70b3c66fba3dd8ae2a7b6817d2da63cee87bf6e03817c,
+base-order,olafu,B1 (rsh-α0),rsh-α0,16,,T21 完整归档,orders/olafu__rsh-alpha0__W16__tauNone__own__fa92edee20f4.json,05dcd0649feab853e2469b406398a777606d6f8f30d6a2e8a4ced549013e67d7,
+base-order,olafu,rabbit-pilot (历史参照),rabbit-pilot,16,,T21 完整归档,orders/olafu__rabbit-pilot__W16__tauNone__own__47bc0151f033.json,5bba5bbb5253b4a87af959cf1b2b3c13642c9de048b8d915276d1e3d34b4386e,
+base-order,olafu,neutron-pilot (历史参照),neutron-pilot,16,,T21 完整归档,orders/olafu__neutron-pilot__W16__tauNone__own__1664355cdaa7.json,e34bace6e655e31662ca68f7d3f3d50b55b9305f127a86303cd881e837c1ec01,
+base-order,olafu,C9-Gorder,C9-Gorder,16,,T21 完整归档,orders/olafu__C9-Gorder__W16__tauNone__own__ca58985925c0.json,ec0bb10ed05a5bf4e05a8d05e35e513f42f109e12feecdbdedb1cfda0b8789a9,
+base-order,olafu,C9-S,C9-S,16,,T21 完整归档,orders/olafu__C9-S__W16__tauNone__own__5da9c4019ec4.json,49cb724ff8e5579578adebd07394af68a722e86581762feaa1ce4aaf5f2bef09,
+base-order,olafu,C10-BP,C10-BP,16,,T21 完整归档,orders/olafu__C10-BP__W16__tauNone__own__5f83fbefe087.json,835b84eb62c0056f4ba89547edd7758575754397289941f38a278d8c1da4a773,
+base-order,olafu,B-RCM-ref,B-RCM-ref,16,,T21 完整归档,orders/olafu__B-RCM-ref__W16__tauNone__own__b5673ec69b51.json,fbba7e0b89d6f81a476b74b719ad480e24182440720c66ee06a7929cef7a31a8,
+base-order,olafu,C6-RB (T21 口径),C6,16,mnc=0,T21 完整归档,orders/olafu__C6__W16__tauNone__own__828dc71a3c30.json,b11b0590079561c115d7a89c119c8ffe070ed27d65d520d998084b281b6d7d76,
+base-order,olafu,C6-M mnc=1 (T21 口径),C6-M,16,mnc=1,T21 完整归档,orders/olafu__C6-M__W16__tauNone__own__99b0fd874734.json,23f2593e0abf6059863b3976d20bcce16d6dd6f23027dc855f184a7d119dd5a7,
+base-order,olafu,C6-M mnc=4 (T21 口径),C6-M,16,mnc=4,T21 完整归档,orders/olafu__C6-M__W16__tauNone__own__fddaf28ccae3.json,27a5c79e9eb12dd73d8953478c4ca27f67e2e3fe959f764f7a113ef5020987ba,
+base-order,olafu,C6-M mnc=16 (T21 口径),C6-M,16,mnc=16,T21 完整归档,orders/olafu__C6-M__W16__tauNone__own__3e1954671033.json,3b5d75ab0308466ab3468d635af075919c4a9ac1f6c9946f350d2b8c607ac7bb,
+base-order,pattern1,B0,B0,16,,T21 完整归档,orders/pattern1__B0__W16__tauNone__own__51fd886f8de6.json,43a6f6750611b8a6f772a630668e145d6354b423da3b55922d80743e9501bf18,
+base-order,pattern1,B1 (rsh-α0),rsh-α0,16,,T21 完整归档,orders/pattern1__rsh-alpha0__W16__tauNone__own__06b994e10c18.json,d7def42c8bd4068e2ccdd155d10afc1b37f0835eb0ce4d2de630be87622d3dd3,
+base-order,pattern1,rabbit-pilot (历史参照),rabbit-pilot,16,,T21 完整归档,orders/pattern1__rabbit-pilot__W16__tauNone__own__f6228d937bf8.json,86f31e2968dc9745e4420fd2cfc515a951cf59647f21c1a8f6a6deb19b86f007,
+base-order,pattern1,neutron-pilot (历史参照),neutron-pilot,16,,T21 完整归档,orders/pattern1__neutron-pilot__W16__tauNone__own__dfe8f24ebdec.json,8053433eaa7bf3d0f77ab73996a834988c8c0fc01957542e3cc78d8c7d001fb6,
+base-order,pattern1,C9-Gorder,C9-Gorder,16,,T21 完整归档,orders/pattern1__C9-Gorder__W16__tauNone__own__f65a44c64e70.json,28719515e3fecae5cc3f98b8f425b4f6cb4cb06081680de48e83d413723b663c,
+base-order,pattern1,C9-S,C9-S,16,,T21 完整归档,orders/pattern1__C9-S__W16__tauNone__own__35b4ed0bc6b8.json,4ea3bceff4c09594a6abbab119399d6de324d815a2565a176dac590e42506a21,
+base-order,pattern1,C10-BP,C10-BP,16,,T21 完整归档,orders/pattern1__C10-BP__W16__tauNone__own__8f222137b9eb.json,1d8b0c62ba652636903424a758dc70e25896077a5ab7a5d906c25c1feb9a1509,
+base-order,pattern1,B-RCM-ref,B-RCM-ref,16,,T21 完整归档,orders/pattern1__B-RCM-ref__W16__tauNone__own__90562d88dcff.json,005b47f53938b8f688a5800e13ec80ddc0e622128d13bb68d140b3f35788de55,
+base-order,pattern1,C6-RB (T21 口径),C6,16,mnc=0,仓库 第一层实验结果/rq2-c6align-20261106/,orders/pattern1__C6__W16__tauNone__own__7d9fa9559d29.json,4ac7d4369b796498a4ea5b91870ebe81c0ffd0d4dce94954258593ffe9350bfe,对齐修补后补跑
+base-order,pattern1,C6-M mnc=1 (T21 口径),C6-M,16,mnc=1,仓库 第一层实验结果/rq2-c6align-20261106/,orders/pattern1__C6-M__W16__tauNone__own__2621a57b6da0.json,264f389aad6ba43e48f46254c4a32b130ea50ccbc6ba9e774e79ed09ca7701ec,对齐修补后补跑
+base-order,pattern1,C6-M mnc=4 (T21 口径),C6-M,16,mnc=4,仓库 第一层实验结果/rq2-c6align-20261106/,orders/pattern1__C6-M__W16__tauNone__own__0adbfa95276b.json,5f54d876a5d03ac3bfdf52d085b86638b38773b7e1a1b3c17c38e6d1cb361ef8,对齐修补后补跑
+base-order,pattern1,C6-M mnc=16 (T21 口径),C6-M,16,mnc=16,仓库 第一层实验结果/rq2-c6align-20261106/,orders/pattern1__C6-M__W16__tauNone__own__f1ddcfe8fc59.json,df276dba1ad308b261a78a11a6d5b6a6d2b2837a830728df96975ec78ec729df,对齐修补后补跑
+base-order,human_gene1,B0,B0,16,,T21 完整归档,orders/human_gene1__B0__W16__tauNone__own__79af31260e8f.json,08617eb1e4b122fc3ab2f679caf4bc725139a140526705ef276d21566f8f67a4,
+base-order,human_gene1,B1 (rsh-α0),rsh-α0,16,,T21 完整归档,orders/human_gene1__rsh-alpha0__W16__tauNone__own__9991e2895fee.json,d1327fd800a11b4b04397c0c5c88c34ab90c162479dacb7aae8c8171a8467e9e,
+base-order,human_gene1,rabbit-pilot (历史参照),rabbit-pilot,16,,T21 完整归档,orders/human_gene1__rabbit-pilot__W16__tauNone__own__936764cedab2.json,7c875eef0b8fa6b2bdcd879289a49a2b176100fc583a6a5222ba609932e9412d,
+base-order,human_gene1,neutron-pilot (历史参照),neutron-pilot,16,,T21 完整归档,orders/human_gene1__neutron-pilot__W16__tauNone__own__0dcb814a40f6.json,b5465b0e6ec9b1058c5f6c23af1faf74fee1dc04d479981451907b738cf1e0ff,
+base-order,human_gene1,C9-Gorder,C9-Gorder,16,,T21 完整归档,orders/human_gene1__C9-Gorder__W16__tauNone__own__afe0999e10f6.json,e26276f5aec8209f6f42b952eb97b5a57bdb35530ef2c88862e80660e75247fb,
+base-order,human_gene1,C9-S,C9-S,16,,T21 完整归档,orders/human_gene1__C9-S__W16__tauNone__own__fefd37cb62f9.json,5c59dfd0748ad6b3f798f3985db88df3839604dd0bee4ad8b913ed26ed0dea56,
+base-order,human_gene1,C10-BP,C10-BP,16,,T21 完整归档,orders/human_gene1__C10-BP__W16__tauNone__own__3039bcab6091.json,a938b3d24df9866c55ad43543958aff6ecd913c57bad42e6d4cbd8e7d3208644,
+base-order,human_gene1,B-RCM-ref,B-RCM-ref,16,,T21 完整归档,orders/human_gene1__B-RCM-ref__W16__tauNone__own__291210d9ea07.json,db2b04abac1390863e757bd005be5a40b50ab211ae55f76dabdbb3cd325ca66a,
+base-order,human_gene1,C6-RB (T21 口径),C6,16,mnc=0,T21 完整归档,orders/human_gene1__C6__W16__tauNone__own__596e7c3dc0dd.json,478a82a623246f61d512060a3689adf3a75361ae97774746de3806ef10f87fdb,
+base-order,human_gene1,C6-M mnc=1 (T21 口径),C6-M,16,mnc=1,T21 完整归档,orders/human_gene1__C6-M__W16__tauNone__own__2fc381b25cfd.json,2e957c99c151b5f374d0d30ffceebc63c008d15b471f83bef499fe887fe7b541,
+base-order,human_gene1,C6-M mnc=4 (T21 口径),C6-M,16,mnc=4,T21 完整归档,orders/human_gene1__C6-M__W16__tauNone__own__ab6dd6d18316.json,a80aa1e293ab32ffc4180eeaf9cf16156e6ef4d414143ad4618be4962094451e,
+base-order,human_gene1,C6-M mnc=16 (T21 口径),C6-M,16,mnc=16,T21 完整归档,orders/human_gene1__C6-M__W16__tauNone__own__f481e20e440d.json,0b34ddf416f28651c671860aac52cd5bf70796a5b1dbb7fb1931d9e7e679fdb3,
+W-sensitivity,cora,B0,B0,32,,T21 完整归档,orders/cora__B0__W32__tauNone__own__bb3cb228f4bc.json,3d646f765ad40275e802736f0b8b36f10ed2861a673ce4ea2e822c623f2e42c3,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,cora,B0,B0,64,,T21 完整归档,orders/cora__B0__W64__tauNone__own__bb3cb228f4bc.json,5756eaff6885138d67a2e1ccdcc6a37f1da9c53f05a888da4229e750578d6e55,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,cora,B0,B0,128,,T21 完整归档,orders/cora__B0__W128__tauNone__own__bb3cb228f4bc.json,bb13afe3ef6bf6880c220474da3d808bfee04ccfd63b58ddcc84e40b51da7dcd,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,cora,B1 (rsh-α0),rsh-α0,32,,T21 完整归档,orders/cora__rsh-alpha0__W32__tauNone__own__60d4a3f802ea.json,2ca22114d096fba5e3490b3d4e6758809904ffdbbf54a22e30078a0ad567e6fb,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,cora,B1 (rsh-α0),rsh-α0,64,,T21 完整归档,orders/cora__rsh-alpha0__W64__tauNone__own__60d4a3f802ea.json,2832a53ba62588083e6d754a5ef4812f7170f9b15bbf6006b7927f6832138397,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,cora,B1 (rsh-α0),rsh-α0,128,,T21 完整归档,orders/cora__rsh-alpha0__W128__tauNone__own__60d4a3f802ea.json,0fbf781e6253356b576fbec5b4b9c2bc0f3380f0aad85f73a490301008c89f87,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,cora,C9-Gorder,C9-Gorder,32,w=W-1,T21 完整归档,orders/cora__C9-Gorder__W32__tauNone__own__a9b64271f2f0.json,eca1c199b544234216014d4c6e8f853aec3061528f383ab6b66cadd00fac5145,按该 W 重算的行序
+W-sensitivity,cora,C9-Gorder,C9-Gorder,64,w=W-1,T21 完整归档,orders/cora__C9-Gorder__W64__tauNone__own__64caa80636ba.json,3b5a549a2600bf26bacc2560b7936cfe7c6bdc37cc69822b2b5629a56290fdc3,按该 W 重算的行序
+W-sensitivity,cora,C9-Gorder,C9-Gorder,128,w=W-1,T21 完整归档,orders/cora__C9-Gorder__W128__tauNone__own__cc5dbfed48d8.json,77d0010fc1dcd835b8775b7b07aab36aff6f4b75e3ed23044a6d922ffe018ae1,按该 W 重算的行序
+W-sensitivity,cora,C10-BP,C10-BP,32,,T21 完整归档,orders/cora__C10-BP__W32__tauNone__own__b0a310c46bab.json,a46bc93a09c5a38b539fb9b4108007079a247d0ee728dd1a835a275e915aaa35,按该 W 重算的行序
+W-sensitivity,cora,C10-BP,C10-BP,64,,T21 完整归档,orders/cora__C10-BP__W64__tauNone__own__f76b03fd2f1d.json,dd538495983a3283ea26063fc1edb5a78861b8b2f38e05bca13fe197693a0fcc,按该 W 重算的行序
+W-sensitivity,cora,C10-BP,C10-BP,128,,T21 完整归档,orders/cora__C10-BP__W128__tauNone__own__8dc1b1131d6e.json,83aceea01857d910a5953822bd05df4ca0a2b77811673c33bfa9cefaed88c263,按该 W 重算的行序
+W-sensitivity,ogbn-arxiv,B0,B0,32,,T21 完整归档,orders/ogbn-arxiv__B0__W32__tauNone__own__4b33dcbc93b8.json,c9182e5c5bf3d91dead8628a7ded68bac5c74b5fc54f75dac49766d9a791d9ba,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,ogbn-arxiv,B0,B0,64,,T21 完整归档,orders/ogbn-arxiv__B0__W64__tauNone__own__4b33dcbc93b8.json,6668cd15857fa37f895922bf52ea5cc2064932f53dcd8ff19f3ad369ec07ad92,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,ogbn-arxiv,B0,B0,128,,T21 完整归档,orders/ogbn-arxiv__B0__W128__tauNone__own__4b33dcbc93b8.json,12461f887c47d2bfc3d059a88d3ff76aaa2085aad04fec25fe39b0a440211afb,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,ogbn-arxiv,B1 (rsh-α0),rsh-α0,32,,T21 完整归档,orders/ogbn-arxiv__rsh-alpha0__W32__tauNone__own__a6340c0d6c29.json,4ea1e741e1f939b7f3eba7f35285067d1193a1edc109def3bb0befd236b4f8ce,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,ogbn-arxiv,B1 (rsh-α0),rsh-α0,64,,T21 完整归档,orders/ogbn-arxiv__rsh-alpha0__W64__tauNone__own__a6340c0d6c29.json,66efa73c5c31dc14a698111a791856207767e1a5ba716b37e9b017608f8bfc5f,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,ogbn-arxiv,B1 (rsh-α0),rsh-α0,128,,T21 完整归档,orders/ogbn-arxiv__rsh-alpha0__W128__tauNone__own__a6340c0d6c29.json,20e7b81cfe5048f9ffa53862b0b6a2775bde7baecb739bf920ff4a5146b4cf5c,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,ogbn-arxiv,C9-Gorder,C9-Gorder,32,w=W-1,T21 完整归档,orders/ogbn-arxiv__C9-Gorder__W32__tauNone__own__d04ab5646264.json,0b412d2a33247853d820e9f9dad6139ecc8eda71df451021e063d8c5426e6cc5,按该 W 重算的行序
+W-sensitivity,ogbn-arxiv,C9-Gorder,C9-Gorder,64,w=W-1,T21 完整归档,orders/ogbn-arxiv__C9-Gorder__W64__tauNone__own__ea3e02d5780e.json,b12d97021bc66088c9ff80711da40c1158fa2b80acffce0c93e1d0aa00c95300,按该 W 重算的行序
+W-sensitivity,ogbn-arxiv,C9-Gorder,C9-Gorder,128,w=W-1,T21 完整归档,orders/ogbn-arxiv__C9-Gorder__W128__tauNone__own__043becff80c4.json,c186f402503b56c6e7fed60bca8bbe7a38e358a789f0e0dd0894e14743ff79a3,按该 W 重算的行序
+W-sensitivity,ogbn-arxiv,C10-BP,C10-BP,32,,T21 完整归档,orders/ogbn-arxiv__C10-BP__W32__tauNone__own__6f40a9429534.json,4989aa381b30281324b85b95091b5ecf89e427076fc6d55890089d33d6626326,按该 W 重算的行序
+W-sensitivity,ogbn-arxiv,C10-BP,C10-BP,64,,T21 完整归档,orders/ogbn-arxiv__C10-BP__W64__tauNone__own__3368f6316f02.json,9bb0c1d9e39b88d9ab44b7195e8a338b485a866b5b45907760fabae366aac7a2,按该 W 重算的行序
+W-sensitivity,ogbn-arxiv,C10-BP,C10-BP,128,,T21 完整归档,orders/ogbn-arxiv__C10-BP__W128__tauNone__own__33aef68d098d.json,4850718e3ad6a6977bd94097e82240a3485abeee2d14d0956eb005a14068e824,按该 W 重算的行序
+W-sensitivity,wiki-RfA,B0,B0,32,,T21 完整归档,orders/wiki-RfA__B0__W32__tauNone__own__817118d2f455.json,cc52d931037f851ae3fc31f7fbde07f0cdbd244b96ff4905bc8d4c2c0150d89f,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,wiki-RfA,B0,B0,64,,T21 完整归档,orders/wiki-RfA__B0__W64__tauNone__own__817118d2f455.json,89c0a9cab6263734fe3da4edd7b1352fd46ee736e6921e0c7ef219d897f7dfbb,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,wiki-RfA,B0,B0,128,,T21 完整归档,orders/wiki-RfA__B0__W128__tauNone__own__817118d2f455.json,445066655321ef8083de52ea17308be89aca9bab6a7ca2b9e227082b6cac1ab3,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,wiki-RfA,B1 (rsh-α0),rsh-α0,32,,T21 完整归档,orders/wiki-RfA__rsh-alpha0__W32__tauNone__own__abbf7494a451.json,3659d93df05b10f1c237b742241b102d113c59dba28d0085f4ca842337c47cf5,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,wiki-RfA,B1 (rsh-α0),rsh-α0,64,,T21 完整归档,orders/wiki-RfA__rsh-alpha0__W64__tauNone__own__abbf7494a451.json,8314e2715046347fc4cd41e5975771cfcb4de0f5e548f1cd3fb180f94d3d2506,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,wiki-RfA,B1 (rsh-α0),rsh-α0,128,,T21 完整归档,orders/wiki-RfA__rsh-alpha0__W128__tauNone__own__abbf7494a451.json,0bdf7cec472c0630386e87f5e013104ee3a123ac35625215b3c42edf1f97725c,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,wiki-RfA,C9-Gorder,C9-Gorder,32,w=W-1,T21 完整归档,orders/wiki-RfA__C9-Gorder__W32__tauNone__own__ef6d221871d3.json,5fc566cb6530fc52a92e5d7f8be472afdd70eeb78fa5031e9f8f1ce4ca938d3e,按该 W 重算的行序
+W-sensitivity,wiki-RfA,C9-Gorder,C9-Gorder,64,w=W-1,T21 完整归档,orders/wiki-RfA__C9-Gorder__W64__tauNone__own__7066f7e986a7.json,caeae4144e29f77dad571147038f8a28cd384550f59dccab689985d9e571ca04,按该 W 重算的行序
+W-sensitivity,wiki-RfA,C9-Gorder,C9-Gorder,128,w=W-1,T21 完整归档,orders/wiki-RfA__C9-Gorder__W128__tauNone__own__2ed1f31e77e2.json,6e7ce613049865f82424adc3124c729df3a890287c55be21c170a5b5ebcc9b18,按该 W 重算的行序
+W-sensitivity,wiki-RfA,C10-BP,C10-BP,32,,T21 完整归档,orders/wiki-RfA__C10-BP__W32__tauNone__own__b85045f76e57.json,2fe5f394a8313672c4af423035b7debb44d7377ff7d24c420146647af0d93d3e,按该 W 重算的行序
+W-sensitivity,wiki-RfA,C10-BP,C10-BP,64,,T21 完整归档,orders/wiki-RfA__C10-BP__W64__tauNone__own__144e8bd48b31.json,f79519f5fe8febda806afe272148f0468c77e61e6548484232fb66f5f98a63f6,按该 W 重算的行序
+W-sensitivity,wiki-RfA,C10-BP,C10-BP,128,,T21 完整归档,orders/wiki-RfA__C10-BP__W128__tauNone__own__5b8b1e0fd90a.json,51f927f82558078c36b5456fa1b7ff27450a9b33e62c2047cab8a016d26fd71b,按该 W 重算的行序
+W-sensitivity,dawson5,B0,B0,32,,T21 完整归档,orders/dawson5__B0__W32__tauNone__own__91a652a2e6a9.json,07f838054c6d13fdf3f6943aaf9174db1b5f21d054cdf729a7dc57f87a85c7d8,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,dawson5,B0,B0,64,,T21 完整归档,orders/dawson5__B0__W64__tauNone__own__91a652a2e6a9.json,363e5e65236f26d98d2fdf33276ceba56115214ef0ce4b7beb8ff7bb22ec60ee,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,dawson5,B0,B0,128,,T21 完整归档,orders/dawson5__B0__W128__tauNone__own__91a652a2e6a9.json,49f692f4212a6a719a2736cade7d2d3263f50aad00941a06c9efeb40f7954121,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,dawson5,B1 (rsh-α0),rsh-α0,32,,T21 完整归档,orders/dawson5__rsh-alpha0__W32__tauNone__own__4f1f28cb1ae2.json,5eff603f35bab3e7e9aef44634e1bf4427c603385d600186d45b368c7e0903f4,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,dawson5,B1 (rsh-α0),rsh-α0,64,,T21 完整归档,orders/dawson5__rsh-alpha0__W64__tauNone__own__4f1f28cb1ae2.json,0783657de4b2c2ec6749ffde0e6e6d109bc91f7f7056c7a29dbf40b7301dd844,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,dawson5,B1 (rsh-α0),rsh-α0,128,,T21 完整归档,orders/dawson5__rsh-alpha0__W128__tauNone__own__4f1f28cb1ae2.json,3d83976bc13dca47f19c3c52dad68fd6a5803d6fe957759ee30aa7e9ce1d8113,B0、B1 与 W 无关，与 W16 文件内容相同
+W-sensitivity,dawson5,C9-Gorder,C9-Gorder,32,w=W-1,T21 完整归档,orders/dawson5__C9-Gorder__W32__tauNone__own__f171d3eba096.json,3fb6d19783b00bccdcc96061361b3e56f420b1b484e16f53d2dc2ba7b90afb31,按该 W 重算的行序
+W-sensitivity,dawson5,C9-Gorder,C9-Gorder,64,w=W-1,T21 完整归档,orders/dawson5__C9-Gorder__W64__tauNone__own__6a2f22f46f5b.json,c6a2ee2d67ae1e3c83c68d0b928dbe2b37305931b9107f87d5884d650ca46dfc,按该 W 重算的行序
+W-sensitivity,dawson5,C9-Gorder,C9-Gorder,128,w=W-1,T21 完整归档,orders/dawson5__C9-Gorder__W128__tauNone__own__86a2cdd7d112.json,59a72e7349de7b0d3cdac2c2592c074d63eeb75412c19cbcf795b833d8989959,按该 W 重算的行序
+W-sensitivity,dawson5,C10-BP,C10-BP,32,,T21 完整归档,orders/dawson5__C10-BP__W32__tauNone__own__555cbec8df42.json,48c751ef8df2227af43a74741af587eb4a049f1753695a1f1163061fcca83d49,按该 W 重算的行序
+W-sensitivity,dawson5,C10-BP,C10-BP,64,,T21 完整归档,orders/dawson5__C10-BP__W64__tauNone__own__0808a1c55817.json,66894746f842f50cd37ec4ab8cbde35bf6d4c13175a766283e2d6d1fd3854a16,按该 W 重算的行序
+W-sensitivity,dawson5,C10-BP,C10-BP,128,,T21 完整归档,orders/dawson5__C10-BP__W128__tauNone__own__1e1f64bec3bf.json,8c8de63c75df128ab988478fa5bc3c51f456b4923e45e3b1e784a7eb0faf3a97,按该 W 重算的行序
+post-E-reuse,cora,P-LS(0) 起点 C9-Gorder,P-LS,16,"start=C9-Gorder,lambda=0,tau=2,seed=0",T21 完整归档,orders/cora__P-LS__W16__tau2__own__fe55f0165da6.json,63a61f371f9f1c172db5d2ffe0a753601197ea8b3efae3daacb552b3f2cfc14f,D 阶段之前的输出
+post-E-reuse,cora,P-LS(0) 起点 C9-Gorder,P-LS,16,"start=C9-Gorder,lambda=0,tau=3,seed=0",T21 完整归档,orders/cora__P-LS__W16__tau3__own__13c0e68fe6ff.json,2413c057980e3cfda5c61479dfab2c814d42bb909251b18e3f4e24dbabe7e6b8,D 阶段之前的输出
+post-E-reuse,cora,P-LS(0) 起点 B1 (rsh-α0),P-LS,16,"start=rsh-α0,lambda=0,tau=2,seed=0",T21 完整归档,orders/cora__P-LS__W16__tau2__own__6020f66d25d7.json,8115ffd3179a603de9535029a401d233f271e65409c2183beec2c618578c8f5d,D 阶段之前的输出
+post-E-reuse,cora,P-LS(0) 起点 B1 (rsh-α0),P-LS,16,"start=rsh-α0,lambda=0,tau=3,seed=0",T21 完整归档,orders/cora__P-LS__W16__tau3__own__63b920cccef4.json,06fa602d9171b0a9831c6d9ef573d48fca713f585ceacce138260fbd075e6983,D 阶段之前的输出
+post-E-reuse,ogbn-arxiv,P-LS(0) 起点 C9-Gorder,P-LS,16,"start=C9-Gorder,lambda=0,tau=2,seed=0",T21 完整归档,orders/ogbn-arxiv__P-LS__W16__tau2__own__f762ffe0067c.json,c35b4c3be00aa1cab9b5101465e2dcc4186ff85da7399966cf0e0b8c6b27b8b3,D 阶段之前的输出
+post-E-reuse,ogbn-arxiv,P-LS(0) 起点 C9-Gorder,P-LS,16,"start=C9-Gorder,lambda=0,tau=3,seed=0",T21 完整归档,orders/ogbn-arxiv__P-LS__W16__tau3__own__497904383ac4.json,2ad4ca4663e7f423b846cbdea92c94b7cee8bca9d17942938e178e7e9c8a9662,D 阶段之前的输出
+post-E-reuse,ogbn-arxiv,P-LS(0) 起点 B1 (rsh-α0),P-LS,16,"start=rsh-α0,lambda=0,tau=2,seed=0",T21 完整归档,orders/ogbn-arxiv__P-LS__W16__tau2__own__be280720321c.json,deda12d2505c26b1006ba1ebfda38a876fef6bbbf9b9e9aba0071b700f8223b9,D 阶段之前的输出
+post-E-reuse,ogbn-arxiv,P-LS(0) 起点 B1 (rsh-α0),P-LS,16,"start=rsh-α0,lambda=0,tau=3,seed=0",T21 完整归档,orders/ogbn-arxiv__P-LS__W16__tau3__own__0cd2c9f7377b.json,db2ddf5c655a533caac5685af78eb440cbb358db4fdc8363b37323591020800e,D 阶段之前的输出
+post-E-reuse,wiki-RfA,P-LS(0) 起点 C9-Gorder,P-LS,16,"start=C9-Gorder,lambda=0,tau=2,seed=0",T21 完整归档,orders/wiki-RfA__P-LS__W16__tau2__own__1069b7192861.json,42a8225da9f9a84b61024d619681ae0294d92152bbc8ed2890eb3041495871c8,D 阶段之前的输出
+post-E-reuse,wiki-RfA,P-LS(0) 起点 C9-Gorder,P-LS,16,"start=C9-Gorder,lambda=0,tau=3,seed=0",T21 完整归档,orders/wiki-RfA__P-LS__W16__tau3__own__36977e3e7fe4.json,3dc08d815e2d5854beefb06434252b3b659d0e0d82d4dd76c905114715ad29c6,D 阶段之前的输出
+post-E-reuse,wiki-RfA,P-LS(0) 起点 B1 (rsh-α0),P-LS,16,"start=rsh-α0,lambda=0,tau=2,seed=0",T21 完整归档,orders/wiki-RfA__P-LS__W16__tau2__own__3420496d8f4d.json,d15cc7226762d96822d72c5f54fbd0dc883ac277b5faa7e2a2f8d97cf1613dd1,D 阶段之前的输出
+post-E-reuse,wiki-RfA,P-LS(0) 起点 B1 (rsh-α0),P-LS,16,"start=rsh-α0,lambda=0,tau=3,seed=0",T21 完整归档,orders/wiki-RfA__P-LS__W16__tau3__own__31b804be77c6.json,e012374171102686d8dbd2ba68f2740db6bfdfb602ee28be68dd6c4c0387d916,D 阶段之前的输出

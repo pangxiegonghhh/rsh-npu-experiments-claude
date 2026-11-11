@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "scope": "one original post-E terminal record: full permutation/hash/checkpoint/history/recorded fresh UG/4successful layout invariants/memory/timing/actual source+backend; no scientific rerun; whole C1-J still requires tau153",
+  "case_id": "stage3-reddit__C1-J__W16__seed0__tau53",
+  "original_exitcode": 0,
+  "actual_method_seconds": 3988.729626893997,
+  "queue_seconds": 7200.566287994385,
+  "status": "OK",
+  "sweeps_done": 10,
+  "accepted_swaps": 53264,
+  "order_sha256": "80384c1ac3bb8fdfc28770a61e68d61a63c11ccfd13c0c0cc0ef20f89d6ee168",
+  "order_size": 1521024,
+  "checkpoint_sha256": "4d722abab588bb8600a84dea4fd7ee0498e00634c7dac977728e8a1e39b69411",
+  "runtime_independent_full_recompute": {
+    "k_windows": 11633,
+    "sumU": 35469023,
+    "T": 2222281,
+    "sumGamma": 10463294,
+    "sumR": 17200055,
+    "R_p50": 1085,
+    "R_p90": 2762,
+    "R_max": 22978,
+    "write_runs_aic": 11633,
+    "meanR": 1478.557122
+  },
+  "post_layout_rows": 4,
+  "post_layout_statuses": {
+    "OK": 4
+  },
+  "co_guard_reported_per_condition": [
+    158,
+    158,
+    158,
+    158
+  ],
+  "guard_note": "saved condition counts, not four independent physical scan claims; full guard recovery remains pending",
+  "original_process_peak_mem_mb": 3772.328125,
+  "post_sec": 3684.541645050049,
+  "actual_layout_backend": {
+    "python_implementation_revision": "v7-flat-co-default-and-backend-provenance; unchanged v6 chain/failure cache",
+    "pid": 95870,
+    "argv": [
+      "scripts/post_e_job.py",
+      "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/stage3-post-catalog/stage3-reddit__C1-J__W16__seed0__tau53.json"
+    ],
+    "matrix": "reddit",
+    "n": 232965,
+    "first_context_W": 16,
+    "first_context_windows": 11633,
+    "binary_loaded_at": 1794153840.616218,
+    "first_context_at": 1794164707.141922,
+    "library_path": "/Users/Zhuanz/.codex/visualizations/2026/11/05/01a1ac73-0f55-70c0-8e27-bb94bed5ad09/t22-t23-20261106/work/liblayouts-v7.dylib",
+    "library_sha256": "772c9c3425fda920badf5f97c8bd1888ca029e4547431383647a3249fe4b07c9",
+    "library_override_at_import": null,
+    "scope": "actual DLL selected and hashed at module import; applies to this process only, not prior/queued imports"
+  },
+  "original_generation_order_unchanged": true,
+  "no_scientific_rerun": true,
+  "whole_case_complete": false
+}

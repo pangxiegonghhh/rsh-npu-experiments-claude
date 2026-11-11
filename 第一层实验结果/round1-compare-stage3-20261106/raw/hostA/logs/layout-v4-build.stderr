@@ -1,0 +1,5 @@
+scripts/layouts_cached.cpp:38:285: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+   38 |    vector<int>order;for(int st=0;st<s;st++)if(!seen[st]&&degree[st]!=2){int prev=-1,cur=st;while(cur!=-1){seen[cur]=1;order.push_back(g[cur]);int next=-1;for(int x:nb[cur])if(x!=prev&&!seen[x]){next=x;break;}prev=cur;cur=next;}}for(int i=0;i<s;i++)if(!seen[i])order.push_back(g[i]);g=move(order);
+      |                                                                                                                                                                                                                                                                                             ^
+      |                                                                                                                                                                                                                                                                                             std::
+1 warning generated.
