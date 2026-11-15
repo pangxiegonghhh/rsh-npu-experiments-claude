@@ -1,0 +1,40 @@
++------------------------------------------------------------------------------------------------------------------+
+| npu-smi 26.1.1                              Version: 26.1.1                                                      |
++---------------------------+---------------+----------------------------------------------------------------------+
+| NPU   Name                | Health        | Power(W)             Temp(C)                 Hugepages-Usage(page)   |
+| Chip                      | Bus-Id        | AICore(%)            Memory-Usage(MB)        HBM-Usage(MB)           |
++===========================+===============+======================================================================+
+| 5     910B2               | OK            | 92.4                 41                      0    / 0                |
+| 0                         | 0000:41:00.0  | 0                    0    / 0                3449 / 65536            |
++===========================+===============+======================================================================+
++---------------------------+---------------+----------------------------------------------------------------------+
+| NPU     Chip              | Process id    | Process name       | Process memory(MB)    | Process id in container |
++===========================+===============+======================================================================+
+| No running processes found in NPU 5                                                                              |
++===========================+===============+======================================================================+
+Linux 3195fa251a2c 5.10.0-136.108.0.188.31.oe2203sp1.bclinux.aarch64 #1 SMP Mon May 26 17:50:37 CST 2025 aarch64 aarch64 aarch64 GNU/Linux
+NAME="openEuler"
+VERSION="24.03 (LTS-SP2)"
+ID="openEuler"
+VERSION_ID="24.03"
+PRETTY_NAME="openEuler 24.03 (LTS-SP2)"
+ANSI_COLOR="0;31"
+
+cat: /usr/local/Ascend/cann-9.0.0/version.cfg: No such file or directory
+aclInit=0
+logical_device_count=1 soc=Ascend910B2
+attr=101 rc=0 value=24
+attr=102 rc=0 value=24
+attr=201 rc=0 value=48
+attr=204 rc=0 value=0
+attr=301 rc=0 value=65452113920
+attr=302 rc=0 value=201326592
+attr=501 rc=0 value=0
+sdk_target=Ascend910B2 AIC=24 AIV=48
+mem_type=0 bytes=65536
+mem_type=1 bytes=65536
+mem_type=2 bytes=131072
+mem_type=3 bytes=524032
+mem_type=4 bytes=201326592
+mem_type=5 bytes=196352
+mem_type=6 bytes=68719476736

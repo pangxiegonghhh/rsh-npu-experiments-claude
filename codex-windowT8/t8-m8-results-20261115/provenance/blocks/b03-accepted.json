@@ -1,0 +1,75 @@
+{
+  "block": 3,
+  "groups": [
+    {
+      "dtype": 1,
+      "N": 64,
+      "path": "blocks/b03-try0",
+      "attempt": 0,
+      "drift": 0.0009537478802372655
+    },
+    {
+      "dtype": 0,
+      "N": 64,
+      "path": "blocks/b03-try0",
+      "attempt": 0,
+      "drift": 3.585462294939108e-05
+    },
+    {
+      "dtype": 0,
+      "N": 128,
+      "path": "blocks/b03-try0",
+      "attempt": 0,
+      "drift": 0.0004593830741822643
+    },
+    {
+      "dtype": 1,
+      "N": 128,
+      "path": "blocks/b03-try0",
+      "attempt": 0,
+      "drift": 6.639878682979863e-05
+    },
+    {
+      "dtype": 1,
+      "N": 16,
+      "path": "blocks/b03-try0",
+      "attempt": 0,
+      "drift": 0.0002444713448703221
+    },
+    {
+      "dtype": 0,
+      "N": 256,
+      "path": "blocks/b03-try0",
+      "attempt": 0,
+      "drift": 0.0007796397719661116
+    },
+    {
+      "dtype": 0,
+      "N": 32,
+      "path": "blocks/b03-try0",
+      "attempt": 0,
+      "drift": 0.0001766098528731947
+    },
+    {
+      "dtype": 1,
+      "N": 256,
+      "path": "blocks/b03-try0",
+      "attempt": 0,
+      "drift": 0.0004305011902090282
+    },
+    {
+      "dtype": 0,
+      "N": 16,
+      "path": "blocks/b03-try0",
+      "attempt": 0,
+      "drift": 0.00013668718434104796
+    },
+    {
+      "dtype": 1,
+      "N": 32,
+      "path": "blocks/b03-try0",
+      "attempt": 0,
+      "drift": 0.00038070113952825034
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "path": "/data/t8-m8-evidence-complete-20261115.tar.gz",
+  "bytes": 346478585,
+  "sha256": "bdbd4d4da4ad48c5068caebee212f6ba4b2af375860330f08d5a24ed5f5a7953",
+  "whole_archive_downloaded": false,
+  "accepted_timing_csv_downloaded_and_hash_verified": true,
+  "device": "Ascend 910B2 physical NPU 5 / PCI 0000:41:00.0",
+  "instance": "OP08JZ85MYKCJKH3",
+  "instance_shutdown_verified": true,
+  "shutdown_date_local": "2026-11-15 approximately 17:20 Asia/Taipei",
+  "disk_retention_after_shutdown_hours": 36,
+  "formal_return_code": 0,
+  "accepted_blocks": 20,
+  "cases": 840,
+  "observations": 16800,
+  "max_drift": 0.0018328751145546749
+}

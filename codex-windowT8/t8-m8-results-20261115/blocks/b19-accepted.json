@@ -1,0 +1,75 @@
+{
+  "block": 19,
+  "groups": [
+    {
+      "dtype": 1,
+      "N": 64,
+      "path": "blocks/recovered-b19",
+      "attempt": 0,
+      "drift": 0.000511239127454196
+    },
+    {
+      "dtype": 0,
+      "N": 256,
+      "path": "blocks/recovered-b19",
+      "attempt": 0,
+      "drift": 0.00011846401709331989
+    },
+    {
+      "dtype": 1,
+      "N": 32,
+      "path": "blocks/recovered-b19",
+      "attempt": 0,
+      "drift": 0.0003034745031026008
+    },
+    {
+      "dtype": 0,
+      "N": 32,
+      "path": "blocks/recovered-b19",
+      "attempt": 0,
+      "drift": 0.00036388172763013706
+    },
+    {
+      "dtype": 0,
+      "N": 64,
+      "path": "blocks/recovered-b19",
+      "attempt": 0,
+      "drift": 0.00020834243431339203
+    },
+    {
+      "dtype": 1,
+      "N": 128,
+      "path": "blocks/recovered-b19",
+      "attempt": 0,
+      "drift": 0.0004137067697859831
+    },
+    {
+      "dtype": 1,
+      "N": 16,
+      "path": "blocks/recovered-b19",
+      "attempt": 0,
+      "drift": 0.00043037810466839687
+    },
+    {
+      "dtype": 0,
+      "N": 128,
+      "path": "blocks/recovered-b19",
+      "attempt": 0,
+      "drift": 0.00011667386155479589
+    },
+    {
+      "dtype": 0,
+      "N": 16,
+      "path": "blocks/recovered-b19",
+      "attempt": 0,
+      "drift": 0.0001704684519979052
+    },
+    {
+      "dtype": 1,
+      "N": 256,
+      "path": "blocks/recovered-b19",
+      "attempt": 0,
+      "drift": 0.0009492512871049976
+    }
+  ]
+}

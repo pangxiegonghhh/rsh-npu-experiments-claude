@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "cases": 840,
+  "input_files": 4200,
+  "cora_original_segtable_match": true,
+  "all_commands_reconstructed": true,
+  "all_tails_and_stride_fields_checked": true
+}

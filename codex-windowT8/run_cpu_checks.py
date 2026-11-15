@@ -11,6 +11,7 @@ def main():
   for folder in ['t8-m4-20261114','t8-m4-replay-20261115','t8-m4-recovered-statistics-20261115','t8-cpu-prep-20261114']:shutil.copytree(ROOT/folder,scratch/folder)
   shutil.copyfile(ROOT/'audit_t8_command_tables.py',scratch/'audit_t8_command_tables.py')
   tasks=[('M4-models',[sys.executable,'-X','utf8',str(scratch/'audit_m4_recovered_statistics.py')]),('command-tables',[sys.executable,'-X','utf8',str(scratch/'audit_t8_command_tables.py')]),('M5-statistics',[sys.executable,'-X','utf8',str(ROOT/'audit_m5_statistics_offline.py'),str(ROOT/'t8-m5-evidence-20261115/t8-m5')])]
+  if (ROOT/'t8-m8-results-20261115').is_dir():tasks.append(('M8-statistics',[sys.executable,'-X','utf8',str(ROOT/'audit_m8_results.py'),str(ROOT/'t8-m8-results-20261115'),'--out',str(out/'M8-statistics.json')]))
   results=[]
   for name,cmd in tasks:
    log=out/(name+'.log')

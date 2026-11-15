@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "cases": 840,
+  "observations": 16800,
+  "blocks": 20,
+  "pdf_pages": 310,
+  "records_sha256": "55a708088467339078e66641572576992421610311134478feb097c90d5bb940",
+  "original_csv_sha256": "cb294a1c465a07bb3cc3a48f723fe92f503e050799d01ecb283d77a164e05bd8",
+  "verified_source_files": [
+    "manifest.json",
+    "kernel.cpp",
+    "host.cpp",
+    "registration.md",
+    "input-audit.json",
+    "environment/p0-accepted.json",
+    "environment/resume.txt",
+    "environment/cann-install.txt"
+  ],
+  "correctness_gates": {
+    "results-stress": 48,
+    "results-first": 48,
+    "results-check": 840,
+    "results-v3-stress": 48
+  },
+  "remote_analysis_sha256": "decff0b1f2b695418b952a75a16bd56e897a8bede0e47a7926047715bb1d3279",
+  "source_files_sha256": {
+    "timing-observations.csv": "cb294a1c465a07bb3cc3a48f723fe92f503e050799d01ecb283d77a164e05bd8",
+    "manifest.json": "05db716d0bf094702dc609e8deb1107861755e255357efab50d436925dae9f8e",
+    "kernel.cpp": "cde543f4eefc988c07f362ae5c614daa106fd3d3639077592bbbd5547fa769e4",
+    "host.cpp": "c62e5700d37ab995dd904c93628b04a49ba847da37db13c2520c30558e0a3891",
+    "registration.md": "e78f2a15d18d08b9cb6a03f4e0c77891941760a815e66ee6ebaf86780bb76505",
+    "analysis.json": "decff0b1f2b695418b952a75a16bd56e897a8bede0e47a7926047715bb1d3279",
+    "input-audit.json": "ceb450540b962f3e17dcc6c30f9fd1473610466822a54cbfd2d2e153f265bdd1",
+    "environment/p0-accepted.json": "c352271bf95ad0bd1c8ee850b85959e105e8952766ff4b7225b48aa88e1477c7",
+    "environment/resume.txt": "ab8126b59712e2c560ff2ae6c67c6ca546fa093c3f7b72225df7e9e07a0677a2",
+    "environment/cann-install.txt": "8aeba64b1629145795b95747c425648406bb6958be51277e7502492fcb910abe"
+  },
+  "scope": "All accepted timing strings, metadata and readable correctness gates; device per-core binary stats and readback vectors remain in the remote full archive."
+}

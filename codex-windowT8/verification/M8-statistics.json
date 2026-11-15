@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "cases": 840,
+  "blocks": 20,
+  "observations": 16800,
+  "primary_analysis_source_hash_matches": true,
+  "independent_numpy_block_fits": 1200,
+  "max_coefficient_error_us": 3.0184188481996443e-15,
+  "evidence_modified": false
+}

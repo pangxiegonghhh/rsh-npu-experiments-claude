@@ -1,0 +1,9 @@
+{
+  "kernel.cpp": "cde543f4eefc988c07f362ae5c614daa106fd3d3639077592bbbd5547fa769e4",
+  "host.cpp": "c62e5700d37ab995dd904c93628b04a49ba847da37db13c2520c30558e0a3891",
+  "registration.md": "e78f2a15d18d08b9cb6a03f4e0c77891941760a815e66ee6ebaf86780bb76505",
+  "registration-batch-addendum.md": "e2784b2db3aef4ba42621b270f88f3040102527ecec92ef5ee6cae7cd02d3d21",
+  "batch-multipliers.txt": "927cfb7edf02225414c15b9a176e496d44fca8d7472dcd5aa31cab0fd637c6bb",
+  "batch-calibration.json": "a6e7c4f5c883d054148850253b7a434922fcfb860e815cec9e19a272b6851377",
+  "input-hashes.json": "ad89a57889272ca593b490cc2f68b874233de547ed791fa1652086db3cc8a3a5"
+}

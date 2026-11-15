@@ -1,0 +1,16 @@
+package_name=Ascend-cann-toolkit
+version=9.0.0
+innerversion=V100R001C10SPC001B250
+compatible_version=[V100R001C21],[V100R001C22],[V100R001C23],[V100R001C25],[V100R001C10]
+arch=aarch64
+os=linux
+path=/usr/local/Ascend/cann-9.0.0
+Version=9.0.0
+version_dir=cann
+required_package_runtime_version="9.0"
+required_package_ge-executor_version="9.0"
+required_package_metadef_version="9.0"
+required_package_opbase_version="9.0"
+required_package_bisheng-compiler_version="9.0"
+required_package_tbe-tik_version="9.0"
+timestamp=20260428_134817545

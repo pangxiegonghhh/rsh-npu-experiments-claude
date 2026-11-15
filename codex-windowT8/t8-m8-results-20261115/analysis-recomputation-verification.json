@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "raw_csv_sha256": "cb294a1c465a07bb3cc3a48f723fe92f503e050799d01ecb283d77a164e05bd8",
+  "source_analysis_sha256": "decff0b1f2b695418b952a75a16bd56e897a8bede0e47a7926047715bb1d3279",
+  "local_analysis_byte_identical_after_LF_normalization": true,
+  "independent_numpy_block_fits": 1200,
+  "model_tables": 60,
+  "maximum_coefficient_difference_us": 3.0184188481996443e-15,
+  "note": "Local primary point estimates, confidence intervals, fits and paired tests reproduce the remote JSON exactly after newline normalization; NumPy independently checks all block-fit coefficients."
+}

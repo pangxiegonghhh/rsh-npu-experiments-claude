@@ -1,0 +1,20 @@
+[
+  {
+    "mode": 0,
+    "base": 16384,
+    "slope_us_per_round": 0.18312792650305704,
+    "intercept_us": 44.557362318842934,
+    "r_squared": 0.9999896747570369,
+    "max_cv": 0.0018061457681493663,
+    "pass_gate": true
+  },
+  {
+    "mode": 1,
+    "base": 16384,
+    "slope_us_per_round": 0.23168819527004075,
+    "intercept_us": 66.44811594202838,
+    "r_squared": 0.9999917507746663,
+    "max_cv": 0.0016829082735646277,
+    "pass_gate": true
+  }
+]

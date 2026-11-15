@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "all_tiles": true,
+  "last_slot_exact": true,
+  "metadata_immutable": true,
+  "guards": true
+}
