@@ -1,0 +1,117 @@
+{
+  "base_commit": "613548c6b0032a545e3f02e7bf457f4fbe0bb28d",
+  "evidence_files_unchanged": 10057,
+  "entrypoints_and_path_resolvers_changed": [
+    {
+      "old": "audit_t8_command_tables.py",
+      "new": "M4/audit_t8_command_tables.py",
+      "before_sha256": "a0308f23eef0cd8b2acb93773b479b34b595c504bd78d7396c21e7c5699d4737",
+      "after_sha256": "1d3e0fb1ea40903f79cd8cadf95ef88c4156a2153f1e41a51ece538c2bcdef81"
+    },
+    {
+      "old": "PACKAGE-INFO.json",
+      "new": "PACKAGE-INFO.json",
+      "before_sha256": "89561992ceacbaa97b2c4186a97aa4fde15f1c18da6c267c9942069f46fb54d5",
+      "after_sha256": "42e8d447cb209b48b14254d0022ac3051f4613f7761e4f8400abe72a931829f3"
+    },
+    {
+      "old": "README.md",
+      "new": "README.md",
+      "before_sha256": "22c54d35e3505b6625a89c6b5d6010bf5174c52daeaf2f19ada8ed0767bf4812",
+      "after_sha256": "7f7a589ba55c2060116d6f17e1f5478fc0208231f3e05dc660685bd5cc85b7eb"
+    },
+    {
+      "old": "run_cpu_checks.py",
+      "new": "run_cpu_checks.py",
+      "before_sha256": "a4735f6f35f76f7d4a69f0a3070d41e5eef56a1e131a860b01a896cc78c18ca7",
+      "after_sha256": "0d4db683c78ab094daa66dd6be0b2b30531975c3096d1ba044e758e86225d275"
+    },
+    {
+      "old": "START-M11.md",
+      "new": "M11/START-M11.md",
+      "before_sha256": "6f3b77f366fe214be467d64f7c7a4c531af6343be323ee37b66d4731d5864599",
+      "after_sha256": "e60ca08975e065dddc806d752501faeb72a8c7e552358e549b6b12d3ed4044a3"
+    },
+    {
+      "old": "t8-m8-20261115/audit_inputs.py",
+      "new": "M8/t8-m8-20261115/audit_inputs.py",
+      "before_sha256": "45eb42cac2c43191da0d64515f91bbbc2efb5269a95af7efb43267a4a9602ff9",
+      "after_sha256": "cc38d33bb83bbeb34b9f972414c4b101d86b8289a4a567551fff984b797d818c"
+    },
+    {
+      "old": "t8-m8-20261115/build_host.py",
+      "new": "M8/t8-m8-20261115/build_host.py",
+      "before_sha256": "8d450ed468d23a5cd8ab3c8788111efd871b9e93f33f3a92f70299e7de6b6a10",
+      "after_sha256": "c505478843254c6b7bbf701cf9661466e7be74a712777bf5fe7fd8fb2d983a28"
+    },
+    {
+      "old": "t8-m8-20261115/prepare.py",
+      "new": "M8/t8-m8-20261115/prepare.py",
+      "before_sha256": "33b7230353e25d548af18d08a8d871d28189cdfafa57281b6986f514cd8fed0d",
+      "after_sha256": "40972419b936b35d13b41165526656a9a033ccabad6b6c134b8501a41249f4b6"
+    }
+  ],
+  "path_moves": {
+    "t8-m4-20261114": "M4/t8-m4-20261114",
+    "t8-m4-replay-20261115": "M4/t8-m4-replay-20261115",
+    "t8-m4-recovered-statistics-20261115": "M4/t8-m4-recovered-statistics-20261115",
+    "audit_m4_recovered_statistics.py": "M4/audit_m4_recovered_statistics.py",
+    "audit_t8_command_tables.py": "M4/audit_t8_command_tables.py",
+    "t8-m5-evidence-20261115": "M5/t8-m5-evidence-20261115",
+    "t8-m5-statistical-delivery-20261115": "M5/t8-m5-statistical-delivery-20261115",
+    "audit_m5_statistics_offline.py": "M5/audit_m5_statistics_offline.py",
+    "t8-m8-20261115": "M8/t8-m8-20261115",
+    "t8-m8-results-20261115": "M8/t8-m8-results-20261115",
+    "audit_m8_results.py": "M8/audit_m8_results.py",
+    "T8-M8-进展-20261115.md": "M8/T8-M8-进展-20261115.md",
+    "t8-m11-20261115": "M11",
+    "START-M11.md": "M11/START-M11.md",
+    "fetch_upstream_sources.py": "M11/fetch_upstream_sources.py",
+    "background": "shared/background",
+    "t8-cpu-prep-20261114": "shared/t8-cpu-prep-20261114",
+    "cora-offline-audit": "shared/cora-offline-audit",
+    "tools": "shared/tools",
+    "T8-恢复进展-20261115-1030.md": "shared/reports/T8-恢复进展-20261115-1030.md",
+    "t8-p0-k0-20261114-report.md": "shared/reports/t8-p0-k0-20261114-report.md",
+    "t8-ai-review-20261115/M4-results-text-only-20261115.md": "M4/reports/M4-results-text-only-20261115.md",
+    "t8-ai-review-20261115/M5-results-text-only-20261115.md": "M5/reports/M5-results-text-only-20261115.md",
+    "t8-ai-review-20261115/M5-design-and-number-guide-20261115.md": "M5/reports/M5-design-and-number-guide-20261115.md",
+    "t8-ai-review-20261115/M4-M5-数据汇总含逐配置均值-20261115.md": "shared/reports/M4-M5-数据汇总含逐配置均值-20261115.md",
+    "t8-ai-review-20261115/M4-M5-完整数据与计时口径-20261115.md": "shared/reports/M4-M5-完整数据与计时口径-20261115.md",
+    "verification/M4-models.log": "M4/verification/M4-models.log",
+    "verification/command-tables.log": "M4/verification/command-tables.log",
+    "verification/model-recomputation-verification.json": "M4/verification/model-recomputation-verification.json",
+    "verification/t8-command-table-independent-audit-20261115.json": "M4/verification/t8-command-table-independent-audit-20261115.json",
+    "verification/M5-statistics.log": "M5/verification/M5-statistics.log",
+    "verification/M8-statistics.json": "M8/verification/M8-statistics.json",
+    "verification/SCOPE.json": "shared/verification/SCOPE.json",
+    "verification/verification.json": "shared/verification/verification.json"
+  },
+  "post_move_cpu_checks": {
+    "status": "PASS",
+    "checks": [
+      {
+        "check": "M4-models",
+        "returncode": 0,
+        "log": "M4-models.log"
+      },
+      {
+        "check": "command-tables",
+        "returncode": 0,
+        "log": "command-tables.log"
+      },
+      {
+        "check": "M5-statistics",
+        "returncode": 0,
+        "log": "M5-statistics.log"
+      },
+      {
+        "check": "M8-statistics",
+        "returncode": 0,
+        "log": "M8-statistics.log"
+      }
+    ],
+    "evidence_unchanged": true,
+    "scope": "M4 models, independent command tables, M5 statistics and M8 statistics. CPU checks only; no new device measurements."
+  }
+}

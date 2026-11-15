@@ -1,6 +1,6 @@
 # 给接管 M11 的 agent：项目背景、阅读清单与执行任务
 
-> 状态更新：M8已完成20/20轮并关闭原实例。其完整有效统计与报告现已加入本资料包，先看`t8-m8-results-20261115/M8-summary-20261115.md`。下文16:31的运行状态为历史快照；M11仍独立负责，不能操作原M8实例。
+> 状态更新：M8已完成20/20轮并关闭原实例。其完整有效统计与报告现已加入本资料包，先看`M8/t8-m8-results-20261115/M8-summary-20261115.md`。下文16:31的运行状态为历史快照；M11仍独立负责，不能操作原M8实例。
 
 你负责 **M11：普通拷贝替代 ND2NZ 的 B 供数实验**。请读完下面的背景与文件，然后实际完成代码核对、CPU 准备、开卡、正确性、设备计时、分析和交付，不要只停在计划。中文汇报，先结论后证据，不把推断写成实测。
 
@@ -77,21 +77,21 @@ URL中的连字符或 `NPU` 是仓库路径的一部分，不能据此再创造�
 
 ## 5. 本地必须读的最新计划、代码和结果
 
-工作区是本资料目录 `codex-windowT8/`。下列路径均相对于此目录，macOS可直接读取；无需访问Windows电脑。
+工作区是本资料目录 `codex-windowT8/`（M4/M5/M8/M11分别归档）。下列路径均相对于此根目录，macOS可直接读取；无需访问Windows电脑。
 
 按下列顺序读：
 
-1. **用户原始M11方案**：`t8-m11-20261115/M11-用户原稿.md`（Windows原稿的逐字节副本）。这是待执行方案，不是已完成结果。
-2. `t8-ai-review-20261115/M4-M5-数据汇总含逐配置均值-20261115.md`：先读环境、timer和M4模型的限制。
-3. `t8-ai-review-20261115/M4-M5-完整数据与计时口径-20261115.md`：需要重复值、系数和M5逐点结果时查。
-4. `t8-m4-20261114/kernel.cpp`、`host.cpp`、`make_manifest.py`：M4主流水、精确CPU参考、GM哨兵和命令表。
-5. `t8-m4-replay-20261115/kernel.cpp`、`host.cpp`、`host-base.h`、`B0-rows.json`、`B1-rows.json`：Cora真实窗口、变长U、尾块补零、非法stride拆分处理。
-6. `t8-cpu-prep-20261114/prep/cora-A0-W16-B0/replay/segtable.csv`与B1同路径；两者各自的`windows.csv`、`summary.json`、`meta.json`：独立CPU原始参考。**不要只用同一命令表自身生成期望值。**
-7. `t8-m4-recovered-statistics-20261115/timing-observations.csv`、`model-coefficients.json`、`recovery-verification.json`：已有M4有效统计数据；`audit_m4_recovered_statistics.py`可供独立复算参考。
-8. `t8-m5-evidence-20261115/t8-m5/`、`audit_m5_statistics_offline.py`：阶段2批量/回归方法参考。按实际目录找结果报告，不要运行旧归档里来源未核验的二进制。
-9. `T8-M8-进展-20261115.md`：只了解并行隔离边界，不接管M8。
+1. **用户原始M11方案**：`M11/M11-用户原稿.md`（Windows原稿的逐字节副本）。这是待执行方案，不是已完成结果。
+2. `shared/reports/M4-M5-数据汇总含逐配置均值-20261115.md`：先读环境、timer和M4模型的限制。
+3. `shared/reports/M4-M5-完整数据与计时口径-20261115.md`：需要重复值、系数和M5逐点结果时查。
+4. `M4/t8-m4-20261114/kernel.cpp`、`host.cpp`、`make_manifest.py`：M4主流水、精确CPU参考、GM哨兵和命令表。
+5. `M4/t8-m4-replay-20261115/kernel.cpp`、`host.cpp`、`host-base.h`、`B0-rows.json`、`B1-rows.json`：Cora真实窗口、变长U、尾块补零、非法stride拆分处理。
+6. `shared/t8-cpu-prep-20261114/prep/cora-A0-W16-B0/replay/segtable.csv`与B1同路径；两者各自的`windows.csv`、`summary.json`、`meta.json`：独立CPU原始参考。**不要只用同一命令表自身生成期望值。**
+7. `M4/t8-m4-recovered-statistics-20261115/timing-observations.csv`、`model-coefficients.json`、`recovery-verification.json`：已有M4有效统计数据；`M4/audit_m4_recovered_statistics.py`可供独立复算参考。
+8. `M5/t8-m5-evidence-20261115/t8-m5/`、`M5/audit_m5_statistics_offline.py`：阶段2批量/回归方法参考。按实际目录找结果报告，不要运行旧归档里来源未核验的二进制。
+9. `M8/T8-M8-进展-20261115.md`：只了解并行隔离边界，不接管M8。
 
-第三方源码未重复发布在本包。先运行 `python3 fetch_upstream_sources.py --out ../m11-upstream`，将按固定提交下载并核对Git blob SHA；然后读其中 `upstream-idmg/` 和 `upstream/`。也可直接读上文固定提交URL。这些只是阅读材料，**M11内核尚未写，设备阶段尚未开始，未租第二张卡**。
+第三方源码未重复发布在本包。先运行 `python3 M11/fetch_upstream_sources.py --out ../m11-upstream`，将按固定提交下载并核对Git blob SHA；然后读其中 `upstream-idmg/` 和 `upstream/`。也可直接读上文固定提交URL。这些只是阅读材料，**M11内核尚未写，设备阶段尚未开始，未租第二张卡**。
 
 ### M4的关键已知事实
 
@@ -153,7 +153,7 @@ https://www.hiascend.com/doc_center/source/en/CANNCommunityEdition/900/API/ascen
 - 宿主机：`dengjia-ascend910b-node02`。
 - 本次物理NPU **5**，PCI **0000:41:00.0**；逻辑device0。
 - 容器：`3195fa251a2c`。
-- M8远端工作目录 `/data/t8-m8-20261115`；本地同名目录不要写入。
+- M8远端工作目录 `/data/t8-m8-20261115`；本地归档目录为`M8/t8-m8-20261115/`，不要写入。
 - 交接时M8正式20轮仍在运行，约16:31台北时间已接受5/20轮；这是时间点状态，不能当成接手时实时进度。原agent负责继续监看、封存与关机。
 
 本地新产物只写 你自己在资料目录之外建立的 `m11-work/` 或自建M11独立目录。新卡远端使用 `/data/t8-m11-20261115`，日志、PID、状态、返回码、归档名均用M11前缀。不要复用M8终端、不要在原实例安装/编译/运行M11，不要批量关停账号里所有实例。
