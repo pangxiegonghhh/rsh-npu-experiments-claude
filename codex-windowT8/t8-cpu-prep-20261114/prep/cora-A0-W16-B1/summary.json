@@ -1,0 +1,107 @@
+{
+  "tag": "cora-A0-W16-B1",
+  "selfcheck": "PASS",
+  "checks": {
+    "sumU": {
+      "expected": 6035,
+      "got": 6035,
+      "ok": true
+    },
+    "sumR": {
+      "expected": 2927,
+      "got": 2927,
+      "ok": true
+    }
+  },
+  "matrix": {
+    "nrows": 2708,
+    "ncols": 2708,
+    "nnz_input": 10556,
+    "nnz_used": 10556
+  },
+  "windows": 170,
+  "rows_covered": 2708,
+  "sumU": 6035,
+  "sumR": 2927,
+  "sum_expected_instr_k": 3086,
+  "U": {
+    "n": 170,
+    "sum": 6035,
+    "min": 4,
+    "p25": 24,
+    "p50": 32,
+    "p50_interp": 32.0,
+    "p75": 42,
+    "p90": 53,
+    "p99": 167,
+    "max": 192,
+    "mean": 35.5
+  },
+  "R": {
+    "n": 170,
+    "sum": 2927,
+    "min": 1,
+    "p25": 11,
+    "p50": 16,
+    "p50_interp": 16.0,
+    "p75": 21,
+    "p90": 27,
+    "p99": 58,
+    "max": 61,
+    "mean": 17.21764705882353
+  },
+  "seg_len": {
+    "n": 2927,
+    "sum": 6035,
+    "min": 1,
+    "p25": 1,
+    "p50": 1,
+    "p50_interp": 1,
+    "p75": 2,
+    "p90": 4,
+    "p99": 13,
+    "max": 29,
+    "mean": 2.0618380594465324
+  },
+  "seg_gap": {
+    "n": 2757,
+    "sum": 287476,
+    "min": 1,
+    "p25": 5,
+    "p50": 24,
+    "p50_interp": 24,
+    "p75": 108,
+    "p90": 290,
+    "p99": 1007,
+    "max": 1532,
+    "mean": 104.27130939426914
+  },
+  "equi_groups": {
+    "segments_total": 2927,
+    "segments_by_bucket": {
+      "single": 1362,
+      "m5_exact": 123,
+      "m5_envelope": 790,
+      "outside": 652
+    },
+    "fraction_by_bucket": {
+      "single": 0.4653228561667236,
+      "m5_exact": 0.042022548684660065,
+      "m5_envelope": 0.2699009224461906,
+      "outside": 0.2227536727024257
+    }
+  },
+  "writeback": {
+    "sum_segments_all_rows": 170,
+    "kappa_all_rows": 1.0
+  },
+  "dedup": {
+    "scope_rows": "all",
+    "fetches": 10556,
+    "distinct_cols": 2708,
+    "dup_ratio_global": 0.7434634331186055,
+    "dup_ratio_within_window": 0.4282872300113679,
+    "ring_L": 64,
+    "dup_ratio_within_last_L": 0.48361121636983706
+  }
+}

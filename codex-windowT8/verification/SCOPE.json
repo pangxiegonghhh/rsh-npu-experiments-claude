@@ -1,0 +1,12 @@
+{
+  "checked_on": "Windows ARM-independent CPU Python; macOS commands supplied, no actual Mac execution claimed",
+  "python": "3.11.5",
+  "numpy": "2.4.6",
+  "result": "PASS",
+  "hardware_experiments_rerun": false,
+  "checks": [
+    "M4 all 300 coefficient tables from 51840 main observations",
+    "2592 synthetic +40 Cora DMA tables against original geometries/segments",
+    "M5 688 fits and344 pairs from original formal CSV"
+  ]
+}

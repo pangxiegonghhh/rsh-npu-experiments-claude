@@ -1,0 +1,118 @@
+{
+  "tag": "cora-A0-W16-B0",
+  "selfcheck": "PASS",
+  "checks": {
+    "sumU": {
+      "expected": 9583,
+      "got": 9583,
+      "ok": true
+    },
+    "sumR": {
+      "expected": 8565,
+      "got": 8565,
+      "ok": true
+    },
+    "R_max": {
+      "expected": 149,
+      "got": 149,
+      "ok": true
+    },
+    "R_p50": {
+      "expected": 48.0,
+      "got_nearest_rank": 48,
+      "got_interp": 48.0,
+      "ok": true
+    }
+  },
+  "matrix": {
+    "nrows": 2708,
+    "ncols": 2708,
+    "nnz_input": 10556,
+    "nnz_used": 10556
+  },
+  "windows": 170,
+  "rows_covered": 2708,
+  "sumU": 9583,
+  "sumR": 8565,
+  "sum_expected_instr_k": 8618,
+  "U": {
+    "n": 170,
+    "sum": 9583,
+    "min": 8,
+    "p25": 44,
+    "p50": 53,
+    "p50_interp": 53.0,
+    "p75": 63,
+    "p90": 77,
+    "p99": 138,
+    "max": 217,
+    "mean": 56.370588235294115
+  },
+  "R": {
+    "n": 170,
+    "sum": 8565,
+    "min": 7,
+    "p25": 40,
+    "p50": 48,
+    "p50_interp": 48.0,
+    "p75": 57,
+    "p90": 70,
+    "p99": 112,
+    "max": 149,
+    "mean": 50.38235294117647
+  },
+  "seg_len": {
+    "n": 8565,
+    "sum": 9583,
+    "min": 1,
+    "p25": 1,
+    "p50": 1,
+    "p50_interp": 1,
+    "p75": 1,
+    "p90": 1,
+    "p99": 3,
+    "max": 59,
+    "mean": 1.1188558085230589
+  },
+  "seg_gap": {
+    "n": 8395,
+    "sum": 422827,
+    "min": 1,
+    "p25": 12,
+    "p50": 32,
+    "p50_interp": 32,
+    "p75": 68,
+    "p90": 119,
+    "p99": 269,
+    "max": 1232,
+    "mean": 50.36652769505658
+  },
+  "equi_groups": {
+    "segments_total": 8565,
+    "segments_by_bucket": {
+      "single": 847,
+      "m5_exact": 417,
+      "m5_envelope": 5246,
+      "outside": 2055
+    },
+    "fraction_by_bucket": {
+      "single": 0.09889083479276124,
+      "m5_exact": 0.04868651488616462,
+      "m5_envelope": 0.6124927028604787,
+      "outside": 0.23992994746059546
+    }
+  },
+  "writeback": {
+    "sum_segments_all_rows": 170,
+    "kappa_all_rows": 1.0
+  },
+  "dedup": {
+    "scope_rows": "all",
+    "fetches": 10556,
+    "distinct_cols": 2708,
+    "dup_ratio_global": 0.7434634331186055,
+    "dup_ratio_within_window": 0.09217506631299735,
+    "ring_L": 64,
+    "dup_ratio_within_last_L": 0.12125805229253506
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "path": "CLAUDE.md",
+    "git_blob_sha": "f2fb73b933ebb4e562a55a348fc98b9384d9096e",
+    "url": "https://github.com/pangxiegonghhh/rsh-npu-experiments-claude/blob/main/CLAUDE.md"
+  },
+  {
+    "path": "当前流程与代办列表/新接手AI工作单.md",
+    "git_blob_sha": "f506053d5c331fb6e676a5bea084d79384b0f94b",
+    "url": "https://github.com/pangxiegonghhh/rsh-npu-experiments-claude/blob/main/%E5%BD%93%E5%89%8D%E6%B5%81%E7%A8%8B%E4%B8%8E%E4%BB%A3%E5%8A%9E%E5%88%97%E8%A1%A8/%E6%96%B0%E6%8E%A5%E6%89%8BAI%E5%B7%A5%E4%BD%9C%E5%8D%95.md"
+  },
+  {
+    "path": "当前流程与代办列表/进度总览.md",
+    "git_blob_sha": "d2505850aa9c85d8eb251eb81f3392a012c0274f",
+    "url": "https://github.com/pangxiegonghhh/rsh-npu-experiments-claude/blob/main/%E5%BD%93%E5%89%8D%E6%B5%81%E7%A8%8B%E4%B8%8E%E4%BB%A3%E5%8A%9E%E5%88%97%E8%A1%A8/%E8%BF%9B%E5%BA%A6%E6%80%BB%E8%A7%88.md"
+  },
+  {
+    "path": "当前流程与代办列表/流程图.md",
+    "git_blob_sha": "861a9729d92f408dcb95a11182c20d3ce8d96786",
+    "url": "https://github.com/pangxiegonghhh/rsh-npu-experiments-claude/blob/main/%E5%BD%93%E5%89%8D%E6%B5%81%E7%A8%8B%E4%B8%8E%E4%BB%A3%E5%8A%9E%E5%88%97%E8%A1%A8/%E6%B5%81%E7%A8%8B%E5%9B%BE.md"
+  },
+  {
+    "path": "当前流程与代办列表/代办清单.md",
+    "git_blob_sha": "607d57b1809ad1c3ead685bde974e038a5d70ede",
+    "url": "https://github.com/pangxiegonghhh/rsh-npu-experiments-claude/blob/main/%E5%BD%93%E5%89%8D%E6%B5%81%E7%A8%8B%E4%B8%8E%E4%BB%A3%E5%8A%9E%E5%88%97%E8%A1%A8/%E4%BB%A3%E5%8A%9E%E6%B8%85%E5%8D%95.md"
+  },
+  {
+    "path": "第四层工作区/存储格式定型.md",
+    "git_blob_sha": "694ba11c5f9a5c05ecc9576ad56d139dc0c7ec31",
+    "url": "https://github.com/pangxiegonghhh/rsh-npu-experiments-claude/blob/main/%E7%AC%AC%E5%9B%9B%E5%B1%82%E5%B7%A5%E4%BD%9C%E5%8C%BA/%E5%AD%98%E5%82%A8%E6%A0%BC%E5%BC%8F%E5%AE%9A%E5%9E%8B.md"
+  },
+  {
+    "path": "第五层工作区/B供数-复制与布局.md",
+    "git_blob_sha": "f3bf426f03376ca8baed2c9849f18ed8a72c4086",
+    "url": "https://github.com/pangxiegonghhh/rsh-npu-experiments-claude/blob/main/%E7%AC%AC%E4%BA%94%E5%B1%82%E5%B7%A5%E4%BD%9C%E5%8C%BA/B%E4%BE%9B%E6%95%B0-%E5%A4%8D%E5%88%B6%E4%B8%8E%E5%B8%83%E5%B1%80.md"
+  },
+  {
+    "path": "第二层工作区/第二层设计约束.md",
+    "git_blob_sha": "2aa56ad258a0497b89c921ac99192b7de479a408",
+    "url": "https://github.com/pangxiegonghhh/rsh-npu-experiments-claude/blob/main/%E7%AC%AC%E4%BA%8C%E5%B1%82%E5%B7%A5%E4%BD%9C%E5%8C%BA/%E7%AC%AC%E4%BA%8C%E5%B1%82%E8%AE%BE%E8%AE%A1%E7%BA%A6%E6%9D%9F.md"
+  }
+]

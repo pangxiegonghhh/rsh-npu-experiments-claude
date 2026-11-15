@@ -1,0 +1,13 @@
+from pathlib import Path
+p=Path('t8-m4-20261114/kernel.cpp');s=p.read_text()
+s=s.replace('LocalTensor<T>&bslots,','TQue<TPosition::B2,2>&bqueue,')
+s=s.replace('if(linear>=2)WaitFlag<HardEvent::M_MTE1>(slot);','')
+s=s.replace('auto bb=bslots[slot*16*x.n];','auto bb=bqueue.AllocTensor<T>();')
+s=s.replace('SetFlag<HardEvent::MTE1_M>(slot);WaitFlag<HardEvent::MTE1_M>(slot);MmadParams','bqueue.EnQue(bb);bb=bqueue.DeQue<T>();MmadParams')
+s=s.replace('SetFlag<HardEvent::M_MTE1>(slot);','bqueue.FreeTensor(bb);')
+s=s.replace('TBuf<TPosition::B2>b2;','TQue<TPosition::B2,2>b2;')
+s=s.replace('pipe.InitBuffer(b2,2*16*x.n*sizeof(T));','pipe.InitBuffer(b2,2,16*x.n*sizeof(T));')
+s=s.replace('auto bslots=b2.Get<T>();','')
+s=s.replace('Compute4(bl,bslots,aa,acc,out,x,','Compute4(bl,b2,aa,acc,out,x,')
+s=s.replace('for(uint32_t s=0;s<(total>1?2:1);s++)WaitFlag<HardEvent::M_MTE1>(s);','')
+p.write_text(s)

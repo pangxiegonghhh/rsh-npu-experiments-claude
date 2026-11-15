@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "scope": "Independent standard-library statistical recomputation from formal raw CSV; does not rerun hardware or independently reproduce simulator traces.",
+  "counts": {
+    "results-blocks": {
+      "valid_blocks": 20,
+      "invalid_attempts": 0,
+      "samples": 55040
+    },
+    "results-quality": {
+      "valid_blocks": 20,
+      "invalid_attempts": 1,
+      "samples": 7200
+    }
+  },
+  "correctness_manifest_cases": 688,
+  "base_per_block_mean_R2_below_0999": 59,
+  "quality_cases": 90,
+  "final_case_regressions_compared": 688,
+  "all_pairs_compared": 344,
+  "qualified_pairs": 343,
+  "final_mean_curve_R2_failures": [
+    "f16-nz-merge-s4-h2-gap64-n16"
+  ],
+  "qualified_groups": [
+    {
+      "dtype": "f16",
+      "api": "nd",
+      "pairs": 72,
+      "median_speedup": 1.0000929536460366,
+      "min_speedup": 0.9880865525298399,
+      "max_speedup": 1.6510088527032547,
+      "pointwise_positive": 25
+    },
+    {
+      "dtype": "f16",
+      "api": "nz",
+      "pairs": 71,
+      "median_speedup": 3.255016261343306,
+      "min_speedup": 0.9999894353160387,
+      "max_speedup": 9.803745676246821,
+      "pointwise_positive": 68
+    },
+    {
+      "dtype": "f32",
+      "api": "nd",
+      "pairs": 72,
+      "median_speedup": 1.0000525869859107,
+      "min_speedup": 0.98913205085246,
+      "max_speedup": 1.7614541611863659,
+      "pointwise_positive": 21
+    },
+    {
+      "dtype": "f32",
+      "api": "nz",
+      "pairs": 72,
+      "median_speedup": 3.475506003555152,
+      "min_speedup": 1.3362895676563542,
+      "max_speedup": 12.187164924467954,
+      "pointwise_positive": 72
+    }
+  ],
+  "example": {
+    "case": "f16-nz-merge-s8-h4-gap8-n256",
+    "segments": 8,
+    "merge_us": 0.1031807003585016,
+    "split_us": 0.5073228617939713,
+    "speedup": 4.9168387114186745,
+    "saved_us": 0.40414216143546977,
+    "saved_ci_low": 0.39487290066337943,
+    "saved_ci_high": 0.4134114222075601
+  }
+}

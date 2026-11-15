@@ -1,0 +1,7 @@
+{
+  "selected_evidence_files": 972,
+  "original_hash_matches": 972,
+  "changed_vs_original_manifest": [],
+  "not_in_original_manifest": [],
+  "note": "Current extracted analysis may include presentation summaries added after the original seal; differences are listed explicitly. Raw formal CSV must match the sealed hashes."
+}

@@ -1,0 +1,98 @@
+{
+  "correctness_cases": 688,
+  "valid_blocks": 20,
+  "invalid_blocks": 0,
+  "max_sentinel_drift": 0.023685482571566663,
+  "timing_samples_original": 55040,
+  "timing_samples_quality": 7200,
+  "quality_cases": 90,
+  "quality_invalid_blocks": 1,
+  "regression_cases": 688,
+  "case_mean_r2_below_0999": 51,
+  "groups": [
+    {
+      "dtype": "f16",
+      "api": "nd",
+      "pairs": 72,
+      "ci_saved_positive": 25,
+      "ci_saved_negative": 0,
+      "speedup_min": 0.9880865525298399,
+      "speedup_median": 1.0000929536460366,
+      "speedup_max": 1.6510088527032547
+    },
+    {
+      "dtype": "f16",
+      "api": "nz",
+      "pairs": 72,
+      "ci_saved_positive": 69,
+      "ci_saved_negative": 0,
+      "speedup_min": 0.9999894353160387,
+      "speedup_median": 3.2503586072953414,
+      "speedup_max": 9.803745676246821
+    },
+    {
+      "dtype": "f32",
+      "api": "nd",
+      "pairs": 72,
+      "ci_saved_positive": 21,
+      "ci_saved_negative": 1,
+      "speedup_min": 0.98913205085246,
+      "speedup_median": 1.0000525869859107,
+      "speedup_max": 1.7614541611863659
+    },
+    {
+      "dtype": "f32",
+      "api": "nz",
+      "pairs": 72,
+      "ci_saved_positive": 72,
+      "ci_saved_negative": 0,
+      "speedup_min": 1.3362895676563542,
+      "speedup_median": 3.475506003555152,
+      "speedup_max": 12.187164924467954
+    }
+  ],
+  "simulation_records": 24,
+  "instruction_verification": "PASS for all 24 model paths",
+  "mean_fit_below_0999": [
+    "f16-nz-merge-s4-h2-gap64-n16"
+  ],
+  "note": "Performance is real NPU 4 data on 2026-11-14; instruction counts are vendor Ascend910B2 model records on 2026-11-15, not silicon PMU retired counts.",
+  "qualified_groups": [
+    {
+      "dtype": "f16",
+      "api": "nd",
+      "pairs": 72,
+      "median_speedup": 1.0000929536460366,
+      "min_speedup": 0.9880865525298399,
+      "max_speedup": 1.6510088527032547,
+      "pointwise_positive": 25
+    },
+    {
+      "dtype": "f16",
+      "api": "nz",
+      "pairs": 71,
+      "median_speedup": 3.255016261343306,
+      "min_speedup": 0.9999894353160387,
+      "max_speedup": 9.803745676246821,
+      "pointwise_positive": 68
+    },
+    {
+      "dtype": "f32",
+      "api": "nd",
+      "pairs": 72,
+      "median_speedup": 1.0000525869859107,
+      "min_speedup": 0.98913205085246,
+      "max_speedup": 1.7614541611863659,
+      "pointwise_positive": 21
+    },
+    {
+      "dtype": "f32",
+      "api": "nz",
+      "pairs": 72,
+      "median_speedup": 3.475506003555152,
+      "min_speedup": 1.3362895676563542,
+      "max_speedup": 12.187164924467954,
+      "pointwise_positive": 72
+    }
+  ]
+}

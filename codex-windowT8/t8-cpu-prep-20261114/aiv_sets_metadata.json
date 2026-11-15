@@ -1,0 +1,28 @@
+{
+  "matrix_sha256": "f54431cb38cf0e4b832093889736bf1e3397019b90a186a1c13405038a573856",
+  "n": 2708,
+  "nnz_A0": 10556,
+  "degree_rule": "A0 degree <= tau",
+  "sets": {
+    "B0:tau2": {
+      "count": 1068,
+      "sha256": "5e215f13e9b317b5eaf13dbebb9615888415d2c507221de0257606c50b3c7949",
+      "original_degree_rule": "deg_A0 <= 2"
+    },
+    "B0:tau3": {
+      "count": 1621,
+      "sha256": "c6850f79303aeaa7cfc687b11e1bbcc4afb9e193f0d436dfe48bbdedce2366b6",
+      "original_degree_rule": "deg_A0 <= 3"
+    },
+    "B1:tau2": {
+      "count": 1068,
+      "sha256": "b5bf37343aae40f99b4d12d6dfe64fc37b04f26cc35fd38cd0ac052dcf12783d",
+      "original_degree_rule": "deg_A0 <= 2"
+    },
+    "B1:tau3": {
+      "count": 1621,
+      "sha256": "bab5b9de30eb72e7eddd8b59d79f1886af5b8144a7089781dc08e9019aa7e8f3",
+      "original_degree_rule": "deg_A0 <= 3"
+    }
+  }
+}

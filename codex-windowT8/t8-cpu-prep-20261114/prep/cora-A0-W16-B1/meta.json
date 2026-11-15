@@ -1,0 +1,47 @@
+{
+  "script_version": "t8_cpu_prep 1.0 (2026-11-14)",
+  "argv": [
+    "--matrix",
+    "cora-offline-audit\\evidence\\neutron-matrices\\cora.mtx",
+    "--row-order",
+    "t8-cpu-prep-20261114\\B1.txt",
+    "--col-order",
+    "same",
+    "--tag",
+    "cora-A0-W16-B1",
+    "--out",
+    "t8-cpu-prep-20261114\\prep\\cora-A0-W16-B1",
+    "--W",
+    "16",
+    "--k",
+    "16",
+    "--ring",
+    "64",
+    "--drop-diag",
+    "yes",
+    "--tail",
+    "keep",
+    "--expect-sumU",
+    "6035",
+    "--expect-sumR",
+    "2927"
+  ],
+  "rules": {
+    "W": 16,
+    "k": 16,
+    "drop_diag": "yes",
+    "tail": "keep",
+    "index_base": 0,
+    "order_base": 0,
+    "symmetrize": false,
+    "col_order": "same",
+    "row_order": "t8-cpu-prep-20261114\\B1.txt"
+  },
+  "inputs_sha256": {
+    "matrix": "f54431cb38cf0e4b832093889736bf1e3397019b90a186a1c13405038a573856",
+    "row_order": "af19702122a3b0dc6440647c4a0f00f4154c31cf7f2c76a836ebf33de4111d86",
+    "col_order": null,
+    "aiv_rows": null,
+    "script": "e211df4116ae254507874e168f4b7eea2d2c086237d9d6c5e7b1e2f5f472e001"
+  }
+}

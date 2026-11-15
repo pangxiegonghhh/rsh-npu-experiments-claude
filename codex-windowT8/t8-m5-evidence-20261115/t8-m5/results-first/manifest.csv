@@ -1,0 +1,5 @@
+case,dtype,api,split,segments,rows_per_segment,gap_rows,N,source_rows,L1_bytes,status
+f16-nd-merge-s4-h2-gap8-n16,FP16,DataCopyParams,0,4,2,8,16,32,1536,PASS
+f16-nz-merge-s4-h2-gap8-n16,FP16,Nd2NzParams,0,4,2,8,16,32,1536,PASS
+f32-nd-merge-s4-h2-gap8-n16,FP32,DataCopyParams,0,4,2,8,16,32,1536,PASS
+f32-nz-merge-s4-h2-gap8-n16,FP32,Nd2NzParams,0,4,2,8,16,32,2048,PASS
