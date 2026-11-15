@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "date": "2026-11-15T16:09:05.002163+00:00",
+  "all_json_finite": true,
+  "formal_observations": 1680,
+  "core_clock_rows": 40320,
+  "sentinel_rows": 800,
+  "B3_planned_configurations": 600,
+  "B3_formal_observations": 0,
+  "original_raw_files_verified_unchanged": 204631,
+  "original_protected_analysis_files_unchanged": 21,
+  "local_device_source_matches_returned": true,
+  "source_sha256": {
+    "CMakeLists.txt": "ddc10c6a98a1d0e0a2d4ab63626b831670f6349425d986ed0252aae15d8f3752",
+    "kernel.cpp": "63194374d72de61c0bded87ef407d252bb3c3e3519f1d21cd8e242b3242f34b0",
+    "b3_host.cpp": "ecbec4faf58cecc9a1641ff5b0df841198089b5e99635ed96443d2efafadd1ea",
+    "identity-host-base.h": "c8d4a7d8c5b2f9eddb00ea972c99ba9649c36df9e8c2a9638e267f687023964b",
+    "kernel-b3.cpp": "cf51d48421611fb08b278c473296a458e93930ab7e8bdf13fd3568ea50eddc2f",
+    "host-base.h": "441447e9cad56d29302ac2767431ce6d499f803ac3d337589555e417cd87dcd7",
+    "identity_host.cpp": "9e8f2abdf75573a89fe8f672838a1102e0d6dcd2d3e1004b96415ae75fa1dcb8",
+    "host.cpp": "4d4cb68842cdac63c1de50ba6f4037f4dcc59a5a62c9eee9e69ab9bce083c746"
+  },
+  "figures_visually_checked": [
+    "R3-cache-sensitivity",
+    "R4-hot-only",
+    "B2-bridge",
+    "B2-structure-shift"
+  ],
+  "temporary_auth_deleted": true,
+  "no_recovered_binary_executed": true
+}

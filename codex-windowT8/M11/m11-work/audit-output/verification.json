@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "package": {
+    "status": "PASS",
+    "files": 8975,
+    "bytes": 40865920
+  },
+  "checks": [
+    {
+      "check": "M4-models",
+      "returncode": 0,
+      "log": "M4-models.log"
+    },
+    {
+      "check": "command-tables",
+      "returncode": 0,
+      "log": "command-tables.log"
+    },
+    {
+      "check": "M5-statistics",
+      "returncode": 0,
+      "log": "M5-statistics.log"
+    }
+  ],
+  "evidence_unchanged": true
+}

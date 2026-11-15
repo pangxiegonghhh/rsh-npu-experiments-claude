@@ -1,0 +1,73 @@
+{
+  "primary_cells": 8,
+  "strict_majority": 5,
+  "descriptive_over20_count": 6,
+  "pointwise_ci_over20_count": 6,
+  "winners": [
+    {
+      "baseline": "cora-B1-FP16-n128-cold-p0",
+      "chosen": "cora-B1-FP16-n128-cold-p1",
+      "mean_ratio": 1.3049675776714318,
+      "mean_paired_ratio": 1.3049760400458381,
+      "descriptive_over20": false,
+      "ci_upper_below_08": false
+    },
+    {
+      "baseline": "cora-B1-FP16-n128-hot-p0",
+      "chosen": "cora-B1-FP16-n128-hot-p1",
+      "mean_ratio": 1.333073556342837,
+      "mean_paired_ratio": 1.33308116064883,
+      "descriptive_over20": false,
+      "ci_upper_below_08": false
+    },
+    {
+      "baseline": "cora-B1-FP16-n256-cold-p0",
+      "chosen": "cora-B1-FP16-n256-cold-p1",
+      "mean_ratio": 0.6312259592104418,
+      "mean_paired_ratio": 0.631226704136941,
+      "descriptive_over20": true,
+      "ci_upper_below_08": true
+    },
+    {
+      "baseline": "cora-B1-FP16-n256-hot-p0",
+      "chosen": "cora-B1-FP16-n256-hot-p1",
+      "mean_ratio": 0.7382581855779227,
+      "mean_paired_ratio": 0.738260804353751,
+      "descriptive_over20": true,
+      "ci_upper_below_08": true
+    },
+    {
+      "baseline": "cora-B1-FP32-n128-cold-p0",
+      "chosen": "cora-B1-FP32-n128-cold-p1",
+      "mean_ratio": 0.6434939724133321,
+      "mean_paired_ratio": 0.6434941924382224,
+      "descriptive_over20": true,
+      "ci_upper_below_08": true
+    },
+    {
+      "baseline": "cora-B1-FP32-n128-hot-p0",
+      "chosen": "cora-B1-FP32-n128-hot-p1",
+      "mean_ratio": 0.7465174006774536,
+      "mean_paired_ratio": 0.7465264699419818,
+      "descriptive_over20": true,
+      "ci_upper_below_08": true
+    },
+    {
+      "baseline": "cora-B1-FP32-n256-cold-p0",
+      "chosen": "cora-B1-FP32-n256-cold-p1",
+      "mean_ratio": 0.5793376750891931,
+      "mean_paired_ratio": 0.5793373585164995,
+      "descriptive_over20": true,
+      "ci_upper_below_08": true
+    },
+    {
+      "baseline": "cora-B1-FP32-n256-hot-p0",
+      "chosen": "cora-B1-FP32-n256-hot-p1",
+      "mean_ratio": 0.7405670963617496,
+      "mean_paired_ratio": 0.7405704085829125,
+      "descriptive_over20": true,
+      "ci_upper_below_08": true
+    }
+  ],
+  "selection": "Exploratory min of two means; both paired intervals retained; no selection-adjusted CI claim."
+}

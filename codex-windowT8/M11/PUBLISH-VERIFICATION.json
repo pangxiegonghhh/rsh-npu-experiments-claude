@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-11-15T16:58:30.503888+00:00",
+  "base_commit": "86a277cedc561486c929b852f4605ae7ff4d9aba",
+  "scope": "M11 publication and parent package indexes only",
+  "M11_observations_recomputed": 45920,
+  "M11b_observations_recomputed": 1680,
+  "R1_R12": "PASS, including 54-cell saved-output coverage",
+  "M11b_standard_gates": 84,
+  "M11b_strong_address_gates": 84,
+  "B3_transpose_pass": 50,
+  "B3_plain_only_not_equivalent": 50,
+  "no_recovered_binary_executed": true,
+  "temporary_copy_verification": true,
+  "security_scan": {
+    "status": "PASS",
+    "text_files_scanned": 50685,
+    "findings": []
+  },
+  "NPU_measurements_not_pooled": true,
+  "shutdown_confirmed": true,
+  "whitespace_note": "One unchanged upstream CANN9 SDK header line has two trailing spaces (kernel_struct_data_copy.h:114). Preserved to retain the measured SDK SHA; all other new lines pass."
+}

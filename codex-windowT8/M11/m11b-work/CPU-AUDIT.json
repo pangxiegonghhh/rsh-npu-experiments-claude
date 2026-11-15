@@ -1,0 +1,761 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case_id": "M11b-B2-u36-r18-random-gap-FP16-n128-hot-p0",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 8,
+      "span": 58,
+      "selected_rows": 36,
+      "hot_unique_bytes": 33555456
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-random-gap-FP16-n128-hot-p1",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 48,
+      "span": 58,
+      "selected_rows": 36,
+      "hot_unique_bytes": 33555456
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-random-gap-FP16-n128-hot-p2",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 152,
+      "span": 58,
+      "selected_rows": 36,
+      "hot_unique_bytes": 33555456
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-random-gap-FP16-n256-hot-p0",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 8,
+      "span": 58,
+      "selected_rows": 36,
+      "hot_unique_bytes": 33564672
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-random-gap-FP16-n256-hot-p1",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 48,
+      "span": 58,
+      "selected_rows": 36,
+      "hot_unique_bytes": 33564672
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-random-gap-FP16-n256-hot-p2",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 304,
+      "span": 58,
+      "selected_rows": 36,
+      "hot_unique_bytes": 33564672
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-random-gap-FP32-n128-hot-p0",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 8,
+      "span": 58,
+      "selected_rows": 36,
+      "hot_unique_bytes": 33564672
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-random-gap-FP32-n128-hot-p1",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 48,
+      "span": 58,
+      "selected_rows": 36,
+      "hot_unique_bytes": 33564672
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-random-gap-FP32-n128-hot-p2",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 304,
+      "span": 58,
+      "selected_rows": 36,
+      "hot_unique_bytes": 33564672
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-random-gap-FP32-n256-hot-p0",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 8,
+      "span": 58,
+      "selected_rows": 36,
+      "hot_unique_bytes": 33583104
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-random-gap-FP32-n256-hot-p1",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 48,
+      "span": 58,
+      "selected_rows": 36,
+      "hot_unique_bytes": 33583104
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-random-gap-FP32-n256-hot-p2",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 608,
+      "span": 58,
+      "selected_rows": 36,
+      "hot_unique_bytes": 33583104
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-cora-like-FP16-n128-hot-p0",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 11,
+      "span": 3355,
+      "selected_rows": 36,
+      "hot_unique_bytes": 23040000
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-cora-like-FP16-n128-hot-p1",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 48,
+      "span": 3355,
+      "selected_rows": 36,
+      "hot_unique_bytes": 23040000
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-cora-like-FP16-n128-hot-p2",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 152,
+      "span": 3355,
+      "selected_rows": 36,
+      "hot_unique_bytes": 23040000
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-cora-like-FP16-n256-hot-p0",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 12,
+      "span": 3355,
+      "selected_rows": 36,
+      "hot_unique_bytes": 23040000
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-cora-like-FP16-n256-hot-p1",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 48,
+      "span": 3355,
+      "selected_rows": 36,
+      "hot_unique_bytes": 23040000
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-cora-like-FP16-n256-hot-p2",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 304,
+      "span": 3355,
+      "selected_rows": 36,
+      "hot_unique_bytes": 23040000
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-cora-like-FP32-n128-hot-p0",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 11,
+      "span": 3355,
+      "selected_rows": 36,
+      "hot_unique_bytes": 23040000
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-cora-like-FP32-n128-hot-p1",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 48,
+      "span": 3355,
+      "selected_rows": 36,
+      "hot_unique_bytes": 23040000
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-cora-like-FP32-n128-hot-p2",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 304,
+      "span": 3355,
+      "selected_rows": 36,
+      "hot_unique_bytes": 23040000
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-cora-like-FP32-n256-hot-p0",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 12,
+      "span": 3355,
+      "selected_rows": 36,
+      "hot_unique_bytes": 23040000
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-cora-like-FP32-n256-hot-p1",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 48,
+      "span": 3355,
+      "selected_rows": 36,
+      "hot_unique_bytes": 23040000
+    },
+    {
+      "case_id": "M11b-B2-u36-r18-cora-like-FP32-n256-hot-p2",
+      "status": "PASS",
+      "tiles": 3,
+      "calls": 608,
+      "span": 3355,
+      "selected_rows": 36,
+      "hot_unique_bytes": 23040000
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-random-gap-FP16-n128-hot-p0",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 25,
+      "span": 129,
+      "selected_rows": 56,
+      "hot_unique_bytes": 33560576
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-random-gap-FP16-n128-hot-p1",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 64,
+      "span": 129,
+      "selected_rows": 56,
+      "hot_unique_bytes": 33560576
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-random-gap-FP16-n128-hot-p2",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 408,
+      "span": 129,
+      "selected_rows": 56,
+      "hot_unique_bytes": 33560576
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-random-gap-FP16-n256-hot-p0",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 25,
+      "span": 129,
+      "selected_rows": 56,
+      "hot_unique_bytes": 33574912
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-random-gap-FP16-n256-hot-p1",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 64,
+      "span": 129,
+      "selected_rows": 56,
+      "hot_unique_bytes": 33574912
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-random-gap-FP16-n256-hot-p2",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 816,
+      "span": 129,
+      "selected_rows": 56,
+      "hot_unique_bytes": 33574912
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-random-gap-FP32-n128-hot-p0",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 25,
+      "span": 129,
+      "selected_rows": 56,
+      "hot_unique_bytes": 33574912
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-random-gap-FP32-n128-hot-p1",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 64,
+      "span": 129,
+      "selected_rows": 56,
+      "hot_unique_bytes": 33574912
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-random-gap-FP32-n128-hot-p2",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 816,
+      "span": 129,
+      "selected_rows": 56,
+      "hot_unique_bytes": 33574912
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-random-gap-FP32-n256-hot-p0",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 25,
+      "span": 129,
+      "selected_rows": 56,
+      "hot_unique_bytes": 33603584
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-random-gap-FP32-n256-hot-p1",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 64,
+      "span": 129,
+      "selected_rows": 56,
+      "hot_unique_bytes": 33603584
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-random-gap-FP32-n256-hot-p2",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 1632,
+      "span": 129,
+      "selected_rows": 56,
+      "hot_unique_bytes": 33603584
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-cora-like-FP16-n128-hot-p0",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 30,
+      "span": 3829,
+      "selected_rows": 56,
+      "hot_unique_bytes": 31395840
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-cora-like-FP16-n128-hot-p1",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 64,
+      "span": 3829,
+      "selected_rows": 56,
+      "hot_unique_bytes": 31395840
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-cora-like-FP16-n128-hot-p2",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 408,
+      "span": 3829,
+      "selected_rows": 56,
+      "hot_unique_bytes": 31395840
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-cora-like-FP16-n256-hot-p0",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 30,
+      "span": 3829,
+      "selected_rows": 56,
+      "hot_unique_bytes": 31395840
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-cora-like-FP16-n256-hot-p1",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 64,
+      "span": 3829,
+      "selected_rows": 56,
+      "hot_unique_bytes": 31395840
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-cora-like-FP16-n256-hot-p2",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 816,
+      "span": 3829,
+      "selected_rows": 56,
+      "hot_unique_bytes": 31395840
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-cora-like-FP32-n128-hot-p0",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 30,
+      "span": 3829,
+      "selected_rows": 56,
+      "hot_unique_bytes": 31395840
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-cora-like-FP32-n128-hot-p1",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 64,
+      "span": 3829,
+      "selected_rows": 56,
+      "hot_unique_bytes": 31395840
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-cora-like-FP32-n128-hot-p2",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 816,
+      "span": 3829,
+      "selected_rows": 56,
+      "hot_unique_bytes": 31395840
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-cora-like-FP32-n256-hot-p0",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 30,
+      "span": 3829,
+      "selected_rows": 56,
+      "hot_unique_bytes": 31367168
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-cora-like-FP32-n256-hot-p1",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 64,
+      "span": 3829,
+      "selected_rows": 56,
+      "hot_unique_bytes": 31367168
+    },
+    {
+      "case_id": "M11b-B2-u56-r50-cora-like-FP32-n256-hot-p2",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 1632,
+      "span": 3829,
+      "selected_rows": 56,
+      "hot_unique_bytes": 31367168
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-random-gap-FP16-n128-hot-p0",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 13,
+      "span": 111,
+      "selected_rows": 64,
+      "hot_unique_bytes": 33554432
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-random-gap-FP16-n128-hot-p1",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 64,
+      "span": 111,
+      "selected_rows": 64,
+      "hot_unique_bytes": 33554432
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-random-gap-FP16-n128-hot-p2",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 256,
+      "span": 111,
+      "selected_rows": 64,
+      "hot_unique_bytes": 33554432
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-random-gap-FP16-n256-hot-p0",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 13,
+      "span": 111,
+      "selected_rows": 64,
+      "hot_unique_bytes": 33554432
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-random-gap-FP16-n256-hot-p1",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 64,
+      "span": 111,
+      "selected_rows": 64,
+      "hot_unique_bytes": 33554432
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-random-gap-FP16-n256-hot-p2",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 512,
+      "span": 111,
+      "selected_rows": 64,
+      "hot_unique_bytes": 33554432
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-random-gap-FP32-n128-hot-p0",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 13,
+      "span": 111,
+      "selected_rows": 64,
+      "hot_unique_bytes": 33554432
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-random-gap-FP32-n128-hot-p1",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 64,
+      "span": 111,
+      "selected_rows": 64,
+      "hot_unique_bytes": 33554432
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-random-gap-FP32-n128-hot-p2",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 512,
+      "span": 111,
+      "selected_rows": 64,
+      "hot_unique_bytes": 33554432
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-random-gap-FP32-n256-hot-p0",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 13,
+      "span": 111,
+      "selected_rows": 64,
+      "hot_unique_bytes": 33554432
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-random-gap-FP32-n256-hot-p1",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 64,
+      "span": 111,
+      "selected_rows": 64,
+      "hot_unique_bytes": 33554432
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-random-gap-FP32-n256-hot-p2",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 1024,
+      "span": 111,
+      "selected_rows": 64,
+      "hot_unique_bytes": 33554432
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-cora-like-FP16-n128-hot-p0",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 17,
+      "span": 5538,
+      "selected_rows": 64,
+      "hot_unique_bytes": 24805376
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-cora-like-FP16-n128-hot-p1",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 64,
+      "span": 5538,
+      "selected_rows": 64,
+      "hot_unique_bytes": 24805376
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-cora-like-FP16-n128-hot-p2",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 256,
+      "span": 5538,
+      "selected_rows": 64,
+      "hot_unique_bytes": 24805376
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-cora-like-FP16-n256-hot-p0",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 18,
+      "span": 5538,
+      "selected_rows": 64,
+      "hot_unique_bytes": 24805376
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-cora-like-FP16-n256-hot-p1",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 64,
+      "span": 5538,
+      "selected_rows": 64,
+      "hot_unique_bytes": 24805376
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-cora-like-FP16-n256-hot-p2",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 512,
+      "span": 5538,
+      "selected_rows": 64,
+      "hot_unique_bytes": 24805376
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-cora-like-FP32-n128-hot-p0",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 17,
+      "span": 5538,
+      "selected_rows": 64,
+      "hot_unique_bytes": 24805376
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-cora-like-FP32-n128-hot-p1",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 64,
+      "span": 5538,
+      "selected_rows": 64,
+      "hot_unique_bytes": 24805376
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-cora-like-FP32-n128-hot-p2",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 512,
+      "span": 5538,
+      "selected_rows": 64,
+      "hot_unique_bytes": 24805376
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-cora-like-FP32-n256-hot-p0",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 18,
+      "span": 5538,
+      "selected_rows": 64,
+      "hot_unique_bytes": 24772608
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-cora-like-FP32-n256-hot-p1",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 64,
+      "span": 5538,
+      "selected_rows": 64,
+      "hot_unique_bytes": 24772608
+    },
+    {
+      "case_id": "M11b-B2-u64-r32-cora-like-FP32-n256-hot-p2",
+      "status": "PASS",
+      "tiles": 4,
+      "calls": 1024,
+      "span": 5538,
+      "selected_rows": 64,
+      "hot_unique_bytes": 24772608
+    },
+    {
+      "case_id": "M11b-B2-cora-B1-control-FP16-n128-hot-p0",
+      "status": "PASS",
+      "tiles": 455,
+      "calls": 2481,
+      "span": 2708,
+      "selected_rows": 2708,
+      "hot_unique_bytes": 33969152
+    },
+    {
+      "case_id": "M11b-B2-cora-B1-control-FP16-n128-hot-p1",
+      "status": "PASS",
+      "tiles": 455,
+      "calls": 7280,
+      "span": 2708,
+      "selected_rows": 2708,
+      "hot_unique_bytes": 33969152
+    },
+    {
+      "case_id": "M11b-B2-cora-B1-control-FP16-n128-hot-p2",
+      "status": "PASS",
+      "tiles": 455,
+      "calls": 25912,
+      "span": 2708,
+      "selected_rows": 2708,
+      "hot_unique_bytes": 33969152
+    },
+    {
+      "case_id": "M11b-B2-cora-B1-control-FP16-n256-hot-p0",
+      "status": "PASS",
+      "tiles": 455,
+      "calls": 2521,
+      "span": 2708,
+      "selected_rows": 2708,
+      "hot_unique_bytes": 34662400
+    },
+    {
+      "case_id": "M11b-B2-cora-B1-control-FP16-n256-hot-p1",
+      "status": "PASS",
+      "tiles": 455,
+      "calls": 7280,
+      "span": 2708,
+      "selected_rows": 2708,
+      "hot_unique_bytes": 34662400
+    },
+    {
+      "case_id": "M11b-B2-cora-B1-control-FP16-n256-hot-p2",
+      "status": "PASS",
+      "tiles": 455,
+      "calls": 51824,
+      "span": 2708,
+      "selected_rows": 2708,
+      "hot_unique_bytes": 34662400
+    },
+    {
+      "case_id": "M11b-B2-cora-B1-control-FP32-n128-hot-p0",
+      "status": "PASS",
+      "tiles": 455,
+      "calls": 2481,
+      "span": 2708,
+      "selected_rows": 2708,
+      "hot_unique_bytes": 34662400
+    },
+    {
+      "case_id": "M11b-B2-cora-B1-control-FP32-n128-hot-p1",
+      "status": "PASS",
+      "tiles": 455,
+      "calls": 7280,
+      "span": 2708,
+      "selected_rows": 2708,
+      "hot_unique_bytes": 34662400
+    },
+    {
+      "case_id": "M11b-B2-cora-B1-control-FP32-n128-hot-p2",
+      "status": "PASS",
+      "tiles": 455,
+      "calls": 51824,
+      "span": 2708,
+      "selected_rows": 2708,
+      "hot_unique_bytes": 34662400
+    },
+    {
+      "case_id": "M11b-B2-cora-B1-control-FP32-n256-hot-p0",
+      "status": "PASS",
+      "tiles": 455,
+      "calls": 2521,
+      "span": 2708,
+      "selected_rows": 2708,
+      "hot_unique_bytes": 36048896
+    },
+    {
+      "case_id": "M11b-B2-cora-B1-control-FP32-n256-hot-p1",
+      "status": "PASS",
+      "tiles": 455,
+      "calls": 7280,
+      "span": 2708,
+      "selected_rows": 2708,
+      "hot_unique_bytes": 36048896
+    },
+    {
+      "case_id": "M11b-B2-cora-B1-control-FP32-n256-hot-p2",
+      "status": "PASS",
+      "tiles": 455,
+      "calls": 103648,
+      "span": 2708,
+      "selected_rows": 2708,
+      "hot_unique_bytes": 36048896
+    }
+  ]
+}

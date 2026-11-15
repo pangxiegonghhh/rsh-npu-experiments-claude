@@ -1,0 +1,8 @@
+{
+  "status": "SEALED",
+  "archive": "m11-evidence-complete.tar.gz",
+  "bytes": 518508328,
+  "sha256": "0278def60a7771753a6d7921418434a7794e77ff7c03581dc098be040a3694a9",
+  "files": 204632,
+  "formal_rc": "0"
+}

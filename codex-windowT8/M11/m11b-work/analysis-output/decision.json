@@ -1,0 +1,8 @@
+{
+  "B1_device": "CANCELLED_EXISTING_RANDOM",
+  "B2_decision": "\u4e0d\u53ef\u4e92\u63a8\uff1b\u5408\u6210\u7f51\u683c\u4ec5\u4f5c\u673a\u5236\u63a2\u67e5\uff0c\u4e0d\u53ef\u7528\u4e8e\u9884\u6d4b\u771f\u5b9e\u56de\u653e\u9009\u8def",
+  "within_15pct_cells": 0,
+  "over_30pct_cells": 4,
+  "B3_delta": "NOT_ESTIMABLE",
+  "B3_reason": "plain-only not equivalent; no supported direct L0B explicit vector transpose"
+}

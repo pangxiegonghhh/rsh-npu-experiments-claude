@@ -1,0 +1,941 @@
+{
+  "status": "PASS",
+  "cora": {
+    "B0": {
+      "windows": 170,
+      "sumU": 9583,
+      "sumR": 8565
+    },
+    "B1": {
+      "windows": 170,
+      "sumU": 6035,
+      "sumR": 2927
+    }
+  },
+  "points": [
+    {
+      "geometry": "synthetic-r1",
+      "dtype": "FP16",
+      "n": 16,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 1,
+      "calls": [
+        4,
+        64,
+        4
+      ]
+    },
+    {
+      "geometry": "synthetic-r1",
+      "dtype": "FP16",
+      "n": 128,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 1,
+      "calls": [
+        4,
+        64,
+        32
+      ]
+    },
+    {
+      "geometry": "synthetic-r1",
+      "dtype": "FP16",
+      "n": 256,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 1,
+      "calls": [
+        4,
+        64,
+        64
+      ]
+    },
+    {
+      "geometry": "synthetic-r1",
+      "dtype": "FP32",
+      "n": 16,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 1,
+      "calls": [
+        4,
+        64,
+        8
+      ]
+    },
+    {
+      "geometry": "synthetic-r1",
+      "dtype": "FP32",
+      "n": 128,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 1,
+      "calls": [
+        4,
+        64,
+        64
+      ]
+    },
+    {
+      "geometry": "synthetic-r1",
+      "dtype": "FP32",
+      "n": 256,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 1,
+      "calls": [
+        4,
+        64,
+        128
+      ]
+    },
+    {
+      "geometry": "synthetic-r4",
+      "dtype": "FP16",
+      "n": 16,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 4,
+      "calls": [
+        4,
+        64,
+        4
+      ]
+    },
+    {
+      "geometry": "synthetic-r4",
+      "dtype": "FP16",
+      "n": 128,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 4,
+      "calls": [
+        4,
+        64,
+        32
+      ]
+    },
+    {
+      "geometry": "synthetic-r4",
+      "dtype": "FP16",
+      "n": 256,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 4,
+      "calls": [
+        4,
+        64,
+        64
+      ]
+    },
+    {
+      "geometry": "synthetic-r4",
+      "dtype": "FP32",
+      "n": 16,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 4,
+      "calls": [
+        4,
+        64,
+        8
+      ]
+    },
+    {
+      "geometry": "synthetic-r4",
+      "dtype": "FP32",
+      "n": 128,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 4,
+      "calls": [
+        4,
+        64,
+        64
+      ]
+    },
+    {
+      "geometry": "synthetic-r4",
+      "dtype": "FP32",
+      "n": 256,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 4,
+      "calls": [
+        4,
+        64,
+        128
+      ]
+    },
+    {
+      "geometry": "synthetic-r16",
+      "dtype": "FP16",
+      "n": 16,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 16,
+      "calls": [
+        8,
+        64,
+        16
+      ]
+    },
+    {
+      "geometry": "synthetic-r16",
+      "dtype": "FP16",
+      "n": 128,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 16,
+      "calls": [
+        8,
+        64,
+        128
+      ]
+    },
+    {
+      "geometry": "synthetic-r16",
+      "dtype": "FP16",
+      "n": 256,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 16,
+      "calls": [
+        8,
+        64,
+        256
+      ]
+    },
+    {
+      "geometry": "synthetic-r16",
+      "dtype": "FP32",
+      "n": 16,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 16,
+      "calls": [
+        8,
+        64,
+        32
+      ]
+    },
+    {
+      "geometry": "synthetic-r16",
+      "dtype": "FP32",
+      "n": 128,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 16,
+      "calls": [
+        8,
+        64,
+        256
+      ]
+    },
+    {
+      "geometry": "synthetic-r16",
+      "dtype": "FP32",
+      "n": 256,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 16,
+      "calls": [
+        8,
+        64,
+        512
+      ]
+    },
+    {
+      "geometry": "synthetic-r64",
+      "dtype": "FP16",
+      "n": 16,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 64,
+      "calls": [
+        21,
+        64,
+        64
+      ]
+    },
+    {
+      "geometry": "synthetic-r64",
+      "dtype": "FP16",
+      "n": 128,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 64,
+      "calls": [
+        21,
+        64,
+        512
+      ]
+    },
+    {
+      "geometry": "synthetic-r64",
+      "dtype": "FP16",
+      "n": 256,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 64,
+      "calls": [
+        21,
+        64,
+        1024
+      ]
+    },
+    {
+      "geometry": "synthetic-r64",
+      "dtype": "FP32",
+      "n": 16,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 64,
+      "calls": [
+        21,
+        64,
+        128
+      ]
+    },
+    {
+      "geometry": "synthetic-r64",
+      "dtype": "FP32",
+      "n": 128,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 64,
+      "calls": [
+        21,
+        64,
+        1024
+      ]
+    },
+    {
+      "geometry": "synthetic-r64",
+      "dtype": "FP32",
+      "n": 256,
+      "tiles": 4,
+      "window_count": 1,
+      "sumU": 64,
+      "originalR": 64,
+      "calls": [
+        21,
+        64,
+        2048
+      ]
+    },
+    {
+      "geometry": "cora-B0",
+      "dtype": "FP16",
+      "n": 16,
+      "tiles": 681,
+      "window_count": 170,
+      "sumU": 9583,
+      "originalR": 8565,
+      "calls": [
+        4944,
+        10896,
+        8782
+      ]
+    },
+    {
+      "geometry": "cora-B0",
+      "dtype": "FP16",
+      "n": 128,
+      "tiles": 681,
+      "window_count": 170,
+      "sumU": 9583,
+      "originalR": 8565,
+      "calls": [
+        4947,
+        10896,
+        70256
+      ]
+    },
+    {
+      "geometry": "cora-B0",
+      "dtype": "FP16",
+      "n": 256,
+      "tiles": 681,
+      "window_count": 170,
+      "sumU": 9583,
+      "originalR": 8565,
+      "calls": [
+        4969,
+        10896,
+        140512
+      ]
+    },
+    {
+      "geometry": "cora-B0",
+      "dtype": "FP32",
+      "n": 16,
+      "tiles": 681,
+      "window_count": 170,
+      "sumU": 9583,
+      "originalR": 8565,
+      "calls": [
+        4944,
+        10896,
+        17564
+      ]
+    },
+    {
+      "geometry": "cora-B0",
+      "dtype": "FP32",
+      "n": 128,
+      "tiles": 681,
+      "window_count": 170,
+      "sumU": 9583,
+      "originalR": 8565,
+      "calls": [
+        4947,
+        10896,
+        140512
+      ]
+    },
+    {
+      "geometry": "cora-B0",
+      "dtype": "FP32",
+      "n": 256,
+      "tiles": 681,
+      "window_count": 170,
+      "sumU": 9583,
+      "originalR": 8565,
+      "calls": [
+        4969,
+        10896,
+        281024
+      ]
+    },
+    {
+      "geometry": "cora-B1",
+      "dtype": "FP16",
+      "n": 16,
+      "tiles": 455,
+      "window_count": 170,
+      "sumU": 6035,
+      "originalR": 2927,
+      "calls": [
+        2442,
+        7280,
+        3239
+      ]
+    },
+    {
+      "geometry": "cora-B1",
+      "dtype": "FP16",
+      "n": 128,
+      "tiles": 455,
+      "window_count": 170,
+      "sumU": 6035,
+      "originalR": 2927,
+      "calls": [
+        2481,
+        7280,
+        25912
+      ]
+    },
+    {
+      "geometry": "cora-B1",
+      "dtype": "FP16",
+      "n": 256,
+      "tiles": 455,
+      "window_count": 170,
+      "sumU": 6035,
+      "originalR": 2927,
+      "calls": [
+        2521,
+        7280,
+        51824
+      ]
+    },
+    {
+      "geometry": "cora-B1",
+      "dtype": "FP32",
+      "n": 16,
+      "tiles": 455,
+      "window_count": 170,
+      "sumU": 6035,
+      "originalR": 2927,
+      "calls": [
+        2442,
+        7280,
+        6478
+      ]
+    },
+    {
+      "geometry": "cora-B1",
+      "dtype": "FP32",
+      "n": 128,
+      "tiles": 455,
+      "window_count": 170,
+      "sumU": 6035,
+      "originalR": 2927,
+      "calls": [
+        2481,
+        7280,
+        51824
+      ]
+    },
+    {
+      "geometry": "cora-B1",
+      "dtype": "FP32",
+      "n": 256,
+      "tiles": 455,
+      "window_count": 170,
+      "sumU": 6035,
+      "originalR": 2927,
+      "calls": [
+        2521,
+        7280,
+        103648
+      ]
+    },
+    {
+      "geometry": "gate-h1",
+      "dtype": "FP16",
+      "n": 16,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 2,
+      "originalR": 2,
+      "calls": [
+        2,
+        16,
+        3
+      ]
+    },
+    {
+      "geometry": "gate-h1",
+      "dtype": "FP16",
+      "n": 128,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 2,
+      "originalR": 2,
+      "calls": [
+        2,
+        16,
+        24
+      ]
+    },
+    {
+      "geometry": "gate-h1",
+      "dtype": "FP16",
+      "n": 256,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 2,
+      "originalR": 2,
+      "calls": [
+        2,
+        16,
+        48
+      ]
+    },
+    {
+      "geometry": "gate-h1",
+      "dtype": "FP32",
+      "n": 16,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 2,
+      "originalR": 2,
+      "calls": [
+        2,
+        16,
+        6
+      ]
+    },
+    {
+      "geometry": "gate-h1",
+      "dtype": "FP32",
+      "n": 128,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 2,
+      "originalR": 2,
+      "calls": [
+        2,
+        16,
+        48
+      ]
+    },
+    {
+      "geometry": "gate-h1",
+      "dtype": "FP32",
+      "n": 256,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 2,
+      "originalR": 2,
+      "calls": [
+        2,
+        16,
+        96
+      ]
+    },
+    {
+      "geometry": "gate-h4",
+      "dtype": "FP16",
+      "n": 16,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 8,
+      "originalR": 2,
+      "calls": [
+        2,
+        16,
+        3
+      ]
+    },
+    {
+      "geometry": "gate-h4",
+      "dtype": "FP16",
+      "n": 128,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 8,
+      "originalR": 2,
+      "calls": [
+        2,
+        16,
+        24
+      ]
+    },
+    {
+      "geometry": "gate-h4",
+      "dtype": "FP16",
+      "n": 256,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 8,
+      "originalR": 2,
+      "calls": [
+        2,
+        16,
+        48
+      ]
+    },
+    {
+      "geometry": "gate-h4",
+      "dtype": "FP32",
+      "n": 16,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 8,
+      "originalR": 2,
+      "calls": [
+        2,
+        16,
+        6
+      ]
+    },
+    {
+      "geometry": "gate-h4",
+      "dtype": "FP32",
+      "n": 128,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 8,
+      "originalR": 2,
+      "calls": [
+        2,
+        16,
+        48
+      ]
+    },
+    {
+      "geometry": "gate-h4",
+      "dtype": "FP32",
+      "n": 256,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 8,
+      "originalR": 2,
+      "calls": [
+        2,
+        16,
+        96
+      ]
+    },
+    {
+      "geometry": "gate-h16",
+      "dtype": "FP16",
+      "n": 16,
+      "tiles": 2,
+      "window_count": 1,
+      "sumU": 32,
+      "originalR": 2,
+      "calls": [
+        2,
+        32,
+        2
+      ]
+    },
+    {
+      "geometry": "gate-h16",
+      "dtype": "FP16",
+      "n": 128,
+      "tiles": 2,
+      "window_count": 1,
+      "sumU": 32,
+      "originalR": 2,
+      "calls": [
+        2,
+        32,
+        16
+      ]
+    },
+    {
+      "geometry": "gate-h16",
+      "dtype": "FP16",
+      "n": 256,
+      "tiles": 2,
+      "window_count": 1,
+      "sumU": 32,
+      "originalR": 2,
+      "calls": [
+        2,
+        32,
+        32
+      ]
+    },
+    {
+      "geometry": "gate-h16",
+      "dtype": "FP32",
+      "n": 16,
+      "tiles": 2,
+      "window_count": 1,
+      "sumU": 32,
+      "originalR": 2,
+      "calls": [
+        2,
+        32,
+        4
+      ]
+    },
+    {
+      "geometry": "gate-h16",
+      "dtype": "FP32",
+      "n": 128,
+      "tiles": 2,
+      "window_count": 1,
+      "sumU": 32,
+      "originalR": 2,
+      "calls": [
+        2,
+        32,
+        32
+      ]
+    },
+    {
+      "geometry": "gate-h16",
+      "dtype": "FP32",
+      "n": 256,
+      "tiles": 2,
+      "window_count": 1,
+      "sumU": 32,
+      "originalR": 2,
+      "calls": [
+        2,
+        32,
+        64
+      ]
+    },
+    {
+      "geometry": "gate-tail",
+      "dtype": "FP16",
+      "n": 16,
+      "tiles": 3,
+      "window_count": 2,
+      "sumU": 22,
+      "originalR": 4,
+      "calls": [
+        6,
+        48,
+        7
+      ]
+    },
+    {
+      "geometry": "gate-tail",
+      "dtype": "FP16",
+      "n": 128,
+      "tiles": 3,
+      "window_count": 2,
+      "sumU": 22,
+      "originalR": 4,
+      "calls": [
+        6,
+        48,
+        56
+      ]
+    },
+    {
+      "geometry": "gate-tail",
+      "dtype": "FP16",
+      "n": 256,
+      "tiles": 3,
+      "window_count": 2,
+      "sumU": 22,
+      "originalR": 4,
+      "calls": [
+        6,
+        48,
+        112
+      ]
+    },
+    {
+      "geometry": "gate-tail",
+      "dtype": "FP32",
+      "n": 16,
+      "tiles": 3,
+      "window_count": 2,
+      "sumU": 22,
+      "originalR": 4,
+      "calls": [
+        6,
+        48,
+        14
+      ]
+    },
+    {
+      "geometry": "gate-tail",
+      "dtype": "FP32",
+      "n": 128,
+      "tiles": 3,
+      "window_count": 2,
+      "sumU": 22,
+      "originalR": 4,
+      "calls": [
+        6,
+        48,
+        112
+      ]
+    },
+    {
+      "geometry": "gate-tail",
+      "dtype": "FP32",
+      "n": 256,
+      "tiles": 3,
+      "window_count": 2,
+      "sumU": 22,
+      "originalR": 4,
+      "calls": [
+        6,
+        48,
+        224
+      ]
+    },
+    {
+      "geometry": "gate-stride",
+      "dtype": "FP16",
+      "n": 16,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 16,
+      "originalR": 4,
+      "calls": [
+        3,
+        16,
+        4
+      ]
+    },
+    {
+      "geometry": "gate-stride",
+      "dtype": "FP16",
+      "n": 128,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 16,
+      "originalR": 4,
+      "calls": [
+        4,
+        16,
+        32
+      ]
+    },
+    {
+      "geometry": "gate-stride",
+      "dtype": "FP16",
+      "n": 256,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 16,
+      "originalR": 4,
+      "calls": [
+        4,
+        16,
+        64
+      ]
+    },
+    {
+      "geometry": "gate-stride",
+      "dtype": "FP32",
+      "n": 16,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 16,
+      "originalR": 4,
+      "calls": [
+        3,
+        16,
+        8
+      ]
+    },
+    {
+      "geometry": "gate-stride",
+      "dtype": "FP32",
+      "n": 128,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 16,
+      "originalR": 4,
+      "calls": [
+        4,
+        16,
+        64
+      ]
+    },
+    {
+      "geometry": "gate-stride",
+      "dtype": "FP32",
+      "n": 256,
+      "tiles": 1,
+      "window_count": 1,
+      "sumU": 16,
+      "originalR": 4,
+      "calls": [
+        4,
+        16,
+        128
+      ]
+    }
+  ]
+}

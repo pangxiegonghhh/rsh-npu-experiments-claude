@@ -1,0 +1,101 @@
+case_id,variant,status,failure,output_saved,output_sha256,process_returncode
+M11b-B3-transpose-FP16-n16-h1,transpose,PASS,,True,7d73fa04b289eb13c7217b03996bf305db6ff2f4ba2214941620010addcc3a80,0
+M11b-B3-transpose-FP16-n16-h2,transpose,PASS,,True,813599f1119adc4706236ac4167e03df875e87d8e4063bfdc382adb7c40a53fb,0
+M11b-B3-transpose-FP16-n16-h4,transpose,PASS,,True,879982d8c29e869c2c4ac0a2bfb793c509450bd65898f3f648334b5265b99935,0
+M11b-B3-transpose-FP16-n16-h8,transpose,PASS,,True,f15e50d98f5604494f185b1d186feb809c49f2903e18ef63ffcc5407fc458de0,0
+M11b-B3-transpose-FP16-n16-h16,transpose,PASS,,True,ecea6878e2c2e17d71f4f85877ca74b8d74c378418633fedcd0796df50592b36,0
+M11b-B3-transpose-FP16-n32-h1,transpose,PASS,,True,494b8c14c852321092e639a3f8e1ad612747b76935d13a4937bac597abc26d91,0
+M11b-B3-transpose-FP16-n32-h2,transpose,PASS,,True,de6a4b85267d9849adc5b824afab312568707982819ec16dd3f36eb83bd4ad0b,0
+M11b-B3-transpose-FP16-n32-h4,transpose,PASS,,True,b0808799936d8be4a46559be764f6f41a6e8c224246e0fbb552583a039049685,0
+M11b-B3-transpose-FP16-n32-h8,transpose,PASS,,True,6720d01a22894b7ddc43a8557e3c2865f5f84a6c94cf7ae39f5a42b0afbec0b3,0
+M11b-B3-transpose-FP16-n32-h16,transpose,PASS,,True,2cfe7c10000bd721881acf614ef389d2a68c8e8c1b575b453cb2de130fcc885d,0
+M11b-B3-transpose-FP16-n64-h1,transpose,PASS,,True,fee18e6eb4a1802f256c64fb25ac5388362746a07d35ed1863aba45ddd7cd7fb,0
+M11b-B3-transpose-FP16-n64-h2,transpose,PASS,,True,9e5e80c238b3b7e7d6224f9c5629fadefc0be44feb3afe140ca977502ba0c9d3,0
+M11b-B3-transpose-FP16-n64-h4,transpose,PASS,,True,119ddd6a27cb0f0800f86e8a7dde5d33a3b59ac8d0d9d17552390cc0144436ef,0
+M11b-B3-transpose-FP16-n64-h8,transpose,PASS,,True,d2b55b9bbbfc846867481a48d11506ab310431d5ff7eb6a0a448382bf5a251e6,0
+M11b-B3-transpose-FP16-n64-h16,transpose,PASS,,True,2612762735eb410acfd8489b3e6ccc5944cc29375fb048a50283884fc4a59c57,0
+M11b-B3-transpose-FP16-n128-h1,transpose,PASS,,True,7e384617569826d2f5fcd90a7352501a4632ac38381f68af6beaa9c3031f30a3,0
+M11b-B3-transpose-FP16-n128-h2,transpose,PASS,,True,423ce500393f5b0d8edad2d967f029b37ae19813475bb3b7aab6d0030cb21015,0
+M11b-B3-transpose-FP16-n128-h4,transpose,PASS,,True,45df08162f8909391a762dbda7b8a47c889956a719c11dd2429cd066a2ebbc31,0
+M11b-B3-transpose-FP16-n128-h8,transpose,PASS,,True,685d914682ef1119145429cf83b3fa7b790db421aeb02fb481f7b53ba13320ff,0
+M11b-B3-transpose-FP16-n128-h16,transpose,PASS,,True,95ed30eeabb552ac6833c08be6427e5fe745e4e886c55d05735d669d49299b9d,0
+M11b-B3-transpose-FP16-n256-h1,transpose,PASS,,True,15a848d90aeb2ffb6f3f94c59a96b3304f8d12db22575f00c554e98923c9f498,0
+M11b-B3-transpose-FP16-n256-h2,transpose,PASS,,True,a26e571277f64ad4b74f9bb158bc60cd76a987233bf0526d2be3f77a2fe24808,0
+M11b-B3-transpose-FP16-n256-h4,transpose,PASS,,True,27a17e1378c930356d5f19c75173051a63c62e80c9f41897fc2b5f4a50691c5c,0
+M11b-B3-transpose-FP16-n256-h8,transpose,PASS,,True,fec1debc56a45416479af8b996c3fc13356b6d39e10b169514ccb7e23559f72b,0
+M11b-B3-transpose-FP16-n256-h16,transpose,PASS,,True,7abbadc7c0c810fcaf6f99c7296d68a6bef211cbd46d093f10dd10ced51d3c7b,0
+M11b-B3-transpose-FP32-n16-h1,transpose,PASS,,True,7d73fa04b289eb13c7217b03996bf305db6ff2f4ba2214941620010addcc3a80,0
+M11b-B3-transpose-FP32-n16-h2,transpose,PASS,,True,813599f1119adc4706236ac4167e03df875e87d8e4063bfdc382adb7c40a53fb,0
+M11b-B3-transpose-FP32-n16-h4,transpose,PASS,,True,879982d8c29e869c2c4ac0a2bfb793c509450bd65898f3f648334b5265b99935,0
+M11b-B3-transpose-FP32-n16-h8,transpose,PASS,,True,f15e50d98f5604494f185b1d186feb809c49f2903e18ef63ffcc5407fc458de0,0
+M11b-B3-transpose-FP32-n16-h16,transpose,PASS,,True,ecea6878e2c2e17d71f4f85877ca74b8d74c378418633fedcd0796df50592b36,0
+M11b-B3-transpose-FP32-n32-h1,transpose,PASS,,True,494b8c14c852321092e639a3f8e1ad612747b76935d13a4937bac597abc26d91,0
+M11b-B3-transpose-FP32-n32-h2,transpose,PASS,,True,de6a4b85267d9849adc5b824afab312568707982819ec16dd3f36eb83bd4ad0b,0
+M11b-B3-transpose-FP32-n32-h4,transpose,PASS,,True,b0808799936d8be4a46559be764f6f41a6e8c224246e0fbb552583a039049685,0
+M11b-B3-transpose-FP32-n32-h8,transpose,PASS,,True,6720d01a22894b7ddc43a8557e3c2865f5f84a6c94cf7ae39f5a42b0afbec0b3,0
+M11b-B3-transpose-FP32-n32-h16,transpose,PASS,,True,2cfe7c10000bd721881acf614ef389d2a68c8e8c1b575b453cb2de130fcc885d,0
+M11b-B3-transpose-FP32-n64-h1,transpose,PASS,,True,fee18e6eb4a1802f256c64fb25ac5388362746a07d35ed1863aba45ddd7cd7fb,0
+M11b-B3-transpose-FP32-n64-h2,transpose,PASS,,True,9e5e80c238b3b7e7d6224f9c5629fadefc0be44feb3afe140ca977502ba0c9d3,0
+M11b-B3-transpose-FP32-n64-h4,transpose,PASS,,True,119ddd6a27cb0f0800f86e8a7dde5d33a3b59ac8d0d9d17552390cc0144436ef,0
+M11b-B3-transpose-FP32-n64-h8,transpose,PASS,,True,d2b55b9bbbfc846867481a48d11506ab310431d5ff7eb6a0a448382bf5a251e6,0
+M11b-B3-transpose-FP32-n64-h16,transpose,PASS,,True,2612762735eb410acfd8489b3e6ccc5944cc29375fb048a50283884fc4a59c57,0
+M11b-B3-transpose-FP32-n128-h1,transpose,PASS,,True,7e384617569826d2f5fcd90a7352501a4632ac38381f68af6beaa9c3031f30a3,0
+M11b-B3-transpose-FP32-n128-h2,transpose,PASS,,True,423ce500393f5b0d8edad2d967f029b37ae19813475bb3b7aab6d0030cb21015,0
+M11b-B3-transpose-FP32-n128-h4,transpose,PASS,,True,45df08162f8909391a762dbda7b8a47c889956a719c11dd2429cd066a2ebbc31,0
+M11b-B3-transpose-FP32-n128-h8,transpose,PASS,,True,685d914682ef1119145429cf83b3fa7b790db421aeb02fb481f7b53ba13320ff,0
+M11b-B3-transpose-FP32-n128-h16,transpose,PASS,,True,95ed30eeabb552ac6833c08be6427e5fe745e4e886c55d05735d669d49299b9d,0
+M11b-B3-transpose-FP32-n256-h1,transpose,PASS,,True,15a848d90aeb2ffb6f3f94c59a96b3304f8d12db22575f00c554e98923c9f498,0
+M11b-B3-transpose-FP32-n256-h2,transpose,PASS,,True,a26e571277f64ad4b74f9bb158bc60cd76a987233bf0526d2be3f77a2fe24808,0
+M11b-B3-transpose-FP32-n256-h4,transpose,PASS,,True,27a17e1378c930356d5f19c75173051a63c62e80c9f41897fc2b5f4a50691c5c,0
+M11b-B3-transpose-FP32-n256-h8,transpose,PASS,,True,fec1debc56a45416479af8b996c3fc13356b6d39e10b169514ccb7e23559f72b,0
+M11b-B3-transpose-FP32-n256-h16,transpose,PASS,,True,7abbadc7c0c810fcaf6f99c7296d68a6bef211cbd46d093f10dd10ced51d3c7b,0
+M11b-B3-plain-only-FP16-n16-h1,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,a83c54c44595e8dac576ed9b59686470fbc07a746a00bc8211451c40fe3a2eb6,1
+M11b-B3-plain-only-FP16-n16-h2,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,228f4d7ae48f2b57144cc272e5e1f4e19ad49f056d90c9ebf9b765cb8d2a0578,1
+M11b-B3-plain-only-FP16-n16-h4,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,67418e514fb2238676012009060301d26ae81098a854307b18591b5c42fd4b6e,1
+M11b-B3-plain-only-FP16-n16-h8,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,941e3dbe24fbacf7ff431ff41f2d02b3bc9e235d93ab919e1a5eb6fb8a6bf5b5,1
+M11b-B3-plain-only-FP16-n16-h16,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=1793.000000,True,820fe0c20a18d57140645a0ef38e648a7a95a1fa5d89afa86256f7a7745f367d,1
+M11b-B3-plain-only-FP16-n32-h1,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,57b46eabc259e415731f77220368ade3169907ce6bdb709c074be151900cedd2,1
+M11b-B3-plain-only-FP16-n32-h2,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,8f651d5a653e2ecdeace71ea762badac432d182805e14c0e695e95718d8db320,1
+M11b-B3-plain-only-FP16-n32-h4,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,98e84717b76ec7374f944887099015722b35259c9ed9694d868044c25345538b,1
+M11b-B3-plain-only-FP16-n32-h8,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,7c183f10353961c16c76e8182dc993b4b449d6cc70dd4ae23505f2cf690b6285,1
+M11b-B3-plain-only-FP16-n32-h16,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=1793.000000,True,7e6434859b5815810c096b48d3b0d41612895fb0249309a918139642df4b36c8,1
+M11b-B3-plain-only-FP16-n64-h1,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,3044387774b23da79e4ec9a260e5f0f5495500a2c4f8bb0b9482019afccd6982,1
+M11b-B3-plain-only-FP16-n64-h2,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,ff46af6fcd1e394a5eadb69fd5ce422fa5874f268d8fb71542d5ad88b5d31e4a,1
+M11b-B3-plain-only-FP16-n64-h4,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,ef780603d02046f456973a62e1109fe4f019398e087627d6bd372b8d26378fad,1
+M11b-B3-plain-only-FP16-n64-h8,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,8ad2310fb6e7dbfe9b9f76d0f313433a038eeeb23ae50070f047f3dca06f962a,1
+M11b-B3-plain-only-FP16-n64-h16,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=1793.000000,True,bccbafda12b6a2dd07b1b0b4d079f7800a43d3541ada519ad88c57ad10747246,1
+M11b-B3-plain-only-FP16-n128-h1,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,84c06f9b7267463c65506129d06106f132748dd858e94328e5aad1ed586b459b,1
+M11b-B3-plain-only-FP16-n128-h2,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,5c27f8e041eb6afb96dedc58cfd061ddbfe2fe3e1d6076e06ae0df5390030359,1
+M11b-B3-plain-only-FP16-n128-h4,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,c626b89f7651f8461cc9d30b558f7d00be7dea32575ac7c1997db47d689cf339,1
+M11b-B3-plain-only-FP16-n128-h8,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,eb19445415abfee5ef20033b7eeb5fe50e7f57ebeca9403e128b8dd73c7d3574,1
+M11b-B3-plain-only-FP16-n128-h16,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=1793.000000,True,d261b02c456e2f193cc1aaa791fee04b3b417539e928a57668eae38dd30f3e50,1
+M11b-B3-plain-only-FP16-n256-h1,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,506b90b808d78d28f2c81acfd9b30a619fb70fffd18ba937dd82769da24977fb,1
+M11b-B3-plain-only-FP16-n256-h2,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,20e17548489066fcc940b10ee7adaf6281a4dc5ee9d95431b9b0764041b101d5,1
+M11b-B3-plain-only-FP16-n256-h4,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,60d5c19e7fb933c9a37ce446a5fd23ff7ac363b9a5fcba736df23ae35e067d5a,1
+M11b-B3-plain-only-FP16-n256-h8,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,deb03ed50d6529e0e4ecee38b49dc48428437445b9a0c765e257e2c47eea4e32,1
+M11b-B3-plain-only-FP16-n256-h16,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=1793.000000,True,9622e572b39370aebdd6c8739208b6ebd4e76ee88a2297d841c3d1afbdc98d63,1
+M11b-B3-plain-only-FP32-n16-h1,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,a83c54c44595e8dac576ed9b59686470fbc07a746a00bc8211451c40fe3a2eb6,1
+M11b-B3-plain-only-FP32-n16-h2,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,228f4d7ae48f2b57144cc272e5e1f4e19ad49f056d90c9ebf9b765cb8d2a0578,1
+M11b-B3-plain-only-FP32-n16-h4,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,67418e514fb2238676012009060301d26ae81098a854307b18591b5c42fd4b6e,1
+M11b-B3-plain-only-FP32-n16-h8,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=0.000000,True,941e3dbe24fbacf7ff431ff41f2d02b3bc9e235d93ab919e1a5eb6fb8a6bf5b5,1
+M11b-B3-plain-only-FP32-n16-h16,plain-only,FAIL,compute mismatch index=0 got=16.000000 expected=1793.000000,True,820fe0c20a18d57140645a0ef38e648a7a95a1fa5d89afa86256f7a7745f367d,1
+M11b-B3-plain-only-FP32-n32-h1,plain-only,FAIL,compute mismatch index=0 got=24.000000 expected=0.000000,True,0cb285fe275f4446326ada9c13a8fa762b93655ba530100132ca56be106a9aa4,1
+M11b-B3-plain-only-FP32-n32-h2,plain-only,FAIL,compute mismatch index=0 got=24.000000 expected=0.000000,True,e0d71d7f47622a65485e7a313b00ffc30c38356cdc8b01e7b16d81fd41a4cfeb,1
+M11b-B3-plain-only-FP32-n32-h4,plain-only,FAIL,compute mismatch index=0 got=24.000000 expected=0.000000,True,38733badc7a0ee07a1588ed53e7e8ef3c4e6cccff48032455b3db3b507f5f731,1
+M11b-B3-plain-only-FP32-n32-h8,plain-only,FAIL,compute mismatch index=0 got=24.000000 expected=0.000000,True,e6a005298da266a43ce095868eda752d6db27d398683a6e9ae0b561990602c79,1
+M11b-B3-plain-only-FP32-n32-h16,plain-only,FAIL,compute mismatch index=0 got=24.000000 expected=1793.000000,True,6d8f6f52420f434ac2b1504cda798ebe959dd53ed13f9a0874f37aac2b0ad492,1
+M11b-B3-plain-only-FP32-n64-h1,plain-only,FAIL,compute mismatch index=0 got=40.000000 expected=0.000000,True,329b133590676a9bd61e0b151c917157119bacfd28610ec38a5ab99cbf0ac9ba,1
+M11b-B3-plain-only-FP32-n64-h2,plain-only,FAIL,compute mismatch index=0 got=40.000000 expected=0.000000,True,67c34311936599945c6e5f3b1045bfa503a0f39691a2bc0ed57a499b73371777,1
+M11b-B3-plain-only-FP32-n64-h4,plain-only,FAIL,compute mismatch index=0 got=40.000000 expected=0.000000,True,861465f58380077d7a25df5f97bd5e2af1f6a9344b38a932295fc165b47a7aa7,1
+M11b-B3-plain-only-FP32-n64-h8,plain-only,FAIL,compute mismatch index=0 got=40.000000 expected=0.000000,True,1afe8bc04fade082975e8bfc6fa8dbc42af48e2715847eadd76878fb75401bce,1
+M11b-B3-plain-only-FP32-n64-h16,plain-only,FAIL,compute mismatch index=0 got=40.000000 expected=1793.000000,True,8073e3a081e2d051ea572ad9494d70e97b0371f5c406cc758f055e60811952e5,1
+M11b-B3-plain-only-FP32-n128-h1,plain-only,FAIL,compute mismatch index=0 got=72.000000 expected=0.000000,True,dda10fed1953ad333f95ace76ca53703f4e5c63a4ef16ee4e0c8cc419ebb4380,1
+M11b-B3-plain-only-FP32-n128-h2,plain-only,FAIL,compute mismatch index=0 got=72.000000 expected=0.000000,True,c6c1422b81a1d01f04b7fdf6ccf330b4500210263c4b9870fdb6ec5ad41c6f6b,1
+M11b-B3-plain-only-FP32-n128-h4,plain-only,FAIL,compute mismatch index=0 got=72.000000 expected=0.000000,True,0284b6e5709827539d5122d4f94d6aa14aa9d3a2f5c333a9f70d40eea3cd055d,1
+M11b-B3-plain-only-FP32-n128-h8,plain-only,FAIL,compute mismatch index=0 got=72.000000 expected=0.000000,True,4ac0cd6eaacb61348031830119317ec732e75591da6cad206e7e1f1e0a7b2644,1
+M11b-B3-plain-only-FP32-n128-h16,plain-only,FAIL,compute mismatch index=0 got=72.000000 expected=1793.000000,True,4e3c2a9fab7c8f62ca1b9f02ee667024e1248fe923e5284bf9cfbb0fcda5b27d,1
+M11b-B3-plain-only-FP32-n256-h1,plain-only,FAIL,compute mismatch index=0 got=136.000000 expected=0.000000,True,630a433e59296eef68690d77428aba589b303fa860f8492e7c482b29c8d2faf4,1
+M11b-B3-plain-only-FP32-n256-h2,plain-only,FAIL,compute mismatch index=0 got=136.000000 expected=0.000000,True,42eb4ef06123d64f916b47077fdc29feb3cd55990e96ca7a42ee43230a43a00d,1
+M11b-B3-plain-only-FP32-n256-h4,plain-only,FAIL,compute mismatch index=0 got=136.000000 expected=0.000000,True,82813dabb78f94f8a4b2cea2b471d28c86338be2889765a00d2841660ff6d99a,1
+M11b-B3-plain-only-FP32-n256-h8,plain-only,FAIL,compute mismatch index=0 got=136.000000 expected=0.000000,True,c274fca21a3ae2a7480a05470dde56353e5858a58d7d9d4db11a1718cdb47a8f,1
+M11b-B3-plain-only-FP32-n256-h16,plain-only,FAIL,compute mismatch index=0 got=136.000000 expected=1793.000000,True,323d6d42d1305e207e1fdb4e5f01bdc78f41d830957f2b97f51689286f23a7a1,1

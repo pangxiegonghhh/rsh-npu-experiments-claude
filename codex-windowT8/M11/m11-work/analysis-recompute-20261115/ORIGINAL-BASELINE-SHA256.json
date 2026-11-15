@@ -1,0 +1,23 @@
+{
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/m11-evidence-complete.tar.gz": "0278def60a7771753a6d7921418434a7794e77ff7c03581dc098be040a3694a9",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/2026-11-15--t8--r11--ordinary-copy-ablation.md": "55e7d14585e1a67a26b1894963c8f5f5cf0413aca1294f7387eaddbc511ccb46",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/paired-contrasts.json": "d8a29b6cbac4a00a878472514d950f498d4401f50b681cb2e259f0ff0d78e269",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/stage3-summary.csv": "fee4464c2dc1f6dc18cb255c253012c24934b7a348ed4c3c8bd72ebf752dba20",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/stage3-raw-observations.json": "d0a1feec10c0790fedb595487c62c4e5aa1baa7433a183aa933d16cb1d11d38f",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/micro-fits.json": "91e66c611cfdcb08d356aff36fdeabbe4636c82d81e233e328dec627c1ed9618",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/A-chain-paired-contrasts.json": "d7bdc0c785fcf31f5086924d780969e001eb31366950b8e9077cb1a089cdf329",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/R-sensitivity.json": "371e1f3750405430e2a3dd43ef1f6dc5c1b19059ba6e966a4189837cad49854c",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/figure-catalog.md": "3f90465838df7cd2a06d02d4c06fda633d680e3a8b8f042d0f5cdd3af44336e5",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/micro-per-block-fits.json": "fddd68bd9858882f8c53ab2b6cda2b214521b45657878fc8dd39543b48976d73",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/micro-mean-curve-quality.json": "8d6da3fe237fd7a31aa857e40f44c8059fe85cb8d2d6f8233f4269340ed47e4c",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/reordering-ratios.json": "ecced3fdfc7180c6171c8f4c4ef6dace3a5ca3439a5ba3e7fdc0d77c16f61a70",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/analysis-report.md": "fec3f151036bc1c0622672ada0e5ccf154d77e4e142433f5bc78070c0b5ee525",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/stats-appendix.md": "e7ff5b093afdbf39db7501b1c663d4af88eb764dc289fc0a473c54b55b08197e",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/decision.json": "76d8c7e81cf3252a4fd6c4c497daf2b910dd9bd16adc1ce44dd0fed355bc5aa0",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/figures/figure-01-main-comparison.png": "2cf74e6a90792b17f46327073e76dec078a2af1bcf57ea89da8b31aafe6c144b",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/figures/figure-03-R-sensitivity.pdf": "8c87987e7e9ca354635c770a3d8c1b60825b17a74219df5bfb8c678b5db78301",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/figures/figure-01-main-comparison.pdf": "5efb64967ad8244e1e4636887ae9334af8a87f469aa79ac68b966e08bb8fe91d",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/figures/figure-03-R-sensitivity.png": "01d08d471ff3e36bd0bc099c9fc24b7cdd619d8c09832c32ee6e71612e4854ba",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/figures/figure-02-reordering.pdf": "a735eb8779781c927be3e7fa371f520530904ccae178f376da6357075769679c",
+  "/Users/Zhuanz/ClaudeCode/rsh-npu-experiments-claude/m11-execution/m11-work/recovered-evidence/analysis-output/figures/figure-02-reordering.png": "0828a39ff5aa8ca13d595f79982ec6c1ff2b7216fd3c0a78f65f70c965eba50c"
+}

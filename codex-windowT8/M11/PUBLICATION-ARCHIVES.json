@@ -1,0 +1,32 @@
+[
+  {
+    "run": "m11-work",
+    "published_archive": "published-evidence.tar.gz",
+    "published_bytes": 17002563,
+    "published_sha256": "c4b9863956d4ee3dd743828a22001a83500911771d8cd1e4c717cf1737718e6c",
+    "published_files": 108907,
+    "original_full_archive": {
+      "status": "SEALED",
+      "archive": "m11-evidence-complete.tar.gz",
+      "bytes": 518508328,
+      "sha256": "0278def60a7771753a6d7921418434a7794e77ff7c03581dc098be040a3694a9",
+      "files": 204632,
+      "formal_rc": "0"
+    }
+  },
+  {
+    "run": "m11b-work",
+    "published_archive": "published-evidence.tar.gz",
+    "published_bytes": 56461872,
+    "published_sha256": "42002b3cc14937c82de8b12e1c03dec9af42e5981721ba0a224508b25d40542b",
+    "published_files": 5947,
+    "original_full_archive": {
+      "status": "SEALED",
+      "archive": "m11b-evidence-complete.tar.gz",
+      "bytes": 72655915,
+      "sha256": "d86c6a02336dc3b3f93a886b0cdcd6db5fcf34ff580ffb3fecdc1f6654839e87",
+      "files": 10091,
+      "formal_rc": 0
+    }
+  }
+]

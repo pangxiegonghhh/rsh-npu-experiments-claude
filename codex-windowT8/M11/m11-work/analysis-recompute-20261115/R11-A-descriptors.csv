@@ -1,0 +1,5 @@
+dtype,mode,API,blockCount,blockLen,srcStride,dstStride,ndNum,nValue,dValue,srcDValue,dstNzC0Stride,dstNzNStride,copy_calls,payload_bytes,load_repeat,load_srcStride,load_dstGap
+FP16,1,ND2NZ,NA,NA,NA,NA,1,16,16,16,16,1,1,512,1,1,0
+FP16,2,DataCopy(length=256),length overload,16 blocks equivalent,0,0,NA,NA,NA,NA,NA,NA,1,512,1,1,0
+FP32,1,ND2NZ,NA,NA,NA,NA,1,16,16,16,16,1,1,1024,1,1,1
+FP32,2,"DataCopy twice: dst0/src0, dst128/src8 floats",16,1,1,0,NA,NA,NA,NA,NA,NA,2,1024,1,1,1

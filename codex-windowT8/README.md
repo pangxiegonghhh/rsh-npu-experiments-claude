@@ -7,7 +7,7 @@ codex-windowT8/
 ├── M4/       段数、精度与流水耗时；主实验、Cora回放及统计
 ├── M5/       ND/ND2NZ跨段搬运；合法合并与单段对照
 ├── M8/       直接读B与AIV打包；20轮设备测量及结果
-├── M11/      普通拷贝替代ND2NZ；用户方案与接管提示词
+├── M11/      普通拷贝替代ND2NZ；已完成、R1–R12重算与M11b补测
 ├── shared/   项目背景、共同CPU输入、联合报告、历史复核记录
 ├── run_cpu_checks.py
 ├── verify_bundle.py
@@ -20,10 +20,10 @@ codex-windowT8/
 |M4|[M4/README.md](M4/README.md)|设备数据已完成；模型迁移验收未通过，不能把拟合系数当通用固定指令开销|
 |M5|[M5/README.md](M5/README.md)|设备数据及补测已完成；收益范围为单核热数据搬运微基准|
 |M8|[M8/README.md](M8/README.md)|20/20轮完成，16,800条有效记录；原实例已关机|
-|M11|[M11/START-M11.md](M11/START-M11.md)|待接管；本包没有已完成的M11内核或设备结果|
+|M11|[M11/README.md](M11/README.md)|45,920条原计时、R1–R12重算与1,680条独立M11b补测已完成；最终主判读与限定见入口|
 |共享资料|[shared/README.md](shared/README.md)|背景、B0/B1独立CPU参考、M4/M5联合报告|
 
-M11接管agent先读[完整提示词](M11/START-M11.md)，再按其中顺序读用户原稿、背景、既有证据和上游源码。提示词内资料路径均以本目录为基准。
+M11先读[任务入口](M11/README.md)与[最终判读](M11/结论与判读-20261116.md)。原接管提示词和用户方案作为历史资料保留；其设备状态以完成记录为准。
 
 ## 获取与验证
 
@@ -65,6 +65,6 @@ python3 run_cpu_checks.py --out audit-output
 python3 M11/fetch_upstream_sources.py --out ../m11-upstream
 ```
 
-`codex-window`由Windows agent维护。Mac agent在独立工作目录/分支中写M11代码和结果，避免覆盖本资料包或与原agent相互覆盖。
+`codex-window`按任务独立归档。M11由Mac执行后追加到既有M11目录；M4/M5/M8及共享原证据保持不变。
 
-M8原实例`OP08JZ85MYKCJKH3`（node02物理NPU5，PCI `0000:41:00.0`）已关机，不操作其实例。M11接管agent先做CPU准备，再使用自己的910B2/CANN9实例；不用卡时封存、回传并关机。M11在本次整理时仍未开始设备实验，未由本agent租第二张卡。
+用户确认M8完成后，M11复用实例`OP08JZ85MYKCJKH3`；M11的全部正式区组在物理NPU1完成，M11b重启后在物理NPU5独立完成，两组不合并、未两卡并跑同一任务。两次均已回收证据并关机，未修改M8目录。详见[M11最终记录](M11/结论与判读-20261116.md)。

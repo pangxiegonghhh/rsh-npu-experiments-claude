@@ -1,0 +1,16 @@
+{
+  "instance_id": "OP08JZ85MYKCJKH3",
+  "platform_state": "已关机",
+  "observed_via": "Moark native Chrome accessibility and screenshot",
+  "observed_utc": "2026-11-15T16:02:25.565308+00:00",
+  "cumulative_runtime_before": "8h57m",
+  "cumulative_runtime_after": "9h27m",
+  "incremental_runtime_minutes_approx": 30,
+  "rate_CNY_per_hour_previous_verified": 4,
+  "estimated_incremental_cost_CNY": 2,
+  "rate_note": "启动弹窗显示0.00可能是异步显示；按此前同实例4元/小时估算，以实际平台账单为准",
+  "NPU_processes_at_end": "none",
+  "archive_bytes": 72655915,
+  "archive_sha256": "d86c6a02336dc3b3f93a886b0cdcd6db5fcf34ff580ffb3fecdc1f6654839e87",
+  "all_evidence_local": true
+}

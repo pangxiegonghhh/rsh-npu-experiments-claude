@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "observations": 1680,
+  "core_clock_rows": 40320,
+  "sentinel_rows": 800,
+  "standard_gates": 84,
+  "strong_address_gates": 84,
+  "B3_gates": {
+    "transpose/PASS": 50,
+    "plain-only/FAIL": 50
+  },
+  "binary_executed_locally": false
+}

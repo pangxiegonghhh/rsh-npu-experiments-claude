@@ -1,0 +1,14 @@
+[
+  {
+    "dtype": "FP16",
+    "status": "PASS",
+    "ordinary_strided_calls": 1,
+    "needs_host_prepack": false
+  },
+  {
+    "dtype": "FP32",
+    "status": "PASS",
+    "ordinary_strided_calls": 2,
+    "needs_host_prepack": false
+  }
+]

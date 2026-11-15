@@ -1,0 +1,1535 @@
+{
+  "scope": "descriptive manifest field only; runtime address configs and all measured samples unchanged",
+  "corrections": [
+    {
+      "case": "synthetic-r1-FP16-n16-hot-p0",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n16-hot-p1",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n16-hot-p2",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n16-cold-p0",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n16-cold-p1",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n16-cold-p2",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n128-hot-p0",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n128-hot-p1",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n128-hot-p2",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n128-cold-p0",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n128-cold-p1",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n128-cold-p2",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n256-hot-p0",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n256-hot-p1",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n256-hot-p2",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n256-cold-p0",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n256-cold-p1",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP16-n256-cold-p2",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n16-hot-p0",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n16-hot-p1",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n16-hot-p2",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n16-cold-p0",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n16-cold-p1",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n16-cold-p2",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n128-hot-p0",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n128-hot-p1",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n128-hot-p2",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n128-cold-p0",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n128-cold-p1",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n128-cold-p2",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n256-hot-p0",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n256-hot-p1",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n256-hot-p2",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n256-cold-p0",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n256-cold-p1",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r1-FP32-n256-cold-p2",
+      "archived_source_span_rows": 80,
+      "actual_config_source_span_rows": 64
+    },
+    {
+      "case": "synthetic-r4-FP16-n16-hot-p0",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n16-hot-p1",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n16-hot-p2",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n16-cold-p0",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n16-cold-p1",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n16-cold-p2",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n128-hot-p0",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n128-hot-p1",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n128-hot-p2",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n128-cold-p0",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n128-cold-p1",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n128-cold-p2",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n256-hot-p0",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n256-hot-p1",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n256-hot-p2",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n256-cold-p0",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n256-cold-p1",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP16-n256-cold-p2",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n16-hot-p0",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n16-hot-p1",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n16-hot-p2",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n16-cold-p0",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n16-cold-p1",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n16-cold-p2",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n128-hot-p0",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n128-hot-p1",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n128-hot-p2",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n128-cold-p0",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n128-cold-p1",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n128-cold-p2",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n256-hot-p0",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n256-hot-p1",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n256-hot-p2",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n256-cold-p0",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n256-cold-p1",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r4-FP32-n256-cold-p2",
+      "archived_source_span_rows": 84,
+      "actual_config_source_span_rows": 68
+    },
+    {
+      "case": "synthetic-r16-FP16-n16-hot-p0",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n16-hot-p1",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n16-hot-p2",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n16-cold-p0",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n16-cold-p1",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n16-cold-p2",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n128-hot-p0",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n128-hot-p1",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n128-hot-p2",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n128-cold-p0",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n128-cold-p1",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n128-cold-p2",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n256-hot-p0",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n256-hot-p1",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n256-hot-p2",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n256-cold-p0",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n256-cold-p1",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP16-n256-cold-p2",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n16-hot-p0",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n16-hot-p1",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n16-hot-p2",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n16-cold-p0",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n16-cold-p1",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n16-cold-p2",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n128-hot-p0",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n128-hot-p1",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n128-hot-p2",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n128-cold-p0",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n128-cold-p1",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n128-cold-p2",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n256-hot-p0",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n256-hot-p1",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n256-hot-p2",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n256-cold-p0",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n256-cold-p1",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r16-FP32-n256-cold-p2",
+      "archived_source_span_rows": 103,
+      "actual_config_source_span_rows": 87
+    },
+    {
+      "case": "synthetic-r64-FP16-n16-hot-p0",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n16-hot-p1",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n16-hot-p2",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n16-cold-p0",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n16-cold-p1",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n16-cold-p2",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n128-hot-p0",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n128-hot-p1",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n128-hot-p2",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n128-cold-p0",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n128-cold-p1",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n128-cold-p2",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n256-hot-p0",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n256-hot-p1",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n256-hot-p2",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n256-cold-p0",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n256-cold-p1",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP16-n256-cold-p2",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n16-hot-p0",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n16-hot-p1",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n16-hot-p2",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n16-cold-p0",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n16-cold-p1",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n16-cold-p2",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n128-hot-p0",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n128-hot-p1",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n128-hot-p2",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n128-cold-p0",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n128-cold-p1",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n128-cold-p2",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n256-hot-p0",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n256-hot-p1",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n256-hot-p2",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n256-cold-p0",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n256-cold-p1",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "synthetic-r64-FP32-n256-cold-p2",
+      "archived_source_span_rows": 168,
+      "actual_config_source_span_rows": 152
+    },
+    {
+      "case": "cora-B0-FP16-n16-hot-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n16-hot-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n16-hot-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n16-cold-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n16-cold-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n16-cold-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n128-hot-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n128-hot-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n128-hot-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n128-cold-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n128-cold-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n128-cold-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n256-hot-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n256-hot-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n256-hot-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n256-cold-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n256-cold-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP16-n256-cold-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n16-hot-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n16-hot-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n16-hot-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n16-cold-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n16-cold-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n16-cold-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n128-hot-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n128-hot-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n128-hot-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n128-cold-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n128-cold-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n128-cold-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n256-hot-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n256-hot-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n256-hot-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n256-cold-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n256-cold-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B0-FP32-n256-cold-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n16-hot-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n16-hot-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n16-hot-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n16-cold-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n16-cold-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n16-cold-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n128-hot-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n128-hot-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n128-hot-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n128-cold-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n128-cold-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n128-cold-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n256-hot-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n256-hot-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n256-hot-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n256-cold-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n256-cold-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP16-n256-cold-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n16-hot-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n16-hot-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n16-hot-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n16-cold-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n16-cold-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n16-cold-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n128-hot-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n128-hot-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n128-hot-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n128-cold-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n128-cold-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n128-cold-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n256-hot-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n256-hot-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n256-hot-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n256-cold-p0",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n256-cold-p1",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "cora-B1-FP32-n256-cold-p2",
+      "archived_source_span_rows": 2724,
+      "actual_config_source_span_rows": 2708
+    },
+    {
+      "case": "gate-h1-FP16-n16-hot-p0",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP16-n16-hot-p1",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP16-n16-hot-p2",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP16-n128-hot-p0",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP16-n128-hot-p1",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP16-n128-hot-p2",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP16-n256-hot-p0",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP16-n256-hot-p1",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP16-n256-hot-p2",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP32-n16-hot-p0",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP32-n16-hot-p1",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP32-n16-hot-p2",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP32-n128-hot-p0",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP32-n128-hot-p1",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP32-n128-hot-p2",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP32-n256-hot-p0",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP32-n256-hot-p1",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h1-FP32-n256-hot-p2",
+      "archived_source_span_rows": 40,
+      "actual_config_source_span_rows": 24
+    },
+    {
+      "case": "gate-h4-FP16-n16-hot-p0",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP16-n16-hot-p1",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP16-n16-hot-p2",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP16-n128-hot-p0",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP16-n128-hot-p1",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP16-n128-hot-p2",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP16-n256-hot-p0",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP16-n256-hot-p1",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP16-n256-hot-p2",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP32-n16-hot-p0",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP32-n16-hot-p1",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP32-n16-hot-p2",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP32-n128-hot-p0",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP32-n128-hot-p1",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP32-n128-hot-p2",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP32-n256-hot-p0",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP32-n256-hot-p1",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h4-FP32-n256-hot-p2",
+      "archived_source_span_rows": 43,
+      "actual_config_source_span_rows": 27
+    },
+    {
+      "case": "gate-h16-FP16-n16-hot-p0",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP16-n16-hot-p1",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP16-n16-hot-p2",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP16-n128-hot-p0",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP16-n128-hot-p1",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP16-n128-hot-p2",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP16-n256-hot-p0",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP16-n256-hot-p1",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP16-n256-hot-p2",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP32-n16-hot-p0",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP32-n16-hot-p1",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP32-n16-hot-p2",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP32-n128-hot-p0",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP32-n128-hot-p1",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP32-n128-hot-p2",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP32-n256-hot-p0",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP32-n256-hot-p1",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-h16-FP32-n256-hot-p2",
+      "archived_source_span_rows": 55,
+      "actual_config_source_span_rows": 39
+    },
+    {
+      "case": "gate-tail-FP16-n16-hot-p0",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP16-n16-hot-p1",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP16-n16-hot-p2",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP16-n128-hot-p0",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP16-n128-hot-p1",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP16-n128-hot-p2",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP16-n256-hot-p0",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP16-n256-hot-p1",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP16-n256-hot-p2",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP32-n16-hot-p0",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP32-n16-hot-p1",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP32-n16-hot-p2",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP32-n128-hot-p0",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP32-n128-hot-p1",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP32-n128-hot-p2",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP32-n256-hot-p0",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP32-n256-hot-p1",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-tail-FP32-n256-hot-p2",
+      "archived_source_span_rows": 35,
+      "actual_config_source_span_rows": 19
+    },
+    {
+      "case": "gate-stride-FP16-n16-hot-p0",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP16-n16-hot-p1",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP16-n16-hot-p2",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP16-n128-hot-p0",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP16-n128-hot-p1",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP16-n128-hot-p2",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP16-n256-hot-p0",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP16-n256-hot-p1",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP16-n256-hot-p2",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP32-n16-hot-p0",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP32-n16-hot-p1",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP32-n16-hot-p2",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP32-n128-hot-p0",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP32-n128-hot-p1",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP32-n128-hot-p2",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP32-n256-hot-p0",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP32-n256-hot-p1",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    },
+    {
+      "case": "gate-stride-FP32-n256-hot-p2",
+      "archived_source_span_rows": 12307,
+      "actual_config_source_span_rows": 12291
+    }
+  ]
+}

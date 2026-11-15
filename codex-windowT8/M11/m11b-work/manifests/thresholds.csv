@@ -1,0 +1,11 @@
+item,threshold,value,source,changed
+M11b-1,nd_gap_ratio_lower_ci,1.1,B1-6,unchanged; device cancelled: existing random
+M11b-1,nd_gap_null_band,0.03,B1-6,unchanged
+M11b-1,rowpath_invariance_max,0.05,B1-6,unchanged; not a hardware-causality test
+M11b-2,synth_replay_dev_max,0.15,B2-6,unchanged
+M11b-2,synth_replay_dev_fail,0.3,B2-6,unchanged inferred threshold
+M11b-3,transpose_delta_fold_min,2.0,B3-6,unchanged; requires valid equivalence
+all,drift_max,0.05,M11 original,unchanged
+all,accepted_blocks,20,M11 original,unchanged
+all,bootstrap_draws,10000,M11 original,unchanged
+all,bootstrap_seed,20261115,M11 original,unchanged

@@ -1,0 +1,15 @@
+{
+  "instance_id": "OP08JZ85MYKCJKH3",
+  "platform_state": "已关机",
+  "observed_via": "Moark browser UI",
+  "observed_utc": "2026-11-15T11:18:17.041618+00:00",
+  "cumulative_runtime_before": "7h27m",
+  "cumulative_runtime_after": "8h57m",
+  "incremental_runtime_minutes_approx": 90,
+  "rate_CNY_per_hour": 4,
+  "estimated_incremental_cost_CNY": 6,
+  "archive_bytes": 518508328,
+  "archive_sha256": "0278def60a7771753a6d7921418434a7794e77ff7c03581dc098be040a3694a9",
+  "NPU_processes_at_end": "none",
+  "remote_retention_hours_approx": 36
+}

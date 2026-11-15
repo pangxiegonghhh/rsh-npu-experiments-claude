@@ -1,0 +1,11 @@
+--- prepare.py at device run
++++ prepare.py descriptive-field correction
+@@ -105,7 +105,7 @@
+                 put(out/(title+'.config.bin'),cfg);put(out/(title+'.commands.bin'),[v for c in cmd for v in c]);put(out/(title+'.offsets.bin'),offset)
+                 # Independent logical rows are sent to host reference; never decode DMA commands there.
+                 put(out/(title+'.rows.bin'),refs);put(out/(title+'.lengths.bin'),list(map(len,windows)))
+-                cases.append(dict(name=title,geometry=name,dtype=dtype,n=n,cache=cache,path=path,tiles=len(meta)//3,g=g,sumU=sum(map(len,windows)),source_span_rows=maxrow+16,calls=perpath[path],gate_only=name.startswith('gate')))
++                cases.append(dict(name=title,geometry=name,dtype=dtype,n=n,cache=cache,path=path,tiles=len(meta)//3,g=g,sumU=sum(map(len,windows)),source_span_rows=maxrow,calls=perpath[path],gate_only=name.startswith('gate')))
+     (ROOT/'manifest.json').write_text(json.dumps(cases,indent=2))
+     (ROOT/'cpu-address-audit.json').write_text(json.dumps(dict(status='PASS',cora={o:dict(windows=len(v),sumU=sum(map(len,v)),sumR=sum(len(pieces(w)) for w in v)) for o,v in cora.items()},points=audits),indent=2))
+     for kind,predicate in [('all',lambda c:True),('gate',lambda c:c['cache']=='hot'),('stage3',lambda c:not c['gate_only'])]:

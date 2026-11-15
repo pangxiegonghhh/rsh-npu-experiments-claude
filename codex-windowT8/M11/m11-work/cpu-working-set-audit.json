@@ -1,0 +1,1517 @@
+{
+  "status": "PASS",
+  "points": [
+    {
+      "case": "synthetic-r1-FP16-n16-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n16-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n16-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n16-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 524288,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n16-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 524288,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n16-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 524288,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n128-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 2048,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n128-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 2048,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n128-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 2048,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n128-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 65536,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n128-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 65536,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n128-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 65536,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n256-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n256-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n256-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n256-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n256-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP16-n256-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n16-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 8192,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n16-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 8192,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n16-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 8192,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n16-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 262144,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n16-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 262144,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n16-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 262144,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n128-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n128-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n128-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n128-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n128-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n128-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n256-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 512,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n256-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 512,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n256-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 512,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n256-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n256-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r1-FP32-n256-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n16-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n16-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n16-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n16-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 524288,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n16-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 524288,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n16-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 524288,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n128-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 2048,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n128-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 2048,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n128-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 2048,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n128-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 65536,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n128-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 65536,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n128-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 65536,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n256-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n256-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n256-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n256-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n256-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP16-n256-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n16-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 8192,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n16-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 8192,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n16-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 8192,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n16-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 262144,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n16-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 262144,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n16-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 262144,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n128-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n128-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n128-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n128-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n128-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n128-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n256-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 512,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n256-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 512,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n256-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 512,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n256-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n256-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r4-FP32-n256-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n16-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n16-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n16-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n16-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 524288,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n16-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 524288,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n16-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 524288,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n128-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 2048,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n128-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 2048,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n128-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 2048,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n128-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 65536,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n128-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 65536,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n128-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 65536,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n256-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n256-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n256-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n256-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n256-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP16-n256-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n16-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 8192,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n16-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 8192,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n16-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 8192,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n16-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 262144,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n16-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 262144,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n16-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 262144,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n128-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n128-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n128-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n128-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n128-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n128-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 32768,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n256-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 512,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n256-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 512,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n256-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 512,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n256-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n256-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r16-FP32-n256-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073741824,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n16-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n16-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n16-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 16384,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n16-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904202240,
+      "replicas": 441505,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n16-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904202240,
+      "replicas": 441505,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n16-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904202240,
+      "replicas": 441505,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n128-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 2048,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n128-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 2048,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n128-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 2048,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n128-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904200192,
+      "replicas": 55188,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n128-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904200192,
+      "replicas": 55188,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n128-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904200192,
+      "replicas": 55188,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n256-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n256-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n256-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n256-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904200192,
+      "replicas": 27594,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n256-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904200192,
+      "replicas": 27594,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP16-n256-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904200192,
+      "replicas": 27594,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n16-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 8192,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n16-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 8192,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n16-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 8192,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n16-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904200192,
+      "replicas": 220752,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n16-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904200192,
+      "replicas": 220752,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n16-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904200192,
+      "replicas": 220752,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n128-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n128-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n128-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 1024,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n128-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904200192,
+      "replicas": 27594,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n128-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904200192,
+      "replicas": 27594,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n128-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904200192,
+      "replicas": 27594,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n256-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 512,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n256-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 512,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n256-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33554432,
+      "replicas": 512,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n256-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904134656,
+      "replicas": 13796,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n256-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904134656,
+      "replicas": 13796,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "synthetic-r64-FP32-n256-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 904134656,
+      "replicas": 13796,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n16-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33622528,
+      "replicas": 388,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n16-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33622528,
+      "replicas": 388,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n16-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33622528,
+      "replicas": 388,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n16-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073754496,
+      "replicas": 12391,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n16-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073754496,
+      "replicas": 12391,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n16-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073754496,
+      "replicas": 12391,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n128-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33969152,
+      "replicas": 49,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n128-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33969152,
+      "replicas": 49,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n128-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33969152,
+      "replicas": 49,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n128-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073841152,
+      "replicas": 1549,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n128-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073841152,
+      "replicas": 1549,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n128-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073841152,
+      "replicas": 1549,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n256-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 34662400,
+      "replicas": 25,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n256-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 34662400,
+      "replicas": 25,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n256-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 34662400,
+      "replicas": 25,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n256-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1074534400,
+      "replicas": 775,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n256-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1074534400,
+      "replicas": 775,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP16-n256-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1074534400,
+      "replicas": 775,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n16-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33622528,
+      "replicas": 194,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n16-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33622528,
+      "replicas": 194,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n16-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33622528,
+      "replicas": 194,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n16-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073841152,
+      "replicas": 6196,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n16-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073841152,
+      "replicas": 6196,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n16-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073841152,
+      "replicas": 6196,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n128-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 34662400,
+      "replicas": 25,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n128-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 34662400,
+      "replicas": 25,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n128-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 34662400,
+      "replicas": 25,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n128-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1074534400,
+      "replicas": 775,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n128-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1074534400,
+      "replicas": 775,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n128-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1074534400,
+      "replicas": 775,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n256-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 36048896,
+      "replicas": 13,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n256-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 36048896,
+      "replicas": 13,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n256-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 36048896,
+      "replicas": 13,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n256-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1075920896,
+      "replicas": 388,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n256-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1075920896,
+      "replicas": 388,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B0-FP32-n256-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1075920896,
+      "replicas": 388,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n16-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33622528,
+      "replicas": 388,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n16-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33622528,
+      "replicas": 388,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n16-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33622528,
+      "replicas": 388,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n16-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073754496,
+      "replicas": 12391,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n16-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073754496,
+      "replicas": 12391,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n16-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073754496,
+      "replicas": 12391,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n128-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33969152,
+      "replicas": 49,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n128-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33969152,
+      "replicas": 49,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n128-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33969152,
+      "replicas": 49,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n128-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073841152,
+      "replicas": 1549,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n128-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073841152,
+      "replicas": 1549,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n128-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073841152,
+      "replicas": 1549,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n256-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 34662400,
+      "replicas": 25,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n256-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 34662400,
+      "replicas": 25,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n256-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 34662400,
+      "replicas": 25,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n256-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1074534400,
+      "replicas": 775,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n256-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1074534400,
+      "replicas": 775,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP16-n256-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1074534400,
+      "replicas": 775,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n16-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33622528,
+      "replicas": 194,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n16-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33622528,
+      "replicas": 194,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n16-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 33622528,
+      "replicas": 194,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n16-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073841152,
+      "replicas": 6196,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n16-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073841152,
+      "replicas": 6196,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n16-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1073841152,
+      "replicas": 6196,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n128-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 34662400,
+      "replicas": 25,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n128-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 34662400,
+      "replicas": 25,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n128-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 34662400,
+      "replicas": 25,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n128-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1074534400,
+      "replicas": 775,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n128-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1074534400,
+      "replicas": 775,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n128-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1074534400,
+      "replicas": 775,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n256-hot-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 36048896,
+      "replicas": 13,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n256-hot-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 36048896,
+      "replicas": 13,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n256-hot-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 36048896,
+      "replicas": 13,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n256-cold-p0",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1075920896,
+      "replicas": 388,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n256-cold-p1",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1075920896,
+      "replicas": 388,
+      "cold_requirement_pass": true
+    },
+    {
+      "case": "cora-B1-FP32-n256-cold-p2",
+      "pool_bytes": 2147483648,
+      "actual_unique_selected_bytes": 1075920896,
+      "replicas": 388,
+      "cold_requirement_pass": true
+    }
+  ]
+}
