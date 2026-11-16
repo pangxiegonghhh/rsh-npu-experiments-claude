@@ -1,3 +1,0 @@
-# Original device-side CPU preparation environment
-numpy==2.4.4
-scipy==1.17.1
